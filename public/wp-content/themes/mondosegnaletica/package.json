@@ -1,0 +1,16 @@
+{
+  "name": "mondosegnaletica-theme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mondo Segnaletica WooCommerce custom theme build",
+  "packageManager": "pnpm@9.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

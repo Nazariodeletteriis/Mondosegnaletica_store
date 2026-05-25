@@ -1,0 +1,60 @@
+# --- LOCALE ONLY (mai su git) ---
+assets/
+graphify-out/
+*.md
+
+# --- DDEV ---
+.ddev/
+!.ddev/config.yaml
+
+# --- WordPress core (gestito da setup script, non versionare) ---
+public/wp-admin/
+public/wp-includes/
+public/wp-*.php
+public/xmlrpc.php
+public/license.txt
+public/readme.html
+public/wp-config.php
+public/wp-config-ddev.php
+public/index.php
+
+# --- WooCommerce / plugin / upload (non versionare) ---
+public/wp-content/plugins/
+public/wp-content/uploads/
+public/wp-content/upgrade/
+public/wp-content/backup*/
+public/wp-content/debug.log
+public/wp-content/index.php
+public/wp-content/languages/
+
+# --- Temi WordPress default (non versionare) ---
+public/wp-content/themes/index.php
+public/wp-content/themes/twentytwentyfive/
+public/wp-content/themes/twentytwentyfour/
+public/wp-content/themes/twentytwentythree/
+public/wp-content/themes/twentytwentytwo/
+
+# --- Vite build output (generato) ---
+public/wp-content/themes/mondosegnaletica/assets/dist/
+
+# --- Node ---
+node_modules/
+public/wp-content/themes/mondosegnaletica/node_modules/
+pnpm-lock.yaml
+package-lock.json
+
+# --- OS & IDE ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Env & log ---
+.env
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
+pnpm-debug.log*
