@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="it"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mondo Segnaletica | Cartello STOP Ottagonale</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#c9c6c5",
+                        "on-primary": "#313030",
+                        "primary-container": "#0a0a0a",
+                        "on-primary-container": "#7b7979",
+                        "secondary": "#c7c7c3",
+                        "on-secondary": "#30312e",
+                        "secondary-container": "#464744",
+                        "on-secondary-container": "#b5b5b2",
+                        "tertiary": "#cac6c3",
+                        "background": "#141313",
+                        "on-background": "#e5e2e1",
+                        "surface": "#141313",
+                        "on-surface": "#e5e2e1",
+                        "surface-variant": "#353434",
+                        "on-surface-variant": "#c4c7c7",
+                        "outline": "#8e9192",
+                        "outline-variant": "#444748",
+                        "surface-dim": "#141313",
+                        "giallo-segnaletico": "#FFD700", /* Standard Traffic Yellow */
+                        "rosso-vermiglio": "#FF2400"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "section-gap": "120px",
+                        "unit": "4px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "64px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["IBM Plex Sans"],
+                        "marginalia": ["JetBrains Mono"],
+                        "technical-label": ["JetBrains Mono"],
+                        "headline-sm": ["Bebas Neue"],
+                        "headline-md": ["Bebas Neue"],
+                        "headline-lg": ["Bebas Neue"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "marginalia": ["12px", {"lineHeight": "12px", "letterSpacing": "0.15em", "fontWeight": "400"}],
+                        "technical-label": ["14px", {"lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "500"}],
+                        "headline-sm": ["32px", {"lineHeight": "32px", "letterSpacing": "0em", "fontWeight": "400"}],
+                        "headline-md": ["64px", {"lineHeight": "60px", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                        "headline-lg": ["120px", {"lineHeight": "100px", "letterSpacing": "-0.04em", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .hairline-border {
+            border: 1px solid rgba(142, 145, 146, 0.2);
+        }
+        .text-outline {
+            -webkit-text-stroke: 1px rgba(229, 226, 225, 0.3);
+            color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md overflow-x-hidden">
+<!-- Top Navigation Bar -->
+<nav class="bg-primary-container text-primary font-technical-label flex justify-between items-center px-margin-desktop py-4 w-full z-50 docked full-width top-0 sticky border-b border-outline-variant/20">
+<div class="font-headline-sm text-headline-sm text-on-surface">Mondo Segnaletica</div>
+<div class="hidden md:flex gap-8">
+<a class="text-primary border-b border-primary hover:text-primary transition-colors duration-200" href="#">CATALOGO</a>
+<a class="text-on-surface hover:text-primary transition-colors duration-200" href="#">SOLUZIONI</a>
+<a class="text-on-surface hover:text-primary transition-colors duration-200" href="#">CANTIERI</a>
+<a class="text-on-surface hover:text-primary transition-colors duration-200" href="#">AZIENDA</a>
+<a class="text-on-surface hover:text-primary transition-colors duration-200" href="#">CONTATTI</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="bg-giallo-segnaletico text-on-primary px-6 py-2 font-headline-sm text-lg scale-95 active:opacity-80 transition-all">PREVENTIVO</button>
+<span class="material-symbols-outlined cursor-pointer hover:text-giallo-segnaletico" data-icon="shopping_cart">shopping_cart</span>
+</div>
+</nav>
+<!-- Breadcrumb & HUD Header -->
+<header class="px-margin-desktop py-8 border-b border-outline-variant/20">
+<div class="flex flex-col md:flex-row justify-between items-end gap-4">
+<div class="font-technical-label text-marginalia uppercase text-on-surface-variant flex items-center gap-2">
+<span class="text-giallo-segnaletico">01 /</span>
+<span>Catalogo</span>
+<span class="material-symbols-outlined text-[10px]" data-icon="chevron_right">chevron_right</span>
+<span>Cartelli Stradali</span>
+<span class="material-symbols-outlined text-[10px]" data-icon="chevron_right">chevron_right</span>
+<span>Pericolo</span>
+<span class="material-symbols-outlined text-[10px]" data-icon="chevron_right">chevron_right</span>
+<span class="text-on-surface">Cartello STOP</span>
+</div>
+<div class="font-marginalia text-on-secondary-container text-right hidden md:block">
+                REF: 43.8376° N, 10.4951° E <br/>
+                DOC_TYPE: PRODUCT_DETAIL_016
+            </div>
+</div>
+</header>
+<main class="min-h-screen">
+<!-- Main Product Section -->
+<section class="grid grid-cols-1 lg:grid-cols-2">
+<!-- Left: Product Gallery -->
+<div class="relative p-margin-desktop bg-[#1A1A1A] flex flex-col gap-gutter border-r border-outline-variant/20">
+<div class="aspect-square relative flex items-center justify-center overflow-hidden border border-outline-variant/10 group">
+<img alt="Cartello STOP" class="w-3/4 h-auto object-contain transition-transform duration-700 group-hover:scale-110" data-alt="A professional studio photograph of an octagonal red STOP traffic sign with a white border and bold white lettering. The sign is positioned centrally against a deep charcoal grey industrial background with subtle atmospheric lighting. The image captures the crisp metallic texture of the reflective surface and the clean architectural lines of the sign. Minimalist and high-contrast aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaae5dKFk8kpFT4vyv30vt90p6M60z4NckHqgEU-WrUU0JI-5Z2d3gbU2sceuk9w1cD-AUNh4m_Zbui5AWJFCJSvKl1BceuFKsHxAVu5cbQ5_5Hl2ejmVmfrFFC7hOyVL8c97WnM3dsOl0gKrtkJBED1kiWR5eb6v65wdyxx7QRhljdZcycuJ9N0rw7Jc4ysC39hPxMryyzoEdjWwfJC4oFfD68ZTs4El0Fk5bXuDPxC2TO8HvOB9MgD9_96Er-WPSKTI8xw1t9Bo"/>
+<div class="absolute top-6 left-6 bg-giallo-segnaletico text-on-primary font-technical-label px-3 py-1 text-xs">
+                        OMOLOGATO CdS · FIG. II 16
+                    </div>
+</div>
+<div class="grid grid-cols-4 gap-4">
+<div class="aspect-square bg-surface-container border border-giallo-segnaletico cursor-pointer p-2">
+<img alt="Thumb 1" class="w-full h-full object-contain opacity-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYB6rTSAI6ZVixW2-JWqupuZwh3aXJAXTVLZpdfL7RhDHhR42vVg4WP5bVuedSRDS1yQhGiWdV7mcTuWFFMyRmjsMIEPBbNv8g56crT-xGV8PSLYYi5cmBSyx96lpuQNg3UeLHyeyRd9H2OqNdesksP_A99CQOHbzp7lJlJ5c7KM1FUxpK-mz3KfBgY0CtZyjfmzAKUCES-S1CHxlTbIwcG-J_EaMZxHr0y-UNT6S5LUkIAPigOUG9AM3nZ9jxZiiQlJLhL-JjvG4"/>
+</div>
+<div class="aspect-square bg-surface-container border border-outline-variant/20 hover:border-on-surface-variant cursor-pointer p-2 grayscale hover:grayscale-0 transition-all">
+<img alt="Thumb 2" class="w-full h-full object-contain opacity-60 hover:opacity-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCStQ1w9UF--WnBbxA6Kyz_rqtE3P2oGsz25iDMRThKvQilNSQ9N9trb0Jr_IhtQk0_JcvoCs1xW8x0nnYEVowUMZFcdLU-oSgaYgAXj9taZeLlv8Pb-VESwdbfFjnlCd_UbMrQc2JH-AgGk9qcFqUA9bSmZ3WRTmDP35D6t1Md50XZkzB5AwTorOf6ydyYIe8UAwNOCboksrOKTxnluKQwotKGa5bm7M2Ycrc89Gr6tNUwgub_AE9rJ_ALnPLRa8dGxCvT_3_D4sk"/>
+</div>
+<div class="aspect-square bg-surface-container border border-outline-variant/20 hover:border-on-surface-variant cursor-pointer p-2 grayscale hover:grayscale-0 transition-all">
+<img alt="Thumb 3" class="w-full h-full object-contain opacity-60 hover:opacity-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAR9oo-X1sZsrWUBUeH5gWA66UmXvVP_s3V1ZxFthyPq20j0ztiSyFEprlIJxRBp9NdGjJwSZR4YH7nTtC3-bdWZH5e6CF69KUZGlO1YK4SqZpYQS-Jtd5N7Gpoeisy5xSipkqZTfqO89dslr8lgbTIHrzgDfDSeNj3Gg19RPoUZ4_IvRx6fefk_ewiouA2SiWEAAZkC4q5Amxtb_r6nSMO65_dZXiIvg4zCwgnQgh9gxyeR5qlALVCERT6UxPoxA7kdOT87Tsgtg"/>
+</div>
+<div class="aspect-square bg-surface-container border border-outline-variant/20 hover:border-on-surface-variant cursor-pointer p-2 grayscale hover:grayscale-0 transition-all">
+<img alt="Thumb 4" class="w-full h-full object-contain opacity-60 hover:opacity-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUeUK5Jo4BMPYRdy5F_Usqr6ZpX-69oKB2v5LrKEWvCdomfXrK2pvknD6cTF_qhdr06y_sRLjCDtGmXdIASCAkiTTZGv5BEYrG-tHW1ClcmOJDUt52E-ynATJNpWFlJlFFYA5M6h06KEQygEfKbExaNmUf7Am9EWYWIKVtvG-TmNy_KNj-GLRPhih6DCWyzi24GEzcWzzw4iTPgiajKOEbG_o9pdt9wIui1zScELRAbwBwVydh9_bW2tISaV6LsXSSqdPaFZdzim4"/>
+</div>
+</div>
+</div>
+<!-- Right: Product Info -->
+<div class="p-margin-desktop flex flex-col gap-8">
+<div>
+<span class="font-technical-label text-giallo-segnaletico mb-2 block">MS-CRT-STP-016</span>
+<h1 class="font-headline-md text-headline-md text-on-surface uppercase mb-2">Cartello STOP Ottagonale</h1>
+<p class="font-body-lg text-on-surface-variant italic">Omologato Codice della Strada · Classe 2 rifrangenza</p>
+</div>
+<div class="flex items-baseline gap-4 py-4 border-y border-outline-variant/20">
+<span class="font-headline-sm text-headline-sm text-on-surface">€ 24,50</span>
+<span class="font-technical-label text-marginalia text-on-surface-variant">IVA ESCLUSA · PER UNITÀ</span>
+</div>
+<!-- Quantity Discount Table -->
+<div class="bg-surface-container-low p-6 border border-outline-variant/10">
+<div class="font-technical-label text-xs text-on-surface-variant mb-4 uppercase">Sconti per quantità</div>
+<div class="grid grid-cols-3 gap-4">
+<div class="border-l-2 border-giallo-segnaletico pl-4">
+<div class="font-marginalia text-on-surface-variant">1-9 PZ</div>
+<div class="font-technical-label text-on-surface">€ 24,50</div>
+</div>
+<div class="border-l-2 border-outline-variant pl-4 opacity-60">
+<div class="font-marginalia text-on-surface-variant">10-49 PZ</div>
+<div class="font-technical-label text-on-surface">€ 22,00</div>
+</div>
+<div class="border-l-2 border-outline-variant pl-4 opacity-60">
+<div class="font-marginalia text-on-surface-variant">50+ PZ</div>
+<div class="font-technical-label text-on-surface">€ 19,50</div>
+</div>
+</div>
+</div>
+<!-- Selectors -->
+<div class="flex flex-col gap-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<div class="space-y-2">
+<label class="font-technical-label text-xs uppercase text-on-surface-variant">Dimensione</label>
+<select class="w-full bg-transparent border-0 border-b border-outline-variant focus:border-giallo-segnaletico focus:ring-0 text-on-surface font-body-md py-2 px-0 appearance-none cursor-pointer">
+<option>60cm (Standard)</option>
+<option>90cm (Grande)</option>
+<option>120cm (Autostradale)</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="font-technical-label text-xs uppercase text-on-surface-variant">Materiale</label>
+<select class="w-full bg-transparent border-0 border-b border-outline-variant focus:border-giallo-segnaletico focus:ring-0 text-on-surface font-body-md py-2 px-0 appearance-none cursor-pointer">
+<option>Alluminio 25/10</option>
+<option>Lamiera zincata</option>
+</select>
+</div>
+</div>
+<div class="flex items-end gap-gutter">
+<div class="w-32 space-y-2">
+<label class="font-technical-label text-xs uppercase text-on-surface-variant">Quantità</label>
+<div class="flex items-center border border-outline-variant p-1">
+<button class="w-8 h-8 flex items-center justify-center hover:bg-surface-variant">-</button>
+<input class="w-full bg-transparent border-0 text-center focus:ring-0 font-technical-label" type="number" value="1"/>
+<button class="w-8 h-8 flex items-center justify-center hover:bg-surface-variant">+</button>
+</div>
+</div>
+<button class="flex-grow bg-giallo-segnaletico text-on-primary font-headline-sm text-xl py-4 flex items-center justify-center gap-4 hover:brightness-110 transition-all">
+                            AGGIUNGI AL CARRELLO 
+                            <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<button class="w-full border border-on-surface/40 text-on-surface font-headline-sm text-xl py-4 hover:bg-on-surface hover:text-background transition-all">
+                        RICHIEDI PREVENTIVO PER QUANTITÀ
+                    </button>
+<div class="flex items-center gap-2 font-technical-label text-sm text-[#4CAF50]">
+<span class="w-2 h-2 bg-[#4CAF50] rounded-full animate-pulse"></span>
+                        Disponibile · Spedizione 24/48h da Lucca
+                    </div>
+</div>
+</div>
+</section>
+<!-- Technical Specs -->
+<section class="border-t border-outline-variant/20">
+<div class="px-margin-desktop py-section-gap">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<div class="lg:col-span-4">
+<h2 class="font-headline-md text-headline-sm mb-6 border-b border-giallo-segnaletico inline-block">SPECIFICHE TECNICHE</h2>
+<div class="mt-8 flex flex-col gap-4">
+<a class="flex items-center gap-4 p-4 border border-outline-variant/20 hover:border-giallo-segnaletico group transition-all" href="#">
+<span class="material-symbols-outlined text-giallo-segnaletico" data-icon="description">description</span>
+<div class="flex-grow">
+<div class="font-technical-label text-sm">SCHEDA_TECNICA.PDF</div>
+<div class="font-marginalia text-[10px] text-on-surface-variant">DOWNLOAD · 1.2MB</div>
+</div>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-all" data-icon="download">download</span>
+</a>
+<a class="flex items-center gap-4 p-4 border border-outline-variant/20 hover:border-giallo-segnaletico group transition-all" href="#">
+<span class="material-symbols-outlined text-giallo-segnaletico" data-icon="verified">verified</span>
+<div class="flex-grow">
+<div class="font-technical-label text-sm">CERTIFICAZIONE_CONFORMITA.PDF</div>
+<div class="font-marginalia text-[10px] text-on-surface-variant">DOWNLOAD · 0.8MB</div>
+</div>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-all" data-icon="download">download</span>
+</a>
+</div>
+</div>
+<div class="lg:col-span-8 overflow-x-auto">
+<table class="w-full text-left font-technical-label text-sm">
+<thead>
+<tr class="border-b border-outline-variant/40">
+<th class="py-4 font-bold text-on-surface-variant uppercase">Proprietà</th>
+<th class="py-4 font-bold text-on-surface-variant uppercase">Valore</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant/10">
+<tr><td class="py-4 text-on-surface-variant">DIMENSIONI</td><td class="py-4 text-on-surface">600 x 600 mm (Ottagonale)</td></tr>
+<tr><td class="py-4 text-on-surface-variant">PESO</td><td class="py-4 text-on-surface">3.8 kg</td></tr>
+<tr><td class="py-4 text-on-surface-variant">MATERIALE</td><td class="py-4 text-on-surface">Alluminio Estruso 2.5mm</td></tr>
+<tr><td class="py-4 text-on-surface-variant">CLASSE RIFRANGENZA</td><td class="py-4 text-on-surface">Classe 2 (High Intensity Prismatic)</td></tr>
+<tr><td class="py-4 text-on-surface-variant">CERTIFICAZIONE</td><td class="py-4 text-on-surface">EN 12899-1:2007 (Marcatura CE)</td></tr>
+<tr><td class="py-4 text-on-surface-variant">TRATTAMENTO</td><td class="py-4 text-on-surface">Verniciatura a polvere Anti-UV</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<!-- Related Products -->
+<section class="px-margin-desktop py-section-gap border-t border-outline-variant/20 bg-surface-container-lowest">
+<h2 class="font-headline-md text-headline-sm mb-12">POTREBBERO SERVIRTI</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Related 1 -->
+<div class="bg-[#1A1A1A] border border-outline-variant/10 p-6 flex flex-col group cursor-pointer transition-all hover:border-giallo-segnaletico">
+<div class="aspect-square mb-6 overflow-hidden">
+<img alt="Cono" class="w-full h-full object-contain group-hover:scale-105 transition-transform" data-alt="A clean industrial product photograph of a bright orange traffic cone with white reflective stripes. The cone is set against a dark, dramatic background with professional lighting that emphasizes its utilitarian design and safety features. High contrast, sharp focus, technical aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNsWZ_kUfThNvxtgU8bXM_juJZ_Wh5zft45M-5v9DAtfoHyt6qcH_O_v8FsA8ky3KSaVTpv2EAWGPDD13p595XhqP__QaXl_vthTg-yaqDITMaFH9smwPPp9Uu8a_Ctz8hIwMYxbAUMqPK_hNM-vbclktTgZ4I1HMfiKjNIgoeK6vqzNeyCILyILDaLQnm6fJKeQh-S1xFNexRnx9bwRMFjf27l6b--Vug6DjivNfsjcYcyLp7iGcl1K-1bZbhmU8tyegLzVC_kag"/>
+</div>
+<span class="font-technical-label text-xs text-on-surface-variant mb-1">MS-ACC-CON-050</span>
+<h3 class="font-headline-sm text-lg mb-4 text-on-surface">CONO SEGNALETICO 50CM</h3>
+<div class="mt-auto flex justify-between items-center">
+<span class="font-technical-label text-on-surface">€ 12,80</span>
+<span class="material-symbols-outlined text-giallo-segnaletico" data-icon="add_shopping_cart">add_shopping_cart</span>
+</div>
+</div>
+<!-- Related 2 -->
+<div class="bg-[#1A1A1A] border border-outline-variant/10 p-6 flex flex-col group cursor-pointer transition-all hover:border-giallo-segnaletico">
+<div class="aspect-square mb-6 overflow-hidden">
+<img alt="Base" class="w-full h-full object-contain group-hover:scale-105 transition-transform" data-alt="An industrial photograph of a heavy black rubber base used for mounting temporary road signs and traffic bollards. The product is photographed in a studio setting with cold blue and white highlights reflecting off its textured surface. The mood is sturdy, professional, and architecturally precise." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1w4ReIQ2lSK6lP0BWBY6Xn1IyNHdhKfAEzZLjdrSvNjEd551tsdoqhdvMq2P40I6D-SRJd0YlI2wHzpwF7e4Yj5iYMVVwNLyX2ugVmG-Zbs1I_jUUXvJkGjWsjTxQ6OTw8RMSb6v6coD6UU_NNg-n55QQR8jhyMtPnyKNstpMJ5gXxsPO2tsfvj6gwRwRPmD24dvr46jYqymyqNKt4AEhErsZCpNbB-V41wF4wOz_S2Wl9qbUWnZb21aYDSHf_dBs8M1-3u9CvcA"/>
+</div>
+<span class="font-technical-label text-xs text-on-surface-variant mb-1">MS-ACC-BAS-010</span>
+<h3 class="font-headline-sm text-lg mb-4 text-on-surface">BASE IN GOMMA 10KG</h3>
+<div class="mt-auto flex justify-between items-center">
+<span class="font-technical-label text-on-surface">€ 18,50</span>
+<span class="material-symbols-outlined text-giallo-segnaletico" data-icon="add_shopping_cart">add_shopping_cart</span>
+</div>
+</div>
+<!-- Related 3 -->
+<div class="bg-[#1A1A1A] border border-outline-variant/10 p-6 flex flex-col group cursor-pointer transition-all hover:border-giallo-segnaletico">
+<div class="aspect-square mb-6 overflow-hidden">
+<img alt="Delineatore" class="w-full h-full object-contain group-hover:scale-105 transition-transform" data-alt="A studio shot of a vertical traffic delineator post with black and yellow reflective stripes. The post stands vertically against a dark industrial backdrop. The lighting is crisp and surgical, highlighting the reflective properties of the safety material. Minimalist and authoritative." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeK7HGpLR2Ynb3RyGbcsrCWszJdizuRyOGtHpfTLjpLgC2EPnwMaDf-VnzeYYDdH9fP79jaTXerPTI6dh_dz2FStFmMoJFBh356lKwqsiEf0ybuyahL3XIFgKbyRayzV06Be3lueZM3Vy6UYRSYRrfY7Ru0otgp84J-519Kb-yj33PpDVwRXMpt0RniyiRBDaeiifZTiasNoK7AxSayaM58QpTvtHgb0wMRIebnXtBGzchW-NZGmIq9NSy5pPVjwYmrPmCLzKfBLg"/>
+</div>
+<span class="font-technical-label text-xs text-on-surface-variant mb-1">MS-CRT-DEL-022</span>
+<h3 class="font-headline-sm text-lg mb-4 text-on-surface">DELINEATORE MODULARE</h3>
+<div class="mt-auto flex justify-between items-center">
+<span class="font-technical-label text-on-surface">€ 32,00</span>
+<span class="material-symbols-outlined text-giallo-segnaletico" data-icon="add_shopping_cart">add_shopping_cart</span>
+</div>
+</div>
+<!-- Related 4 -->
+<div class="bg-[#1A1A1A] border border-outline-variant/10 p-6 flex flex-col group cursor-pointer transition-all hover:border-giallo-segnaletico">
+<div class="aspect-square mb-6 overflow-hidden">
+<img alt="Supporto" class="w-full h-full object-contain group-hover:scale-105 transition-transform" data-alt="A close-up photograph of a galvanised steel bracket and bolt system designed for mounting traffic signs to metal poles. The image showcases the raw industrial texture of the metal and the precision-engineered threads. Dramatic lighting on a dark background creates a technical, brutalist atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuArtKdCIekLW2Mpsq6ah0DJPSxJ80GGzX3DQseG_8UsV4HcYexoXaqcitLLrGTDODx9ofxrJcyhYz3uT8BLnefwbSieQcz9n8SmyS8Okib1t5U_sLzXhjrCVly6E-zB7FaZH21_ePtopQ4oi7196RsIJdOqVd3y7YLgPMJ9At1Vocn2nAWKV5i_jLZyKrH8nUY3BYI1bXfRwMOJq8lgYEI0T-uW79CRuN0SRjBpFU4fKMPnhgs-IMlGq57xx4Vv3l2awVLSynUks88"/>
+</div>
+<span class="font-technical-label text-xs text-on-surface-variant mb-1">MS-HRD-SUP-002</span>
+<h3 class="font-headline-sm text-lg mb-4 text-on-surface">STAFFE DI SUPPORTO (COPIA)</h3>
+<div class="mt-auto flex justify-between items-center">
+<span class="font-technical-label text-on-surface">€ 6,50</span>
+<span class="material-symbols-outlined text-giallo-segnaletico" data-icon="add_shopping_cart">add_shopping_cart</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-dim text-primary border-t border-outline-variant/20">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop py-section-gap w-full">
+<div class="col-span-1 md:col-span-1">
+<div class="font-headline-md text-headline-md text-on-surface mb-6 leading-none">MONDO<br/>SEGNALETICA</div>
+<div class="font-marginalia text-on-surface-variant space-y-1">
+<p>Sede Operativa: Via del Progresso, 12</p>
+<p>55100 Lucca (LU) - Italy</p>
+<p>info@mondosegnaletica.it</p>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<div class="font-technical-label text-xs uppercase mb-4 opacity-50">Navigazione</div>
+<a class="font-marginalia hover:text-on-surface transition-opacity duration-200" href="#">CATALOGO</a>
+<a class="font-marginalia hover:text-on-surface transition-opacity duration-200" href="#">SOLUZIONI</a>
+<a class="font-marginalia hover:text-on-surface transition-opacity duration-200" href="#">CANTIERI</a>
+<a class="font-marginalia hover:text-on-surface transition-opacity duration-200" href="#">AZIENDA</a>
+</div>
+<div class="flex flex-col gap-4">
+<div class="font-technical-label text-xs uppercase mb-4 opacity-50">Supporto</div>
+<a class="font-marginalia hover:text-on-surface transition-opacity duration-200" href="#">CONTATTI</a>
+<a class="font-marginalia hover:text-on-surface transition-opacity duration-200" href="#">PRIVACY POLICY</a>
+<a class="font-marginalia hover:text-on-surface transition-opacity duration-200" href="#">TERMINI E CONDIZIONI</a>
+<a class="font-marginalia hover:text-on-surface transition-opacity duration-200" href="#">RESI E RECLAMI</a>
+</div>
+<div class="flex flex-col gap-4">
+<div class="font-technical-label text-xs uppercase mb-4 opacity-50">Certificazioni</div>
+<div class="flex flex-wrap gap-4 items-start grayscale opacity-60">
+<div class="p-2 border border-outline-variant/20 text-[10px] font-marginalia">ANAS CERTIFIED</div>
+<div class="p-2 border border-outline-variant/20 text-[10px] font-marginalia">UNI EN ISO 9001</div>
+<div class="p-2 border border-outline-variant/20 text-[10px] font-marginalia">MARCATURA CE</div>
+</div>
+</div>
+</div>
+<div class="px-margin-desktop py-8 border-t border-outline-variant/10 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="font-marginalia text-on-surface-variant uppercase text-[10px]">
+                © 2024 MONDO SEGNALETICA - ANAS CERTIFIED - P.IVA 01234567890
+            </div>
+<div class="font-marginalia text-on-surface-variant text-[10px] flex gap-4 uppercase">
+<span>SYSTEM_STATUS: OK</span>
+<span class="text-giallo-segnaletico">ENCRYPTED_LINE_016</span>
+</div>
+</div>
+</footer>
+<script>
+        // Micro-interactions for quantity input
+        document.querySelectorAll('button').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                if(this.innerText === '+') {
+                    const input = this.previousElementSibling;
+                    input.value = parseInt(input.value) + 1;
+                } else if(this.innerText === '-') {
+                    const input = this.nextElementSibling;
+                    if(parseInt(input.value) > 1) input.value = parseInt(input.value) - 1;
+                }
+            });
+        });
+
+        // Hover effect for main product image
+        const mainImage = document.querySelector('img[data-alt*="STOP"]');
+        mainImage.addEventListener('mousemove', (e) => {
+            const { left, top, width, height } = mainImage.getBoundingClientRect();
+            const x = (e.clientX - left) / width;
+            const y = (e.clientY - top) / height;
+            mainImage.style.transformOrigin = `${x * 100}% ${y * 100}%`;
+        });
+    </script>
+</body></html>

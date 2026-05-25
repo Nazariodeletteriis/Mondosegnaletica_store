@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="it"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mondo Segnaletica | Cartelli Stradali</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#c9c6c5",
+                        "on-primary": "#313030",
+                        "primary-container": "#0a0a0a",
+                        "on-primary-container": "#7b7979",
+                        "background": "#141313",
+                        "on-background": "#e5e2e1",
+                        "surface": "#141313",
+                        "on-surface": "#e5e2e1",
+                        "surface-variant": "#353434",
+                        "on-surface-variant": "#c4c7c7",
+                        "outline": "#8e9192",
+                        "outline-variant": "#444748",
+                        "surface-dim": "#141313",
+                        "giallo-segnaletico": "#FFD700", // Custom brand color as per brand guidance
+                        "rosso-vermiglio": "#BC243C"     // Custom brand color
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "section-gap": "120px",
+                        "unit": "4px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "64px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["IBM Plex Sans"],
+                        "marginalia": ["JetBrains Mono"],
+                        "technical-label": ["JetBrains Mono"],
+                        "headline-sm": ["Bebas Neue"],
+                        "headline-md": ["Bebas Neue"],
+                        "body-lg": ["IBM Plex Sans"],
+                        "headline-lg": ["Bebas Neue"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "marginalia": ["12px", {"lineHeight": "12px", "letterSpacing": "0.15em", "fontWeight": "400"}],
+                        "technical-label": ["14px", {"lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "500"}],
+                        "headline-sm": ["32px", {"lineHeight": "32px", "letterSpacing": "0em", "fontWeight": "400"}],
+                        "headline-md": ["64px", {"lineHeight": "60px", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-lg": ["120px", {"lineHeight": "100px", "letterSpacing": "-0.04em", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .hairline-border { border: 1px solid rgba(142, 145, 146, 0.2); }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: #0a0a0a; }
+        ::-webkit-scrollbar-thumb { background: #444748; }
+        .product-image-container { background: #1A1A1A; }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md selection:bg-giallo-segnaletico selection:text-black">
+<!-- TopNavBar -->
+<nav class="bg-primary-container text-primary font-technical-label text-technical-label docked full-width top-0 sticky border-b border-outline-variant/20 flex justify-between items-center px-margin-desktop py-4 w-full z-50">
+<div class="font-headline-sm text-headline-sm text-on-surface">MONDO SEGNALETICA</div>
+<div class="hidden md:flex gap-8">
+<a class="text-primary border-b border-primary hover:text-primary transition-colors duration-200" href="#">CATALOGO</a>
+<a class="text-on-surface hover:text-primary transition-colors duration-200" href="#">SOLUZIONI</a>
+<a class="text-on-surface hover:text-primary transition-colors duration-200" href="#">CANTIERI</a>
+<a class="text-on-surface hover:text-primary transition-colors duration-200" href="#">AZIENDA</a>
+<a class="text-on-surface hover:text-primary transition-colors duration-200" href="#">CONTATTI</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="bg-[#FFD700] text-black px-4 py-1.5 font-bold tracking-tight text-xs rounded-sm scale-95 active:opacity-80 transition-all">PREVENTIVO</button>
+<div class="relative cursor-pointer hover:opacity-70 transition-opacity">
+<span class="material-symbols-outlined text-on-surface">shopping_cart</span>
+</div>
+</div>
+</nav>
+<!-- Header Section -->
+<header class="bg-black pt-24 pb-16 px-margin-desktop border-b border-outline-variant/20 relative overflow-hidden">
+<div class="relative z-10">
+<div class="font-technical-label text-technical-label text-giallo-segnaletico mb-6">
+                02 / CATALOGO · CARTELLI STRADALI
+            </div>
+<h1 class="font-headline-lg text-headline-lg text-white mb-8 max-w-4xl uppercase leading-none">
+                LA SEGNALETICA CHE TIENE LA STRADA IN ORDINE.
+            </h1>
+<p class="font-body-lg text-body-lg text-on-primary-container max-w-2xl">
+                Fornitore di Enti Pubblici, Imprese e Professionisti della viabilità. <br/>
+                Tutti i prodotti sono omologati secondo il Codice della Strada e certificati ANAS per resistenza e rifrangenza.
+            </p>
+</div>
+<!-- Atmospheric HUD Decorative Grid -->
+<div class="absolute right-margin-desktop bottom-8 text-right font-marginalia text-marginalia text-outline-variant opacity-50 uppercase hidden md:block">
+            LAT: 45.4642° N | LON: 9.1900° E<br/>
+            UNITS: METRIC / ISO 9001:2015<br/>
+            STATUS: CERTIFIED_FACILITY
+        </div>
+</header>
+<!-- Toolbar / Secondary Nav -->
+<div class="sticky top-[60px] bg-background/80 backdrop-blur-md z-40 px-margin-desktop py-4 border-b border-outline-variant/20 flex justify-between items-center">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-2">
+<span class="font-technical-label text-technical-label text-on-primary-container uppercase">Ordina per:</span>
+<select class="bg-transparent border-none text-on-surface font-technical-label focus:ring-0 cursor-pointer">
+<option>RILEVANZA</option>
+<option>PREZZO: CRESCENTE</option>
+<option>PREZZO: DECRESCENTE</option>
+<option>NOVITÀ</option>
+</select>
+</div>
+</div>
+<div class="font-technical-label text-technical-label text-on-surface">
+<span class="text-giallo-segnaletico">247</span> PRODOTTI TROVATI
+        </div>
+</div>
+<main class="px-margin-desktop py-12 flex gap-gutter">
+<!-- Sidebar Filters (Sticky) -->
+<aside class="w-64 flex-shrink-0 hidden lg:block h-fit sticky top-40">
+<div class="space-y-10">
+<!-- Filter Group -->
+<div>
+<h3 class="font-technical-label text-technical-label text-on-primary-container mb-4 uppercase tracking-widest border-b border-outline-variant/20 pb-2">Tipologia</h3>
+<div class="space-y-3">
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 bg-transparent border-outline focus:ring-giallo-segnaletico text-giallo-segnaletico rounded-none" type="checkbox"/>
+<span class="text-on-surface group-hover:text-giallo-segnaletico transition-colors text-sm uppercase">Pericolo</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 bg-transparent border-outline focus:ring-giallo-segnaletico text-giallo-segnaletico rounded-none" type="checkbox"/>
+<span class="text-on-surface group-hover:text-giallo-segnaletico transition-colors text-sm uppercase">Divieto</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 bg-transparent border-outline focus:ring-giallo-segnaletico text-giallo-segnaletico rounded-none" type="checkbox"/>
+<span class="text-on-surface group-hover:text-giallo-segnaletico transition-colors text-sm uppercase">Obbligo</span>
+</label>
+</div>
+</div>
+<div>
+<h3 class="font-technical-label text-technical-label text-on-primary-container mb-4 uppercase tracking-widest border-b border-outline-variant/20 pb-2">Formato</h3>
+<div class="space-y-3">
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 bg-transparent border-outline rounded-none" type="checkbox"/>
+<span class="text-on-surface text-sm uppercase">Triangolare</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 bg-transparent border-outline rounded-none" type="checkbox"/>
+<span class="text-on-surface text-sm uppercase">Rotondo</span>
+</label>
+</div>
+</div>
+<div>
+<h3 class="font-technical-label text-technical-label text-on-primary-container mb-4 uppercase tracking-widest border-b border-outline-variant/20 pb-2">Materiale</h3>
+<div class="space-y-3">
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 bg-transparent border-outline rounded-none" type="checkbox"/>
+<span class="text-on-surface text-sm uppercase">Alluminio 2.0mm</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 bg-transparent border-outline rounded-none" type="checkbox"/>
+<span class="text-on-surface text-sm uppercase">Lamiera Zincata</span>
+</label>
+</div>
+</div>
+<div>
+<h3 class="font-technical-label text-technical-label text-on-primary-container mb-4 uppercase tracking-widest border-b border-outline-variant/20 pb-2">Rifrangenza</h3>
+<div class="space-y-3">
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 bg-transparent border-outline text-giallo-segnaletico focus:ring-giallo-segnaletico" name="ref" type="radio"/>
+<span class="text-on-surface text-sm uppercase">Classe 1 (Base)</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 bg-transparent border-outline text-giallo-segnaletico focus:ring-giallo-segnaletico" name="ref" type="radio"/>
+<span class="text-on-surface text-sm uppercase">Classe 2 (H.I.)</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 bg-transparent border-outline text-giallo-segnaletico focus:ring-giallo-segnaletico" name="ref" type="radio"/>
+<span class="text-on-surface text-sm uppercase">Classe 3 (Diamond)</span>
+</label>
+</div>
+</div>
+</div>
+</aside>
+<!-- Product Grid -->
+<section class="flex-grow">
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+<!-- Product Card 1 -->
+<div class="group cursor-pointer">
+<div class="product-image-container aspect-square p-8 border border-white/10 group-hover:border-giallo-segnaletico/30 transition-all relative overflow-hidden">
+<img class="w-full h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A professional studio product shot of a high-visibility triangular road sign indicating danger. The sign is made of reflective material with a stark red border and a black exclamation mark symbol on a white background. The image is set against a dark, minimalist industrial background with cinematic cool-toned lighting that emphasizes the metallic texture and technical precision of the object." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGdQTyc7nmJ4qF4oPagXMvX_hCA0BU1v0NJDy0hfRF6EH6a--QHizedgEF6fQNGj1RNwEFEAHNluyRvza02X8SBXf_tEcTLjxY53UOIaR2CszDgdPjCm0XsVvZ9cdQd0W2NKn90cq_Q89sBwuyrSdMpmtW1DSc3uaVH1J9-yX6RrDGThquptWVzVQdKiEk133BMTVacLLtJPOFodVXs04hjF4NcIDlx91zZfrsNKSSzPa4zVohjLg2IRrHbVnP7GakS2_51CYn_FA"/>
+<div class="absolute top-4 left-4 flex flex-col gap-2">
+<span class="bg-giallo-segnaletico text-black font-technical-label text-[10px] px-2 py-0.5 font-bold uppercase">SKU: MS-CRT-001</span>
+<span class="bg-white text-black font-technical-label text-[10px] px-2 py-0.5 font-bold uppercase">OMOLOGATO</span>
+</div>
+</div>
+<div class="mt-4 flex justify-between items-start">
+<div>
+<h3 class="font-technical-label text-on-surface text-sm uppercase tracking-tight">Segnale Pericolo Generico - Alluminio</h3>
+<div class="flex items-center gap-2 mt-2">
+<span class="w-2 h-2 rounded-full bg-[#4CAF50]"></span>
+<span class="text-[#4CAF50] font-technical-label text-[10px] uppercase">Disponibile</span>
+</div>
+</div>
+<div class="text-right">
+<div class="font-headline-sm text-white text-2xl">€ 42.00</div>
+<button class="mt-2 w-8 h-8 flex items-center justify-center bg-giallo-segnaletico text-black rounded-sm hover:scale-105 active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="group cursor-pointer">
+<div class="product-image-container aspect-square p-8 border border-white/10 group-hover:border-giallo-segnaletico/30 transition-all relative overflow-hidden">
+<img class="w-full h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A high-quality product photograph of a circular 'No Entry' traffic sign. The sign features a bold red circle with a horizontal white bar across the center. The surface has a grainy, technical reflective texture consistent with Class 2 refractivity standards. The shot is executed in a dark, atmospheric environment with dramatic lighting that highlights the clean edges and industrial build quality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCN8deOjsbA9anHpP8VLJaQD1hUvW-mONVcdF3LUnXKxaJZIKQyIhqYAZYb-Wsuq_aSG3VJCcCqTGR2j0ker0QcsNt9G-UzvONVoLfWrg1DIf2Iq24uH_BeXHtpB4x7Mgz7FaQfTlNj0yBqw8cjWMrdmXyzyffI8r5e5rqlNP188VSUCBIBW-6wQzJ33kpL9adv60Gu-2exc4uNdu_5Ap1QkLn1wIrKtr7XWeL9E6A4Ii8D61_S9zS-np9LelYjOVOvhQfm2g2-56w"/>
+<div class="absolute top-4 left-4 flex flex-col gap-2">
+<span class="bg-giallo-segnaletico text-black font-technical-label text-[10px] px-2 py-0.5 font-bold uppercase">SKU: MS-CRT-042</span>
+<span class="bg-white text-black font-technical-label text-[10px] px-2 py-0.5 font-bold uppercase">OMOLOGATO</span>
+</div>
+</div>
+<div class="mt-4 flex justify-between items-start">
+<div>
+<h3 class="font-technical-label text-on-surface text-sm uppercase tracking-tight">Segnale Divieto di Accesso - Classe 2</h3>
+<div class="flex items-center gap-2 mt-2">
+<span class="w-2 h-2 rounded-full bg-[#4CAF50]"></span>
+<span class="text-[#4CAF50] font-technical-label text-[10px] uppercase">Disponibile</span>
+</div>
+</div>
+<div class="text-right">
+<div class="font-headline-sm text-white text-2xl">€ 38.50</div>
+<button class="mt-2 w-8 h-8 flex items-center justify-center bg-giallo-segnaletico text-black rounded-sm hover:scale-105 active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Product Card 3 -->
+<div class="group cursor-pointer">
+<div class="product-image-container aspect-square p-8 border border-white/10 group-hover:border-giallo-segnaletico/30 transition-all relative overflow-hidden">
+<img class="w-full h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A detailed shot of a stop sign, hexagonal in shape with a bright red background and white 'STOP' lettering in a bold sans-serif font. The image showcases the high-end industrial finish of the sign, including its aluminum backing and precise 1px hairline edges. The surrounding lighting is cinematic and dark, emphasizing the stark contrast and life-saving utility of the object." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIzRSNefoaxusI3Y_RNBGxiRfuiHIiESxjQTKtpOrrkL4a5qQJ7MGu66eK81HE3ZHrBJE1vmUetvGwKyOutOw-PwWZssjEHj33C8PRP5dJnoqssCsJZJmaql_DQzszxM0AHHWXiVPYEZhH10pFMrQhfU-4xS3LnJ84_ywhy7e0g9iR3jE8SM2fkbV1vm41KXdhdegdP0yBipmrVO2S51d8ei6nPaL-pAJTznVwiXxj7K5RSG8stwOKbDz913vqbijCUCVgEQYAnC8"/>
+<div class="absolute top-4 left-4 flex flex-col gap-2">
+<span class="bg-giallo-segnaletico text-black font-technical-label text-[10px] px-2 py-0.5 font-bold uppercase">SKU: MS-CRT-099</span>
+<span class="bg-white text-black font-technical-label text-[10px] px-2 py-0.5 font-bold uppercase">OMOLOGATO</span>
+</div>
+</div>
+<div class="mt-4 flex justify-between items-start">
+<div>
+<h3 class="font-technical-label text-on-surface text-sm uppercase tracking-tight">Segnale di Stop Ottagonale - 60cm</h3>
+<div class="flex items-center gap-2 mt-2">
+<span class="w-2 h-2 rounded-full bg-[#4CAF50]"></span>
+<span class="text-[#4CAF50] font-technical-label text-[10px] uppercase">Disponibile</span>
+</div>
+</div>
+<div class="text-right">
+<div class="font-headline-sm text-white text-2xl">€ 51.00</div>
+<button class="mt-2 w-8 h-8 flex items-center justify-center bg-giallo-segnaletico text-black rounded-sm hover:scale-105 active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Repeat for rows... -->
+<!-- Product Card 4 (Sample for Grid filling) -->
+<div class="group cursor-pointer">
+<div class="product-image-container aspect-square p-8 border border-white/10 group-hover:border-giallo-segnaletico/30 transition-all relative overflow-hidden">
+<img class="w-full h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A close-up photograph of a blue circular directional road sign with a white arrow pointing right. The sign is presented with a professional matte finish and technical labeling on the rear edge. The setting is a minimalist architectural space with dark textures and high-contrast lighting that highlights the vibrant blue and crisp white geometry of the sign." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFjZU1y3SdoD4yXaZMYAm9WcOdAGpDBp-caXDn6nIgW25PMuFXgL_8_yNP713ajurHv2bd4Bm1c4INJHjdVK994IlMw5LaoQLeWu5qNKNTfrBPqk5QMLJF1HNYU-a4_qCU4eXgRrnzt0C96JNOCnphtNNP0f5F53sb4fm8o9fsIzoU7c9THFNfAbMqc8nFZCiGO8i8CqaatnrI-pp3fIobLZf10yB3g-7Be0sEEqez69L0T7_KeJsgwvGM3xH4tIHemiJSmumkleQ"/>
+<div class="absolute top-4 left-4 flex flex-col gap-2">
+<span class="bg-giallo-segnaletico text-black font-technical-label text-[10px] px-2 py-0.5 font-bold uppercase">SKU: MS-CRT-210</span>
+<span class="bg-white text-black font-technical-label text-[10px] px-2 py-0.5 font-bold uppercase">OMOLOGATO</span>
+</div>
+</div>
+<div class="mt-4 flex justify-between items-start">
+<div>
+<h3 class="font-technical-label text-on-surface text-sm uppercase tracking-tight">Segnale Direzione Obbligatoria - Destra</h3>
+<div class="flex items-center gap-2 mt-2">
+<span class="w-2 h-2 rounded-full bg-[#4CAF50]"></span>
+<span class="text-[#4CAF50] font-technical-label text-[10px] uppercase">Disponibile</span>
+</div>
+</div>
+<div class="text-right">
+<div class="font-headline-sm text-white text-2xl">€ 36.90</div>
+<button class="mt-2 w-8 h-8 flex items-center justify-center bg-giallo-segnaletico text-black rounded-sm hover:scale-105 active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Pagination -->
+<div class="mt-20 pt-10 border-t border-outline-variant/20 flex justify-between items-center">
+<button class="font-technical-label text-technical-label text-on-primary-container hover:text-white transition-colors uppercase">Precedente</button>
+<div class="flex gap-4">
+<span class="font-technical-label text-giallo-segnaletico px-2 border-b border-giallo-segnaletico">01</span>
+<span class="font-technical-label text-on-primary-container px-2 hover:text-white cursor-pointer">02</span>
+<span class="font-technical-label text-on-primary-container px-2 hover:text-white cursor-pointer">03</span>
+<span class="font-technical-label text-on-primary-container px-2">...</span>
+<span class="font-technical-label text-on-primary-container px-2 hover:text-white cursor-pointer">11</span>
+</div>
+<button class="font-technical-label text-technical-label text-on-primary-container hover:text-white transition-colors uppercase">Successivo</button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-dim dark:bg-surface-dim border-t border-outline-variant/20 grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop py-section-gap w-full mt-24">
+<div class="md:col-span-1">
+<div class="font-headline-md text-headline-md text-on-surface mb-4">MONDO<br/>SEGNALETICA</div>
+<div class="font-marginalia text-marginalia text-on-surface-variant uppercase space-y-1">
+<p>© 2024 MONDO SEGNALETICA</p>
+<p>ANAS CERTIFIED SUPPLIER</p>
+<p>P.IVA 02495810302</p>
+</div>
+</div>
+<div>
+<h4 class="font-technical-label text-primary mb-6 uppercase tracking-widest">Esplora</h4>
+<div class="flex flex-col gap-3 font-marginalia text-on-surface-variant">
+<a class="hover:text-on-surface transition-opacity duration-200 uppercase" href="#">CATALOGO</a>
+<a class="hover:text-on-surface transition-opacity duration-200 uppercase" href="#">SOLUZIONI</a>
+<a class="hover:text-on-surface transition-opacity duration-200 uppercase" href="#">CANTIERI</a>
+</div>
+</div>
+<div>
+<h4 class="font-technical-label text-primary mb-6 uppercase tracking-widest">Informazioni</h4>
+<div class="flex flex-col gap-3 font-marginalia text-on-surface-variant">
+<a class="hover:text-on-surface transition-opacity duration-200 uppercase" href="#">AZIENDA</a>
+<a class="hover:text-on-surface transition-opacity duration-200 uppercase" href="#">CONTATTI</a>
+<a class="hover:text-on-surface transition-opacity duration-200 uppercase" href="#">PRIVACY POLICY</a>
+</div>
+</div>
+<div class="flex flex-col justify-end items-end">
+<div class="text-right font-marginalia text-marginalia text-outline-variant uppercase">
+                BUILD_VERSION: 2.0.4<br/>
+                SECURE_ENCRYPTION: AES-256<br/>
+                SERVER_STATUS: OPTIMAL
+            </div>
+</div>
+</footer>
+<!-- Marginalia HUD Strip (Bottom of Page) -->
+<div class="bg-black py-4 px-margin-desktop flex justify-between items-center border-t border-white/5">
+<div class="font-marginalia text-[10px] text-outline-variant uppercase tracking-[0.2em]">
+            ISO 9001:2015 · CE 1289 · EN 12899-1:2007
+        </div>
+<div class="font-marginalia text-[10px] text-outline-variant uppercase tracking-[0.2em]">
+            Sincronizzazione Dati: 14:02:55 UTC
+        </div>
+</div>
+<script>
+        // Micro-interaction for filter checkboxes
+        document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                const label = this.nextElementSibling;
+                if(this.checked) {
+                    label.classList.add('text-giallo-segnaletico');
+                    label.classList.remove('text-on-surface');
+                } else {
+                    label.classList.remove('text-giallo-segnaletico');
+                    label.classList.add('text-on-surface');
+                }
+            });
+        });
+
+        // Atmospheric parallax hint for hero background if needed (none added for purity)
+    </script>
+</body></html>

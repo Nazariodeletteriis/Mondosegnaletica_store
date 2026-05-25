@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="it"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mondo Segnaletica | La Segnaletica che tiene la strada in ordine</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=IBM+Plex+Sans:wght@400;500;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#c9c6c5",
+                        "on-primary": "#313030",
+                        "primary-container": "#0a0a0a",
+                        "on-primary-container": "#7b7979",
+                        "background": "#141313",
+                        "on-background": "#e5e2e1",
+                        "surface": "#141313",
+                        "on-surface": "#e5e2e1",
+                        "surface-variant": "#353434",
+                        "on-surface-variant": "#c4c7c7",
+                        "surface-dim": "#141313",
+                        "outline": "#8e9192",
+                        "outline-variant": "#444748",
+                        "giallo-segnaletico": "#FFD700", /* Mapping standard traffic yellow */
+                        "rosso-vermiglio": "#E30613"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "section-gap": "120px",
+                        "unit": "4px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "64px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["IBM Plex Sans"],
+                        "marginalia": ["JetBrains Mono"],
+                        "technical-label": ["JetBrains Mono"],
+                        "headline-sm": ["Bebas Neue"],
+                        "headline-md": ["Bebas Neue"],
+                        "headline-lg": ["Bebas Neue"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "marginalia": ["12px", {"lineHeight": "12px", "letterSpacing": "0.15em", "fontWeight": "400"}],
+                        "technical-label": ["14px", {"lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "500"}],
+                        "headline-sm": ["32px", {"lineHeight": "32px", "letterSpacing": "0em", "fontWeight": "400"}],
+                        "headline-md": ["64px", {"lineHeight": "60px", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                        "headline-lg": ["120px", {"lineHeight": "100px", "letterSpacing": "-0.04em", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>body {
+    background-color: #141313;
+    color: #e5e2e1;
+    -webkit-font-smoothing: antialiased
+    }
+.hairline-border {
+    border: 0 solid rgba(142, 145, 146, 0.2)
+    }
+.cinematic-noise {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    opacity: 0.03;
+    z-index: 9999;
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAU-TO_mQ3wqTAkN5lVq2_1q5ktSfKjTuAKVAfOYI305WdEHvv2DxRsD6Ptaoe-LJ-Tr5D-FiqVmea5yi7kRVGLjpp3zwFyWwkVIdCVl5FyNoDlRxd06-eyHgXA7_Ihn3yqZvv5hVOxlaXanQ4ssSyHjiAOKMmkC1AQRwHpqkPf3GRoCHjCouawAjn56kUGur2qBndqEWeTC_9Uuzw5LoFXhflR17UHZA5n4trJxVRCOuSULX-TmBWt30IbvZZBZpjAH1PZqHKI8yI)
+    }
+.hero-overlay {
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.4) 0%, rgba(10, 10, 10, 0.8) 100%)
+    }
+.category-card:hover img {
+    transform: scale(1.05)
+    }
+.category-card {
+    overflow: hidden
+    }</style>
+</head>
+<body class="font-body-md overflow-x-hidden">
+<div class="cinematic-noise"></div>
+<!-- 01 / HERO SECTION -->
+<header class="relative h-screen w-full flex flex-col justify-between overflow-hidden">
+<!-- Background Image -->
+<div class="absolute inset-0 z-0">
+<img alt="Mondo Segnaletica Roadway" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8typBmd6jyc2Vq2RNdW60Hyp36wkXjm7vbZNGuuQ_S6YmdNOEJDHgUgaeWS3aC_tHnY4vRrcbVPbD47zaqpZLkVaGJiGU48W_AUuDOT3Lp7NnMGMKxOV0lz1DKWAewt6hjq3HKzYAkSZGzBNJqWwdV4rscDzxxxDB2pWR58_UUtZZMHpKTBaClUZhtkVHhDWpyRlPwGGOqI5tQJV33JqCa9jzqGnS-7ntaYM41AsHMONMRDRmW9wX6oCHhArcNqMzvc91JQCGVR4"/>
+<div class="absolute inset-0 hero-overlay"></div>
+</div>
+<!-- TopNavBar (Shared Component Mapping) -->
+<nav class="sticky top-0 z-50 w-full flex justify-between items-center px-margin-desktop py-4 bg-primary-container/80 backdrop-blur-md border-b border-outline-variant/20">
+<div class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-tight">MONDO SEGNALETICA</div>
+<div class="hidden md:flex gap-8">
+<a class="font-technical-label text-technical-label text-primary border-b border-primary hover:text-primary transition-colors duration-200" href="#">CATALOGO</a>
+<a class="font-technical-label text-technical-label text-on-surface hover:text-primary transition-colors duration-200" href="#">SOLUZIONI</a>
+<a class="font-technical-label text-technical-label text-on-surface hover:text-primary transition-colors duration-200" href="#">CANTIERI</a>
+<a class="font-technical-label text-technical-label text-on-surface hover:text-primary transition-colors duration-200" href="#">AZIENDA</a>
+<a class="font-technical-label text-technical-label text-on-surface hover:text-primary transition-colors duration-200" href="#">CONTATTI</a>
+</div>
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-primary cursor-pointer scale-95 active:opacity-80">shopping_cart</span>
+<button class="bg-giallo-segnaletico text-on-primary font-technical-label px-6 py-2 rounded-sm font-bold uppercase transition-transform active:scale-95">PREVENTIVO</button>
+</div>
+</nav>
+<!-- Hero Content -->
+<div class="relative z-10 px-margin-desktop flex flex-col justify-center flex-grow pt-20">
+<div class="grid grid-cols-12 gap-gutter items-center">
+<div class="col-span-12 lg:col-span-8">
+<p class="font-technical-label text-technical-label text-giallo-segnaletico mb-6 uppercase">01 / CATALOGO 2026</p>
+<h1 class="font-headline-lg text-headline-lg leading-none uppercase mb-8 max-w-4xl">
+                        LA SEGNALETICA CHE TIENE LA STRADA IN ORDINE.
+                    </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-10">
+                        Fornitore di Enti Pubblici, Imprese e Professionisti della viabilità. Tutti i prodotti omologati secondo il Codice della Strada.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-giallo-segnaletico text-on-primary font-headline-sm px-10 py-4 flex items-center gap-3 hover:brightness-110 transition-all">
+                            ESPLORA IL CATALOGO <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<button class="border border-on-surface/40 text-on-surface font-headline-sm px-10 py-4 hover:bg-on-surface hover:text-background transition-all">
+                            PARLA CON UN TECNICO
+                        </button>
+</div>
+</div>
+</div>
+</div>
+<!-- HUD Marginalia -->
+<div class="relative z-10 px-margin-desktop py-8 border-t border-outline-variant/20 w-full flex justify-between items-center font-marginalia text-marginalia text-on-surface-variant">
+<div class="flex gap-12">
+<span>43.8438° N · 10.5061° E</span>
+<span class="hidden md:inline">| LUCCA, TOSCANA</span>
+<span class="hidden md:inline">| FIG. II 47</span>
+</div>
+<div class="flex gap-12 items-center">
+<span class="text-giallo-segnaletico">ANAS CERTIFIED</span>
+<span>| 24/48H</span>
+<div class="flex flex-col items-center ml-4 animate-bounce">
+<span class="material-symbols-outlined text-[16px]">expand_more</span>
+</div>
+</div>
+</div>
+</header>
+<!-- 02 / CATALOGO SECTION -->
+<section class="bg-background py-section-gap px-margin-desktop border-b border-outline-variant/20">
+<div class="mb-20">
+<p class="font-technical-label text-technical-label text-giallo-segnaletico mb-4 uppercase">02 / CATALOGO</p>
+<h2 class="font-headline-md text-headline-md uppercase">SEI CATEGORIE. MILLEDUECENTO PRODOTTI.</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Category Cards -->
+<div class="category-card relative aspect-[3/4] bg-surface-variant group cursor-pointer">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Vertical road sign standing against a moody industrial background with high contrast shadows and sharp lines, cinematic editorial style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDr1boY2iyuLfM1T5bsqpohFRAEg39qtC00vHDJICCHPAfjFfwa1maZ3FwWapPJfkEECwErP1cX_fMksei4SwPzKi2zQgAP8pyoFIkLYr04sMjVxZT3Vs4qqh8y3Kk6EbGN2IONBHi8cPks_ovVo1cqcG_LQctUkutxUHrVEQikvIovqD5heu2OZZ8DzefLuckJUdkSjR0gXRQgwyQImyD2g9yKvYqLtvCDkZ8FkOKlxGWouCK9mH_6MdI14m9566CPpDU7O911Tfg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent p-8 flex flex-col justify-end">
+<span class="font-technical-label text-marginalia text-giallo-segnaletico mb-2">CAT. 01</span>
+<h3 class="font-headline-sm text-headline-sm text-white uppercase">Segnaletica Verticale</h3>
+</div>
+</div>
+<div class="category-card relative aspect-[3/4] bg-surface-variant group cursor-pointer">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Freshly painted white road markings on dark asphalt, shot from a low angle with dramatic lighting emphasizing texture and precision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5BpCCtqLfw4ZhetlmRIckPZJnAg-DyJYwf3_ggj-IBUitFPl0HWLkH0Tm6cM8KSw87mZdE-tE31pIWzNRo6dBGFyhlsUvaEtS6ZxzR4w3oXdDwmlUaRulVZlJ2PZmU_jmnUMUeQjcVIvOsEWY9h0Xvs2tU2DNu5delfUZ2y5cNBeaXCViriNn-v27Mcsh4qlk0gXvZG4mp7E30N2QEdA_1QjsKH3dUi9CyIWKrvmxlA8Lam5S5DcSv08Gm4GWRAfJ7nW42gqI6B0"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent p-8 flex flex-col justify-end">
+<span class="font-technical-label text-marginalia text-giallo-segnaletico mb-2">CAT. 02</span>
+<h3 class="font-headline-sm text-headline-sm text-white uppercase">Orizzontale</h3>
+</div>
+</div>
+<div class="category-card relative aspect-[3/4] bg-surface-variant group cursor-pointer">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Vibrant orange traffic cones stacked in an industrial warehouse with harsh overhead lighting and deep black shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmqjIqtjn0oJR272muvi1cPnwC4znDNjqLGk6o528HjJ00aNGcqRCmIAsGRl5nWotrU3ql5F6XyFlcVHDkUzYkLN3NUKKWWe2qSIHd0nYig5808k3x74Zo-eotvfAvVu7Cfi5bfWbJ8inv6KiJKFiIGEX-0iJ6RCTFkU_hUoZYnvGNn4S8LJV4mIBly2-QivIFYC7-LkPNdw1h9qY0HlIhC_g7FGzGY51OSgTBNAy8CcyaL3dQ2Osc2QtwRGf7itQmUWJ6D1A1EuE"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent p-8 flex flex-col justify-end">
+<span class="font-technical-label text-marginalia text-giallo-segnaletico mb-2">CAT. 03</span>
+<h3 class="font-headline-sm text-headline-sm text-white uppercase">Coni &amp; Transenne</h3>
+</div>
+</div>
+<div class="category-card relative aspect-[3/4] bg-surface-variant group cursor-pointer">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Road delineators with reflective strips at night, captured with a long exposure creating light streaks from passing vehicles." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvun7Hyh3dzvyQLgrLQvulSrxZcGg2rS-il6wVUT_ln1A6E6LIWs9WaHmnRrOZyGS6w8oLh8CHFXyo9WSKwjsaP_xHVEGnpVvDFtT1JFBXbP3pX931yvq1mLiKZ7GPWHGzrx3rH1hoet6HxoP9lCutXkNgAjf3YZmKQ7YUbV6UAi-lDbJpFtLrksxZJgRqxDXwQ96mE11V4gQY1Tvjc5mMW3kQQCialAsu3A2r51Hwzf2Q6Rdt10d-OaIelt-z98SKIrNHojJy0nU"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent p-8 flex flex-col justify-end">
+<span class="font-technical-label text-marginalia text-giallo-segnaletico mb-2">CAT. 04</span>
+<h3 class="font-headline-sm text-headline-sm text-white uppercase">Delineatori</h3>
+</div>
+</div>
+<div class="category-card relative aspect-[3/4] bg-surface-variant group cursor-pointer">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Construction site at night with warning lights and barricades, focusing on the technical safety equipment in a cinematic lighting setup." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCE0OyDMhmbO_Q3E5RLE5sqQrJK8AHT5KXoxB8yTDr0XEWCfi1l0waE4eO_-pnou0svqSfW_uc100_QzBXpv6GlcPokjw7hr_I8HL0eommssU2JclNQ24yaIcu9Z3izi6gRPwygs2vjm3bbjq_G1iyzndaCgCXTiHX3lSpsl2JrTd5k0S2hw5B7UxDIE4Gt5gyMTR3NMXlmKA87zWZ_WyvIHlTq4Qb8kZoqEnr75D5PPIMN4HQFbxIbc7vsPCxwNyhHGYetNmgx_mQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent p-8 flex flex-col justify-end">
+<span class="font-technical-label text-marginalia text-giallo-segnaletico mb-2">CAT. 05</span>
+<h3 class="font-headline-sm text-headline-sm text-white uppercase">Cantieristica</h3>
+</div>
+</div>
+<div class="category-card relative aspect-[3/4] bg-surface-variant group cursor-pointer">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Bollards on a sleek urban sidewalk at dusk, minimalist aesthetic with clean architectural lines and neutral tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoajOCSqYxfoI8UB1zZuf6YeMUX9R2bKnkWExYMewTWeiNW-1B1iTBzuSV_qHJMyVmYsLTp1WjM2Qy2yQjcMNWsP68WY4cvNzSvNAW30zoZA_lHlGSdwYWH7slQGrr-AsNVNIoWYlxpSAQcSE351arqREzpDoN4Yd0-Q3F62jLFIaHu3N0c9etqbdzXt_qH8b-yWS8O_saRRZbFFTjW9Cs_DxgY28rVQ0RCFXD4O7sFFpVNxEwhM6kSfgoc4_0kulTcbEA23uW6ig"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent p-8 flex flex-col justify-end">
+<span class="font-technical-label text-marginalia text-giallo-segnaletico mb-2">CAT. 06</span>
+<h3 class="font-headline-sm text-headline-sm text-white uppercase">Dissuasori</h3>
+</div>
+</div>
+</div>
+</section>
+<!-- 03 / BESTSELLER SECTION -->
+<section class="bg-primary-container py-24 overflow-hidden border-b border-outline-variant/20">
+<div class="px-margin-desktop mb-12 flex justify-between items-end">
+<div>
+<p class="font-technical-label text-technical-label text-giallo-segnaletico mb-2 uppercase">03 / BESTSELLER</p>
+<h2 class="font-headline-sm text-headline-sm uppercase">I PIÙ RICHIESTI DAGLI ENTI</h2>
+</div>
+<div class="flex gap-4">
+<button class="w-12 h-12 border border-outline flex items-center justify-center hover:bg-on-surface hover:text-background transition-colors">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="w-12 h-12 border border-outline flex items-center justify-center hover:bg-on-surface hover:text-background transition-colors">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="flex gap-gutter px-margin-desktop overflow-x-auto no-scrollbar">
+<!-- Product Card -->
+<div class="min-w-[300px] flex-shrink-0 bg-surface p-6 border border-white/10">
+<div class="aspect-square bg-[#1A1A1A] mb-6 flex items-center justify-center">
+<img class="max-h-[80%] opacity-80" data-alt="Technical product shot of a stop sign with micro-prismatic sheeting, ultra-high resolution focusing on the reflective texture and material quality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDE5H-Pw1V6x6HqwDnj-EVRk3Nq1I_SNMpkZDM_GG9YEa-wzZSHFcHhb5YwBFQNBFyfMuIcpibjnBZZFMvQc8YasvACyJN7nnEUCN_LK87k62yyk7q0P3p-xcqzBgeALgRsy4zyw-2U8AYBcjId4e7gU4e-sgILLIVDfX_NF13OA22ytKa0o3vgQguFb6CmfqtcEW4CITXmCSi9DypGmDxxGrrFXKT70FVD_dNqk4GCHShe3eVy6slWoSxOStH3kHhPxJNO8v38GI4"/>
+</div>
+<div class="space-y-4">
+<div class="flex justify-between items-start">
+<h4 class="font-technical-label text-on-surface uppercase">Fig. II 403 Stop</h4>
+<span class="text-marginalia text-giallo-segnaletico">SKU: MS-403</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-headline-sm text-white">€ 84,00</span>
+<div class="flex items-center gap-1">
+<div class="w-2 h-2 rounded-full bg-green-500"></div>
+<span class="text-marginalia text-green-500">DISPONIBILE</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="min-w-[300px] flex-shrink-0 bg-surface p-6 border border-white/10">
+<div class="aspect-square bg-[#1A1A1A] mb-6 flex items-center justify-center">
+<img class="max-h-[80%] opacity-80" data-alt="Heavy duty traffic cone with double reflective strips, photographed in a professional studio setting with sharp focus on the polymer texture." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAtzZcz9gMIKfrhKy6x1ButIPFnHanAyo4qOrFNcGfd69fISz1JRar6tc8Xxl681F4NH1bmbrOjsk6pnPYf2ju4RB8e84d4jZEWVhcb2iX3S2lPDU_eudYGD2-YEGVF59g8GJGOcXibHlXySpmwqpxC1B9UmkGBUrAqPu5GFKelxsxq-Qd0TcnP8n9m7X5aeYn6AQOStzpECuqdZP5iLfpCR0dJkbBHUea7uTaH3bp081hOkkIb9LNW55ppmT3eWr1gADNTKbWSws"/>
+</div>
+<div class="space-y-4">
+<div class="flex justify-between items-start">
+<h4 class="font-technical-label text-on-surface uppercase">Cono Reflettente 75cm</h4>
+<span class="text-marginalia text-giallo-segnaletico">SKU: MS-C75</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-headline-sm text-white">€ 18,50</span>
+<div class="flex items-center gap-1">
+<div class="w-2 h-2 rounded-full bg-green-500"></div>
+<span class="text-marginalia text-green-500">DISPONIBILE</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 3 -->
+<div class="min-w-[300px] flex-shrink-0 bg-surface p-6 border border-white/10">
+<div class="aspect-square bg-[#1A1A1A] mb-6 flex items-center justify-center">
+<img class="max-h-[80%] opacity-80" data-alt="Safety barrier with interlocking mechanism, high-density polyethylene construction shown in detail under neutral lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkG13RQchjyJaChQbqmbTavx47cbqS2d-hG6rl-1otoBZY31gOx8v1X8fwPdS7XCA43oL0xhdqjyp0wcVuOfldeu2uhuP7jMHOLAiEqgjDImKpzhp__n3bRMfzJPE_musCAjKDbJ4DWdNcrUmu5QlTIh8RiDQnLSP6Awbzn2LSBuBwJxBlV65V9F9dUYTMpegOICflfGW8PvNyhfr6J1SHA8kDAm4TkYhw2CTNI01Y80Etbreh5jub38ptcKHjrioBOxtYHRDUR3s"/>
+</div>
+<div class="space-y-4">
+<div class="flex justify-between items-start">
+<h4 class="font-technical-label text-on-surface uppercase">Barriera New Jersey</h4>
+<span class="text-marginalia text-giallo-segnaletico">SKU: MS-NJ1</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-headline-sm text-white">€ 120,00</span>
+<div class="flex items-center gap-1">
+<div class="w-2 h-2 rounded-full bg-green-500"></div>
+<span class="text-marginalia text-green-500">DISPONIBILE</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 4 -->
+<div class="min-w-[300px] flex-shrink-0 bg-surface p-6 border border-white/10">
+<div class="aspect-square bg-[#1A1A1A] mb-6 flex items-center justify-center">
+<img class="max-h-[80%] opacity-80" data-alt="Warning sign for road works ahead, high-visibility yellow with black graphic, industrial finish with visible mounting holes." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxfuxlE4ETRcrhVFHRMGicw8CEBJ3CTHHQeWDAqIhmdndUUd6g0SRF8zLwwuP2D_BHy2vp-gjE4pJqmgqNT6wteNVaujqz1iB_AEav_8HCw_4FEmWsYTtJupiLZz6NdQ2VWQF58wMKwYKvQJCi7BrwTTfkqzD9hCjp8GSfcPXMq6O56gBM4kLO7Y7famVJroE8HA692_sznzJELFuC8TOaBE54aHxADAbcbgHkreaf7QkfQ1gJXhpJM7_-lbd0-mzIIgZtCvS0Zgo"/>
+</div>
+<div class="space-y-4">
+<div class="flex justify-between items-start">
+<h4 class="font-technical-label text-on-surface uppercase">Lavori in Corso</h4>
+<span class="text-marginalia text-giallo-segnaletico">SKU: MS-LVC</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-headline-sm text-white">€ 45,00</span>
+<div class="flex items-center gap-1">
+<div class="w-2 h-2 rounded-full bg-green-500"></div>
+<span class="text-marginalia text-green-500">DISPONIBILE</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 04 / SOLUZIONI SECTION -->
+<section class="bg-background py-section-gap px-margin-desktop grid grid-cols-12 gap-gutter border-b border-outline-variant/20">
+<div class="col-span-12 lg:col-span-4">
+<p class="font-technical-label text-technical-label text-giallo-segnaletico mb-4 uppercase">04 / SOLUZIONI</p>
+<h2 class="font-headline-md text-headline-md uppercase mb-8">ENGINEERING<br/>DELLA VIABILITÀ.</h2>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-12">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div class="space-y-4">
+<h3 class="font-headline-sm text-headline-sm uppercase border-l-2 border-giallo-segnaletico pl-4">Cantieri Temporanei</h3>
+<p class="text-on-surface-variant font-body-md">Sistemi modulari per la messa in sicurezza di aree di cantiere a lungo e breve termine. Soluzioni certificate per autostrade e centri urbani.</p>
+</div>
+<div class="space-y-4">
+<h3 class="font-headline-sm text-headline-sm uppercase border-l-2 border-giallo-segnaletico pl-4">Viabilità Urbana</h3>
+<p class="text-on-surface-variant font-body-md">Arredo tecnico e segnaletica specifica per la gestione dei flussi cittadini, piste ciclabili e zone a traffico limitato.</p>
+</div>
+<div class="space-y-4">
+<h3 class="font-headline-sm text-headline-sm uppercase border-l-2 border-giallo-segnaletico pl-4">Strade Rurali</h3>
+<p class="text-on-surface-variant font-body-md">Segnaletica ad alta resistenza per ambienti extra-urbani, resistente agli agenti atmosferici estremi e all'usura prolungata.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 05 / GARANZIE SECTION -->
+<section class="bg-primary-container py-section-gap px-margin-desktop border-b border-outline-variant/20">
+<p class="font-technical-label text-technical-label text-giallo-segnaletico mb-12 uppercase text-center">05 / PERFORMANCE &amp; GARANZIE</p>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter text-center">
+<div class="space-y-4">
+<span class="font-headline-lg text-headline-lg text-giallo-segnaletico block">1.200+</span>
+<p class="font-technical-label text-on-surface uppercase">PRODOTTI IN PRONTA CONSEGNA</p>
+</div>
+<div class="space-y-4">
+<span class="font-headline-lg text-headline-lg text-giallo-segnaletico block">24/48H</span>
+<p class="font-technical-label text-on-surface uppercase">SPEDIZIONE ESPRESSA NAZIONALE</p>
+</div>
+<div class="space-y-4">
+<span class="font-headline-lg text-headline-lg text-giallo-segnaletico block">100%</span>
+<p class="font-technical-label text-on-surface uppercase">OMOLOGAZIONE CODICE STRADA</p>
+</div>
+<div class="space-y-4">
+<span class="font-headline-lg text-headline-lg text-giallo-segnaletico block">30+</span>
+<p class="font-technical-label text-on-surface uppercase">ANNI DI ESPERIENZA TECNICA</p>
+</div>
+</div>
+</section>
+<!-- 06 / CONTATTI SECTION -->
+<section class="bg-background py-section-gap px-margin-desktop grid grid-cols-12 gap-gutter items-center">
+<div class="col-span-12 lg:col-span-6">
+<p class="font-technical-label text-technical-label text-giallo-segnaletico mb-4 uppercase">06 / CONTATTI</p>
+<h2 class="font-headline-md text-headline-md uppercase mb-8">PARLA CON<br/>UN TECNICO.</h2>
+<p class="text-on-surface-variant max-w-md mb-12">Hai bisogno di una consulenza specifica per un bando o un cantiere complesso? I nostri ingegneri sono a tua disposizione.</p>
+<div class="space-y-4">
+<div class="flex items-center gap-4 group cursor-pointer">
+<span class="material-symbols-outlined text-giallo-segnaletico">phone</span>
+<span class="font-headline-sm text-headline-sm group-hover:text-giallo-segnaletico transition-colors">+39 0583 000000</span>
+</div>
+<div class="flex items-center gap-4 group cursor-pointer">
+<span class="material-symbols-outlined text-giallo-segnaletico">mail</span>
+<span class="font-headline-sm text-headline-sm group-hover:text-giallo-segnaletico transition-colors">INFO@MONDOSEGNALETICA.IT</span>
+</div>
+</div>
+</div>
+<div class="col-span-12 lg:col-span-6 bg-surface p-12 border border-white/5">
+<form class="space-y-8">
+<div class="relative">
+<label class="font-technical-label text-marginalia text-on-surface-variant absolute -top-4 left-0">NOMINATIVO</label>
+<input class="w-full bg-transparent border-0 border-b border-outline-variant py-4 focus:ring-0 focus:border-giallo-segnaletico transition-colors text-white uppercase placeholder-white/20" placeholder="NOME E COGNOME" type="text"/>
+</div>
+<div class="relative">
+<label class="font-technical-label text-marginalia text-on-surface-variant absolute -top-4 left-0">EMAIL AZIENDALE</label>
+<input class="w-full bg-transparent border-0 border-b border-outline-variant py-4 focus:ring-0 focus:border-giallo-segnaletico transition-colors text-white uppercase" placeholder="EMAIL@COMPANY.COM" type="email"/>
+</div>
+<div class="relative">
+<label class="font-technical-label text-marginalia text-on-surface-variant absolute -top-4 left-0">MESSAGGIO</label>
+<textarea class="w-full bg-transparent border-0 border-b border-outline-variant py-4 focus:ring-0 focus:border-giallo-segnaletico transition-colors text-white uppercase" placeholder="DESCRIVI LA TUA ESIGENZA" rows="3"></textarea>
+</div>
+<button class="w-full bg-giallo-segnaletico text-on-primary font-headline-sm py-6 uppercase hover:bg-white transition-colors" type="submit">INVIA RICHIESTA</button>
+</form>
+</div>
+</section>
+<!-- FOOTER (Shared Component Mapping) -->
+<footer class="bg-surface-dim border-t border-outline-variant/20 px-margin-desktop py-section-gap w-full grid grid-cols-1 md:grid-cols-4 gap-gutter">
+<div class="col-span-1">
+<div class="font-headline-md text-headline-md text-on-surface mb-8 uppercase leading-tight">MONDO<br/>SEGNALETICA</div>
+<p class="font-marginalia text-marginalia text-on-surface-variant uppercase">© 2024 MONDO SEGNALETICA - ANAS CERTIFIED</p>
+</div>
+<div class="col-span-1 flex flex-col gap-4">
+<h5 class="font-technical-label text-primary uppercase mb-4">Navigazione</h5>
+<a class="font-marginalia text-marginalia text-on-surface-variant hover:text-on-surface transition-colors" href="#">CATALOGO</a>
+<a class="font-marginalia text-marginalia text-on-surface-variant hover:text-on-surface transition-colors" href="#">SOLUZIONI</a>
+<a class="font-marginalia text-marginalia text-on-surface-variant hover:text-on-surface transition-colors" href="#">CANTIERI</a>
+<a class="font-marginalia text-marginalia text-on-surface-variant hover:text-on-surface transition-colors" href="#">AZIENDA</a>
+<a class="font-marginalia text-marginalia text-on-surface-variant hover:text-on-surface transition-colors" href="#">CONTATTI</a>
+</div>
+<div class="col-span-1 flex flex-col gap-4">
+<h5 class="font-technical-label text-primary uppercase mb-4">Supporto</h5>
+<a class="font-marginalia text-marginalia text-on-surface-variant hover:text-on-surface transition-colors" href="#">PRIVACY POLICY</a>
+<a class="font-marginalia text-marginalia text-on-surface-variant hover:text-on-surface transition-colors" href="#">CONDIZIONI DI VENDITA</a>
+<a class="font-marginalia text-marginalia text-on-surface-variant hover:text-on-surface transition-colors" href="#">RESI E RIMBORSI</a>
+</div>
+<div class="col-span-1">
+<h5 class="font-technical-label text-primary uppercase mb-4">Certificazioni</h5>
+<div class="flex flex-wrap gap-4">
+<div class="border border-outline-variant p-2 flex items-center justify-center">
+<span class="text-[10px] font-technical-label text-on-surface-variant">ISO 9001</span>
+</div>
+<div class="border border-outline-variant p-2 flex items-center justify-center">
+<span class="text-[10px] font-technical-label text-on-surface-variant">ANAS OK</span>
+</div>
+<div class="border border-outline-variant p-2 flex items-center justify-center">
+<span class="text-[10px] font-technical-label text-on-surface-variant">CE MARK</span>
+</div>
+</div>
+<div class="mt-12 font-marginalia text-marginalia text-on-surface-variant">
+                VIA DELLA VIABILITÀ, 47<br/>55100 LUCCA (LU)<br/>P.IVA 01234567890
+            </div>
+</div>
+</footer>
+<script>
+        // Smooth reveal on scroll interaction
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-10');
+            observer.observe(section);
+        });
+
+        // Interactive HUD updates
+        function updateTime() {
+            const now = new Date();
+            const timeString = now.toTimeString().split(' ')[0];
+            const timestampElements = document.querySelectorAll('.hud-timestamp');
+            timestampElements.forEach(el => el.innerText = timeString);
+        }
+        setInterval(updateTime, 1000);
+    </script>
+</body></html>

@@ -1,5 +1,17 @@
 # --- LOCALE ONLY (mai su git) ---
 graphify-out/
+.claude/
+
+# --- Assets di test / interni (non versionare) ---
+assets/img/50_montato.png
+assets/img/50_smontato.png
+assets/video/test_segnaletica.mp4
+assets/video/test_segnaletica_2.mp4
+assets/**/*.md
+assets/*.md
+
+# --- Windows WSL Zone.Identifier ---
+*:Zone.Identifier
 
 # Video asset grandi (>100MB, non versionare)
 public/wp-content/themes/mondosegnaletica/assets/video/
