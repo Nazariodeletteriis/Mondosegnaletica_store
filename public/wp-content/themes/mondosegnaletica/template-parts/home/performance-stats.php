@@ -12,7 +12,7 @@ $stats = [
 ?>
 
 <section class="section-performance" aria-labelledby="performance-title">
-	<div class="container--wide container">
+	<div class="container--wide">
 
 		<div class="section-header" style="margin-bottom:var(--space-12)">
 			<span class="label-section">04 / NUMERI</span>

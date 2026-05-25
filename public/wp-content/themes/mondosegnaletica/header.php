@@ -16,8 +16,7 @@
 	<?php get_template_part( 'template-parts/header/hud-strip' ); ?>
 
 	<header class="site-header" role="banner">
-		<div class="container">
-			<div class="site-header__inner">
+		<div class="site-header__inner">
 
 				<!-- Logo -->
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="site-logo" rel="home" aria-label="<?php echo esc_attr( get_bloginfo( 'name' ) . ' — Homepage' ); ?>">
@@ -55,7 +54,6 @@
 					<?php endif; ?>
 				</div>
 
-			</div>
 		</div>
 	</header>
 

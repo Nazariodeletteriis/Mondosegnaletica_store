@@ -1,7 +1,12 @@
 # --- LOCALE ONLY (mai su git) ---
-assets/
 graphify-out/
-*.md
+
+# Video asset grandi (>100MB, non versionare)
+public/wp-content/themes/mondosegnaletica/assets/video/
+
+# Immagini brand/reference locali (non versionare)
+public/wp-content/themes/mondosegnaletica/assets/images/
+public/wp-content/themes/mondosegnaletica/assets/brand/
 
 # --- DDEV ---
 .ddev/

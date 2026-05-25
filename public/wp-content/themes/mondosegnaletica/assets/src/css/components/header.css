@@ -1,0 +1,250 @@
+/* --- HUD Strip (sopra header) --- */
+.hud-strip {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: calc(var(--z-sticky) + 1); /* sopra site-header */
+	width: 100%;
+	height: var(--hud-height);
+	background: var(--color-surface);
+	border-bottom: var(--border-hairline);
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+/* Admin bar offset per hud-strip fixed */
+body.admin-bar .hud-strip {
+	top: var(--admin-bar-height, 32px);
+}
+
+.hud-strip__inner {
+	display: flex;
+	align-items: center;
+	gap: var(--space-6);
+	font-family: var(--font-mono);
+	font-size: var(--text-xs);
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var(--color-accent);
+	white-space: nowrap;
+}
+
+.hud-strip__sep {
+	color: var(--color-border);
+	font-weight: 300;
+}
+
+/* --- Site Header --- */
+.site-header {
+	position: fixed;
+	top: var(--hud-height);
+	left: 0;
+	right: 0;
+	z-index: var(--z-sticky);
+	background: rgba(10, 10, 10, 1); /* solido pieno — non var() per evitare problemi transizione */
+	border-bottom: 1px solid rgba(245, 244, 240, 0.15);
+	width: 100%;
+	backdrop-filter: blur(0px); /* esplicito per transizione pulita */
+	-webkit-backdrop-filter: blur(0px);
+	transition: background 250ms ease, border-color 250ms ease, backdrop-filter 250ms ease;
+}
+
+/* Admin bar offset per fixed header */
+body.admin-bar .site-header {
+	top: calc(var(--hud-height) + var(--admin-bar-height, 32px));
+}
+
+/* Compensazione layout: il fixed toglie l'header dal flusso.
+   Il site-content riceve padding-top pari all'altezza totale header + hud. */
+.site-content {
+	padding-top: calc(var(--hud-height) + var(--header-height));
+}
+
+/* Eccezione: sull'hero la compensazione non serve (hero è 100svh) */
+.home .site-content {
+	padding-top: 0;
+}
+
+/* Header semi-trasparente + blur quando hero è in viewport */
+.hero-in-view .site-header {
+	background: rgba(10, 10, 10, 0.15);
+	border-bottom-color: rgba(245, 244, 240, 0.08);
+	backdrop-filter: blur(16px);
+	-webkit-backdrop-filter: blur(16px);
+}
+
+.site-header__inner {
+	height: var(--header-height);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: var(--space-8);
+	padding-inline: clamp(24px, 6vw, 96px);
+}
+
+/* Logo */
+.site-logo {
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+.site-logo__svg {
+	height: 40px;
+	width: auto;
+	/* Logo dark su sfondo nero: inverte black→white, mantiene i gradi */
+	filter: invert(1);
+}
+
+/* Primary Nav */
+.nav-primary {
+	display: flex;
+	align-items: center;
+}
+
+.nav-primary__list {
+	display: flex;
+	align-items: center;
+	gap: var(--space-8);
+}
+
+.nav-primary__item {
+	position: relative;
+}
+
+.nav-primary__link {
+	font-family: var(--font-mono);
+	font-size: var(--text-sm);
+	font-weight: 400;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-text);
+	text-decoration: none;
+	transition: color var(--transition-fast);
+	padding-block: var(--space-2);
+}
+
+.nav-primary__link:hover,
+.nav-primary__link--active {
+	color: var(--color-accent);
+}
+
+.nav-primary__link--active::after {
+	content: '';
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	right: 0;
+	height: 1px;
+	background: var(--color-accent);
+}
+
+/* Header Actions */
+.header-actions {
+	display: flex;
+	align-items: center;
+	gap: var(--space-4);
+	flex-shrink: 0;
+}
+
+.header-cart {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	color: var(--color-text);
+	transition: color var(--transition-fast);
+	text-decoration: none;
+}
+
+.header-cart:hover {
+	color: var(--color-accent);
+}
+
+.header-cart__count {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	width: 16px;
+	height: 16px;
+	background: var(--color-accent);
+	color: var(--color-bg);
+	border-radius: 50%;
+	font-family: var(--font-mono);
+	font-size: 9px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1;
+}
+
+.header-cart__count:empty,
+.header-cart__count[data-count="0"] {
+	display: none;
+}
+
+/* Mobile toggle */
+.nav-toggle {
+	display: none;
+	flex-direction: column;
+	gap: 5px;
+	padding: var(--space-2);
+	cursor: pointer;
+}
+
+.nav-toggle__bar {
+	width: 24px;
+	height: 1px;
+	background: var(--color-text);
+	transition: transform var(--transition-fast), opacity var(--transition-fast);
+}
+
+@media (max-width: 1024px) {
+	.nav-primary {
+		display: none;
+		position: fixed;
+		inset: 0;
+		top: calc(var(--hud-height) + var(--header-height));
+		background: var(--color-bg);
+		border-top: var(--border-hairline);
+		z-index: var(--z-overlay);
+		padding: var(--space-8);
+	}
+
+	.nav-primary--open {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.nav-primary__list {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: var(--space-6);
+	}
+
+	.nav-primary__link {
+		font-size: var(--text-xl);
+	}
+
+	.nav-toggle {
+		display: flex;
+	}
+}
+
+@media (max-width: 480px) {
+	.site-header__inner {
+		padding-inline: var(--space-4);
+	}
+
+	.btn--header-cta {
+		display: none;
+	}
+}

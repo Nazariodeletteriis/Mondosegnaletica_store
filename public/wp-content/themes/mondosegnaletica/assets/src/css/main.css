@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+/* Mappa i token Sistema Strada v2 in Tailwind v4 @theme
+ * Da qui nascono le utility classes: bg-bg, text-accent, font-display, ecc. */
+@theme {
+  /* Colors */
+  --color-bg:           #0A0A0A;
+  --color-surface:      #141313;
+  --color-surface-2:    #1C1C1C;
+  --color-text:         #F5F4F0;
+  --color-text-muted:   rgba(245, 244, 240, 0.55);
+  --color-accent:       #FFCC00;
+  --color-accent-hover: #E6B800;
+  --color-error:        #C8102E;
+  --color-success:      #2E7D32;
+  --color-warning:      #F57C00;
+  --color-border:       rgba(245, 244, 240, 0.15);
+  --color-border-accent: rgba(255, 204, 0, 0.35);
+
+  /* Typography */
+  --font-display: 'Anton', sans-serif;
+  --font-body:    'IBM Plex Sans', sans-serif;
+  --font-mono:    'JetBrains Mono', monospace;
+
+  /* Font sizes */
+  --text-xs:   11px;
+  --text-sm:   13px;
+  --text-base: 16px;
+  --text-lg:   18px;
+  --text-xl:   20px;
+  --text-2xl:  24px;
+  --text-3xl:  32px;
+  --text-4xl:  48px;
+  --text-5xl:  64px;
+  --text-6xl:  96px;
+
+  /* Spacing scale (4px base) */
+  --spacing-1:  4px;
+  --spacing-2:  8px;
+  --spacing-3:  12px;
+  --spacing-4:  16px;
+  --spacing-6:  24px;
+  --spacing-8:  32px;
+  --spacing-12: 48px;
+  --spacing-16: 64px;
+  --spacing-24: 96px;
+  --spacing-32: 128px;
+
+  /* Geometry */
+  --radius-sm:   2px;
+  --radius:      4px;
+  --radius-none: 0px;
+
+  /* Layout */
+  --container-max:  1440px;
+  --container-wide: 1280px;
+}
+
+/* Variabili CSS globali (runtime) — le usa anche il PHP */
+:root {
+  --color-bg:           #0A0A0A;
+  --color-surface:      #141313;
+  --color-surface-2:    #1C1C1C;
+  --color-text:         #F5F4F0;
+  --color-text-muted:   rgba(245, 244, 240, 0.55);
+  --color-accent:       #FFCC00;
+  --color-accent-hover: #E6B800;
+  --color-error:        #C8102E;
+  --color-success:      #2E7D32;
+  --color-warning:      #F57C00;
+  --color-border:       rgba(245, 244, 240, 0.15);
+  --color-border-accent: rgba(255, 204, 0, 0.35);
+  --font-display: 'Anton', sans-serif;
+  --font-body:    'IBM Plex Sans', sans-serif;
+  --font-mono:    'JetBrains Mono', monospace;
+  --text-xs: 11px; --text-sm: 13px; --text-base: 16px;
+  --text-lg: 18px; --text-xl: 20px; --text-2xl: 24px;
+  --text-3xl: 32px; --text-4xl: 48px; --text-5xl: 64px;
+  --text-hero: clamp(64px, 10vw, 140px);
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-6: 24px; --space-8: 32px; --space-12: 48px;
+  --space-16: 64px; --space-24: 96px; --space-32: 128px;
+  --radius: 4px; --radius-none: 0px;
+  --border-hairline: 1px solid var(--color-border);
+  --container-max: 1440px; --container-wide: 1280px;
+  --header-height: 72px; --hud-height: 36px;
+  --transition-fast: 150ms ease; --transition-base: 250ms ease; --transition-slow: 400ms ease;
+  --z-sticky: 100; --z-overlay: 200; --z-modal: 300;
+}
+
+@import './base.css';
+@import './components/header.css';
+@import './components/footer.css';
+@import './components/product-card.css';
+@import './pages/home.css';
+@import './pages/archive.css';
+@import './pages/single-product.css';

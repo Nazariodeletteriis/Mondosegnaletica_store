@@ -24,12 +24,29 @@ function ms_enqueue_assets(): void {
 	$theme_dir = get_template_directory();
 	$version   = wp_get_theme()->get( 'Version' );
 
+	// Material Symbols — caricato prima dei font per evitare FOUT sulle icone
+	wp_enqueue_style(
+		'mondosegnaletica-icons',
+		'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0&display=block',
+		[],
+		null
+	);
+
+	// Google Fonts — caricato via WP per caching ottimale
+	wp_enqueue_style(
+		'mondosegnaletica-fonts',
+		'https://fonts.googleapis.com/css2?family=Anton:wght@400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap',
+		[],
+		null
+	);
+
 	$manifest = ms_get_vite_manifest();
 
 	if ( $manifest ) {
 		// --- PRODUZIONE: file hashati da Vite build ---
-		$main_css = $manifest['src/css/main.css']['file'] ?? null;
-		$main_js  = $manifest['src/js/main.js']['file']  ?? null;
+		$main_css = $manifest['assets/src/css/main.css']['file'] ?? null;
+		$main_js  = $manifest['assets/src/js/main.js']['file']  ?? null;
+		$hero_js  = $manifest['assets/src/js/hero.js']['file']  ?? null;
 
 		if ( $main_css ) {
 			wp_enqueue_style(
@@ -44,6 +61,17 @@ function ms_enqueue_assets(): void {
 			wp_enqueue_script(
 				'mondosegnaletica-main',
 				$theme_uri . '/assets/dist/' . $main_js,
+				[],
+				null,
+				[ 'strategy' => 'defer', 'in_footer' => true ]
+			);
+		}
+
+		// Hero JS — solo homepage, solo se presente nel manifest
+		if ( $hero_js && is_front_page() ) {
+			wp_enqueue_script(
+				'ms-hero',
+				$theme_uri . '/assets/dist/' . $hero_js,
 				[],
 				null,
 				[ 'strategy' => 'defer', 'in_footer' => true ]
@@ -125,6 +153,17 @@ function ms_enqueue_assets(): void {
 		);
 		// Aggiungi type="module" al tag script
 		add_filter( 'script_loader_tag', 'ms_add_module_type', 10, 3 );
+
+		// Hero JS — solo homepage, file statico in dev
+		if ( is_front_page() ) {
+			wp_enqueue_script(
+				'ms-hero',
+				$theme_uri . '/assets/src/js/hero.js',
+				[],
+				$version,
+				[ 'strategy' => 'defer', 'in_footer' => true ]
+			);
+		}
 	}
 
 	// WooCommerce JS customizzazioni — solo pagine WC
@@ -140,6 +179,18 @@ function ms_enqueue_assets(): void {
 }
 
 add_action( 'wp_enqueue_scripts', 'ms_enqueue_assets' );
+
+/**
+ * Rimuove i fogli di stile WordPress core che interferiscono con il layout.
+ * wp-block-library aggiunge max-width e margin: auto sui contenitori principali.
+ * global-styles inietta il CSS dei blocchi Gutenberg che strozza il layout full-bleed.
+ */
+add_action( 'wp_enqueue_scripts', function(): void {
+	wp_dequeue_style( 'wp-block-library' );
+	wp_dequeue_style( 'wp-block-library-theme' );
+	wp_dequeue_style( 'global-styles' );
+	wp_dequeue_style( 'classic-theme-styles' );
+}, 100 );
 
 /**
  * Aggiunge type="module" allo script main per ES modules.
