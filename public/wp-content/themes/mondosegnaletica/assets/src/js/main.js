@@ -11,3 +11,5 @@ import './modules/tabs.js';
 import './modules/filters.js';
 import './modules/quantity.js';
 import './modules/view-toggle.js';
+import './modules/category-tabs.js';
+import './modules/carousel.js';

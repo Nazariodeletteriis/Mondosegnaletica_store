@@ -190,6 +190,15 @@ add_action( 'wp_enqueue_scripts', function(): void {
 	wp_dequeue_style( 'wp-block-library-theme' );
 	wp_dequeue_style( 'global-styles' );
 	wp_dequeue_style( 'classic-theme-styles' );
+	wp_deregister_style( 'classic-theme-styles' );
+
+	// WooCommerce CSS non serve sulla homepage — tutto il layout è custom
+	if ( is_front_page() ) {
+		wp_dequeue_style( 'woocommerce-general' );
+		wp_dequeue_style( 'woocommerce-layout' );
+		wp_dequeue_style( 'woocommerce-smallscreen' );
+		wp_dequeue_style( 'wc-blocks-style' );
+	}
 }, 100 );
 
 /**

@@ -1,12 +1,20 @@
 <?php
 /**
- * Sezione 02 / CATALOGO — Grid 3×2 categorie WooCommerce.
+ * Sezione 02 / CATALOGO — Tab bar 6 categorie con 8 prodotti per tab.
  */
 
-// Prendi categorie da WooCommerce
+$cat_meta = [
+	'segnaletica-verticale'   => [ 'code' => 'CAT-01', 'name' => 'Segnaletica Verticale',   'count' => 412 ],
+	'segnaletica-orizzontale' => [ 'code' => 'CAT-02', 'name' => 'Segnaletica Orizzontale', 'count' => 156 ],
+	'coni-transenne'          => [ 'code' => 'CAT-03', 'name' => 'Coni & Transenne',         'count' => 184 ],
+	'delineatori-paletti'     => [ 'code' => 'CAT-04', 'name' => 'Delineatori & Paletti',   'count' => 96  ],
+	'cantieristica'           => [ 'code' => 'CAT-05', 'name' => 'Cantieristica',            'count' => 312 ],
+	'dissuasori-accessori'    => [ 'code' => 'CAT-06', 'name' => 'Dissuasori & Accessori',  'count' => 245 ],
+];
+
 $wc_categories = [];
 if ( class_exists( 'WooCommerce' ) ) {
-	$wc_categories = get_terms( [
+	$terms = get_terms( [
 		'taxonomy'   => 'product_cat',
 		'hide_empty' => false,
 		'parent'     => 0,
@@ -14,25 +22,36 @@ if ( class_exists( 'WooCommerce' ) ) {
 		'orderby'    => 'menu_order',
 		'order'      => 'ASC',
 	] );
-
-	if ( is_wp_error( $wc_categories ) ) {
-		$wc_categories = [];
+	if ( ! is_wp_error( $terms ) ) {
+		$wc_categories = $terms;
 	}
 }
 
-// Fallback ai dati statici se WC non ha ancora categorie
-$fallback_cats = ms_get_default_categories();
-$use_fallback  = empty( $wc_categories );
+// Usa fallback statico se WC non ha categorie
+if ( empty( $wc_categories ) ) {
+	foreach ( $cat_meta as $slug => $m ) {
+		$wc_categories[] = (object) [
+			'term_id' => 0,
+			'slug'    => $slug,
+			'name'    => $m['name'],
+			'count'   => $m['count'],
+		];
+	}
+}
 
-// Mappa codici categoria → dati statici per overlay
-$cat_meta = [
-	'segnaletica-verticale'   => [ 'code' => 'CAT-01', 'count_fallback' => 412 ],
-	'segnaletica-orizzontale' => [ 'code' => 'CAT-02', 'count_fallback' => 156 ],
-	'coni-transenne'          => [ 'code' => 'CAT-03', 'count_fallback' => 184 ],
-	'delineatori-paletti'     => [ 'code' => 'CAT-04', 'count_fallback' => 96  ],
-	'cantieristica'           => [ 'code' => 'CAT-05', 'count_fallback' => 312 ],
-	'dissuasori-accessori'    => [ 'code' => 'CAT-06', 'count_fallback' => 245 ],
-];
+// Associa meta ai term WC (o usa i valori del fallback)
+$categories = [];
+foreach ( $wc_categories as $cat ) {
+	$meta    = $cat_meta[ $cat->slug ] ?? [ 'code' => 'CAT', 'name' => $cat->name, 'count' => (int) $cat->count ];
+	$cat_url = $cat->term_id ? get_term_link( $cat ) : home_url( '/negozio/' . $cat->slug );
+
+	$categories[] = [
+		'term'    => $cat,
+		'code'    => $meta['code'],
+		'url'     => is_string( $cat_url ) ? $cat_url : home_url( '/negozio' ),
+		'count'   => $cat->count ?: $meta['count'],
+	];
+}
 ?>
 
 <section class="section-catalog" id="catalogo" aria-labelledby="catalog-title">
@@ -46,58 +65,72 @@ $cat_meta = [
 			</h2>
 		</div>
 
-		<div class="categories-grid">
-			<?php if ( ! $use_fallback && is_array( $wc_categories ) ) :
-				foreach ( $wc_categories as $i => $cat ) :
-					$cat_url   = get_term_link( $cat );
-					$thumb_id  = get_term_meta( $cat->term_id, 'thumbnail_id', true );
-					$thumb_src = $thumb_id ? wp_get_attachment_image_url( $thumb_id, 'ms-category-card' ) : '';
-					$meta      = $cat_meta[ $cat->slug ] ?? [ 'code' => 'CAT-0' . ( $i + 1 ), 'count_fallback' => $cat->count ];
-					$count     = $cat->count ?: $meta['count_fallback'];
-			?>
-			<a
-				href="<?php echo esc_url( is_string( $cat_url ) ? $cat_url : '#' ); ?>"
-				class="category-card"
-				aria-label="<?php echo esc_attr( $cat->name . ' — ' . $count . ' prodotti' ); ?>"
+		<!-- Tab navigation -->
+		<div class="cat-tablist" role="tablist" aria-label="<?php esc_attr_e( 'Categorie prodotti', 'mondosegnaletica' ); ?>">
+			<?php foreach ( $categories as $i => $c ) : ?>
+			<button
+				class="cat-tab"
+				role="tab"
+				aria-selected="false"
+				aria-controls="cat-panel-<?php echo esc_attr( $c['term']->slug ); ?>"
+				id="cat-tab-<?php echo esc_attr( $c['term']->slug ); ?>"
+				tabindex="-1"
 			>
-				<?php if ( $thumb_src ) : ?>
-				<div class="category-card__media" aria-hidden="true">
-					<img
-						src="<?php echo esc_url( $thumb_src ); ?>"
-						alt=""
-						loading="<?php echo $i < 3 ? 'eager' : 'lazy'; ?>"
-					>
-				</div>
-				<?php endif; ?>
-
-				<div class="category-card__overlay" aria-hidden="true"></div>
-
-				<div class="category-card__body">
-					<p class="category-card__code"><?php echo esc_html( $meta['code'] ); ?></p>
-					<h3 class="category-card__name"><?php echo esc_html( $cat->name ); ?></h3>
-					<p class="category-card__count"><?php echo esc_html( number_format( $count, 0, ',', '.' ) ); ?> PRODOTTI</p>
-				</div>
-			</a>
-			<?php endforeach;
-			else :
-				// Fallback statico
-				foreach ( $fallback_cats as $i => $cat ) :
-			?>
-			<a
-				href="<?php echo esc_url( home_url( '/negozio/' . $cat['slug'] ) ); ?>"
-				class="category-card"
-				aria-label="<?php echo esc_attr( $cat['name'] . ' — ' . $cat['count'] . ' prodotti' ); ?>"
-			>
-				<div class="category-card__overlay" aria-hidden="true"></div>
-				<div class="category-card__body">
-					<p class="category-card__code"><?php echo esc_html( $cat['code'] ); ?></p>
-					<h3 class="category-card__name"><?php echo esc_html( $cat['name'] ); ?></h3>
-					<p class="category-card__count"><?php echo esc_html( number_format( $cat['count'], 0, ',', '.' ) ); ?> PRODOTTI</p>
-				</div>
-			</a>
-			<?php endforeach;
-			endif; ?>
+				<span class="cat-tab__code"><?php echo esc_html( $c['code'] ); ?></span>
+				<span class="cat-tab__name"><?php echo esc_html( $c['term']->name ); ?></span>
+				<span class="cat-tab__count"><?php echo esc_html( number_format( $c['count'], 0, ',', '.' ) ); ?></span>
+			</button>
+			<?php endforeach; ?>
 		</div>
+
+		<!-- Tab panels -->
+		<?php foreach ( $categories as $i => $c ) :
+			// Query prodotti per categoria
+			$products = [];
+			if ( class_exists( 'WooCommerce' ) && $c['term']->term_id ) {
+				$pq = new WP_Query( [
+					'post_type'      => 'product',
+					'post_status'    => 'publish',
+					'posts_per_page' => 8,
+					'tax_query'      => [ [ // phpcs:ignore WordPress.DB.SlowDBQuery
+						'taxonomy' => 'product_cat',
+						'field'    => 'slug',
+						'terms'    => $c['term']->slug,
+					] ],
+				] );
+				$products = $pq->posts;
+			}
+		?>
+		<div
+			class="cat-panel"
+			role="tabpanel"
+			id="cat-panel-<?php echo esc_attr( $c['term']->slug ); ?>"
+			aria-labelledby="cat-tab-<?php echo esc_attr( $c['term']->slug ); ?>"
+			hidden
+		>
+			<?php if ( ! empty( $products ) ) : ?>
+				<div class="cat-products-grid">
+					<?php foreach ( $products as $post_item ) :
+						$product = wc_get_product( $post_item );
+						if ( ! $product instanceof WC_Product ) continue;
+						ms_get_template_part( 'template-parts/product/card', [ 'product' => $product ] );
+					endforeach; ?>
+				</div>
+			<?php else : ?>
+				<div class="cat-panel__empty">
+					<span class="label-mono"><?php echo esc_html( $c['code'] ); ?></span>
+					<p><?php esc_html_e( 'Catalogo in allestimento — disponibile a breve.', 'mondosegnaletica' ); ?></p>
+				</div>
+			<?php endif; ?>
+
+			<div class="cat-panel__footer">
+				<a href="<?php echo esc_url( $c['url'] ); ?>" class="btn btn--ghost">
+					Vedi tutti i <?php echo esc_html( number_format( $c['count'], 0, ',', '.' ) ); ?> prodotti
+					<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+				</a>
+			</div>
+		</div>
+		<?php endforeach; ?>
 
 	</div>
 </section>

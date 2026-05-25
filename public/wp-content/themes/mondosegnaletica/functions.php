@@ -34,10 +34,12 @@ if ( class_exists( 'WooCommerce' ) ) {
  * @param array  $args   Variabili iniettate nel template
  */
 function ms_get_template_part( string $slug, array $args = [] ): void {
+	$template_file = locate_template( $slug . '.php' );
+	if ( ! $template_file ) return;
 	if ( ! empty( $args ) ) {
 		extract( $args, EXTR_SKIP ); // phpcs:ignore WordPress.PHP.DontExtract
 	}
-	get_template_part( $slug );
+	include $template_file; // phpcs:ignore WordPressVIPMinimum.Files.IncludingFile.UsingVariable
 }
 
 /**

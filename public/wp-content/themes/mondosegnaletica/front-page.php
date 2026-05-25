@@ -1,7 +1,6 @@
 <?php
 /**
  * Homepage — front-page.php
- * Chiamato quando WordPress ha una pagina statica come home.
  */
 
 get_header();
@@ -15,23 +14,29 @@ get_header();
 
 	<?php get_template_part( 'template-parts/home/bestseller' ); ?>
 
+	<?php get_template_part( 'template-parts/home/new-arrivals' ); ?>
+
+	<?php get_template_part( 'template-parts/home/solutions' ); ?>
+
 	<?php get_template_part( 'template-parts/home/performance-stats' ); ?>
 
-	<!-- 05 / CONTATTI -->
+	<!-- 07 / CONTATTI -->
 	<section class="section-contacts" id="contatti" aria-labelledby="contacts-title">
 		<div class="container">
 			<div class="section-header">
-				<span class="label-section">05 / CONTATTI</span>
+				<span class="label-section">07 / CONTATTI</span>
 				<h2 class="section-title" id="contacts-title">Parliamo di<br>segnaletica.</h2>
 			</div>
 
 			<div class="contacts-grid">
 				<div class="contacts-info">
-					<a href="tel:+390583000000" class="contacts-info__tel">+39 0583 000 000</a>
+					<a href="tel:+39058316463277" class="contacts-info__tel">0583 1646327</a>
 					<address class="contacts-info__address">
 						Mondo Segnaletica Soc. Coop.<br>
-						Provincia di Lucca — Toscana<br>
-						<a href="mailto:info@mondosegnaletica.it" style="color:inherit;">info@mondosegnaletica.it</a>
+						Via Carlo Angeloni 360, Lucca<br>
+						Magazzino: Viale Europa 50, Lammari (LU)<br>
+						<a href="mailto:info@mondosegnaletica.it" style="color:inherit;">info@mondosegnaletica.it</a><br>
+						P.IVA 02629010460
 					</address>
 					<p style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--color-text-muted);letter-spacing:0.1em;text-transform:uppercase;">
 						Lun–Ven · 08:00–18:00

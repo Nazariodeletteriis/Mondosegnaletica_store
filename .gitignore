@@ -3,8 +3,9 @@ graphify-out/
 .claude/
 
 # --- Assets di test / interni (non versionare) ---
-assets/img/50_montato.png
-assets/img/50_smontato.png
+assets/img/
+assets/images/
+assets/stitch/
 assets/video/test_segnaletica.mp4
 assets/video/test_segnaletica_2.mp4
 assets/**/*.md

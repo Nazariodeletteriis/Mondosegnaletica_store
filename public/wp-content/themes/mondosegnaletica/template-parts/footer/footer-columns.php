@@ -65,10 +65,12 @@
 		<p class="footer-col__title">Sede Operativa</p>
 		<address class="footer-address">
 			Mondo Segnaletica Soc. Coop.<br>
-			Provincia di Lucca<br>
-			Toscana, Italia<br>
+			Via Carlo Angeloni 360, Lucca<br>
+			Magazzino: Viale Europa 50<br>
+			Lammari (LU) — Toscana<br>
+			P.IVA 02629010460<br>
 			<br>
-			<a href="tel:+390583000000" style="color: inherit;">+39 0583 000 000</a><br>
+			<a href="tel:+390583164632" style="color: inherit;">0583 1646327</a><br>
 			<a href="mailto:info@mondosegnaletica.it" style="color: inherit;">info@mondosegnaletica.it</a>
 		</address>
 	</div>

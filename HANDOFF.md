@@ -5,37 +5,43 @@
 
 ## Dove siamo
 
-1. **Tailwind CSS v4 integrato** — plugin Vite, token Sistema Strada in `@theme`, build 41KB CSS.
-2. **Layout full-bleed fixato** — rimossi `wp-block-library` e `global-styles` CSS che strozziavano il layout. Reset esplicito su `#page, .site, .site-content`.
-3. **Hero section completata (v1)**:
-   - Video background locale (`assets/video/mondosegnaletica_video.mp4`) con `playbackRate=0.75`
-   - Gradient overlay full-height via `.hero__media::after` (copre TUTTA la sezione, non solo il basso)
-   - Headline Anton animata char-by-char in ingresso da sinistra (vanilla JS)
-   - Subtitle + CTA con fade-in progressivo
-   - Tag glass card bottom-right (desktop) — `max-width` e font-size clamp per no overflow
-   - Header fixed: solido `rgba(10,10,10,1)` con `backdrop-filter:blur(0px)` di default → semi-trasparente blur(16px) sull'hero (IntersectionObserver). Transizione pulita, no ghosting.
-4. **Material Symbols** caricato in enqueue.php → icona carrello funzionante.
-5. **Favicon 512×512** generato (placeholder — da sostituire con logo reale).
+1. **Tailwind CSS v4 integrato** — plugin Vite, token Sistema Strada in `@theme`, build 49KB CSS.
+2. **Layout full-bleed fixato** — rimossi `wp-block-library` e `global-styles` CSS che strozziavano il layout.
+3. **Hero section completata (v1)** — video background, overlay cinematico, headline animata char-by-char, header fixed con IntersectionObserver.
+4. **Catalogo prodotti importato** — 68 prodotti WooCommerce (148 variable products + 400 variazioni strutturati nel CSV, import parziale). Categorie corrette e allineate.
+5. **Fix ms_get_template_part** — bug scope risolto: le product card ora ricevono `$product` correttamente via `include` invece di `get_template_part`.
+6. **Spacing sezioni** — `gap` tra `label-section` e `section-title` aumentato a 24px.
 
 ---
 
 ## Task immediato (prossima sessione)
 
-**Scendere sezione per sezione sotto l'hero e sistemare il layout:**
+### 1. Verificare homepage con prodotti reali
+- Aprire `http://mondosegnaletica.ddev.site`
+- Controllare che il carousel bestseller mostri le card prodotto
+- Controllare che le tab categorie mostrino i prodotti
+- Controllare nuovi arrivi
 
-1. **Sezione Categorie** (`02 / CATALOGO`)
-   - Grid 3×2 — verificare che le card siano wide e visibili
-   - Card senza immagine WooCommerce: aggiungere placeholder decente
+### 2. Fix PHP in VSCode (da fare prima)
+```bash
+sudo apt-get update && sudo apt-get install -y php-cli
+```
+Poi riavviare VSCode — il PHP Language Features trova `/usr/bin/php` automaticamente.
 
-2. **Sezione Bestseller** (`03 / BESTSELLER`)
-   - Grid 4-col — verificare prodotti demo visibili
+### 3. Completare import prodotti
+- Il CSV `assets/woocommerce-import.csv` (549 righe, 148 prodotti padre + 400 variazioni) è pronto ma solo 68 prodotti sono stati importati.
+- Re-importare da WP Admin → Prodotti → Importa con "Aggiorna prodotti esistenti" spuntato.
+- ⚠️ Le immagini puntano a `epanza.com` — WooCommerce tenta di scaricarle all'import. Se fallisce, usare un plugin media importer.
 
-3. **Sezione Performance Stats** (`04 / NUMERI`)
-   - 4 colonne con numeri Anton giallo — verificare allineamento
+### 4. Sezioni homepage ancora da rifinire
+- **Sezione Categorie** — tab attiva, grid prodotti, card senza immagine WC (placeholder)
+- **Sezione Bestseller** — carousel funzionante ma da verificare visivamente
+- **Sezione Nuovi Arrivi** — idem
+- **Sezione Performance Stats** — 4 colonne numeri Anton giallo
+- **Footer** — struttura colonne
 
-4. **Footer** — struttura colonne
-
-5. **Prodotti reali** — importare i 23 SKU da `assets/epanza-products.md`
+### 5. Sezione Soluzioni
+- `template-parts/home/solutions.php` — template presente, da riempire con contenuto reale
 
 ---
 
@@ -44,14 +50,16 @@
 | File | Ruolo |
 |---|---|
 | `template-parts/home/hero.php` | Hero HTML |
-| `assets/src/js/hero.js` | Animazioni hero (char, fadein, header observer) |
+| `template-parts/home/categories.php` | Sezione 02 tab categorie |
+| `template-parts/home/bestseller.php` | Sezione 03 carousel |
+| `template-parts/home/new-arrivals.php` | Sezione 04 carousel |
+| `template-parts/home/performance-stats.php` | Sezione stats |
+| `template-parts/product/card.php` | Product card riusabile |
+| `functions.php` | Helper: `ms_get_template_part`, `ms_format_price` |
+| `assets/src/js/modules/carousel.js` | Logica carousel |
+| `assets/src/js/modules/category-tabs.js` | Logica tab categorie |
 | `assets/src/css/pages/home.css` | Stili homepage |
-| `assets/src/css/components/header.css` | Header fixed + HUD strip |
-| `assets/src/css/base.css` | Reset, container, liquid-glass |
-| `assets/src/css/main.css` | Entry Tailwind + @theme tokens |
-| `inc/enqueue.php` | Font, CSS, JS loading |
-| `inc/setup.php` | Theme support, block assets disabilitati |
-| `vite.config.js` | Entry points Vite (main.js, hero.js) |
+| `assets/woocommerce-import.csv` | CSV import WooCommerce (148 prodotti, 400 variazioni) |
 
 ---
 
@@ -67,13 +75,15 @@
 | Tailwind v4 integrato | ✅ fatto |
 | Layout full-bleed | ✅ fatto |
 | Hero section v1 | ✅ fatto |
-| Fix overlay hero full-height | ✅ FATTO questa sessione |
-| Fix header ghosting su scroll | ✅ FATTO questa sessione |
-| Fix tag card overflow destra | ✅ FATTO questa sessione |
-| Material Symbols (icone) | ✅ fatto |
-| Logo reale caricato in WP | ⏳ utente deve caricarlo dal Customizer |
-| Sezioni homepage (categorie, bestseller, stats) | 🔴 PROSSIMO |
-| Prodotti reali da epanza.com (23 SKU) | ⏳ dopo |
+| Fix ms_get_template_part (scope bug) | ✅ FATTO questa sessione |
+| Catalogo epanza fetchato (471 prodotti, 148 gruppi) | ✅ FATTO questa sessione |
+| CSV WooCommerce import (148 variable + 400 variazioni) | ✅ FATTO questa sessione |
+| Merge categorie duplicate (-2) | ✅ FATTO questa sessione |
+| Spacing label/section-title | ✅ FATTO questa sessione |
+| PHP CLI in WSL per VSCode | ⏳ richiede sudo — vedi istruzioni sopra |
+| Import completo prodotti (68/148 padre) | 🔴 PROSSIMO |
+| Verifica visiva homepage con prodotti reali | 🔴 PROSSIMO |
+| Sezioni homepage (categorie, bestseller, stats) | 🟡 in corso |
 | Animazioni GSAP/Lenis hero | ⏳ fase 2 |
 
 ---
@@ -97,6 +107,7 @@ http://mondosegnaletica.ddev.site/wp-admin  (admin / Admin1234!)
 ## Note urgenti
 
 - ⚠️ Ruotare API key Stitch — esposta in chat 24.05 → Google Cloud Console
-- Favicon placeholder (ID 18) — sostituire con ritaglio MS logo reale quando caricato
-- Video hero: `mondosegnaletica_video.mp4` nel tema, ma nel repo git è ignorato (>100MB?). Verificare `.gitignore`.
+- Favicon placeholder (ID 18) — sostituire con ritaglio MS logo reale
+- Video hero: `mondosegnaletica_video.mp4` nel tema, ignorato da git (>100MB)
 - WP_DEBUG disabilitato. Per debug: `ddev wp config set WP_DEBUG true --raw`
+- `assets/images/` e `assets/img/` escluse da git (immagini locali pesanti)

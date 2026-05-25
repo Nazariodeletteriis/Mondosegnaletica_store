@@ -11,9 +11,23 @@
 .site-content,
 .site-main,
 .wp-site-blocks {
-	width: 100%;
+	display: block !important; /* Neutralizza flex/grid iniettati da WC o WP */
+	width: 100% !important;
 	max-width: none !important;
 	margin-inline: 0;
+	float: none !important;
+}
+
+/* --- Fix .container — Tailwind v4 inietta max-width responsive in @layer utilities.
+     Sovrascriviamo globalmente su tutti i .container del tema. --- */
+.container,
+.container--wide,
+.container--text {
+	max-width: none !important;
+}
+
+.container--text {
+	max-width: 720px !important;
 }
 
 /* Admin bar offset — WP aggiunge margin-top:32px al body quando la barra è visibile */
@@ -301,6 +315,18 @@ button {
 		animation-iteration-count: 1 !important;
 		transition-duration: 0.01ms !important;
 	}
+}
+
+/* --- Cinematic noise overlay --- */
+.cinematic-noise {
+	position: fixed;
+	inset: 0;
+	pointer-events: none;
+	z-index: 9999;
+	opacity: 0.03;
+	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+	background-repeat: repeat;
+	background-size: 128px 128px;
 }
 
 /* --- Liquid Glass utility --- */
