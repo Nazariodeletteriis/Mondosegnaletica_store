@@ -25,7 +25,12 @@
 					<?php
 					$logo_id = get_theme_mod( 'custom_logo' );
 					if ( $logo_id ) :
-						echo wp_get_attachment_image( $logo_id, 'full', false, [ 'class' => 'site-logo__svg', 'loading' => 'eager' ] );
+						echo wp_get_attachment_image( $logo_id, [ 200, 129 ], false, [
+						'class'   => 'site-logo__svg',
+						'loading' => 'eager',
+						'style'   => 'height:40px;width:auto;',
+						'sizes'   => '200px',
+					] );
 					else :
 					?>
 					<!-- Logo placeholder SVG — sostituire con logo reale -->

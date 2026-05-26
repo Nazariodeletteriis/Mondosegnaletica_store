@@ -1,6 +1,7 @@
 <?php
 /**
- * Tabella sconti quantità B2B.
+ * Tabella sconti quantità B2B — layout 3 colonne orizzontale always-visible.
+ * Design "Sistema Strada" v2: wrapper .qty-tiers + grid .qty-tiers__grid.
  *
  * @var WC_Product $product
  * @var float      $base_price
@@ -10,47 +11,36 @@ if ( ! isset( $product ) || ! $product instanceof WC_Product ) return;
 
 $base_price = isset( $base_price ) ? (float) $base_price : (float) $product->get_price();
 $tiers      = ms_get_qty_discounts( $product->get_id() );
+
+if ( empty( $tiers ) ) return;
 ?>
 
-<div class="qty-discounts">
-	<div class="qty-discounts__header">
-		<span class="material-symbols-outlined" style="font-size:16px;color:var(--color-accent);" aria-hidden="true">local_offer</span>
-		<p class="qty-discounts__title">Sconti Quantità B2B</p>
+<div class="qty-tiers">
+	<span class="qty-tiers__header">SCONTI PER QUANTITÀ</span>
+	<div class="qty-tiers__grid">
+		<?php
+		$total = count( $tiers );
+		foreach ( $tiers as $i => $tier ) :
+			$range_label = $tier['max'] === null
+				? $tier['min'] . '+ PZ'
+				: $tier['min'] . '–' . $tier['max'] . ' PZ';
+
+			$discounted = $tier['pct'] > 0
+				? $base_price * ( 1 - $tier['pct'] / 100 )
+				: $base_price;
+
+			// L'ultimo tier con sconto è il "best"
+			$is_best = ( $i === $total - 1 ) && $tier['pct'] > 0;
+			$classes  = 'qty-tier';
+			if ( $is_best ) $classes .= ' qty-tier--best';
+		?>
+		<div class="<?php echo esc_attr( $classes ); ?>">
+			<span class="qty-tier__label"><?php echo esc_html( $range_label ); ?></span>
+			<span class="qty-tier__price"><?php echo esc_html( ms_format_price( $discounted ) ); ?></span>
+			<?php if ( $tier['pct'] > 0 ) : ?>
+			<span class="qty-tier__discount">–<?php echo esc_html( $tier['pct'] ); ?>%</span>
+			<?php endif; ?>
+		</div>
+		<?php endforeach; ?>
 	</div>
-
-	<table class="qty-discounts__table" aria-label="Sconti per quantità">
-		<thead>
-			<tr>
-				<th scope="col">Quantità</th>
-				<th scope="col">Sconto</th>
-				<th scope="col">Prezzo unitario</th>
-			</tr>
-		</thead>
-		<tbody>
-			<?php foreach ( $tiers as $tier ) :
-				$range_label = $tier['max'] === null
-					? $tier['min'] . '+ pz'
-					: $tier['min'] . '–' . $tier['max'] . ' pz';
-
-				$discounted = $tier['pct'] > 0
-					? $base_price * ( 1 - $tier['pct'] / 100 )
-					: $base_price;
-			?>
-			<tr<?php echo $tier['pct'] === 0 ? '' : ''; ?>>
-				<td><?php echo esc_html( $range_label ); ?></td>
-				<td>
-					<?php if ( $tier['pct'] > 0 ) : ?>
-						<span class="discount-badge">–<?php echo esc_html( $tier['pct'] ); ?>%</span>
-					<?php else : ?>
-						<span style="color:var(--color-text-muted)">—</span>
-					<?php endif; ?>
-				</td>
-				<td>
-					<?php echo esc_html( ms_format_price( $discounted ) ); ?>
-					<span class="price__vat"> + IVA</span>
-				</td>
-			</tr>
-			<?php endforeach; ?>
-		</tbody>
-	</table>
 </div>

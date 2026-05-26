@@ -11,6 +11,10 @@ if ( class_exists( 'WooCommerce' ) ) {
 		'posts_per_page' => 8,
 		'orderby'        => 'date',
 		'order'          => 'DESC',
+		'meta_query'     => [ [ // phpcs:ignore WordPress.DB.SlowDBQuery
+			'key'     => '_thumbnail_id',
+			'compare' => 'EXISTS',
+		] ],
 	] );
 	$new_products = $query->posts;
 }

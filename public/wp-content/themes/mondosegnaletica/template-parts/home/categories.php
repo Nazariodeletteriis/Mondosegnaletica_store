@@ -39,17 +39,23 @@ if ( empty( $wc_categories ) ) {
 	}
 }
 
-// Associa meta ai term WC (o usa i valori del fallback)
+// Costruisce $categories nell'ordine definito da $cat_meta (CAT-01 → CAT-06)
+// WC restituisce i term in ordine alfabetico; il lookup per slug garantisce l'ordine corretto.
+$terms_by_slug = [];
+foreach ( $wc_categories as $term ) {
+	$terms_by_slug[ $term->slug ] = $term;
+}
+
 $categories = [];
-foreach ( $wc_categories as $cat ) {
-	$meta    = $cat_meta[ $cat->slug ] ?? [ 'code' => 'CAT', 'name' => $cat->name, 'count' => (int) $cat->count ];
-	$cat_url = $cat->term_id ? get_term_link( $cat ) : home_url( '/negozio/' . $cat->slug );
+foreach ( $cat_meta as $slug => $meta ) {
+	$cat     = $terms_by_slug[ $slug ] ?? (object) [ 'term_id' => 0, 'slug' => $slug, 'name' => $meta['name'], 'count' => 0 ];
+	$cat_url = $cat->term_id ? get_term_link( $cat ) : home_url( '/negozio/' . $slug );
 
 	$categories[] = [
-		'term'    => $cat,
-		'code'    => $meta['code'],
-		'url'     => is_string( $cat_url ) ? $cat_url : home_url( '/negozio' ),
-		'count'   => $cat->count ?: $meta['count'],
+		'term'  => $cat,
+		'code'  => $meta['code'],
+		'url'   => is_string( $cat_url ) ? $cat_url : home_url( '/negozio' ),
+		'count' => (int) $cat->count ?: $meta['count'],
 	];
 }
 ?>

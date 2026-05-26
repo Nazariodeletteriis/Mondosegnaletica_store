@@ -23,8 +23,11 @@ if ( class_exists( 'WooCommerce' ) ) {
 			'post_type'      => 'product',
 			'post_status'    => 'publish',
 			'posts_per_page' => 8,
-			'orderby'        => 'date',
-			'order'          => 'DESC',
+			'orderby'        => 'rand',
+			'meta_query'     => [ [ // phpcs:ignore WordPress.DB.SlowDBQuery
+				'key'     => '_thumbnail_id',
+				'compare' => 'EXISTS',
+			] ],
 		] );
 		$featured_products = $query->posts;
 	}
