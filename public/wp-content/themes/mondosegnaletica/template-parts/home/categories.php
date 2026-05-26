@@ -17,9 +17,9 @@ if ( class_exists( 'WooCommerce' ) ) {
 	$terms = get_terms( [
 		'taxonomy'   => 'product_cat',
 		'hide_empty' => false,
-		'parent'     => 0,
-		'number'     => 6,
-		'orderby'    => 'menu_order',
+		'slug'       => array_keys( $cat_meta ),
+		'number'     => 10,
+		'orderby'    => 'slug',
 		'order'      => 'ASC',
 	] );
 	if ( ! is_wp_error( $terms ) ) {

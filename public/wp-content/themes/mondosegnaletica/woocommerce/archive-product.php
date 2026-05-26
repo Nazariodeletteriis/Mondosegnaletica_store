@@ -122,7 +122,14 @@ $total_products = (int) $wp_query->found_posts;
 
 			<?php if ( ! empty( $attribute_taxonomies ) ) : ?>
 
-			<form class="filters-form" method="get" action="<?php echo esc_url( get_term_link( $current_cat ?: 0 ) ?: wc_get_page_permalink( 'shop' ) ); ?>">
+			<?php
+				$_form_action = $current_cat ? get_term_link( $current_cat ) : null;
+				if ( ! $_form_action || is_wp_error( $_form_action ) ) {
+					$_shop_url    = wc_get_page_permalink( 'shop' );
+					$_form_action = ( $_shop_url && ! is_wp_error( $_shop_url ) ) ? $_shop_url : home_url( '/shop/' );
+				}
+				?>
+			<form class="filters-form" method="get" action="<?php echo esc_url( $_form_action ); ?>">
 
 				<?php foreach ( $attribute_taxonomies as $attr ) :
 					$taxonomy = 'pa_' . $attr->attribute_name;
