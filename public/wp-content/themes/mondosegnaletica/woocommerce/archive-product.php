@@ -46,6 +46,10 @@ $total_products = (int) $wp_query->found_posts;
 	<?php endif; endif; ?>
 
 	<div class="archive-hero__content container">
+		<?php if ( $cat_code ) : ?>
+		<span class="label-section archive-hero__label"><?php echo esc_html( $cat_code ); ?> / CATALOGO</span>
+		<?php endif; ?>
+
 		<nav class="archive-breadcrumb" aria-label="Breadcrumb">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">HOME</a>
 			<span aria-hidden="true"> / </span>
@@ -72,19 +76,32 @@ $total_products = (int) $wp_query->found_posts;
 		<aside class="filters-sidebar" aria-label="Filtri prodotto">
 
 			<?php
+			// Attributi da mostrare nei filtri — esclude dimensione e taglia (dati non puliti)
+			$filter_attr_slugs    = [ 'pa_tipologia', 'pa_formato', 'pa_classe-rifrangenza' ];
 			$attribute_taxonomies = wc_get_attribute_taxonomies();
+			$attribute_taxonomies = array_filter( $attribute_taxonomies, fn( $a ) => in_array( 'pa_' . $a->attribute_name, $filter_attr_slugs, true ) );
 			$has_active_filters   = false;
 
 			// Controlla se ci sono filtri attivi
-			if ( ! empty( $attribute_taxonomies ) ) {
-				foreach ( $attribute_taxonomies as $attr ) {
-					if ( ! empty( $_GET[ 'filter_pa_' . $attr->attribute_name ] ) ) {
-						$has_active_filters = true;
-						break;
-					}
+			foreach ( $attribute_taxonomies as $attr ) {
+				if ( ! empty( $_GET[ 'filter_pa_' . $attr->attribute_name ] ) ) {
+					$has_active_filters = true;
+					break;
 				}
 			}
 			?>
+
+			<!-- Sidebar header -->
+			<div class="filters-header">
+				<span class="label-mono">Filtri</span>
+				<?php if ( $has_active_filters ) : ?>
+				<a href="<?php echo esc_url( remove_query_arg( array_map( fn( $a ) => 'filter_pa_' . $a->attribute_name, $attribute_taxonomies ) ) ); ?>"
+				   class="filters-header__reset">
+					<span class="material-symbols-outlined" aria-hidden="true">close</span>
+					Reset
+				</a>
+				<?php endif; ?>
+			</div>
 
 			<?php if ( ! empty( $attribute_taxonomies ) ) : ?>
 				<?php foreach ( $attribute_taxonomies as $attr ) :
@@ -143,16 +160,6 @@ $total_products = (int) $wp_query->found_posts;
 					</div>
 				</div>
 				<?php endforeach; ?>
-
-				<?php if ( $has_active_filters ) : ?>
-				<div class="filter-reset">
-					<a href="<?php echo esc_url( remove_query_arg( array_map( fn( $a ) => 'filter_pa_' . $a->attribute_name, $attribute_taxonomies ) ) ); ?>"
-					   class="filter-reset__btn">
-						<span class="material-symbols-outlined" aria-hidden="true">close</span>
-						Reset filtri
-					</a>
-				</div>
-				<?php endif; ?>
 
 			<?php else : ?>
 				<!-- Nessun attributo configurato — navigazione categorie fallback -->

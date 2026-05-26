@@ -2,6 +2,48 @@
    LISTING / ARCHIVE CATEGORIA
    =========================== */
 
+/* --- Hero label sezione --- */
+.archive-hero__label {
+	margin-bottom: var(--space-4);
+	display: flex;
+}
+
+/* --- Sidebar header Filtri --- */
+.filters-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: var(--space-4);
+	margin-bottom: var(--space-2);
+	border-bottom: var(--border-hairline);
+}
+
+.filters-header .label-mono {
+	font-size: var(--text-xs);
+	letter-spacing: 0.14em;
+}
+
+.filters-header__reset {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	font-family: var(--font-mono);
+	font-size: 10px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var(--color-text-muted);
+	text-decoration: none;
+	transition: color var(--transition-fast);
+}
+
+.filters-header__reset:hover {
+	color: var(--color-error);
+}
+
+.filters-header__reset .material-symbols-outlined {
+	font-size: 12px;
+}
+
 /* --- Breadcrumb --- */
 .archive-breadcrumb {
 	font-family: var(--font-mono);
@@ -79,13 +121,13 @@
 
 /* --- Layout listing: sidebar + grid --- */
 :root {
-	--sidebar-width: 240px;
+	--sidebar-width: 260px;
 }
 
 .archive-layout {
 	display: grid;
 	grid-template-columns: var(--sidebar-width) 1fr;
-	gap: var(--space-8);
+	gap: var(--space-12);
 	align-items: start;
 	padding-block: var(--space-8);
 }
@@ -93,8 +135,8 @@
 /* --- Product grid nella listing --- */
 .products-grid {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	gap: var(--space-4);
+	grid-template-columns: repeat(3, 1fr);
+	gap: var(--space-5);
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -113,7 +155,7 @@
 	aspect-ratio: 1;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1440px) {
 	.products-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
