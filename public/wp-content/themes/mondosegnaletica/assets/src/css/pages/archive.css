@@ -231,10 +231,7 @@
 }
 
 .filter-item {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	gap: var(--space-2);
+	list-style: none;
 }
 
 .filter-item__label {
@@ -246,6 +243,7 @@
 	font-size: var(--text-sm);
 	color: var(--color-text-muted);
 	transition: color var(--transition-fast);
+	padding-block: 3px;
 }
 
 .filter-item__label:hover,
@@ -253,41 +251,47 @@
 	color: var(--color-text);
 }
 
-.filter-item__label--active {
-	font-weight: 600;
+/* --- Checkbox visuale custom --- */
+.filter-item__checkbox-wrap {
+	position: relative;
+	flex-shrink: 0;
+	width: 14px;
+	height: 14px;
 }
 
-.filter-item__checkbox {
+.filter-item__check-input {
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+.filter-item__checkbox-visual {
+	display: block;
 	width: 14px;
 	height: 14px;
 	border: 1px solid var(--color-border);
 	border-radius: 2px;
 	background: transparent;
-	appearance: none;
-	-webkit-appearance: none;
-	cursor: pointer;
-	flex-shrink: 0;
 	transition: background var(--transition-fast), border-color var(--transition-fast);
 	position: relative;
 }
 
-.filter-item__checkbox:checked {
+.filter-item__check-input:checked + .filter-item__checkbox-visual {
 	background: var(--color-accent);
 	border-color: var(--color-accent);
 }
 
-.filter-item__checkbox:checked::after {
+.filter-item__check-input:checked + .filter-item__checkbox-visual::after {
 	content: '';
 	position: absolute;
 	inset: 0;
 	background: url("data:image/svg+xml,%3Csvg viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 6l3 3 5-5' stroke='%230A0A0A' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/10px no-repeat;
 }
 
-.filter-item__check {
-	font-size: 12px;
-	line-height: 1;
-	color: var(--color-accent);
-	flex-shrink: 0;
+.filter-item__name {
+	flex: 1;
 }
 
 .filter-item__count {
@@ -296,6 +300,7 @@
 	color: var(--color-text-muted);
 	opacity: 0.6;
 	white-space: nowrap;
+	margin-left: auto;
 }
 
 /* --- Reset filtri --- */
@@ -387,7 +392,7 @@
 }
 
 .sort-select {
-	background: transparent;
+	background: var(--color-surface);
 	border: 1px solid var(--color-border);
 	border-radius: var(--radius);
 	padding: var(--space-2) var(--space-4);
@@ -397,16 +402,23 @@
 	letter-spacing: 0.06em;
 	cursor: pointer;
 	appearance: none;
+	-webkit-appearance: none;
 	padding-right: var(--space-8);
 	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 4l4 4 4-4' stroke='%23F5F4F0' stroke-width='1' stroke-linecap='round'/%3E%3C/svg%3E");
 	background-repeat: no-repeat;
 	background-position: right var(--space-3) center;
 	background-size: 12px;
+	color-scheme: dark;
 }
 
 .sort-select:focus {
 	outline: none;
 	border-color: var(--color-accent);
+}
+
+.sort-select option {
+	background: #111111;
+	color: var(--color-text);
 }
 
 .view-toggle {

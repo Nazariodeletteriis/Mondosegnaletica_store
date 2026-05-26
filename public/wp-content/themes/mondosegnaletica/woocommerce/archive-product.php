@@ -76,27 +76,38 @@ $total_products = (int) $wp_query->found_posts;
 		<aside class="filters-sidebar" aria-label="Filtri prodotto">
 
 			<?php
-			// Attributi da mostrare nei filtri — esclude dimensione e taglia (dati non puliti)
+			// Attributi da mostrare — esclude taglia/dimensione (dati non puliti)
 			$filter_attr_slugs    = [ 'pa_tipologia', 'pa_formato', 'pa_classe-rifrangenza' ];
 			$attribute_taxonomies = wc_get_attribute_taxonomies();
-			$attribute_taxonomies = array_filter( $attribute_taxonomies, fn( $a ) => in_array( 'pa_' . $a->attribute_name, $filter_attr_slugs, true ) );
-			$has_active_filters   = false;
+			$attribute_taxonomies = array_values( array_filter(
+				$attribute_taxonomies,
+				fn( $a ) => in_array( 'pa_' . $a->attribute_name, $filter_attr_slugs, true )
+			) );
 
-			// Controlla se ci sono filtri attivi
+			// Stato filtri attivi per ogni attributo
+			$active_filters = [];
 			foreach ( $attribute_taxonomies as $attr ) {
-				if ( ! empty( $_GET[ 'filter_pa_' . $attr->attribute_name ] ) ) {
-					$has_active_filters = true;
-					break;
+				$param = 'filter_pa_' . $attr->attribute_name;
+				if ( ! empty( $_GET[ $param ] ) ) {
+					$active_filters[ $attr->attribute_name ] = array_map(
+						'sanitize_title',
+						explode( ',', wp_unslash( $_GET[ $param ] ) )
+					);
 				}
 			}
+			$has_active_filters = ! empty( $active_filters );
+
+			// URL reset — rimuove tutti i params filtro
+			$reset_url = remove_query_arg(
+				array_map( fn( $a ) => 'filter_pa_' . $a->attribute_name, $attribute_taxonomies )
+			);
 			?>
 
 			<!-- Sidebar header -->
 			<div class="filters-header">
 				<span class="label-mono">Filtri</span>
 				<?php if ( $has_active_filters ) : ?>
-				<a href="<?php echo esc_url( remove_query_arg( array_map( fn( $a ) => 'filter_pa_' . $a->attribute_name, $attribute_taxonomies ) ) ); ?>"
-				   class="filters-header__reset">
+				<a href="<?php echo esc_url( $reset_url ); ?>" class="filters-header__reset">
 					<span class="material-symbols-outlined" aria-hidden="true">close</span>
 					Reset
 				</a>
@@ -104,18 +115,19 @@ $total_products = (int) $wp_query->found_posts;
 			</div>
 
 			<?php if ( ! empty( $attribute_taxonomies ) ) : ?>
+
+			<form class="filters-form" method="get" action="<?php echo esc_url( get_term_link( $current_cat ?: 0 ) ?: wc_get_page_permalink( 'shop' ) ); ?>">
+
 				<?php foreach ( $attribute_taxonomies as $attr ) :
 					$taxonomy = 'pa_' . $attr->attribute_name;
 					$param    = 'filter_' . $taxonomy;
-					$selected = [];
-					if ( ! empty( $_GET[ $param ] ) ) {
-						$selected = array_map( 'sanitize_title', explode( ',', wp_unslash( $_GET[ $param ] ) ) );
-					}
+					$selected = $active_filters[ $attr->attribute_name ] ?? [];
 
 					$terms = get_terms( [
 						'taxonomy'   => $taxonomy,
 						'hide_empty' => true,
-						'orderby'    => 'menu_order',
+						'orderby'    => 'count',
+						'order'      => 'DESC',
 					] );
 
 					if ( is_wp_error( $terms ) || empty( $terms ) ) continue;
@@ -128,38 +140,29 @@ $total_products = (int) $wp_query->found_posts;
 					<div class="filter-group__body">
 						<ul class="filter-list" role="list">
 							<?php foreach ( $terms as $term ) :
-								$is_selected  = in_array( $term->slug, $selected, true );
-								// Calcola la nuova selezione al click
-								if ( $is_selected ) {
-									$new_selected = array_diff( $selected, [ $term->slug ] );
-								} else {
-									$new_selected = array_merge( $selected, [ $term->slug ] );
-								}
-								$new_selected = array_values( $new_selected );
-
-								$base_url = remove_query_arg( [ $param, 'paged' ] );
-								if ( ! empty( $new_selected ) ) {
-									$filter_url = add_query_arg( $param, implode( ',', $new_selected ), $base_url );
-								} else {
-									$filter_url = $base_url;
-								}
+								$is_selected = in_array( $term->slug, $selected, true );
 							?>
 							<li class="filter-item">
-								<a href="<?php echo esc_url( $filter_url ); ?>"
-								   class="filter-item__label <?php echo $is_selected ? 'filter-item__label--active' : ''; ?>"
-								   aria-current="<?php echo $is_selected ? 'true' : 'false'; ?>">
-									<span class="filter-item__check" aria-hidden="true">
-										<?php echo $is_selected ? '■' : '□'; ?>
+								<label class="filter-item__label <?php echo $is_selected ? 'filter-item__label--active' : ''; ?>">
+									<span class="filter-item__checkbox-wrap">
+										<input type="checkbox"
+											   name="filter_pa_<?php echo esc_attr( $attr->attribute_name ); ?>[]"
+											   value="<?php echo esc_attr( $term->slug ); ?>"
+											   class="filter-item__check-input"
+											   <?php checked( $is_selected ); ?>>
+										<span class="filter-item__checkbox-visual" aria-hidden="true"></span>
 									</span>
-									<?php echo esc_html( $term->name ); ?>
-								</a>
-								<span class="filter-item__count">(<?php echo esc_html( $term->count ); ?>)</span>
+									<span class="filter-item__name"><?php echo esc_html( $term->name ); ?></span>
+									<span class="filter-item__count">(<?php echo esc_html( $term->count ); ?>)</span>
+								</label>
 							</li>
 							<?php endforeach; ?>
 						</ul>
 					</div>
 				</div>
 				<?php endforeach; ?>
+
+			</form>
 
 			<?php else : ?>
 				<!-- Nessun attributo configurato — navigazione categorie fallback -->

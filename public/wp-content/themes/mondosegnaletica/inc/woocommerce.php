@@ -246,16 +246,24 @@ function ms_apply_attribute_filters( array $tax_query, \WC_Query $wc_query ): ar
 		return $tax_query;
 	}
 	foreach ( $attribute_taxonomies as $attr ) {
-		$param = 'filter_pa_' . $attr->attribute_name;
-		if ( empty( $_GET[ $param ] ) ) {
-			continue;
+		$param     = 'filter_pa_' . $attr->attribute_name;
+		$taxonomy  = 'pa_' . $attr->attribute_name;
+		$raw_terms = [];
+
+		// Supporta sia ?filter_pa_X=slug1,slug2 (link-based) che ?filter_pa_X[]=slug (form checkbox)
+		if ( ! empty( $_GET[ $param ] ) && is_string( $_GET[ $param ] ) ) {
+			$raw_terms = explode( ',', wp_unslash( $_GET[ $param ] ) );
+		} elseif ( ! empty( $_GET[ $param ] ) && is_array( $_GET[ $param ] ) ) {
+			$raw_terms = array_map( 'wp_unslash', $_GET[ $param ] );
 		}
-		$terms = array_filter( array_map( 'sanitize_title', explode( ',', wp_unslash( $_GET[ $param ] ) ) ) );
+
+		$terms = array_values( array_filter( array_map( 'sanitize_title', $raw_terms ) ) );
 		if ( empty( $terms ) ) {
 			continue;
 		}
+
 		$tax_query[] = [
-			'taxonomy' => 'pa_' . $attr->attribute_name,
+			'taxonomy' => $taxonomy,
 			'field'    => 'slug',
 			'terms'    => $terms,
 			'operator' => 'IN',
