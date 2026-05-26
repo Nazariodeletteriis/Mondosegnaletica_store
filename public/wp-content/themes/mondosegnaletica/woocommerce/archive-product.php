@@ -15,12 +15,18 @@ $cat_name     = $current_cat ? $current_cat->name : __( 'Catalogo', 'mondosegnal
 $cat_desc     = $current_cat ? $current_cat->description : '';
 
 $cat_meta_map = [
-	'segnaletica-verticale'   => 'CAT-01',
-	'segnaletica-orizzontale' => 'CAT-02',
-	'coni-transenne'          => 'CAT-03',
-	'delineatori-paletti'     => 'CAT-04',
-	'cantieristica'           => 'CAT-05',
-	'dissuasori-accessori'    => 'CAT-06',
+	// Macro-categorie
+	'segnaletica-stradale-cantieristica-e-accessori' => 'CAT-ST',
+	'segnaletica-di-sicurezza'                       => 'CAT-SI',
+	'segnaletica-aziendale-privata-e-accessori'      => 'CAT-AZ',
+	'adr-e-segnaletica-per-mezzi-da-lavoro'          => 'CAT-AD',
+	// Sotto-categorie
+	'segnaletica-verticale'                          => 'CAT-01',
+	'segnaletica-orizzontale'                        => 'CAT-02',
+	'coni-transenne'                                 => 'CAT-03',
+	'delineatori-paletti'                            => 'CAT-04',
+	'cantieristica'                                  => 'CAT-05',
+	'dissuasori-accessori'                           => 'CAT-06',
 ];
 
 $cat_code = '';
