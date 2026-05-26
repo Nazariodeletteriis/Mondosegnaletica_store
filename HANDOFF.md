@@ -1,45 +1,59 @@
 # HANDOFF — Mondo Segnaletica
-> Sessione 26.05.2026 (5ª) — Akille. Leggi solo questo per riprendere.
+> Sessione 26.05.2026 (6ª) — Akille. Leggi solo questo per riprendere.
 
 ---
 
 ## Dove siamo
 
-1. **PDP (`woocommerce/single-product.php`)** — ✅ allineata a Stitch sessione 26.05 (4ª)
+1. **PDP (`woocommerce/single-product.php`)** — ✅ allineata a Stitch
 
-2. **Listing page (`archive-product.php`)** — ✅ allineata a Stitch sessione 26.05 (5ª):
-   - Breadcrumb `HOME / CATALOGO / SEGNALETICA VERTICALE` nel hero
-   - Sidebar filtri dinamici da attributi WC (auto-popolati quando aggiungi TIPOLOGIA/FORMATO/etc. dal WP admin)
-   - Hook `woocommerce_product_query_tax_query` per filtro via `?filter_pa_{name}=slug1,slug2`
-   - Toolbar: `MOSTRANDO X–Y DI Z RISULTATI`
-   - Card CTA: `CONFIGURA` (link alla PDP) + `ESAURITO` per out-of-stock
-   - Prezzo: `€ X,XX / CAD · IVA ESCLUSA`
+2. **Listing page (`archive-product.php`)** — ✅ allineata + filtri funzionanti (sessione 6ª):
+   - Sidebar filtri: `form GET` con `input[type=checkbox]` reali, stile on-brand
+   - Attributi WC attivi: `pa_tipologia` (84 Ind, 18 Pre, 12 Per), `pa_formato`, `pa_classe-rifrangenza`
+   - 114 prodotti Segnaletica Verticale con attributi assegnati
+   - Select "Ordina per" dark (`color-scheme:dark`)
+   - Hero: label `CAT-01 / CATALOGO` in monospace giallo
+   - Grid 3 colonne (era 4), sidebar 260px
 
-3. **Caroselli homepage** — ✅ autoplay loop 3.5s, pausa su hover, torna all'inizio quando finisce
+3. **Categorie WC** — ✅ struttura 4 macro + 6 sotto (sessione 6ª):
+   - **Segnaletica Stradale, Cantieristica e Accessori** (109) — 215 prodotti
+     - Segnaletica Verticale (16) — 114p
+     - Segnaletica Orizzontale (17) — 5p
+     - Coni e Transenne (18) — 19p
+     - Delineatori e Paletti (19) — 10p
+     - Cantieristica (20) — 44p
+     - Dissuasori e Accessori (21) — 23p
+   - **Segnaletica di Sicurezza** (107) — 0 prodotti (da riempire)
+   - **Segnaletica Aziendale, Privata e Accessori** (108) — 0 prodotti (da riempire)
+   - **ADR e Segnaletica per Mezzi da Lavoro** (110) — 0 prodotti (da riempire)
 
-4. **Homepage** — struttura completa (Hero, 02/Catalogo, 03/Bestseller, 04/Nuovi Arrivi, 05/Soluzioni, 06/Numeri, 07/Contatti, Footer). **Non ancora allineata a Stitch**.
+4. **Caroselli homepage** — ✅ autoplay loop 3.5s
 
-5. **Prodotti** — 215 prodotti, ~179 con thumbnail reali, 36 con placeholder SVG on-brand.
-
-6. **Attributi WC attivi**: `dimensione`, `taglia` — aggiungere TIPOLOGIA, FORMATO, CLASSE RIFRANGENZA dal WP admin → i filtri si popolano automaticamente.
+5. **Homepage** — struttura completa ma **non ancora allineata a Stitch**.
 
 ---
 
 ## Task immediato (prossima sessione)
 
-### 1. Homepage — allineamento a Stitch
-Confronta sezioni home con screen `3014af5957f043b9adb4a8795d0faaad` (Home Page v2, 12656px).
-**Approccio**: leggere la screen Stitch → confrontare struttura sezione per sezione → riscrivere dove necessario.
+### 1. Prodotti con variazioni
+Il PDP deve mostrare variazioni: `Dimensione` (60cm, 90cm...) × `Classe Rifrangenza` (CL1/CL2).
+**Approccio**:
+- Converti prodotti esistenti in "variable" con varianti Dimensione+Classe
+- Oppure importa CSV da tuttosegnaletica.it (scraper in `/tmp/scrape_v2.py`)
+- Fonte: https://tuttosegnaletica.it — prodotti e descrizioni (immagini pubbliche, no copyright issue)
+- Esempio URL prodotto: `https://tuttosegnaletica.it/caduta-massi-a-ferro-cl-1-60cm-2`
+- Pattern slug: `{nome}-{materiale}-cl-{1|2}-{dim}cm-{N}`
 
-### 2. Attributi prodotto WC
-Dal WP admin → Prodotti → Attributi, aggiungere:
-- `pa_tipologia`: Pericolo, Prescrizione, Precedenza, Indicazione
-- `pa_formato`: Triangolare, Circolare, Ottagonale, Rettangolare
-- `pa_classe_rifrangenza`: Classe 1, Classe 2
-- Assegnarli ai prodotti (o via import CSV)
+### 2. Import prodotti per 3 categorie vuote
+- Segnaletica di Sicurezza: antincendio, emergenza, divieto (da tuttosegnaletica.it)
+- Segnaletica Aziendale: proprietà privata, parcheggio, ecc.
+- ADR: merci pericolose, limiti km lavoro, ecc.
 
-### 3. Animazioni GSAP/Lenis hero
-- `assets/src/js/modules/hero.js` usa solo CSS transitions
+### 3. Homepage allineamento a Stitch
+Screen ID: `3014af5957f043b9adb4a8795d0faaad` (12656px).
+
+### 4. Animazioni GSAP/Lenis hero
+- `assets/src/js/modules/hero.js` usa solo CSS transitions ora
 - Lenis smooth scroll + GSAP ScrollTrigger parallax
 - Video: `assets/video/mondosegnaletica_video.mp4`
 
