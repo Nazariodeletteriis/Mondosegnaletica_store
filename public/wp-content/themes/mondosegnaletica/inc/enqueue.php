@@ -176,6 +176,14 @@ function ms_enqueue_assets(): void {
 			[ 'strategy' => 'defer', 'in_footer' => true ]
 		);
 	}
+
+	// Script variazioni WC — WC 10.x non lo inietta automaticamente sui temi custom
+	if ( class_exists( 'WooCommerce' ) && is_product() ) {
+		$_pdp_product = wc_get_product( get_queried_object_id() );
+		if ( $_pdp_product && $_pdp_product->is_type( 'variable' ) ) {
+			wp_enqueue_script( 'wc-add-to-cart-variation' );
+		}
+	}
 }
 
 add_action( 'wp_enqueue_scripts', 'ms_enqueue_assets' );

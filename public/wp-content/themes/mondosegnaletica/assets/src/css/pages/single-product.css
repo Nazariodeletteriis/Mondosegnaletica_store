@@ -306,6 +306,19 @@
 	background: rgba(255, 204, 0, 0.05);
 }
 
+.qty-tier--active {
+	background: rgba(255, 204, 0, 0.08);
+	border-bottom: 2px solid #FFCC00;
+}
+
+.qty-tier--active .qty-tier__label {
+	color: rgba(245, 244, 240, 0.7);
+}
+
+.qty-tier--active .qty-tier__price {
+	color: #FFCC00;
+}
+
 .qty-tier__label {
 	font-family: var(--font-mono);
 	font-size: 9px;

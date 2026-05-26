@@ -274,33 +274,95 @@ while ( have_posts() ) :
 
 	</div><!-- /.pdp-wrap -->
 
-	<!-- ─── Gallery JS: thumb switching ─── -->
+	<!-- ─── PDP JS: gallery thumbs + qty price update + variation price ─── -->
 	<script>
 	(function () {
 		'use strict';
+
+		/* ── Gallery ── */
 		var mainImg = document.getElementById('pdp-main-img');
 		var thumbs  = document.querySelectorAll('.pdp-gallery__thumb');
-		if (!mainImg || !thumbs.length) return;
-
-		thumbs.forEach(function (btn) {
-			btn.addEventListener('click', function () {
-				var src = btn.getAttribute('data-img-src');
-				var alt = btn.getAttribute('data-img-alt');
-				if (!src) return;
-
-				// Aggiorna immagine principale
-				mainImg.src = src;
-				mainImg.alt = alt || '';
-
-				// Stato active
-				thumbs.forEach(function (b) {
-					b.classList.remove('pdp-gallery__thumb--active');
-					b.setAttribute('aria-pressed', 'false');
+		if (mainImg && thumbs.length) {
+			thumbs.forEach(function (btn) {
+				btn.addEventListener('click', function () {
+					var src = btn.getAttribute('data-img-src');
+					var alt = btn.getAttribute('data-img-alt');
+					if (!src) return;
+					mainImg.src = src;
+					mainImg.alt = alt || '';
+					thumbs.forEach(function (b) {
+						b.classList.remove('pdp-gallery__thumb--active');
+						b.setAttribute('aria-pressed', 'false');
+					});
+					btn.classList.add('pdp-gallery__thumb--active');
+					btn.setAttribute('aria-pressed', 'true');
 				});
-				btn.classList.add('pdp-gallery__thumb--active');
-				btn.setAttribute('aria-pressed', 'true');
+			});
+		}
+
+		/* ── Qty-price update ── */
+		var tiers    = <?php echo wp_json_encode( ms_get_qty_discounts( $product_id ) ); ?>;
+		var basePrice = <?php echo (float) $price; ?>;
+		var currentBase = basePrice;
+
+		function fmtPrice(n) {
+			return '€ ' + n.toFixed(2).replace('.', ',');
+		}
+
+		function tierPrice(qty, base) {
+			for (var i = 0; i < tiers.length; i++) {
+				var t = tiers[i];
+				if (qty >= t.min && (t.max === null || qty <= t.max)) {
+					return t.pct > 0 ? base * (1 - t.pct / 100) : base;
+				}
+			}
+			return base;
+		}
+
+		function highlightTier(qty) {
+			var cells = document.querySelectorAll('.qty-tier');
+			cells.forEach(function (cell) {
+				var label = cell.querySelector('.qty-tier__label');
+				if (!label) return;
+				var txt   = label.textContent.trim();
+				var match = txt.match(/^(\d+)/);
+				if (!match) return;
+				var min   = parseInt(match[1], 10);
+				var maxMatch = txt.match(/[–\-](\d+)/);
+				var max   = maxMatch ? parseInt(maxMatch[1], 10) : null;
+				var active = qty >= min && (max === null || qty <= max);
+				cell.classList.toggle('qty-tier--active', active);
+			});
+		}
+
+		function updatePrice(qty) {
+			var el = document.querySelector('.pdp-price__amount');
+			if (el) el.textContent = fmtPrice(tierPrice(qty, currentBase));
+			highlightTier(qty);
+		}
+
+		var qtyInput = document.querySelector('.qty-input');
+		if (qtyInput) {
+			qtyInput.addEventListener('input',  function () { updatePrice(parseInt(this.value, 10) || 1); });
+			qtyInput.addEventListener('change', function () { updatePrice(parseInt(this.value, 10) || 1); });
+		}
+
+		/* ── Variation selected → aggiorna base price ── */
+		document.addEventListener('DOMContentLoaded', function () {
+			var form = document.querySelector('.variations_form');
+			if (!form || typeof jQuery === 'undefined') return;
+			jQuery(form).on('found_variation', function (e, variation) {
+				currentBase = parseFloat(variation.display_price) || basePrice;
+				var qty = parseInt((qtyInput || {}).value, 10) || 1;
+				updatePrice(qty);
+			});
+			jQuery(form).on('reset_data', function () {
+				currentBase = basePrice;
+				var qty = parseInt((qtyInput || {}).value, 10) || 1;
+				updatePrice(qty);
 			});
 		});
+
 	})();
 	</script>
 
