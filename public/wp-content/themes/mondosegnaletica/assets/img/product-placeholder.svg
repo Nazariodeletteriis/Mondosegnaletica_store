@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <rect width="600" height="600" fill="#141313"/>
+  <!-- Hairline border -->
+  <rect x="1" y="1" width="598" height="598" fill="none" stroke="#F5F4F026" stroke-width="1"/>
+  <!-- Road sign icon — triangolo pericolo stilizzato -->
+  <polygon points="300,160 450,420 150,420" fill="none" stroke="#F5F4F026" stroke-width="2"/>
+  <polygon points="300,190 430,405 170,405" fill="none" stroke="#FFCC00" stroke-width="1" opacity="0.3"/>
+  <!-- Punto esclamativo -->
+  <rect x="293" y="245" width="14" height="90" rx="2" fill="#F5F4F040"/>
+  <rect x="293" y="350" width="14" height="14" rx="2" fill="#F5F4F040"/>
+  <!-- Label -->
+  <text x="300" y="485" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" font-weight="500" letter-spacing="3" text-anchor="middle" fill="#FFCC00" opacity="0.6">IMMAGINE NON DISPONIBILE</text>
+  <!-- Codice prodotto placeholder -->
+  <text x="300" y="515" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10" letter-spacing="2" text-anchor="middle" fill="#F5F4F030">MONDO SEGNALETICA</text>
+</svg>
