@@ -61,22 +61,19 @@ $is_in_stock = $product->is_in_stock();
 				<span class="product-card__price">
 					<?php echo esc_html( ms_format_price( $price ) ); ?>
 				</span>
-				<span class="product-card__price-vat">+ IVA</span>
+				<span class="product-card__price-vat">/ CAD · IVA ESCLUSA</span>
 				<meta itemprop="price" content="<?php echo esc_attr( $price ); ?>">
 				<meta itemprop="priceCurrency" content="EUR">
 			</div>
 
 			<?php if ( $is_in_stock ) : ?>
-				<button
-					class="product-card__add"
-					data-product-id="<?php echo esc_attr( $product_id ); ?>"
-					aria-label="<?php echo esc_attr( sprintf( __( 'Aggiungi %s al carrello', 'mondosegnaletica' ), $name ) ); ?>"
-					title="Aggiungi al carrello"
-				>
-					<span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span>
-				</button>
+				<a href="<?php echo esc_url( $link ); ?>"
+				   class="product-card__cta"
+				   aria-label="<?php echo esc_attr( sprintf( 'Configura %s', $name ) ); ?>">
+					CONFIGURA
+				</a>
 			<?php else : ?>
-				<span class="availability-dot availability-dot--out" role="status">Esaurito</span>
+				<span class="product-card__cta product-card__cta--out" role="status">ESAURITO</span>
 			<?php endif; ?>
 		</div>
 

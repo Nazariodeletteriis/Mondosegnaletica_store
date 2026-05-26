@@ -158,12 +158,11 @@ function ms_get_qty_discounts( int $product_id ): array {
 		return $stored;
 	}
 
-	// Default fasce B2B standard
+	// Default fasce B2B standard (3 tier)
 	return [
-		[ 'min' => 1,   'max' => 9,    'pct' => 0  ],
-		[ 'min' => 10,  'max' => 49,   'pct' => 5  ],
-		[ 'min' => 50,  'max' => 99,   'pct' => 10 ],
-		[ 'min' => 100, 'max' => null, 'pct' => 15 ],
+		[ 'min' => 1,  'max' => 9,    'pct' => 0  ],
+		[ 'min' => 10, 'max' => 49,   'pct' => 10 ],
+		[ 'min' => 50, 'max' => null, 'pct' => 20 ],
 	];
 }
 
@@ -195,14 +194,35 @@ function ms_apply_qty_discount_cart( string $price_html, array $cart_item, strin
 // ─────────────────────────────────────────────
 
 add_filter( 'woocommerce_breadcrumb_defaults', function ( array $defaults ): array {
-	$defaults['delimiter']   = '<span class="breadcrumb__sep">·</span>';
-	$defaults['wrap_before'] = '<nav class="product-info__breadcrumb" aria-label="breadcrumb">';
-	$defaults['wrap_after']  = '</nav>';
+	$defaults['delimiter']   = '<span class="pdp-breadcrumb__sep">›</span>';
+	$defaults['wrap_before'] = '<span class="pdp-breadcrumb__chain">';
+	$defaults['wrap_after']  = '</span>';
 	return $defaults;
 } );
 
+// Rimuovi "Home" dal breadcrumb WC — il template PDP usa già "01 / CATALOGO" come radice.
+add_filter( 'woocommerce_breadcrumb_trail', function ( array $trail ): array {
+	if ( ! empty( $trail ) ) {
+		array_shift( $trail ); // rimuove il primo elemento [Home, url]
+	}
+	return $trail;
+} );
+
 // ─────────────────────────────────────────────
-// 8. Rimuovi elementi WC non necessari
+// 8. Placeholder immagine on-brand
+// ─────────────────────────────────────────────
+
+add_filter( 'woocommerce_placeholder_img_src', function (): string {
+	return get_template_directory_uri() . '/assets/img/product-placeholder.svg';
+} );
+
+add_filter( 'woocommerce_placeholder_img', function ( string $html, string $size ): string {
+	$src = get_template_directory_uri() . '/assets/img/product-placeholder.svg';
+	return '<img src="' . esc_url( $src ) . '" alt="Immagine non disponibile" class="woocommerce-placeholder wp-post-image" />';
+}, 10, 2 );
+
+// ─────────────────────────────────────────────
+// 9. Rimuovi elementi WC non necessari
 // ─────────────────────────────────────────────
 
 // Rimuove il risultato di ricerca "Showing all X results" sopra la griglia
@@ -213,3 +233,33 @@ remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 3
 
 // Rimuove "Showing 1–X of Y results" — riaggiunto nel nostro template
 remove_action( 'woocommerce_after_shop_loop', 'woocommerce_result_count' );
+
+// ─────────────────────────────────────────────
+// 10. Filtri attributi prodotto via URL params
+//     URL: ?filter_pa_{name}=slug1,slug2
+// ─────────────────────────────────────────────
+
+add_filter( 'woocommerce_product_query_tax_query', 'ms_apply_attribute_filters', 10, 2 );
+function ms_apply_attribute_filters( array $tax_query, \WC_Query $wc_query ): array {
+	$attribute_taxonomies = wc_get_attribute_taxonomies();
+	if ( empty( $attribute_taxonomies ) ) {
+		return $tax_query;
+	}
+	foreach ( $attribute_taxonomies as $attr ) {
+		$param = 'filter_pa_' . $attr->attribute_name;
+		if ( empty( $_GET[ $param ] ) ) {
+			continue;
+		}
+		$terms = array_filter( array_map( 'sanitize_title', explode( ',', wp_unslash( $_GET[ $param ] ) ) ) );
+		if ( empty( $terms ) ) {
+			continue;
+		}
+		$tax_query[] = [
+			'taxonomy' => 'pa_' . $attr->attribute_name,
+			'field'    => 'slug',
+			'terms'    => $terms,
+			'operator' => 'IN',
+		];
+	}
+	return $tax_query;
+}

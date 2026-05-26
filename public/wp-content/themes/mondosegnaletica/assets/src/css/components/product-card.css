@@ -123,25 +123,38 @@
 	text-transform: uppercase;
 }
 
-.product-card__add {
-	width: 36px;
-	height: 36px;
+.product-card__cta {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: var(--space-2) var(--space-4);
 	border: 1px solid var(--color-border);
 	border-radius: var(--radius);
 	background: transparent;
 	color: var(--color-text);
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	font-family: var(--font-mono);
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	text-decoration: none;
 	cursor: pointer;
 	transition: background var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
 	flex-shrink: 0;
+	white-space: nowrap;
 }
 
-.product-card__add:hover {
+.product-card__cta:hover {
 	background: var(--color-accent);
 	border-color: var(--color-accent);
 	color: var(--color-bg);
+}
+
+.product-card__cta--out {
+	border-color: var(--color-error);
+	color: var(--color-error);
+	cursor: default;
+	pointer-events: none;
 }
 
 /* --- Product Grid --- */
