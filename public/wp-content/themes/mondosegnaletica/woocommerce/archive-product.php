@@ -95,9 +95,12 @@ $total_products = (int) $wp_query->found_posts;
 			foreach ( $attribute_taxonomies as $attr ) {
 				$param = 'filter_pa_' . $attr->attribute_name;
 				if ( ! empty( $_GET[ $param ] ) ) {
-					$active_filters[ $attr->attribute_name ] = array_map(
-						'sanitize_title',
-						explode( ',', wp_unslash( $_GET[ $param ] ) )
+					$raw = wp_unslash( $_GET[ $param ] );
+					$slugs = is_array( $raw )
+						? $raw
+						: explode( ',', $raw );
+					$active_filters[ $attr->attribute_name ] = array_values(
+						array_filter( array_map( 'sanitize_title', $slugs ) )
 					);
 				}
 			}
