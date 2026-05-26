@@ -75,4 +75,8 @@ export function initAllCarousels() {
 	document.querySelectorAll('.carousel').forEach(initCarousel);
 }
 
-initAllCarousels();
+if (document.readyState === 'loading') {
+	document.addEventListener('DOMContentLoaded', initAllCarousels);
+} else {
+	initAllCarousels();
+}
