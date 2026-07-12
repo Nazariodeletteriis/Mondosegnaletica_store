@@ -1,6 +1,42 @@
 # HANDOFF — Mondo Segnaletica
 > Sessione 26.05.2026 (6ª) — Akille. Leggi solo questo per riprendere.
 
+## 🟡 2026-07-12 (8ª bis) — IMPORT CATALOGO REALE dai listini PDF fornitore. IN CORSO (checkpoint a metà).
+
+**Fase attiva: estrazione visiva dai 5 listini ufficiali. Nessun commit di questa fase — lavoro in scratchpad.**
+
+### Cosa è cambiato rispetto al piano
+- I 5 PDF sono in `/var/www/Mondosegnaletica_store/Prodotti/` (46 MB, **in `.gitignore` riga 83** — il drive `F:` non era montato, li abbiamo messi nel repo). VERTICALE 56 pag · CANTIERISTICA 38 · ACCESSORI VARI 26 · GOMMA 12 · ORIZZONTALE 10 = **142 pagine**.
+- **I PDF non hanno layer di testo**: 23.126 immagini embedded, **0 caratteri estraibili**. `pdftotext` inutile, vanno letti **visivamente** pagina per pagina. `poppler-utils` non installabile (sudo non passa in shell non interattiva) → si usa **PyMuPDF in venv** nello scratchpad.
+- 142 pagine già renderizzate in PNG @150 DPI in `scratchpad/pages/`.
+- Backup DB pre-import: `/var/www/Mondosegnaletica_store/backups/pre-import-listini-20260712-1019.sql.gz`
+
+### Struttura dati dei listini (scoperta chiave)
+Ogni pagina contiene: **(1)** una griglia di **FIGURE** (il singolo segnale, es. `FIGURA 74/B — sosta vietata`) e **(2)** una **tabella prezzi per FORMATO**, con incroci `dimensione × materiale (Lamiera 10/10 | Alluminio 25/10) × classe rifrangenza (CL1 | CL2 | CL2 S.)`.
+→ **Il prezzo non è per cartello, è per formato.**
+
+### Decisioni prese dall'utente (vincolanti)
+1. **Modello dati**: un prodotto **per FIGURA**, con varianti `dimensione × materiale × classe rifrangenza`.
+2. **Catalogo**: **sostituire** i 215 prodotti esistenti. I listini sono la fonte unica di verità (risolve duplicati, SKU incoerenti, prezzi non ufficiali).
+3. **Immagini**: sì, estrarre le figure dai PDF come immagini prodotto.
+4. Prezzi **IVA esclusa**. **Nessuno sconto quantità** per ora.
+
+### Stato al checkpoint
+11 agenti paralleli di estrazione visiva lanciati (VER 4 · CAN 3 · ACC 2 · GOM 1 · ORI 1), spec condivisa in `scratchpad/SPEC.md`, output atteso in `scratchpad/extract/`. **Al momento del checkpoint `extract/` è ancora vuoto: nessun agente ha ancora consegnato.**
+
+### ⚠️ RISCHIO DA CHIUDERE PRIMA DI FINIRE LA SESSIONE
+Lo scratchpad è **legato all'UUID di sessione** (`/tmp/claude-1000/.../3bea9b56-.../scratchpad`): una nuova sessione **non lo ritrova**, e `/tmp` si svuota al reboot. Prima di chiudere, **spostare gli artefatti in una dir persistente e gitignorata**, es. `tools/import-listini/` (pages PNG, `SPEC.md`, JSON di `extract/`, script `render*.py`), altrimenti si ributtano via 142 render + tutta l'estrazione.
+
+### TODO PRIORITARIO
+1. **Mettere in salvo gli artefatti** dello scratchpad in `tools/import-listini/` (+ riga in `.gitignore`).
+2. Raccogliere gli 11 JSON e fare **verifica incrociata** dell'estrazione (figure duplicate tra listini, prezzi mancanti, formati orfani).
+3. Estrazione **immagini** delle figure dai PDF.
+4. **Normalizzazione CSV** WooCommerce (parent per figura + righe variazione).
+5. **Archiviare** i 215 prodotti vecchi (non cancellare: `draft`/trash, il DB è già backuppato).
+6. **Import** e verifica store (dropdown varianti pieni, prezzi, IVA 22%, immagini).
+
+---
+
 ## 🟢 2026-07-12 (8ª) — Fix massivo pre-completamento: italianizzazione, carrello/cassa sbloccati, 123 prodotti resi acquistabili, IVA attivata. COMPLETATA E PUSHATA.
 
 **Commit `f6d0fd0` + `13e4b11` su `origin/main`. Working tree pulito.**

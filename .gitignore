@@ -78,3 +78,9 @@ Thumbs.db
 *.log
 npm-debug.log*
 pnpm-debug.log*
+
+# Listini PDF fornitore (46MB, sorgente import — non versionare)
+Prodotti/
+
+# Dump DB locali
+backups/
