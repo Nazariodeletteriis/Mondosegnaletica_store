@@ -1,1290 +1,4076 @@
 [
  {
-  "sku": "MS-CAN-II41ART110",
+  "sku": "MS-ACC-SEGNALEDIV-00301",
+  "file": "ACC_003_01.png",
+  "figura": "A",
+  "nome": "Segnale di Velocita'",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-SEGNALEDIV-00302",
+  "file": "ACC_003_02.png",
+  "figura": "B",
+  "nome": "Segnale di Velocita' (adesivo)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PANNELLIPE-00303",
+  "file": "ACC_003_03.png",
+  "figura": "C",
+  "nome": "Pannelli per Mezzi Portati Agricoli All. 15/10",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PANNELLIPE-00304",
+  "file": "ACC_003_04.png",
+  "figura": "D",
+  "nome": "Pannelli per Mezzi Portati Agricoli All. 18/10",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PANNELLIPE-00305",
+  "file": "ACC_003_05.png",
+  "figura": "E",
+  "nome": "Pannelli per Motrici All. 10/10",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PANNELLIPE-00306",
+  "file": "ACC_003_06.png",
+  "figura": "F",
+  "nome": "Pannelli per Rimorchi All. 10/10",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-TARGACARIC-00307",
+  "file": "ACC_003_07.png",
+  "figura": "G",
+  "nome": "Targa (carico Sporgente) All. 10/10",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-TARGACARIC-00308",
+  "file": "ACC_003_08.png",
+  "figura": "H",
+  "nome": "Targa (carico Sporgente) per Uso Pubblicitario",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-TARGACARIC-00309",
+  "file": "ACC_003_09.png",
+  "figura": "I",
+  "nome": "Targa (carico Sporgente) per Uso Pubblicitario",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-ROTORLAMPE-00310",
+  "file": "ACC_003_10.png",
+  "figura": "L",
+  "nome": "Rotor Lampeggiante Normale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-ROTORLAMPE-00311",
+  "file": "ACC_003_11.png",
+  "figura": "M",
+  "nome": "Rotor Lampeggiante Calamitato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-SEGNALEMOB-00312",
+  "file": "ACC_003_12.png",
+  "figura": "N",
+  "nome": "Segnale Mobile di Pericolo",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-TARGAPRODO-00313",
+  "file": "ACC_003_13.png",
+  "figura": "O",
+  "nome": "Targa Prodotti Agricoli (adesivo)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-TARGAPRODO-00314",
+  "file": "ACC_003_14.png",
+  "figura": "P",
+  "nome": "Targa Prodotti Deperibili (adesivo)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-TARGARIFIU-00315",
+  "file": "ACC_003_15.png",
+  "figura": "Q",
+  "nome": "Targa Rifiuti (adesivo)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-TARGARIFIU-00316",
+  "file": "ACC_003_15.png",
+  "figura": "Q1",
+  "nome": "Targa Rifiuti (adesivo)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-KITDI2PEZZ-00401",
+  "file": "ACC_004_01.png",
+  "figura": "A",
+  "nome": "Kit di 2 Pezzi per Carichi Sporgenti Laterali (1 DX 1 Sx)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PANNELLOPE-00402",
+  "file": "ACC_004_02.png",
+  "figura": "B",
+  "nome": "Pannello per Trasporto Merci Pericolose",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PANNELLOPE-00403",
+  "file": "ACC_004_03.png",
+  "figura": "C",
+  "nome": "Pannello per Trasporto Merci Pericolose Pieghevole",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PANNELLOPE-00404",
+  "file": "ACC_004_04.png",
+  "figura": "D",
+  "nome": "Pannello per Trasporto Eccezionale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PANNELLOPE-00405",
+  "file": "ACC_004_05.png",
+  "figura": "E",
+  "nome": "Pannello per Trasporto Eccezionale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PANNELLOPE-00406",
+  "file": "ACC_004_05.png",
+  "figura": "E1",
+  "nome": "Pannello per Trasporto Eccezionale Bifacciale All. 18/10",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PANNELLOPE-00407",
+  "file": "ACC_004_06.png",
+  "figura": "F",
+  "nome": "Pannello per Trasporto - Tir",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PANNELLOPE-00408",
+  "file": "ACC_004_07.png",
+  "figura": "G",
+  "nome": "Pannello per Trasporto - Tir - Pieghevole",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-ROTOLOPERL-00409",
+  "file": "ACC_004_08.png",
+  "figura": "H",
+  "nome": "Rotolo per Linea Sicurezza Automezzi per Superfici Rigide",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-ROTOLOPERL-00410",
+  "file": "ACC_004_09.png",
+  "figura": "I",
+  "nome": "Rotolo per Linea Sicurezza Automezzi per Superfici Telonate",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-KITDOTAZIO-00411",
+  "file": "ACC_004_10.png",
+  "figura": "L",
+  "nome": "Kit Dotazione per Adr Standard Marginale 10 260",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-SEGNALEMOB-00413",
+  "file": "ACC_004_12.png",
+  "figura": "N",
+  "nome": "Segnale Mobile di Pericolo con Custodia - Omologato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-TUTAINTERA-00601",
+  "file": "ACC_006_01.png",
+  "figura": "A",
+  "nome": "Tuta Intera",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PANTALONE-00602",
+  "file": "ACC_006_02.png",
+  "figura": "B",
+  "nome": "Pantalone",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-BRETELLE-00603",
+  "file": "ACC_006_03.png",
+  "figura": "C",
+  "nome": "Bretelle",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-GIACCAAVEN-00604",
+  "file": "ACC_006_04.png",
+  "figura": "D",
+  "nome": "Giacca a Vento",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-GIACCA-00605",
+  "file": "ACC_006_05.png",
+  "figura": "E",
+  "nome": "Giacca",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-GILETESTIV-00606",
+  "file": "ACC_006_06.png",
+  "figura": "F",
+  "nome": "Gilet Estivo",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-GILETINVER-00607",
+  "file": "ACC_006_07.png",
+  "figura": "G",
+  "nome": "Gilet Invernale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-BERRETTOES-00608",
+  "file": "ACC_006_08.png",
+  "figura": "H",
+  "nome": "Berretto Estivo in Cotone",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-BERRETTOIM-00609",
+  "file": "ACC_006_09.png",
+  "figura": "H1",
+  "nome": "Berretto Imbottito Antifreddo",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-IMPERMEABI-00611",
+  "file": "ACC_006_11.png",
+  "figura": "L",
+  "nome": "Impermeabile con Cappuccio Incorporato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-IMPERMEABI-00612",
+  "file": "ACC_006_12.png",
+  "figura": "M",
+  "nome": "Impermeabile Completo Giacca e Pantaloni Antistrappo",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-BERMUDA-00613",
+  "file": "ACC_006_13.png",
+  "figura": "N",
+  "nome": "Bermuda",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-GIACCAAVEN-00701",
+  "file": "ACC_007_01.png",
+  "figura": "A",
+  "nome": "Giacca a Vento Blu con Fasce Rifrangenti + Interno Staccabile con Scritta Rifrangente “ausiliari del Traffico”",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-CORPETTOBL-00702",
+  "file": "ACC_007_02.png",
+  "figura": "B",
+  "nome": "Corpetto Blu con Scritta Rifrangente “ausiliari del Traffico” Sia sul Fronte Che sul Retro",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-CAPPOTTOIM-00703",
+  "file": "ACC_007_03.png",
+  "figura": "C",
+  "nome": "Cappotto Impermeabile Blu con Fasce Rifrangenti con Scritta Rifrangente “ausiliari del Traffico”",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-BERRETTOIM-00704",
+  "file": "ACC_007_04.png",
+  "figura": "D",
+  "nome": "Berretto Imbottito Blu con Copri Orecchie ed Elastico Nucale con Scritta Rifrangente “ausiliari del Traffico”",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-BERRETTOIN-00705",
+  "file": "ACC_007_05.png",
+  "figura": "E",
+  "nome": "Berretto in Panno Blu con Scritta Rifrangente “ausiliari del Traffico”",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-BERRETTOIN-00706",
+  "file": "ACC_007_06.png",
+  "figura": "F",
+  "nome": "Berretto in Cotone Blu con Scritta Rifrangente “ausiliari del Traffico”",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-BRACCIOLOB-00707",
+  "file": "ACC_007_07.png",
+  "figura": "G",
+  "nome": "Bracciolo Blu con Scritta Rifrangente “ausiliari del Traffico”",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-BORSELLOCU-00708",
+  "file": "ACC_007_08.png",
+  "figura": "H",
+  "nome": "Borsello Cuoio Bianco",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PETTORINAR-00709",
+  "file": "ACC_007_09.png",
+  "figura": "I",
+  "nome": "Pettorina Rifrangente con Scritta “polizia Municipale”",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-COPPIAMANI-00710",
+  "file": "ACC_007_10.png",
+  "figura": "L",
+  "nome": "Coppia Manicotti in Tessuto Rifrangente",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-COPRIBERRE-00711",
+  "file": "ACC_007_11.png",
+  "figura": "M",
+  "nome": "Copriberretto Rifrangente",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-SFOLLAGENT-00712",
+  "file": "ACC_007_12.png",
+  "figura": "N",
+  "nome": "Sfollagente",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-GEMMAADESI-00901",
+  "file": "ACC_009_01.png",
+  "figura": "A",
+  "nome": "Gemma Adesiva per Qualsiasi Superficie da Cm² 50",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-GEMMAPERRO-00902",
+  "file": "ACC_009_02.png",
+  "figura": "B",
+  "nome": "Gemma per Roccia Doppia Faccia in Alluminio Bifacciale CM 5x10",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-GEMMAPERST-00903",
+  "file": "ACC_009_03.png",
+  "figura": "C",
+  "nome": "Gemma per Staccionate in Lamiera Zincata con Fori",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-GEMMEPERGU-00904",
+  "file": "ACC_009_04.png",
+  "figura": "D",
+  "nome": "Gemme per Guard-rails in Lamiera Zincata con Asole",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-GEMMEPERST-00905",
+  "file": "ACC_009_05.png",
+  "figura": "E",
+  "nome": "Gemme per Staccionate in Metacrilato con Fori - Omologate",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-GEMMEPERQU-00906",
+  "file": "ACC_009_06.png",
+  "figura": "F",
+  "nome": "Gemme per Qualsiasi Superficie in Metacrilato Ø 80",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-OCCHIDIGAT-00907",
+  "file": "ACC_009_07.png",
+  "figura": "G",
+  "nome": "Occhi di Gatto in Fusione di Alluminio CM 10x10 con Perno",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-OCCHIDIGAT-00908",
+  "file": "ACC_009_08.png",
+  "figura": "H",
+  "nome": "Occhi di Gatto in Policarbonato Completi di Adesivo - Omologati",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "3400DRIAB0070",
+  "file": "ACC_009_09.png",
+  "figura": "I",
+  "nome": "Adesivo Bicomponente per Occhi di Gatto Confezione da 0,5 KG",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "3400DRIDR0075",
+  "file": "ACC_009_10.png",
+  "figura": "L",
+  "nome": "Dispositivo per Riflettorizzazione Degli Alberi da 25x20 CM Parte Rifrangente 14,8x19,8 CM Kit: 2 Fasce + Corda Elastica + Fascette",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "3400DRIOG0055",
+  "file": "ACC_009_11.png",
+  "figura": "M",
+  "nome": "Occhio di Gatto Autopulente Ø 100 MM Circa - Omologato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "3400DRIOG0056",
+  "file": "ACC_009_12.png",
+  "figura": "N",
+  "nome": "Occhio di Gatto Autopulente Ø 50 MM Circa - Non Omologato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "3400DRIOG0057",
+  "file": "ACC_009_13.png",
+  "figura": "O",
+  "nome": "Occhio di Gatto Monofacciale - Economic Non Carrabile - Senza Tasselli (fino AD Esaurimento Scorte) - Non Omologato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-OCCHIODIGA-00914",
+  "file": "ACC_009_14.png",
+  "figura": "P - Q - R",
+  "nome": "Occhio di Gatto Bifacciale - Economic Non Carrabile - Senza Tasselli (fino AD Esaurimento Scorte) - Non Omologato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-KITPERCASS-01001",
+  "file": "ACC_010_01.png",
+  "figura": "A",
+  "nome": "Kit per Cassonetti N.u. da CM 10x40 DX o SX",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-KITPERCASS-01002",
+  "file": "ACC_010_02.png",
+  "figura": "B",
+  "nome": "Kit per Cassonetti N.u. da CM 10x20 DX o SX",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-KITPERCASS-01003",
+  "file": "ACC_010_03.png",
+  "figura": "C",
+  "nome": "Kit per Cassonetti N.u. da CM 20x20 DX o SX",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-KITPERCASS-01004",
+  "file": "ACC_010_04.png",
+  "figura": "D",
+  "nome": "Kit per Cassonetti N.u. da CM 20x40",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PROFILIINA-01005",
+  "file": "ACC_010_05.png",
+  "figura": "E",
+  "nome": "Profili in Alluminio 7/10 da CM 10x100 - Bianco/rosso",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PROFILIINA-01006",
+  "file": "ACC_010_06.png",
+  "figura": "F",
+  "nome": "Profili in Alluminio 7/10 da CM 10x100 - Giallo/nero",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-ADESIVOGIA-01007",
+  "file": "ACC_010_05.png",
+  "figura": "E - F",
+  "nome": "Adesivo Giallo/nero o Bianco/rosso da CM 10x100 per Profili",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-GUARDRAILS-01101",
+  "file": "ACC_011_01.png",
+  "figura": "A",
+  "nome": "Guard-rails Barriera Dritta - Interasse Ml. 3,00",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-GUARDRAILS-01102",
+  "file": "ACC_011_01.png",
+  "figura": "A1",
+  "nome": "Guard-rails Barriera Dritta - Interasse Ml. 3,60",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-GUARDRAILS-01103",
+  "file": "ACC_011_02.png",
+  "figura": "B",
+  "nome": "Guard-rails Barriera Curva",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PIEDRITTOM-01104",
+  "file": "ACC_011_03.png",
+  "figura": "C",
+  "nome": "Piedritto M 100 H. 1353 + Foro Ø 60",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-PIEDRITTOC-01105",
+  "file": "ACC_011_04.png",
+  "figura": "D",
+  "nome": "Piedritto C 120x80x5 H. 195",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-DISTANZIAL-01106",
+  "file": "ACC_011_05.png",
+  "figura": "E",
+  "nome": "Distanziale C 154x67x310",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-TUBOCORRIM-01107",
+  "file": "ACC_011_06.png",
+  "figura": "F",
+  "nome": "Tubo Corrimano Ø 60",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-TERMINALEA-01108",
+  "file": "ACC_011_07.png",
+  "figura": "G",
+  "nome": "Terminale Allargato a Ventaglio",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-SERIEDI9BU-01109",
+  "file": "ACC_011_08.png",
+  "figura": "H",
+  "nome": "Serie di 9 Bulloni, Dadi e Piastrini",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-FRANGILUCE-01111",
+  "file": "ACC_011_10.png",
+  "figura": "L",
+  "nome": "Frangiluce per New-jersey",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-STAFFAPERF-01112",
+  "file": "ACC_011_11.png",
+  "figura": "M",
+  "nome": "Staffa per Frangiluce per Montaggio su New-jersey",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-STAFFAPERF-01113",
+  "file": "ACC_011_12.png",
+  "figura": "N",
+  "nome": "Staffa per Frangiluce per Aggancio su Guard-rails",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-BARRIERAMO-01205",
+  "file": "ACC_012_02.png",
+  "figura": "B",
+  "nome": "Barriera Mod. 4000 Lunghezza Barra da 1 a 4 M",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-ACC-BARRIERAMO-01206",
+  "file": "ACC_012_03.png",
+  "figura": "C",
+  "nome": "Barriera Mod. 6000 Lunghezza Barra da 2 a 6 M",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "3600U71010001",
+  "file": "ACC_013_02.png",
+  "figura": "B",
+  "nome": "Utensile per Band-it",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "3600M47A10002",
+  "file": "ACC_013_03.png",
+  "figura": "A",
+  "nome": "Art. 60464 - Misuratore Stradale con Contatore Visibile Dall'alto Dotato di Freno, Comandi Reset e Stop Posizionati in Alto - Manico Metallico Pieghevole Sacca per IL Trasporto Inclusa - Max 10 KM = 9999,99 Metri - Ruota Ø: 32 CM",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-396",
+  "file": "CAN_003_01.png",
+  "figura": "396",
+  "nome": "Cono (schemi quotati h 354 / 540 / 780 mm)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-397",
+  "file": "CAN_003_02.png",
+  "figura": "397",
+  "nome": "Delineatore (schemi quotati h 330 / 360 mm)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "DA2PPEG2A0041",
   "file": "CAN_012_01.png",
   "figura": "41",
-  "nome": "Dare precedenza nel senso unico alternato",
+  "nome": "Segnaletica Stradale Temporanea",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-II45ART114",
+  "sku": "QB2PPEG2A0045",
   "file": "CAN_012_02.png",
   "figura": "45",
-  "nome": "Diritto di precedenza nel senso unico alternato",
+  "nome": "Segnaletica Stradale Temporanea",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-II46ART116",
+  "sku": "DA2PPEG2A0046",
   "file": "CAN_012_03.png",
   "figura": "46",
-  "nome": "Divieto di transito",
+  "nome": "Segnaletica Stradale Temporanea",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-II48ART116",
+  "sku": "DA2PPEG2A0048",
   "file": "CAN_012_04.png",
   "figura": "48",
-  "nome": "Divieto di sorpasso",
+  "nome": "Segnaletica Stradale Temporanea",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-II50ART116",
-  "file": "CAN_012_05.png",
-  "figura": "50",
-  "nome": "Limite massimo di velocità 30 km/h",
+  "sku": "DA2PPEG2A0070",
+  "file": "CAN_012_08.png",
+  "figura": "70",
+  "nome": "Segnaletica Stradale Temporanea",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "TA2PPEG2A0383",
+  "file": "CAN_012_10.png",
+  "figura": "383",
+  "nome": "Segnaletica Stradale Temporanea",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "TA2PPEG2A0385",
+  "file": "CAN_012_12.png",
+  "figura": "385",
+  "nome": "Segnaletica Stradale Temporanea",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "TA2PPEG2A0386",
+  "file": "CAN_012_13.png",
+  "figura": "386",
+  "nome": "Segnaletica Stradale Temporanea",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "TA2PPEG2A0387",
+  "file": "CAN_012_14.png",
+  "figura": "387",
+  "nome": "Segnaletica Stradale Temporanea",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "TA2PPEG2A0389",
+  "file": "CAN_012_16.png",
+  "figura": "389",
+  "nome": "Segnaletica Stradale Temporanea",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "TA2PPEG2A0390",
+  "file": "CAN_012_17.png",
+  "figura": "390",
+  "nome": "Segnaletica Stradale Temporanea",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "TA2PPEG2A0404",
+  "file": "CAN_012_18.png",
+  "figura": "404",
+  "nome": "Segnaletica Stradale Temporanea",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II383ART31",
-  "file": "CAN_012_10.png",
-  "figura": "383",
+  "file": "CAN_013_01.png",
+  "figura": "II 383 ART. 31",
   "nome": "Lavori",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II384ART31",
-  "file": "CAN_012_11.png",
-  "figura": "384",
+  "file": "CAN_013_02.png",
+  "figura": "II 384 ART. 31",
   "nome": "Strettoia simmetrica",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II385ART31",
-  "file": "CAN_012_12.png",
-  "figura": "385",
+  "file": "CAN_013_03.png",
+  "figura": "II 385 ART. 31",
   "nome": "Strettoia asimmetrica a sinistra",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II386ART31",
-  "file": "CAN_012_13.png",
-  "figura": "386",
+  "file": "CAN_013_04.png",
+  "figura": "II 386 ART. 31",
   "nome": "Strettoia asimmetrica a destra",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II387ART31",
-  "file": "CAN_012_14.png",
-  "figura": "387",
+  "file": "CAN_013_05.png",
+  "figura": "II 387 ART. 31",
   "nome": "Doppio senso di circolazione",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II388ART31",
-  "file": "CAN_012_15.png",
-  "figura": "388",
-  "nome": "Altri pericoli",
+  "file": "CAN_013_06.png",
+  "figura": "II 388 ART. 31",
+  "nome": "Mezzi di lavoro in azione",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II389ART31",
-  "file": "CAN_012_16.png",
-  "figura": "389",
+  "file": "CAN_013_07.png",
+  "figura": "II 389 ART. 31",
   "nome": "Strada deformata",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II390ART31",
-  "file": "CAN_012_17.png",
-  "figura": "390",
+  "file": "CAN_013_08.png",
+  "figura": "II 390 ART. 31",
   "nome": "Materiale instabile sulla strada",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-CAN-II404ART42",
-  "file": "CAN_012_18.png",
-  "figura": "404",
-  "nome": "Semaforo",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II391ART31",
   "file": "CAN_013_09.png",
-  "figura": "II 391",
+  "figura": "II 391 ART. 31",
   "nome": "Segni orizzontali in rifacimento",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II391AART3",
   "file": "CAN_013_10.png",
-  "figura": "II 391/A",
+  "figura": "II 391/A ART. 31",
   "nome": "Incidente",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-II391BART3",
-  "file": "CAN_013_11.png",
-  "figura": "II 391/B",
-  "nome": "Uscita obbligatoria",
+  "sku": "MS-CAN-II404ART42",
+  "file": "CAN_013_13.png",
+  "figura": "II 404 ART. 42",
+  "nome": "Semaforo",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-II391CART3",
-  "file": "CAN_013_12.png",
-  "figura": "II 391/C",
-  "nome": "Corsie a larghezza ridotta",
+  "sku": "MS-CAN-II41ART110",
+  "file": "CAN_014_03.png",
+  "figura": "II 41 ART. 110",
+  "nome": "Dare precedenza nei sensi unici alternati",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-II1AART83",
-  "file": "CAN_013_14.png",
-  "figura": "II 1/A",
-  "nome": "Pannello integrativo di distanza (150 m / 500 m)",
+  "sku": "MS-CAN-II45ART114",
+  "file": "CAN_014_04.png",
+  "figura": "II 45 ART. 114",
+  "nome": "Diritto di precedenza nei sensi unici alternati",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-II36ART106",
-  "file": "CAN_014_01.png",
-  "figura": "II 36",
-  "nome": "Dare precedenza",
+  "sku": "MS-CAN-II46ART116",
+  "file": "CAN_014_05.png",
+  "figura": "II 46 ART. 116",
+  "nome": "Divieto di transito",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-II37ART107",
-  "file": "CAN_014_02.png",
-  "figura": "II 37",
-  "nome": "Fermarsi e dare precedenza (Stop)",
+  "sku": "MS-CAN-II50ART116",
+  "file": "CAN_014_07.png",
+  "figura": "II 50 ART. 116",
+  "nome": "Limite massimo di velocità (20)",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II52ART117",
   "file": "CAN_014_13.png",
-  "figura": "II 52",
+  "figura": "II 52 ART. 117",
   "nome": "Divieto di sorpasso per veicoli di massa a pieno carico superiore a 3,5 t",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II60AART11",
   "file": "CAN_014_14.png",
-  "figura": "II 60/A",
+  "figura": "II 60/A ART. 117",
   "nome": "Transito vietato ai veicoli di massa a pieno carico superiore a 3,5 t",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II60BART11",
   "file": "CAN_014_15.png",
-  "figura": "II 60/B",
-  "nome": "Transito vietato ai veicoli di massa a pieno carico superiore a 6,5 t",
+  "figura": "II 60/B ART. 117",
+  "nome": "Transito vietato ai veicoli di massa a pieno carico superiore a .... tonnellate",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II61ART117",
   "file": "CAN_014_16.png",
-  "figura": "II 61",
+  "figura": "II 61 ART. 117",
   "nome": "Transito vietato ai veicoli a motore trainanti un rimorchio",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II65ART118",
   "file": "CAN_014_17.png",
-  "figura": "II 65",
-  "nome": "Transito vietato ai veicoli aventi larghezza superiore a 2,30 m",
+  "figura": "II 65 ART. 118",
+  "nome": "Transito vietato ai veicoli aventi larghezza superiore a .... metri",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II66ART118",
   "file": "CAN_014_18.png",
-  "figura": "II 66",
-  "nome": "Transito vietato ai veicoli aventi altezza totale superiore a 3,50 m",
+  "figura": "II 66 ART. 118",
+  "nome": "Transito vietato ai veicoli aventi totale altezza superiore a .... metri",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II67ART118",
   "file": "CAN_014_19.png",
-  "figura": "II 67",
-  "nome": "Transito vietato ai veicoli o complessi di veicoli aventi lunghezza superiore a 10 m",
-  "confidenza": "alta"
+  "figura": "II 67 ART. 118",
+  "nome": "Transito vietato ai veicoli, o complessi di veicoli, aventi lunghezza superiore a .... metri",
+  "confidenza": "media"
  },
  {
   "sku": "MS-CAN-II68ART118",
   "file": "CAN_014_20.png",
-  "figura": "II 68",
-  "nome": "Transito vietato ai veicoli aventi massa superiore a 7 t",
+  "figura": "II 68 ART. 118",
+  "nome": "Transito vietato ai veicoli aventi una massa superiore a .... tonnellate",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II69ART118",
   "file": "CAN_014_21.png",
-  "figura": "II 69",
-  "nome": "Transito vietato ai veicoli aventi massa per asse superiore a 6,5 t",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-CAN-II80AART12",
-  "file": "CAN_015_01.png",
-  "figura": "II 80/A",
-  "nome": "Direzione obbligatoria diritto",
+  "figura": "II 69 ART. 118",
+  "nome": "Transito vietato ai veicoli aventi massa per asse superiore a .... tonnellate",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II80BART12",
   "file": "CAN_015_02.png",
-  "figura": "II 80/B",
+  "figura": "II 80/B ART. 122",
   "nome": "Direzione obbligatoria a sinistra",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-CAN-II80CART12",
-  "file": "CAN_015_03.png",
-  "figura": "II 80/C",
-  "nome": "Direzione obbligatoria a destra",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II80DART12",
   "file": "CAN_015_04.png",
-  "figura": "II 80/D",
+  "figura": "II 80/D ART. 122",
   "nome": "Preavviso di direzione obbligatoria a destra",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II80EART12",
   "file": "CAN_015_05.png",
-  "figura": "II 80/E",
+  "figura": "II 80/E ART. 122",
   "nome": "Preavviso di direzione obbligatoria a sinistra",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II80FART12",
   "file": "CAN_015_06.png",
-  "figura": "II 80/F",
-  "nome": "Preavviso di direzione obbligatoria a destra con pannello uscita obbligatoria",
+  "figura": "II 80/F ART. 122",
+  "nome": "Preavviso di direzione obbligatoria a destra",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II81AART12",
   "file": "CAN_015_07.png",
-  "figura": "II 81/A",
+  "figura": "II 81/A ART. 122",
   "nome": "Direzioni consentite destra e sinistra",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-CAN-II82AART12",
-  "file": "CAN_015_08.png",
-  "figura": "II 82/A",
-  "nome": "Passaggio obbligatorio a sinistra",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II82BART12",
   "file": "CAN_015_09.png",
-  "figura": "II 82/B",
+  "figura": "II 82/B ART. 122",
   "nome": "Passaggio obbligatorio a destra",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-CAN-II83ART122",
-  "file": "CAN_015_10.png",
-  "figura": "II 83",
-  "nome": "Passaggi consentiti",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II70ART119",
   "file": "CAN_015_11.png",
-  "figura": "II 70",
+  "figura": "II 70 ART. 119",
   "nome": "Via libera",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II71ART119",
   "file": "CAN_015_12.png",
-  "figura": "II 71",
-  "nome": "Fine limitazione di velocità 20 km/h",
+  "figura": "II 71 ART. 119",
+  "nome": "Fine limitazione di velocità (20)",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II72ART119",
   "file": "CAN_015_18.png",
-  "figura": "II 72",
+  "figura": "II 72 ART. 119",
   "nome": "Fine del divieto di sorpasso",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II73ART119",
   "file": "CAN_015_19.png",
-  "figura": "II 73",
-  "nome": "Fine del divieto di sorpasso per i veicoli di massa a pieno carico superiore a 3,5 t",
+  "figura": "II 73 ART. 119",
+  "nome": "Fine del divieto di sorpasso per i veicoli di massa a pieno carico superiore a 3,5 tonnellate",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II409BART4",
+  "file": "CAN_016_09.png",
+  "figura": "II 409/B ART. 43",
+  "nome": "Direzione autocarri obbligatoria",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II411AART4",
+  "file": "CAN_016_20.png",
+  "figura": "II 411/A ART. 43",
+  "nome": "Segnale di corsia chiusa (chiusura corsia di destra)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II411BART4",
+  "file": "CAN_016_22.png",
+  "figura": "II 411/B ART. 43",
+  "nome": "Segnale di corsia chiusa (chiusura corsia di destra)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II411FART4",
+  "file": "CAN_016_17.png",
+  "figura": "II 411/F ART. 43",
+  "nome": "Segnale di corsie chiuse",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II411GART4",
+  "file": "CAN_016_18.png",
+  "figura": "II 411/G ART. 43",
+  "nome": "Segnale di corsie chiuse",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II411DART4",
+  "file": "CAN_016_19.png",
+  "figura": "II 411/D ART. 43",
+  "nome": "Segnale di corsie chiuse",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II411EART4",
   "file": "CAN_017_01.png",
-  "figura": "II 411/E",
+  "figura": "II 411/E ART. 43",
   "nome": "Segnale di corsie chiuse",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II412AART4",
   "file": "CAN_017_02.png",
-  "figura": "II 412/A",
+  "figura": "II 412/A ART. 43",
   "nome": "Segnale di carreggiata chiusa",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II412BART4",
   "file": "CAN_017_03.png",
-  "figura": "II 412/B",
+  "figura": "II 412/B ART. 43",
   "nome": "Segnale di rientro in carreggiata",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II412CART4",
   "file": "CAN_017_04.png",
-  "figura": "II 412/C",
+  "figura": "II 412/C ART. 43",
   "nome": "Segnale di carreggiata chiusa",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II412DART4",
   "file": "CAN_017_05.png",
-  "figura": "II 412/D",
+  "figura": "II 412/D ART. 43",
   "nome": "Segnale di rientro in carreggiata",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II412EART4",
   "file": "CAN_017_06.png",
-  "figura": "II 412/E",
+  "figura": "II 412/E ART. 43",
   "nome": "Segnale di rientro in carreggiata",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II412FART4",
   "file": "CAN_017_07.png",
-  "figura": "II 412/F",
+  "figura": "II 412/F ART. 43",
   "nome": "Segnale di rientro in carreggiata",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II413AART4",
   "file": "CAN_017_08.png",
-  "figura": "II 413/A",
+  "figura": "II 413/A ART. 43",
   "nome": "Segnale di carreggiata chiusa",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II413BART4",
   "file": "CAN_017_09.png",
-  "figura": "II 413/B",
+  "figura": "II 413/B ART. 43",
   "nome": "Segnale di carreggiata chiusa",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II413CART4",
   "file": "CAN_017_10.png",
-  "figura": "II 413/C",
+  "figura": "II 413/C ART. 43",
   "nome": "Segnale di rientro in carreggiata",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-CAN-II344ART13",
-  "file": "CAN_017_11.png",
-  "figura": "II 344",
-  "nome": "Variazione corsie disponibili",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II414ART43",
   "file": "CAN_017_12.png",
-  "figura": "II 414",
+  "figura": "II 414 ART. 43",
   "nome": "Uso corsie disponibili",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-CAN-II392ART32",
-  "file": "CAN_018_01.png",
-  "figura": "II 392",
-  "nome": "Barriera normale",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II393AART3",
   "file": "CAN_018_02.png",
-  "figura": "II 393/A",
+  "figura": "II 393/A ART. 32",
   "nome": "Barriera direzionale",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II394ART33",
   "file": "CAN_018_03.png",
-  "figura": "II 394",
+  "figura": "II 394 ART. 33",
   "nome": "Paletto di delimitazione",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-CAN-II395ART33",
-  "file": "CAN_018_04.png",
-  "figura": "II 395",
-  "nome": "Delineatore modulare di curva provvisoria",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II402ART40",
   "file": "CAN_019_01.png",
-  "figura": "II 402",
+  "figura": "II 402 ART. 40",
   "nome": "Barriera di recinzione per chiusini",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-CAN-II403ART42",
-  "file": "CAN_019_03.png",
-  "figura": "II 403",
-  "nome": "Paletta per transito alternato da movieri",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-II403AART4",
   "file": "CAN_019_04.png",
-  "figura": "II 403/A",
+  "figura": "II 403/A ART. 42",
   "nome": "Bandiera",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-TRANSENNAM-02901",
-  "file": "CAN_021_13.png",
+  "sku": "2000STETT0070",
+  "file": "CAN_020_01.png",
   "figura": "A",
-  "nome": "Pedoni sul lato opposto",
+  "nome": "Traversa per Transenna Ø 48 MM - 3 M",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-TRANSENNAM-02904",
-  "file": "CAN_021_14.png",
+  "sku": "2000STEST0080",
+  "file": "CAN_020_02.png",
   "figura": "B",
-  "nome": "Rimozione forzata dal ... al ...",
+  "nome": "Sostegno Transenna Mobile - H 100 CM",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-PERUNIMPIA-03704",
-  "file": "CAN_021_15.png",
+  "sku": "2000STETM0075",
+  "file": "CAN_020_03.png",
   "figura": "C",
-  "nome": "Strada chiusa per lavori",
+  "nome": "Transenna Mobile 300x20 CM - Lamiera 10/10",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-BATTERIE6V-03607",
-  "file": "CAN_021_17.png",
+  "sku": "2000STETM0076",
+  "file": "CAN_020_03.png",
+  "figura": "C1",
+  "nome": "Transenna Mobile 250x20 CM - Lamiera 10/10",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STETM0077",
+  "file": "CAN_020_03.png",
+  "figura": "C2",
+  "nome": "Transenna Mobile 150x20 CM - Lamiera 10/10",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STEST0081",
+  "file": "CAN_020_04.png",
+  "figura": "D",
+  "nome": "Sostegno a 4 Piedi con Ganci per Transenna Tipo C - H 100 CM",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STER00095",
+  "file": "CAN_020_05.png",
   "figura": "E",
-  "nome": "Rallentare - lavoriamo per voi",
+  "nome": "Sostegno per Rete - H 200 CM",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-STAFFACOMP-02311",
-  "file": "CAN_021_22.png",
+  "sku": "2000STER00096",
+  "file": "CAN_020_06.png",
+  "figura": "E1",
+  "nome": "Sostegno per Rete - H 220 CM",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STEPT0100",
+  "file": "CAN_020_07.png",
+  "figura": "F",
+  "nome": "Protezione in Plastica a Fungo per Tondo Armature - Sp. 8-16",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STEPT0101",
+  "file": "CAN_020_08.png",
+  "figura": "G",
+  "nome": "Protezione in Plastica a Fungo per Tondo Armature - Sp. 16-32",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STER00085",
+  "file": "CAN_020_09.png",
   "figura": "H",
-  "nome": "Inizio cantiere",
+  "nome": "Rete Polietilene per Delimitazione Cantieri Rotolo da 50 M - H 100 CM",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-STAFFACOMP-02312",
-  "file": "CAN_021_23.png",
-  "figura": "I",
-  "nome": "Fine cantiere",
+  "sku": "2000STER00086",
+  "file": "CAN_020_09.png",
+  "figura": "H",
+  "nome": "Rete Polietilene per Delimitazione Cantieri Rotolo da 50 M - H 120 CM",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-SOLARGROUN-03511",
-  "file": "CAN_021_28.png",
-  "figura": "M",
-  "nome": "Attenzione strada dissestata",
+  "sku": "2000STER00087",
+  "file": "CAN_020_09.png",
+  "figura": "H",
+  "nome": "Rete Polietilene per Delimitazione Cantieri Rotolo da 50 M - H 150 CM",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-SOLARGROUN-03513",
-  "file": "CAN_021_29.png",
-  "figura": "N",
-  "nome": "Rallentare - banchina non transitabile",
+  "sku": "2000STER00088",
+  "file": "CAN_020_09.png",
+  "figura": "H",
+  "nome": "Rete Polietilene per Delimitazione Cantieri Rotolo da 50 M - H 180 CM",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STER00089",
+  "file": "CAN_020_09.png",
+  "figura": "H",
+  "nome": "Rete Polietilene per Delimitazione Cantieri Rotolo da 50 M - H 180 CM",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STER00090",
+  "file": "CAN_020_09.png",
+  "figura": "H",
+  "nome": "Rete Polietilene per Delimitazione Cantieri Rotolo da 50 M - H 200 CM",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-TARGA-02105",
-  "file": "CAN_021_33.png",
+  "file": "CAN_021_30.png",
   "figura": "R",
-  "nome": "Divieto di sosta con rimozione forzata",
+  "nome": "Targa",
   "confidenza": "alta"
  },
  {
-  "sku": "MS-CAN-TRANSENNAE-02912",
+  "sku": "MS-CAN-TARGA-02106",
+  "file": "CAN_021_30.png",
+  "figura": "R",
+  "nome": "Targa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-TARGA-02107",
+  "file": "CAN_021_31.png",
+  "figura": "S",
+  "nome": "Targa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-TARGA-02108",
+  "file": "CAN_021_31.png",
+  "figura": "S",
+  "nome": "Targa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-TARGA-02109",
+  "file": "CAN_021_32.png",
+  "figura": "T - U",
+  "nome": "Targa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-TARGA-02110",
+  "file": "CAN_021_32.png",
+  "figura": "T - U",
+  "nome": "Targa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STEBC0105",
+  "file": "CAN_022_01.png",
+  "figura": "A",
+  "nome": "Base Circolare con Palo Ø 48 - H 2,00 M - con Bulloneria",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STEBC0106",
+  "file": "CAN_022_01.png",
+  "figura": "A",
+  "nome": "Base Circolare con Palo Ø 48 - H 1,50 M - con Bulloneria",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STEBC0107",
+  "file": "CAN_022_02.png",
+  "figura": "B",
+  "nome": "Base Circolare con Palo Ø 60 - H 2,00 M - con Bulloneria",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STEBC0108",
+  "file": "CAN_022_02.png",
+  "figura": "B",
+  "nome": "Base Circolare con Palo Ø 60 - H 1,50 M - con Bulloneria",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STEBC0110",
+  "file": "CAN_022_03.png",
+  "figura": "C",
+  "nome": "Base Circolare Senza Palo con Bulloneria per Palo Ø 48 e Ø 60",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STEBA0116",
   "file": "CAN_022_04.png",
+  "figura": "D",
+  "nome": "Base Appesantimento in Pvc - con Fascia Rifrangente - 15 Kg. Circa - Ove SI Possono Inserire Palo Ø 48 - Palo Ø 60 - Canna Quadra da 40x40",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STEBA0115",
+  "file": "CAN_022_04.png",
+  "figura": "D",
+  "nome": "Base Appesantimento in Pvc - con Fascia Rifrangente - 22 Kg. Circa - Ove SI Possono Inserire Palo Ø 48 - Palo Ø 60 - Canna Quadra da 40x40",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STECQ0025",
+  "file": "CAN_022_05.png",
+  "figura": "E",
+  "nome": "Palo Canna Quadra Zincata da 40x40 - Spessore 1,5 MM - Altezza 2,00 M + 2 Staffe e Bulloneria Zincate",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STECQ0026",
+  "file": "CAN_022_05.png",
+  "figura": "E",
+  "nome": "Palo Canna Quadra Zincata da 40x40 - Spessore 1,5 MM - Altezza 2,70 M + 2 Staffe e Bulloneria Zincate",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STEBA0117",
+  "file": "CAN_022_06.png",
   "figura": "F",
-  "nome": "Base di appesantimento in PVC + pannello segnaletico",
+  "nome": "Base Appesantimento in Pvc - con Fascia Rifrangente Cl. 1 - 22 Kg. Circa + Pannello Segnaletico in Pvc da 25x100 - Bifacciale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000STEBA0118",
+  "file": "CAN_022_06.png",
+  "figura": "F",
+  "nome": "Base Appesantimento in Pvc - con Fascia Rifrangente Cl. 2 - 22 Kg. Circa + Pannello Segnaletico in Pvc da 25x100 - Bifacciale",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-MOVIERE-02402",
   "file": "CAN_024_02.png",
   "figura": "2",
-  "nome": "Esempio di moviere",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-CAN-FIGURA398T-02403",
-  "file": "CAN_024_03.png",
-  "figura": "3",
-  "nome": "Pannello passaggio obbligatorio per veicoli operativi (Fig. II 398 art. 38) con lampeggiatori a LED",
+  "nome": "Moviere",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-LAMPEGGIAT-02405",
   "file": "CAN_024_04.png",
   "figura": "4",
-  "nome": "Lampeggiatore a LED alta efficienza diam. 302 mm alimentato con batteria da autovettura",
+  "nome": "Lampeggiatore Ø 302 Singolo 12v a Led + Cavi - Senza Sostegno",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-PALOZINCAT-02406",
+  "file": "CAN_024_04.png",
+  "figura": "4",
+  "nome": "Palo Zincato Ø 60 - H 3,00 MT",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-BASEAPPESA-02407",
+  "file": "CAN_024_04.png",
+  "figura": "4",
+  "nome": "Base Appesantimento Pvc - con Fascia Rifrangente - 22 Kg. Circa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-CASSETTAME-02408",
+  "file": "CAN_024_04.png",
+  "figura": "4",
+  "nome": "Cassetta Metallica Portabatteria per Applicazione su Palo o Cavalletto Predisposta per Lucchetto (escluso)",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-5",
   "file": "CAN_025_01.png",
   "figura": "5",
-  "nome": "Cartello di preavviso 'lavori a 3 km possibili code' con lampeggiatori a LED diam. 200 mm",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-CAN-ESEMPIOAUT-02703",
-  "file": "CAN_027_04.png",
-  "figura": "16",
-  "nome": "Autocarro 35q con PMV full color 90x90",
+  "nome": "Cartello di preavviso con lampeggiatori a led diam. 200 mm ad alta efficienza. Dimensioni: 135x200 cm. Posizionamento sul margine destro a circa 3.000 m dal triangolo \"lavori in corso\"",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-NORMALE-02704",
   "file": "CAN_027_05.png",
   "figura": "17",
-  "nome": "Cartello 'Rallentare operai al lavoro / men at work' con lampeggiatori diam. 200 mm ad alta efficienza",
+  "nome": "Normale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-TRANSENNAM-02901",
+  "file": "CAN_029_01.png",
+  "figura": "A",
+  "nome": "Transenna Mobile CM 110 X 250 Zincata a Caldo con Fascia Rifrangente da CM 20 X 150 Monofacciale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-TRANSENNAM-02902",
+  "file": "CAN_029_01.png",
+  "figura": "A",
+  "nome": "Transenna Mobile CM 110 X 250 Zincata a Caldo con Fascia Rifrangente da CM 20 X 150 Bifacciale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-TRANSENNAM-02903",
+  "file": "CAN_029_01.png",
+  "figura": "A",
+  "nome": "Transenna Mobile CM 110 X 200 Zincata a Caldo con Fascia Rifrangente da CM 20 X 150 Bifacciale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-TRANSENNAM-02904",
+  "file": "CAN_029_02.png",
+  "figura": "B",
+  "nome": "Transenna Mobile CM 110 X 250 Zincata a Caldo Predisposta per Applicazione della Targa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-TRANSENNAM-02905",
+  "file": "CAN_029_02.png",
+  "figura": "B",
+  "nome": "Transenna Mobile CM 110 X 200 Zincata a Caldo Predisposta per Applicazione della Targa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2200ATTFPT001",
+  "file": "CAN_029_05.png",
+  "figura": "E",
+  "nome": "Con Bulloneria Inclusa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-TRANSENNAE-02912",
+  "file": "CAN_029_06.png",
+  "figura": "F",
+  "nome": "Transenna Estensibile - Vernic. Rosso/bianca - Apertura Min: 0,50 M - Max: 2,50 M",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2200BESBE0029",
+  "file": "CAN_029_06.png",
+  "figura": "F",
+  "nome": "Transenna Estensibile - Cl. 1 Rosso/bianca - Apertura Min: 0,50 M - Max: 2,50 M",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCLS0070",
+  "file": "CAN_033_01.png",
+  "figura": "A",
+  "nome": "Lampeggiatore Monofacciale Superled 7 Led con Fotocellula, Lente in Policarbonato con Interruttore Esterno + Spia Sostituzione Batterie",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCLS0071",
+  "file": "CAN_033_02.png",
+  "figura": "B",
+  "nome": "Lampeggiatore monofacciale superled - fino ad esaurimento scorte",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCLB0086",
+  "file": "CAN_033_03.png",
+  "figura": "C",
+  "nome": "Lampeggiatore Bifacciale - Omologato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCLB0087",
+  "file": "CAN_033_04.png",
+  "figura": "D",
+  "nome": "Lampeggiatore Bifacciale - Omologato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCLE0084",
+  "file": "CAN_033_05.png",
+  "figura": "E",
+  "nome": "Euroflash normal - giallo",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCLE0085",
+  "file": "CAN_033_06.png",
+  "figura": "F",
+  "nome": "Euroflash normal - rosso",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCLD0082",
+  "file": "CAN_033_07.png",
+  "figura": "G",
+  "nome": "Lampeggiatore Bifacciale a Led - Attacco per Ponteggi o Transenne - Omologato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCLD0083",
+  "file": "CAN_033_08.png",
+  "figura": "H",
+  "nome": "Lampeggiatore Bifacciale a Led - Attacco per Ponteggi o Transenne - Omologato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCLD0078",
+  "file": "CAN_033_09.png",
+  "figura": "I",
+  "nome": "Lampeggiatore Monofacciale D-star a Led - Omologato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCLD0079",
+  "file": "CAN_033_10.png",
+  "figura": "L",
+  "nome": "Lampeggiatore Monofacciale D-star a Led - Omologato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCCL0095",
+  "file": "CAN_033_11.png",
+  "figura": "M",
+  "nome": "Chiavetta per Lampeggiatori: I - L",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCBL0105",
+  "file": "CAN_033_13.png",
+  "figura": "P",
+  "nome": "Batterie a Lunga Durata per Lampeggiatori - 25 AH - su Ordinazione",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCBL0107",
+  "file": "CAN_033_13.png",
+  "figura": "P",
+  "nome": "Batterie a Lunga Durata per Lampeggiatori - 50 AH - su Ordinazione",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-LAMPEGGIAT-03401",
+  "file": "CAN_034_01.png",
+  "figura": "A",
+  "nome": "Lampeggiatore Singolo Ø 23",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-PANNELLODI-03501",
+  "file": "CAN_035_01.png",
+  "figura": "A",
+  "nome": "Pannello Direzionale a 13 Luci Ø 200 Led - da 90x90 Ali",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-IMPIANTOSE-03601",
+  "file": "CAN_036_01.png",
+  "figura": "A",
+  "nome": "Impianto Sequenziale a 5 Luci 12v Alogeno Versione \"a\" Completo Di: - Basi in Pvc da 22 Kg. Circa - Pannelli Bifacciali in Pvc Rifrangente Cl. 2 Bianco/rosso - Fari Ø 230 12v Alogeni - Cavi Necessari - Centralina di Comando 12v - Cassetta Portabatteria",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-BATTERIE6V-03607",
+  "file": "CAN_036_05.png",
+  "figura": "E",
+  "nome": "Batterie 6v 7 AH per Impianti Sequenziali Led Senza Cavi - NE Occorrono 4 per Ogni Lampeggiante",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-PROTEZIONE-03801",
+  "file": "CAN_038_01.png",
+  "figura": "A",
+  "nome": "Protezione Mobile per Cantieri",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-KITCANCELL-03809",
+  "file": "CAN_038_07.png",
+  "figura": "I",
+  "nome": "Kit Cancello",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2400MTRMT0002",
+  "file": "ORI_003_02.png",
+  "figura": "B",
+  "nome": "Macchina Traccialinee",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2400MTRMT0003",
+  "file": "ORI_003_03.png",
+  "figura": "C",
+  "nome": "Macchina Traccialinee",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2400MTRPM0005",
+  "file": "ORI_003_04.png",
+  "figura": "D",
+  "nome": "Pistola Manuale per Macchina Traccialinee - Mod. 5",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2400MTRMI0010",
+  "file": "ORI_003_05.png",
+  "figura": "E",
+  "nome": "Minitraccialinee (bombolette Vernice Escluse)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2400MTRBM00..",
+  "file": "ORI_003_06.png",
+  "figura": "F",
+  "nome": "Bomboletta Vernice Spray per Minitraccialinee - Colori: Bianco - Giallo - Rosso - Nero",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2400MTRAA0020",
+  "file": "ORI_003_07.png",
+  "figura": "G",
+  "nome": "Arganetto Avvolgicorda",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2400MTRBZ0015",
+  "file": "ORI_003_09.png",
+  "figura": "H",
+  "nome": "Bomboletta per Zincatura a Freddo - Galva Procat - Brillante - 500 ML",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2400MTRBM0027",
+  "file": "ORI_003_11.png",
+  "figura": "L",
+  "nome": "Bomboletta Lubrificante Multiuso - Multi 500 - 400 ML",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2400MTRCM0001",
+  "file": "ORI_003_12.png",
+  "figura": "M",
+  "nome": "Canna per Marcature Compatibile con Bombolette Manuali - Cod. 42101",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2400MTRCM0002",
+  "file": "ORI_003_13.png",
+  "figura": "N",
+  "nome": "Canna per Marcature Compatibile con Bombolette Manuali con Misuratore Stradale Incorporato - Max 1 KM = 999,99 Metri",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "3200LELKB0002",
+  "file": "ORI_009_01.png",
+  "figura": "A",
+  "nome": "Kit Bande Sonore da 25 ML Cadauno - Composto Da: - N. 1 Rotolo di Supporto da 15 CM X 25,00 ML - N. 1 Rotolo di Dentello da 12 CM X 25,00 ML - N. 1 Confezione di Avvivatore da 3,500 KG Circa - N. 1 Confezione di Fissapolvere da 1,900 KG Circa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "3200LELIN0006",
+  "file": "ORI_009_02.png",
+  "figura": "B",
+  "nome": "Bobina \"tempoline\" da CM 12 X ML 100 - Completo di Primer t4",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "3200LELIN0007",
+  "file": "ORI_009_02.png",
+  "figura": "B",
+  "nome": "Bobina \"tempoline\" da CM 15 X ML 100 - Completo di Primer t4",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "3200LELIN0010",
+  "file": "ORI_009_02.png",
+  "figura": "B",
+  "nome": "Bobina \"tempoline\" da CM 25 X ML 50 - Completo di Primer t4",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "3200LELIN0011",
+  "file": "ORI_009_02.png",
+  "figura": "B",
+  "nome": "Bobina \"tempoline\" da CM 30 X ML 50 - Completo di Primer t4",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "3200LELIN0012",
+  "file": "ORI_009_02.png",
+  "figura": "B",
+  "nome": "Bobina \"tempoline\" da CM 50 X ML 25 - Completo di Primer t4",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "3200LELLR0044",
+  "file": "ORI_009_03.png",
+  "figura": "C",
+  "nome": "Art. 374502db - Laminato Reflex Non Autoadesivo da CM 12 X ML 25 - Completo di Fissapolvere e Avvivatore",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO1A",
+  "file": "VER_011_01.png",
+  "figura": "MODELLO 1/A",
+  "nome": "320 m",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO1B",
+  "file": "VER_011_02.png",
+  "figura": "MODELLO 1/B",
+  "nome": "3,8 Km",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO2A",
+  "file": "VER_011_03.png",
+  "figura": "MODELLO 2/A",
+  "nome": "380 m (con frecce)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO2B",
+  "file": "VER_011_04.png",
+  "figura": "MODELLO 2/B",
+  "nome": "2,8 Km (con frecce)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6C",
+  "file": "VER_011_05.png",
+  "figura": "MODELLO 6/C",
+  "nome": "Pannello integrativo Modello 6/C",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6D",
+  "file": "VER_011_06.png",
+  "figura": "MODELLO 6/D",
+  "nome": "Pannello integrativo Modello 6/D",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6E",
+  "file": "VER_011_07.png",
+  "figura": "MODELLO 6/E",
+  "nome": "Pannello integrativo Modello 6/E",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6G",
+  "file": "VER_011_08.png",
+  "figura": "MODELLO 6/G",
+  "nome": "Pannello integrativo Modello 6/G",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6H",
+  "file": "VER_011_09.png",
+  "figura": "MODELLO 6/H",
+  "nome": "Pannello integrativo Modello 6/H",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6I",
+  "file": "VER_011_10.png",
+  "figura": "MODELLO 6/I",
+  "nome": "Pannello integrativo Modello 6/I",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6P1",
+  "file": "VER_011_11.png",
+  "figura": "MODELLO 6/P1",
+  "nome": "Tornante",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO3A",
+  "file": "VER_011_13.png",
+  "figura": "MODELLO 3/A",
+  "nome": "0-24",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO3B",
+  "file": "VER_011_14.png",
+  "figura": "MODELLO 3/B",
+  "nome": "07,30-19,00",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO3C",
+  "file": "VER_011_15.png",
+  "figura": "MODELLO 3/C",
+  "nome": "08,00-20,00 (giorni festivi)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO3D",
+  "file": "VER_011_16.png",
+  "figura": "MODELLO 3/D",
+  "nome": "08,00-20,00 (giorni feriali)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO4A",
+  "file": "VER_011_17.png",
+  "figura": "MODELLO 4/A",
+  "nome": "Pannello integrativo Modello 4/A",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO4B",
+  "file": "VER_011_18.png",
+  "figura": "MODELLO 4/B",
+  "nome": "Eccetto (autobus)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6M",
+  "file": "VER_011_19.png",
+  "figura": "MODELLO 6/M",
+  "nome": "Pannello integrativo Modello 6/M",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6N",
+  "file": "VER_011_20.png",
+  "figura": "MODELLO 6/N",
+  "nome": "Pannello integrativo Modello 6/N",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6Q1",
+  "file": "VER_011_21.png",
+  "figura": "MODELLO 6/Q1",
+  "nome": "Pannello integrativo Modello 6/q1",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6H5",
+  "file": "VER_011_22.png",
+  "figura": "MODELLO 6/H (50x25)",
+  "nome": "Pannello integrativo Modello 6/H (50x25)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO5A1",
+  "file": "VER_011_23.png",
+  "figura": "MODELLO 5/A1",
+  "nome": "Inizio",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO5A2",
+  "file": "VER_011_24.png",
+  "figura": "MODELLO 5/A2",
+  "nome": "Continua",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO5A3",
+  "file": "VER_011_25.png",
+  "figura": "MODELLO 5/A3",
+  "nome": "Fine",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO5B1",
+  "file": "VER_011_26.png",
+  "figura": "MODELLO 5/B1",
+  "nome": "Inizio",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO5B2",
+  "file": "VER_011_27.png",
+  "figura": "MODELLO 5/B2",
+  "nome": "Continua",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO5B3",
+  "file": "VER_011_28.png",
+  "figura": "MODELLO 5/B3",
+  "nome": "Fine",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-C1",
+  "file": "VER_013_03.png",
+  "figura": "C1",
+  "nome": "A14 135",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-C2",
+  "file": "VER_013_04.png",
+  "figura": "C2",
+  "nome": "SS 148 30",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-C3",
+  "file": "VER_013_05.png",
+  "figura": "C3",
+  "nome": "SP 37 25",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6A",
+  "file": "VER_013_07.png",
+  "figura": "MODELLO 6/A",
+  "nome": "Pannello integrativo Modello 6/A",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6B",
+  "file": "VER_013_08.png",
+  "figura": "MODELLO 6/B",
+  "nome": "Pannello integrativo Modello 6/B",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6F",
+  "file": "VER_013_09.png",
+  "figura": "MODELLO 6/F",
+  "nome": "Pannello integrativo Modello 6/F",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6L",
+  "file": "VER_013_10.png",
+  "figura": "MODELLO 6/L",
+  "nome": "Pannello integrativo Modello 6/L",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6P2",
+  "file": "VER_013_11.png",
+  "figura": "MODELLO 6/P2",
+  "nome": "1 tornante",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO6Q2",
+  "file": "VER_013_12.png",
+  "figura": "MODELLO 6/Q2",
+  "nome": "Lun.-Ven. 21,00-04,00",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-MODELLO7",
+  "file": "VER_013_13.png",
+  "figura": "MODELLO 7",
+  "nome": "Pannello integrativo Modello 7",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-1",
   "file": "VER_014_01.png",
   "figura": "1",
-  "nome": "Strada deformata",
+  "nome": "Segnale di pericolo — FIG. 1",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-2",
   "file": "VER_014_02.png",
   "figura": "2",
-  "nome": "Dosso",
+  "nome": "Segnale di pericolo — FIG. 2",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-3",
   "file": "VER_014_03.png",
   "figura": "3",
-  "nome": "Cunetta",
+  "nome": "Segnale di pericolo — FIG. 3",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-4",
   "file": "VER_014_04.png",
   "figura": "4",
-  "nome": "Curva a destra",
+  "nome": "Segnale di pericolo — FIG. 4",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-5",
   "file": "VER_014_05.png",
   "figura": "5",
-  "nome": "Curva a sinistra",
+  "nome": "Segnale di pericolo — FIG. 5",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-6",
   "file": "VER_014_06.png",
   "figura": "6",
-  "nome": "Doppia curva, la prima a destra",
+  "nome": "Segnale di pericolo — FIG. 6",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-7",
   "file": "VER_014_07.png",
   "figura": "7",
-  "nome": "Doppia curva, la prima a sinistra",
+  "nome": "Segnale di pericolo — FIG. 7",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-8",
   "file": "VER_014_08.png",
   "figura": "8",
-  "nome": "Passaggio a livello con barriere",
+  "nome": "Segnale di pericolo — FIG. 8",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-9",
   "file": "VER_014_09.png",
   "figura": "9",
-  "nome": "Passaggio a livello senza barriere",
+  "nome": "Segnale di pericolo — FIG. 9",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-12",
   "file": "VER_014_10.png",
   "figura": "12",
-  "nome": "Attraversamento tranviario",
+  "nome": "Segnale di pericolo — FIG. 12",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-13",
   "file": "VER_014_11.png",
   "figura": "13",
-  "nome": "Attraversamento pedonale",
+  "nome": "Segnale di pericolo — FIG. 13",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-14",
   "file": "VER_014_12.png",
   "figura": "14",
-  "nome": "Attraversamento ciclabile",
+  "nome": "Segnale di pericolo — FIG. 14",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-15",
   "file": "VER_014_13.png",
   "figura": "15",
-  "nome": "Discesa pericolosa",
+  "nome": "Segnale di pericolo — FIG. 15",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-16",
   "file": "VER_014_14.png",
   "figura": "16",
-  "nome": "Salita ripida",
+  "nome": "Segnale di pericolo — FIG. 16",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-17",
   "file": "VER_014_15.png",
   "figura": "17",
-  "nome": "Strettoia simmetrica",
+  "nome": "Segnale di pericolo — FIG. 17",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-18",
   "file": "VER_014_16.png",
   "figura": "18",
-  "nome": "Strettoia asimmetrica a sinistra",
+  "nome": "Segnale di pericolo — FIG. 18",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-19",
   "file": "VER_014_17.png",
   "figura": "19",
-  "nome": "Strettoia asimmetrica a destra",
+  "nome": "Segnale di pericolo — FIG. 19",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-20",
   "file": "VER_014_18.png",
   "figura": "20",
-  "nome": "Ponte mobile",
+  "nome": "Segnale di pericolo — FIG. 20",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-21",
+  "file": "VER_014_19.png",
+  "figura": "21",
+  "nome": "Segnale di pericolo — FIG. 21",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-22",
   "file": "VER_014_20.png",
   "figura": "22",
-  "nome": "Strada sdrucciolevole",
+  "nome": "Segnale di pericolo — FIG. 22",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-23",
   "file": "VER_014_21.png",
   "figura": "23",
-  "nome": "Bambini",
+  "nome": "Segnale di pericolo — FIG. 23",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-24",
   "file": "VER_014_22.png",
   "figura": "24",
-  "nome": "Animali domestici vaganti",
+  "nome": "Segnale di pericolo — FIG. 24",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-25",
   "file": "VER_014_23.png",
   "figura": "25",
-  "nome": "Animali selvatici vaganti",
+  "nome": "Segnale di pericolo — FIG. 25",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-26",
   "file": "VER_014_24.png",
   "figura": "26",
-  "nome": "Doppio senso di circolazione",
+  "nome": "Segnale di pericolo — FIG. 26",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-27",
   "file": "VER_014_25.png",
   "figura": "27",
-  "nome": "Circolazione rotatoria",
+  "nome": "Segnale di pericolo — FIG. 27",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-28",
   "file": "VER_014_26.png",
   "figura": "28",
-  "nome": "Sbocco su molo o argine",
+  "nome": "Segnale di pericolo — FIG. 28",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-29",
   "file": "VER_014_27.png",
   "figura": "29",
-  "nome": "Materiale instabile sulla strada",
+  "nome": "Segnale di pericolo — FIG. 29",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-30A",
   "file": "VER_014_28.png",
   "figura": "30/A",
-  "nome": "Caduta massi",
+  "nome": "Segnale di pericolo — FIG. 30/A",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-30B",
   "file": "VER_014_29.png",
   "figura": "30/B",
-  "nome": "Caduta massi",
+  "nome": "Segnale di pericolo — FIG. 30/B",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-31A",
   "file": "VER_014_30.png",
   "figura": "31/A",
-  "nome": "Semaforo verticale",
+  "nome": "Segnale di pericolo — FIG. 31/A",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-31B",
   "file": "VER_014_31.png",
   "figura": "31/B",
-  "nome": "Semaforo orizzontale",
+  "nome": "Segnale di pericolo — FIG. 31/B",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-32",
   "file": "VER_014_32.png",
   "figura": "32",
-  "nome": "Aeromobili",
+  "nome": "Segnale di pericolo — FIG. 32",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-33",
   "file": "VER_014_33.png",
   "figura": "33",
-  "nome": "Forte vento laterale",
+  "nome": "Segnale di pericolo — FIG. 33",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-34",
   "file": "VER_014_34.png",
   "figura": "34",
-  "nome": "Pericolo di incendio",
+  "nome": "Segnale di pericolo — FIG. 34",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-35",
   "file": "VER_014_35.png",
   "figura": "35",
-  "nome": "Altri pericoli",
+  "nome": "Segnale di pericolo — FIG. 35",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-248",
+  "file": "VER_029_01.png",
+  "figura": "248",
+  "nome": "Segnale di direzione — FIG. 248",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-294",
+  "file": "VER_029_02.png",
+  "figura": "294",
+  "nome": "Segnale di direzione — FIG. 294",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-296",
+  "file": "VER_029_03.png",
+  "figura": "296",
+  "nome": "Segnale di direzione — FIG. 296",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-297",
+  "file": "VER_029_04.png",
+  "figura": "297",
+  "nome": "Segnale di direzione — FIG. 297",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-249",
+  "file": "VER_030_01.png",
+  "figura": "249",
+  "nome": "Segnale di direzione — FIG. 249",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-257",
+  "file": "VER_031_01.png",
+  "figura": "257",
+  "nome": "Autostrada (A1)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-256",
+  "file": "VER_031_02.png",
+  "figura": "256",
+  "nome": "Itinerario europeo (E45)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-258",
+  "file": "VER_031_03.png",
+  "figura": "258",
+  "nome": "Strada statale (SS2)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-259",
+  "file": "VER_031_04.png",
+  "figura": "259",
+  "nome": "Strada provinciale (SP37)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-260",
+  "file": "VER_031_05.png",
+  "figura": "260",
+  "nome": "Strada comunale (SC19)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-266",
+  "file": "VER_032_01.png",
+  "figura": "266",
+  "nome": "Cippo chilometrico strada statale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-269",
+  "file": "VER_032_04.png",
+  "figura": "269",
+  "nome": "Segnale di progressiva distanziometrica e di localita' — FIG. 269",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-270",
+  "file": "VER_032_05.png",
+  "figura": "270",
+  "nome": "Segnale di progressiva distanziometrica e di localita' — FIG. 270",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-273",
+  "file": "VER_032_07.png",
+  "figura": "273",
+  "nome": "Segnale di inizio localita' (nome localita')",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-274",
+  "file": "VER_032_08.png",
+  "figura": "274",
+  "nome": "Segnale di fine localita' (nome localita' barrato)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-272",
+  "file": "VER_033_01.png",
+  "figura": "272",
+  "nome": "Preavviso di uscita",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-275",
+  "file": "VER_033_03.png",
+  "figura": "275",
+  "nome": "Confine di regione",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-276",
+  "file": "VER_033_04.png",
+  "figura": "276",
+  "nome": "Confine di provincia",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-277",
+  "file": "VER_033_05.png",
+  "figura": "277",
+  "nome": "Segnale di localita' - di localizzazione e di conferma — FIG. 277",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-278",
+  "file": "VER_033_06.png",
+  "figura": "278",
+  "nome": "Segnale di localita' - di localizzazione e di conferma — FIG. 278",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-279",
+  "file": "VER_033_07.png",
+  "figura": "279",
+  "nome": "Segnale di localita' - di localizzazione e di conferma — FIG. 279",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-280",
+  "file": "VER_033_08.png",
+  "figura": "280",
+  "nome": "Segnale di localita' - di localizzazione e di conferma — FIG. 280",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-281",
+  "file": "VER_033_09.png",
+  "figura": "281",
+  "nome": "Segnale di localita' - di localizzazione e di conferma — FIG. 281",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-282",
+  "file": "VER_033_10.png",
+  "figura": "282",
+  "nome": "Segnale di localita' - di localizzazione e di conferma — FIG. 282",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-283",
+  "file": "VER_033_11.png",
+  "figura": "283",
+  "nome": "Stemma comunale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-284",
+  "file": "VER_033_12.png",
+  "figura": "284",
+  "nome": "Segnale di localita' - di localizzazione e di conferma — FIG. 284",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-285",
+  "file": "VER_033_13.png",
+  "figura": "285",
+  "nome": "Segnale di localita' - di localizzazione e di conferma — FIG. 285",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-286",
+  "file": "VER_033_14.png",
+  "figura": "286",
+  "nome": "Segnale di localita' - di localizzazione e di conferma — FIG. 286",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-A",
+  "file": "VER_033_15.png",
+  "figura": "A",
+  "nome": "Strada soggetta a controllo elettronico della velocita'",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-B",
+  "file": "VER_033_16.png",
+  "figura": "B",
+  "nome": "Velocita' controllata elettronicamente - polizia municipale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-C",
+  "file": "VER_033_17.png",
+  "figura": "C",
+  "nome": "Area soggetta a videosorveglianza",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-292",
+  "file": "VER_034_03.png",
+  "figura": "292",
+  "nome": "Targa piana + fori per fissaggio a parete o al palo a bandiera",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-298",
+  "file": "VER_035_01.png",
+  "figura": "298",
+  "nome": "Segnale alberghiero — FIG. 298",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-299",
+  "file": "VER_035_02.png",
+  "figura": "299",
+  "nome": "Segnale alberghiero — FIG. 299",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-300",
+  "file": "VER_035_03.png",
+  "figura": "300",
+  "nome": "Segnale alberghiero — FIG. 300",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-301",
+  "file": "VER_035_04.png",
+  "figura": "301",
+  "nome": "Segnale alberghiero — FIG. 301",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-302",
+  "file": "VER_036_02.png",
+  "figura": "302",
+  "nome": "Segnale utile per la guida — FIG. 302",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-303",
+  "file": "VER_036_03.png",
+  "figura": "303",
+  "nome": "Segnale utile per la guida — FIG. 303",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-304",
+  "file": "VER_036_04.png",
+  "figura": "304",
+  "nome": "Segnale utile per la guida — FIG. 304",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-306",
+  "file": "VER_036_06.png",
+  "figura": "306",
+  "nome": "Segnale utile per la guida — FIG. 306",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-307",
+  "file": "VER_036_07.png",
+  "figura": "307",
+  "nome": "Segnale utile per la guida — FIG. 307",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-308",
+  "file": "VER_036_08.png",
+  "figura": "308",
+  "nome": "Segnale utile per la guida — FIG. 308",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-309",
+  "file": "VER_036_09.png",
+  "figura": "309",
+  "nome": "Segnale utile per la guida — FIG. 309",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-314",
+  "file": "VER_036_14.png",
+  "figura": "314",
+  "nome": "Segnale utile per la guida — FIG. 314",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-315",
+  "file": "VER_036_15.png",
+  "figura": "315",
+  "nome": "Segnale utile per la guida — FIG. 315",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-316",
+  "file": "VER_036_16.png",
+  "figura": "316",
+  "nome": "Segnale utile per la guida — FIG. 316",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-318",
+  "file": "VER_036_18.png",
+  "figura": "318",
+  "nome": "Segnale utile per la guida — FIG. 318",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-319",
+  "file": "VER_036_19.png",
+  "figura": "319",
+  "nome": "Segnale utile per la guida — FIG. 319",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-320",
+  "file": "VER_036_20.png",
+  "figura": "320",
+  "nome": "Segnale utile per la guida — FIG. 320",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-321",
+  "file": "VER_036_21.png",
+  "figura": "321",
+  "nome": "Segnale utile per la guida — FIG. 321",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-322A",
+  "file": "VER_036_22.png",
+  "figura": "322/A",
+  "nome": "Segnale utile per la guida — FIG. 322/A",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-323A",
+  "file": "VER_036_24.png",
+  "figura": "323/A",
+  "nome": "Segnale utile per la guida — FIG. 323/A",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-323B",
+  "file": "VER_036_25.png",
+  "figura": "323/B",
+  "nome": "Segnale utile per la guida — FIG. 323/B",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-320P",
+  "file": "VER_036_27.png",
+  "figura": "320/P",
+  "nome": "Segnale utile per la guida — FIG. 320/P",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-325",
+  "file": "VER_036_28.png",
+  "figura": "325",
+  "nome": "Segnale utile per la guida — FIG. 325",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-322AP",
+  "file": "VER_036_29.png",
+  "figura": "322/A/P",
+  "nome": "Segnale utile per la guida — FIG. 322/A/P",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-327",
+  "file": "VER_036_31.png",
+  "figura": "327",
+  "nome": "Segnale utile per la guida — FIG. 327",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-328",
+  "file": "VER_037_01.png",
+  "figura": "328",
+  "nome": "Segnale utile per la guida — FIG. 328",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-329",
+  "file": "VER_037_02.png",
+  "figura": "329",
+  "nome": "Segnale utile per la guida — FIG. 329",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-330",
+  "file": "VER_037_03.png",
+  "figura": "330",
+  "nome": "Segnale utile per la guida — FIG. 330",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-331",
+  "file": "VER_037_05.png",
+  "figura": "331",
+  "nome": "Aperto / ouvert / open / geöffnet",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-332",
+  "file": "VER_037_06.png",
+  "figura": "332",
+  "nome": "Aperto / ouvert / open / geöffnet (con catene)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-333",
+  "file": "VER_037_07.png",
+  "figura": "333",
+  "nome": "Aperto / ouvert / open / geöffnet (con pneumatici invernali)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-334",
+  "file": "VER_037_08.png",
+  "figura": "334",
+  "nome": "Chiuso / fermé / closed / geschlossen",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-335",
+  "file": "VER_037_09.png",
+  "figura": "335",
+  "nome": "Chiuso / fermé / closed / geschlossen (con catene)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-336",
+  "file": "VER_037_10.png",
+  "figura": "336",
+  "nome": "Chiuso / fermé / closed / geschlossen (con pneumatici invernali)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-345",
+  "file": "VER_038_01.png",
+  "figura": "345",
+  "nome": "Segnale di variazione corsia e utili per LA guida — FIG. 345",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-346",
+  "file": "VER_038_02.png",
+  "figura": "346",
+  "nome": "Segnale di variazione corsia e utili per LA guida — FIG. 346",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-347",
+  "file": "VER_038_03.png",
+  "figura": "347",
+  "nome": "Segnale di variazione corsia e utili per LA guida — FIG. 347",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-352",
+  "file": "VER_038_04.png",
+  "figura": "352",
+  "nome": "Segnale di variazione corsia e utili per LA guida — FIG. 352",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-348",
+  "file": "VER_038_05.png",
+  "figura": "348",
+  "nome": "Segnale di variazione corsia e utili per LA guida — FIG. 348",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-349",
+  "file": "VER_038_06.png",
+  "figura": "349",
+  "nome": "Segnale di variazione corsia e utili per LA guida — FIG. 349",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-350",
+  "file": "VER_038_07.png",
+  "figura": "350",
+  "nome": "Segnale di variazione corsia e utili per LA guida — FIG. 350",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-351",
+  "file": "VER_038_08.png",
+  "figura": "351",
+  "nome": "Segnale di variazione corsia e utili per LA guida — FIG. 351",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-353",
+  "file": "VER_039_01.png",
+  "figura": "353",
+  "nome": "Segnale di indicazione servizi — FIG. 353",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-354",
+  "file": "VER_039_02.png",
+  "figura": "354",
+  "nome": "Segnale di indicazione servizi — FIG. 354",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-355",
+  "file": "VER_039_03.png",
+  "figura": "355",
+  "nome": "Segnale di indicazione servizi — FIG. 355",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-356",
+  "file": "VER_039_04.png",
+  "figura": "356",
+  "nome": "Segnale di indicazione servizi — FIG. 356",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-358",
+  "file": "VER_039_06.png",
+  "figura": "358",
+  "nome": "Segnale di indicazione servizi — FIG. 358",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-361",
+  "file": "VER_039_09.png",
+  "figura": "361",
+  "nome": "Segnale di indicazione servizi — FIG. 361",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-362",
+  "file": "VER_039_10.png",
+  "figura": "362",
+  "nome": "Segnale di indicazione servizi — FIG. 362",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-363",
+  "file": "VER_039_11.png",
+  "figura": "363",
+  "nome": "Segnale di indicazione servizi — FIG. 363",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-364",
+  "file": "VER_039_12.png",
+  "figura": "364",
+  "nome": "Radio kHz 900 RAI onda verde",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-365",
+  "file": "VER_039_13.png",
+  "figura": "365",
+  "nome": "Segnale di indicazione servizi — FIG. 365",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-366",
+  "file": "VER_039_14.png",
+  "figura": "366",
+  "nome": "Segnale di indicazione servizi — FIG. 366",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-368",
+  "file": "VER_039_16.png",
+  "figura": "368",
+  "nome": "Segnale di indicazione servizi — FIG. 368",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-369",
+  "file": "VER_039_17.png",
+  "figura": "369",
+  "nome": "Segnale di indicazione servizi — FIG. 369",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-370",
+  "file": "VER_039_18.png",
+  "figura": "370",
+  "nome": "Segnale di indicazione servizi — FIG. 370",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-372",
+  "file": "VER_039_20.png",
+  "figura": "372",
+  "nome": "Segnale di indicazione servizi — FIG. 372",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-373",
+  "file": "VER_039_21.png",
+  "figura": "373",
+  "nome": "Segnale di indicazione servizi — FIG. 373",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-374",
+  "file": "VER_039_22.png",
+  "figura": "374",
+  "nome": "Segnale di indicazione servizi — FIG. 374",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-375",
+  "file": "VER_039_23.png",
+  "figura": "375",
+  "nome": "Taxi",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-376",
+  "file": "VER_039_25.png",
+  "figura": "376",
+  "nome": "Segnale di indicazione servizi — FIG. 376",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-378",
+  "file": "VER_039_26.png",
+  "figura": "378",
+  "nome": "Polizia stradale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-379",
+  "file": "VER_039_27.png",
+  "figura": "379",
+  "nome": "Polizia di stato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-380",
+  "file": "VER_039_28.png",
+  "figura": "380",
+  "nome": "Carabinieri",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-381",
+  "file": "VER_039_29.png",
+  "figura": "381",
+  "nome": "Guardia di finanza",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-262",
+  "file": "VER_041_01.png",
+  "figura": "262",
+  "nome": "A - cippo ettometrico bifacciale rivettato (alluminio 10/10 con telaio zincato)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-TARGA-04301",
+  "file": "VER_043_01.png",
+  "figura": "A - A1",
+  "nome": "Targa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-TARGA-04302",
+  "file": "VER_043_01.png",
+  "figura": "A - A1",
+  "nome": "Targa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-TARGA-04303",
+  "file": "VER_043_03.png",
+  "figura": "B",
+  "nome": "Targa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-TARGA-04304",
+  "file": "VER_043_03.png",
+  "figura": "B",
+  "nome": "Targa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-PALETTOPER-04505",
+  "file": "VER_045_05.png",
+  "figura": "A",
+  "nome": "Paletto per Targa 20x80 con Flangia da 15x15",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-PALETTOPER-04506",
+  "file": "VER_045_06.png",
+  "figura": "B",
+  "nome": "Paletto per Targa 20x80 da Murare",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-PALETTOPER-04507",
+  "file": "VER_045_07.png",
+  "figura": "C",
+  "nome": "Paletto per Targa 20x50 da Murare",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-PALETTOPER-04508",
+  "file": "VER_045_08.png",
+  "figura": "D",
+  "nome": "Paletto per Targa 20x50 con Attacco per Guard-rails - con Bulloneria",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-PALETTOPER-04509",
+  "file": "VER_045_09.png",
+  "figura": "E",
+  "nome": "Paletto per Targa 20x80 con Attacco per Guard-rails - con Bulloneria",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-DELINEATOR-04601",
+  "file": "VER_046_01.png",
+  "figura": "A",
+  "nome": "Delineatore Normale di Margine in Pvc Europeo + Spinotto con Gemma Bifacciale Bianco e Rossa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-DELINEATOR-04602",
+  "file": "VER_046_01.png",
+  "figura": "A",
+  "nome": "Delineatore Normale di Margine in Pvc Europeo + Spinotto con Gemma Monofacciale Verticale o 2 Circolari Gialle",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-BASEDIANCO-04603",
+  "file": "VER_046_02.png",
+  "figura": "B",
+  "nome": "Base di Ancoraggio Delineatore in Plastica",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-DELINEATOR-04604",
+  "file": "VER_046_03.png",
+  "figura": "C",
+  "nome": "Delineatore per Strade di Montagna con Fasce Nere e Gialle 1ª Fascia Rifrangente Gialla - 3ª Fascia Cal - 5ª Fascia Cal",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-DELINEATOR-04605",
+  "file": "VER_046_03.png",
+  "figura": "C",
+  "nome": "Delineatore per Strade di Montagna con Fasce Nere e Gialle 1ª Fascia - 3ª Fascia - 5ª Fascia Rifrangente Gialla",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-DELINEATOR-04606",
+  "file": "VER_046_03.png",
+  "figura": "C",
+  "nome": "Delineatore per Strade di Montagna con Fasce Nere e Gialle 1ª Fascia Rifrangente Gialla - 3ª Fascia Cal - 5ª Fascia Cal",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-DELINEATOR-04607",
+  "file": "VER_046_03.png",
+  "figura": "C",
+  "nome": "Delineatore per Strade di Montagna con Fasce Nere e Gialle 1ª Fascia - 3ª Fascia - 5ª Fascia Rifrangente Gialla",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-LDSSISTEMA-04608",
+  "file": "VER_046_04.png",
+  "figura": "D",
+  "nome": "Lds Sistema di Delineazione Lineare Sistema Retroriflettente AD Altissima Resa - Colore: Giallo Fluoro",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-LDSSISTEMA-04609",
+  "file": "VER_046_04.png",
+  "figura": "D",
+  "nome": "Lds Sistema di Delineazione Lineare Sistema Retroriflettente AD Altissima Resa - Colore: Giallo Fluoro",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-DELINEATOR-04610",
+  "file": "VER_046_05.png",
+  "figura": "E",
+  "nome": "Delineatore Normale di Margine in Pvc Europeo + Spinotto con Gemma Bifacciale Bianco e Rossa con Catarifrangente per Selvaggina Colore Rosso",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-CATADIOTTR-04611",
+  "file": "VER_046_06.png",
+  "figura": "F",
+  "nome": "Catadiottro Antiselvaggina Rosso/rosso per Terreno in Salita / Discesa o Pianeggiante",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-466467-04701",
+  "file": "VER_047_06.png",
+  "figura": "466 / 467",
+  "nome": "466 467",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-466467-04702",
+  "file": "VER_047_06.png",
+  "figura": "466 / 467",
+  "nome": "466 467",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-466467-04703",
+  "file": "VER_047_06.png",
+  "figura": "466 / 467",
+  "nome": "466 467",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-466467-04704",
+  "file": "VER_047_06.png",
+  "figura": "466 / 467",
+  "nome": "466 467",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-468GF-04709",
+  "file": "VER_047_04.png",
+  "figura": "468 GF",
+  "nome": "468 GF",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-468GF-04710",
+  "file": "VER_047_04.png",
+  "figura": "468 GF",
+  "nome": "468 GF",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-468GF-04711",
+  "file": "VER_047_04.png",
+  "figura": "468 GF",
+  "nome": "468 GF",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-468GF-04712",
+  "file": "VER_047_04.png",
+  "figura": "468 GF",
+  "nome": "468 GF",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-DISPOSITIV-04717",
+  "file": "VER_047_05.png",
+  "figura": "A",
+  "nome": "Dispositivo per Pannelli Bifacciali AD Angolo Fig. 468 - Kit di N° 2 Pezzi Zincati (staffe a Ponte Escluse)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-466467-04718",
+  "file": "VER_047_06.png",
+  "figura": "466 / 467",
+  "nome": "466 467",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-466467-04719",
+  "file": "VER_047_06.png",
+  "figura": "466 / 467",
+  "nome": "466 467",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-466467-04720",
+  "file": "VER_047_06.png",
+  "figura": "466 / 467",
+  "nome": "466 467",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-TARGAINIZI-04901",
+  "file": "VER_049_01.png",
+  "figura": "A",
+  "nome": "Targa Inizio Cantiere",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-TARGAFINEC-04902",
+  "file": "VER_049_02.png",
+  "figura": "B",
+  "nome": "Targa Fine Cantiere",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-TARGAFISCH-04903",
+  "file": "VER_049_03.png",
+  "figura": "C",
+  "nome": "Targa Fischio Protezione Squadre di Lavoro",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-TARGAPERPR-04904",
+  "file": "VER_049_04.png",
+  "figura": "D",
+  "nome": "Targa per Protezione Squadre di Lavoro",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-TARGAZONAD-04905",
+  "file": "VER_049_07.png",
+  "figura": "E",
+  "nome": "Targa Zona di Ricovero",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-TARGAINDIV-04906",
+  "file": "VER_049_08.png",
+  "figura": "F",
+  "nome": "Targa Individuazione Binario Dispari",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-TARGAINDIV-04907",
+  "file": "VER_049_09.png",
+  "figura": "G",
+  "nome": "Targa Individuazione Binario Pari",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-VELATRIANG-04908",
+  "file": "VER_049_10.png",
+  "figura": "H",
+  "nome": "Vela Triangolare di Attenzione",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-CROCESANDR-04909",
+  "file": "VER_049_05.png",
+  "figura": "I",
+  "nome": "Croce s. Andrea Doppia su Tabella",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-CROCESANDR-04910",
+  "file": "VER_049_11.png",
+  "figura": "L",
+  "nome": "Croce s. Andrea su Tabella",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-AREAFERROV-04911",
+  "file": "VER_049_12.png",
+  "figura": "M",
+  "nome": "Area Ferroviaria Vietato L'accesso (italiano)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-AREAFERROV-04912",
+  "file": "VER_049_13.png",
+  "figura": "N",
+  "nome": "Area Ferroviaria Vietato L'accesso (inglese)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-DENOMINAZI-04913",
+  "file": "VER_049_14.png",
+  "figura": "O",
+  "nome": "Denominazione Linea + Progressiva Chilometrica",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-TARGAPASSA-04914",
+  "file": "VER_049_15.png",
+  "figura": "P",
+  "nome": "Targa Passaggio a Livello + Progressiva Chilometrica",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-PALETTODIS-04915",
+  "file": "VER_049_06.png",
+  "figura": "Q",
+  "nome": "Paletto di Sostegno in Ferro a T da 40 MM H M 2 - Verniciato Grigio Nebbia per Targhe: A-b-c-d-e-f-g",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-TAVOLADIOR-05001",
+  "file": "VER_050_01.png",
+  "figura": "A",
+  "nome": "Tavola di Orientamento Distanz. 2^ Categoria",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-TAVOLADIOR-05002",
+  "file": "VER_050_02.png",
+  "figura": "B",
+  "nome": "Tavola di Orientamento Distanz. di Avviso",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-TAVOLADIOR-05003",
+  "file": "VER_050_02.png",
+  "figura": "B",
+  "nome": "Tavola di Orientamento Distanz. di Avviso Galleria",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-ADESIVOPER-05006",
+  "file": "VER_050_04.png",
+  "figura": "D",
+  "nome": "Adesivo per Barriere Passaggio a Livello",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-TAVOLADIOR-05007",
+  "file": "VER_050_05.png",
+  "figura": "E",
+  "nome": "Tavola di Orientamento per Segnale P.l.",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-PALOTUBOLA-05008",
+  "file": "VER_050_06.png",
+  "figura": "F",
+  "nome": "Palo Tubolare Verniciato Grigio Nebbia + Fasce Nere e Bianche",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-SEGNALEDIL-05101",
+  "file": "VER_051_01.png",
+  "figura": "A",
+  "nome": "Segnale di Limitazione Velocità KM 30",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-SEGNALEDIL-05102",
+  "file": "VER_051_02.png",
+  "figura": "B",
+  "nome": "Segnale di Limitazione Velocità KM 60",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-VELAPERSEG-05103",
+  "file": "VER_051_03.png",
+  "figura": "C",
+  "nome": "Vela per Segnale di Attenzione",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-SEGNALEDIA-05104",
+  "file": "VER_051_04.png",
+  "figura": "D",
+  "nome": "Segnale di Avviso di Rallentamento in Linea",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-VELAPERSEG-05105",
+  "file": "VER_051_05.png",
+  "figura": "E",
+  "nome": "Vela per Segnale Fine Rallentamento in Linea",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-VELAPERSEG-05106",
+  "file": "VER_051_06.png",
+  "figura": "F",
+  "nome": "Vela per Segnale Inizio Rallentamento in Linea",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-VELARETTAN-05107",
+  "file": "VER_051_10.png",
+  "figura": "G",
+  "nome": "Vela Rettangolare per P.l. Lato Treno",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-SEGNALESUS-05108",
+  "file": "VER_051_11.png",
+  "figura": "H",
+  "nome": "Segnale Sussidiario per Segnali di Blocco",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-SEGNALESUS-05109",
+  "file": "VER_051_07.png",
+  "figura": "I",
+  "nome": "Segnale Sussidiario per Segnali di Blocco",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-SEGNALESUS-05110",
+  "file": "VER_051_13.png",
+  "figura": "L",
+  "nome": "Segnale Sussidiario per Segnali di Blocco",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-SEGNALEDIV-05111",
+  "file": "VER_051_12.png",
+  "figura": "M",
+  "nome": "Segnale di Visibilità per Cippo Kilometrico in Linea",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-CARTELLIMO-05112",
+  "file": "VER_051_08.png",
+  "figura": "N",
+  "nome": "Cartelli Monitori Doppi",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-CARTELLIMO-05113",
+  "file": "VER_051_09.png",
+  "figura": "O",
+  "nome": "Cartelli Monitori Doppi",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-CARTELLIMO-05114",
+  "file": "VER_051_14.png",
+  "figura": "P",
+  "nome": "Cartelli Monitori Doppi",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLSDL0208",
+  "file": "VER_052_07.png",
+  "figura": "D",
+  "nome": "Dispositivo per Lampeggio Colonnina Tipo LE 1",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLSSR0209",
+  "file": "VER_052_08.png",
+  "figura": "E",
+  "nome": "Schermi di Ricambio per Ø 60 Fig. 80/A - 80/B - 80/C - 82/A - 82/B - 83 - 47",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCLS0184",
+  "file": "VER_052_09.png",
+  "figura": "F",
+  "nome": "Lanterna Semaforica Gialla Ø 200 Lampeggiante con Lampadina",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCLS0185",
+  "file": "VER_052_10.png",
+  "figura": "G",
+  "nome": "Lanterna Semaforica Gialla Ø 300 Lampeggiante con Lampadina",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCLS0186",
+  "file": "VER_052_11.png",
+  "figura": "H",
+  "nome": "Lanterna Semaforica Doppia Gialla Ø 200 Lampeggio Alternato con Lampadina",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "2000SLCLS0187",
+  "file": "VER_052_12.png",
+  "figura": "I",
+  "nome": "Lanterna Semaforica Doppia Gialla Ø 300 Lampeggio Alternato con Lampadina",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "UX LK11",
+  "file": "VER_054_01.png",
+  "figura": "A",
+  "nome": "Targa Bifacciale in Lamiera di Alluminio - Spessore 25/10 - Colore Fondo: \"giallo Traffico\" Ral 1023 (non Rifrangente) - Colore Fondo: \"bianco\" Ral 9010 (non Rifrangente) - Colore Scritte: \"nero Traffico\" Ral 9017 (non Rifrangente) - Colore Logo: \"blu Ultramarino\" Ral 5002 (non Rifrangente) - Fissaggio Mediante N° 2 Viti m8x40 in Acciaio Inox + Dadi m8 + Rondelle in Acciaio Inox (palo Escluso)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "UX LK14",
+  "file": "VER_054_02.png",
+  "figura": "B",
+  "nome": "Targa Bifacciale in Lamiera di Alluminio - Spessore 25/10 - Colore Fondo: \"giallo Traffico\" Ral 1023 (non Rifrangente) - Colore Fondo: \"bianco\" Ral 9010 (non Rifrangente) - Colore Scritte: \"nero Traffico\" Ral 9017 (non Rifrangente) - Colore Logo: \"blu Ultramarino\" Ral 5002 (non Rifrangente) - Fissaggio Mediante N° 2 Viti m8x40 in Acciaio Inox + Dadi m8 + Rondelle in Acciaio Inox (palo Escluso)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "UX LS 196",
+  "file": "VER_055_01.png",
+  "figura": "A",
+  "nome": "Targa Monofacciale in Lamiera di Alluminio - Spessore 25/10 - Colore Fondo: \"giallo Traffico\" Ral 1023 (non Rifrangente) - Colore Scritte: \"nero Traffico\" Ral 9017 (non Rifrangente) - Scritte e Simboli in Pellicola Nera Riportata - Fissaggio Mediante N° 2 Bulloni in Acciaio Inox 12x35 + Rondelle in Acciaio Inox",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "LS 201",
+  "file": "VER_056_01.png",
+  "figura": "A",
+  "nome": "Targa Monofacciale in Lamiera di Alluminio - Spessore 25/10 - Colore Fondo: \"giallo Traffico\" Ral 1023 (non Rifrangente) - Colore Scritte: \"nero Traffico\" Ral 9017 (non Rifrangente) - Scritte in Pellicola Nera Riportata - Fissaggio Mediante N° 4 Bulloni in Acciaio Inox 10x35 + Rondelle in Acciaio Inox + Staffa di Ancoraggio (esclusa)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "LS 203",
+  "file": "VER_056_02.png",
+  "figura": "C",
+  "nome": "Staffa di Ancoraggio per Cartelli per Ispezione Eliportata - Angolari in Acciaio Zincato a Caldo 40x40x5 MM + Piastra Angolare Spessore 6 MM",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-36",
   "file": "VER_015_01.png",
   "figura": "36",
-  "nome": "Dare precedenza",
+  "nome": "Segnale di precedenza — FIG. 36",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-38",
   "file": "VER_015_02.png",
   "figura": "38",
-  "nome": "Preavviso di dare precedenza",
+  "nome": "Segnale di precedenza — FIG. 38",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-39",
   "file": "VER_015_03.png",
   "figura": "39",
-  "nome": "Preavviso di fermarsi e dare precedenza",
+  "nome": "Segnale di precedenza — FIG. 39",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-40",
   "file": "VER_015_04.png",
   "figura": "40",
-  "nome": "Intersezione con precedenza a destra",
+  "nome": "Segnale di precedenza — FIG. 40",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-43A",
+  "file": "VER_015_05.png",
+  "figura": "43/A",
+  "nome": "Segnale di precedenza — FIG. 43/A",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-43B",
+  "file": "VER_015_06.png",
+  "figura": "43/B",
+  "nome": "Segnale di precedenza — FIG. 43/B",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-43C",
+  "file": "VER_015_07.png",
+  "figura": "43/C",
+  "nome": "Segnale di precedenza — FIG. 43/C",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-43D",
+  "file": "VER_015_08.png",
+  "figura": "43/D",
+  "nome": "Segnale di precedenza — FIG. 43/D",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-43E",
+  "file": "VER_015_09.png",
+  "figura": "43/E",
+  "nome": "Segnale di precedenza — FIG. 43/E",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-10A",
   "file": "VER_015_10.png",
   "figura": "10/A",
-  "nome": "Croce di Sant'Andrea (binario semplice, 160x85)",
+  "nome": "Segnale di precedenza — FIG. 10/A",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-10B",
   "file": "VER_015_11.png",
   "figura": "10/B",
-  "nome": "Croce di Sant'Andrea doppia (più binari, 160x150)",
+  "nome": "Segnale di precedenza — FIG. 10/B",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-10C",
   "file": "VER_015_12.png",
   "figura": "10/C",
-  "nome": "Croce di Sant'Andrea (formato verticale, binario semplice)",
+  "nome": "Segnale di precedenza — FIG. 10/C",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-10D",
   "file": "VER_015_13.png",
   "figura": "10/D",
-  "nome": "Croce di Sant'Andrea doppia (formato verticale, più binari)",
+  "nome": "Segnale di precedenza — FIG. 10/D",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-11A",
   "file": "VER_015_14.png",
   "figura": "11/A",
-  "nome": "Pannello distanziometrico a tre barre",
+  "nome": "Segnale di precedenza — FIG. 11/A",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-11B",
   "file": "VER_015_15.png",
   "figura": "11/B",
-  "nome": "Pannello distanziometrico a due barre",
+  "nome": "Segnale di precedenza — FIG. 11/B",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-11C",
   "file": "VER_015_16.png",
   "figura": "11/C",
-  "nome": "Pannello distanziometrico a una barra (35x135)",
+  "nome": "Segnale di precedenza — FIG. 11/C",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-37",
+  "file": "VER_016_02.png",
+  "figura": "37",
+  "nome": "Stop",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-42",
-  "file": "VER_016_01.png",
+  "file": "VER_016_03.png",
   "figura": "42",
-  "nome": "Fine del diritto di precedenza",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-44",
-  "file": "VER_016_02.png",
-  "figura": "44",
-  "nome": "Diritto di precedenza",
+  "nome": "Segnale di precedenza — FIG. 42",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-45",
-  "file": "VER_016_03.png",
+  "file": "VER_016_05.png",
   "figura": "45",
-  "nome": "Diritto di precedenza nei sensi unici alternati",
+  "nome": "Segnale di precedenza — FIG. 45",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-41",
   "file": "VER_017_01.png",
   "figura": "41",
-  "nome": "Dare precedenza nei sensi unici alternati",
+  "nome": "Segnale di divieto — FIG. 41",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-46",
   "file": "VER_017_02.png",
   "figura": "46",
-  "nome": "Divieto di transito",
+  "nome": "Segnale di divieto — FIG. 46",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-47",
   "file": "VER_017_03.png",
   "figura": "47",
-  "nome": "Senso vietato",
+  "nome": "Segnale di divieto — FIG. 47",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-48",
   "file": "VER_017_04.png",
   "figura": "48",
-  "nome": "Divieto di sorpasso",
+  "nome": "Segnale di divieto — FIG. 48",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-49",
   "file": "VER_017_05.png",
   "figura": "49",
-  "nome": "Distanza minima obbligatoria di 70 m tra i veicoli",
+  "nome": "Segnale di divieto — FIG. 49",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-50",
   "file": "VER_017_06.png",
   "figura": "50",
-  "nome": "Limite massimo di velocità 80 km/h",
+  "nome": "Segnale di divieto — FIG. 50",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-51",
   "file": "VER_017_07.png",
   "figura": "51",
-  "nome": "Divieto di segnalazioni acustiche",
+  "nome": "Segnale di divieto — FIG. 51",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-52",
   "file": "VER_017_08.png",
   "figura": "52",
-  "nome": "Divieto di sorpasso per i veicoli di massa a pieno carico superiore a 3,5 t",
+  "nome": "Segnale di divieto — FIG. 52",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-53",
   "file": "VER_017_09.png",
   "figura": "53",
-  "nome": "Transito vietato ai veicoli a trazione animale",
+  "nome": "Segnale di divieto — FIG. 53",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-54",
   "file": "VER_017_10.png",
   "figura": "54",
-  "nome": "Transito vietato ai pedoni",
+  "nome": "Segnale di divieto — FIG. 54",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-55",
   "file": "VER_017_11.png",
   "figura": "55",
-  "nome": "Transito vietato alle biciclette",
+  "nome": "Segnale di divieto — FIG. 55",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-56",
   "file": "VER_017_12.png",
   "figura": "56",
-  "nome": "Transito vietato ai motocicli",
+  "nome": "Segnale di divieto — FIG. 56",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-57",
   "file": "VER_017_13.png",
   "figura": "57",
-  "nome": "Transito vietato ai veicoli a braccia",
+  "nome": "Segnale di divieto — FIG. 57",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-58",
   "file": "VER_017_14.png",
   "figura": "58",
-  "nome": "Transito vietato agli autoveicoli",
+  "nome": "Segnale di divieto — FIG. 58",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-59",
   "file": "VER_017_15.png",
   "figura": "59",
-  "nome": "Transito vietato agli autobus",
+  "nome": "Segnale di divieto — FIG. 59",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-60A",
+  "file": "VER_017_16.png",
+  "figura": "60/A",
+  "nome": "Segnale di divieto — FIG. 60/A",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-60B",
   "file": "VER_017_17.png",
   "figura": "60/B",
-  "nome": "Transito vietato ai veicoli di massa a pieno carico superiore a 6,5 t",
+  "nome": "Segnale di divieto — FIG. 60/B",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-61",
   "file": "VER_017_18.png",
   "figura": "61",
-  "nome": "Transito vietato ai veicoli con rimorchio",
+  "nome": "Segnale di divieto — FIG. 61",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-62",
   "file": "VER_017_19.png",
   "figura": "62",
-  "nome": "Transito vietato alle macchine agricole",
+  "nome": "Segnale di divieto — FIG. 62",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-63",
   "file": "VER_017_20.png",
   "figura": "63",
-  "nome": "Transito vietato ai veicoli che trasportano merci pericolose",
+  "nome": "Segnale di divieto — FIG. 63",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-64A",
   "file": "VER_017_21.png",
   "figura": "64/A",
-  "nome": "Transito vietato ai veicoli che trasportano esplosivi o prodotti facilmente infiammabili",
+  "nome": "Segnale di divieto — FIG. 64/A",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-64B",
   "file": "VER_017_22.png",
   "figura": "64/B",
-  "nome": "Transito vietato ai veicoli che trasportano prodotti suscettibili di contaminare le acque",
+  "nome": "Segnale di divieto — FIG. 64/B",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-65",
   "file": "VER_017_23.png",
   "figura": "65",
-  "nome": "Transito vietato ai veicoli di larghezza superiore a 2,30 m",
+  "nome": "Segnale di divieto — FIG. 65",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-66",
   "file": "VER_017_24.png",
   "figura": "66",
-  "nome": "Transito vietato ai veicoli di altezza superiore a 3,50 m",
+  "nome": "Segnale di divieto — FIG. 66",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-67",
   "file": "VER_017_25.png",
   "figura": "67",
-  "nome": "Transito vietato ai veicoli di lunghezza superiore a 10 m",
+  "nome": "Segnale di divieto — FIG. 67",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-68",
   "file": "VER_017_26.png",
   "figura": "68",
-  "nome": "Transito vietato ai veicoli di massa superiore a 7 t",
+  "nome": "Segnale di divieto — FIG. 68",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-69",
   "file": "VER_017_27.png",
   "figura": "69",
-  "nome": "Transito vietato ai veicoli di massa per asse superiore a 6,5 t",
+  "nome": "Segnale di divieto — FIG. 69",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-70",
   "file": "VER_017_28.png",
   "figura": "70",
-  "nome": "Via libera",
+  "nome": "Segnale di divieto — FIG. 70",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-71",
   "file": "VER_017_29.png",
   "figura": "71",
-  "nome": "Fine del limite massimo di velocità 50 km/h",
+  "nome": "Segnale di divieto — FIG. 71",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-72",
   "file": "VER_017_30.png",
   "figura": "72",
-  "nome": "Fine del divieto di sorpasso",
+  "nome": "Segnale di divieto — FIG. 72",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-73",
   "file": "VER_017_31.png",
   "figura": "73",
-  "nome": "Fine del divieto di sorpasso per i veicoli di massa a pieno carico superiore a 3,5 t",
+  "nome": "Segnale di divieto — FIG. 73",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-74",
   "file": "VER_017_32.png",
   "figura": "74",
-  "nome": "Divieto di sosta",
+  "nome": "Segnale di divieto — FIG. 74",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-75",
   "file": "VER_017_33.png",
   "figura": "75",
-  "nome": "Divieto di fermata",
+  "nome": "Segnale di divieto — FIG. 75",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-76",
+  "file": "VER_018_01.png",
+  "figura": "76",
+  "nome": "Segnale di fermata - sosta e parcheggio — FIG. 76",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-79D",
+  "file": "VER_018_02.png",
+  "figura": "79/D",
+  "nome": "Segnale di fermata - sosta e parcheggio — FIG. 79/D",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77B",
+  "file": "VER_018_03.png",
+  "figura": "77/B",
+  "nome": "Segnale di fermata - sosta e parcheggio — FIG. 77/B",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77C",
+  "file": "VER_018_04.png",
+  "figura": "77/C",
+  "nome": "Segnale di fermata - sosta e parcheggio — FIG. 77/C",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77D",
+  "file": "VER_018_05.png",
+  "figura": "77/D",
+  "nome": "Segnale di fermata - sosta e parcheggio — FIG. 77/D",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77E",
+  "file": "VER_018_06.png",
+  "figura": "77/E",
+  "nome": "Segnale di fermata - sosta e parcheggio — FIG. 77/E",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77F",
+  "file": "VER_018_07.png",
+  "figura": "77/F",
+  "nome": "Segnale di fermata - sosta e parcheggio — FIG. 77/F",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-74D",
+  "file": "VER_018_08.png",
+  "figura": "74/D",
+  "nome": "Segnale di fermata - sosta e parcheggio — FIG. 74/D",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-79A",
+  "file": "VER_018_09.png",
+  "figura": "79/A",
+  "nome": "Segnale di fermata - sosta e parcheggio — FIG. 79/A",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-79B",
+  "file": "VER_018_10.png",
+  "figura": "79/B",
+  "nome": "Segnale di fermata - sosta e parcheggio — FIG. 79/B",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-79C",
+  "file": "VER_018_11.png",
+  "figura": "79/C",
+  "nome": "Segnale di fermata - sosta e parcheggio — FIG. 79/C",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-80A",
   "file": "VER_020_01.png",
   "figura": "80/A",
-  "nome": "Direzione obbligatoria diritto",
+  "nome": "Segnale di obbligo — FIG. 80/A",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-80B",
   "file": "VER_020_02.png",
   "figura": "80/B",
-  "nome": "Direzione obbligatoria a sinistra",
+  "nome": "Segnale di obbligo — FIG. 80/B",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-80C",
   "file": "VER_020_03.png",
   "figura": "80/C",
-  "nome": "Direzione obbligatoria a destra",
+  "nome": "Segnale di obbligo — FIG. 80/C",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-80D",
+  "file": "VER_020_04.png",
+  "figura": "80/D",
+  "nome": "Segnale di obbligo — FIG. 80/D",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-80E",
+  "file": "VER_020_05.png",
+  "figura": "80/E",
+  "nome": "Segnale di obbligo — FIG. 80/E",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-81A",
   "file": "VER_020_06.png",
   "figura": "81/A",
-  "nome": "Direzioni consentite a destra e a sinistra",
+  "nome": "Segnale di obbligo — FIG. 81/A",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-81B",
   "file": "VER_020_07.png",
   "figura": "81/B",
-  "nome": "Direzioni consentite diritto e a destra",
+  "nome": "Segnale di obbligo — FIG. 81/B",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-81C",
   "file": "VER_020_08.png",
   "figura": "81/C",
-  "nome": "Direzioni consentite diritto e a sinistra",
+  "nome": "Segnale di obbligo — FIG. 81/C",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-82A",
   "file": "VER_020_09.png",
   "figura": "82/A",
-  "nome": "Passaggio obbligatorio a sinistra",
+  "nome": "Segnale di obbligo — FIG. 82/A",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-82B",
   "file": "VER_020_10.png",
   "figura": "82/B",
-  "nome": "Passaggio obbligatorio a destra",
+  "nome": "Segnale di obbligo — FIG. 82/B",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-83",
   "file": "VER_020_11.png",
   "figura": "83",
-  "nome": "Passaggi consentiti a destra e a sinistra",
+  "nome": "Segnale di obbligo — FIG. 83",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-84",
   "file": "VER_020_12.png",
   "figura": "84",
-  "nome": "Rotatoria",
+  "nome": "Segnale di obbligo — FIG. 84",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-85",
   "file": "VER_020_13.png",
   "figura": "85",
-  "nome": "Limite minimo di velocità 30 km/h",
+  "nome": "Segnale di obbligo — FIG. 85",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-86",
   "file": "VER_020_14.png",
   "figura": "86",
-  "nome": "Fine del limite minimo di velocità 30 km/h",
+  "nome": "Segnale di obbligo — FIG. 86",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-87",
   "file": "VER_020_15.png",
   "figura": "87",
-  "nome": "Catene per neve obbligatorie",
+  "nome": "Segnale di obbligo — FIG. 87",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-88",
   "file": "VER_020_16.png",
   "figura": "88",
-  "nome": "Percorso pedonale",
+  "nome": "Segnale di obbligo — FIG. 88",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-89",
   "file": "VER_020_17.png",
   "figura": "89",
-  "nome": "Fine del percorso pedonale",
+  "nome": "Segnale di obbligo — FIG. 89",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-90",
   "file": "VER_020_18.png",
   "figura": "90",
-  "nome": "Pista ciclabile",
+  "nome": "Segnale di obbligo — FIG. 90",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-91",
   "file": "VER_020_19.png",
   "figura": "91",
-  "nome": "Fine della pista ciclabile",
+  "nome": "Segnale di obbligo — FIG. 91",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-92A",
+  "file": "VER_020_20.png",
+  "figura": "92/A",
+  "nome": "Segnale di obbligo — FIG. 92/A",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-92B",
   "file": "VER_020_21.png",
   "figura": "92/B",
-  "nome": "Percorso pedonale e ciclabile",
+  "nome": "Segnale di obbligo — FIG. 92/B",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-93B",
   "file": "VER_020_23.png",
   "figura": "93/B",
-  "nome": "Fine del percorso pedonale e ciclabile",
+  "nome": "Segnale di obbligo — FIG. 93/B",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-94",
   "file": "VER_020_24.png",
   "figura": "94",
-  "nome": "Percorso riservato ai cavalli",
+  "nome": "Segnale di obbligo — FIG. 94",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-95",
   "file": "VER_020_25.png",
   "figura": "95",
-  "nome": "Fine del percorso riservato ai cavalli",
+  "nome": "Segnale di obbligo — FIG. 95",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-96",
   "file": "VER_020_26.png",
   "figura": "96",
-  "nome": "Alt - Dogana (Douane)",
+  "nome": "Dogana douane",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-98",
   "file": "VER_020_27.png",
   "figura": "98",
-  "nome": "Alt - Polizia",
+  "nome": "Alt polizia",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-99",
   "file": "VER_020_28.png",
   "figura": "99",
-  "nome": "Alt - Stazione",
+  "nome": "Alt stazione",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-97A",
   "file": "VER_020_29.png",
   "figura": "97/A",
-  "nome": "Confine di Stato - Italia",
+  "nome": "Italia",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-1B",
+  "file": "VER_020_30.png",
+  "figura": "1/B",
+  "nome": "1 km",
   "confidenza": "alta"
  },
  {
@@ -1305,70 +4091,63 @@
   "sku": "MS-VER-77H",
   "file": "VER_021_03.png",
   "figura": "77/H",
-  "nome": "Parcheggio riservato ai Dirigenti",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-77I",
-  "file": "VER_021_04.png",
-  "figura": "77/I",
-  "nome": "Parcheggio riservato ai Visitatori",
+  "nome": "Riservato ai Dirigenti",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-77L",
   "file": "VER_021_05.png",
   "figura": "77/L",
-  "nome": "Parcheggio riservato ai Condomini",
+  "nome": "Riservato ai Condomini",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-77M",
   "file": "VER_021_06.png",
   "figura": "77/M",
-  "nome": "Parcheggio riservato ai Clienti",
+  "nome": "Riservato ai Clienti",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-77N",
   "file": "VER_021_07.png",
   "figura": "77/N",
-  "nome": "Parcheggio riservato ai Dipendenti",
+  "nome": "Riservato ai Dipendenti",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-77O",
   "file": "VER_021_08.png",
   "figura": "77/O",
-  "nome": "Parcheggio riservato ai Fornitori",
+  "nome": "Riservato ai Fornitori",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-77P",
   "file": "VER_021_09.png",
   "figura": "77/P",
-  "nome": "Parcheggio riservato ai cicli e motocicli",
+  "nome": "Riservato ai cicli e motocicli",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-77Q",
   "file": "VER_021_10.png",
   "figura": "77/Q",
-  "nome": "Parcheggio con freccia direzionale a sinistra",
+  "nome": "Parcheggio freccia sinistra",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-77R",
   "file": "VER_021_11.png",
   "figura": "77/R",
-  "nome": "Parcheggio con freccia direzionale a destra",
+  "nome": "Parcheggio freccia destra",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-77S",
   "file": "VER_021_12.png",
   "figura": "77/S",
-  "nome": "Parcheggio con freccia direzionale diritto",
+  "nome": "Parcheggio freccia dritto",
   "confidenza": "alta"
  },
  {
@@ -1396,7 +4175,7 @@
   "sku": "MS-VER-75A",
   "file": "VER_021_16.png",
   "figura": "75/A",
-  "nome": "Divieto di fermata - lasciare libero il passaggio",
+  "nome": "Divieto di fermata lasciare libero il passaggio",
   "confidenza": "alta"
  },
  {
@@ -1424,7 +4203,7 @@
   "sku": "MS-VER-74E",
   "file": "VER_021_20.png",
   "figura": "74/E",
-  "nome": "Passo carrabile con rimozione forzata",
+  "nome": "Passo carrabile",
   "confidenza": "alta"
  },
  {
@@ -1438,21 +4217,21 @@
   "sku": "MS-VER-74G",
   "file": "VER_021_22.png",
   "figura": "74/G",
-  "nome": "Proprietà privata - lasciare libero il passaggio",
+  "nome": "Proprietà privata lasciare libero il passaggio",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-74H",
   "file": "VER_021_23.png",
   "figura": "74/H",
-  "nome": "Proprietà privata - divieto di sosta",
+  "nome": "Proprietà privata divieto di sosta",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-47A",
   "file": "VER_021_24.png",
   "figura": "47/A",
-  "nome": "Proprietà privata - vietato l'accesso alle persone non autorizzate",
+  "nome": "Proprietà privata vietato l'accesso alle persone non autorizzate",
   "confidenza": "alta"
  },
  {
@@ -1466,14 +4245,14 @@
   "sku": "MS-VER-47C",
   "file": "VER_021_26.png",
   "figura": "47/C",
-  "nome": "Proprietà privata - vietato l'accesso",
+  "nome": "Proprietà privata vietato l'accesso",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-47D",
   "file": "VER_021_27.png",
   "figura": "47/D",
-  "nome": "Strada privata - vietato l'accesso",
+  "nome": "Strada privata vietato l'accesso",
   "confidenza": "alta"
  },
  {
@@ -1487,630 +4266,7 @@
   "sku": "MS-VER-37A",
   "file": "VER_021_29.png",
   "figura": "37/A",
-  "nome": "Stop - vietato l'ingresso agli estranei al condominio",
+  "nome": "Vietato l'ingresso agli estranei al condominio",
   "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-257",
-  "file": "VER_031_01.png",
-  "figura": "257",
-  "nome": "Identificazione autostrada",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-256",
-  "file": "VER_031_02.png",
-  "figura": "256",
-  "nome": "Identificazione itinerario internazionale europeo",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-258",
-  "file": "VER_031_03.png",
-  "figura": "258",
-  "nome": "Identificazione strada statale",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-259",
-  "file": "VER_031_04.png",
-  "figura": "259",
-  "nome": "Identificazione strada provinciale",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-260",
-  "file": "VER_031_05.png",
-  "figura": "260",
-  "nome": "Identificazione strada comunale",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-273",
-  "file": "VER_032_01.png",
-  "figura": "273",
-  "nome": "Inizio centro abitato",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-274",
-  "file": "VER_032_02.png",
-  "figura": "274",
-  "nome": "Fine centro abitato",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-281",
-  "file": "VER_033_09.png",
-  "figura": "281",
-  "nome": "Ufficio informazioni turistiche",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-282",
-  "file": "VER_033_10.png",
-  "figura": "282",
-  "nome": "Ospedale",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-283",
-  "file": "VER_033_11.png",
-  "figura": "283",
-  "nome": "Stemma comunale (municipio)",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-II291ART13",
-  "file": "VER_034_01.png",
-  "figura": "II 291",
-  "nome": "Segnale nome-strada applicato in angolo",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-II290ART13",
-  "file": "VER_034_02.png",
-  "figura": "II 290",
-  "nome": "Segnale nome-strada applicato a palo semaforico",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-292",
-  "file": "VER_034_04.png",
-  "figura": "292",
-  "nome": "Targa nome-strada piana con fori per fissaggio a parete o a palo a bandiera",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-302",
-  "file": "VER_036_02.png",
-  "figura": "302",
-  "nome": "Ospedale",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-303",
-  "file": "VER_036_03.png",
-  "figura": "303",
-  "nome": "Attraversamento pedonale",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-305",
-  "file": "VER_036_05.png",
-  "figura": "305",
-  "nome": "SOS (punto di soccorso)",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-309",
-  "file": "VER_036_09.png",
-  "figura": "309",
-  "nome": "Strada senza uscita",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-312",
-  "file": "VER_036_12.png",
-  "figura": "312",
-  "nome": "Velocità consigliata",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-313",
-  "file": "VER_036_13.png",
-  "figura": "313",
-  "nome": "Fine velocità consigliata",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-320",
-  "file": "VER_036_20.png",
-  "figura": "320",
-  "nome": "Area pedonale",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-321",
-  "file": "VER_036_21.png",
-  "figura": "321",
-  "nome": "Fine area pedonale",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-322A",
-  "file": "VER_036_22.png",
-  "figura": "322/A",
-  "nome": "Zona a traffico limitato",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-322B",
-  "file": "VER_036_23.png",
-  "figura": "322/B",
-  "nome": "Fine zona a traffico limitato",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-323A",
-  "file": "VER_036_24.png",
-  "figura": "323/A",
-  "nome": "Zona a velocità limitata (Zona 30)",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-323B",
-  "file": "VER_036_25.png",
-  "figura": "323/B",
-  "nome": "Fine zona a velocità limitata",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-327",
-  "file": "VER_036_31.png",
-  "figura": "327",
-  "nome": "Strada extraurbana principale",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-345",
-  "file": "VER_038_01.png",
-  "figura": "345",
-  "nome": "Autostrada",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-VER-346",
-  "file": "VER_038_02.png",
-  "figura": "346",
-  "nome": "Fine autostrada",
-  "confidenza": "alta"
- },
- {
-  "sku": "MS-CAN-TARGA-02107",
-  "file": "CAN_021_19.png",
-  "figura": "S",
-  "nome": "Cartello di cantiere compilabile (via, tratto, lavori, ordinanza)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-21",
-  "file": "VER_014_19.png",
-  "figura": "21",
-  "nome": "Banchina cedevole",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-43A",
-  "file": "VER_015_05.png",
-  "figura": "43/A",
-  "nome": "Intersezione con diritto di precedenza (incrocio)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-43B",
-  "file": "VER_015_06.png",
-  "figura": "43/B",
-  "nome": "Intersezione con diritto di precedenza (ramo laterale a destra)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-43C",
-  "file": "VER_015_07.png",
-  "figura": "43/C",
-  "nome": "Intersezione con diritto di precedenza (ramo laterale a sinistra)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-43D",
-  "file": "VER_015_08.png",
-  "figura": "43/D",
-  "nome": "Intersezione con diritto di precedenza (confluenza obliqua a destra)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-43E",
-  "file": "VER_015_09.png",
-  "figura": "43/E",
-  "nome": "Intersezione con diritto di precedenza (confluenza obliqua a sinistra)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-60A",
-  "file": "VER_017_16.png",
-  "figura": "60/A",
-  "nome": "Transito vietato ai veicoli per trasporto di cose",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-80D",
-  "file": "VER_020_04.png",
-  "figura": "80/D",
-  "nome": "Preavviso di direzione obbligatoria a destra",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-80E",
-  "file": "VER_020_05.png",
-  "figura": "80/E",
-  "nome": "Preavviso di direzione obbligatoria a sinistra",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-92A",
-  "file": "VER_020_20.png",
-  "figura": "92/A",
-  "nome": "Pista ciclabile contigua al marciapiede",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-93A",
-  "file": "VER_020_22.png",
-  "figura": "93/A",
-  "nome": "Fine della pista ciclabile contigua al marciapiede",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-1B",
-  "file": "VER_020_30.png",
-  "figura": "1/B",
-  "nome": "Pannello integrativo di distanza (1 Km)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-233",
-  "file": "VER_027_01.png",
-  "figura": "233",
-  "nome": "Preavviso di intersezione con preselezione (fondo bianco urbano)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-234",
-  "file": "VER_027_02.png",
-  "figura": "234",
-  "nome": "Preavviso di intersezione a frecce su strada extraurbana",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-235",
-  "file": "VER_027_03.png",
-  "figura": "235",
-  "nome": "Preavviso di intersezione autostradale",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-236",
-  "file": "VER_027_04.png",
-  "figura": "236",
-  "nome": "Preavviso di intersezione con divieto di accesso su una direzione",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-237",
-  "file": "VER_027_05.png",
-  "figura": "237",
-  "nome": "Preavviso di intersezione con due uscite (formato verticale)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-238",
-  "file": "VER_027_06.png",
-  "figura": "238",
-  "nome": "Preavviso di intersezione con rotatoria",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-239",
-  "file": "VER_027_07.png",
-  "figura": "239",
-  "nome": "Preavviso di intersezione con divieto di transito ai veicoli merci",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-240",
-  "file": "VER_027_08.png",
-  "figura": "240",
-  "nome": "Preavviso di intersezione con passaggio a livello (fondo blu)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-241",
-  "file": "VER_027_09.png",
-  "figura": "241",
-  "nome": "Segnale di preselezione (fondo bianco urbano)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-243",
-  "file": "VER_027_10.png",
-  "figura": "243",
-  "nome": "Segnale di preselezione su strada extraurbana",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-248",
-  "file": "VER_029_01.png",
-  "figura": "248",
-  "nome": "Segnale di direzione (freccia direzionale)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-294",
-  "file": "VER_029_02.png",
-  "figura": "294",
-  "nome": "Segnale di direzione turistica e di territorio",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-296",
-  "file": "VER_029_03.png",
-  "figura": "296",
-  "nome": "Segnale di direzione per zona industriale",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-297",
-  "file": "VER_029_04.png",
-  "figura": "297",
-  "nome": "Segnali di direzione per zona industriale (serie frecce)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-249",
-  "file": "VER_030_01.png",
-  "figura": "249",
-  "nome": "Segnale di direzione a freccia (fondo blu)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-272",
-  "file": "VER_033_01.png",
-  "figura": "272",
-  "nome": "Preavviso di uscita con indicazione delle località e distanza",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-275",
-  "file": "VER_033_03.png",
-  "figura": "275",
-  "nome": "Confine di regione",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-276",
-  "file": "VER_033_04.png",
-  "figura": "276",
-  "nome": "Confine di provincia",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-277",
-  "file": "VER_033_05.png",
-  "figura": "277",
-  "nome": "Pronto soccorso",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-278",
-  "file": "VER_033_06.png",
-  "figura": "278",
-  "nome": "Stazione ferroviaria",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-279",
-  "file": "VER_033_07.png",
-  "figura": "279",
-  "nome": "Polizia",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-280",
-  "file": "VER_033_08.png",
-  "figura": "280",
-  "nome": "Carabinieri",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-285",
-  "file": "VER_033_13.png",
-  "figura": "285",
-  "nome": "Segnale di conferma con distanze delle località (autostrada)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-286",
-  "file": "VER_033_14.png",
-  "figura": "286",
-  "nome": "Segnale di conferma con identificazione autostrada e freccia",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-298",
-  "file": "VER_035_01.png",
-  "figura": "298",
-  "nome": "Preavviso di servizi turistici (informazioni e albergo) con distanza",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-299",
-  "file": "VER_035_02.png",
-  "figura": "299",
-  "nome": "Segnale di indicazione alberghi con elenco",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-300",
-  "file": "VER_035_03.png",
-  "figura": "300",
-  "nome": "Segnale di indicazione alberghi con direzioni",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-301",
-  "file": "VER_035_04.png",
-  "figura": "301",
-  "nome": "Segnali di direzione per alberghi (serie frecce)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-295",
-  "file": "VER_036_01.png",
-  "figura": "295",
-  "nome": "Segnale di indicazione di corso d'acqua (fiume)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-304",
-  "file": "VER_036_04.png",
-  "figura": "304",
-  "nome": "Attraversamento pedonale scolastico (fondo arancione fluorescente)",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-306",
-  "file": "VER_036_06.png",
-  "figura": "306",
-  "nome": "Sottopassaggio pedonale",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-307",
-  "file": "VER_036_07.png",
-  "figura": "307",
-  "nome": "Sovrappassaggio pedonale",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-310",
-  "file": "VER_036_10.png",
-  "figura": "310",
-  "nome": "Preavviso di strada senza uscita",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-311",
-  "file": "VER_036_11.png",
-  "figura": "311",
-  "nome": "Preavviso di strada laterale senza uscita",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-314",
-  "file": "VER_036_14.png",
-  "figura": "314",
-  "nome": "Strada riservata ai veicoli a motore",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-315",
-  "file": "VER_036_15.png",
-  "figura": "315",
-  "nome": "Fine strada riservata ai veicoli a motore",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-316",
-  "file": "VER_036_16.png",
-  "figura": "316",
-  "nome": "Galleria",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-317",
-  "file": "VER_036_17.png",
-  "figura": "317",
-  "nome": "Fine galleria",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-318",
-  "file": "VER_036_18.png",
-  "figura": "318",
-  "nome": "Zona residenziale",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-319",
-  "file": "VER_036_19.png",
-  "figura": "319",
-  "nome": "Fine zona residenziale",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-324",
-  "file": "VER_036_26.png",
-  "figura": "324",
-  "nome": "Pista ciclabile",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-320P",
-  "file": "VER_036_27.png",
-  "figura": "320/P",
-  "nome": "Pannello integrativo area pedonale con elenco eccezioni",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-322AP",
-  "file": "VER_036_29.png",
-  "figura": "322/A/P",
-  "nome": "Pannello integrativo zona a traffico limitato con divieti ed eccezioni",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-347",
-  "file": "VER_038_03.png",
-  "figura": "347",
-  "nome": "Autostrada con pannello dei divieti",
-  "confidenza": "media"
- },
- {
-  "sku": "MS-VER-284",
-  "file": "VER_033_12.png",
-  "figura": "284",
-  "nome": "Pittogramma copricapo/casco — presumibile Polizia municipale",
-  "confidenza": "bassa"
- },
- {
-  "sku": "MS-VER-308",
-  "file": "VER_036_08.png",
-  "figura": "308",
-  "nome": "Passaggio pedonale su rampa inclinata",
-  "confidenza": "bassa"
- },
- {
-  "sku": "MS-VER-325",
-  "file": "VER_036_28.png",
-  "figura": "325",
-  "nome": "Schema di itinerario urbano con percorso indicato da freccia",
-  "confidenza": "bassa"
- },
- {
-  "sku": "MS-VER-326",
-  "file": "VER_036_30.png",
-  "figura": "326",
-  "nome": "Schema di itinerario urbano con percorso indicato da freccia (variante)",
-  "confidenza": "bassa"
  }
 ]

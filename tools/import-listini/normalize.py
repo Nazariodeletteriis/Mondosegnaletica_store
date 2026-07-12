@@ -15,6 +15,7 @@ unendo i formati di tutte le pagine in cui appare.
 """
 import json, glob, os, re, unicodedata
 from collections import defaultdict
+from difflib import SequenceMatcher
 
 OUT = '/var/www/Mondosegnaletica_store/tools/import-listini/out'
 os.makedirs(OUT, exist_ok=True)
@@ -128,19 +129,100 @@ def fissaggio(row):
     if trav: p.append(f'{trav} rinforzi trasversali')
     return ' + '.join(p) or None
 
-# Nomi e immagini dai ritagli sono SOSPESI in questo import.
+# Immagini: riabilitate, ora che l'aggancio è affidabile.
 #
-# Il ritaglio viene agganciato alla figura per posizione (n-esima cella = n-esima figura),
-# e quell'aggancio si è rivelato inaffidabile: su alcune pagine il rilevatore prende celle
-# di intestazione della tabella come se fossero cartelli. Il conteggio torna lo stesso, ma
-# l'ordine slitta — verificato: il ritaglio dato per "FIG. 42" stampa "FIGURA 45".
-# Un'immagine o un nome sul prodotto sbagliato è peggio di nessuna immagine.
+# Erano state sospese perché il ritaglio veniva appaiato alla figura per posizione (n-esima
+# cella = n-esima figura) e su alcune pagine il rilevatore scambiava le intestazioni della
+# tabella per cartelli: il conteggio tornava, ma l'ordine slittava, e il ritaglio dato per
+# "FIG. 42" stampava "FIGURA 45". Un'immagine sul prodotto sbagliato è peggio di nessuna
+# immagine, tanto più su merce omologata.
 #
-# I codici figura letti dalla TABELLA restano affidabili (e sono la chiave degli SKU):
-# il passo successivo è leggere la didascalia "FIGURA xx" dentro ogni ritaglio e agganciare
-# immagine e nome per codice, non per posizione. Poi è un semplice update per SKU.
-nomi_vista = {}
-crops = {}
+# figure_ocr.py adesso legge la didascalia dentro ogni ritaglio con un OCR locale e risolve
+# l'appaiamento cella↔figura come assegnamento ottimo sull'intera pagina. Misurato contro le
+# 611 letture a vista dei lotti 0-5: 99.4% corretto (l'appaiamento per posizione: 91.0%).
+#
+# L'aggancio ritaglio→prodotto resta comunque per (listino, PAGINA, posizione), mai per
+# codice figura globale: in sezioni come ACCESSORI la "figura" è una lettera che vale solo
+# dentro la sua pagina — la 'A' di pagina 3 è un segnale di velocità, la 'A' di pagina 6 è
+# una tuta da lavoro. Agganciare per lettera metterebbe il cartello addosso alla tuta.
+def elenco_figure(code):
+    """I codici figura a cui questa scritta si riferisce.
+
+    Nel listino la colonna FIG. a volte contiene un ELENCO, non un codice: la figura è
+    battezzata "E - E1" mentre le righe la cercano come "E" e come "E1"; una riga dice
+    "466 / 467" e le figure sono due, "466" e "467". Confrontando le scritte tali e quali,
+    129 righe non trovavano la propria figura e restavano senza immagine.
+
+    Il trabocchetto è che la barra compare anche DENTRO codici singoli — 1/A, 60/B, 309/P —
+    e spezzarli significherebbe agganciare l'immagine della figura 1 al prodotto 1/A. Quindi
+    si spezza solo quando la scritta è davvero un elenco: separatori spaziati ("E - E1",
+    "466 / 467"), oppure pezzi che sono tutti etichette a lettera (A-A1, I-J-K-L), oppure
+    tutti numeri di figura. Un misto numero+lettera (1/A) resta un codice solo.
+    """
+    s = str(code or '').strip()
+    if not s or s in ('/', '-'):
+        return []
+
+    pezzi = [p for p in re.split(r'\s*[-/]\s*', s) if p]
+    if len(pezzi) < 2:
+        return [s]
+
+    spaziato = bool(re.search(r'\s[-/]|[-/]\s', s))
+    lettere  = all(re.fullmatch(r'[A-Za-z]\d?', p) for p in pezzi)
+    numeri   = all(re.fullmatch(r'\d{1,3}', p) for p in pezzi)
+
+    if spaziato or lettere or numeri:
+        return [s] + pezzi        # prima la scritta intera, poi i singoli
+    return [s]
+
+
+def scegli_figura(figmap, code, articolo):
+    """La figura a cui appartiene questa riga, quando il codice da solo non basta.
+
+    Su alcune pagine due cartelli diversi portano lo STESSO codice — su CAN pag. 32 una
+    transenna e un New Jersey sono battezzati entrambi "A" — e tutte le righe della pagina
+    li citano con quel codice. Scegliere la prima figura e via vuol dire mettere la foto
+    della transenna sul New Jersey.
+
+    Il codice non distingue, ma il nome sì: la figura ha una didascalia e la riga ha il suo
+    articolo, e si somigliano. Quando i candidati sono più d'uno vince quello che somiglia
+    di più all'articolo; se nessuno somiglia abbastanza non si aggancia niente, perché una
+    foto sbagliata su merce omologata è peggio di nessuna foto.
+    """
+    cands = next((figmap[k] for k in elenco_figure(code) if figmap.get(k)), None)
+    if not cands:
+        return None
+    if len(cands) == 1:
+        return cands[0]
+
+    a = re.sub(r'[^a-z0-9]', '', (articolo or '').lower())
+    if not a:
+        return None
+
+    def somiglia(fg):
+        n = re.sub(r'[^a-z0-9]', '', str(fg.get('nome') or '').lower())
+        return SequenceMatcher(None, a, n).ratio() if n else 0.0
+
+    migliore = max(cands, key=somiglia)
+    return migliore if somiglia(migliore) >= 0.35 else None
+
+
+def _carica_ritagli():
+    f = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'naming/figure_ocr.json')
+    if not os.path.exists(f):
+        print('!! naming/figure_ocr.json assente: import SENZA immagini (lancia figure_ocr.py)')
+        return {}, {}
+    crops, nomi = {}, {}
+    for x in json.load(open(f)):
+        m = re.match(r'([A-Z]{3})_(\d{3})_(\d{2})\.png$', x['file'])
+        if not m:
+            continue
+        crops[(m.group(1), int(m.group(2)), int(m.group(3)))] = x['file']
+        nomi[x['file']] = {'nome': x.get('nome'), 'confidenza': x.get('confidenza')}
+    return crops, nomi
+
+
+crops, nomi_vista = _carica_ritagli()
 
 # ── raccolta ──────────────────────────────────────────────────────────────────
 prodotti = {}
@@ -205,11 +287,16 @@ def attrs_da(r, x, con_articolo=False):
     return a
 
 for f in sorted(glob.glob('extract/*.json')):
-    base = os.path.basename(f)
-    if not re.match(r'^(VER|ORI|CAN|ACC|GOM)_', base): continue
-    tag = base.split('_')[0]
+    # Il listino di appartenenza si legge dal campo `tag` DENTRO la pagina, non dal nome
+    # del file. Cinque file di estrazione si chiamano part_a…part_e (sono le pagine VER
+    # 15-25, spezzate durante l'estrazione): filtrando per nome file finivano fuori, e con
+    # loro 185 prodotti e ~9.000 varianti. Il prodotti.json committato li contiene, quindi
+    # è stato generato prima che quel filtro entrasse: lo script non ricostruiva più i
+    # propri dati.
     for pg in json.load(open(f)):
         if pg.get('type') != 'listino': continue
+        tag = pg.get('tag')
+        if tag not in TAGNAME: continue
         rows, figs = pg.get('rows') or [], pg.get('figures') or []
         sec, cat = pg.get('section') or '', categoria(tag, pg.get('section'))
         note_pg, page = pg.get('page_note'), pg['page']
@@ -219,11 +306,24 @@ for f in sorted(glob.glob('extract/*.json')):
 
         if schema_A:
             # ── SCHEMA A: la riga è il prodotto ──────────────────────────────
-            figmap = {str(x.get('figura')): x for x in figs}
+            # Prima i codici esatti, poi le espansioni degli elenchi: se una pagina ha sia la
+            # figura "A-A1" sia una figura "A", la "A" esatta deve restare la "A".
+            #
+            # Un codice può indicare PIÙ figure: su CAN pag. 32 due cartelli diversi — una
+            # transenna e un New Jersey — sono battezzati tutti e due "A". Tenere solo la
+            # prima significa dare la transenna anche al New Jersey. Qui il codice porta a
+            # una LISTA, e a scegliere dentro la lista è il nome (sotto).
+            figmap = defaultdict(list)
+            for x in figs:
+                k = str(x.get('figura') or '').strip()
+                if k: figmap[k].append(x)
+            for x in figs:
+                for k in elenco_figure(x.get('figura'))[1:]:
+                    if x not in figmap[k]: figmap[k].append(x)
             for i, r in enumerate(rows, 1):
                 cod, art = (r.get('codice') or '').strip(), (r.get('articolo') or '').strip()
                 if not art and not cod: continue
-                fg   = figmap.get(str(r.get('figura'))) if r.get('figura') else None
+                fg   = scegli_figura(figmap, r.get('figura'), art)
                 nome = nice(art) or nice((fg or {}).get('nome')) or cod
                 sku  = cod or f'MS-{tag}-{sku_part(art)}-{page:03d}{i:02d}'
                 p = get(sku, nome=nome, cat=cat, listino=TAGNAME[tag], sezione=sec,
@@ -310,8 +410,32 @@ json.dump([{'sku': p['sku'], 'nome': p['nome'], 'cat': p['cat'], 'pagine': p['pa
            for p in conflitto], open(f'{OUT}/prezzo_conflitto.json', 'w'), ensure_ascii=False, indent=1)
 print(f'prodotti con prezzo in CONFLITTO (→ preventivo): {len(conflitto)}')
 
+# Un prodotto già in catalogo non sparisce perché l'estrazione di oggi non lo ricostruisce.
+#
+# out/prodotti.json è la fonte dell'import che ha popolato lo store: se una rigenerazione ne
+# perde per strada dei pezzi, il danno arriva ai clienti (prodotto ordinabile che svanisce),
+# e sovrascrivere in silenzio lo nasconderebbe. È già successo: 33 SKU delle pagine VER 26-28
+# stanno nel catalogo ma la loro estrazione non è mai finita in extract/, quindi lo script
+# non è più in grado di ricostruirli. Finché quel buco resta, i superstiti si conservano —
+# e l'anomalia si stampa, invece di rimanere sepolta.
+vecchio = {}
+if os.path.exists(f'{OUT}/prodotti.json'):
+    try:
+        vecchio = json.load(open(f'{OUT}/prodotti.json'))
+    except Exception:
+        vecchio = {}
+
+orfani = [s for s in vecchio if s not in prodotti]
+for s in orfani:
+    prodotti[s] = vecchio[s]
+
 json.dump(prodotti, open(f'{OUT}/prodotti.json', 'w'), ensure_ascii=False, indent=1)
 print()
+if orfani:
+    print(f'!! {len(orfani)} SKU in catalogo che questa estrazione NON ricostruisce: conservati dal file precedente.')
+    print(f'   Causa nota: pagine VER 26-28 assenti da extract/ e part_d marcato type="altro".')
+    for s in orfani[:5]:
+        print(f'   {s}  {str(vecchio[s].get("nome"))[:60]}')
 if SCARTI:
     print(f'!! PREZZI PERSI (varianti indistinguibili): {len(SCARTI)}')
     for x in SCARTI[:5]: print('   ', x['sku'], x['attrs'], f"tenuto {x['tenuto']} scartato {x['scartato']}")

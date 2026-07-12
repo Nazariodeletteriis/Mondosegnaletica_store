@@ -1,0 +1,6068 @@
+[
+ {
+  "file": "VER_011_01.png",
+  "figura": "MODELLO 1/A",
+  "nome": "320 m",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "320 m MODELL0 1/A"
+ },
+ {
+  "file": "VER_011_02.png",
+  "figura": "MODELLO 1/B",
+  "nome": "3,8 Km",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "3,8 Km MODELL0 1/B"
+ },
+ {
+  "file": "VER_011_03.png",
+  "figura": "MODELLO 2/A",
+  "nome": "380 m (con frecce)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "↑380 ↑ m MODELL0 2/A"
+ },
+ {
+  "file": "VER_011_04.png",
+  "figura": "MODELLO 2/B",
+  "nome": "2,8 Km (con frecce)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "↑2.8 Km ↑ MODELL0 2/B"
+ },
+ {
+  "file": "VER_011_05.png",
+  "figura": "MODELLO 6/C",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "MODELL0 6/C"
+ },
+ {
+  "file": "VER_011_06.png",
+  "figura": "MODELLO 6/D",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "MODELL0 6/D"
+ },
+ {
+  "file": "VER_011_07.png",
+  "figura": "MODELLO 6/E",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "MODELL0 6/E"
+ },
+ {
+  "file": "VER_011_08.png",
+  "figura": "MODELLO 6/G",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "MODELL0 6/G"
+ },
+ {
+  "file": "VER_011_09.png",
+  "figura": "MODELLO 6/H",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "茶 MODELL0 6/H"
+ },
+ {
+  "file": "VER_011_10.png",
+  "figura": "MODELLO 6/I",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "MODELLO 6/I"
+ },
+ {
+  "file": "VER_011_11.png",
+  "figura": "MODELLO 6/P1",
+  "nome": "tornante",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "tornante M0DELL0 6/P1"
+ },
+ {
+  "file": "VER_011_12.png",
+  "figura": "MODELLO 6/P1",
+  "nome": "3 tornanti",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "3 tornanti M0DELL0 6/P1"
+ },
+ {
+  "file": "VER_011_13.png",
+  "figura": "MODELLO 3/A",
+  "nome": "0-24",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "0-24 MODELL03/A"
+ },
+ {
+  "file": "VER_011_14.png",
+  "figura": "MODELLO 3/B",
+  "nome": "07,30-19,00",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "07,30-19,00 MODELL03/B"
+ },
+ {
+  "file": "VER_011_15.png",
+  "figura": "MODELLO 3/C",
+  "nome": "08,00-20,00 (giorni festivi)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "08,00-20,00 MODELL0 3/C"
+ },
+ {
+  "file": "VER_011_16.png",
+  "figura": "MODELLO 3/D",
+  "nome": "08,00-20,00 (giorni feriali)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "父 08,00-20,00 MODELL0 3/D"
+ },
+ {
+  "file": "VER_011_17.png",
+  "figura": "MODELLO 4/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "oo OO MODELL0 4/A"
+ },
+ {
+  "file": "VER_011_18.png",
+  "figura": "MODELLO 4/B",
+  "nome": "eccetto (autobus)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "eccetto MODELL0 4/B"
+ },
+ {
+  "file": "VER_011_19.png",
+  "figura": "MODELLO 6/M",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "O MODELL0 6/M"
+ },
+ {
+  "file": "VER_011_20.png",
+  "figura": "MODELLO 6/N",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "MODELL0 6/N"
+ },
+ {
+  "file": "VER_011_21.png",
+  "figura": "MODELLO 6/Q1",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "MODELL0 6/Q1"
+ },
+ {
+  "file": "VER_011_22.png",
+  "figura": "MODELLO 6/H (50x25)",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "MODELL0 6/H (50x25)"
+ },
+ {
+  "file": "VER_011_26.png",
+  "figura": "MODELLO 5/B1",
+  "nome": "inizio",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "M0DELL05/A1 INIZIO"
+ },
+ {
+  "file": "VER_011_24.png",
+  "figura": "MODELLO 5/A2",
+  "nome": "continua",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "T M0DELL05/A2 CONTINUA"
+ },
+ {
+  "file": "VER_011_25.png",
+  "figura": "MODELLO 5/A3",
+  "nome": "fine",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "M0DELL0 5/A3 FINE"
+ },
+ {
+  "file": "VER_011_23.png",
+  "figura": "MODELLO 5/A1",
+  "nome": "inizio",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "← M0DELL0 5/B1 INIZIO"
+ },
+ {
+  "file": "VER_011_27.png",
+  "figura": "MODELLO 5/B2",
+  "nome": "continua",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "←→ M0DELL05/B2 CONTINUA"
+ },
+ {
+  "file": "VER_011_28.png",
+  "figura": "MODELLO 5/B3",
+  "nome": "fine",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "→ M0DELL0 5/B3 FINE"
+ },
+ {
+  "file": "VER_013_01.png",
+  "figura": "MODELLO 3/C",
+  "nome": "08,00-20,00 (giorni festivi)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "+ 8,00-20,00 MODELL0 3/C"
+ },
+ {
+  "file": "VER_013_02.png",
+  "figura": "MODELLO 3/D",
+  "nome": "08,00-20,00 (giorni feriali)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "父 8,00-20,00 MODELL0 3/D"
+ },
+ {
+  "file": "VER_013_03.png",
+  "figura": "C1",
+  "nome": "A14 135",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "A14 135 C1"
+ },
+ {
+  "file": "VER_013_04.png",
+  "figura": "C2",
+  "nome": "SS 148 30",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "SS148 30 C2"
+ },
+ {
+  "file": "VER_013_05.png",
+  "figura": "C3",
+  "nome": "SP 37 25",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "SP 37 25 C3"
+ },
+ {
+  "file": "VER_013_07.png",
+  "figura": "MODELLO 6/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "MODELL0 6/A"
+ },
+ {
+  "file": "VER_013_08.png",
+  "figura": "MODELLO 6/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "MODELL0 6/B"
+ },
+ {
+  "file": "VER_013_09.png",
+  "figura": "MODELLO 6/F",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "MODELL0 6/F"
+ },
+ {
+  "file": "VER_013_10.png",
+  "figura": "MODELLO 6/L",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "MODELL0 6/L"
+ },
+ {
+  "file": "VER_013_11.png",
+  "figura": "MODELLO 6/P2",
+  "nome": "1 tornante",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "1 tornante M0DELL0 6/P2"
+ },
+ {
+  "file": "VER_013_12.png",
+  "figura": "MODELLO 6/Q2",
+  "nome": "Lun.-Ven. 21,00-04,00",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "Lun.-Ven. 21,00-04,00 MODELL0 6/Q2"
+ },
+ {
+  "file": "VER_013_13.png",
+  "figura": "MODELLO 7",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "MODELL0 7"
+ },
+ {
+  "file": "VER_013_14.png",
+  "figura": "MODELLO 7",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "MODELL0 7"
+ },
+ {
+  "file": "VER_013_15.png",
+  "figura": "MODELLO 7",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "MODELL0 7"
+ },
+ {
+  "file": "VER_013_16.png",
+  "figura": "MODELLO 7",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "MODELL0 7"
+ },
+ {
+  "file": "VER_013_17.png",
+  "figura": "MODELLO 7",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "MODELLO7"
+ },
+ {
+  "file": "VER_014_01.png",
+  "figura": "1",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 1"
+ },
+ {
+  "file": "VER_014_02.png",
+  "figura": "2",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 2"
+ },
+ {
+  "file": "VER_014_03.png",
+  "figura": "3",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 3"
+ },
+ {
+  "file": "VER_014_04.png",
+  "figura": "4",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 4"
+ },
+ {
+  "file": "VER_014_05.png",
+  "figura": "5",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 5"
+ },
+ {
+  "file": "VER_014_06.png",
+  "figura": "6",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 6"
+ },
+ {
+  "file": "VER_014_07.png",
+  "figura": "7",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 7"
+ },
+ {
+  "file": "VER_014_08.png",
+  "figura": "8",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "# FIGURA 8"
+ },
+ {
+  "file": "VER_014_09.png",
+  "figura": "9",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 9"
+ },
+ {
+  "file": "VER_014_10.png",
+  "figura": "12",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 12"
+ },
+ {
+  "file": "VER_014_11.png",
+  "figura": "13",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 13"
+ },
+ {
+  "file": "VER_014_12.png",
+  "figura": "14",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 14"
+ },
+ {
+  "file": "VER_014_13.png",
+  "figura": "15",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "10% FIGURA 15"
+ },
+ {
+  "file": "VER_014_14.png",
+  "figura": "16",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "10% FIGURA 16"
+ },
+ {
+  "file": "VER_014_15.png",
+  "figura": "17",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 17"
+ },
+ {
+  "file": "VER_014_16.png",
+  "figura": "18",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 18"
+ },
+ {
+  "file": "VER_014_17.png",
+  "figura": "19",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 19"
+ },
+ {
+  "file": "VER_014_18.png",
+  "figura": "20",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 20"
+ },
+ {
+  "file": "VER_014_19.png",
+  "figura": "21",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 21"
+ },
+ {
+  "file": "VER_014_20.png",
+  "figura": "22",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 22"
+ },
+ {
+  "file": "VER_014_21.png",
+  "figura": "23",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 23"
+ },
+ {
+  "file": "VER_014_22.png",
+  "figura": "24",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 24"
+ },
+ {
+  "file": "VER_014_23.png",
+  "figura": "25",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 25"
+ },
+ {
+  "file": "VER_014_24.png",
+  "figura": "26",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 26"
+ },
+ {
+  "file": "VER_014_25.png",
+  "figura": "27",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 27"
+ },
+ {
+  "file": "VER_014_26.png",
+  "figura": "28",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 28"
+ },
+ {
+  "file": "VER_014_27.png",
+  "figura": "29",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 29"
+ },
+ {
+  "file": "VER_014_28.png",
+  "figura": "30/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 30/A"
+ },
+ {
+  "file": "VER_014_29.png",
+  "figura": "30/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 30/B"
+ },
+ {
+  "file": "VER_014_30.png",
+  "figura": "31/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 31/A"
+ },
+ {
+  "file": "VER_014_31.png",
+  "figura": "31/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "000 FIGURA 31/B"
+ },
+ {
+  "file": "VER_014_32.png",
+  "figura": "32",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 32"
+ },
+ {
+  "file": "VER_014_33.png",
+  "figura": "33",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 33"
+ },
+ {
+  "file": "VER_014_34.png",
+  "figura": "34",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 34"
+ },
+ {
+  "file": "VER_014_35.png",
+  "figura": "35",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 35"
+ },
+ {
+  "file": "VER_015_01.png",
+  "figura": "36",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 36"
+ },
+ {
+  "file": "VER_015_02.png",
+  "figura": "38",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "150 m FIGURA 38"
+ },
+ {
+  "file": "VER_015_03.png",
+  "figura": "39",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "STOP 150 m FIGURA 39"
+ },
+ {
+  "file": "VER_015_04.png",
+  "figura": "40",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 40"
+ },
+ {
+  "file": "VER_015_05.png",
+  "figura": "43/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "+ FIGURA 43/A"
+ },
+ {
+  "file": "VER_015_06.png",
+  "figura": "43/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 43/B"
+ },
+ {
+  "file": "VER_015_07.png",
+  "figura": "43/C",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 43/C"
+ },
+ {
+  "file": "VER_015_08.png",
+  "figura": "43/D",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 43/D"
+ },
+ {
+  "file": "VER_015_09.png",
+  "figura": "43/E",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 43/E"
+ },
+ {
+  "file": "VER_015_10.png",
+  "figura": "10/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "65 5 160 FIGURA 10/A"
+ },
+ {
+  "file": "VER_015_11.png",
+  "figura": "10/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "5 50 160 FIGURA 10/B"
+ },
+ {
+  "file": "VER_015_12.png",
+  "figura": "10/C",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 10/C"
+ },
+ {
+  "file": "VER_015_13.png",
+  "figura": "10/D",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 10/D"
+ },
+ {
+  "file": "VER_015_14.png",
+  "figura": "11/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 11/A"
+ },
+ {
+  "file": "VER_015_15.png",
+  "figura": "11/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 11/B"
+ },
+ {
+  "file": "VER_015_16.png",
+  "figura": "11/C",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "35 153 FIGURA 11/C"
+ },
+ {
+  "file": "VER_016_02.png",
+  "figura": "37",
+  "nome": "stop",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "37"
+ },
+ {
+  "file": "VER_016_03.png",
+  "figura": "42",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "42 - 44"
+ },
+ {
+  "file": "VER_016_05.png",
+  "figura": "45",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "45"
+ },
+ {
+  "file": "VER_017_01.png",
+  "figura": "41",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 41"
+ },
+ {
+  "file": "VER_017_02.png",
+  "figura": "46",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 46"
+ },
+ {
+  "file": "VER_017_03.png",
+  "figura": "47",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 47"
+ },
+ {
+  "file": "VER_017_04.png",
+  "figura": "48",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 48"
+ },
+ {
+  "file": "VER_017_05.png",
+  "figura": "49",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "70 m FIGURA 49"
+ },
+ {
+  "file": "VER_017_06.png",
+  "figura": "50",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "80 FIGURA 50"
+ },
+ {
+  "file": "VER_017_07.png",
+  "figura": "51",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 51"
+ },
+ {
+  "file": "VER_017_08.png",
+  "figura": "52",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "JH· FIGURA 52"
+ },
+ {
+  "file": "VER_017_09.png",
+  "figura": "53",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 53"
+ },
+ {
+  "file": "VER_017_10.png",
+  "figura": "54",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 54"
+ },
+ {
+  "file": "VER_017_11.png",
+  "figura": "55",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 55"
+ },
+ {
+  "file": "VER_017_12.png",
+  "figura": "56",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 56"
+ },
+ {
+  "file": "VER_017_13.png",
+  "figura": "57",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 57"
+ },
+ {
+  "file": "VER_017_14.png",
+  "figura": "58",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 58"
+ },
+ {
+  "file": "VER_017_15.png",
+  "figura": "59",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 59"
+ },
+ {
+  "file": "VER_017_16.png",
+  "figura": "60/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 60/A"
+ },
+ {
+  "file": "VER_017_17.png",
+  "figura": "60/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "6,5 t FIGURA 60/B"
+ },
+ {
+  "file": "VER_017_18.png",
+  "figura": "61",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "O FIGURA 61"
+ },
+ {
+  "file": "VER_017_19.png",
+  "figura": "62",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 62"
+ },
+ {
+  "file": "VER_017_20.png",
+  "figura": "63",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H--1 FIGURA 63"
+ },
+ {
+  "file": "VER_017_21.png",
+  "figura": "64/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 64/A"
+ },
+ {
+  "file": "VER_017_22.png",
+  "figura": "64/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 64/B"
+ },
+ {
+  "file": "VER_017_23.png",
+  "figura": "65",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "2 m 30 FIGURA 65"
+ },
+ {
+  "file": "VER_017_24.png",
+  "figura": "66",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "3 m 50 FIGURA 66"
+ },
+ {
+  "file": "VER_017_25.png",
+  "figura": "67",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "10 m FIGURA 67"
+ },
+ {
+  "file": "VER_017_26.png",
+  "figura": "68",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "7 t .00 FIGURA 68"
+ },
+ {
+  "file": "VER_017_27.png",
+  "figura": "69",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "It 6.5 IH-I FIGURA 69"
+ },
+ {
+  "file": "VER_017_28.png",
+  "figura": "70",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 70"
+ },
+ {
+  "file": "VER_017_29.png",
+  "figura": "71",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "5 0 FIGURA 71"
+ },
+ {
+  "file": "VER_017_30.png",
+  "figura": "72",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 72"
+ },
+ {
+  "file": "VER_017_31.png",
+  "figura": "73",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "UHHI FIGURA 73"
+ },
+ {
+  "file": "VER_017_32.png",
+  "figura": "74",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 74"
+ },
+ {
+  "file": "VER_017_33.png",
+  "figura": "75",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 75"
+ },
+ {
+  "file": "VER_018_01.png",
+  "figura": "76",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 76"
+ },
+ {
+  "file": "VER_018_02.png",
+  "figura": "79/D",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "07,00-09,00 17,00-20,00 P 09,00-17,00 20,00-07,00 FIGURA 79/D"
+ },
+ {
+  "file": "VER_018_03.png",
+  "figura": "77/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D FIGURA 77/B"
+ },
+ {
+  "file": "VER_018_04.png",
+  "figura": "77/C",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D FIGURA 77/C"
+ },
+ {
+  "file": "VER_018_05.png",
+  "figura": "77/D",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D FIGURA 77/D"
+ },
+ {
+  "file": "VER_018_06.png",
+  "figura": "77/E",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D FIGURA 77/E"
+ },
+ {
+  "file": "VER_018_07.png",
+  "figura": "77/F",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D FIGURA 77/F"
+ },
+ {
+  "file": "VER_018_08.png",
+  "figura": "74/D",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 74/D"
+ },
+ {
+  "file": "VER_018_09.png",
+  "figura": "79/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P 5 FIGURA 79/A"
+ },
+ {
+  "file": "VER_018_10.png",
+  "figura": "79/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P FIGURA 79/B"
+ },
+ {
+  "file": "VER_018_11.png",
+  "figura": "79/C",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P FIGURA 79/C"
+ },
+ {
+  "file": "VER_020_01.png",
+  "figura": "80/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 80/A"
+ },
+ {
+  "file": "VER_020_02.png",
+  "figura": "80/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 80/B"
+ },
+ {
+  "file": "VER_020_03.png",
+  "figura": "80/C",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 80/C"
+ },
+ {
+  "file": "VER_020_04.png",
+  "figura": "80/D",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 80/D"
+ },
+ {
+  "file": "VER_020_05.png",
+  "figura": "80/E",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 80/E"
+ },
+ {
+  "file": "VER_020_06.png",
+  "figura": "81/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 81/A"
+ },
+ {
+  "file": "VER_020_07.png",
+  "figura": "81/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 81/B"
+ },
+ {
+  "file": "VER_020_08.png",
+  "figura": "81/C",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 81/C"
+ },
+ {
+  "file": "VER_020_09.png",
+  "figura": "82/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 82/A"
+ },
+ {
+  "file": "VER_020_10.png",
+  "figura": "82/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 82/B"
+ },
+ {
+  "file": "VER_020_11.png",
+  "figura": "83",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 83"
+ },
+ {
+  "file": "VER_020_12.png",
+  "figura": "84",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 84"
+ },
+ {
+  "file": "VER_020_13.png",
+  "figura": "85",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "30 FIGURA 85"
+ },
+ {
+  "file": "VER_020_14.png",
+  "figura": "86",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 86"
+ },
+ {
+  "file": "VER_020_15.png",
+  "figura": "87",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 87"
+ },
+ {
+  "file": "VER_020_16.png",
+  "figura": "88",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "个 FIGURA 88"
+ },
+ {
+  "file": "VER_020_17.png",
+  "figura": "89",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 89"
+ },
+ {
+  "file": "VER_020_18.png",
+  "figura": "90",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 90"
+ },
+ {
+  "file": "VER_020_19.png",
+  "figura": "91",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "O FIGURA 91"
+ },
+ {
+  "file": "VER_020_20.png",
+  "figura": "92/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 92/A"
+ },
+ {
+  "file": "VER_020_21.png",
+  "figura": "92/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 92/B"
+ },
+ {
+  "file": "VER_020_23.png",
+  "figura": "93/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 93/B"
+ },
+ {
+  "file": "VER_020_24.png",
+  "figura": "94",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 94"
+ },
+ {
+  "file": "VER_020_25.png",
+  "figura": "95",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 95"
+ },
+ {
+  "file": "VER_020_26.png",
+  "figura": "96",
+  "nome": "dogana douane",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "DOGANA DOUANE FIGURA 96"
+ },
+ {
+  "file": "VER_020_27.png",
+  "figura": "98",
+  "nome": "alt polizia",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "ALT POLIZIA FIGURA 98"
+ },
+ {
+  "file": "VER_020_28.png",
+  "figura": "99",
+  "nome": "alt stazione",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "ALT STAZIONE FIGURA 99"
+ },
+ {
+  "file": "VER_020_29.png",
+  "figura": "97/A",
+  "nome": "italia",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "ITALIA FIGURA 97/A"
+ },
+ {
+  "file": "VER_020_30.png",
+  "figura": "1/B",
+  "nome": "1 km",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "1Km FIGURA 1/B"
+ },
+ {
+  "file": "VER_021_01.png",
+  "figura": "309/P",
+  "nome": "strada senza uscita",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "strada senza uscita FIGURA 309/P"
+ },
+ {
+  "file": "VER_021_02.png",
+  "figura": "77/G",
+  "nome": "parcheggio privato",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P parcheggio privato FIGURA 77/G"
+ },
+ {
+  "file": "VER_021_03.png",
+  "figura": "77/H",
+  "nome": "riservato ai Dirigenti",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P riservato ai Dirigenti FIGURA 77/H"
+ },
+ {
+  "file": "VER_021_05.png",
+  "figura": "77/L",
+  "nome": "riservato ai Condomini",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P riservato ai Condomini FIGURA 77/L"
+ },
+ {
+  "file": "VER_021_06.png",
+  "figura": "77/M",
+  "nome": "riservato ai Clienti",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P riservato ai Clienti FIGURA 77/M"
+ },
+ {
+  "file": "VER_021_07.png",
+  "figura": "77/N",
+  "nome": "riservato ai Dipendenti",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P riservato ai Dipendenti FIGURA 77/N"
+ },
+ {
+  "file": "VER_021_08.png",
+  "figura": "77/O",
+  "nome": "riservato ai Fornitori",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "P riservato ai Fornitori FIGURA 77/0"
+ },
+ {
+  "file": "VER_021_09.png",
+  "figura": "77/P",
+  "nome": "riservato ai cicli e motocicli",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P riservato ai cicli e motocicli FIGURA 77/P"
+ },
+ {
+  "file": "VER_021_10.png",
+  "figura": "77/Q",
+  "nome": "parcheggio freccia sinistra",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P FIGURA 77/Q"
+ },
+ {
+  "file": "VER_021_11.png",
+  "figura": "77/R",
+  "nome": "parcheggio freccia destra",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P FIGURA 77/R"
+ },
+ {
+  "file": "VER_021_12.png",
+  "figura": "77/S",
+  "nome": "parcheggio freccia dritto",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P ↑ FIGURA 77/S"
+ },
+ {
+  "file": "VER_021_13.png",
+  "figura": "35/A",
+  "nome": "entrare e uscire adagio",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "entrare uscire e adagio FIGURA 35/A"
+ },
+ {
+  "file": "VER_021_14.png",
+  "figura": "35/B",
+  "nome": "attenzione caduta neve dal tetto",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "attenzione caduta neve dal tetto FIGURA 35/B"
+ },
+ {
+  "file": "VER_021_15.png",
+  "figura": "35/C",
+  "nome": "attenzione struttura pericolante",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "attenzione struttura pericolante FIGURA 35/C"
+ },
+ {
+  "file": "VER_021_16.png",
+  "figura": "75/A",
+  "nome": "divieto di fermata lasciare libero il passaggio",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "divieto di fermata lasciare libero il passaggio FIGURA 75/A"
+ },
+ {
+  "file": "VER_021_17.png",
+  "figura": "74/A",
+  "nome": "sosta consentita solo per carico e scarico",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "sosta consentita solo per carico e scarico FIGURA 74/A"
+ },
+ {
+  "file": "VER_021_18.png",
+  "figura": "74/B",
+  "nome": "sosta vietata",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "sosta vietata FIGURA 74/B"
+ },
+ {
+  "file": "VER_021_19.png",
+  "figura": "78",
+  "nome": "passo carrabile",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "passo carrabile FIGURA 78"
+ },
+ {
+  "file": "VER_021_20.png",
+  "figura": "74/E",
+  "nome": "passo carrabile",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "passo carrabile FIGURA 74/E"
+ },
+ {
+  "file": "VER_021_21.png",
+  "figura": "74/F",
+  "nome": "divieto di sosta fuori dagli spazi delimitati",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "divieto di sosta fuori dagli spazi delimitati FIGURA 74/F"
+ },
+ {
+  "file": "VER_021_22.png",
+  "figura": "74/G",
+  "nome": "proprietà privata lasciare libero il passaggio",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "proprieta privata lasciare libero il passaggio FIGURA 74/G"
+ },
+ {
+  "file": "VER_021_23.png",
+  "figura": "74/H",
+  "nome": "proprietà privata divieto di sosta",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "proprieta privata divieto di sosta FIGURA 74/H"
+ },
+ {
+  "file": "VER_021_24.png",
+  "figura": "47/A",
+  "nome": "proprietà privata vietato l'accesso alle persone non autorizzate",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "proprieta privata vietato l'accesso alle persone non autorizzate FIGURA 47/A"
+ },
+ {
+  "file": "VER_021_25.png",
+  "figura": "47/B",
+  "nome": "vietato l'accesso ai mezzi non autorizzati",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "vietato l'accesso ai mezzi non autorizzati FIGURA 47/B"
+ },
+ {
+  "file": "VER_021_26.png",
+  "figura": "47/C",
+  "nome": "proprietà privata vietato l'accesso",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "proprieta privata vietato l'accesso FIGURA 47/C"
+ },
+ {
+  "file": "VER_021_27.png",
+  "figura": "47/D",
+  "nome": "strada privata vietato l'accesso",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "strada privata vietato l'accesso FIGURA 47/D"
+ },
+ {
+  "file": "VER_021_28.png",
+  "figura": "47/E",
+  "nome": "vietato l'accesso",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "vietato l'accesso FIGURA 47/E"
+ },
+ {
+  "file": "VER_021_29.png",
+  "figura": "37/A",
+  "nome": "vietato l'ingresso agli estranei al condominio",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "STOP vietato l'ingresso agli  estranei al condominio FIGURA 37/A"
+ },
+ {
+  "file": "VER_029_01.png",
+  "figura": "248",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "个 A1 SS FIGURA 248"
+ },
+ {
+  "file": "VER_029_02.png",
+  "figura": "294",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "zona pedonale molo turistico zona archeologica camping pineta mare FIGURA 294"
+ },
+ {
+  "file": "VER_029_03.png",
+  "figura": "296",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "zona industriale FIGURA 296"
+ },
+ {
+  "file": "VER_029_04.png",
+  "figura": "297",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "个口 个口 FIGURA 297"
+ },
+ {
+  "file": "VER_030_01.png",
+  "figura": "249",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "249"
+ },
+ {
+  "file": "VER_031_01.png",
+  "figura": "257",
+  "nome": "autostrada (A1)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A1 FIGURA 257"
+ },
+ {
+  "file": "VER_031_02.png",
+  "figura": "256",
+  "nome": "itinerario europeo (E45)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E 45 FIGURA 256"
+ },
+ {
+  "file": "VER_031_03.png",
+  "figura": "258",
+  "nome": "strada statale (SS2)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "SS 2 FIGURA 258"
+ },
+ {
+  "file": "VER_031_04.png",
+  "figura": "259",
+  "nome": "strada provinciale (SP37)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "SP 37 FIGURA 259"
+ },
+ {
+  "file": "VER_031_05.png",
+  "figura": "260",
+  "nome": "strada comunale (SC19)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "SC 19 FIGURA 260"
+ },
+ {
+  "file": "VER_032_04.png",
+  "figura": "269",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A 1 FIGURA 269"
+ },
+ {
+  "file": "VER_032_05.png",
+  "figura": "270",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "SC 19 SS 2 FIGURA 270"
+ },
+ {
+  "file": "VER_032_07.png",
+  "figura": "273",
+  "nome": "segnale di inizio localita' (nome localita')",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA TARANTO 273"
+ },
+ {
+  "file": "VER_032_08.png",
+  "figura": "274",
+  "nome": "segnale di fine localita' (nome localita' barrato)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "TARANTO FIGURA 274"
+ },
+ {
+  "file": "VER_032_01.png",
+  "figura": "266",
+  "nome": "cippo chilometrico strada statale",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "266 - 267 - 268"
+ },
+ {
+  "file": "VER_033_01.png",
+  "figura": "272",
+  "nome": "preavviso di uscita",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "uscita FROSINONE CECCANO - PRIVERNO Circeo TERRACINA FERENTINO - ALATRI Campocat"
+ },
+ {
+  "file": "VER_033_02.png",
+  "figura": "274",
+  "nome": "segnale di conferma (localita' e distanze)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "MONTECOMPATRI S. CeSarEO 7 FROSINONE 63 NAPOLI 190 FIGURA 274"
+ },
+ {
+  "file": "VER_033_03.png",
+  "figura": "275",
+  "nome": "confine di regione",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "PIEMONTE LOMBARDIA FIGURA 275"
+ },
+ {
+  "file": "VER_033_04.png",
+  "figura": "276",
+  "nome": "confine di provincia",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "POTENZA MATERA FIGURA 276"
+ },
+ {
+  "file": "VER_033_05.png",
+  "figura": "277",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 277"
+ },
+ {
+  "file": "VER_033_06.png",
+  "figura": "278",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 278"
+ },
+ {
+  "file": "VER_033_07.png",
+  "figura": "279",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "W FIGURA 279"
+ },
+ {
+  "file": "VER_033_08.png",
+  "figura": "280",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 280"
+ },
+ {
+  "file": "VER_033_09.png",
+  "figura": "281",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "i FIGURA 281"
+ },
+ {
+  "file": "VER_033_10.png",
+  "figura": "282",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 282"
+ },
+ {
+  "file": "VER_033_11.png",
+  "figura": "283",
+  "nome": "stemma comunale",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "STEMMA COMUNALE FIGURA 283"
+ },
+ {
+  "file": "VER_033_12.png",
+  "figura": "284",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 284"
+ },
+ {
+  "file": "VER_033_13.png",
+  "figura": "285",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "MILANO 180 BOLOGNA 285 FIRENZE 472 FIGURA 285"
+ },
+ {
+  "file": "VER_033_14.png",
+  "figura": "286",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A1 FIGURA 286"
+ },
+ {
+  "file": "VER_033_15.png",
+  "figura": "A",
+  "nome": "strada soggetta a controllo elettronico della velocita'",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A strada soggetta a controllo elettronico della velocita Art.4 Legge 1Ag0sto2002"
+ },
+ {
+  "file": "VER_033_16.png",
+  "figura": "B",
+  "nome": "velocita' controllata elettronicamente - polizia municipale",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B Comune di POLIZIA MUNICIPALE VELOCITA'CONTROLLATA ELETTRONICAMENTE"
+ },
+ {
+  "file": "VER_033_17.png",
+  "figura": "C",
+  "nome": "area soggetta a videosorveglianza",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C L&registrazione e'effettu8ta per finl dl slcurezza da NOME AZIENDA D.Lgs.196/2"
+ },
+ {
+  "file": "VER_034_04.png",
+  "figura": "292",
+  "nome": "targa scatolata con attacchi saldati sul retro per fissaggio al palo",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "via Archimede 207-114 FIGURA292 TARGASCATOLATACONATTACCHISALDATI SULRETROPERFISS"
+ },
+ {
+  "file": "VER_034_03.png",
+  "figura": "292",
+  "nome": "targa piana + fori per fissaggio a parete o al palo a bandiera",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "292 PIANA"
+ },
+ {
+  "file": "VER_034_05.png",
+  "figura": "292",
+  "nome": "targa estruso completa di tappo di chiusura - staffone Ø 48-60 + kit bulloneria",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "292 ESTRUSO"
+ },
+ {
+  "file": "VER_035_01.png",
+  "figura": "298",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "298"
+ },
+ {
+  "file": "VER_035_02.png",
+  "figura": "299",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "299"
+ },
+ {
+  "file": "VER_035_03.png",
+  "figura": "300",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "300"
+ },
+ {
+  "file": "VER_035_04.png",
+  "figura": "301",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "301"
+ },
+ {
+  "file": "VER_036_02.png",
+  "figura": "302",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "+ FIGURA 302"
+ },
+ {
+  "file": "VER_036_03.png",
+  "figura": "303",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 303"
+ },
+ {
+  "file": "VER_036_04.png",
+  "figura": "304",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 304"
+ },
+ {
+  "file": "VER_036_06.png",
+  "figura": "306",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 306"
+ },
+ {
+  "file": "VER_036_07.png",
+  "figura": "307",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "M FIGURA 307"
+ },
+ {
+  "file": "VER_036_08.png",
+  "figura": "308",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "大 FIGURA 308"
+ },
+ {
+  "file": "VER_036_09.png",
+  "figura": "309",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 309"
+ },
+ {
+  "file": "VER_036_14.png",
+  "figura": "314",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 314"
+ },
+ {
+  "file": "VER_036_15.png",
+  "figura": "315",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 315"
+ },
+ {
+  "file": "VER_036_16.png",
+  "figura": "316",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 316"
+ },
+ {
+  "file": "VER_036_18.png",
+  "figura": "318",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "口 不元 FIGURA 318"
+ },
+ {
+  "file": "VER_036_19.png",
+  "figura": "319",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 319"
+ },
+ {
+  "file": "VER_036_20.png",
+  "figura": "320",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "area pedonale FIGURA 320"
+ },
+ {
+  "file": "VER_036_21.png",
+  "figura": "321",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "area pedonale FIGURA 321"
+ },
+ {
+  "file": "VER_036_24.png",
+  "figura": "323/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "zona 30 FIGURA 323/A"
+ },
+ {
+  "file": "VER_036_25.png",
+  "figura": "323/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "zona FIGURA 323/B"
+ },
+ {
+  "file": "VER_036_27.png",
+  "figura": "320/P",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "occetto: kkousirtiesnd iprxe imdite Tgli cel faoce （skiorg6g） 24.00-03. -ntrmobr"
+ },
+ {
+  "file": "VER_036_22.png",
+  "figura": "322/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "chvleto d tanrito ac \"talicolee dfli 'naxwkoi o mlesral cccvtte wa erati  ors di"
+ },
+ {
+  "file": "VER_036_31.png",
+  "figura": "327",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 327"
+ },
+ {
+  "file": "VER_036_29.png",
+  "figura": "322/A/P",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "320/P - 322/A/P PANNELLO INTEGRATIVO"
+ },
+ {
+  "file": "VER_036_28.png",
+  "figura": "325",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "325 - 326"
+ },
+ {
+  "file": "VER_037_02.png",
+  "figura": "329",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "soS FIGURA 329"
+ },
+ {
+  "file": "VER_037_03.png",
+  "figura": "330",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "STELVIO FIGURA 330"
+ },
+ {
+  "file": "VER_037_04.png",
+  "figura": "A",
+  "nome": "obbligo di pneumatici invernali o catene a bordo",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A N.B.:DATEE NOMISTRADA obbligodi COMPRESI pneumatici obbligodi obbligodi NELPRE"
+ },
+ {
+  "file": "VER_037_05.png",
+  "figura": "331",
+  "nome": "aperto / ouvert / open / geöffnet",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "aperto ouvert open geoffnet FIGURA 331"
+ },
+ {
+  "file": "VER_037_06.png",
+  "figura": "332",
+  "nome": "aperto / ouvert / open / geöffnet (con catene)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "aperto ouvert open geoffnet FIGURA 332"
+ },
+ {
+  "file": "VER_037_07.png",
+  "figura": "333",
+  "nome": "aperto / ouvert / open / geöffnet (con pneumatici invernali)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "aperto ouvert open geoffnet FIGURA 333"
+ },
+ {
+  "file": "VER_037_08.png",
+  "figura": "334",
+  "nome": "chiuso / fermé / closed / geschlossen",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "chiuso ferme closed geschlossen FIGURA 334"
+ },
+ {
+  "file": "VER_037_09.png",
+  "figura": "335",
+  "nome": "chiuso / fermé / closed / geschlossen (con catene)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "chiuso ferme closed geschlossen FIGURA finoa jusqu'a' asfar as bis nach 335 TRAF"
+ },
+ {
+  "file": "VER_037_10.png",
+  "figura": "336",
+  "nome": "chiuso / fermé / closed / geschlossen (con pneumatici invernali)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "chiuso ferme closed geschlossen FIGURA finoa jusqu'a' as faras bis nach 336 TRAF"
+ },
+ {
+  "file": "VER_037_01.png",
+  "figura": "328",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "328-329"
+ },
+ {
+  "file": "VER_038_01.png",
+  "figura": "345",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 345"
+ },
+ {
+  "file": "VER_038_02.png",
+  "figura": "346",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "I FIGURA 346"
+ },
+ {
+  "file": "VER_038_04.png",
+  "figura": "352",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "ITALIA 50 90 110 130 FIGURA 352"
+ },
+ {
+  "file": "VER_038_05.png",
+  "figura": "348",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 348"
+ },
+ {
+  "file": "VER_038_06.png",
+  "figura": "349",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "T FIGURA 349"
+ },
+ {
+  "file": "VER_038_07.png",
+  "figura": "350",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 350"
+ },
+ {
+  "file": "VER_038_08.png",
+  "figura": "351",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 351"
+ },
+ {
+  "file": "VER_038_03.png",
+  "figura": "347",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "347"
+ },
+ {
+  "file": "VER_039_02.png",
+  "figura": "354",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 354"
+ },
+ {
+  "file": "VER_039_03.png",
+  "figura": "355",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 355"
+ },
+ {
+  "file": "VER_039_04.png",
+  "figura": "356",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 356"
+ },
+ {
+  "file": "VER_039_06.png",
+  "figura": "358",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 358"
+ },
+ {
+  "file": "VER_039_09.png",
+  "figura": "361",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "季 FIGURA 361"
+ },
+ {
+  "file": "VER_039_10.png",
+  "figura": "362",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 362"
+ },
+ {
+  "file": "VER_039_11.png",
+  "figura": "363",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 363"
+ },
+ {
+  "file": "VER_039_12.png",
+  "figura": "364",
+  "nome": "radio kHz 900 RAI onda verde",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "radio kHz 900 RAI onda verde FIGURA 364"
+ },
+ {
+  "file": "VER_039_13.png",
+  "figura": "365",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 365"
+ },
+ {
+  "file": "VER_039_14.png",
+  "figura": "366",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "n FIGURA 366"
+ },
+ {
+  "file": "VER_039_16.png",
+  "figura": "368",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P 8 45 FIGURA 368"
+ },
+ {
+  "file": "VER_039_17.png",
+  "figura": "369",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P 3 51 66 FIGURA 369"
+ },
+ {
+  "file": "VER_039_18.png",
+  "figura": "370",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P 2 FIGURA 370"
+ },
+ {
+  "file": "VER_039_20.png",
+  "figura": "372",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 372"
+ },
+ {
+  "file": "VER_039_21.png",
+  "figura": "373",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 373"
+ },
+ {
+  "file": "VER_039_22.png",
+  "figura": "374",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 374"
+ },
+ {
+  "file": "VER_039_26.png",
+  "figura": "378",
+  "nome": "polizia stradale",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "POLIZIA STRADALE localita indirizzo telefoni pronto intervento FIGURA 378"
+ },
+ {
+  "file": "VER_039_27.png",
+  "figura": "379",
+  "nome": "polizia di stato",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "POLIZIA A DI STATO localita indirizzo telefoni pronto intervento FIGURA 379"
+ },
+ {
+  "file": "VER_039_28.png",
+  "figura": "380",
+  "nome": "carabinieri",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "CARABINIERI localita indirizzo telefoni pronto intervento FIGURA 380"
+ },
+ {
+  "file": "VER_039_29.png",
+  "figura": "381",
+  "nome": "guardia di finanza",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "GUARDIA di FINANZA localita indirizzo telefoni pronto intervento FIGURA 381"
+ },
+ {
+  "file": "VER_039_01.png",
+  "figura": "353",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "DA FIG. 353 A FIG. 377 COMPRESA"
+ },
+ {
+  "file": "VER_039_23.png",
+  "figura": "375",
+  "nome": "taxi",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "375"
+ },
+ {
+  "file": "VER_039_25.png",
+  "figura": "376",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "376"
+ },
+ {
+  "file": "VER_041_01.png",
+  "figura": "262",
+  "nome": "A - cippo ettometrico bifacciale rivettato (alluminio 10/10 con telaio zincato)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.935,
+  "ocr": "A 25 cm VI!I IX 25cm 24 1 100cm CIPPOETTOMETRICOBIFACCIALERIVETTATO (ALLUMINI010"
+ },
+ {
+  "file": "VER_041_02.png",
+  "figura": "262",
+  "nome": "B - cippo ettometrico bifacciale scatolato (alluminio 10/10 completo di paletto in canna rettangolare da 15x35 zincato)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.94,
+  "ocr": "B 20 cm-25cm VIlI 20cm-25cm IX 24 150 cm CIPPOETTOMETRICOBIFACCIALESCATOLATO (AL"
+ },
+ {
+  "file": "VER_041_03.png",
+  "figura": "262",
+  "nome": "C - cippo ettometrico bifacciale con attacco al guard-rails (alluminio 10/10 con telaio zincato)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.938,
+  "ocr": "C 25cm VIlI IX 25cm 24 1 80 cm CIPPOETTOMETRICOBIFACCIALE CONATTACCOALGUARD-RAIL"
+ },
+ {
+  "file": "VER_041_04.png",
+  "figura": "262",
+  "nome": "D - cippo ettometrico con attacco per new jersey",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.963,
+  "ocr": "D IX 1 CIPPOETTOMETRICO CONATTACCOPERNEWJERSEY"
+ },
+ {
+  "file": "VER_041_05.png",
+  "figura": "262",
+  "nome": "E - cippo ettometrico con attacco per guard-rails, morsetto compreso",
+  "confidenza": "media",
+  "scarto": false,
+  "score_ocr": 0.789,
+  "ocr": "E VIII VIII 1 CIPPOETTOMETRICO CONATTACCOPERGUARD-RAILS ESEMPIODI MORSETTOCOMPRE"
+ },
+ {
+  "file": "VER_043_01.png",
+  "figura": "A",
+  "nome": "alt",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "ALT"
+ },
+ {
+  "file": "VER_043_03.png",
+  "figura": "B",
+  "nome": "area videosorvegliata D.Lgs. 30-06-2003, n. 196",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B AREAVIDEOSORVEGLIATA D.Lgs. 30-06-2003, n.196 la rilevazione o la registrazion"
+ },
+ {
+  "file": "VER_045_05.png",
+  "figura": "A",
+  "nome": "in canna quadra da 25 completo di flangia per fissaggio al cordolo in cemento",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A 100 FLANGIA DA15x15 INCANNAQUADRADA25COMPLETODIFLANGIA PERFISSAGGIOALCORDOLOIN"
+ },
+ {
+  "file": "VER_045_06.png",
+  "figura": "B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B 125"
+ },
+ {
+  "file": "VER_045_07.png",
+  "figura": "C",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C 100"
+ },
+ {
+  "file": "VER_045_08.png",
+  "figura": "D",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D 110"
+ },
+ {
+  "file": "VER_045_09.png",
+  "figura": "E",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E 140"
+ },
+ {
+  "file": "VER_045_01.png",
+  "figura": "II 464",
+  "nome": "senza paletto",
+  "confidenza": "media",
+  "scarto": false,
+  "score_ocr": 0.554,
+  "ocr": "DELINEAT0REPERGALLERIAALLUMINI015/10-20X80CM RIVETTATOPREDISPOSTOPERPALETTOCANNA"
+ },
+ {
+  "file": "VER_046_02.png",
+  "figura": "B",
+  "nome": "base di ancoraggio del delineatore",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B BASEDIANCORAGGIODELDELINEATORE"
+ },
+ {
+  "file": "VER_046_04.png",
+  "figura": "D",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D BORDO FORI ORLATO PREPUNZONATI SISTEMA OTTICO DIAMONDGRADE SUPPORTOINALLUMINIO"
+ },
+ {
+  "file": "VER_046_05.png",
+  "figura": "E",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E"
+ },
+ {
+  "file": "VER_046_06.png",
+  "figura": "F",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F"
+ },
+ {
+  "file": "VER_046_01.png",
+  "figura": "A",
+  "nome": "figura II 463 (sinistro / destro)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "VER_046_03.png",
+  "figura": "C",
+  "nome": "figura II 465",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C"
+ },
+ {
+  "file": "VER_047_04.png",
+  "figura": "468 GF",
+  "nome": "giallo fluororifrangente DG",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 468GF GIALLO FLUORORIFRANGENTE DG"
+ },
+ {
+  "file": "VER_047_05.png",
+  "figura": "A",
+  "nome": "esempio di montaggio",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A ESEMPIODIMONTAGGIO"
+ },
+ {
+  "file": "VER_047_01.png",
+  "figura": "II 466 ART. 174",
+  "nome": "delineatori di curva stretta o di tornante: segnala la presenza di una curva stretta permanente, ovvero di un tornante, e indica la direzione da seguire",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "466 467"
+ },
+ {
+  "file": "VER_047_03.png",
+  "figura": "II 468 ART. 174",
+  "nome": "delineatori modulari di curva: sono installati in serie di più elementi lungo il lato esterno di curve stradali ed autostradali per migliorare la visibilità dell'andamento della strada a distanza",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "468"
+ },
+ {
+  "file": "VER_047_06.png",
+  "figura": "466",
+  "nome": "targa flessibile - figura 466",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 466"
+ },
+ {
+  "file": "VER_047_02.png",
+  "figura": "II 467 ART. 174",
+  "nome": "delineatore per intersezione a \"T\": è installato di fronte al ramo della intersezione che non prosegue ed indica la necessità di svoltare a destra o a sinistra",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 467"
+ },
+ {
+  "file": "VER_047_07.png",
+  "figura": "467",
+  "nome": "targa flessibile - figura 467",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "466 467"
+ },
+ {
+  "file": "VER_048_03.png",
+  "figura": "II 469 ART. 178",
+  "nome": "delineatori di accesso (dimensioni in centimetri): individuano i lati degli accessi stradali secondari non altrimenti presegnalati, e quelli che, per loro ubicazione risultano difficilmente individuabili",
+  "confidenza": "media",
+  "scarto": false,
+  "score_ocr": 0.855,
+  "ocr": "DIMENSIONE"
+ },
+ {
+  "file": "VER_048_02.png",
+  "figura": "467",
+  "nome": "targa flessibile con bretelle ripiegabili - figura 467",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "466 467"
+ },
+ {
+  "file": "VER_049_01.png",
+  "figura": "A",
+  "nome": "C - targa inizio cantiere",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "VER_049_02.png",
+  "figura": "B",
+  "nome": "C barrata - targa fine cantiere",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B"
+ },
+ {
+  "file": "VER_049_03.png",
+  "figura": "C",
+  "nome": "F - targa fischio protezione squadre di lavoro",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C E"
+ },
+ {
+  "file": "VER_049_04.png",
+  "figura": "D",
+  "nome": "S - targa per protezione squadre di lavoro",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D"
+ },
+ {
+  "file": "VER_049_06.png",
+  "figura": "Q",
+  "nome": "paletto di sostegno",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "Q"
+ },
+ {
+  "file": "VER_049_07.png",
+  "figura": "E",
+  "nome": "Z - zona ricovero",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E ZONA RICOVERO"
+ },
+ {
+  "file": "VER_049_08.png",
+  "figura": "F",
+  "nome": "D - targa individuazione binario dispari",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F D"
+ },
+ {
+  "file": "VER_049_09.png",
+  "figura": "G",
+  "nome": "P - targa individuazione binario pari",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G P"
+ },
+ {
+  "file": "VER_049_10.png",
+  "figura": "H",
+  "nome": "PL - vela triangolare di attenzione",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H PL"
+ },
+ {
+  "file": "VER_049_11.png",
+  "figura": "L",
+  "nome": "croce di s. andrea su tabella",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "L"
+ },
+ {
+  "file": "VER_049_12.png",
+  "figura": "M",
+  "nome": "area ferroviaria - vietato l'accesso alle persone non autorizzate",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "M RF! REYEFSRROARATALMAM ORUPPOTERROVIEDELLOSTATOITALIANE Area Ferroviaria Vieta"
+ },
+ {
+  "file": "VER_049_13.png",
+  "figura": "N",
+  "nome": "railway area - no entry to unathorised persons",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "N RFI PSTLAERRGVIARIAALANA Railway Area No entry to unathorised persons Offender"
+ },
+ {
+  "file": "VER_049_15.png",
+  "figura": "P",
+  "nome": "targa passaggio a livello + progressiva chilometrica",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P RFI Arca Ferroviaria Passaggio a Livello (PL) km XXX+YYY Linea1Xxox-xXxX SoLo "
+ },
+ {
+  "file": "VER_049_05.png",
+  "figura": "I",
+  "nome": "croce di s. andrea doppia su tabella",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.964,
+  "ocr": "CROCE S. ANDREA DOPPIA SU TABELLA"
+ },
+ {
+  "file": "VER_049_14.png",
+  "figura": "O",
+  "nome": "denominazione linea + progressiva chilometrica",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "DENOMINAZIONE LINEA + PROGRESSIVA CHILOMETRICA"
+ },
+ {
+  "file": "VER_050_01.png",
+  "figura": "A",
+  "nome": "tavola di orientamento distanz. 2^ categoria",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "VER_050_02.png",
+  "figura": "B",
+  "nome": "tavola di orientamento distanz. di avviso",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B"
+ },
+ {
+  "file": "VER_050_04.png",
+  "figura": "D",
+  "nome": "adesivo per barriere passaggio a livello",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D"
+ },
+ {
+  "file": "VER_050_05.png",
+  "figura": "E",
+  "nome": "tavola di orientamento per segnale p.l.",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E"
+ },
+ {
+  "file": "VER_050_06.png",
+  "figura": "F",
+  "nome": "palo tubolare verniciato grigio nebbia + fasce nere e bianche",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F"
+ },
+ {
+  "file": "VER_051_01.png",
+  "figura": "A",
+  "nome": "segnale di limitazione velocità km 30",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "VER_051_03.png",
+  "figura": "C",
+  "nome": "vela per segnale di attenzione",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C"
+ },
+ {
+  "file": "VER_051_04.png",
+  "figura": "D",
+  "nome": "segnale di avviso di rallentamento in linea",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D O C"
+ },
+ {
+  "file": "VER_051_05.png",
+  "figura": "E",
+  "nome": "vela per segnale fine rallentamento in linea",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E O"
+ },
+ {
+  "file": "VER_051_06.png",
+  "figura": "F",
+  "nome": "vela per segnale inizio rallentamento in linea",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F"
+ },
+ {
+  "file": "VER_051_08.png",
+  "figura": "N",
+  "nome": "attenzione al sezionamento",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "N ATTENZIONE AL SEZIONAMENTO"
+ },
+ {
+  "file": "VER_051_10.png",
+  "figura": "G",
+  "nome": "vela rettangolare per p.l. lato treno",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G ■"
+ },
+ {
+  "file": "VER_051_09.png",
+  "figura": "O",
+  "nome": "attenzione alle discese di alimentazione",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.986,
+  "ocr": "0 ATTENZIONEALLEDISCESE DIALIMENTAZIONE"
+ },
+ {
+  "file": "VER_051_12.png",
+  "figura": "M",
+  "nome": "segnale di visibilità per cippo kilometrico in linea",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "M"
+ },
+ {
+  "file": "VER_051_13.png",
+  "figura": "L",
+  "nome": "segnale sussidiario per segnali di blocco",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "L km 273+000 245 XPL"
+ },
+ {
+  "file": "VER_051_14.png",
+  "figura": "P",
+  "nome": "sezionamento",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P SEZIONAMENTO"
+ },
+ {
+  "file": "VER_051_02.png",
+  "figura": "B",
+  "nome": "segnale di limitazione velocità km 60",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.984,
+  "ocr": "SEGNALE DI LIMITAZIONE VELOCITA KM 60"
+ },
+ {
+  "file": "VER_051_07.png",
+  "figura": "I",
+  "nome": "segnale sussidiario per segnali di blocco",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "SEGNALE SUSSIDIARIO PER SEGNALI DI BLOCCO"
+ },
+ {
+  "file": "VER_051_11.png",
+  "figura": "H",
+  "nome": "segnale sussidiario per segnali di blocco",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "SEGNALE SUSSIDIARIO PER SEGNALI DI BLOCCO"
+ },
+ {
+  "file": "VER_052_01.png",
+  "figura": "83",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 83"
+ },
+ {
+  "file": "VER_052_03.png",
+  "figura": "47",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 47"
+ },
+ {
+  "file": "VER_052_04.png",
+  "figura": "A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "VER_052_05.png",
+  "figura": "B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B"
+ },
+ {
+  "file": "VER_052_06.png",
+  "figura": "C",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C"
+ },
+ {
+  "file": "VER_052_07.png",
+  "figura": "D",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D"
+ },
+ {
+  "file": "VER_052_08.png",
+  "figura": "E",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E"
+ },
+ {
+  "file": "VER_052_09.png",
+  "figura": "F",
+  "nome": "ø 200 mm lampeggio singolo",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F 0 200 MM LAMPEGGIO SINGOLO"
+ },
+ {
+  "file": "VER_052_10.png",
+  "figura": "G",
+  "nome": "ø 300 mm lampeggio singolo",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G 0 300 MM LAMPEGGIO SINGOLO"
+ },
+ {
+  "file": "VER_052_11.png",
+  "figura": "H",
+  "nome": "ø 200 mm lampeggio alternato",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H 0 200 MM LAMPEGGIO ALTERNATO"
+ },
+ {
+  "file": "VER_052_12.png",
+  "figura": "I",
+  "nome": "ø 300 mm lampeggio alternato",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.979,
+  "ocr": "0 300 MM LAMPEGGIO ALTERNATO"
+ },
+ {
+  "file": "VER_052_02.png",
+  "figura": "80/A - 80/B - 80/C - 82/A - 82/B",
+  "nome": null,
+  "confidenza": "media",
+  "scarto": false,
+  "score_ocr": 0.609,
+  "ocr": "83 - 8 80/A - 8 80/B - 80/C 82/A - 82/B - 47"
+ },
+ {
+  "file": "VER_054_01.png",
+  "figura": "A",
+  "nome": "cartello di segnalazione linea in cavo AT a basso impatto visivo (UX LK11) - cavi alta tensione 220 000 V",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "VER_054_02.png",
+  "figura": "B",
+  "nome": "cartello di segnalazione linea in cavo MT a basso impatto visivo (UX LK14) - cavi media tensione 20 000 V",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B"
+ },
+ {
+  "file": "VER_055_01.png",
+  "figura": "A",
+  "nome": "targa di segnalazione sostegno (UX LS 196) - pericolo di morte / divieto di salita / alta tensione",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "VER_056_01.png",
+  "figura": "A",
+  "nome": "cartello di linea e picchetto per ispezione eliportata (LS 201)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A T.23.346A P.220/2A PARTICOLARE"
+ },
+ {
+  "file": "VER_056_02.png",
+  "figura": "C",
+  "nome": "staffa di ancoraggio per cartelli per ispezione eliportata (LS 203)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C"
+ },
+ {
+  "file": "ORI_003_02.png",
+  "figura": "B",
+  "nome": "macchina tracciatinee (foto prodotto)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B"
+ },
+ {
+  "file": "ORI_003_03.png",
+  "figura": "C",
+  "nome": "macchina tracciatinee (foto prodotto)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C"
+ },
+ {
+  "file": "ORI_003_04.png",
+  "figura": "D",
+  "nome": "pistola manuale - per segnaletica orizzontale",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D PER SEGNALETICA ORIZZONTALE"
+ },
+ {
+  "file": "ORI_003_05.png",
+  "figura": "E",
+  "nome": "minitraccialinee",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E"
+ },
+ {
+  "file": "ORI_003_07.png",
+  "figura": "G",
+  "nome": "arganetto avvolgicorda",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G G1"
+ },
+ {
+  "file": "ORI_003_12.png",
+  "figura": "M",
+  "nome": "canna per marcature",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "M"
+ },
+ {
+  "file": "ORI_003_13.png",
+  "figura": "N",
+  "nome": "canna per marcature con misuratore stradale incorporato",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "N CON MISURATORE STRADALE INCORPORATO"
+ },
+ {
+  "file": "ORI_003_09.png",
+  "figura": "H",
+  "nome": "bomboletta zincatura a freddo - galva procat",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H GALVA PROCAT"
+ },
+ {
+  "file": "ORI_003_11.png",
+  "figura": "L",
+  "nome": "bomboletta lubrificante multiuso - multi 500",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "L MULTI500 ggu edeudog Melftunkons-Poese Labrlcte mefare"
+ },
+ {
+  "file": "ORI_003_06.png",
+  "figura": "F / F1",
+  "nome": "bombolette vernice spray",
+  "confidenza": "media",
+  "scarto": false,
+  "score_ocr": 0.737,
+  "ocr": "BOMBOLETTAVERNICESPRAYPERUSOMANUALE"
+ },
+ {
+  "file": "ORI_004_01.png",
+  "figura": "II 441/A ART. 148",
+  "nome": "iscrizione di stop su strade di tipo A-B-C-D con V > 50 km/h",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A FIGURA II 441/A ART. 148 ISCRIZIONE DI STOP SU STRADE DI TIPO A-B-C-D C0N V > "
+ },
+ {
+  "file": "ORI_004_02.png",
+  "figura": "II 441/B ART. 148",
+  "nome": "iscrizione di stop su strade di tipo D-E-F con V ≤ 50 km/h",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B So FIGURA II 441/B ART. 148 ISCRIZIONE DI STOP SU STRADE DI TIPO D-E-F C0N V ≤"
+ },
+ {
+  "file": "ORI_004_03.png",
+  "figura": "II 441/C ART. 148",
+  "nome": "iscrizione di corsia riservata su strade di tipo A-B-C-D con V > 50 km/h",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 441/C ART. 148 ISCRIZIONE DI CORSIA RISERVATA SU STRADE DI TIPO A-B-C-"
+ },
+ {
+  "file": "ORI_004_04.png",
+  "figura": "II 441/D ART. 148",
+  "nome": "iscrizione di corsia riservata su strade di tipo D-E-F con V ≤ 50 km/h",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D FIGURA II 441/D ART. 148 ISCRIZIONE DI CORSIA RISERVATA SU STRADE DITIPO D-E-F"
+ },
+ {
+  "file": "ORI_005_01.png",
+  "figura": "II 442/B ART. 148",
+  "nome": "pista ciclabile",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A FIGURA II 442/B ART. 148 PISTA CICLABILE"
+ },
+ {
+  "file": "ORI_005_02.png",
+  "figura": "II 442/B ART. 148",
+  "nome": "pista ciclabile",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "DIMA PISTA CICLABILE"
+ },
+ {
+  "file": "ORI_009_03.png",
+  "figura": "C",
+  "nome": "laminato blu per parcheggi a pagamento non autoadesivo",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "COLORE"
+ },
+ {
+  "file": "ORI_009_01.png",
+  "figura": "A",
+  "nome": "kit bande sonore (rotolo supporto, rotolo dentello, avvivatore, fissapolvere)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "ORI_009_02.png",
+  "figura": "B",
+  "nome": "bobina tempoline - serie temporanea autoadesiva",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "BIANCO"
+ },
+ {
+  "file": "CAN_003_01.png",
+  "figura": "396",
+  "nome": "cono (schemi quotati h 354 / 540 / 780 mm)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "1200396CG0080 1200396CG0081"
+ },
+ {
+  "file": "CAN_003_02.png",
+  "figura": "397",
+  "nome": "delineatore (schemi quotati h 330 / 360 mm)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "1200396CG0090 1200396CG0091 FIG.396-C0N0AUT0STR 1200396CG0092 FIG397-DELINEAT0RE"
+ },
+ {
+  "file": "CAN_012_01.png",
+  "figura": "41",
+  "nome": "doppio senso di circolazione",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 41"
+ },
+ {
+  "file": "CAN_012_02.png",
+  "figura": "45",
+  "nome": "doppio senso di circolazione (pannello blu)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 45"
+ },
+ {
+  "file": "CAN_012_03.png",
+  "figura": "46",
+  "nome": "divieto di transito",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 46"
+ },
+ {
+  "file": "CAN_012_04.png",
+  "figura": "48",
+  "nome": "divieto di sorpasso",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 48"
+ },
+ {
+  "file": "CAN_012_05.png",
+  "figura": "50",
+  "nome": "limite massimo di velocità 30",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "30 FIGURA 50"
+ },
+ {
+  "file": "CAN_012_06.png",
+  "figura": "50",
+  "nome": "limite massimo di velocità 20",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "20 FIGURA 50"
+ },
+ {
+  "file": "CAN_012_07.png",
+  "figura": "50",
+  "nome": "limite massimo di velocità 10",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "10 FIGURA 50"
+ },
+ {
+  "file": "CAN_012_08.png",
+  "figura": "70",
+  "nome": "via libera / fine prescrizione",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 70"
+ },
+ {
+  "file": "CAN_012_09.png",
+  "figura": "82 GIREV.",
+  "nome": "direzione obbligatoria girevole",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 82 GIREV."
+ },
+ {
+  "file": "CAN_012_10.png",
+  "figura": "383",
+  "nome": "lavori",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 383"
+ },
+ {
+  "file": "CAN_012_12.png",
+  "figura": "385",
+  "nome": "strettoia asimmetrica a sinistra",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 385"
+ },
+ {
+  "file": "CAN_012_13.png",
+  "figura": "386",
+  "nome": "strettoia asimmetrica a destra",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 386"
+ },
+ {
+  "file": "CAN_012_16.png",
+  "figura": "389",
+  "nome": "strada deformata",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 389"
+ },
+ {
+  "file": "CAN_012_17.png",
+  "figura": "390",
+  "nome": "materiale instabile sulla strada",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 390"
+ },
+ {
+  "file": "CAN_012_18.png",
+  "figura": "404",
+  "nome": "semaforo",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 404"
+ },
+ {
+  "file": "CAN_012_14.png",
+  "figura": "387",
+  "nome": "doppio senso di circolazione",
+  "confidenza": "media",
+  "scarto": false,
+  "score_ocr": 0.633,
+  "ocr": "CODICE"
+ },
+ {
+  "file": "CAN_013_01.png",
+  "figura": "II 383 ART. 31",
+  "nome": "lavori",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II383ART. 31 LAVORI"
+ },
+ {
+  "file": "CAN_013_02.png",
+  "figura": "II 384 ART. 31",
+  "nome": "strettoia simmetrica",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II384 ART. 31 STRETTOIA SIMMETRICA"
+ },
+ {
+  "file": "CAN_013_03.png",
+  "figura": "II 385 ART. 31",
+  "nome": "strettoia asimmetrica a sinistra",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II385 ART. 31 STRETTOIAASIMMETRICA A SINISTRA"
+ },
+ {
+  "file": "CAN_013_04.png",
+  "figura": "II 386 ART. 31",
+  "nome": "strettoia asimmetrica a destra",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 386 ART. 31 STRETTOIAASIMMETRICA A DESTRA"
+ },
+ {
+  "file": "CAN_013_05.png",
+  "figura": "II 387 ART. 31",
+  "nome": "doppio senso di circolazione",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 387 ART. 31 DOPPIO SENSO DI CIRCOLAZIONE"
+ },
+ {
+  "file": "CAN_013_06.png",
+  "figura": "II 388 ART. 31",
+  "nome": "mezzi di lavoro in azione",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 388 ART. 31 MEZZI DI LAVORO IN AZIONE"
+ },
+ {
+  "file": "CAN_013_07.png",
+  "figura": "II 389 ART. 31",
+  "nome": "strada deformata",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II389ART.31 STRADA DEFORMATA"
+ },
+ {
+  "file": "CAN_013_08.png",
+  "figura": "II 390 ART. 31",
+  "nome": "materiale instabile sulla strada",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II390ART. 31 MATERIALEINSTABILE SULLA STRADA"
+ },
+ {
+  "file": "CAN_013_09.png",
+  "figura": "II 391 ART. 31",
+  "nome": "segni orizzontali in rifacimento",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II391 ART. 31 SEGNI ORIZZONTALIIN RIFACIMENTO"
+ },
+ {
+  "file": "CAN_013_10.png",
+  "figura": "II 391/A ART. 31",
+  "nome": "incidente",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 391/A ART. 31 INCIDENTE"
+ },
+ {
+  "file": "CAN_013_13.png",
+  "figura": "II 404 ART. 42",
+  "nome": "semaforo",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 404 ART. 42 SEMAFORO"
+ },
+ {
+  "file": "CAN_014_03.png",
+  "figura": "II 41 ART. 110",
+  "nome": "dare precedenza nei sensi unici alternati",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 41 ART. 110 DARE PRECEDENZA NEI SENSI UNICI ALTERNATI"
+ },
+ {
+  "file": "CAN_014_04.png",
+  "figura": "II 45 ART. 114",
+  "nome": "diritto di precedenza nei sensi unici alternati",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 45 ART. 114 DIRITTO DIPRECEDENZA NEI SENSI UNICI ALTERNATI"
+ },
+ {
+  "file": "CAN_014_05.png",
+  "figura": "II 46 ART. 116",
+  "nome": "divieto di transito",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II46 ART. 116 DIVIETODITRANSITO"
+ },
+ {
+  "file": "CAN_014_07.png",
+  "figura": "II 50 ART. 116",
+  "nome": "limite massimo di velocità (20)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "20 FIGURA II 50 ART. 116 LIMITE MASSIMO DI VELOCITA"
+ },
+ {
+  "file": "CAN_014_09.png",
+  "figura": "II 50 ART. 116",
+  "nome": "limite massimo di velocità (40)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "0 FIGURA II50 ART. 116 LIMITE MASSIMO DI VELOCITA"
+ },
+ {
+  "file": "CAN_014_10.png",
+  "figura": "II 50 ART. 116",
+  "nome": "limite massimo di velocità (50)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "50 FIGURA II 50 ART. 116 LIMITE MASSIMO DI VELOCITA"
+ },
+ {
+  "file": "CAN_014_11.png",
+  "figura": "II 50 ART. 116",
+  "nome": "limite massimo di velocità (60)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "60 FIGURA II 50 ART. 116 LIMITE MASSIMO DI VELOCITA"
+ },
+ {
+  "file": "CAN_014_12.png",
+  "figura": "II 50 ART. 116",
+  "nome": "limite massimo di velocità (80)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "80 FIGURA II50 ART. 116 LIMITE MASSIMO DI VELOCITA"
+ },
+ {
+  "file": "CAN_014_13.png",
+  "figura": "II 52 ART. 117",
+  "nome": "divieto di sorpasso per veicoli di massa a pieno carico superiore a 3,5 t",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II52ART. 117 DIVIETO DISORPASSO PERVEICOLI DI MASSA A PIENO CARICO SUPERI"
+ },
+ {
+  "file": "CAN_014_14.png",
+  "figura": "II 60/A ART. 117",
+  "nome": "transito vietato ai veicoli di massa a pieno carico superiore a 3,5 t",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 60/A ART. 117 TRANSITOVIETATO AIVEICOLIDIMASSA A PIENO CARICO SUPERI0R"
+ },
+ {
+  "file": "CAN_014_15.png",
+  "figura": "II 60/B ART. 117",
+  "nome": "transito vietato ai veicoli di massa a pieno carico superiore a .... tonnellate",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "6,5 t FIGURA II 60/B ART. 117 TRANSITO VIETATO AIVEICOLIDIMASSA A PIENO CARICO S"
+ },
+ {
+  "file": "CAN_014_16.png",
+  "figura": "II 61 ART. 117",
+  "nome": "transito vietato ai veicoli a motore trainanti un rimorchio",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II61 ART.117 TRANSITOVIETATO AI VEICOLI A MOTORETRAINANTI UN RIMORCHIO"
+ },
+ {
+  "file": "CAN_014_17.png",
+  "figura": "II 65 ART. 118",
+  "nome": "transito vietato ai veicoli aventi larghezza superiore a .... metri",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "2 m 30 FIGURA II 65 ART. 118 TRANSITO VIETATO AIVEICOLI AVENTILARGHEZZA SUPERIOR"
+ },
+ {
+  "file": "CAN_014_18.png",
+  "figura": "II 66 ART. 118",
+  "nome": "transito vietato ai veicoli aventi totale altezza superiore a .... metri",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "3 m 50 FIGURA II 66 ART. 118 TRANSITOVIETATO AI VEICOLI AVENTITOTALEALTEZZA SUPE"
+ },
+ {
+  "file": "CAN_014_19.png",
+  "figura": "II 67 ART. 118",
+  "nome": "transito vietato ai veicoli, o complessi di veicoli, aventi lunghezza superiore a .... metri",
+  "confidenza": "media",
+  "scarto": false,
+  "score_ocr": 0.878,
+  "ocr": "10 m FIGURA II 67 ART. 118 TRANSITOVIETATO AI VEICOLI, 0 COMPLESSIDIVEICOL!, AVE"
+ },
+ {
+  "file": "CAN_014_20.png",
+  "figura": "II 68 ART. 118",
+  "nome": "transito vietato ai veicoli aventi una massa superiore a .... tonnellate",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "t 00 FIGURA II 68 ART. 118 TRANSITOVIETATO AIVEICOLIAVENTI UNA MASSA SUPERIORE A"
+ },
+ {
+  "file": "CAN_014_21.png",
+  "figura": "II 69 ART. 118",
+  "nome": "transito vietato ai veicoli aventi massa per asse superiore a .... tonnellate",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "+ 6.5 FIGURA II 69 ART. 118 TRANSITO VIETATO AIVEICOLIAVENTI MASSA PER ASSE SUPE"
+ },
+ {
+  "file": "CAN_015_02.png",
+  "figura": "II 80/B ART. 122",
+  "nome": "direzione obbligatoria a sinistra",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 80/B ART. 122 DIREZIONE OBBLIGATORIA A SINISTRA"
+ },
+ {
+  "file": "CAN_015_04.png",
+  "figura": "II 80/D ART. 122",
+  "nome": "preavviso di direzione obbligatoria a destra",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 80/D ART. 122 PREAVVISO DI DIREZIONE OBBLIGATORIAADESTRA"
+ },
+ {
+  "file": "CAN_015_05.png",
+  "figura": "II 80/E ART. 122",
+  "nome": "preavviso di direzione obbligatoria a sinistra",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 80/E ART. 122 PREAVVISO DIDIREZIONE OBBLIGATORIAASINISTRA"
+ },
+ {
+  "file": "CAN_015_06.png",
+  "figura": "II 80/F ART. 122",
+  "nome": "preavviso di direzione obbligatoria a destra",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "uscita obbligatoria ORTE FIGURA II 80/F ART. 122 PREAVVISO DI DIREZIONE OBBLIGAT"
+ },
+ {
+  "file": "CAN_015_07.png",
+  "figura": "II 81/A ART. 122",
+  "nome": "direzioni consentite destra e sinistra",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 81/A ART. 122 DIREZIONI CONSENTITE DESTRA ESINISTRA"
+ },
+ {
+  "file": "CAN_015_09.png",
+  "figura": "II 82/B ART. 122",
+  "nome": "passaggio obbligatorio a destra",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 82/B ART. 122 PASSAGGIO OBBLIGATORIO A DESTRA"
+ },
+ {
+  "file": "CAN_015_11.png",
+  "figura": "II 70 ART. 119",
+  "nome": "via libera",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 70 ART. 119 VIA LIBERA"
+ },
+ {
+  "file": "CAN_015_12.png",
+  "figura": "II 71 ART. 119",
+  "nome": "fine limitazione di velocità (20)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "2 FIGURA II 71 ART. 119 FINE LIMITAZIONE DI VELOCITA"
+ },
+ {
+  "file": "CAN_015_13.png",
+  "figura": "II 71 ART. 119",
+  "nome": "fine limitazione di velocità (30)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "3 FIGURA II 71 ART. 119 FINE LIMITAZIONE DI VELOCITA"
+ },
+ {
+  "file": "CAN_015_14.png",
+  "figura": "II 71 ART. 119",
+  "nome": "fine limitazione di velocità (40)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 71 ART. 119 FINE LIMITAZIONE DI VELOCITA"
+ },
+ {
+  "file": "CAN_015_15.png",
+  "figura": "II 71 ART. 119",
+  "nome": "fine limitazione di velocità (50)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "5 FIGURA II 71 ART. 119 FINE LIMITAZIONE DI VELOCITA"
+ },
+ {
+  "file": "CAN_015_16.png",
+  "figura": "II 71 ART. 119",
+  "nome": "fine limitazione di velocità (60)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "6 FIGURA II 71 ART. 119 FINE LIMITAZIONE DI VELOCITA"
+ },
+ {
+  "file": "CAN_015_17.png",
+  "figura": "II 71 ART. 119",
+  "nome": "fine limitazione di velocità (80)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "8 FIGURA II 71 ART. 119 FINE LIMITAZIONE DI VELOCITA"
+ },
+ {
+  "file": "CAN_015_18.png",
+  "figura": "II 72 ART. 119",
+  "nome": "fine del divieto di sorpasso",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 72 ART. 119 FINE DEL DIVIETO DI SORPASSO"
+ },
+ {
+  "file": "CAN_015_19.png",
+  "figura": "II 73 ART. 119",
+  "nome": "fine del divieto di sorpasso per i veicoli di massa a pieno carico superiore a 3,5 tonnellate",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "HHI FIGURA II 73 ART. 119 FINE DEL DIVIETO DI SORPASSO PERIVEICOLIDIMASSA A PIEN"
+ },
+ {
+  "file": "CAN_016_09.png",
+  "figura": "II 409/B ART. 43",
+  "nome": "direzione autocarri obbligatoria",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "oo FIGURA II 409/B ART. 43 DIREZIONEAUTOCARRI OBBLIGATORIA"
+ },
+ {
+  "file": "CAN_016_17.png",
+  "figura": "II 411/F ART. 43",
+  "nome": "segnale di corsie chiuse",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "FIGURAII411/FART.43 SEGNALE DI CORSIECHIUSE"
+ },
+ {
+  "file": "CAN_016_18.png",
+  "figura": "II 411/G ART. 43",
+  "nome": "segnale di corsie chiuse",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "FIGURAII411/GART.43 SEGNALE DI CORSIECHIUSE"
+ },
+ {
+  "file": "CAN_016_19.png",
+  "figura": "II 411/D ART. 43",
+  "nome": "segnale di corsie chiuse",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "FIGURAII411/DART.43 SEGNALE DICORSIE CHIUSE"
+ },
+ {
+  "file": "CAN_016_20.png",
+  "figura": "II 411/A ART. 43",
+  "nome": "segnale di corsia chiusa (chiusura corsia di destra) - reversibile",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "FIGURAII411/AART.43 SEGNALEDICORSIACHIUSA (CHIUSURA CORSIA DIDESTRA) REVERSIBILE"
+ },
+ {
+  "file": "CAN_016_21.png",
+  "figura": "II 411/A ART. 43",
+  "nome": "segnale di corsia chiusa (chiusura corsia di sinistra) - reversibile",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "FIGURAII411/AART.43 SEGNALEDICORSIA CHIUSA (CHIUSURA CORSIA DI SINISTRA) REVERSI"
+ },
+ {
+  "file": "CAN_016_22.png",
+  "figura": "II 411/B ART. 43",
+  "nome": "segnale di corsia chiusa (chiusura corsia di destra) - reversibile",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "FIGURAII411/BART.43 SEGNALEDICORSIACHIUSA (CHIUSURA CORSIA DI DESTRA) REVERSIBIL"
+ },
+ {
+  "file": "CAN_016_23.png",
+  "figura": "II 411/B ART. 43",
+  "nome": "segnale di corsia chiusa (chiusura corsia di sinistra) - reversibile",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "FIGURAII411/BART.43 SEGNALEDICORSIACHIUSA (CHIUSURA CORSIA DI SINISTRA) REVERSIB"
+ },
+ {
+  "file": "CAN_017_01.png",
+  "figura": "II 411/E ART. 43",
+  "nome": "segnale di corsie chiuse",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II411/E ART. 43 SEGNALE DI CORSIE CHIUSE"
+ },
+ {
+  "file": "CAN_017_02.png",
+  "figura": "II 412/A ART. 43",
+  "nome": "segnale di carreggiata chiusa",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 412/A ART. 43 SEGNALE DICARREGGIATA CHIUSA"
+ },
+ {
+  "file": "CAN_017_03.png",
+  "figura": "II 412/B ART. 43",
+  "nome": "segnale di rientro in carreggiata",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 412/B ART. 43 SEGNALEDIRIENTRO IN CARREGGIATA"
+ },
+ {
+  "file": "CAN_017_04.png",
+  "figura": "II 412/C ART. 43",
+  "nome": "segnale di carreggiata chiusa",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 412/C ART. 43 SEGNALEDICARREGGIATA CHIUSA"
+ },
+ {
+  "file": "CAN_017_05.png",
+  "figura": "II 412/D ART. 43",
+  "nome": "segnale di rientro in carreggiata",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 412/D ART. 43 SEGNALE DIRIENTRO IN CARREGGIATA"
+ },
+ {
+  "file": "CAN_017_06.png",
+  "figura": "II 412/E ART. 43",
+  "nome": "segnale di rientro in carreggiata",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 412/E ART. 43 SEGNALE DIRIENTRO IN CARREGGIATA"
+ },
+ {
+  "file": "CAN_017_07.png",
+  "figura": "II 412/F ART. 43",
+  "nome": "segnale di rientro in carreggiata",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "↑↑t FIGURA II 412/F ART. 43 SEGNALE DIRIENTRO IN CARREGGIATA"
+ },
+ {
+  "file": "CAN_017_08.png",
+  "figura": "II 413/A ART. 43",
+  "nome": "segnale di carreggiata chiusa",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 413/A ART. 43 SEGNALE DI CARREGGIATA CHIUSA"
+ },
+ {
+  "file": "CAN_017_09.png",
+  "figura": "II 413/B ART. 43",
+  "nome": "segnale di carreggiata chiusa",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 413/B ART. 43 SEGNALE DICARREGGIATA CHIUSA"
+ },
+ {
+  "file": "CAN_017_10.png",
+  "figura": "II 413/C ART. 43",
+  "nome": "segnale di rientro in carreggiata",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II 413/C ART. 43 SEGNALE DIRIENTRO IN CARREGGIATA"
+ },
+ {
+  "file": "CAN_017_12.png",
+  "figura": "II 414 ART. 43",
+  "nome": "uso corsie disponibili",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "T FIGURA II414 ART. 43 USO CORSIE DISPONIBIL!"
+ },
+ {
+  "file": "CAN_018_02.png",
+  "figura": "II 393/A ART. 32",
+  "nome": "barriera direzionale",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "≥80 FIGURA II393/A ART.32 BARRIERA DIREZIONALE"
+ },
+ {
+  "file": "CAN_018_03.png",
+  "figura": "II 394 ART. 33",
+  "nome": "paletto di delimitazione",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "POSIZIONEAPERTA POSIZIONE CHIUSA ALTEZZATOTALE115CMCIRCA FINO AD ESAURIMENTO SCO"
+ },
+ {
+  "file": "CAN_019_01.png",
+  "figura": "II 402 ART. 40",
+  "nome": "barriera di recinzione per chiusini",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA II402 ART. 40 BARRIERA DIRECINZIONE PER CHIUSINI"
+ },
+ {
+  "file": "CAN_019_02.png",
+  "figura": "II 402 ART. 40",
+  "nome": "barriera di recinzione per chiusini (con triangoli)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "lavoriincorso FIGURA II 402 ART. 40 BARRIERA DI RECINZIONE PER CHIUSINI (CON TRI"
+ },
+ {
+  "file": "CAN_019_04.png",
+  "figura": "II 403/A ART. 42",
+  "nome": "bandiera",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "80 60 FIGURA II403/A ART. 42 BANDIERA"
+ },
+ {
+  "file": "CAN_020_01.png",
+  "figura": "A",
+  "nome": "traversa per transenna con rifrangente e.g. bianco/rosso",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A TRAVERSAPERTRANSENNA CONRIFRANGENTEE.G.BIANCO/ROSSO"
+ },
+ {
+  "file": "CAN_020_02.png",
+  "figura": "B",
+  "nome": "sostegno transenna mobile",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B SOSTEGNO TRANSENNAMOBILE"
+ },
+ {
+  "file": "CAN_020_03.png",
+  "figura": "C-C1-C2",
+  "nome": "transenna mobile con rifrangente e.g. bianco/rosso",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C-C1-C2 TRANSENNAMOBILE CONRIFRANGENTEE.G.BIANCO/ROSSO"
+ },
+ {
+  "file": "CAN_020_04.png",
+  "figura": "D",
+  "nome": "sostegno a 4 piedi con ganci per transenna tipo C (particolare base a 4 piedi richiudibile)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D PARTICOLAREBASE A4PIEDIRICHIUDIBILE SOSTEGNOA4PIEDI CONGANCI PERTRANSENNATIPOC"
+ },
+ {
+  "file": "CAN_020_05.png",
+  "figura": "E",
+  "nome": "sostegno per rete (200 cm)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E 200 CM SOSTEGNO PER RETE"
+ },
+ {
+  "file": "CAN_020_06.png",
+  "figura": "E1",
+  "nome": "sostegno per rete (220 cm)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E1 220 CM SOSTEGNO PER RETE"
+ },
+ {
+  "file": "CAN_020_07.png",
+  "figura": "F",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F"
+ },
+ {
+  "file": "CAN_020_08.png",
+  "figura": "G",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G"
+ },
+ {
+  "file": "CAN_020_09.png",
+  "figura": "H",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H 3888888088880988809 0060000066666066660 00000000000000 86086088806689 89606606"
+ },
+ {
+  "file": "CAN_021_01.png",
+  "figura": "A",
+  "nome": "rallentare lavoriamo per voi grazie",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A rallentare lavoriamo voi per grazie"
+ },
+ {
+  "file": "CAN_021_02.png",
+  "figura": "B",
+  "nome": "attenzione uscita autocarri",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B attenzione uscita autocarri"
+ },
+ {
+  "file": "CAN_021_03.png",
+  "figura": "C",
+  "nome": "rallentare lavori in corso per ... km",
+  "confidenza": "media",
+  "scarto": false,
+  "score_ocr": 0.897,
+  "ocr": "rallentare 30 lavori in corso km per"
+ },
+ {
+  "file": "CAN_021_04.png",
+  "figura": "D",
+  "nome": "rallentare a 200 m deviazione",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D rallentare 200 30 a m deviazione"
+ },
+ {
+  "file": "CAN_021_05.png",
+  "figura": "E",
+  "nome": "attenzione macchine operatrici in movimento",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E attenzione macchine operatrici in movimento"
+ },
+ {
+  "file": "CAN_021_06.png",
+  "figura": "F",
+  "nome": "strada interrotta per ... m",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F strada interrotta per m"
+ },
+ {
+  "file": "CAN_021_07.png",
+  "figura": "G",
+  "nome": "attenzione causa lavori strada chiusa a 600 m",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G ATTENZIONE lavori strada causa chiusa a 600 m"
+ },
+ {
+  "file": "CAN_021_08.png",
+  "figura": "H",
+  "nome": "rallentare lavori in corso",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H rallentare lavori in corso"
+ },
+ {
+  "file": "CAN_021_09.png",
+  "figura": "I",
+  "nome": "inizio cantiere",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "inizio cantiere"
+ },
+ {
+  "file": "CAN_021_10.png",
+  "figura": "J",
+  "nome": "fine cantiere",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.96,
+  "ocr": "I fine cantiere"
+ },
+ {
+  "file": "CAN_021_11.png",
+  "figura": "K",
+  "nome": "inizio area cantiere",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "K inizio area cantiere"
+ },
+ {
+  "file": "CAN_021_12.png",
+  "figura": "L",
+  "nome": "fine area cantiere",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "L fine area cantiere"
+ },
+ {
+  "file": "CAN_021_14.png",
+  "figura": "B",
+  "nome": "rimozione forzata dal ... al ...",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "BASE (CM)"
+ },
+ {
+  "file": "CAN_021_13.png",
+  "figura": "A",
+  "nome": "pedoni sul lato opposto",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "ALTEZZA (CM)"
+ },
+ {
+  "file": "CAN_021_26.png",
+  "figura": "N",
+  "nome": "rallentare banchina non transitabile",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "N° ATT."
+ },
+ {
+  "file": "CAN_021_29.png",
+  "figura": "Q",
+  "nome": "rallentare a 200 m deviazione (30)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "QTA'. Min. ORD."
+ },
+ {
+  "file": "CAN_021_22.png",
+  "figura": "J",
+  "nome": "inizio area cantiere",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "I-J-K-L"
+ },
+ {
+  "file": "CAN_021_15.png",
+  "figura": "C",
+  "nome": "strada chiusa per lavori",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.977,
+  "ocr": "T strada chiusa per lavori"
+ },
+ {
+  "file": "CAN_021_16.png",
+  "figura": "D",
+  "nome": "rimozione forzata per lavori",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D rimozione forzata per lavori"
+ },
+ {
+  "file": "CAN_021_17.png",
+  "figura": "E",
+  "nome": "rallentare lavoriamo per voi grazie",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E rallentare lavoriamo per voi grazie"
+ },
+ {
+  "file": "CAN_021_18.png",
+  "figura": "F",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F"
+ },
+ {
+  "file": "CAN_021_31.png",
+  "figura": "S",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "S VIA: Tratto: LAVORIDI: 160 cro A! DatenmlCorusalaN: WchesteOa: Rreemertotel"
+ },
+ {
+  "file": "CAN_021_32.png",
+  "figura": "T",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "T"
+ },
+ {
+  "file": "CAN_021_19.png",
+  "figura": "G",
+  "nome": "attenzione uscita autocarri",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G attenzione uscita autocarri"
+ },
+ {
+  "file": "CAN_021_20.png",
+  "figura": "H",
+  "nome": "inizio cantiere",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H inizio cantiere"
+ },
+ {
+  "file": "CAN_021_21.png",
+  "figura": "I",
+  "nome": "fine cantiere",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "fine cantiere"
+ },
+ {
+  "file": "CAN_021_23.png",
+  "figura": "K",
+  "nome": "fine area cantiere",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "K fine  area cantiere"
+ },
+ {
+  "file": "CAN_021_24.png",
+  "figura": "L",
+  "nome": "attenzione strada sdrucciolevole",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "attenzione strada sdrucciolevole"
+ },
+ {
+  "file": "CAN_021_33.png",
+  "figura": "U",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "U O="
+ },
+ {
+  "file": "CAN_021_25.png",
+  "figura": "M",
+  "nome": "attenzione strada dissestata",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "M attenzione strada dissestata"
+ },
+ {
+  "file": "CAN_021_27.png",
+  "figura": "O",
+  "nome": "attenzione scavi aperti",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.977,
+  "ocr": "0 attenzione scavi aperti"
+ },
+ {
+  "file": "CAN_021_28.png",
+  "figura": "P",
+  "nome": "rallentare lavori in corso (30)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P rallentare 30 lavori in corso"
+ },
+ {
+  "file": "CAN_021_30.png",
+  "figura": "R",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "R"
+ },
+ {
+  "file": "CAN_022_01.png",
+  "figura": "A",
+  "nome": "base circolare con palo Ø 48",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A BASE CIRCOLARE CON PALO 0 48"
+ },
+ {
+  "file": "CAN_022_02.png",
+  "figura": "B",
+  "nome": "base circolare con palo Ø 60",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B BASE CIRCOLARE CON PALO 0 60"
+ },
+ {
+  "file": "CAN_022_03.png",
+  "figura": "C",
+  "nome": "base circolare senza palo",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C BASE CIRCOLARE SENZA PALO"
+ },
+ {
+  "file": "CAN_022_04.png",
+  "figura": "D",
+  "nome": "base di appesantimento in PVC",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D BASEDIAPPESANTIMENTO IN PVC"
+ },
+ {
+  "file": "CAN_022_05.png",
+  "figura": "E",
+  "nome": "palo canna quadra",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E PALO CANNA QUADRA"
+ },
+ {
+  "file": "CAN_022_06.png",
+  "figura": "F",
+  "nome": "base di appesantimento in PVC + pannello segnaletico",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F BASEDIAPPESANTIMENTO IN PVC + PANNELLO SEGNALETICO"
+ },
+ {
+  "file": "CAN_023_01.png",
+  "figura": "398",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A FIGURA 398"
+ },
+ {
+  "file": "CAN_023_05.png",
+  "figura": "399/B",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E 180 90 90 ↑个 90 135 500 m 45 FIGURA 399/B"
+ },
+ {
+  "file": "CAN_023_06.png",
+  "figura": "399/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B 135 135 ↑个 365 200 500 30 m FIGURA 399/A"
+ },
+ {
+  "file": "CAN_023_07.png",
+  "figura": "399/A",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "90 90 ↑个 250 135 25 500 m FIGURA 399/A"
+ },
+ {
+  "file": "CAN_023_08.png",
+  "figura": "400",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F 220 40 140 40 40 110 360 135 500 35 m 40 FIGURA 400"
+ },
+ {
+  "file": "CAN_023_09.png",
+  "figura": "401",
+  "nome": null,
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G 220 40 140 40 40 280360 40 FIGURA 401"
+ },
+ {
+  "file": "CAN_024_02.png",
+  "figura": "2",
+  "nome": "esempio di moviere",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 2: ESEMPIO DIMOVIERE"
+ },
+ {
+  "file": "CAN_024_04.png",
+  "figura": "4",
+  "nome": "lampeggiatore a led alta efficienza diam. 302 mm alimentato con batteria da autovettura, da utilizzare singolo su lato dx (cantieri di breve durata o rimovibili) o su entrambi i lati anche in più sequenze (cantieri di lunga durata)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.979,
+  "ocr": "FIGURA4: LAMPEGGIATOREALEDALTAEFFICIENZADIAM.302mm ALIMENTATOCONBATTERIADAAUTOVE"
+ },
+ {
+  "file": "CAN_025_01.png",
+  "figura": "5",
+  "nome": "cartello di preavviso con lampeggiatori a led diam. 200 mm ad alta efficienza. Dimensioni: 135x200 cm. Posizionamento sul margine destro a circa 3.000 m dal triangolo \"lavori in corso\"",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "lavori a 3 km possibili code FIGURA 5: CARTELLODIPREAVVISO CONLAMPEGGIATORIALED "
+ },
+ {
+  "file": "CAN_026_01.png",
+  "figura": "8",
+  "nome": "tabella \"tipo 1\" della segnaletica integrativa di comunicazione (manuale operativo per il segnalamento temporaneo ed esecuzione dei lavori in autostrada - allegato 3)",
+  "confidenza": "media",
+  "scarto": false,
+  "score_ocr": 0.806,
+  "ocr": "DENOMINAZIONEENTE stendiamo asfalto drenante FIGURA 8: TABELLA\"TIPO 1” DELLASEGN"
+ },
+ {
+  "file": "CAN_026_02.png",
+  "figura": "10",
+  "nome": "tabella \"tipo 3\"",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "DENOMINAZIONEENTE favorire il rientro da destra FIGURA 10: TABELLA\"TIPO3\""
+ },
+ {
+  "file": "CAN_026_03.png",
+  "figura": "11",
+  "nome": "tabella \"tipo 4\"",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "scusateci per i disagi FIGURA 11: TABELLA\"TIPO 4\""
+ },
+ {
+  "file": "CAN_027_02.png",
+  "figura": "13",
+  "nome": "esempio di cavalletto correttamente predisposto per l'alloggiamento della lampada",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 13: ESEMPIO DI CAVALLETTO CORRETTAMENTE PREDISPOSTO PER L'ALLOGGIAMENTO D"
+ },
+ {
+  "file": "CAN_027_05.png",
+  "figura": "17",
+  "nome": "cartello con lampeggiatori diam. 200 mm ad alta efficienza",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FIGURA 17: CARTELLO CON LAMPEGGIATORI DIAM. 200 mm AD ALTA EFFICIENZA RALLENTARE"
+ },
+ {
+  "file": "CAN_029_01.png",
+  "figura": "A",
+  "nome": "transenna mobile con fascia rifrangente - novità di grande utilità è il piede girevole, favorisce l'uso, il trasporto, lo stivaggio",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A NOVITADIGRANDEUTILITA EILPIEDEGIREVOLE,FAVORISCELUSO,ILTRASPORTO,LOSTIVAGGIO"
+ },
+ {
+  "file": "CAN_029_02.png",
+  "figura": "B",
+  "nome": "transenna mobile predisposta per applicazione della targa - il piede girevole favorisce l'uso, il trasporto, lo stivaggio",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B iLPIEDEGIREVOLE,FAVORISCELUSO,ILTRASPORTO,LOSTIVAGGIO"
+ },
+ {
+  "file": "CAN_029_04.png",
+  "figura": "D",
+  "nome": "piede di ricambio per transenna - tipo roma",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D"
+ },
+ {
+  "file": "CAN_029_05.png",
+  "figura": "E",
+  "nome": "fascia per transenna piana",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E"
+ },
+ {
+  "file": "CAN_029_03.png",
+  "figura": "C",
+  "nome": "piede di ricambio per transenna - tipo standard",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "CONBULLONERIAINCLUSA"
+ },
+ {
+  "file": "CAN_029_06.png",
+  "figura": "F",
+  "nome": "transenna estensibile rosso/bianca",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "FASCIAPERTRANSENNAPIANADA150X20CMZINCATA-MONOFACCIALE"
+ },
+ {
+  "file": "CAN_032_01.png",
+  "figura": "A",
+  "nome": "transenna mobile in plastica (senza fascia rifrangente / con fascia rifrangente bianca/rossa da 150x15 cm)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "CAN_033_02.png",
+  "figura": "B",
+  "nome": "lampeggiatore monofacciale superled - fino ad esaurimento scorte",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B FINO AD ESAURIMENTO SCORTE"
+ },
+ {
+  "file": "CAN_033_09.png",
+  "figura": "I",
+  "nome": "lampeggiatore monofacciale d-star a led giallo - omologato - monofacciale",
+  "confidenza": "media",
+  "scarto": false,
+  "score_ocr": 0.855,
+  "ocr": "C OMOLOGAT 0"
+ },
+ {
+  "file": "CAN_033_04.png",
+  "figura": "D",
+  "nome": "lampeggiatore bifacciale rosso - omologato",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D O OMOLOGAT 0"
+ },
+ {
+  "file": "CAN_033_05.png",
+  "figura": "E",
+  "nome": "euroflash normal - giallo",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E EUROFLASH .NORMAL"
+ },
+ {
+  "file": "CAN_033_06.png",
+  "figura": "F",
+  "nome": "euroflash normal - rosso",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F EUROFLASH NORMAL"
+ },
+ {
+  "file": "CAN_033_07.png",
+  "figura": "G",
+  "nome": "lampeggiatore bifacciale a led giallo - omologato",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G OMOLOGAT 0"
+ },
+ {
+  "file": "CAN_033_08.png",
+  "figura": "H",
+  "nome": "lampeggiatore bifacciale a led rosso - omologato",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H 口 OMOLOGAT 0"
+ },
+ {
+  "file": "CAN_033_11.png",
+  "figura": "M",
+  "nome": "chiavetta per lampeggiatori: I - L",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.962,
+  "ocr": "HIAVETTA PER LAMP GGIATORI:I-L"
+ },
+ {
+  "file": "CAN_033_13.png",
+  "figura": "P",
+  "nome": "batterie a lunga durata per lampeggiatori",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P AIR ALRAIINE S"
+ },
+ {
+  "file": "CAN_033_14.png",
+  "figura": "Q",
+  "nome": "batterie ecologiche 6V 4R25 per lampeggiatori",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "Q E COLOGICA BATTERIA"
+ },
+ {
+  "file": "CAN_033_03.png",
+  "figura": "C",
+  "nome": "lampeggiatore bifacciale giallo - omologato",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "CODICE"
+ },
+ {
+  "file": "CAN_033_01.png",
+  "figura": "A",
+  "nome": "lampeggiatore monofacciale superled - fino ad esaurimento scorte",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "CAN_033_10.png",
+  "figura": "L",
+  "nome": "lampeggiatore monofacciale d-star a led rosso - omologato - monofacciale",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "LAMPEGGIATOREMONOFACCIALESUPERLED7LED CONFOTOCELLULA, LENTEINPOLICARBONATOCONINT"
+ },
+ {
+  "file": "CAN_034_01.png",
+  "figura": "A",
+  "nome": "lampeggiatore singolo - fino ad esaurimento scorte",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A FINOADESAURIMENTOSCORTE"
+ },
+ {
+  "file": "CAN_034_02.png",
+  "figura": "B-B1",
+  "nome": "lampeggiatore - fino ad esaurimento scorte",
+  "confidenza": "media",
+  "scarto": false,
+  "score_ocr": 0.84,
+  "ocr": "B-R1 FINOAD ESAURIMENTO SCORTE"
+ },
+ {
+  "file": "CAN_034_03.png",
+  "figura": "F",
+  "nome": "lampeggiatore a led",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F"
+ },
+ {
+  "file": "CAN_034_04.png",
+  "figura": "G",
+  "nome": "lampeggiatore a led",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G"
+ },
+ {
+  "file": "CAN_034_05.png",
+  "figura": "H",
+  "nome": "coppia di luci a led cablate",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H"
+ },
+ {
+  "file": "CAN_035_01.png",
+  "figura": "A",
+  "nome": "pannello direzionale a luci led",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "CAN_035_02.png",
+  "figura": "E",
+  "nome": "lampada zeus (batterie escluse) - adattatore per batterie - 1 batteria 6V 4R25 - 4 batterie tipo D",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E POSSIBILITA'DIDOPPIO FUNZIONAMENTO: LAMPADAZEUS ADATTATORE 1BATTERIA 4 BATTERI"
+ },
+ {
+  "file": "CAN_035_04.png",
+  "figura": "G",
+  "nome": "coni per torcia rosso e giallo",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G"
+ },
+ {
+  "file": "CAN_035_05.png",
+  "figura": "H",
+  "nome": "bastone luminoso rosso",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H"
+ },
+ {
+  "file": "CAN_036_01.png",
+  "figura": "A",
+  "nome": "impianto sequenziale alogeno a 5 luci - fino ad esaurimento scorte",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "a"
+ },
+ {
+  "file": "CAN_036_03.png",
+  "figura": "C",
+  "nome": "impianto sequenziale led senza cavi - esempio di impianto",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C ESEMPIODIIMPIANTO"
+ },
+ {
+  "file": "CAN_036_04.png",
+  "figura": "D",
+  "nome": "batteria 12V",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D"
+ },
+ {
+  "file": "CAN_036_05.png",
+  "figura": "E",
+  "nome": "batteria 6V",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E E CON E E E BATTERIA 扫"
+ },
+ {
+  "file": "CAN_037_01.png",
+  "figura": "A",
+  "nome": "impianto semaforico mobile con centraline a microprocessore",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A CENTRALINE A CROPROCESSORE"
+ },
+ {
+  "file": "CAN_037_02.png",
+  "figura": "B",
+  "nome": "impianto semaforico mobile a led su carrello",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B MII"
+ },
+ {
+  "file": "CAN_038_01.png",
+  "figura": "A",
+  "nome": "protezione mobile per cantieri (pannello grande)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "CAN_038_02.png",
+  "figura": "B",
+  "nome": "cancello pedonale mobile per cantieri (pannello piccolo)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B 20"
+ },
+ {
+  "file": "CAN_038_03.png",
+  "figura": "D",
+  "nome": "cartello in alluminio rifrangente bianco/rosso",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D"
+ },
+ {
+  "file": "CAN_038_04.png",
+  "figura": "F",
+  "nome": "plintino in cemento",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F PLINTINO IN CEMENTO"
+ },
+ {
+  "file": "CAN_038_05.png",
+  "figura": "G",
+  "nome": "saetta",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "SAETTA"
+ },
+ {
+  "file": "CAN_038_06.png",
+  "figura": "H",
+  "nome": "giunto di sicurezza",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "GIUNTO DI SICUREZZA"
+ },
+ {
+  "file": "CAN_038_07.png",
+  "figura": "I",
+  "nome": "kit cancello",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "KIT CANCELLO"
+ },
+ {
+  "file": "ACC_003_01.png",
+  "figura": "A",
+  "nome": "segnale di velocità 40/50/60/70/80/100 - supporto alluminio",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A 40 50 60 70 80 100 SUPPORTO ALLUMINIO"
+ },
+ {
+  "file": "ACC_003_02.png",
+  "figura": "B",
+  "nome": "segnale di velocità 40/50/60/70/80/100 - supporto pvc autoadesivo",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B 40 50 60 70 80 100 SUPPORTO PVCAUTOADESIVO"
+ },
+ {
+  "file": "ACC_003_03.png",
+  "figura": "C",
+  "nome": "pannelli per mezzi portati agricoli - kit da 2 pezzi (alluminio)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C KIT DA 2 PEZZI (ALLUMINIO)"
+ },
+ {
+  "file": "ACC_003_04.png",
+  "figura": "D",
+  "nome": "pannello per mezzi portati agricoli (alluminio)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D (ALLUMINIO)"
+ },
+ {
+  "file": "ACC_003_05.png",
+  "figura": "E",
+  "nome": "pannelli per motrici - kit da 2 pezzi (alluminio)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E KIT DA 2 PEZZI (ALLUMINIO)"
+ },
+ {
+  "file": "ACC_003_06.png",
+  "figura": "F",
+  "nome": "pannelli per rimorchi - kit da 2 pezzi (alluminio)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F KIT DA 2 PEZZI (ALLUMINIO)"
+ },
+ {
+  "file": "ACC_003_07.png",
+  "figura": "G",
+  "nome": "targa carico sporgente - alluminio 10/10 omologato",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G ALLUMINI0 10/10 OMOLOGATO"
+ },
+ {
+  "file": "ACC_003_08.png",
+  "figura": "H",
+  "nome": "targa carico sporgente - lamierino per uso pubblicitario",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H LAMIERINO PER USO PUBBLICITARIO"
+ },
+ {
+  "file": "ACC_003_09.png",
+  "figura": "I",
+  "nome": "targa carico sporgente - pvc per uso pubblicitario",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "PVC PER USO PUBBLICITARIO"
+ },
+ {
+  "file": "ACC_003_10.png",
+  "figura": "L",
+  "nome": "rotor lampeggiante normale arancio/blu 12/24 v.",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "L NORMALE ARANCI0/BLU12/24V."
+ },
+ {
+  "file": "ACC_003_11.png",
+  "figura": "M",
+  "nome": "rotor lampeggiante calamitato arancio/blu 12 o 24 v.",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "M CALAMITATO ARANCI0/BLU 12 024V."
+ },
+ {
+  "file": "ACC_003_12.png",
+  "figura": "N",
+  "nome": "segnale mobile di pericolo - omologato diamond 3970 / auto ferma",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "N OMOLOGATO DIAM0ND3970 AUTOFERMA"
+ },
+ {
+  "file": "ACC_003_14.png",
+  "figura": "P",
+  "nome": "targa prodotti deperibili (adesivo) - lettera d",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P d ADESIVO"
+ },
+ {
+  "file": "ACC_003_15.png",
+  "figura": "Q-Q1",
+  "nome": "targa rifiuti (adesivo) - lettera R",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "Q-Q1 R ADESIVO"
+ },
+ {
+  "file": "ACC_003_13.png",
+  "figura": "O",
+  "nome": "targa prodotti agricoli (adesivo) - lettera a",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "OMOLOGAZIONE"
+ },
+ {
+  "file": "ACC_004_01.png",
+  "figura": "A",
+  "nome": "kit di 2 pezzi per carichi sporgenti laterali (1 dx 1 sx)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "ACC_004_02.png",
+  "figura": "B",
+  "nome": "pannello per trasporto merci pericolose",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B"
+ },
+ {
+  "file": "ACC_004_06.png",
+  "figura": "F",
+  "nome": "pannello per trasporto - tir",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F TIR"
+ },
+ {
+  "file": "ACC_004_03.png",
+  "figura": "C",
+  "nome": "pannello per trasporto merci pericolose pieghevole",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C"
+ },
+ {
+  "file": "ACC_004_05.png",
+  "figura": "E - E1",
+  "nome": "pannello per trasporto eccezionale",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E - E1 TRASPORTOECCEZIONALE"
+ },
+ {
+  "file": "ACC_004_07.png",
+  "figura": "G",
+  "nome": "pannello per trasporto - tir - pieghevole",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G R T"
+ },
+ {
+  "file": "ACC_004_08.png",
+  "figura": "H",
+  "nome": "rotolo per linea sicurezza automezzi per superfici rigide",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H PERSUPERFICIRIGIDE"
+ },
+ {
+  "file": "ACC_004_10.png",
+  "figura": "L",
+  "nome": "dotazione standard marginale 10 260 - la borsa contiene: nr.2 triangoli d'avvertimento omologati, nr.1 lampada portatile avente caratteristiche a.d.r. marginale 10 353, nr.4 coni retroriflettenti classe 2, nr.1 giubbetto omologato en 471 classe 2",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "A.D.R. EMERGENCYSET reflex DOTAZIONESTANDARDMARGINALE10260 LABORSACONTIENE: NR.2"
+ },
+ {
+  "file": "ACC_004_12.png",
+  "figura": "N",
+  "nome": "segnale mobile di pericolo con custodia",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "N"
+ },
+ {
+  "file": "ACC_004_04.png",
+  "figura": "D",
+  "nome": "pannello per trasporto eccezionale",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "DIMENSIONE"
+ },
+ {
+  "file": "ACC_004_09.png",
+  "figura": "I",
+  "nome": "rotolo per linea sicurezza automezzi per superfici telonate",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "ROTOLOPERLINEASICUREZZAAUTOMEZZIPERSUPERFICITELONATE"
+ },
+ {
+  "file": "ACC_006_01.png",
+  "figura": "A",
+  "nome": "tuta intera (arancio / giallo)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "ACC_006_03.png",
+  "figura": "C",
+  "nome": "bretelle (arancio)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C"
+ },
+ {
+  "file": "ACC_006_04.png",
+  "figura": "D",
+  "nome": "giacca a vento (arancio)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D"
+ },
+ {
+  "file": "ACC_006_05.png",
+  "figura": "E",
+  "nome": "giacca (arancio)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E"
+ },
+ {
+  "file": "ACC_006_06.png",
+  "figura": "F",
+  "nome": "gilet estivo (arancio)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F"
+ },
+ {
+  "file": "ACC_006_07.png",
+  "figura": "G",
+  "nome": "gilet invernale (arancio)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G"
+ },
+ {
+  "file": "ACC_006_08.png",
+  "figura": "H",
+  "nome": "berretto estivo in cotone (arancio)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H"
+ },
+ {
+  "file": "ACC_006_09.png",
+  "figura": "H1",
+  "nome": "berretto imbottito antifreddo (arancio)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H1"
+ },
+ {
+  "file": "ACC_006_02.png",
+  "figura": "B",
+  "nome": "pantalone (arancio)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B"
+ },
+ {
+  "file": "ACC_006_11.png",
+  "figura": "L",
+  "nome": "impermeabile cappotto antistrappo lunghezza al polpaccio (giallo)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "L IMPERMEABILE CAPPOTTOANTISTRAPPO LUNGHEZZA AL POLPACCIO"
+ },
+ {
+  "file": "ACC_006_12.png",
+  "figura": "M",
+  "nome": "impermeabile completo giacca e pantaloni antistrappo (giallo)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "M"
+ },
+ {
+  "file": "ACC_006_13.png",
+  "figura": "N",
+  "nome": "bermuda (arancio)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "N"
+ },
+ {
+  "file": "ACC_007_01.png",
+  "figura": "A",
+  "nome": "giacca a vento blu con fasce rifrangenti - fronte e retro con scritta 'ausiliari del traffico'",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A AUSILIARI AUSILIARI DEL DEL TRAFFICO FRONTE RETRO"
+ },
+ {
+  "file": "ACC_007_02.png",
+  "figura": "B",
+  "nome": "corpetto blu con scritta 'ausiliari del traffico' - fronte e retro",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B AUSILIARI DEL AUSILIARI TRAFFICO DEL TRAFFICO FRONTE RETRO"
+ },
+ {
+  "file": "ACC_007_03.png",
+  "figura": "C",
+  "nome": "cappotto impermeabile blu con fasce rifrangenti - fronte e retro con scritta 'ausiliari del traffico'",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C AUSILIARI DEL TRAFFICO FRONTE RETRO"
+ },
+ {
+  "file": "ACC_007_04.png",
+  "figura": "D",
+  "nome": "berretto imbottito blu con copri orecchie",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D AUSILIARI DEL TRAFFICO"
+ },
+ {
+  "file": "ACC_007_05.png",
+  "figura": "E",
+  "nome": "berretto in panno blu",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E AUSILIARI DEL TRAFFICO"
+ },
+ {
+  "file": "ACC_007_06.png",
+  "figura": "F",
+  "nome": "berretto in cotone blu",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F AUSILIARI DEL TRAFFICO"
+ },
+ {
+  "file": "ACC_007_07.png",
+  "figura": "G",
+  "nome": "bracciolo blu con scritta rifrangente 'ausiliari del traffico'",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G AUSILIARI DEL TRAFFICO"
+ },
+ {
+  "file": "ACC_007_08.png",
+  "figura": "H",
+  "nome": "borsello cuoio bianco",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H"
+ },
+ {
+  "file": "ACC_007_09.png",
+  "figura": "I",
+  "nome": "pettorina rifrangente con scritta 'polizia municipale'",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "POLIZIA MUNICIPALE"
+ },
+ {
+  "file": "ACC_007_10.png",
+  "figura": "L",
+  "nome": "coppia manicotti in tessuto rifrangente",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "L"
+ },
+ {
+  "file": "ACC_007_11.png",
+  "figura": "M",
+  "nome": "copriberretto rifrangente",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "M"
+ },
+ {
+  "file": "ACC_007_12.png",
+  "figura": "N",
+  "nome": "sfollagente (bianco - nero)",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "N"
+ },
+ {
+  "file": "ACC_009_01.png",
+  "figura": "A",
+  "nome": "gemma adesiva per qualsiasi superficie",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "ACC_009_02.png",
+  "figura": "B",
+  "nome": "gemma per roccia doppia faccia in alluminio bifacciale",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B"
+ },
+ {
+  "file": "ACC_009_03.png",
+  "figura": "C",
+  "nome": "gemma per staccionate in lamiera zincata con fori",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C"
+ },
+ {
+  "file": "ACC_009_04.png",
+  "figura": "D",
+  "nome": "gemme per guard-rails in lamiera zincata con asole",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D U"
+ },
+ {
+  "file": "ACC_009_05.png",
+  "figura": "E",
+  "nome": "gemme per staccionate in metacrilato con fori - omologate",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E OMOLOGATE"
+ },
+ {
+  "file": "ACC_009_06.png",
+  "figura": "F",
+  "nome": "gemme per qualsiasi superficie in metacrilato ø 80 - fino ad esaurimento scorte",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.91,
+  "ocr": "E FINO AD ESAURIMENTO SCORTE"
+ },
+ {
+  "file": "ACC_009_07.png",
+  "figura": "G",
+  "nome": "occhi di gatto in fusione di alluminio cm 10x10 con perno",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G 回 回 司"
+ },
+ {
+  "file": "ACC_009_08.png",
+  "figura": "H",
+  "nome": "occhi di gatto in policarbonato - omologati - adesivo compreso nel prezzo",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H ADESIVO OMOLOGATI COMPRESONELPREZZO"
+ },
+ {
+  "file": "ACC_009_11.png",
+  "figura": "M",
+  "nome": "occhio di gatto autopulente ø 100 mm - omologato",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "M 0 60 mm 22 mm 30 mm 0 80 mm 0 100 mm OMOLOGATO"
+ },
+ {
+  "file": "ACC_009_12.png",
+  "figura": "N",
+  "nome": "occhio di gatto autopulente ø 50 mm - non omologato",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "N 51±2 292 木 11.5±1.5 562 422 51±2 NON OMOLOGATO"
+ },
+ {
+  "file": "ACC_009_10.png",
+  "figura": "L",
+  "nome": "dispositivo per riflettorizzazione degli alberi",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "L A"
+ },
+ {
+  "file": "ACC_009_14.png",
+  "figura": "P",
+  "nome": "occhio di gatto bifacciale - economic - fino ad esaurimento scorte",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "P FINO AD ESAURIMENTO SCORTE"
+ },
+ {
+  "file": "ACC_009_15.png",
+  "figura": "Q",
+  "nome": "occhio di gatto bifacciale - economic - fino ad esaurimento scorte",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.91,
+  "ocr": "0 FINO AD ESAURIMENTO SCORTE"
+ },
+ {
+  "file": "ACC_009_16.png",
+  "figura": "R",
+  "nome": "occhio di gatto bifacciale - economic - fino ad esaurimento scorte",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "R FINO AD ESAURIMENTO SCORTE"
+ },
+ {
+  "file": "ACC_009_13.png",
+  "figura": "O",
+  "nome": "occhio di gatto monofacciale - economic - fino ad esaurimento scorte",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "OCCHIDIGATTOINFUSIONEDIALLUMINIO CM10X10C0NPERN0"
+ },
+ {
+  "file": "ACC_009_09.png",
+  "figura": "I",
+  "nome": "adesivo bicomponente per occhi di gatto",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "ADESIVOBICOMPONENTEPEROCCHIDIGATTO CONFEZIONEDA0,5KG"
+ },
+ {
+  "file": "ACC_010_01.png",
+  "figura": "A",
+  "nome": "kit per cassonetti n.u. cm 10x40 dx o sx",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ },
+ {
+  "file": "ACC_010_02.png",
+  "figura": "B",
+  "nome": "kit per cassonetti n.u. cm 10x20 dx o sx",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B"
+ },
+ {
+  "file": "ACC_010_03.png",
+  "figura": "C",
+  "nome": "kit per cassonetti n.u. cm 20x20 dx o sx",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C"
+ },
+ {
+  "file": "ACC_010_04.png",
+  "figura": "D",
+  "nome": "kit per cassonetti n.u. cm 20x40",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D"
+ },
+ {
+  "file": "ACC_010_05.png",
+  "figura": "E",
+  "nome": "dispositivi per segnalare sbarramenti spigoli o sporgenze pericolose - alluminio piano 7/10 bianco/rosso",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E DISPOSITIVIPERSEGNALARESBARRAMENTISPIGOLIOSPORGENZEPERICOLOSE ALLUMINIOPIANO7/"
+ },
+ {
+  "file": "ACC_010_06.png",
+  "figura": "F",
+  "nome": "dispositivi per segnalare sbarramenti spigoli o sporgenze pericolose - alluminio piano 7/10 giallo/nero",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.938,
+  "ocr": "E DISPOSITIVIPERSEGNALARESBARRAMENTISPIGOLIOSPORGENZEPERICOLOSE ALLUMINI0PIANO7/"
+ },
+ {
+  "file": "ACC_011_01.png",
+  "figura": "A-A1",
+  "nome": "guard-rails barriera dritta",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A-A1"
+ },
+ {
+  "file": "ACC_011_02.png",
+  "figura": "B",
+  "nome": "barriera con corrimano tipo m100 - esploso",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B 060 1353 ESPLOSO BARRIERACONCORRIMANOTIPOM100 EXPLODEDVIEW M100TYPEGUARD-RAILW"
+ },
+ {
+  "file": "ACC_011_03.png",
+  "figura": "C",
+  "nome": "piedritto m 100 h. 1353 + foro ø 60",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C"
+ },
+ {
+  "file": "ACC_011_04.png",
+  "figura": "D",
+  "nome": "piedritto c 120x80x5 h. 195",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "D"
+ },
+ {
+  "file": "ACC_011_05.png",
+  "figura": "E",
+  "nome": "distanziale c 154x67x310",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "E 0"
+ },
+ {
+  "file": "ACC_011_08.png",
+  "figura": "H",
+  "nome": "serie di 9 bulloni, dadi e piastrini",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "H"
+ },
+ {
+  "file": "ACC_011_07.png",
+  "figura": "G",
+  "nome": "terminale allargato a ventaglio",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "G"
+ },
+ {
+  "file": "ACC_011_06.png",
+  "figura": "F",
+  "nome": "tubo corrimano ø 60",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "F"
+ },
+ {
+  "file": "ACC_011_10.png",
+  "figura": "L",
+  "nome": "frangiluce per new-jersey",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "L 53,5 23,5 4"
+ },
+ {
+  "file": "ACC_011_11.png",
+  "figura": "M",
+  "nome": "staffa per frangiluce per montaggio su new-jersey",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "M 8 12 10 12"
+ },
+ {
+  "file": "ACC_011_12.png",
+  "figura": "N",
+  "nome": "staffa per frangiluce per aggancio su guard-rails",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "N CO"
+ },
+ {
+  "file": "ACC_012_02.png",
+  "figura": "B",
+  "nome": "barriera mod. 4000 - esempio di applicazione",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B"
+ },
+ {
+  "file": "ACC_012_03.png",
+  "figura": "C",
+  "nome": "barriera mod. 6000 con rastrelliera - esempio di applicazione",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "C"
+ },
+ {
+  "file": "ACC_013_02.png",
+  "figura": "B",
+  "nome": "utensile per band-it",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "B UTENSILEPERBAND-IT"
+ },
+ {
+  "file": "ACC_013_03.png",
+  "figura": "A",
+  "nome": "misuratore stradale con manico pieghevole e comandi reset/stop",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "A"
+ }
+]

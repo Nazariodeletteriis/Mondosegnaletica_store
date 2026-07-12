@@ -1,5 +1,26 @@
 # HANDOFF — Mondo Segnaletica
-> Stato al **2026-07-12** (sessione 9). **Leggi SOLO questo file per ripartire.** Tutto lo storico precedente è superato e rimosso.
+> Stato al **2026-07-12** (sessione 10, checkpoint in corso). **Leggi SOLO questo file per ripartire.** Tutto lo storico precedente è superato e rimosso.
+
+---
+
+## 🟡 2026-07-12 — Sessione 10: `figure_ocr.py`, allineamento ritaglio↔figura via OCR locale. IN CORSO.
+
+- **LOTTO 6 (lettura immagini a vista) DECADUTO**: la lettura immagini da parte del modello è **eliminata del tutto** → costo zero.
+- **Nuovo script `tools/import-listini/figure_ocr.py`** — sostituisce `crop_figures.py` **e** la lettura a vista dei ritagli:
+  - ritaglia **tutte le celle plausibili** → rimosso il vincolo `n_celle == n_figure` che faceva **scartare 14 pagine intere = 155 figure perse**;
+  - **OCR locale gratuito** (`rapidocr-onnxruntime`, tesseract non installabile senza sudo) su ogni cella;
+  - **assegnamento ottimo per pagina** (Hungarian, `scipy`) cella↔figura su **due segnali**: codice figura + testo del cartello, con la posizione usata solo come spareggio debole;
+  - soglia **0.55**; in produzione vanno **solo alta/media** confidenza.
+- **Run completo sul corpus in 9 min**: **701 ritagli agganciati** (680 alta · 21 media), **924 celle scartate** come intestazioni, **1 sola pagina persa** (`CAN_030`, 2 figure).
+- `crops-raw/` **rigenerata** (i vecchi ritagli spostati in `crops-raw.old/`). Output in `naming/figure_ocr.json`.
+- ⚠️ **Buco separato da segnalare al cliente**: i **200 prodotti senza codice figura NON hanno pittogramma nel listino** → servono **foto dal fornitore**.
+
+### TODO PRIORITARIO
+1. **Validare** `naming/figure_ocr.json` contro i **611 ground truth** dei lotti 0-5 (precisione reale).
+2. Aggiornare `link_figures.py` → leggere `naming/figure_ocr.json` e **filtrare la bassa confidenza**.
+3. **Applicare a Woo**: `apply_images.php` (immagini + nomi prodotti).
+4. Commit + push (documentare dipendenze: `rapidocr-onnxruntime`, `scipy`).
+5. Segnalare al cliente il buco dei 200 prodotti senza pittogramma.
 
 ---
 

@@ -30,7 +30,7 @@ require_once ABSPATH . 'wp-admin/includes/image.php';
 require_once ABSPATH . 'wp-admin/includes/file.php';
 require_once ABSPATH . 'wp-admin/includes/media.php';
 
-$img_ok = $nome_ok = $saltati = $errori = 0;
+$img_ok = $nome_ok = $saltati = $errori = $sostituiti = 0;
 
 foreach ( $voci as $v ) {
 	$sku = (string) ( $v['sku'] ?? '' );
@@ -42,30 +42,55 @@ foreach ( $voci as $v ) {
 	if ( ! $product ) { $saltati++; continue; }
 
 	// ─── nome ────────────────────────────────────────────────────────────────
-	// Solo se il prodotto ha ancora il nome di ripiego ("… — FIG. 12"): un nome
-	// vero, letto dalla tabella del listino, non va sovrascritto da uno dedotto
-	// guardando il disegno.
+	// Il nome viene allineato a quello del catalogo, senza aggiungerci nulla.
+	//
+	// La versione precedente ci appiccicava in coda "— FIG. <codice>", perché il nome
+	// arrivava da una lettura a vista del disegno e il codice andava rimesso. Adesso arriva
+	// da out/prodotti.json, cioè dalla stessa fonte che ha battezzato il prodotto durante
+	// l'import — e il codice figura, dov'è previsto, è già dentro. Riappenderlo produceva
+	// "Segnale di divieto — FIG. 73 — FIG. 73".
+	//
+	// Riallineare e basta ripara anche i nomi già raddoppiati dalle passate precedenti.
 	$nome_nuovo = trim( (string) ( $v['nome'] ?? '' ) );
-	$ha_ripiego = (bool) preg_match( '/ — FIG\. /u', $product->get_name() );
 
-	if ( ! $dry && $nome_nuovo && $ha_ripiego ) {
-		$fig = trim( (string) ( $v['figura'] ?? '' ) );
-		$product->set_name( $fig ? sprintf( '%s — FIG. %s', $nome_nuovo, $fig ) : $nome_nuovo );
-		$product->save();
-		$nome_ok++;
-	} elseif ( $nome_nuovo && $ha_ripiego ) {
+	if ( $nome_nuovo && $nome_nuovo !== $product->get_name() ) {
+		if ( ! $dry ) {
+			$product->set_name( $nome_nuovo );
+			$product->save();
+		}
 		$nome_ok++;
 	}
 
 	// ─── immagine ────────────────────────────────────────────────────────────
-	if ( $product->get_image_id() ) { continue; }   // già assegnata
+	// Su ogni prodotto resta scritto QUALE ritaglio gli è stato applicato. Serve a far
+	// convergere lo script quando la mappatura cambia: la versione precedente si limitava
+	// a saltare i prodotti che avevano già un'immagine, così un prodotto a cui l'aggancio
+	// posizionale aveva messo il cartello sbagliato se lo sarebbe tenuto per sempre —
+	// proprio i casi che il nuovo aggancio serve a correggere.
+	$nome_file = (string) ( $v['file'] ?? '' );
+	$applicato = (string) get_post_meta( $pid, '_ms_figura_file', true );
+	$img_id    = $product->get_image_id();
 
-	$file = $base . '/figures/' . ( $v['file'] ?? '' );
-	if ( ! $file || ! file_exists( $file ) ) { $saltati++; continue; }
+	if ( $img_id && $applicato === $nome_file ) { continue; }   // già quella giusta
+
+	$file = $base . '/figures/' . $nome_file;
+	if ( ! $nome_file || ! file_exists( $file ) ) { $saltati++; continue; }
 
 	if ( $dry ) { $img_ok++; continue; }
 
 	try {
+		// L'immagine vecchia va rimossa, non lasciata orfana in libreria. Si cancella solo
+		// se è figlia di questo prodotto, cioè se l'abbiamo caricata noi: un'immagine
+		// caricata a mano dal cliente non è nostra da buttare.
+		if ( $img_id ) {
+			$att = get_post( $img_id );
+			if ( $att && (int) $att->post_parent === (int) $pid ) {
+				wp_delete_attachment( $img_id, true );
+			}
+			$product->set_image_id( 0 );
+			$sostituiti++;
+		}
+
 		$tmp = wp_tempnam( basename( $file ) );
 		copy( $file, $tmp );
 
@@ -83,6 +108,7 @@ foreach ( $voci as $v ) {
 		update_post_meta( $att_id, '_wp_attachment_image_alt', $product->get_name() );
 		$product->set_image_id( $att_id );
 		$product->save();
+		update_post_meta( $pid, '_ms_figura_file', $nome_file );
 		$img_ok++;
 	} catch ( Throwable $e ) {
 		$errori++;
@@ -97,6 +123,6 @@ foreach ( $voci as $v ) {
 if ( ! $dry ) { wc_delete_product_transients(); }
 
 WP_CLI::success( sprintf(
-	'%d immagini · %d nomi aggiornati · %d saltati · %d errori',
-	$img_ok, $nome_ok, $saltati, $errori
+	'%d immagini (%d sostituite) · %d nomi aggiornati · %d saltati · %d errori',
+	$img_ok, $sostituiti, $nome_ok, $saltati, $errori
 ) );

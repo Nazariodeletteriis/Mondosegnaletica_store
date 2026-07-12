@@ -34,3 +34,31 @@ DA CHIEDERE AL FORNITORE: esiste una versione del listino cantieristica con i pr
 | 6 | GOM | Tutte le pagine listino | Nota a piè pagina: **"per quantità inferiori a quelle sopra riportate aumento del 10%"**. C'è quindi una quantità minima d'ordine con maggiorazione. Oggi lo store NON la gestisce. |
 | 7 | ORI | 5 articoli | Macchine tracciatinee, vernice spartitraffico, diluente: prezzo = **"CHIEDERE PREVENTIVO"**. Vanno a catalogo senza prezzo, con CTA preventivo. |
 | 8 | GOM | 5 articoli | Passaggi pedonali rialzati mod. A-E: **"CHIEDERE PREVENTIVO"**. Idem. |
+| 9 | CAN | pag. 32 | La cella CODICE contiene **tre codici in una riga sola** (`2200TRATPSF07 (senza fascia) / 2200TRATPMO07 (CL. 1) / 2200TRATBI008 (CL. 2)`). Quella stringa è finita a fare da SKU **e** da nome del prodotto. Vanno separati in tre articoli. |
+| 10 | CAN | pag. 32 | Due cartelli diversi — una transenna e un New Jersey — sono battezzati **entrambi FIG. A**. Il codice non li distingue, quindi nessuno dei due riceve immagine (scelta di sicurezza). Serve un codice figura distinto. |
+
+## Immagini prodotto: cosa manca e perché
+
+Copertura attuale: **610 prodotti su 1.236 hanno l'immagine del proprio cartello**, ritagliata
+dal listino e agganciata leggendo la didascalia dentro il ritaglio (`figure_ocr.py`, 99,4%
+di esattezza misurata). I 626 senza immagine si dividono in due gruppi, e solo uno dei due
+possiamo chiuderlo da soli.
+
+**A) 200 prodotti: nel listino non esiste proprio un pittogramma.** Non è un difetto della
+pipeline — quelle pagine hanno solo tabelle. Servono **fotografie dal fornitore**:
+
+| Quanti | Categoria |
+|---|---|
+| 77 | Cantieristica (segnaletica temporanea, cavalletti) |
+| 72 | Segnaletica Verticale (pannelli integrativi, passo carrabile) |
+| 29 | Dissuasori e Accessori |
+| 14 | Segnaletica Orizzontale |
+| 8 | Coni e Transenne |
+
+**B) ~426 prodotti: hanno un codice figura, ma il ritaglio non arriva.** Cause note:
+- pagine **VER 26-28 assenti da `extract/`**: l'estrazione non è mai stata committata, quindi
+  33 SKU del catalogo non sono più ricostruibili dallo script (oggi vengono conservati dal
+  file precedente, vedi il guard-rail in `normalize.py`). **Vanno riestratte.**
+- `part_d.json` (VER 22-24) è marcato `type: "altro"` invece di `listino`: le sue 126 figure
+  non entrano nell'import.
+- `CAN_030`: la pagina non espone celle vettoriali, 2 figure non ritagliabili.
