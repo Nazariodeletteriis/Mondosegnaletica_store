@@ -137,36 +137,61 @@ while ( have_posts() ) :
 				</p>
 				<?php endif; ?>
 
-				<!-- Prezzo -->
-				<div class="pdp-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-					<span class="pdp-price__amount"><?php echo esc_html( ms_format_price( $price ) ); ?></span>
-					<span class="pdp-price__label">IVA ESCLUSA · PER UNITÀ</span>
-					<meta itemprop="price" content="<?php echo esc_attr( $price ); ?>">
-					<meta itemprop="priceCurrency" content="EUR">
-					<link itemprop="availability" href="<?php echo $product->is_in_stock() ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock'; ?>">
-				</div>
-
-				<!-- Tabella sconti quantità B2B -->
 				<?php
-				ms_get_template_part( 'template-parts/product/quantity-table', [
-					'product'    => $product,
-					'base_price' => $price,
-				] );
+				// Parte del catalogo non ha prezzo: il listino del fornitore stampa
+				// "CHIEDERE PREVENTIVO", oppure la cella prezzo è vuota alla fonte.
+				// Senza prezzo il prodotto non è acquistabile: niente carrello finto a
+				// € 0,00, il preventivo diventa l'azione principale.
+				$ha_prezzo = '' !== (string) $price && (float) $price > 0;
 				?>
 
-				<!-- WooCommerce: variazioni + add-to-cart -->
-				<div class="pdp-cart-block">
-					<span class="pdp-cart-block__qty-label">QUANTITÀ</span>
-					<?php woocommerce_template_single_add_to_cart(); ?>
-				</div>
+				<?php if ( $ha_prezzo ) : ?>
 
-				<!-- CTA preventivo -->
-				<a
-					href="<?php echo esc_url( home_url( '/contatti?prodotto=' . urlencode( $name ) . '&sku=' . urlencode( $sku ) ) ); ?>"
-					class="pdp-quote-btn"
-				>
-					RICHIEDI PREVENTIVO PER QUANTITÀ
-				</a>
+					<!-- Prezzo -->
+					<div class="pdp-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+						<span class="pdp-price__amount"><?php echo esc_html( ms_format_price( $price ) ); ?></span>
+						<span class="pdp-price__label">IVA ESCLUSA · PER UNITÀ</span>
+						<meta itemprop="price" content="<?php echo esc_attr( $price ); ?>">
+						<meta itemprop="priceCurrency" content="EUR">
+						<link itemprop="availability" href="<?php echo $product->is_in_stock() ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock'; ?>">
+					</div>
+
+					<!-- Sconti quantità: mostrati solo se il prodotto ha fasce reali -->
+					<?php
+					ms_get_template_part( 'template-parts/product/quantity-table', [
+						'product'    => $product,
+						'base_price' => $price,
+					] );
+					?>
+
+					<!-- WooCommerce: variazioni + add-to-cart -->
+					<div class="pdp-cart-block">
+						<span class="pdp-cart-block__qty-label">QUANTITÀ</span>
+						<?php woocommerce_template_single_add_to_cart(); ?>
+					</div>
+
+					<a
+						href="<?php echo esc_url( home_url( '/richiedi-preventivo?prodotto=' . urlencode( $name ) . '&sku=' . urlencode( $sku ) ) ); ?>"
+						class="pdp-quote-btn"
+					>
+						RICHIEDI PREVENTIVO PER QUANTITÀ
+					</a>
+
+				<?php else : ?>
+
+					<div class="pdp-price pdp-price--on-request">
+						<span class="pdp-price__amount">PREZZO SU RICHIESTA</span>
+						<span class="pdp-price__label">Articolo quotato a preventivo · IVA esclusa</span>
+					</div>
+
+					<a
+						href="<?php echo esc_url( home_url( '/richiedi-preventivo?prodotto=' . urlencode( $name ) . '&sku=' . urlencode( $sku ) ) ); ?>"
+						class="pdp-quote-btn pdp-quote-btn--primary"
+					>
+						RICHIEDI PREVENTIVO
+					</a>
+
+				<?php endif; ?>
 
 				<!-- Trust indicator -->
 				<div class="pdp-trust" role="status">

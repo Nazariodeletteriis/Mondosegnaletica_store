@@ -152,21 +152,26 @@ function ms_display_b2b_fields_in_admin( \WC_Order $order ): void {
 //    Formato: [ ['min'=>1,'max'=>9,'pct'=>0], ['min'=>10,'max'=>49,'pct'=>5], ... ]
 // ─────────────────────────────────────────────
 
+/**
+ * Fasce di sconto quantità del prodotto.
+ *
+ * NESSUN default. Le fasce esistono solo se il prodotto le dichiara nel meta
+ * _ms_qty_discounts. Prima qui c'era un default hardcodato (−10% da 10 pz, −20% da
+ * 50 pz) applicato a TUTTO il catalogo: la scheda prodotto prometteva uno sconto che
+ * il listino del fornitore non prevede, e il carrello mostrava il prezzo unitario
+ * scontato mentre il totale veniva calcolato a prezzo pieno. Promessa non mantenuta
+ * e importo incoerente.
+ *
+ * Quando il cliente definirà fasce reali, vanno scritte nel meta per prodotto e va
+ * agganciato anche woocommerce_before_calculate_totals — senza quello lo sconto
+ * resta puramente grafico e non tocca l'importo davvero addebitato.
+ */
 function ms_get_qty_discounts( int $product_id ): array {
 	$stored = get_post_meta( $product_id, '_ms_qty_discounts', true );
-	if ( is_array( $stored ) && ! empty( $stored ) ) {
-		return $stored;
-	}
-
-	// Default fasce B2B standard (3 tier)
-	return [
-		[ 'min' => 1,  'max' => 9,    'pct' => 0  ],
-		[ 'min' => 10, 'max' => 49,   'pct' => 10 ],
-		[ 'min' => 50, 'max' => null, 'pct' => 20 ],
-	];
+	return ( is_array( $stored ) && ! empty( $stored ) ) ? $stored : [];
 }
 
-// Applica sconto al prezzo nel carrello in base alla quantità
+// Prezzo unitario a carrello: mostra lo sconto SOLO se il prodotto ha fasce reali.
 add_filter( 'woocommerce_cart_item_price', 'ms_apply_qty_discount_cart', 10, 3 );
 function ms_apply_qty_discount_cart( string $price_html, array $cart_item, string $cart_item_key ): string {
 	$product_id = $cart_item['product_id'];
@@ -175,7 +180,9 @@ function ms_apply_qty_discount_cart( string $price_html, array $cart_item, strin
 
 	if ( ! $product instanceof \WC_Product ) return $price_html;
 
-	$tiers     = ms_get_qty_discounts( $product_id );
+	$tiers = ms_get_qty_discounts( $product_id );
+	if ( ! $tiers ) return $price_html;
+
 	$base_price = (float) $product->get_price();
 
 	foreach ( $tiers as $tier ) {

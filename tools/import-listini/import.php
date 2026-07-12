@@ -47,24 +47,31 @@ $ATTR_TAX = [
 	'Variante'           => 'pa_formato',
 ];
 
-/** Restituisce lo slug del termine, creandolo se non esiste. */
-function ms_term( string $taxonomy, string $name ): ?string {
+/**
+ * Termine dell'attributo: [ term_id, slug ]. Lo crea se non esiste.
+ *
+ * Servono entrambi, e non sono intercambiabili:
+ *  - il PRODOTTO vuole gli ID nei set_options(): passare gli slug fa sì che
+ *    wp_set_object_terms() li interpreti come NOMI e crei termini duplicati
+ *    (name="60x90-cm", slug="60x90-cm-2"), lasciando il menu varianti vuoto;
+ *  - la VARIAZIONE vuole invece lo slug nel meta attribute_pa_*.
+ */
+function ms_term( string $taxonomy, string $name ): ?array {
 	static $cache = [];
 	$key = $taxonomy . '|' . $name;
-	if ( isset( $cache[ $key ] ) ) { return $cache[ $key ]; }
+	if ( array_key_exists( $key, $cache ) ) { return $cache[ $key ]; }
 
 	$term = get_term_by( 'name', $name, $taxonomy );
 	if ( ! $term ) {
 		$res = wp_insert_term( $name, $taxonomy );
 		if ( is_wp_error( $res ) ) {
-			// race o nome duplicato: ripesca
 			$term = get_term_by( 'name', $name, $taxonomy );
 			if ( ! $term ) { return $cache[ $key ] = null; }
 		} else {
 			$term = get_term( $res['term_id'], $taxonomy );
 		}
 	}
-	return $cache[ $key ] = $term->slug;
+	return $cache[ $key ] = [ 'id' => (int) $term->term_id, 'slug' => $term->slug ];
 }
 
 /** term_id della categoria prodotto (devono già esistere). */
@@ -136,23 +143,23 @@ foreach ( $prodotti as $sku => $p ) {
 		$cat_id = ms_cat_id( (string) $p['cat'] );
 		if ( $cat_id ) { $product->set_category_ids( [ $cat_id ] ); }
 
-		// ─── attributi ──────────────────────────────────────────────────────
-		$valori = []; // taxonomy → [slug]
+		// ─── attributi (il prodotto vuole gli ID dei termini) ────────────────
+		$valori = []; // taxonomy → [ term_id ]
 		foreach ( $varianti as $v ) {
 			foreach ( $v['attrs'] as $nome_attr => $valore ) {
 				$tax = $ATTR_TAX[ $nome_attr ] ?? null;
 				if ( ! $tax || '' === trim( (string) $valore ) ) { continue; }
-				$slug = ms_term( $tax, (string) $valore );
-				if ( $slug ) { $valori[ $tax ][ $slug ] = true; }
+				$t = ms_term( $tax, (string) $valore );
+				if ( $t ) { $valori[ $tax ][ $t['id'] ] = true; }
 			}
 		}
 
 		$attributes = [];
-		foreach ( $valori as $tax => $slugs ) {
+		foreach ( $valori as $tax => $ids ) {
 			$a = new WC_Product_Attribute();
 			$a->set_id( wc_attribute_taxonomy_id_by_name( $tax ) );
 			$a->set_name( $tax );
-			$a->set_options( array_keys( $slugs ) );
+			$a->set_options( array_map( 'intval', array_keys( $ids ) ) );
 			$a->set_visible( true );
 			$a->set_variation( $is_variable );
 			$attributes[] = $a;
@@ -180,12 +187,13 @@ foreach ( $prodotti as $sku => $p ) {
 				$var->set_parent_id( $pid );
 				$var->set_status( 'publish' );
 
+				// La variazione, al contrario del prodotto, vuole lo SLUG del termine.
 				$attr_var = [];
 				foreach ( $v['attrs'] as $nome_attr => $valore ) {
 					$tax = $ATTR_TAX[ $nome_attr ] ?? null;
 					if ( ! $tax ) { continue; }
-					$slug = ms_term( $tax, (string) $valore );
-					if ( $slug ) { $attr_var[ $tax ] = $slug; }
+					$t = ms_term( $tax, (string) $valore );
+					if ( $t ) { $attr_var[ $tax ] = $t['slug']; }
 				}
 				if ( ! $attr_var ) { continue; }
 

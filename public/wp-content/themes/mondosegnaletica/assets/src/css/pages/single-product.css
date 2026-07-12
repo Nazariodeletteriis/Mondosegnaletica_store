@@ -896,3 +896,30 @@ button.single_add_to_cart_button:hover {
 		transition: none !important;
 	}
 }
+
+/* --- Prodotti senza prezzo a listino (il fornitore quota a preventivo) --- */
+
+.pdp-price--on-request .pdp-price__amount {
+	font-size: clamp(28px, 3vw, 40px);
+	letter-spacing: 0.02em;
+	color: var(--color-accent);
+}
+
+.pdp-price--on-request .pdp-price__label {
+	color: var(--color-text-muted, rgba(245, 244, 240, 0.6));
+}
+
+/* Senza prezzo il preventivo non è la CTA secondaria: è l'unica azione possibile */
+.pdp-quote-btn--primary {
+	background: var(--color-accent);
+	color: var(--color-bg);
+	border-color: var(--color-accent);
+	font-weight: 600;
+}
+
+.pdp-quote-btn--primary:hover,
+.pdp-quote-btn--primary:focus-visible {
+	background: var(--color-text);
+	border-color: var(--color-text);
+	color: var(--color-bg);
+}
