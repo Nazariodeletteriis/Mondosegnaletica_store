@@ -1,37 +1,55 @@
 # HANDOFF — Mondo Segnaletica
 > Sessione 26.05.2026 (6ª) — Akille. Leggi solo questo per riprendere.
 
-## 🟢 2026-07-12 (8ª) — Fix massivo pre-completamento sito: italianizzazione, link morti, carrello/cassa sbloccati. IN CORSO.
+## 🟢 2026-07-12 (8ª) — Fix massivo pre-completamento: italianizzazione, carrello/cassa sbloccati, 123 prodotti resi acquistabili, IVA attivata. COMPLETATA E PUSHATA.
 
-> ⚠️ **NON COMMITTARE** all'apertura sessione: 3 agenti erano ancora in esecuzione in background a fine sessione 8. Raccogliere prima i loro output.
+**Commit `f6d0fd0` + `13e4b11` su `origin/main`. Working tree pulito.**
+Verifica finale: 19 URL testati — status corretti, 0 errori PHP, `<div>` bilanciati.
 
-**FATTO E VERIFICATO** (commit `f6d0fd0` + modifiche pendenti non committate):
+### Localizzazione
+`WPLANG` era `en_US` → `it_IT` + language pack WooCommerce, timezone `Europe/Rome`, formato data `d/m/Y`, valuta € `left_space`. Slug italianizzati: `/negozio/` `/carrello/` `/cassa/` `/mio-account/` `/prodotto/` `/categoria-prodotto/`.
 
-- **Italianizzazione**: `WPLANG` era `en_US` → `it_IT` + language pack WooCommerce, timezone `Europe/Rome`, formato data `d/m/Y`. Slug URL da inglesi a italiani: `/negozio/` `/carrello/` `/cassa/` `/mio-account/` `/prodotto/` `/categoria-prodotto/` (via `woocommerce_permalinks` + `post_name` pagine 6,7,8,9 + rewrite flush). Tutti verificati 200.
-- **13 link morti** in header/footer: le pagine non esistevano. Create e pubblicate: `contatti`(1102) `azienda`(1103) `soluzioni`(1104) `cantieri`(1105) `richiedi-preventivo`(1106) `faq`(1107) `spedizioni`(1108) `download`(1109) `cookie-policy`(1110). Tutte 200.
-- **BLOCCANTE risolto**: Carrello(7) e Cassa(8) erano pagine a **blocchi Gutenberg** → i template PHP override del tema non venivano MAI eseguiti, il sito serviva la UI React chiara di WooCommerce su fondo nero. Convertiti a shortcode `[woocommerce_cart]` / `[woocommerce_checkout]` / `[woocommerce_my_account]`.
-- **Hero** (commit `f6d0fd0`): parallax riscritto da `object-position` fuori range (-60%→60%, scopriva banda vuota + repaint a ogni scroll) a `transform: translate3d` dentro il margine di `scale(1.12)`. Ripristinato guard `prefers-reduced-motion`.
-- **.gitignore**: `assets/images/` del tema era ignorato → `hero-bg.webp` e favicon NON versionati, il deploy sarebbe uscito senza hero. Ora è escluso solo `hero-bg.png` (1.9MB sorgente).
-- **enqueue.php + vite.config.js**: `woo-custom.js` aggiunto agli entry Vite (era servito raw da `src/`, non minificato).
-- **header.php + base.css**: skip-link + `.screen-reader-text` (mancavano del tutto).
-- **categories.php**: i conteggi categoria cadevano su numeri **finti** del brief (412, 156…) se un termine aveva 0 prodotti. Ora usa solo dati reali e salta le categorie inesistenti.
-- **solutions.php**: link categoria puntavano a `/negozio/cantieristica` (404) → ora `get_term_link()` reale.
-- **archive.css**: `.archive-main { min-width: 0 }` (la griglia sfondava la colonna).
-- **archive-product.php**: fallback `/shop/` → `/negozio/`.
+### BLOCCANTE risolto
+Carrello(7) e Cassa(8) erano pagine a **blocchi Gutenberg**: i template PHP override del tema non venivano MAI eseguiti, il sito serviva la UI React chiara di WooCommerce su fondo nero. Convertite a shortcode `[woocommerce_cart]` / `[woocommerce_checkout]` / `[woocommerce_my_account]`. Da lì tutto il resto è diventato correggibile.
 
-**Falsi positivi dell'audit** (nessun fix necessario): `.carousel-btn` È definito (home.css:736); `.archive-main` funziona come grid child.
+### Tema (commit `13e4b11`)
+- `cart.php`: classi WC standard, link "rimuovi articolo" (prima si svuotava solo con qty 0), "Aggiorna carrello" che era morto, CTA preventivo
+- `cart-empty.php` nuovo; `form-checkout.php` gate invertito corretto + grid inline rimossa
+- `myaccount/`: 6 override (era il default WC — form bianco su sito nero)
+- `get_header()`/`get_footer()` nei template WC chiudevano `</body></html>` **prima** di `</main>`: documento malformato su ogni pagina WC. Risolto.
+- `page.php`: rimossa `.tab-panel__content` (classe mai definita nel CSS)
+- `search.php`: bug DOM, `</div>` orfano con 0 risultati
+- Form contatti/preventivo: nonce + honeypot + Post/Redirect/Get. **Il consenso privacy era required SOLO lato browser, mai validato sul server** → un POST diretto lo saltava. Chiuso.
+- skip-link + `.screen-reader-text` (non esistevano); `quantity.js` delega su `document` (gli stepper morivano dopo l'AJAX del carrello); `woo-custom.js` negli entry Vite
+- `categories.php`: i conteggi cadevano sui numeri **stimati** del brief (412, 156…) se una categoria aveva 0 prodotti → ora solo dati reali
+- `solutions.php`: link categoria puntavano a `/negozio/<slug>` = 404 → `get_term_link()`
+- `archive.css` `.archive-main { min-width: 0 }`; `404.php` flex-wrap
+- Hero (`f6d0fd0`): parallax da `object-position` fuori range a `transform: translate3d` dentro il margine di `scale(1.12)` + guard `prefers-reduced-motion`; `.gitignore` non versionava più `hero-bg.webp`
 
-**IN CORSO — 3 agenti lanciati in background** (output da raccogliere):
-1. **akille** — carrello + checkout: template PHP + `cart.css`/`checkout.css` in-brand (gate checkout invertito, tabella senza classi responsive, manca link "rimuovi articolo", grid inline)
-2. **akille** — My Account (default WC bianco su sito nero) + `page.php` (`.tab-panel__content` inesistente) + `search.php` (bug DOM div orfano) + 404 flex-wrap + contenuti delle 9 pagine nuove
-3. **arrotino** — 5 prodotti NON ACQUISTABILI (dropdown varianti vuoto: ID 74, 78, 82, 86 `pa_dimensione` custom senza value; ID 381 `pa_taglia` senza termini) + attivare **IVA 22%** (`woocommerce_calc_taxes=no` su un e-commerce B2B!) + 29 variable con 1 sola variazione da convertire a simple + 4 prodotti senza immagine (744, 745, 747, 14)
+### Dati WooCommerce (nel DB, NON nel repo — backup pre-fix: `/tmp/pre-fix-backup.sql.gz`)
+- **123 prodotti** (non 5!) avevano il **dropdown varianti VUOTO = non acquistabili**. Causa: l'importer creava UN solo termine il cui nome era la lista pipe-joined (`"Maschio|Femmina"`) invece di N termini; le variazioni puntavano agli slug singoli. Fix: 170 termini creati, 4 attributi custom→tassonomia, 8 meta variazione riallineati. Verificato: **0 dropdown vuoti**.
+- **IVA ATTIVATA**: `calc_taxes=yes`, aliquota IT 22% standard. Carrello reale: Subtotale € 37,80 → IVA 22% € 8,32 → Totale € 46,12. Prezzi IVA esclusa, IVA voce separata (corretto B2B).
+- 29 variable con 1 sola variazione → convertiti a simple (variable 151→122, simple 64→93). Nessuno SKU toccato.
+- `Uncategorized` eliminata (WC la ricrea da sola al prossimo update, è by design)
+- Attivato `woocommerce_enable_myaccount_registration=yes` (senza, la colonna registrazione non esisteva)
+- 9 pagine create e riempite: `contatti`(1102) `azienda`(1103) `soluzioni`(1104) `cantieri`(1105) `richiedi-preventivo`(1106) `faq`(1107) `spedizioni`(1108) `download`(1109) `cookie-policy`(1110)
+
+### ⚠️ Nota Git
+Il push era fallito **403**: ci sono **due account `gh`** configurati e quello attivo (`nazariodeletteriis-it`) non ha permessi. Risolto con `gh auth switch --user Nazariodeletteriis`. Se ricapita, è quello.
+
+### 🔵 DECISIONI APERTE PER L'UTENTE (nessuna bloccante per il funzionamento)
+1. **34 prodotti "senza attributi" NON sono incompleti**: sono un **primo import superato**. Hanno SKU legacy (`MS-VRT-*`, `MS-CON-*`, `MS-DLP-*`) e sono duplicati del CSV più recente — #92≡#86 (100%), #35≡#775 (100%), #72≡#318 (83%), #29≡#720 (80%), coni #154-160 ≡ #682-687, cavalletti #110-116 ≡ varianti di #838. **Nulla è stato cancellato.** Decidere dedupe/merge — probabilmente risolve anche il punto 3.
+2. **4 prodotti senza immagine** (744, 745, 747, 14): la colonna immagine del CSV è **vuota all'origine**. Nessuna immagine assegnata (i candidati in media library sono di altri prodotti).
+3. **SKU**: 185/215 fuori dallo schema dichiarato `MS-XXX-XXX-NNN`.
+4. **Stock non gestito su NESSUN prodotto** (`_manage_stock=no` ovunque) → i 3 stati del design (verde Disponibile / giallo Limitata / rosso Esaurito) non si attivano mai: tutto è sempre "Disponibile".
+5. **Dati societari** nelle pagine nuove: REA/PEC/SDI e condizioni di reso sono **segnaposto espliciti**, da validare col cliente.
 
 ### TODO PRIORITARIO
-1. Raccogliere gli output dei 3 agenti background, build Vite, verifica end-to-end, **COMMIT** (nulla è committato oltre `f6d0fd0`)
-2. Homepage: allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
-3. Import prodotti nelle 3 categorie vuote (Sicurezza 107, Aziendale 108, ADR 110)
-4. SKU: 185/215 fuori dallo schema `MS-XXX-XXX-NNN` (non bloccante — decisione utente)
-5. Stock non gestito su nessun prodotto: i 3 stati del design (verde/giallo/rosso) non si attivano mai
+1. **Homepage**: allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad` (unica area funzionale rimasta)
+2. Import prodotti nelle 3 categorie vuote (Sicurezza 107, Aziendale 108, ADR 110)
+3. Prendere le decisioni 1-5 qui sopra
+4. **Ruotare API key Stitch** (esposta in chat il 24.05, ancora aperta)
+5. `/graphify . --update` (il grafo è stale)
 
 ---
 
