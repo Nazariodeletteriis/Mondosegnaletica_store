@@ -1,455 +1,109 @@
 # HANDOFF — Mondo Segnaletica
-> Sessione 26.05.2026 (6ª) — Akille. Leggi solo questo per riprendere.
-
-## 🟡 2026-07-12 (8ª quater) — IMPORT DEFINITIVO IN CORSO · fix importer + fix shop. IN CORSO.
-
-**Checkpoint 4. Import completo del catalogo lanciato in background (1.236 prodotti · ~35.200 variazioni · ~30-40 min).**
-
-- **BUG IMPORTER TROVATO E CORRETTO** (causa del menu varianti VUOTO su tutte le PDP del primo import): passavamo gli **slug** dei termini a `WC_Product_Attribute::set_options()`, dove WooCommerce vuole gli **ID**. `wp_set_object_terms()` li interpretava come *nomi* e creava **termini duplicati** (`name="60x90-cm"`, `slug="60x90-cm-2"`): il prodotto puntava al duplicato, le variazioni allo slug originale → nessun match. Fix: `ms_term()` ora ritorna `[id, slug]` — **prodotto usa gli ID, variazioni usano lo slug**.
-- **`wipe.php` ora azzera anche i TERMINI attributo**, non solo i post: i duplicati restavano appesi alla tassonomia e rompevano anche un re-import corretto.
-- **Verifica pre-lancio su singolo prodotto**: `MS-VER-1` → 12 option nei menu (3 dimensioni × 4 fissaggi × 2 materiali × 3 classi), prezzo € 11,00 corretto, 0 errori PHP. Solo dopo è partito l'import completo.
-- **FIX SHOP 1 — sconti quantità inventati**: il tema applicava un default hardcodato **-10% da 10pz / -20% da 50pz a TUTTO il catalogo**. L'utente ha detto esplicitamente che **sconti non ce ne sono**. Ed era pure rotto: lo sconto era **solo visuale** (filtro `woocommerce_cart_item_price`), il carrello mostrava scontato ma **addebitava il prezzo pieno**. Ora le fasce esistono solo se dichiarate nel meta `_ms_qty_discounts` del singolo prodotto.
-- **FIX SHOP 2 — 165 prodotti senza prezzo**: mostravano "€ 0,00" con carrello vuoto. Ora **"PREZZO SU RICHIESTA"** + CTA preventivo come azione principale.
-- **Commit**: `803b843` (normalizzazione), `da7048a` (fix shop + importer). Pushato tutto tranne l'ultimo stato.
-
-### TODO PRIORITARIO
-1. **Verifica store end-to-end** a import finito: PDP varianti, add-to-cart reale, carrello, IVA, prodotto a preventivo, listing, filtri.
-2. **Riaggancio immagini + nomi per CODICE** (non per posizione): leggere la didascalia `FIGURA xx` **dentro** ognuno dei 712 crop (`scratchpad/figures/`), poi update per SKU. L'aggancio per posizione è **inaffidabile** — confermato da 4 agenti indipendenti (il crop dato per FIG.42 stampa "FIGURA 45"; su alcune pagine il rilevatore prende le celle di intestazione tabella come cartelli). I nomi già prodotti (`scratchpad/naming/nomi_1..4.json`, 275 cartelli) **NON sono affidabili** finché non si rifà l'aggancio. → **fare con subagenti in batch da ~100 crop**, non nel main context.
-3. **Anomalie fornitore da portare al cliente** (`tools/import-listini/ANOMALIE.md`): celle prezzo VUOTE nel PDF Cantieristica, SKU duplicati, codice con due prezzi diversi, ~190 "chiedere preventivo".
-4. **Categorie vuote**: Segnaletica di Sicurezza, Aziendale, ADR = **0 prodotti** (i listini non le coprono). Decidere con il cliente: rimuoverle o riempirle.
+> Stato al **2026-07-12** (sessione 9). **Leggi SOLO questo file per ripartire.** Tutto lo storico precedente è superato e rimosso.
 
 ---
 
-## 🟡 2026-07-12 (8ª ter) — [SUPERATO dal checkpoint 4 qui sopra] ESTRAZIONE COMPLETATA · IMPORT IN PARTENZA.
+## ⛔ ERRORE DA NON RIPETERE (letto prima di tutto)
 
-**Checkpoint 3. Tutti gli 11 agenti di estrazione visiva sono rientrati: 142 pagine lette.**
+**Ho esaurito i crediti di sessione lanciando 7 subagenti IN PARALLELO, ognuno con ~105 immagini da leggere (700+ letture immagine in un colpo).** Le immagini costano moltissimo.
 
-- **Dataset finale normalizzato**: **1.236 prodotti · 35.609 variazioni** (674 variabili · 405 semplici · 165 senza prezzo → a preventivo).
-  Categorie: Verticale 518 · Dissuasori&Accessori 307 · Cantieristica 246 · Orizzontale 68 · Coni&Transenne 63 · Delineatori 34.
-- **BUG GRAVE trovato e corretto**: il normalizzatore collassava righe diverse sulla stessa variante e **perdeva 1.933 prezzi** (stessa dimensione ma prezzo diverso perché cambiavano n. attacchi/rinforzi, o il dato distintivo stava nella nota libera). Aggiunti attributi **Fissaggio** e **Versione** + disambiguazione dalle note → prezzi persi **da 1.933 a 39**. Gli ultimi 8 prodotti con conflitto irrisolvibile vanno **a preventivo** invece di mostrare un prezzo a caso (`out/prezzo_conflitto.json`).
-- **IMMAGINI E NOMI SOSPESI (decisione motivata)**: il ritaglio delle figure è agganciato **per posizione** (n-esima cella = n-esima figura) e l'aggancio è **inaffidabile** — il rilevatore prende celle di intestazione tabella ("ARTICOLO", "DIMENSIONE") come se fossero cartelli e l'ordine slitta. Verificato: il crop dato per FIG.42 stampa "FIGURA 45". 3 agenti di naming su 4 hanno confermato lo sfasamento (VER 16, 31, 32, 37, 46). → **Import senza immagini**, nomi di ripiego onesti ("Segnale di pericolo — FIG. 1"). I nomi in `scratchpad/naming/nomi_1..4.json` **non sono affidabili** finché non si rifà l'aggancio.
-- **Preparato il terreno import**: creati attributi WC `pa_materiale`(6), `pa_fissaggio`(7), `pa_versione`(8). I 215 prodotti vecchi **archiviati in DRAFT** (reversibile, non cancellati). Backup DB `backups/pre-import-listini-20260712-1019.sql.gz`. **Zero collisioni SKU** verificate.
-- **In esecuzione ora**: smoke test import di 3 prodotti → poi import completo (~37k save, stimati 30-60 min).
+Gerry monitora il **contesto della finestra** (era al 45%, ampio) — **NON i crediti di sessione**. Sono due cose diverse: il contesto può essere vuoto mentre i crediti sono finiti.
 
-### TODO PRIORITARIO
-1. **Smoke test 3 prodotti**, poi lanciare `tools/import-listini/import.php` completo e verificare a campione in WooCommerce (varianti, prezzi, prodotti a preventivo).
-2. **Rifare l'aggancio immagini+nomi per CODICE, non per posizione**: leggere la didascalia "FIGURA xx" **dentro** ognuno dei 712 crop (`scratchpad/figures/`), poi update per SKU. È il blocco che sblocca immagini e nomi reali.
-3. Chiudere le **anomalie fornitore** (`ANOMALIE.md`): celle prezzo vuote nel PDF Cantieristica (confermate a 400dpi), SKU duplicati `1200PRCPB0001`≡`1200PRCPG0001`, codice `1200TR0010100` a due prezzi (1,20 / 1,50), refusi codici ORI, ~190 articoli "CHIEDERE PREVENTIVO".
-4. Decidere se conservare lo scratchpad (`pages/` 142 PNG, `figures/` 712 crop, `naming/`) — **non è nel repo**, va spostato se serve.
-
-**File chiave (già committati, `b621341`)**: `tools/import-listini/{extract/, normalize.py, crop_figures.py, import.php, SPEC.md, ANOMALIE.md, out/prodotti.json, out/prezzo_conflitto.json}`
+**REGOLA**: letture massive di immagini **a scaglioni, max 2 agenti alla volta**. Mai tutte insieme.
 
 ---
 
-## 🟡 2026-07-12 (8ª bis) — [SUPERATO dal checkpoint 3 qui sopra] Import catalogo reale — checkpoint a metà.
+## ✅ STATO: LO STORE FUNZIONA
 
-**Fase attiva: estrazione visiva dai 5 listini ufficiali. Nessun commit di questa fase — lavoro in scratchpad.**
+- Sito: **http://mondosegnaletica.ddev.site** — admin / `Admin1234!`
+- Ultimo commit pushato: **`922c400`** · working tree pulito
 
-### Cosa è cambiato rispetto al piano
-- I 5 PDF sono in `/var/www/Mondosegnaletica_store/Prodotti/` (46 MB, **in `.gitignore` riga 83** — il drive `F:` non era montato, li abbiamo messi nel repo). VERTICALE 56 pag · CANTIERISTICA 38 · ACCESSORI VARI 26 · GOMMA 12 · ORIZZONTALE 10 = **142 pagine**.
-- **I PDF non hanno layer di testo**: 23.126 immagini embedded, **0 caratteri estraibili**. `pdftotext` inutile, vanno letti **visivamente** pagina per pagina. `poppler-utils` non installabile (sudo non passa in shell non interattiva) → si usa **PyMuPDF in venv** nello scratchpad.
-- 142 pagine già renderizzate in PNG @150 DPI in `scratchpad/pages/`.
-- Backup DB pre-import: `/var/www/Mondosegnaletica_store/backups/pre-import-listini-20260712-1019.sql.gz`
+### Catalogo reale importato dai 5 listini PDF del fornitore
+- **1.236 prodotti · 35.209 variazioni · 0 errori**
+- 674 variabili · 405 semplici · **165 senza prezzo** → CTA "Prezzo su richiesta" + preventivo
+- Categorie: Verticale 518 · Dissuasori&Accessori 307 · Cantieristica 246 · Orizzontale 68 · Coni&Transenne 63 · Delineatori 34
+- Attributi varianti: **Dimensione × Materiale × Classe rifrangenza × Fissaggio × Versione**
+- **302 prodotti con immagine** · 174 rinominati dal pittogramma
 
-### Struttura dati dei listini (scoperta chiave)
-Ogni pagina contiene: **(1)** una griglia di **FIGURE** (il singolo segnale, es. `FIGURA 74/B — sosta vietata`) e **(2)** una **tabella prezzi per FORMATO**, con incroci `dimensione × materiale (Lamiera 10/10 | Alluminio 25/10) × classe rifrangenza (CL1 | CL2 | CL2 S.)`.
-→ **Il prezzo non è per cartello, è per formato.**
-
-### Decisioni prese dall'utente (vincolanti)
-1. **Modello dati**: un prodotto **per FIGURA**, con varianti `dimensione × materiale × classe rifrangenza`.
-2. **Catalogo**: **sostituire** i 215 prodotti esistenti. I listini sono la fonte unica di verità (risolve duplicati, SKU incoerenti, prezzi non ufficiali).
-3. **Immagini**: sì, estrarre le figure dai PDF come immagini prodotto.
-4. Prezzi **IVA esclusa**. **Nessuno sconto quantità** per ora.
-
-### Stato al checkpoint 2 (10/11 agenti rientrati)
-11 agenti paralleli di estrazione visiva lanciati (VER 4 · CAN 3 · ACC 2 · GOM 1 · ORI 1), spec condivisa in `scratchpad/SPEC.md`, output in `scratchpad/extract/`. **10 JSON su 11 consegnati.**
-
-- Righe/figure estratte: **ORI** 71/43 · **GOM** 78/0 · **ACC** 110+149/103 · **CAN** 102+162+107 / 34+154+59 · **VER** 64+247+125 / 88+143+101
-- **Manca solo `VER_015-028`** (agente ancora attivo, scrive a blocchi `part_a..part_d`, pagine 15-19 già fatte).
-
-### Normalizzazione (script `scratchpad/normalize.py`, su dati parziali)
-- **906 prodotti · 13.413 varianti** · 753 con prezzo · 153 senza prezzo.
-- Per categoria: Verticale 316p/11.631v · Dissuasori&Accessori 309p/360v · Cantieristica 132p/1.120v · Orizzontale 68p/68v · Coni&Transenne 47p/79v · Delineatori 34p/155v.
-- **Regola di normalizzazione**: se `rows[].figura` esiste → la **RIGA** è il prodotto (ACC/GOM/ORI, hanno codice fornitore); altrimenti il prodotto è la **FIGURA** e le righe sono i suoi **formati** (VER/CAN: il prezzo è per formato, non per cartello).
-- Attributi varianti: `Dimensione × Materiale (Lamiera 10/10 | Alluminio 25/10) × Classe rifrangenza (CL1 | CL2 | CL2 S.)`.
-- **Verifica a campione superata**: i prezzi crescono coerentemente CL1<CL2<CL2 S. e lamiera<alluminio → estrazione affidabile.
-
-### Da sistemare PRIMA dell'import
-- **526 prodotti hanno 1 sola variante** → vanno creati **simple**, non variable.
-- Nomi tipo "Segnale fig. 249" (figure senza dicitura nelle pagine SEGNALI DI DIREZIONE) → rinominare con la sezione di appartenenza.
-- **Dedup** figure ripetute su più pagine.
-
-### 🔴 SCOPERTA GRAVE — listino CANTIERISTICA senza prezzi (verificata a 400 DPI, non è errore di lettura)
-Le **celle prezzo sono vuote nel PDF originale del fornitore**:
-- CAN pagg. **27-38**: 107 righe ma solo **19 prezzi**.
-- CAN pag. **132**, marcata "PREZZI NETTI": colonna **interamente vuota** (23 righe).
-- CAN pagg. **145-146**: tabella difettosa a stampa (intestazioni troncate, 4 righe su 5 senza prezzi).
-→ **Chiedere al fornitore se esiste una versione del listino con i prezzi.**
-
-### Anomalie fornitore (tracciate in `scratchpad/ANOMALIE.md`)
-SKU duplicati (`1200PRCPB0001` ≡ `1200PRCPG0001`), stesso codice `1200TR0010100` a €1,20 e €1,50, refusi nei codici ORI, ~190 articoli marcati "CHIEDERE PREVENTIVO".
-
-### Immagini
-Cartelli **VER/CAN sono vettoriali** (ritaglio perfetto a qualsiasi DPI); ACC/GOM/ORI hanno raster embedded. **Ritagliatore rimandato a dopo l'import dati.**
-
-### ⚠️ RISCHIO ANCORA APERTO
-Lo scratchpad è **legato all'UUID di sessione** (`/tmp/claude-1000/.../3bea9b56-.../scratchpad`): una nuova sessione **non lo ritrova**, e `/tmp` si svuota al reboot. **Spostare `pages/`, `extract/`, `out/`, `*.py`, `SPEC.md`, `ANOMALIE.md` in `tools/import-listini/` (da gitignorare) PRIMA di chiudere la sessione**, altrimenti si ributtano via 142 render + tutta l'estrazione.
-
-### TODO PRIORITARIO
-1. **Mettere in salvo gli artefatti** dello scratchpad in `tools/import-listini/` (+ riga in `.gitignore`). ← bloccante
-2. Attendere/recuperare l'ultimo JSON **VER_015-028** e rilanciare `normalize.py` sul dataset completo.
-3. Fix pre-import: **simple vs variable** (526 mono-variante), rinomina figure ambigue, **dedup**.
-4. Decidere cosa fare dei **prodotti CAN senza prezzo** (chiedere listino corretto al fornitore / pubblicare come "su preventivo").
-5. **Normalizzazione CSV** WooCommerce (parent per figura + righe variazione).
-6. **Archiviare** i 215 prodotti vecchi (non cancellare: `draft`/trash, il DB è già backuppato in `backups/pre-import-listini-20260712-1019.sql.gz`).
-7. **Import** e verifica store (dropdown varianti pieni, prezzi, IVA 22%).
-8. Solo dopo: **ritaglio immagini** figure dai PDF.
+### Verificato end-to-end
+PDP con menu varianti popolati · acquisto reale 3 × € 11,00 = € 33,00 + IVA 22% € 7,26 = **€ 40,26** · checkout con campo P.IVA · 11 URL a 200 · zero errori PHP.
 
 ---
 
-## 🟢 2026-07-12 (8ª) — Fix massivo pre-completamento: italianizzazione, carrello/cassa sbloccati, 123 prodotti resi acquistabili, IVA attivata. COMPLETATA E PUSHATA.
+## 🎯 UNICO TASK APERTO — LOTTO 6 del naming immagini
 
-**Commit `f6d0fd0` + `13e4b11` su `origin/main`. Working tree pulito.**
-Verifica finale: 19 URL testati — status corretti, 0 errori PHP, `<div>` bilanciati.
+**102 ritagli non ancora letti.** Elenco file: `tools/import-listini/lotti/lote_06`. Gli altri 6 lotti sono fatti (`tools/import-listini/naming2/fig_00..05.json`).
 
-### Localizzazione
-`WPLANG` era `en_US` → `it_IT` + language pack WooCommerce, timezone `Europe/Rome`, formato data `d/m/Y`, valuta € `left_space`. Slug italianizzati: `/negozio/` `/carrello/` `/cassa/` `/mio-account/` `/prodotto/` `/categoria-prodotto/`.
+**Come chiudere:**
 
-### BLOCCANTE risolto
-Carrello(7) e Cassa(8) erano pagine a **blocchi Gutenberg**: i template PHP override del tema non venivano MAI eseguiti, il sito serviva la UI React chiara di WooCommerce su fondo nero. Convertite a shortcode `[woocommerce_cart]` / `[woocommerce_checkout]` / `[woocommerce_my_account]`. Da lì tutto il resto è diventato correggibile.
+1. **UN SOLO agente** (⚠️ non 7) che legge i 102 ritagli in `tools/import-listini/crops-raw/` e scrive `tools/import-listini/naming2/fig_06.json`.
+   Schema di output (identico agli altri lotti, vedi `fig_00.json`):
+   ```json
+   [
+     { "file": "VER_038_04.png", "figura": null, "nome": "Limite massimo di velocità (disco per veicoli, alluminio)", "confidenza": "alta", "scarto": false }
+   ]
+   ```
+   `figura` = numero FIG. letto **dentro** l'immagine (null se assente) · `scarto: true` se il ritaglio non è un cartello (celle di intestazione tabella, ecc.).
 
-### Tema (commit `13e4b11`)
-- `cart.php`: classi WC standard, link "rimuovi articolo" (prima si svuotava solo con qty 0), "Aggiorna carrello" che era morto, CTA preventivo
-- `cart-empty.php` nuovo; `form-checkout.php` gate invertito corretto + grid inline rimossa
-- `myaccount/`: 6 override (era il default WC — form bianco su sito nero)
-- `get_header()`/`get_footer()` nei template WC chiudevano `</body></html>` **prima** di `</main>`: documento malformato su ogni pagina WC. Risolto.
-- `page.php`: rimossa `.tab-panel__content` (classe mai definita nel CSS)
-- `search.php`: bug DOM, `</div>` orfano con 0 risultati
-- Form contatti/preventivo: nonce + honeypot + Post/Redirect/Get. **Il consenso privacy era required SOLO lato browser, mai validato sul server** → un POST diretto lo saltava. Chiuso.
-- skip-link + `.screen-reader-text` (non esistevano); `quantity.js` delega su `document` (gli stepper morivano dopo l'AJAX del carrello); `woo-custom.js` negli entry Vite
-- `categories.php`: i conteggi cadevano sui numeri **stimati** del brief (412, 156…) se una categoria aveva 0 prodotti → ora solo dati reali
-- `solutions.php`: link categoria puntavano a `/negozio/<slug>` = 404 → `get_term_link()`
-- `archive.css` `.archive-main { min-width: 0 }`; `404.php` flex-wrap
-- Hero (`f6d0fd0`): parallax da `object-position` fuori range a `transform: translate3d` dentro il margine di `scale(1.12)` + guard `prefers-reduced-motion`; `.gitignore` non versionava più `hero-bg.webp`
+2. Rigenera i link figura→prodotto:
+   ```bash
+   cd <scratchpad> && MS_SCRATCH=$(pwd) python tools/import-listini/link_figures.py
+   ```
+   (serve venv con `pymupdf` + `pillow`; se non c'è, ricrearlo)
 
-### Dati WooCommerce (nel DB, NON nel repo — backup pre-fix: `/tmp/pre-fix-backup.sql.gz`)
-- **123 prodotti** (non 5!) avevano il **dropdown varianti VUOTO = non acquistabili**. Causa: l'importer creava UN solo termine il cui nome era la lista pipe-joined (`"Maschio|Femmina"`) invece di N termini; le variazioni puntavano agli slug singoli. Fix: 170 termini creati, 4 attributi custom→tassonomia, 8 meta variazione riallineati. Verificato: **0 dropdown vuoti**.
-- **IVA ATTIVATA**: `calc_taxes=yes`, aliquota IT 22% standard. Carrello reale: Subtotale € 37,80 → IVA 22% € 8,32 → Totale € 46,12. Prezzi IVA esclusa, IVA voce separata (corretto B2B).
-- 29 variable con 1 sola variazione → convertiti a simple (variable 151→122, simple 64→93). Nessuno SKU toccato.
-- `Uncategorized` eliminata (WC la ricrea da sola al prossimo update, è by design)
-- Attivato `woocommerce_enable_myaccount_registration=yes` (senza, la colonna registrazione non esisteva)
-- 9 pagine create e riempite: `contatti`(1102) `azienda`(1103) `soluzioni`(1104) `cantieri`(1105) `richiedi-preventivo`(1106) `faq`(1107) `spedizioni`(1108) `download`(1109) `cookie-policy`(1110)
-
-### ⚠️ Nota Git
-Il push era fallito **403**: ci sono **due account `gh`** configurati e quello attivo (`nazariodeletteriis-it`) non ha permessi. Risolto con `gh auth switch --user Nazariodeletteriis`. Se ricapita, è quello.
-
-### 🔵 DECISIONI APERTE PER L'UTENTE (nessuna bloccante per il funzionamento)
-1. **34 prodotti "senza attributi" NON sono incompleti**: sono un **primo import superato**. Hanno SKU legacy (`MS-VRT-*`, `MS-CON-*`, `MS-DLP-*`) e sono duplicati del CSV più recente — #92≡#86 (100%), #35≡#775 (100%), #72≡#318 (83%), #29≡#720 (80%), coni #154-160 ≡ #682-687, cavalletti #110-116 ≡ varianti di #838. **Nulla è stato cancellato.** Decidere dedupe/merge — probabilmente risolve anche il punto 3.
-2. **4 prodotti senza immagine** (744, 745, 747, 14): la colonna immagine del CSV è **vuota all'origine**. Nessuna immagine assegnata (i candidati in media library sono di altri prodotti).
-3. **SKU**: 185/215 fuori dallo schema dichiarato `MS-XXX-XXX-NNN`.
-4. **Stock non gestito su NESSUN prodotto** (`_manage_stock=no` ovunque) → i 3 stati del design (verde Disponibile / giallo Limitata / rosso Esaurito) non si attivano mai: tutto è sempre "Disponibile".
-5. **Dati societari** nelle pagine nuove: REA/PEC/SDI e condizioni di reso sono **segnaposto espliciti**, da validare col cliente.
-
-### TODO PRIORITARIO
-1. **Homepage**: allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad` (unica area funzionale rimasta)
-2. Import prodotti nelle 3 categorie vuote (Sicurezza 107, Aziendale 108, ADR 110)
-3. Prendere le decisioni 1-5 qui sopra
-4. **Ruotare API key Stitch** (esposta in chat il 24.05, ancora aperta)
-5. `/graphify . --update` (il grafo è stale)
+3. Applica a WooCommerce:
+   ```bash
+   ddev exec wp --path=/var/www/html/public eval-file tools/import-listini/apply_images.php
+   ```
+   **`apply_images.php` è IDEMPOTENTE**: salta i prodotti che hanno già immagine, non sovrascrive i nomi veri.
 
 ---
 
-## 2026-06-28 — Checkpoint automatico 10min — nessuna modifica, in attesa input utente. IN CORSO.
+## 📞 DA CHIEDERE AL FORNITORE (non risolvibile da noi)
+Dettaglio in `tools/import-listini/ANOMALIE.md`.
 
-- Sessione aperta, nessuna modifica al codice in questa finestra
-- Stato invariato: hero WebP + parallax + overlay completati, verifica visiva pendente
-- Nessun commit effettuato
-
-### TODO PRIORITARIO
-1. Verifica visiva parallax + overlay su desktop e mobile
-2. Commit git delle 4 modifiche (hero-bg.webp, hero.php, home.css, hero.js)
-3. Homepage allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
+1. **PDF LISTINO CANTIERISTICA con celle prezzo VUOTE alla fonte** (verificato a 400 DPI): pagg. 27-38 = 107 righe ma solo 19 prezzi; pag. 132 marcata "PREZZI NETTI" con colonna interamente bianca. **Esiste una versione con i prezzi?**
+2. Due articoli diversi con lo **stesso codice**: `1200PRCPB0001` ≡ `1200PRCPG0001`
+3. Codice `1200TR0010100` quotato **€ 1,20** a pag. 064 e **€ 1,50** a pagg. 069/071
+4. ~190 articoli con **"CHIEDERE PREVENTIVO"** al posto del prezzo
 
 ---
 
-## 2026-06-28 — Hero refactor: video rimosso, WebP + parallax implementato. IN CORSO.
-
-- hero-bg.webp aggiunto in theme/assets/images/ (218KB, -90% vs PNG originale)
-- hero.php: video rimosso, immagine WebP con parallax via object-position
-- home.css: overlay scurito + classe .hero__bg-img aggiunta
-- hero.js: parallax rAF scroll object-position -60% a 60%, codice video morto rimosso
-- Vite rebuild completato con successo
-- Nessun commit effettuato — da fare nella prossima sessione
-
-### TODO PRIORITARIO
-1. Commit git delle 4 modifiche (hero-bg.webp, hero.php, home.css, hero.js)
-2. Verifica visiva mobile del parallax
-3. Continuare sviluppo tema
-
-- Nessuna modifica aggiuntiva in questa finestra
-- Stato: hero WebP + parallax + overlay completati, verifica visiva pendente
-- Nessun commit effettuato
-
-### TODO PRIORITARIO
-1. Verifica visiva parallax + overlay su desktop e mobile
-2. Commit dopo verifica visiva
-3. Homepage allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
-4. Prodotti con variazioni (Dimensione x Classe Rifrangenza)
-5. Import prodotti 3 categorie vuote (Sicurezza, Aziendale, ADR)
+## 🔒 DECISIONI UTENTE GIÀ PRESE (non ridiscutere)
+- Prezzi **IVA ESCLUSA**. **NESSUNO sconto quantità** (rimossi quelli finti che il tema applicava di default).
+- **Un prodotto per cartello (FIGURA)**, varianti Dimensione × Materiale × Classe.
+- **I listini sono la FONTE UNICA**: i 215 prodotti del vecchio import sono archiviati in **DRAFT** (reversibili).
+- **Homepage allineamento Stitch: NON prioritario**, rimandato.
 
 ---
 
-## 2026-06-28 — Hero ottimizzato: WebP + overlay + parallax. IN CORSO.
-
-- background_new.png convertito in WebP 218KB (-90% rispetto a 2.3MB PNG)
-- Video hero rimosso dalla homepage, sostituito con immagine WebP
-- Overlay hero scurito da 45% a 95% gradiente per leggibilita titolo
-- Parallax bg image: object-position animato da -60% a 60% via rAF scroll (vanilla JS, hero.js sezione 4)
-- Vite rebuild completato, nessun commit effettuato (verifica visiva pendente)
-
-### TODO PRIORITARIO
-1. Verifica visiva parallax + overlay su desktop e mobile
-2. Commit dopo verifica visiva
-3. Homepage allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
-4. Prodotti con variazioni (Dimensione x Classe Rifrangenza)
-5. Import prodotti 3 categorie vuote (Sicurezza, Aziendale, ADR)
+## 🪤 TRAPPOLE TECNICHE (già pagate — non ricascarci)
+- `wp eval-file` **non accetta il flag `--`**, solo argomenti posizionali. E **non ammette `declare(strict_types)`**.
+- WooCommerce vuole gli **ID** dei termini in `WC_Product_Attribute::set_options()`, ma lo **SLUG** nel meta `attribute_pa_*` della variazione. Passando gli slug a entrambi → termini duplicati e **menu varianti VUOTI**.
+- `wipe.php` deve cancellare **anche i TERMINI attributo**, non solo i post: i duplicati restano appesi e rompono anche un re-import corretto.
+- Il filtro `woocommerce_placeholder_img` riceve `$size` anche come **ARRAY**: tipizzarlo `string` manda il carrello in **fatal error** su ogni prodotto senza immagine.
+- L'aggancio ritaglio→figura **per POSIZIONE è inaffidabile** (il rilevatore scambia le celle di intestazione tabella per cartelli). Va fatto **per CODICE letto dalla didascalia dentro l'immagine**.
 
 ---
 
-## 2026-06-28 — Parallax hero + overlay scurito. IN CORSO.
+## 📁 FILE CHIAVE
 
-- Parallax bg image hero: object-position animato da -60% a 60% via rAF scroll
-- Overlay hero scurito per leggibilità titolo
-- CSS aggiornato, Vite rebuild ok
-- Nessun commit effettuato (verifica visiva pendente)
-
-### TODO PRIORITARIO
-1. Verifica visiva parallax su desktop e mobile
-2. Commit dopo verifica
-3. Prodotti con variazioni (Dimensione x Classe Rifrangenza)
-4. Import prodotti 3 categorie vuote (Sicurezza, Aziendale, ADR)
-5. Homepage allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
-
----
-
-## 2026-06-28 — Checkpoint 10min: WebP hero completato. IN CORSO.
-
-- background_new.png convertito in WebP: 2.3MB → 218KB (-90%)
-- Video hero rimosso dalla homepage
-- Immagine WebP impostata come bg fisso nella hero section
-- CSS aggiornato, Vite rebuild completato
-- Nessun commit ancora effettuato (verifica visiva pendente)
-
-### TODO PRIORITARIO
-1. Verifica visiva render hero WebP su desktop e mobile
-2. Commit dopo verifica
-3. Prodotti con variazioni (Dimensione x Classe Rifrangenza)
-4. Import prodotti 3 categorie vuote (Sicurezza, Aziendale, ADR)
-5. Homepage allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
-
----
-
-## 2026-06-28 — Checkpoint: sostituzione video hero con immagine WebP. IN CORSO.
-
-- Modifica in corso: hero homepage — video background sostituito con immagine statica WebP
-- Scopo: riduzione dipendenza da file video pesanti, miglior compatibilita browser/mobile
-- Nessun commit effettuato al momento del checkpoint
-
-### TODO PRIORITARIO (aggiornato al checkpoint)
-1. Completare sostituzione video con WebP nella hero homepage
-2. Verificare render corretto su desktop e mobile
-3. Commit dopo verifica visiva
-
----
-
-## 2026-06-28 — Checkpoint Gerry 10min. NESSUNA MODIFICA.
-
-- Checkpoint automatico: nessuna modifica al codice in questa chat
-- Stato codebase identico all'ultimo commit (`9432af6`)
-- DDEV live su http://mondosegnaletica.ddev.site
-
-### TODO PRIORITARIO
-1. Prodotti con variazioni (Dimensione x Classe Rifrangenza)
-2. Import prodotti 3 categorie vuote (Sicurezza, Aziendale, ADR)
-3. Homepage allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
-
-## 2026-06-28 — Sessione 7: DDEV riavviato, sito live. IN CORSO.
-
-- DDEV era in stato "exited", riavviato con successo
-- Sito live su http://mondosegnaletica.ddev.site
-- Gerry configurato con checkpoint token ogni 10min
-- Nessuna modifica al codice PHP/template questa sessione
-
-### TODO PRIORITARIO
-1. Riprendere sviluppo tema custom WordPress da dove lasciato (vedi sessione 6)
-2. Verificare che WooCommerce risponda correttamente su ddev.site
-3. Prossimi step Akille: implementazione PDP, filtri, animazioni GSAP
-
-## 🟡 2026-06-28 — Checkpoint automatico 10min. NESSUNA MODIFICA.
-
-- Sessione aperta, nessun file modificato in questa chat
-- Stato codebase identico all'ultimo commit (`9432af6`)
-- Prossima azione: vedi Task immediato sotto
-
-### TODO PRIORITARIO
-1. Prodotti con variazioni (Dimensione x Classe Rifrangenza) — scraper `/tmp/scrape_v2.py` o import CSV
-2. Import prodotti 3 categorie vuote (Sicurezza, Aziendale, ADR)
-3. Homepage allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
-
----
-
-## Dove siamo
-
-1. **PDP (`woocommerce/single-product.php`)** — ✅ allineata a Stitch
-
-2. **Listing page (`archive-product.php`)** — ✅ allineata + filtri funzionanti (sessione 6ª):
-   - Sidebar filtri: `form GET` con `input[type=checkbox]` reali, stile on-brand
-   - Attributi WC attivi: `pa_tipologia` (84 Ind, 18 Pre, 12 Per), `pa_formato`, `pa_classe-rifrangenza`
-   - 114 prodotti Segnaletica Verticale con attributi assegnati
-   - Select "Ordina per" dark (`color-scheme:dark`)
-   - Hero: label `CAT-01 / CATALOGO` in monospace giallo
-   - Grid 3 colonne (era 4), sidebar 260px
-
-3. **Categorie WC** — ✅ struttura 4 macro + 6 sotto (sessione 6ª):
-   - **Segnaletica Stradale, Cantieristica e Accessori** (109) — 215 prodotti
-     - Segnaletica Verticale (16) — 114p
-     - Segnaletica Orizzontale (17) — 5p
-     - Coni e Transenne (18) — 19p
-     - Delineatori e Paletti (19) — 10p
-     - Cantieristica (20) — 44p
-     - Dissuasori e Accessori (21) — 23p
-   - **Segnaletica di Sicurezza** (107) — 0 prodotti (da riempire)
-   - **Segnaletica Aziendale, Privata e Accessori** (108) — 0 prodotti (da riempire)
-   - **ADR e Segnaletica per Mezzi da Lavoro** (110) — 0 prodotti (da riempire)
-
-4. **Caroselli homepage** — ✅ autoplay loop 3.5s
-
-5. **Homepage** — struttura completa ma **non ancora allineata a Stitch**.
-
----
-
-## Task immediato (prossima sessione)
-
-### 1. Prodotti con variazioni
-Il PDP deve mostrare variazioni: `Dimensione` (60cm, 90cm...) × `Classe Rifrangenza` (CL1/CL2).
-**Approccio**:
-- Converti prodotti esistenti in "variable" con varianti Dimensione+Classe
-- Oppure importa CSV da tuttosegnaletica.it (scraper in `/tmp/scrape_v2.py`)
-- Fonte: https://tuttosegnaletica.it — prodotti e descrizioni (immagini pubbliche, no copyright issue)
-- Esempio URL prodotto: `https://tuttosegnaletica.it/caduta-massi-a-ferro-cl-1-60cm-2`
-- Pattern slug: `{nome}-{materiale}-cl-{1|2}-{dim}cm-{N}`
-
-### 2. Import prodotti per 3 categorie vuote
-- Segnaletica di Sicurezza: antincendio, emergenza, divieto (da tuttosegnaletica.it)
-- Segnaletica Aziendale: proprietà privata, parcheggio, ecc.
-- ADR: merci pericolose, limiti km lavoro, ecc.
-
-### 3. Homepage allineamento a Stitch
-Screen ID: `3014af5957f043b9adb4a8795d0faaad` (12656px).
-
-### 4. Animazioni GSAP/Lenis hero
-- `assets/src/js/modules/hero.js` usa solo CSS transitions ora
-- Lenis smooth scroll + GSAP ScrollTrigger parallax
-- Video: `assets/video/mondosegnaletica_video.mp4`
-
----
-
-## Lezione importante (NON ripetere)
-
-- **Non patchare incrementalmente** — prima leggere il file completo, poi riscrivere da zero se la struttura diverge.
-- **Verificare sempre il file dopo la modifica** (curl o Read) prima di dire "fatto".
-- **Fare il build Vite** dopo ogni modifica CSS/JS — senza build le modifiche non appaiono.
-- **Proporre nuova sessione** quando si superano ~30 tool call cumulativi.
-- **Commit + push** a fine ogni chat — mai lasciare lavoro non committato.
-
----
-
-## Screen Stitch — Progetto 2719905914431451721
-
-| Titolo | Screen ID | Note |
-|---|---|---|
-| Home Page - Mondo Segnaletica v2 | `3014af5957f043b9adb4a8795d0faaad` | 12656px — **prossima priorità** |
-| Scheda Prodotto - Cartello STOP | `d7e3b0e73b664bb18a166957e55e5c7e` | PDP — ✅ allineata |
-| Listing Categoria - Segnaletica Verticale v2 | `c230f456284d4aadba66f1152b286bb3` | ✅ allineata |
-| Listing Categoria - Segnaletica Verticale | `5e7b533230dd435090cbfaf558b64a43` | v1 — sorpassata |
-| Richiesta Preventivo B2B | `52ebe092e1df4d1cb7ea9405ca13eaae` | form preventivo |
-| Checkout B2B - Mondo Segnaletica v2 | `2c05dc1413ea4a0fa6c7a61493a4cabb` | checkout v2 |
-| Carrello - Mondo Segnaletica v2 | `865421d4ed434139940c9568dda36ea3` | cart |
-| Conferma Ordine - Mondo Segnaletica v2 | `2f56489683644124884ffae1f1a49e36` | order confirmation |
-| Dashboard Account B2B | `69deb0a413d34361b0b604f0cf143d5d` | area cliente |
-| Login / Registrazione v2 | `889637681df448a995aea6d8e0d3a9e8` | login |
-| Contatti | `3b596443753043128c073eb44cb43dd3` | pagina contatti |
-| Soluzioni / Viabilità Urbana | `fa55cd01c31443dbbd7944a487c9d941` | soluzioni |
-| Cantieri / Segnaletica Temporanea | `3d16dd0c702148d18bd93805914c2215` | cantieri |
-| Azienda / Chi Siamo | `50b429f3925543aabfb880e3e722f157` | chi siamo |
-| 404 Not Found | `28ead8b27be44353853c74577976d169` | 404 |
-| Mondo Segnaletica Components | `7ba17205f8b344808ac1eb99b8b9bd39` | libreria componenti (JSON) |
-
-**Design system Stitch ID**: `3883062151844380501`
-
----
-
-## File chiave
-
-| File | Ruolo |
-|---|---|
-| `woocommerce/single-product.php` | PDP — riscritta 26.05, classi `.pdp-*` |
-| `woocommerce/archive-product.php` | Listing — riscritta 26.05 (5ª), filtri dinamici |
-| `woocommerce/global/quantity-input.php` | Override stepper quantità WC |
-| `template-parts/product/quantity-table.php` | Tabella sconti 3 fasce `.qty-tiers__grid` |
-| `template-parts/product/card.php` | Product card — CTA CONFIGURA |
-| `template-parts/home/categories.php` | 02/CATALOGO tab |
-| `template-parts/home/bestseller.php` | 03/BESTSELLER carousel autoplay |
-| `template-parts/home/new-arrivals.php` | 04/NUOVI ARRIVI carousel autoplay |
-| `assets/src/css/pages/single-product.css` | Stili PDP |
-| `assets/src/css/pages/archive.css` | Stili listing |
-| `assets/src/css/components/product-card.css` | Card + CTA CONFIGURA |
-| `assets/src/css/base.css` | Container globale, variables |
-| `inc/woocommerce.php` | Hook WC + filtri attributo (sezione 10) |
-| `assets/src/js/modules/carousel.js` | Autoplay loop 3.5s |
-| `assets/src/js/modules/hero.js` | Hero (da animare con GSAP) |
-
----
-
-## Stato avanzamento
-
-| Step | Stato |
-|---|---|
-| Design direction "Sistema Strada" | ✅ |
-| Design system v2 su Stitch | ✅ |
-| 22 screen Stitch complete | ✅ |
-| Scaffold WordPress + tema custom | ✅ |
-| DDEV locale | ✅ `http://mondosegnaletica.ddev.site` |
-| WooCommerce + 6 categorie + 215 prodotti | ✅ |
-| **Listing page allineata a Stitch** | ✅ completata 26.05 (5ª) |
-| **PDP allineata a Stitch** | ✅ completata 26.05 (4ª) |
-| **Caroselli autoplay loop** | ✅ completati 26.05 (5ª) |
-| Homepage allineata a Stitch | ⏳ |
-| Animazioni GSAP/Lenis hero | ⏳ |
-| Checkout / Cart / Account B2B | ⏳ fase 3 |
-| Pagine statiche (Contatti, Azienda, Soluzioni, 404) | ⏳ fase 3 |
-
----
-
-## Come avviare
-
-```bash
-export PATH="$HOME/.local/bin:$PATH"
-ddev start
-
-cd public/wp-content/themes/mondosegnaletica
-npm run build   # SEMPRE dopo modifiche CSS/JS
-
-# URL
-http://mondosegnaletica.ddev.site
-http://mondosegnaletica.ddev.site/wp-admin  (admin / Admin1234!)
+```
+tools/import-listini/
+├── extract/            JSON estratti dalle 142 pagine
+├── normalize.py        normalizzazione → out/prodotti.json
+├── import.php          import WooCommerce
+├── wipe.php            reset (post + termini attributo)
+├── crop_figures.py     ritaglio pittogrammi
+├── link_figures.py     aggancio ritaglio → prodotto (per codice)
+├── apply_images.php    applica immagini+nomi a WC (idempotente)
+├── crops-raw/          ritagli sorgente
+├── naming2/            fig_00..05.json (fatti) · fig_06.json (DA FARE)
+├── lotti/              lote_00..06 (elenchi file per agente)
+├── out/prodotti.json   dataset finale
+├── SPEC.md
+└── ANOMALIE.md         anomalie da girare al fornitore
 ```
 
----
-
-## Note urgenti
-
-- ⚠️ Ruotare API key Stitch — esposta in chat 24.05 → Google Cloud Console
-- Favicon placeholder — sostituire con ritaglio MS logo reale
-- Video hero: `mondosegnaletica_video.mp4` nel tema, ignorato da git
-- WC coming-soon: deve essere `no` — verificare con `ddev exec wp --path=/var/www/html/public option get woocommerce_coming_soon`
+- Backup DB pre-import: `backups/pre-import-listini-20260712-1019.sql.gz`
+- PDF sorgente: `Prodotti/` (gitignored, 46 MB)
