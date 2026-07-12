@@ -1,0 +1,2116 @@
+[
+ {
+  "sku": "MS-CAN-II41ART110",
+  "file": "CAN_012_01.png",
+  "figura": "41",
+  "nome": "Dare precedenza nel senso unico alternato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II45ART114",
+  "file": "CAN_012_02.png",
+  "figura": "45",
+  "nome": "Diritto di precedenza nel senso unico alternato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II46ART116",
+  "file": "CAN_012_03.png",
+  "figura": "46",
+  "nome": "Divieto di transito",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II48ART116",
+  "file": "CAN_012_04.png",
+  "figura": "48",
+  "nome": "Divieto di sorpasso",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II50ART116",
+  "file": "CAN_012_05.png",
+  "figura": "50",
+  "nome": "Limite massimo di velocità 30 km/h",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II383ART31",
+  "file": "CAN_012_10.png",
+  "figura": "383",
+  "nome": "Lavori",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II384ART31",
+  "file": "CAN_012_11.png",
+  "figura": "384",
+  "nome": "Strettoia simmetrica",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II385ART31",
+  "file": "CAN_012_12.png",
+  "figura": "385",
+  "nome": "Strettoia asimmetrica a sinistra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II386ART31",
+  "file": "CAN_012_13.png",
+  "figura": "386",
+  "nome": "Strettoia asimmetrica a destra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II387ART31",
+  "file": "CAN_012_14.png",
+  "figura": "387",
+  "nome": "Doppio senso di circolazione",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II388ART31",
+  "file": "CAN_012_15.png",
+  "figura": "388",
+  "nome": "Altri pericoli",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II389ART31",
+  "file": "CAN_012_16.png",
+  "figura": "389",
+  "nome": "Strada deformata",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II390ART31",
+  "file": "CAN_012_17.png",
+  "figura": "390",
+  "nome": "Materiale instabile sulla strada",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II404ART42",
+  "file": "CAN_012_18.png",
+  "figura": "404",
+  "nome": "Semaforo",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II391ART31",
+  "file": "CAN_013_09.png",
+  "figura": "II 391",
+  "nome": "Segni orizzontali in rifacimento",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II391AART3",
+  "file": "CAN_013_10.png",
+  "figura": "II 391/A",
+  "nome": "Incidente",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II391BART3",
+  "file": "CAN_013_11.png",
+  "figura": "II 391/B",
+  "nome": "Uscita obbligatoria",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II391CART3",
+  "file": "CAN_013_12.png",
+  "figura": "II 391/C",
+  "nome": "Corsie a larghezza ridotta",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II1AART83",
+  "file": "CAN_013_14.png",
+  "figura": "II 1/A",
+  "nome": "Pannello integrativo di distanza (150 m / 500 m)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II36ART106",
+  "file": "CAN_014_01.png",
+  "figura": "II 36",
+  "nome": "Dare precedenza",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II37ART107",
+  "file": "CAN_014_02.png",
+  "figura": "II 37",
+  "nome": "Fermarsi e dare precedenza (Stop)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II52ART117",
+  "file": "CAN_014_13.png",
+  "figura": "II 52",
+  "nome": "Divieto di sorpasso per veicoli di massa a pieno carico superiore a 3,5 t",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II60AART11",
+  "file": "CAN_014_14.png",
+  "figura": "II 60/A",
+  "nome": "Transito vietato ai veicoli di massa a pieno carico superiore a 3,5 t",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II60BART11",
+  "file": "CAN_014_15.png",
+  "figura": "II 60/B",
+  "nome": "Transito vietato ai veicoli di massa a pieno carico superiore a 6,5 t",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II61ART117",
+  "file": "CAN_014_16.png",
+  "figura": "II 61",
+  "nome": "Transito vietato ai veicoli a motore trainanti un rimorchio",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II65ART118",
+  "file": "CAN_014_17.png",
+  "figura": "II 65",
+  "nome": "Transito vietato ai veicoli aventi larghezza superiore a 2,30 m",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II66ART118",
+  "file": "CAN_014_18.png",
+  "figura": "II 66",
+  "nome": "Transito vietato ai veicoli aventi altezza totale superiore a 3,50 m",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II67ART118",
+  "file": "CAN_014_19.png",
+  "figura": "II 67",
+  "nome": "Transito vietato ai veicoli o complessi di veicoli aventi lunghezza superiore a 10 m",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II68ART118",
+  "file": "CAN_014_20.png",
+  "figura": "II 68",
+  "nome": "Transito vietato ai veicoli aventi massa superiore a 7 t",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II69ART118",
+  "file": "CAN_014_21.png",
+  "figura": "II 69",
+  "nome": "Transito vietato ai veicoli aventi massa per asse superiore a 6,5 t",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II80AART12",
+  "file": "CAN_015_01.png",
+  "figura": "II 80/A",
+  "nome": "Direzione obbligatoria diritto",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II80BART12",
+  "file": "CAN_015_02.png",
+  "figura": "II 80/B",
+  "nome": "Direzione obbligatoria a sinistra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II80CART12",
+  "file": "CAN_015_03.png",
+  "figura": "II 80/C",
+  "nome": "Direzione obbligatoria a destra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II80DART12",
+  "file": "CAN_015_04.png",
+  "figura": "II 80/D",
+  "nome": "Preavviso di direzione obbligatoria a destra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II80EART12",
+  "file": "CAN_015_05.png",
+  "figura": "II 80/E",
+  "nome": "Preavviso di direzione obbligatoria a sinistra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II80FART12",
+  "file": "CAN_015_06.png",
+  "figura": "II 80/F",
+  "nome": "Preavviso di direzione obbligatoria a destra con pannello uscita obbligatoria",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II81AART12",
+  "file": "CAN_015_07.png",
+  "figura": "II 81/A",
+  "nome": "Direzioni consentite destra e sinistra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II82AART12",
+  "file": "CAN_015_08.png",
+  "figura": "II 82/A",
+  "nome": "Passaggio obbligatorio a sinistra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II82BART12",
+  "file": "CAN_015_09.png",
+  "figura": "II 82/B",
+  "nome": "Passaggio obbligatorio a destra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II83ART122",
+  "file": "CAN_015_10.png",
+  "figura": "II 83",
+  "nome": "Passaggi consentiti",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II70ART119",
+  "file": "CAN_015_11.png",
+  "figura": "II 70",
+  "nome": "Via libera",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II71ART119",
+  "file": "CAN_015_12.png",
+  "figura": "II 71",
+  "nome": "Fine limitazione di velocità 20 km/h",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II72ART119",
+  "file": "CAN_015_18.png",
+  "figura": "II 72",
+  "nome": "Fine del divieto di sorpasso",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II73ART119",
+  "file": "CAN_015_19.png",
+  "figura": "II 73",
+  "nome": "Fine del divieto di sorpasso per i veicoli di massa a pieno carico superiore a 3,5 t",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II411EART4",
+  "file": "CAN_017_01.png",
+  "figura": "II 411/E",
+  "nome": "Segnale di corsie chiuse",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II412AART4",
+  "file": "CAN_017_02.png",
+  "figura": "II 412/A",
+  "nome": "Segnale di carreggiata chiusa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II412BART4",
+  "file": "CAN_017_03.png",
+  "figura": "II 412/B",
+  "nome": "Segnale di rientro in carreggiata",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II412CART4",
+  "file": "CAN_017_04.png",
+  "figura": "II 412/C",
+  "nome": "Segnale di carreggiata chiusa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II412DART4",
+  "file": "CAN_017_05.png",
+  "figura": "II 412/D",
+  "nome": "Segnale di rientro in carreggiata",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II412EART4",
+  "file": "CAN_017_06.png",
+  "figura": "II 412/E",
+  "nome": "Segnale di rientro in carreggiata",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II412FART4",
+  "file": "CAN_017_07.png",
+  "figura": "II 412/F",
+  "nome": "Segnale di rientro in carreggiata",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II413AART4",
+  "file": "CAN_017_08.png",
+  "figura": "II 413/A",
+  "nome": "Segnale di carreggiata chiusa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II413BART4",
+  "file": "CAN_017_09.png",
+  "figura": "II 413/B",
+  "nome": "Segnale di carreggiata chiusa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II413CART4",
+  "file": "CAN_017_10.png",
+  "figura": "II 413/C",
+  "nome": "Segnale di rientro in carreggiata",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II344ART13",
+  "file": "CAN_017_11.png",
+  "figura": "II 344",
+  "nome": "Variazione corsie disponibili",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II414ART43",
+  "file": "CAN_017_12.png",
+  "figura": "II 414",
+  "nome": "Uso corsie disponibili",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II392ART32",
+  "file": "CAN_018_01.png",
+  "figura": "II 392",
+  "nome": "Barriera normale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II393AART3",
+  "file": "CAN_018_02.png",
+  "figura": "II 393/A",
+  "nome": "Barriera direzionale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II394ART33",
+  "file": "CAN_018_03.png",
+  "figura": "II 394",
+  "nome": "Paletto di delimitazione",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II395ART33",
+  "file": "CAN_018_04.png",
+  "figura": "II 395",
+  "nome": "Delineatore modulare di curva provvisoria",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II402ART40",
+  "file": "CAN_019_01.png",
+  "figura": "II 402",
+  "nome": "Barriera di recinzione per chiusini",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II403ART42",
+  "file": "CAN_019_03.png",
+  "figura": "II 403",
+  "nome": "Paletta per transito alternato da movieri",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-II403AART4",
+  "file": "CAN_019_04.png",
+  "figura": "II 403/A",
+  "nome": "Bandiera",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-TRANSENNAM-02901",
+  "file": "CAN_021_13.png",
+  "figura": "A",
+  "nome": "Pedoni sul lato opposto",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-TRANSENNAM-02904",
+  "file": "CAN_021_14.png",
+  "figura": "B",
+  "nome": "Rimozione forzata dal ... al ...",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-PERUNIMPIA-03704",
+  "file": "CAN_021_15.png",
+  "figura": "C",
+  "nome": "Strada chiusa per lavori",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-BATTERIE6V-03607",
+  "file": "CAN_021_17.png",
+  "figura": "E",
+  "nome": "Rallentare - lavoriamo per voi",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-STAFFACOMP-02311",
+  "file": "CAN_021_22.png",
+  "figura": "H",
+  "nome": "Inizio cantiere",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-STAFFACOMP-02312",
+  "file": "CAN_021_23.png",
+  "figura": "I",
+  "nome": "Fine cantiere",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-SOLARGROUN-03511",
+  "file": "CAN_021_28.png",
+  "figura": "M",
+  "nome": "Attenzione strada dissestata",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-SOLARGROUN-03513",
+  "file": "CAN_021_29.png",
+  "figura": "N",
+  "nome": "Rallentare - banchina non transitabile",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-TARGA-02105",
+  "file": "CAN_021_33.png",
+  "figura": "R",
+  "nome": "Divieto di sosta con rimozione forzata",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-TRANSENNAE-02912",
+  "file": "CAN_022_04.png",
+  "figura": "F",
+  "nome": "Base di appesantimento in PVC + pannello segnaletico",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-MOVIERE-02402",
+  "file": "CAN_024_02.png",
+  "figura": "2",
+  "nome": "Esempio di moviere",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-FIGURA398T-02403",
+  "file": "CAN_024_03.png",
+  "figura": "3",
+  "nome": "Pannello passaggio obbligatorio per veicoli operativi (Fig. II 398 art. 38) con lampeggiatori a LED",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-LAMPEGGIAT-02405",
+  "file": "CAN_024_04.png",
+  "figura": "4",
+  "nome": "Lampeggiatore a LED alta efficienza diam. 302 mm alimentato con batteria da autovettura",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-5",
+  "file": "CAN_025_01.png",
+  "figura": "5",
+  "nome": "Cartello di preavviso 'lavori a 3 km possibili code' con lampeggiatori a LED diam. 200 mm",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-ESEMPIOAUT-02703",
+  "file": "CAN_027_04.png",
+  "figura": "16",
+  "nome": "Autocarro 35q con PMV full color 90x90",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-NORMALE-02704",
+  "file": "CAN_027_05.png",
+  "figura": "17",
+  "nome": "Cartello 'Rallentare operai al lavoro / men at work' con lampeggiatori diam. 200 mm ad alta efficienza",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-1",
+  "file": "VER_014_01.png",
+  "figura": "1",
+  "nome": "Strada deformata",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-2",
+  "file": "VER_014_02.png",
+  "figura": "2",
+  "nome": "Dosso",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-3",
+  "file": "VER_014_03.png",
+  "figura": "3",
+  "nome": "Cunetta",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-4",
+  "file": "VER_014_04.png",
+  "figura": "4",
+  "nome": "Curva a destra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-5",
+  "file": "VER_014_05.png",
+  "figura": "5",
+  "nome": "Curva a sinistra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-6",
+  "file": "VER_014_06.png",
+  "figura": "6",
+  "nome": "Doppia curva, la prima a destra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-7",
+  "file": "VER_014_07.png",
+  "figura": "7",
+  "nome": "Doppia curva, la prima a sinistra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-8",
+  "file": "VER_014_08.png",
+  "figura": "8",
+  "nome": "Passaggio a livello con barriere",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-9",
+  "file": "VER_014_09.png",
+  "figura": "9",
+  "nome": "Passaggio a livello senza barriere",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-12",
+  "file": "VER_014_10.png",
+  "figura": "12",
+  "nome": "Attraversamento tranviario",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-13",
+  "file": "VER_014_11.png",
+  "figura": "13",
+  "nome": "Attraversamento pedonale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-14",
+  "file": "VER_014_12.png",
+  "figura": "14",
+  "nome": "Attraversamento ciclabile",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-15",
+  "file": "VER_014_13.png",
+  "figura": "15",
+  "nome": "Discesa pericolosa",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-16",
+  "file": "VER_014_14.png",
+  "figura": "16",
+  "nome": "Salita ripida",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-17",
+  "file": "VER_014_15.png",
+  "figura": "17",
+  "nome": "Strettoia simmetrica",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-18",
+  "file": "VER_014_16.png",
+  "figura": "18",
+  "nome": "Strettoia asimmetrica a sinistra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-19",
+  "file": "VER_014_17.png",
+  "figura": "19",
+  "nome": "Strettoia asimmetrica a destra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-20",
+  "file": "VER_014_18.png",
+  "figura": "20",
+  "nome": "Ponte mobile",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-22",
+  "file": "VER_014_20.png",
+  "figura": "22",
+  "nome": "Strada sdrucciolevole",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-23",
+  "file": "VER_014_21.png",
+  "figura": "23",
+  "nome": "Bambini",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-24",
+  "file": "VER_014_22.png",
+  "figura": "24",
+  "nome": "Animali domestici vaganti",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-25",
+  "file": "VER_014_23.png",
+  "figura": "25",
+  "nome": "Animali selvatici vaganti",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-26",
+  "file": "VER_014_24.png",
+  "figura": "26",
+  "nome": "Doppio senso di circolazione",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-27",
+  "file": "VER_014_25.png",
+  "figura": "27",
+  "nome": "Circolazione rotatoria",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-28",
+  "file": "VER_014_26.png",
+  "figura": "28",
+  "nome": "Sbocco su molo o argine",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-29",
+  "file": "VER_014_27.png",
+  "figura": "29",
+  "nome": "Materiale instabile sulla strada",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-30A",
+  "file": "VER_014_28.png",
+  "figura": "30/A",
+  "nome": "Caduta massi",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-30B",
+  "file": "VER_014_29.png",
+  "figura": "30/B",
+  "nome": "Caduta massi",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-31A",
+  "file": "VER_014_30.png",
+  "figura": "31/A",
+  "nome": "Semaforo verticale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-31B",
+  "file": "VER_014_31.png",
+  "figura": "31/B",
+  "nome": "Semaforo orizzontale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-32",
+  "file": "VER_014_32.png",
+  "figura": "32",
+  "nome": "Aeromobili",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-33",
+  "file": "VER_014_33.png",
+  "figura": "33",
+  "nome": "Forte vento laterale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-34",
+  "file": "VER_014_34.png",
+  "figura": "34",
+  "nome": "Pericolo di incendio",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-35",
+  "file": "VER_014_35.png",
+  "figura": "35",
+  "nome": "Altri pericoli",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-36",
+  "file": "VER_015_01.png",
+  "figura": "36",
+  "nome": "Dare precedenza",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-38",
+  "file": "VER_015_02.png",
+  "figura": "38",
+  "nome": "Preavviso di dare precedenza",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-39",
+  "file": "VER_015_03.png",
+  "figura": "39",
+  "nome": "Preavviso di fermarsi e dare precedenza",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-40",
+  "file": "VER_015_04.png",
+  "figura": "40",
+  "nome": "Intersezione con precedenza a destra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-10A",
+  "file": "VER_015_10.png",
+  "figura": "10/A",
+  "nome": "Croce di Sant'Andrea (binario semplice, 160x85)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-10B",
+  "file": "VER_015_11.png",
+  "figura": "10/B",
+  "nome": "Croce di Sant'Andrea doppia (più binari, 160x150)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-10C",
+  "file": "VER_015_12.png",
+  "figura": "10/C",
+  "nome": "Croce di Sant'Andrea (formato verticale, binario semplice)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-10D",
+  "file": "VER_015_13.png",
+  "figura": "10/D",
+  "nome": "Croce di Sant'Andrea doppia (formato verticale, più binari)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-11A",
+  "file": "VER_015_14.png",
+  "figura": "11/A",
+  "nome": "Pannello distanziometrico a tre barre",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-11B",
+  "file": "VER_015_15.png",
+  "figura": "11/B",
+  "nome": "Pannello distanziometrico a due barre",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-11C",
+  "file": "VER_015_16.png",
+  "figura": "11/C",
+  "nome": "Pannello distanziometrico a una barra (35x135)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-42",
+  "file": "VER_016_01.png",
+  "figura": "42",
+  "nome": "Fine del diritto di precedenza",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-44",
+  "file": "VER_016_02.png",
+  "figura": "44",
+  "nome": "Diritto di precedenza",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-45",
+  "file": "VER_016_03.png",
+  "figura": "45",
+  "nome": "Diritto di precedenza nei sensi unici alternati",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-41",
+  "file": "VER_017_01.png",
+  "figura": "41",
+  "nome": "Dare precedenza nei sensi unici alternati",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-46",
+  "file": "VER_017_02.png",
+  "figura": "46",
+  "nome": "Divieto di transito",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-47",
+  "file": "VER_017_03.png",
+  "figura": "47",
+  "nome": "Senso vietato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-48",
+  "file": "VER_017_04.png",
+  "figura": "48",
+  "nome": "Divieto di sorpasso",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-49",
+  "file": "VER_017_05.png",
+  "figura": "49",
+  "nome": "Distanza minima obbligatoria di 70 m tra i veicoli",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-50",
+  "file": "VER_017_06.png",
+  "figura": "50",
+  "nome": "Limite massimo di velocità 80 km/h",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-51",
+  "file": "VER_017_07.png",
+  "figura": "51",
+  "nome": "Divieto di segnalazioni acustiche",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-52",
+  "file": "VER_017_08.png",
+  "figura": "52",
+  "nome": "Divieto di sorpasso per i veicoli di massa a pieno carico superiore a 3,5 t",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-53",
+  "file": "VER_017_09.png",
+  "figura": "53",
+  "nome": "Transito vietato ai veicoli a trazione animale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-54",
+  "file": "VER_017_10.png",
+  "figura": "54",
+  "nome": "Transito vietato ai pedoni",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-55",
+  "file": "VER_017_11.png",
+  "figura": "55",
+  "nome": "Transito vietato alle biciclette",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-56",
+  "file": "VER_017_12.png",
+  "figura": "56",
+  "nome": "Transito vietato ai motocicli",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-57",
+  "file": "VER_017_13.png",
+  "figura": "57",
+  "nome": "Transito vietato ai veicoli a braccia",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-58",
+  "file": "VER_017_14.png",
+  "figura": "58",
+  "nome": "Transito vietato agli autoveicoli",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-59",
+  "file": "VER_017_15.png",
+  "figura": "59",
+  "nome": "Transito vietato agli autobus",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-60B",
+  "file": "VER_017_17.png",
+  "figura": "60/B",
+  "nome": "Transito vietato ai veicoli di massa a pieno carico superiore a 6,5 t",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-61",
+  "file": "VER_017_18.png",
+  "figura": "61",
+  "nome": "Transito vietato ai veicoli con rimorchio",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-62",
+  "file": "VER_017_19.png",
+  "figura": "62",
+  "nome": "Transito vietato alle macchine agricole",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-63",
+  "file": "VER_017_20.png",
+  "figura": "63",
+  "nome": "Transito vietato ai veicoli che trasportano merci pericolose",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-64A",
+  "file": "VER_017_21.png",
+  "figura": "64/A",
+  "nome": "Transito vietato ai veicoli che trasportano esplosivi o prodotti facilmente infiammabili",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-64B",
+  "file": "VER_017_22.png",
+  "figura": "64/B",
+  "nome": "Transito vietato ai veicoli che trasportano prodotti suscettibili di contaminare le acque",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-65",
+  "file": "VER_017_23.png",
+  "figura": "65",
+  "nome": "Transito vietato ai veicoli di larghezza superiore a 2,30 m",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-66",
+  "file": "VER_017_24.png",
+  "figura": "66",
+  "nome": "Transito vietato ai veicoli di altezza superiore a 3,50 m",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-67",
+  "file": "VER_017_25.png",
+  "figura": "67",
+  "nome": "Transito vietato ai veicoli di lunghezza superiore a 10 m",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-68",
+  "file": "VER_017_26.png",
+  "figura": "68",
+  "nome": "Transito vietato ai veicoli di massa superiore a 7 t",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-69",
+  "file": "VER_017_27.png",
+  "figura": "69",
+  "nome": "Transito vietato ai veicoli di massa per asse superiore a 6,5 t",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-70",
+  "file": "VER_017_28.png",
+  "figura": "70",
+  "nome": "Via libera",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-71",
+  "file": "VER_017_29.png",
+  "figura": "71",
+  "nome": "Fine del limite massimo di velocità 50 km/h",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-72",
+  "file": "VER_017_30.png",
+  "figura": "72",
+  "nome": "Fine del divieto di sorpasso",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-73",
+  "file": "VER_017_31.png",
+  "figura": "73",
+  "nome": "Fine del divieto di sorpasso per i veicoli di massa a pieno carico superiore a 3,5 t",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-74",
+  "file": "VER_017_32.png",
+  "figura": "74",
+  "nome": "Divieto di sosta",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-75",
+  "file": "VER_017_33.png",
+  "figura": "75",
+  "nome": "Divieto di fermata",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-80A",
+  "file": "VER_020_01.png",
+  "figura": "80/A",
+  "nome": "Direzione obbligatoria diritto",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-80B",
+  "file": "VER_020_02.png",
+  "figura": "80/B",
+  "nome": "Direzione obbligatoria a sinistra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-80C",
+  "file": "VER_020_03.png",
+  "figura": "80/C",
+  "nome": "Direzione obbligatoria a destra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-81A",
+  "file": "VER_020_06.png",
+  "figura": "81/A",
+  "nome": "Direzioni consentite a destra e a sinistra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-81B",
+  "file": "VER_020_07.png",
+  "figura": "81/B",
+  "nome": "Direzioni consentite diritto e a destra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-81C",
+  "file": "VER_020_08.png",
+  "figura": "81/C",
+  "nome": "Direzioni consentite diritto e a sinistra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-82A",
+  "file": "VER_020_09.png",
+  "figura": "82/A",
+  "nome": "Passaggio obbligatorio a sinistra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-82B",
+  "file": "VER_020_10.png",
+  "figura": "82/B",
+  "nome": "Passaggio obbligatorio a destra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-83",
+  "file": "VER_020_11.png",
+  "figura": "83",
+  "nome": "Passaggi consentiti a destra e a sinistra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-84",
+  "file": "VER_020_12.png",
+  "figura": "84",
+  "nome": "Rotatoria",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-85",
+  "file": "VER_020_13.png",
+  "figura": "85",
+  "nome": "Limite minimo di velocità 30 km/h",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-86",
+  "file": "VER_020_14.png",
+  "figura": "86",
+  "nome": "Fine del limite minimo di velocità 30 km/h",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-87",
+  "file": "VER_020_15.png",
+  "figura": "87",
+  "nome": "Catene per neve obbligatorie",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-88",
+  "file": "VER_020_16.png",
+  "figura": "88",
+  "nome": "Percorso pedonale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-89",
+  "file": "VER_020_17.png",
+  "figura": "89",
+  "nome": "Fine del percorso pedonale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-90",
+  "file": "VER_020_18.png",
+  "figura": "90",
+  "nome": "Pista ciclabile",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-91",
+  "file": "VER_020_19.png",
+  "figura": "91",
+  "nome": "Fine della pista ciclabile",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-92B",
+  "file": "VER_020_21.png",
+  "figura": "92/B",
+  "nome": "Percorso pedonale e ciclabile",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-93B",
+  "file": "VER_020_23.png",
+  "figura": "93/B",
+  "nome": "Fine del percorso pedonale e ciclabile",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-94",
+  "file": "VER_020_24.png",
+  "figura": "94",
+  "nome": "Percorso riservato ai cavalli",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-95",
+  "file": "VER_020_25.png",
+  "figura": "95",
+  "nome": "Fine del percorso riservato ai cavalli",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-96",
+  "file": "VER_020_26.png",
+  "figura": "96",
+  "nome": "Alt - Dogana (Douane)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-98",
+  "file": "VER_020_27.png",
+  "figura": "98",
+  "nome": "Alt - Polizia",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-99",
+  "file": "VER_020_28.png",
+  "figura": "99",
+  "nome": "Alt - Stazione",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-97A",
+  "file": "VER_020_29.png",
+  "figura": "97/A",
+  "nome": "Confine di Stato - Italia",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-309P",
+  "file": "VER_021_01.png",
+  "figura": "309/P",
+  "nome": "Strada senza uscita",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77G",
+  "file": "VER_021_02.png",
+  "figura": "77/G",
+  "nome": "Parcheggio privato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77H",
+  "file": "VER_021_03.png",
+  "figura": "77/H",
+  "nome": "Parcheggio riservato ai Dirigenti",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77I",
+  "file": "VER_021_04.png",
+  "figura": "77/I",
+  "nome": "Parcheggio riservato ai Visitatori",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77L",
+  "file": "VER_021_05.png",
+  "figura": "77/L",
+  "nome": "Parcheggio riservato ai Condomini",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77M",
+  "file": "VER_021_06.png",
+  "figura": "77/M",
+  "nome": "Parcheggio riservato ai Clienti",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77N",
+  "file": "VER_021_07.png",
+  "figura": "77/N",
+  "nome": "Parcheggio riservato ai Dipendenti",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77O",
+  "file": "VER_021_08.png",
+  "figura": "77/O",
+  "nome": "Parcheggio riservato ai Fornitori",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77P",
+  "file": "VER_021_09.png",
+  "figura": "77/P",
+  "nome": "Parcheggio riservato ai cicli e motocicli",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77Q",
+  "file": "VER_021_10.png",
+  "figura": "77/Q",
+  "nome": "Parcheggio con freccia direzionale a sinistra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77R",
+  "file": "VER_021_11.png",
+  "figura": "77/R",
+  "nome": "Parcheggio con freccia direzionale a destra",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-77S",
+  "file": "VER_021_12.png",
+  "figura": "77/S",
+  "nome": "Parcheggio con freccia direzionale diritto",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-35A",
+  "file": "VER_021_13.png",
+  "figura": "35/A",
+  "nome": "Entrare e uscire adagio",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-35B",
+  "file": "VER_021_14.png",
+  "figura": "35/B",
+  "nome": "Attenzione caduta neve dal tetto",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-35C",
+  "file": "VER_021_15.png",
+  "figura": "35/C",
+  "nome": "Attenzione struttura pericolante",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-75A",
+  "file": "VER_021_16.png",
+  "figura": "75/A",
+  "nome": "Divieto di fermata - lasciare libero il passaggio",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-74A",
+  "file": "VER_021_17.png",
+  "figura": "74/A",
+  "nome": "Sosta consentita solo per carico e scarico",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-74B",
+  "file": "VER_021_18.png",
+  "figura": "74/B",
+  "nome": "Sosta vietata",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-78",
+  "file": "VER_021_19.png",
+  "figura": "78",
+  "nome": "Passo carrabile",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-74E",
+  "file": "VER_021_20.png",
+  "figura": "74/E",
+  "nome": "Passo carrabile con rimozione forzata",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-74F",
+  "file": "VER_021_21.png",
+  "figura": "74/F",
+  "nome": "Divieto di sosta fuori dagli spazi delimitati",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-74G",
+  "file": "VER_021_22.png",
+  "figura": "74/G",
+  "nome": "Proprietà privata - lasciare libero il passaggio",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-74H",
+  "file": "VER_021_23.png",
+  "figura": "74/H",
+  "nome": "Proprietà privata - divieto di sosta",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-47A",
+  "file": "VER_021_24.png",
+  "figura": "47/A",
+  "nome": "Proprietà privata - vietato l'accesso alle persone non autorizzate",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-47B",
+  "file": "VER_021_25.png",
+  "figura": "47/B",
+  "nome": "Vietato l'accesso ai mezzi non autorizzati",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-47C",
+  "file": "VER_021_26.png",
+  "figura": "47/C",
+  "nome": "Proprietà privata - vietato l'accesso",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-47D",
+  "file": "VER_021_27.png",
+  "figura": "47/D",
+  "nome": "Strada privata - vietato l'accesso",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-47E",
+  "file": "VER_021_28.png",
+  "figura": "47/E",
+  "nome": "Vietato l'accesso",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-37A",
+  "file": "VER_021_29.png",
+  "figura": "37/A",
+  "nome": "Stop - vietato l'ingresso agli estranei al condominio",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-257",
+  "file": "VER_031_01.png",
+  "figura": "257",
+  "nome": "Identificazione autostrada",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-256",
+  "file": "VER_031_02.png",
+  "figura": "256",
+  "nome": "Identificazione itinerario internazionale europeo",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-258",
+  "file": "VER_031_03.png",
+  "figura": "258",
+  "nome": "Identificazione strada statale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-259",
+  "file": "VER_031_04.png",
+  "figura": "259",
+  "nome": "Identificazione strada provinciale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-260",
+  "file": "VER_031_05.png",
+  "figura": "260",
+  "nome": "Identificazione strada comunale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-273",
+  "file": "VER_032_01.png",
+  "figura": "273",
+  "nome": "Inizio centro abitato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-274",
+  "file": "VER_032_02.png",
+  "figura": "274",
+  "nome": "Fine centro abitato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-281",
+  "file": "VER_033_09.png",
+  "figura": "281",
+  "nome": "Ufficio informazioni turistiche",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-282",
+  "file": "VER_033_10.png",
+  "figura": "282",
+  "nome": "Ospedale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-283",
+  "file": "VER_033_11.png",
+  "figura": "283",
+  "nome": "Stemma comunale (municipio)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-II291ART13",
+  "file": "VER_034_01.png",
+  "figura": "II 291",
+  "nome": "Segnale nome-strada applicato in angolo",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-II290ART13",
+  "file": "VER_034_02.png",
+  "figura": "II 290",
+  "nome": "Segnale nome-strada applicato a palo semaforico",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-292",
+  "file": "VER_034_04.png",
+  "figura": "292",
+  "nome": "Targa nome-strada piana con fori per fissaggio a parete o a palo a bandiera",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-302",
+  "file": "VER_036_02.png",
+  "figura": "302",
+  "nome": "Ospedale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-303",
+  "file": "VER_036_03.png",
+  "figura": "303",
+  "nome": "Attraversamento pedonale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-305",
+  "file": "VER_036_05.png",
+  "figura": "305",
+  "nome": "SOS (punto di soccorso)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-309",
+  "file": "VER_036_09.png",
+  "figura": "309",
+  "nome": "Strada senza uscita",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-312",
+  "file": "VER_036_12.png",
+  "figura": "312",
+  "nome": "Velocità consigliata",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-313",
+  "file": "VER_036_13.png",
+  "figura": "313",
+  "nome": "Fine velocità consigliata",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-320",
+  "file": "VER_036_20.png",
+  "figura": "320",
+  "nome": "Area pedonale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-321",
+  "file": "VER_036_21.png",
+  "figura": "321",
+  "nome": "Fine area pedonale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-322A",
+  "file": "VER_036_22.png",
+  "figura": "322/A",
+  "nome": "Zona a traffico limitato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-322B",
+  "file": "VER_036_23.png",
+  "figura": "322/B",
+  "nome": "Fine zona a traffico limitato",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-323A",
+  "file": "VER_036_24.png",
+  "figura": "323/A",
+  "nome": "Zona a velocità limitata (Zona 30)",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-323B",
+  "file": "VER_036_25.png",
+  "figura": "323/B",
+  "nome": "Fine zona a velocità limitata",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-327",
+  "file": "VER_036_31.png",
+  "figura": "327",
+  "nome": "Strada extraurbana principale",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-345",
+  "file": "VER_038_01.png",
+  "figura": "345",
+  "nome": "Autostrada",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-VER-346",
+  "file": "VER_038_02.png",
+  "figura": "346",
+  "nome": "Fine autostrada",
+  "confidenza": "alta"
+ },
+ {
+  "sku": "MS-CAN-TARGA-02107",
+  "file": "CAN_021_19.png",
+  "figura": "S",
+  "nome": "Cartello di cantiere compilabile (via, tratto, lavori, ordinanza)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-21",
+  "file": "VER_014_19.png",
+  "figura": "21",
+  "nome": "Banchina cedevole",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-43A",
+  "file": "VER_015_05.png",
+  "figura": "43/A",
+  "nome": "Intersezione con diritto di precedenza (incrocio)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-43B",
+  "file": "VER_015_06.png",
+  "figura": "43/B",
+  "nome": "Intersezione con diritto di precedenza (ramo laterale a destra)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-43C",
+  "file": "VER_015_07.png",
+  "figura": "43/C",
+  "nome": "Intersezione con diritto di precedenza (ramo laterale a sinistra)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-43D",
+  "file": "VER_015_08.png",
+  "figura": "43/D",
+  "nome": "Intersezione con diritto di precedenza (confluenza obliqua a destra)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-43E",
+  "file": "VER_015_09.png",
+  "figura": "43/E",
+  "nome": "Intersezione con diritto di precedenza (confluenza obliqua a sinistra)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-60A",
+  "file": "VER_017_16.png",
+  "figura": "60/A",
+  "nome": "Transito vietato ai veicoli per trasporto di cose",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-80D",
+  "file": "VER_020_04.png",
+  "figura": "80/D",
+  "nome": "Preavviso di direzione obbligatoria a destra",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-80E",
+  "file": "VER_020_05.png",
+  "figura": "80/E",
+  "nome": "Preavviso di direzione obbligatoria a sinistra",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-92A",
+  "file": "VER_020_20.png",
+  "figura": "92/A",
+  "nome": "Pista ciclabile contigua al marciapiede",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-93A",
+  "file": "VER_020_22.png",
+  "figura": "93/A",
+  "nome": "Fine della pista ciclabile contigua al marciapiede",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-1B",
+  "file": "VER_020_30.png",
+  "figura": "1/B",
+  "nome": "Pannello integrativo di distanza (1 Km)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-233",
+  "file": "VER_027_01.png",
+  "figura": "233",
+  "nome": "Preavviso di intersezione con preselezione (fondo bianco urbano)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-234",
+  "file": "VER_027_02.png",
+  "figura": "234",
+  "nome": "Preavviso di intersezione a frecce su strada extraurbana",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-235",
+  "file": "VER_027_03.png",
+  "figura": "235",
+  "nome": "Preavviso di intersezione autostradale",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-236",
+  "file": "VER_027_04.png",
+  "figura": "236",
+  "nome": "Preavviso di intersezione con divieto di accesso su una direzione",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-237",
+  "file": "VER_027_05.png",
+  "figura": "237",
+  "nome": "Preavviso di intersezione con due uscite (formato verticale)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-238",
+  "file": "VER_027_06.png",
+  "figura": "238",
+  "nome": "Preavviso di intersezione con rotatoria",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-239",
+  "file": "VER_027_07.png",
+  "figura": "239",
+  "nome": "Preavviso di intersezione con divieto di transito ai veicoli merci",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-240",
+  "file": "VER_027_08.png",
+  "figura": "240",
+  "nome": "Preavviso di intersezione con passaggio a livello (fondo blu)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-241",
+  "file": "VER_027_09.png",
+  "figura": "241",
+  "nome": "Segnale di preselezione (fondo bianco urbano)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-243",
+  "file": "VER_027_10.png",
+  "figura": "243",
+  "nome": "Segnale di preselezione su strada extraurbana",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-248",
+  "file": "VER_029_01.png",
+  "figura": "248",
+  "nome": "Segnale di direzione (freccia direzionale)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-294",
+  "file": "VER_029_02.png",
+  "figura": "294",
+  "nome": "Segnale di direzione turistica e di territorio",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-296",
+  "file": "VER_029_03.png",
+  "figura": "296",
+  "nome": "Segnale di direzione per zona industriale",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-297",
+  "file": "VER_029_04.png",
+  "figura": "297",
+  "nome": "Segnali di direzione per zona industriale (serie frecce)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-249",
+  "file": "VER_030_01.png",
+  "figura": "249",
+  "nome": "Segnale di direzione a freccia (fondo blu)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-272",
+  "file": "VER_033_01.png",
+  "figura": "272",
+  "nome": "Preavviso di uscita con indicazione delle località e distanza",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-275",
+  "file": "VER_033_03.png",
+  "figura": "275",
+  "nome": "Confine di regione",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-276",
+  "file": "VER_033_04.png",
+  "figura": "276",
+  "nome": "Confine di provincia",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-277",
+  "file": "VER_033_05.png",
+  "figura": "277",
+  "nome": "Pronto soccorso",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-278",
+  "file": "VER_033_06.png",
+  "figura": "278",
+  "nome": "Stazione ferroviaria",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-279",
+  "file": "VER_033_07.png",
+  "figura": "279",
+  "nome": "Polizia",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-280",
+  "file": "VER_033_08.png",
+  "figura": "280",
+  "nome": "Carabinieri",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-285",
+  "file": "VER_033_13.png",
+  "figura": "285",
+  "nome": "Segnale di conferma con distanze delle località (autostrada)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-286",
+  "file": "VER_033_14.png",
+  "figura": "286",
+  "nome": "Segnale di conferma con identificazione autostrada e freccia",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-298",
+  "file": "VER_035_01.png",
+  "figura": "298",
+  "nome": "Preavviso di servizi turistici (informazioni e albergo) con distanza",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-299",
+  "file": "VER_035_02.png",
+  "figura": "299",
+  "nome": "Segnale di indicazione alberghi con elenco",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-300",
+  "file": "VER_035_03.png",
+  "figura": "300",
+  "nome": "Segnale di indicazione alberghi con direzioni",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-301",
+  "file": "VER_035_04.png",
+  "figura": "301",
+  "nome": "Segnali di direzione per alberghi (serie frecce)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-295",
+  "file": "VER_036_01.png",
+  "figura": "295",
+  "nome": "Segnale di indicazione di corso d'acqua (fiume)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-304",
+  "file": "VER_036_04.png",
+  "figura": "304",
+  "nome": "Attraversamento pedonale scolastico (fondo arancione fluorescente)",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-306",
+  "file": "VER_036_06.png",
+  "figura": "306",
+  "nome": "Sottopassaggio pedonale",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-307",
+  "file": "VER_036_07.png",
+  "figura": "307",
+  "nome": "Sovrappassaggio pedonale",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-310",
+  "file": "VER_036_10.png",
+  "figura": "310",
+  "nome": "Preavviso di strada senza uscita",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-311",
+  "file": "VER_036_11.png",
+  "figura": "311",
+  "nome": "Preavviso di strada laterale senza uscita",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-314",
+  "file": "VER_036_14.png",
+  "figura": "314",
+  "nome": "Strada riservata ai veicoli a motore",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-315",
+  "file": "VER_036_15.png",
+  "figura": "315",
+  "nome": "Fine strada riservata ai veicoli a motore",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-316",
+  "file": "VER_036_16.png",
+  "figura": "316",
+  "nome": "Galleria",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-317",
+  "file": "VER_036_17.png",
+  "figura": "317",
+  "nome": "Fine galleria",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-318",
+  "file": "VER_036_18.png",
+  "figura": "318",
+  "nome": "Zona residenziale",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-319",
+  "file": "VER_036_19.png",
+  "figura": "319",
+  "nome": "Fine zona residenziale",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-324",
+  "file": "VER_036_26.png",
+  "figura": "324",
+  "nome": "Pista ciclabile",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-320P",
+  "file": "VER_036_27.png",
+  "figura": "320/P",
+  "nome": "Pannello integrativo area pedonale con elenco eccezioni",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-322AP",
+  "file": "VER_036_29.png",
+  "figura": "322/A/P",
+  "nome": "Pannello integrativo zona a traffico limitato con divieti ed eccezioni",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-347",
+  "file": "VER_038_03.png",
+  "figura": "347",
+  "nome": "Autostrada con pannello dei divieti",
+  "confidenza": "media"
+ },
+ {
+  "sku": "MS-VER-284",
+  "file": "VER_033_12.png",
+  "figura": "284",
+  "nome": "Pittogramma copricapo/casco — presumibile Polizia municipale",
+  "confidenza": "bassa"
+ },
+ {
+  "sku": "MS-VER-308",
+  "file": "VER_036_08.png",
+  "figura": "308",
+  "nome": "Passaggio pedonale su rampa inclinata",
+  "confidenza": "bassa"
+ },
+ {
+  "sku": "MS-VER-325",
+  "file": "VER_036_28.png",
+  "figura": "325",
+  "nome": "Schema di itinerario urbano con percorso indicato da freccia",
+  "confidenza": "bassa"
+ },
+ {
+  "sku": "MS-VER-326",
+  "file": "VER_036_30.png",
+  "figura": "326",
+  "nome": "Schema di itinerario urbano con percorso indicato da freccia (variante)",
+  "confidenza": "bassa"
+ }
+]

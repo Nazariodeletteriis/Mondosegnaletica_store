@@ -1,0 +1,818 @@
+[
+  {
+    "file": "CAN_021_10.png",
+    "figura": "J",
+    "nome": "Fine cantiere",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Cartello rettangolare giallo, testo stampato."
+  },
+  {
+    "file": "CAN_021_11.png",
+    "figura": "K",
+    "nome": "Inizio area cantiere",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Cartello rettangolare giallo, testo stampato."
+  },
+  {
+    "file": "CAN_021_12.png",
+    "figura": "L",
+    "nome": "Fine area cantiere",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Cartello rettangolare giallo, testo stampato."
+  },
+  {
+    "file": "CAN_021_13.png",
+    "figura": "A",
+    "nome": "Pedoni sul lato opposto",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": null
+  },
+  {
+    "file": "CAN_021_14.png",
+    "figura": "B",
+    "nome": "Rimozione forzata dal ... al ...",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Divieto di sosta + pannello carro attrezzi + campi data da compilare."
+  },
+  {
+    "file": "CAN_021_15.png",
+    "figura": "C",
+    "nome": "Strada chiusa per lavori",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Simbolo strada senza uscita (fig. 309) + testo."
+  },
+  {
+    "file": "CAN_021_16.png",
+    "figura": "D",
+    "nome": "Rimozione forzata per lavori",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": null
+  },
+  {
+    "file": "CAN_021_17.png",
+    "figura": "E",
+    "nome": "Rallentare - lavoriamo per voi",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Sul cartello anche la parola 'grazie' in piccolo."
+  },
+  {
+    "file": "CAN_021_18.png",
+    "figura": "F",
+    "nome": "Cartello di pericolo generico con pannello mezzi di lavoro in azione",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Nessun testo: triangolo pericolo generico + pannello integrativo con mezzo d'opera. Nome per funzione, non e' una denominazione CdS."
+  },
+  {
+    "file": "CAN_021_19.png",
+    "figura": "S",
+    "nome": "Cartello di cantiere compilabile (via, tratto, lavori, ordinanza)",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Campi stampati: VIA / Tratto / LAVORI DI / Dal-Al / Determina Comunale n. / Richiesta da / Riferimento tel. Nome descrittivo."
+  },
+  {
+    "file": "CAN_021_20.png",
+    "figura": "T",
+    "nome": "Divieto di sosta con rimozione forzata e pannello integrativo personalizzabile",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Pannello bianco vuoto da personalizzare."
+  },
+  {
+    "file": "CAN_021_21.png",
+    "figura": "G",
+    "nome": "Attenzione uscita autocarri",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": null
+  },
+  {
+    "file": "CAN_021_22.png",
+    "figura": "H",
+    "nome": "Inizio cantiere",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Cartello quadrato giallo con triangolo pericolo generico."
+  },
+  {
+    "file": "CAN_021_23.png",
+    "figura": "I",
+    "nome": "Fine cantiere",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Cartello quadrato giallo con simbolo di fine prescrizione (disco barrato)."
+  },
+  {
+    "file": "CAN_021_24.png",
+    "figura": "J",
+    "nome": "Inizio area cantiere",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Cartello quadrato giallo. Lettera J gia' usata a pag. 21 per il formato rettangolare: sono due tabelle distinte."
+  },
+  {
+    "file": "CAN_021_25.png",
+    "figura": "K",
+    "nome": "Fine area cantiere",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Cartello quadrato giallo con simbolo di fine prescrizione."
+  },
+  {
+    "file": "CAN_021_26.png",
+    "figura": "L",
+    "nome": "Attenzione strada sdrucciolevole",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": null
+  },
+  {
+    "file": "CAN_021_27.png",
+    "figura": "U",
+    "nome": "Divieto di sosta con rimozione forzata e pannello integrativo personalizzabile (formato verticale)",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Pannello bianco vuoto da personalizzare."
+  },
+  {
+    "file": "CAN_021_28.png",
+    "figura": "M",
+    "nome": "Attenzione strada dissestata",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": null
+  },
+  {
+    "file": "CAN_021_29.png",
+    "figura": "N",
+    "nome": "Rallentare - banchina non transitabile",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": null
+  },
+  {
+    "file": "CAN_021_30.png",
+    "figura": "O",
+    "nome": "Attenzione scavi aperti",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": null
+  },
+  {
+    "file": "CAN_021_31.png",
+    "figura": "P",
+    "nome": "Rallentare - lavori in corso (limite 30)",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": null
+  },
+  {
+    "file": "CAN_021_32.png",
+    "figura": "Q",
+    "nome": "Rallentare - deviazione a 200 m (limite 30)",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": null
+  },
+  {
+    "file": "CAN_021_33.png",
+    "figura": "R",
+    "nome": "Divieto di sosta con rimozione forzata",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Cartello verticale giallo, senza testo aggiuntivo."
+  },
+  {
+    "file": "CAN_022_01.png",
+    "figura": "A",
+    "nome": "Base circolare con palo Ø 48",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Nome dalla didascalia stampata."
+  },
+  {
+    "file": "CAN_022_02.png",
+    "figura": "B",
+    "nome": "Base circolare con palo Ø 60",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Nome dalla didascalia stampata."
+  },
+  {
+    "file": "CAN_022_03.png",
+    "figura": "D",
+    "nome": "Base di appesantimento in PVC",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Nome dalla didascalia stampata."
+  },
+  {
+    "file": "CAN_022_04.png",
+    "figura": "F",
+    "nome": "Base di appesantimento in PVC + pannello segnaletico",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Nome dalla didascalia stampata."
+  },
+  {
+    "file": "CAN_022_05.png",
+    "figura": null,
+    "nome": "Composizione da cantiere: base in PVC riciclato, palo canna quadra 40x40, triangolo lato 90 con pannello integrativo e lampeggiatore",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Nessuna lettera/FIGURA stampata: e' un esempio di composizione con elenco componenti in didascalia. Include dettaglio del lampeggiatore con staffa per palo canna quadra."
+  },
+  {
+    "file": "CAN_022_06.png",
+    "figura": null,
+    "nome": "Composizione da cantiere: 2 basi in PVC riciclato, 2 pali canna quadra 40x40, targa 90x135 con pannello integrativo 350 m",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Nessuna lettera/FIGURA stampata: esempio di composizione con elenco componenti in didascalia."
+  },
+  {
+    "file": "CAN_023_01.png",
+    "figura": "398",
+    "nome": "Passaggio obbligatorio per veicoli operativi",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Didascalia 'FIGURA 398'; lettera di listino 'A'. Denominazione confermata dalla didascalia di CAN_024_03 (Fig. II 398 art. 38). Freccia orientata in basso a sinistra."
+  },
+  {
+    "file": "CAN_023_02.png",
+    "figura": "H",
+    "nome": "Coppia di staffe metalliche di sostegno (tipo corto)",
+    "confidenza": "bassa",
+    "scarto": false,
+    "note": "Nessuna didascalia oltre alla lettera. Nome descrittivo di cio' che si vede: due profili metallici con gancio a L. Da confermare col fornitore."
+  },
+  {
+    "file": "CAN_023_03.png",
+    "figura": "I",
+    "nome": "Coppia di staffe metalliche di sostegno (tipo lungo)",
+    "confidenza": "bassa",
+    "scarto": false,
+    "note": "Come H ma con stelo piu' lungo e gancio in posizione intermedia. Nome descrittivo, da confermare."
+  },
+  {
+    "file": "CAN_023_04.png",
+    "figura": "399/B",
+    "nome": "Presegnale di cantiere orizzontale: deviazione corsia + lavori in corso + 500 m (270x200)",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Didascalia 'FIGURA 399/B'; lettera di listino 'D'. Quote stampate: 270 totale (135+135), h 200 (135+65)."
+  },
+  {
+    "file": "CAN_023_05.png",
+    "figura": "399/B",
+    "nome": "Presegnale di cantiere orizzontale: deviazione corsia + lavori in corso + 500 m (180x135)",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Didascalia 'FIGURA 399/B'; lettera di listino 'E'. Quote: 180 totale (90+90), h 135 (90+45). Versione ridotta di CAN_023_04."
+  },
+  {
+    "file": "CAN_023_06.png",
+    "figura": "399/A",
+    "nome": "Presegnale di cantiere verticale: lavori in corso + deviazione corsia + 500 m (135x365)",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Didascalia 'FIGURA 399/A'; lettera di listino 'B'. Quote: base 135, h 365 (135+200+30)."
+  },
+  {
+    "file": "CAN_023_07.png",
+    "figura": "399/A",
+    "nome": "Presegnale di cantiere verticale: lavori in corso + deviazione corsia + 500 m (90x250)",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Didascalia 'FIGURA 399/A'; lettera di listino 'C'. Quote: base 90, h 250 (90+135+25). Versione ridotta di CAN_023_06."
+  },
+  {
+    "file": "CAN_023_08.png",
+    "figura": "400",
+    "nome": "Segnale mobile di preavviso di cantiere (220x360)",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Didascalia 'FIGURA 400'; lettera di listino 'F'. Cornice zebrata rosso/bianca con catadiottri, lavori in corso + deviazione corsia + 500 m. Denominazione CdS non verificata al 100%."
+  },
+  {
+    "file": "CAN_023_09.png",
+    "figura": "401",
+    "nome": "Segnale mobile di protezione (220x360)",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Didascalia 'FIGURA 401'; lettera di listino 'G'. Denominazione confermata dalla didascalia di CAN_027_01 ('segnale mobile di protezione Fig. II 401 Art. 39 Reg.'). Cornice zebrata con lampade e disco passaggio obbligatorio."
+  },
+  {
+    "file": "CAN_024_01.png",
+    "figura": null,
+    "nome": "Rallentare - operai al lavoro / men at work (pannello con cornice zebrata e catadiottri)",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Nessuna didascalia visibile nel ritaglio (probabilmente tagliata). Nome preso dal testo stampato sul cartello."
+  },
+  {
+    "file": "CAN_024_02.png",
+    "figura": "2",
+    "nome": "Esempio di moviere",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Didascalia 'FIGURA 2: ESEMPIO DI MOVIERE'. Sagoma conica con lampeggiatore e bandierina."
+  },
+  {
+    "file": "CAN_024_03.png",
+    "figura": "3",
+    "nome": "Pannello passaggio obbligatorio per veicoli operativi (Fig. II 398 art. 38) con lampeggiatori a LED",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Didascalia: 'FIGURA 3: PANNELLO FIG. II 398 ART. 38 (PASSAGGIO OBBLIGATORIO PER VEICOLI OPERATIVI) INTEGRATO CON LAMPEGGIATORI A LED AD ALTA EFFICIENZA'. La numerazione '3' e' quella della figura di pagina, non il codice CdS (che e' 398)."
+  },
+  {
+    "file": "CAN_024_04.png",
+    "figura": "4",
+    "nome": "Lampeggiatore a LED alta efficienza diam. 302 mm alimentato con batteria da autovettura",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Didascalia 'FIGURA 4'. Il ritaglio mostra lampeggiatore, palo, base di appesantimento e cassetta batteria."
+  },
+  {
+    "file": "CAN_025_01.png",
+    "figura": "5",
+    "nome": "Cartello di preavviso 'lavori a 3 km possibili code' con lampeggiatori a LED diam. 200 mm",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Didascalia 'FIGURA 5'. Dimensioni indicate: 135x200 cm."
+  },
+  {
+    "file": "CAN_025_02.png",
+    "figura": null,
+    "nome": null,
+    "confidenza": "alta",
+    "scarto": true,
+    "note": "Ritaglio vuoto (riquadro bianco): nessun cartello, nessun testo. Da scartare."
+  },
+  {
+    "file": "CAN_027_01.png",
+    "figura": "12",
+    "nome": "Esempio di assorbitore d'urto abbinato a segnale mobile di protezione (Fig. II 401 art. 39 Reg.)",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Didascalia 'FIGURA 12'. Foto reale."
+  },
+  {
+    "file": "CAN_027_02.png",
+    "figura": null,
+    "nome": null,
+    "confidenza": "alta",
+    "scarto": true,
+    "note": "Ritaglio vuoto (riquadro bianco). Da scartare."
+  },
+  {
+    "file": "CAN_027_03.png",
+    "figura": "15",
+    "nome": "Esempio di autocarro 35q con PMV alfanumerico e disco direzione obbligatoria interamente a LED",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Didascalia 'FIGURA 15'. Il PMV mostra 'OPERAI AL LAVORO'."
+  },
+  {
+    "file": "CAN_027_04.png",
+    "figura": "16",
+    "nome": "Autocarro 35q con PMV full color 90x90",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Didascalia 'FIGURA 16: STESSO ESEMPIO MA CON PMV FULL COLOR 90x90'."
+  },
+  {
+    "file": "CAN_027_05.png",
+    "figura": "17",
+    "nome": "Cartello 'Rallentare operai al lavoro / men at work' con lampeggiatori diam. 200 mm ad alta efficienza",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Didascalia 'FIGURA 17'."
+  },
+  {
+    "file": "CAN_028_01.png",
+    "figura": "18",
+    "nome": "Targa per box autovelox mobile per cantiere di lavoro",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Didascalia 'FIGURA 18: TARGA PER BOX AUTOVELOX MOBILE PER CANTIERE DI LAVORO (TIPO STANDARD APPROVATO DALLA POLIZIA STRADALE)'."
+  },
+  {
+    "file": "CAN_028_02.png",
+    "figura": null,
+    "nome": "Polizia Stradale - controllo elettronico della velocità",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Nessuna didascalia/figura stampata. Nome preso dal testo dei due pannelli."
+  },
+  {
+    "file": "CAN_029_01.png",
+    "figura": "A",
+    "nome": "Transenna metallica con piede girevole e pannello rifrangente rosso/bianco",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Testo in didascalia: 'novita' di grande utilita' e' il piede girevole, favorisce l'uso, il trasporto, lo stivaggio'."
+  },
+  {
+    "file": "CAN_029_02.png",
+    "figura": "B",
+    "nome": "Transenna metallica con piede girevole e traverso centrale",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Come A ma senza pannello rifrangente: solo traverso orizzontale."
+  },
+  {
+    "file": "CAN_029_03.png",
+    "figura": "C",
+    "nome": "Piede girevole di ricambio per transenna",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Solo il piede tubolare con innesto. Nome dedotto dal contesto (voci A/B = transenne con piede girevole)."
+  },
+  {
+    "file": "CAN_029_04.png",
+    "figura": null,
+    "nome": "Transenna estensibile a pantografo, rossa",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Nessuna lettera/didascalia nel ritaglio."
+  },
+  {
+    "file": "CAN_029_05.png",
+    "figura": null,
+    "nome": "Transenna quadrata di protezione per scavi e tombini",
+    "confidenza": "bassa",
+    "scarto": false,
+    "note": "Nessuna didascalia. Struttura tubolare rossa a quattro lati, tipo parapetto/recinzione per pozzetto. Nome descrittivo, da confermare."
+  },
+  {
+    "file": "CAN_029_06.png",
+    "figura": null,
+    "nome": null,
+    "confidenza": "alta",
+    "scarto": true,
+    "note": "Ritaglio praticamente vuoto: solo una sottile barra grigia in basso. Da scartare."
+  },
+  {
+    "file": "CAN_031_01.png",
+    "figura": null,
+    "nome": "Transenna estensibile a pantografo (vista parziale)",
+    "confidenza": "bassa",
+    "scarto": false,
+    "note": "Ritaglio troncato: si vede solo una porzione verticale della transenna estensibile rossa, nessuna didascalia. Immagine non utilizzabile per la scheda prodotto."
+  },
+  {
+    "file": "CAN_032_01.png",
+    "figura": null,
+    "nome": null,
+    "confidenza": "alta",
+    "scarto": true,
+    "note": "Ritaglio vuoto (riquadro bianco). Da scartare."
+  },
+  {
+    "file": "CAN_032_02.png",
+    "figura": null,
+    "nome": null,
+    "confidenza": "alta",
+    "scarto": true,
+    "note": "Cella di testo del listino: 'CON PIEDI ORIENTABILI RIEMPITI DI SABBIA (PESO 22 KG CIRCA)'. Non e' un cartello. Da scartare."
+  },
+  {
+    "file": "CAN_033_01.png",
+    "figura": "A",
+    "nome": "Lampeggiatore da cantiere con lente arancione e staffa di aggancio",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Corpo giallo, maniglia metallica. Marcato 'FINO AD ESAURIMENTO SCORTE'."
+  },
+  {
+    "file": "CAN_033_02.png",
+    "figura": "B",
+    "nome": "Lampeggiatore da cantiere con lente arancione e staffa di aggancio (variante)",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Praticamente identico ad A (differenza di modello/lente non distinguibile nel ritaglio). Marcato 'FINO AD ESAURIMENTO SCORTE'."
+  },
+  {
+    "file": "CAN_033_03.png",
+    "figura": "C",
+    "nome": "Lampeggiatore da cantiere omologato, lente gialla",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Dicitura verticale 'OMOLOGATO' a lato. Corpo giallo, gancio a spillo."
+  },
+  {
+    "file": "CAN_033_04.png",
+    "figura": "D",
+    "nome": "Lampeggiatore da cantiere omologato, lente rossa",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Dicitura verticale 'OMOLOGATO'. Stesso corpo di C, lente rossa."
+  },
+  {
+    "file": "CAN_033_05.png",
+    "figura": "E",
+    "nome": "Lampeggiatore da cantiere Euroflash Normal, lente gialla",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Marchio 'EUROFLASH NORMAL' stampato sul corpo arancione."
+  },
+  {
+    "file": "CAN_033_06.png",
+    "figura": "F",
+    "nome": "Lampeggiatore da cantiere Euroflash Normal, lente rossa",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Marchio 'EUROFLASH NORMAL' stampato sul corpo arancione."
+  },
+  {
+    "file": "CAN_033_07.png",
+    "figura": "G",
+    "nome": "Lampeggiatore da cantiere omologato, lente gialla",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Dicitura verticale 'OMOLOGATO'. Corpo giallo con occhiello di sospensione."
+  },
+  {
+    "file": "CAN_033_08.png",
+    "figura": "H",
+    "nome": "Lampeggiatore da cantiere omologato, lente arancione",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Dicitura verticale 'OMOLOGATO'. Stesso corpo di G, lente arancione."
+  },
+  {
+    "file": "CAN_033_09.png",
+    "figura": "I",
+    "nome": "Lampeggiatore da cantiere omologato monofacciale, lente gialla",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Diciture 'OMOLOGATO' e 'MONOFACCIALE'. Corpo arancione con maniglia."
+  },
+  {
+    "file": "CAN_033_10.png",
+    "figura": "L",
+    "nome": "Lampeggiatore da cantiere omologato monofacciale, lente rossa",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Diciture 'OMOLOGATO' e 'MONOFACCIALE'. Come I ma lente rossa."
+  },
+  {
+    "file": "CAN_033_11.png",
+    "figura": "O",
+    "nome": "Copertura rossa per lampeggiatore",
+    "confidenza": "bassa",
+    "scarto": false,
+    "note": "Ritaglio piccolo e poco leggibile: sembra una cuffia/copertura rossa applicata su un corpo bianco. Nome descrittivo, da confermare col fornitore."
+  },
+  {
+    "file": "CAN_033_12.png",
+    "figura": "P",
+    "nome": "Batteria alcalina 4R25 6V per lampeggiatore",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Sull'etichetta si legge 'AIR ALKALINE' e (parzialmente) '4R25 6V'. Lettura dei codici non certa al 100%."
+  },
+  {
+    "file": "CAN_033_13.png",
+    "figura": "Q",
+    "nome": "Batteria ecologica 6V per lampeggiatore",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Etichetta verde 'BATTERIA ECOLOGICA'. Voltaggio dedotto per analogia con la voce P."
+  },
+  {
+    "file": "CAN_033_14.png",
+    "figura": null,
+    "nome": null,
+    "confidenza": "alta",
+    "scarto": true,
+    "note": "Cella di testo del listino: 'LAMPEGGIATORE MONOFACCIALE SUPERLED 7 LED CON FOTOCELLULA, LENTE IN POLICARBONATO CON INTERRUTTORE ESTERNO + SPIA SOSTITUZIONE BATTERIE'. Nessun pittogramma. Da scartare."
+  },
+  {
+    "file": "CAN_034_01.png",
+    "figura": "A",
+    "nome": "Lampeggiatore tondo con lente arancione e corpo rosso",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Marcato 'FINO AD ESAURIMENTO SCORTE'. Lampada tonda di grande diametro con staffa e cavo."
+  },
+  {
+    "file": "CAN_034_02.png",
+    "figura": null,
+    "nome": null,
+    "confidenza": "alta",
+    "scarto": true,
+    "note": "Ritaglio vuoto (riquadro bianco). Da scartare."
+  },
+  {
+    "file": "CAN_034_03.png",
+    "figura": "B-B1",
+    "nome": "Lampeggiatore tondo con lente arancione e staffa",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "DIDASCALIA AMBIGUA: la sigla in alto a sinistra, ingrandita, si legge 'B-B1' ma il secondo carattere potrebbe essere una 'R' ('B-R1'). Da verificare sul listino. Marcato 'FINO AD ESAURIMENTO SCORTE'."
+  },
+  {
+    "file": "CAN_034_04.png",
+    "figura": null,
+    "nome": null,
+    "confidenza": "alta",
+    "scarto": true,
+    "note": "Ritaglio vuoto (riquadro bianco). Da scartare."
+  },
+  {
+    "file": "CAN_034_05.png",
+    "figura": "H",
+    "nome": "Coppia di lampade tonde a LED con cablaggio",
+    "confidenza": "bassa",
+    "scarto": false,
+    "note": "Due dischi a LED con bordo rosso e cavi. Nessuna didascalia oltre alla lettera. Nome descrittivo, da confermare."
+  },
+  {
+    "file": "CAN_034_06.png",
+    "figura": "I",
+    "nome": "Lampeggiante rotante arancione da tetto (girofaro)",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Calotta arancione a barra bassa, base nera. Nome descrittivo."
+  },
+  {
+    "file": "CAN_035_01.png",
+    "figura": null,
+    "nome": "Barra a 5 lampade a LED con centralina di comando",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Nessuna lettera/didascalia nel ritaglio."
+  },
+  {
+    "file": "CAN_035_02.png",
+    "figura": "F",
+    "nome": "Torcia a LED con coni segnaletici e caricabatterie",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "DIDASCALIA INCERTA: il glifo in alto a sinistra sembra una 'F' con la barra centrale poco leggibile. Set: torcia grande, torcia piccola, cono giallo, cono rosso con treppiede, alimentatori."
+  },
+  {
+    "file": "CAN_035_03.png",
+    "figura": "I",
+    "nome": "Lampada di emergenza a LED rossa su base gialla rifrangente",
+    "confidenza": "bassa",
+    "scarto": false,
+    "note": "Nessuna didascalia oltre alla lettera. Disco tipo segnalatore stradale di emergenza. Nome descrittivo, da confermare."
+  },
+  {
+    "file": "CAN_035_04.png",
+    "figura": null,
+    "nome": "Inserti stradali catarifrangenti bifacciali con gambo",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Nessuna lettera/didascalia. Due viste dello stesso dispositivo rifrangente da inserire nella pavimentazione."
+  },
+  {
+    "file": "CAN_035_05.png",
+    "figura": null,
+    "nome": "Marker stradale a LED con pannello solare, corpo tondo in alluminio",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Nessuna lettera/didascalia nel ritaglio."
+  },
+  {
+    "file": "CAN_035_06.png",
+    "figura": null,
+    "nome": "Marker stradale a LED con pannello solare, corpo rettangolare in alluminio",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Nessuna lettera/didascalia nel ritaglio."
+  },
+  {
+    "file": "CAN_036_01.png",
+    "figura": "A",
+    "nome": "Impianto di delineatori con pannello rifrangente rosso/bianco e lampeggiatori su base in PVC",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Marcato 'FINO AD ESAURIMENTO SCORTE'. Cinque elementi in fila con lampeggiatore a calotta arancione."
+  },
+  {
+    "file": "CAN_036_02.png",
+    "figura": null,
+    "nome": "Impianto di delineatori con pannello rifrangente rosso/bianco e lampade a LED su base in PVC",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Nessuna lettera/didascalia nel ritaglio."
+  },
+  {
+    "file": "CAN_036_03.png",
+    "figura": "C",
+    "nome": "Impianto di delineatori con pannello rifrangente, lampade a LED e centraline su base in PVC",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Didascalia 'ESEMPIO DI IMPIANTO'. Quattro elementi con centralina gialla alla base."
+  },
+  {
+    "file": "CAN_036_04.png",
+    "figura": "D",
+    "nome": "Batteria per autovettura",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Nessuna didascalia testuale oltre alla lettera; nome descrittivo."
+  },
+  {
+    "file": "CAN_036_05.png",
+    "figura": "E",
+    "nome": "Batterie ecologiche 6V (confezione da 4)",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Quattro batterie identiche a quelle della voce Q di pag. 33 ('BATTERIA ECOLOGICA'). La quantita' 4 e' dedotta dall'immagine, da confermare sul listino."
+  },
+  {
+    "file": "CAN_037_01.png",
+    "figura": null,
+    "nome": "Lanterne semaforiche arancioni da cantiere (ritaglio troncato)",
+    "confidenza": "bassa",
+    "scarto": false,
+    "note": "Ritaglio tagliato male: si vedono due teste semaforiche arancioni parziali e una didascalia troncata che inizia per 'MI...' (probabilmente 'MICROPROCESSORE'). Immagine non utilizzabile per la scheda prodotto."
+  },
+  {
+    "file": "CAN_037_02.png",
+    "figura": null,
+    "nome": "Centraline a microprocessore",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Nome dalla didascalia stampata 'CENTRALINE A MICROPROCESSORE'. Nessuna lettera/FIGURA."
+  },
+  {
+    "file": "CAN_037_03.png",
+    "figura": null,
+    "nome": null,
+    "confidenza": "alta",
+    "scarto": true,
+    "note": "Ritaglio praticamente vuoto: solo un angolo giallo. Nessun cartello. Da scartare."
+  },
+  {
+    "file": "CAN_038_01.png",
+    "figura": "A",
+    "nome": "Pannello di recinzione da cantiere in rete metallica con basi in cemento",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": null
+  },
+  {
+    "file": "CAN_038_02.png",
+    "figura": "D",
+    "nome": "Pannello rifrangente a strisce rosso/bianche",
+    "confidenza": "media",
+    "scarto": false,
+    "note": "Fascia orizzontale zebrata, nessuna didascalia oltre alla lettera."
+  },
+  {
+    "file": "CAN_038_03.png",
+    "figura": null,
+    "nome": null,
+    "confidenza": "alta",
+    "scarto": true,
+    "note": "Ritaglio vuoto (riquadro bianco). Da scartare."
+  },
+  {
+    "file": "CAN_038_04.png",
+    "figura": "F",
+    "nome": "Plintino in cemento",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Nome dalla didascalia stampata."
+  },
+  {
+    "file": "CAN_038_05.png",
+    "figura": null,
+    "nome": "Saetta",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Nome dalla didascalia stampata 'SAETTA' (puntone di controvento per recinzione da cantiere). Nessuna lettera nel ritaglio."
+  },
+  {
+    "file": "CAN_038_06.png",
+    "figura": null,
+    "nome": "Giunto di sicurezza",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Nome dalla didascalia stampata. Nessuna lettera nel ritaglio."
+  },
+  {
+    "file": "CAN_038_07.png",
+    "figura": null,
+    "nome": "Kit cancello",
+    "confidenza": "alta",
+    "scarto": false,
+    "note": "Nome dalla didascalia stampata. Nessuna lettera nel ritaglio."
+  }
+]
