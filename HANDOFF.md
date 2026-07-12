@@ -1,7 +1,28 @@
 # HANDOFF — Mondo Segnaletica
 > Sessione 26.05.2026 (6ª) — Akille. Leggi solo questo per riprendere.
 
-## 🟡 2026-07-12 (8ª bis) — IMPORT CATALOGO REALE dai listini PDF fornitore. IN CORSO (checkpoint a metà).
+## 🟡 2026-07-12 (8ª ter) — ESTRAZIONE COMPLETATA · IMPORT IN PARTENZA. IN CORSO.
+
+**Checkpoint 3. Tutti gli 11 agenti di estrazione visiva sono rientrati: 142 pagine lette.**
+
+- **Dataset finale normalizzato**: **1.236 prodotti · 35.609 variazioni** (674 variabili · 405 semplici · 165 senza prezzo → a preventivo).
+  Categorie: Verticale 518 · Dissuasori&Accessori 307 · Cantieristica 246 · Orizzontale 68 · Coni&Transenne 63 · Delineatori 34.
+- **BUG GRAVE trovato e corretto**: il normalizzatore collassava righe diverse sulla stessa variante e **perdeva 1.933 prezzi** (stessa dimensione ma prezzo diverso perché cambiavano n. attacchi/rinforzi, o il dato distintivo stava nella nota libera). Aggiunti attributi **Fissaggio** e **Versione** + disambiguazione dalle note → prezzi persi **da 1.933 a 39**. Gli ultimi 8 prodotti con conflitto irrisolvibile vanno **a preventivo** invece di mostrare un prezzo a caso (`out/prezzo_conflitto.json`).
+- **IMMAGINI E NOMI SOSPESI (decisione motivata)**: il ritaglio delle figure è agganciato **per posizione** (n-esima cella = n-esima figura) e l'aggancio è **inaffidabile** — il rilevatore prende celle di intestazione tabella ("ARTICOLO", "DIMENSIONE") come se fossero cartelli e l'ordine slitta. Verificato: il crop dato per FIG.42 stampa "FIGURA 45". 3 agenti di naming su 4 hanno confermato lo sfasamento (VER 16, 31, 32, 37, 46). → **Import senza immagini**, nomi di ripiego onesti ("Segnale di pericolo — FIG. 1"). I nomi in `scratchpad/naming/nomi_1..4.json` **non sono affidabili** finché non si rifà l'aggancio.
+- **Preparato il terreno import**: creati attributi WC `pa_materiale`(6), `pa_fissaggio`(7), `pa_versione`(8). I 215 prodotti vecchi **archiviati in DRAFT** (reversibile, non cancellati). Backup DB `backups/pre-import-listini-20260712-1019.sql.gz`. **Zero collisioni SKU** verificate.
+- **In esecuzione ora**: smoke test import di 3 prodotti → poi import completo (~37k save, stimati 30-60 min).
+
+### TODO PRIORITARIO
+1. **Smoke test 3 prodotti**, poi lanciare `tools/import-listini/import.php` completo e verificare a campione in WooCommerce (varianti, prezzi, prodotti a preventivo).
+2. **Rifare l'aggancio immagini+nomi per CODICE, non per posizione**: leggere la didascalia "FIGURA xx" **dentro** ognuno dei 712 crop (`scratchpad/figures/`), poi update per SKU. È il blocco che sblocca immagini e nomi reali.
+3. Chiudere le **anomalie fornitore** (`ANOMALIE.md`): celle prezzo vuote nel PDF Cantieristica (confermate a 400dpi), SKU duplicati `1200PRCPB0001`≡`1200PRCPG0001`, codice `1200TR0010100` a due prezzi (1,20 / 1,50), refusi codici ORI, ~190 articoli "CHIEDERE PREVENTIVO".
+4. Decidere se conservare lo scratchpad (`pages/` 142 PNG, `figures/` 712 crop, `naming/`) — **non è nel repo**, va spostato se serve.
+
+**File chiave (già committati, `b621341`)**: `tools/import-listini/{extract/, normalize.py, crop_figures.py, import.php, SPEC.md, ANOMALIE.md, out/prodotti.json, out/prezzo_conflitto.json}`
+
+---
+
+## 🟡 2026-07-12 (8ª bis) — [SUPERATO dal checkpoint 3 qui sopra] Import catalogo reale — checkpoint a metà.
 
 **Fase attiva: estrazione visiva dai 5 listini ufficiali. Nessun commit di questa fase — lavoro in scratchpad.**
 
@@ -21,19 +42,49 @@ Ogni pagina contiene: **(1)** una griglia di **FIGURE** (il singolo segnale, es.
 3. **Immagini**: sì, estrarre le figure dai PDF come immagini prodotto.
 4. Prezzi **IVA esclusa**. **Nessuno sconto quantità** per ora.
 
-### Stato al checkpoint
-11 agenti paralleli di estrazione visiva lanciati (VER 4 · CAN 3 · ACC 2 · GOM 1 · ORI 1), spec condivisa in `scratchpad/SPEC.md`, output atteso in `scratchpad/extract/`. **Al momento del checkpoint `extract/` è ancora vuoto: nessun agente ha ancora consegnato.**
+### Stato al checkpoint 2 (10/11 agenti rientrati)
+11 agenti paralleli di estrazione visiva lanciati (VER 4 · CAN 3 · ACC 2 · GOM 1 · ORI 1), spec condivisa in `scratchpad/SPEC.md`, output in `scratchpad/extract/`. **10 JSON su 11 consegnati.**
 
-### ⚠️ RISCHIO DA CHIUDERE PRIMA DI FINIRE LA SESSIONE
-Lo scratchpad è **legato all'UUID di sessione** (`/tmp/claude-1000/.../3bea9b56-.../scratchpad`): una nuova sessione **non lo ritrova**, e `/tmp` si svuota al reboot. Prima di chiudere, **spostare gli artefatti in una dir persistente e gitignorata**, es. `tools/import-listini/` (pages PNG, `SPEC.md`, JSON di `extract/`, script `render*.py`), altrimenti si ributtano via 142 render + tutta l'estrazione.
+- Righe/figure estratte: **ORI** 71/43 · **GOM** 78/0 · **ACC** 110+149/103 · **CAN** 102+162+107 / 34+154+59 · **VER** 64+247+125 / 88+143+101
+- **Manca solo `VER_015-028`** (agente ancora attivo, scrive a blocchi `part_a..part_d`, pagine 15-19 già fatte).
+
+### Normalizzazione (script `scratchpad/normalize.py`, su dati parziali)
+- **906 prodotti · 13.413 varianti** · 753 con prezzo · 153 senza prezzo.
+- Per categoria: Verticale 316p/11.631v · Dissuasori&Accessori 309p/360v · Cantieristica 132p/1.120v · Orizzontale 68p/68v · Coni&Transenne 47p/79v · Delineatori 34p/155v.
+- **Regola di normalizzazione**: se `rows[].figura` esiste → la **RIGA** è il prodotto (ACC/GOM/ORI, hanno codice fornitore); altrimenti il prodotto è la **FIGURA** e le righe sono i suoi **formati** (VER/CAN: il prezzo è per formato, non per cartello).
+- Attributi varianti: `Dimensione × Materiale (Lamiera 10/10 | Alluminio 25/10) × Classe rifrangenza (CL1 | CL2 | CL2 S.)`.
+- **Verifica a campione superata**: i prezzi crescono coerentemente CL1<CL2<CL2 S. e lamiera<alluminio → estrazione affidabile.
+
+### Da sistemare PRIMA dell'import
+- **526 prodotti hanno 1 sola variante** → vanno creati **simple**, non variable.
+- Nomi tipo "Segnale fig. 249" (figure senza dicitura nelle pagine SEGNALI DI DIREZIONE) → rinominare con la sezione di appartenenza.
+- **Dedup** figure ripetute su più pagine.
+
+### 🔴 SCOPERTA GRAVE — listino CANTIERISTICA senza prezzi (verificata a 400 DPI, non è errore di lettura)
+Le **celle prezzo sono vuote nel PDF originale del fornitore**:
+- CAN pagg. **27-38**: 107 righe ma solo **19 prezzi**.
+- CAN pag. **132**, marcata "PREZZI NETTI": colonna **interamente vuota** (23 righe).
+- CAN pagg. **145-146**: tabella difettosa a stampa (intestazioni troncate, 4 righe su 5 senza prezzi).
+→ **Chiedere al fornitore se esiste una versione del listino con i prezzi.**
+
+### Anomalie fornitore (tracciate in `scratchpad/ANOMALIE.md`)
+SKU duplicati (`1200PRCPB0001` ≡ `1200PRCPG0001`), stesso codice `1200TR0010100` a €1,20 e €1,50, refusi nei codici ORI, ~190 articoli marcati "CHIEDERE PREVENTIVO".
+
+### Immagini
+Cartelli **VER/CAN sono vettoriali** (ritaglio perfetto a qualsiasi DPI); ACC/GOM/ORI hanno raster embedded. **Ritagliatore rimandato a dopo l'import dati.**
+
+### ⚠️ RISCHIO ANCORA APERTO
+Lo scratchpad è **legato all'UUID di sessione** (`/tmp/claude-1000/.../3bea9b56-.../scratchpad`): una nuova sessione **non lo ritrova**, e `/tmp` si svuota al reboot. **Spostare `pages/`, `extract/`, `out/`, `*.py`, `SPEC.md`, `ANOMALIE.md` in `tools/import-listini/` (da gitignorare) PRIMA di chiudere la sessione**, altrimenti si ributtano via 142 render + tutta l'estrazione.
 
 ### TODO PRIORITARIO
-1. **Mettere in salvo gli artefatti** dello scratchpad in `tools/import-listini/` (+ riga in `.gitignore`).
-2. Raccogliere gli 11 JSON e fare **verifica incrociata** dell'estrazione (figure duplicate tra listini, prezzi mancanti, formati orfani).
-3. Estrazione **immagini** delle figure dai PDF.
-4. **Normalizzazione CSV** WooCommerce (parent per figura + righe variazione).
-5. **Archiviare** i 215 prodotti vecchi (non cancellare: `draft`/trash, il DB è già backuppato).
-6. **Import** e verifica store (dropdown varianti pieni, prezzi, IVA 22%, immagini).
+1. **Mettere in salvo gli artefatti** dello scratchpad in `tools/import-listini/` (+ riga in `.gitignore`). ← bloccante
+2. Attendere/recuperare l'ultimo JSON **VER_015-028** e rilanciare `normalize.py` sul dataset completo.
+3. Fix pre-import: **simple vs variable** (526 mono-variante), rinomina figure ambigue, **dedup**.
+4. Decidere cosa fare dei **prodotti CAN senza prezzo** (chiedere listino corretto al fornitore / pubblicare come "su preventivo").
+5. **Normalizzazione CSV** WooCommerce (parent per figura + righe variazione).
+6. **Archiviare** i 215 prodotti vecchi (non cancellare: `draft`/trash, il DB è già backuppato in `backups/pre-import-listini-20260712-1019.sql.gz`).
+7. **Import** e verifica store (dropdown varianti pieni, prezzi, IVA 22%).
+8. Solo dopo: **ritaglio immagini** figure dai PDF.
 
 ---
 

@@ -1,0 +1,66 @@
+[
+ {
+  "sku": "MS-CAN-NORMALE-02704",
+  "nome": "Normale",
+  "cat": "Cantieristica",
+  "pagine": [
+   "027"
+  ]
+ },
+ {
+  "sku": "2000STEBA0039",
+  "nome": "Barriera Fissa Pesante 25x150 CM + Piedi Pesanti Verniciati",
+  "cat": "Coni e Transenne",
+  "pagine": [
+   "029"
+  ]
+ },
+ {
+  "sku": "MS-VER-248",
+  "nome": "Segnale di direzione — FIG. 248",
+  "cat": "Segnaletica Verticale",
+  "pagine": [
+   "027"
+  ]
+ },
+ {
+  "sku": "MS-VER-294",
+  "nome": "Segnale di direzione — FIG. 294",
+  "cat": "Segnaletica Verticale",
+  "pagine": [
+   "027"
+  ]
+ },
+ {
+  "sku": "MS-VER-296",
+  "nome": "Segnale di direzione — FIG. 296",
+  "cat": "Segnaletica Verticale",
+  "pagine": [
+   "027"
+  ]
+ },
+ {
+  "sku": "MS-VER-297",
+  "nome": "Segnale di direzione — FIG. 297",
+  "cat": "Segnaletica Verticale",
+  "pagine": [
+   "027"
+  ]
+ },
+ {
+  "sku": "MS-VER-II253",
+  "nome": "Gruppo segnaletico unitario monofilare",
+  "cat": "Segnaletica Verticale",
+  "pagine": [
+   "027"
+  ]
+ },
+ {
+  "sku": "MS-VER-II255",
+  "nome": "Gruppo segnaletico unitario urbano bifilare",
+  "cat": "Segnaletica Verticale",
+  "pagine": [
+   "027"
+  ]
+ }
+]
