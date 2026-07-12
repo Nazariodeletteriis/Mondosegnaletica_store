@@ -1,0 +1,152 @@
+[
+{
+  "tag": "VER",
+  "page": 25,
+  "page_label": "023",
+  "type": "listino",
+  "section": "SEGNALI DI INDICAZIONE",
+  "table_title": null,
+  "page_note": "N.B.: QUANTITATIVO MINIMO: 10 PEZZI PER OGNI DIMENSIONE E TIPOLOGIA | N.B.: QUANTITATIVO MINIMO: 10 BOBINE PER OGNI DIMENSIONE E TIPOLOGIA | N.B.: PER QUANTITÀ INFERIORI A QUELLE MENSIONATE AUMENTO DEL 10% | N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO",
+  "figures": [
+    { "figura": "II 224 ART. 125", "nome": "tiro", "pos": 1 },
+    { "figura": "II 225 ART. 125", "nome": "arco", "pos": 2 },
+    { "figura": "II 226 ART. 125", "nome": "bocce", "pos": 3 },
+    { "figura": "II 227 ART. 125", "nome": "golf", "pos": 4 },
+    { "figura": "II 228 ART. 125", "nome": "scuola sci", "pos": 5 },
+    { "figura": "II 229 ART. 125", "nome": "funivia", "pos": 6 },
+    { "figura": "II 230 ART. 125", "nome": "seggiovia", "pos": 7 },
+    { "figura": "II 231 ART. 125", "nome": "skilift", "pos": 8 },
+    { "figura": null, "nome": "protezione civile", "pos": 9 },
+    { "figura": null, "nome": "corpo forestale", "pos": 10 },
+    { "figura": null, "nome": "freccia", "pos": 11 },
+    { "figura": null, "nome": "freccia", "pos": 12 }
+  ],
+  "rows": [
+    { "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "TARGA", "dimensione": "PICCOLO", "base_cm": 40, "altezza_cm": 40, "n_att": "2", "n_rinf_norm": null, "n_rinf_trav": null, "note": null, "table_title": "TARGA - LAMIERA 10/10 / ALLUMINIO 25/10", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 16.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 19.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 23.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 23.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 27.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 30.00 }
+    ]},
+    { "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "TARGA", "dimensione": "NORMALE", "base_cm": 60, "altezza_cm": 60, "n_att": "2", "n_rinf_norm": null, "n_rinf_trav": null, "note": null, "table_title": "TARGA - LAMIERA 10/10 / ALLUMINIO 25/10", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 22.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 28.50 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 34.50 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 34.50 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 41.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 46.00 }
+    ]},
+    { "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "TARGA", "dimensione": "NORMALE", "base_cm": 60, "altezza_cm": 60, "n_att": null, "n_rinf_norm": "2", "n_rinf_trav": null, "note": null, "table_title": "TARGA - LAMIERA 10/10 / ALLUMINIO 25/10", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 26.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 33.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 39.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 39.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 45.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 52.00 }
+    ]},
+    { "wl_fe": "7", "wl_al": "/", "codice": null, "articolo": "TARGA", "dimensione": "GRANDE", "base_cm": 90, "altezza_cm": 90, "n_att": null, "n_rinf_norm": "3", "n_rinf_trav": null, "note": null, "table_title": "TARGA - LAMIERA 10/10 / ALLUMINIO 25/10", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 62.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 71.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 93.00 }
+    ]},
+    { "wl_fe": "/", "wl_al": "7", "codice": null, "articolo": "TARGA", "dimensione": "GRANDE", "base_cm": 90, "altezza_cm": 90, "n_att": null, "n_rinf_norm": "2", "n_rinf_trav": null, "note": null, "table_title": "TARGA - LAMIERA 10/10 / ALLUMINIO 25/10", "prezzi": [
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 93.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 103.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 120.00 }
+    ]},
+
+    { "wl": "*", "codice": null, "articolo": "ADESIVO IN PELLICOLA RIFRANGENTE", "dimensione": "PICCOLO", "base_cm": null, "altezza_cm": null, "note": "PER TARGA 40x40 - dimensione adesivo 7 x 7", "table_title": "SIMBOLI AUTOADESIVI IN PELLICOLA RIFRANGENTE", "prezzi": [
+      { "materiale": null, "classe": "CL 1", "euro": 2.50 },
+      { "materiale": null, "classe": "CL 2", "euro": 3.50 },
+      { "materiale": null, "classe": "CL 2 S.", "euro": 4.50 }
+    ]},
+    { "wl": "*", "codice": null, "articolo": "ADESIVO IN PELLICOLA RIFRANGENTE", "dimensione": "PICCOLO", "base_cm": null, "altezza_cm": null, "note": "PER TARGA 40x60 - 60x60 - dimensione adesivo 11 x 11", "table_title": "SIMBOLI AUTOADESIVI IN PELLICOLA RIFRANGENTE", "prezzi": [
+      { "materiale": null, "classe": "CL 1", "euro": 2.80 },
+      { "materiale": null, "classe": "CL 2", "euro": 4.00 },
+      { "materiale": null, "classe": "CL 2 S.", "euro": 5.50 }
+    ]},
+    { "wl": "*", "codice": null, "articolo": "ADESIVO IN PELLICOLA RIFRANGENTE", "dimensione": "PICCOLO", "base_cm": null, "altezza_cm": null, "note": "PER TARGA 100x20 - 100x30 - dimensione adesivo 15,5 x 15,5", "table_title": "SIMBOLI AUTOADESIVI IN PELLICOLA RIFRANGENTE", "prezzi": [
+      { "materiale": null, "classe": "CL 1", "euro": 3.30 },
+      { "materiale": null, "classe": "CL 2", "euro": 4.50 },
+      { "materiale": null, "classe": "CL 2 S.", "euro": 6.50 }
+    ]},
+    { "wl": "*", "codice": null, "articolo": "ADESIVO IN PELLICOLA RIFRANGENTE", "dimensione": "NORMALE", "base_cm": null, "altezza_cm": null, "note": "PER TARGA 90x90 - 60x90 - dimensione adesivo 16,5 x 16,5", "table_title": "SIMBOLI AUTOADESIVI IN PELLICOLA RIFRANGENTE", "prezzi": [
+      { "materiale": null, "classe": "CL 1", "euro": 3.80 },
+      { "materiale": null, "classe": "CL 2", "euro": 5.00 },
+      { "materiale": null, "classe": "CL 2 S.", "euro": 7.30 }
+    ]},
+    { "wl": "*", "codice": null, "articolo": "ADESIVO IN PELLICOLA RIFRANGENTE", "dimensione": "NORMALE", "base_cm": null, "altezza_cm": null, "note": "PER TARGA 100x25 - 125x25 - 125x35 - dimensione adesivo 18 x 18", "table_title": "SIMBOLI AUTOADESIVI IN PELLICOLA RIFRANGENTE", "prezzi": [
+      { "materiale": null, "classe": "CL 1", "euro": 4.00 },
+      { "materiale": null, "classe": "CL 2", "euro": 5.50 },
+      { "materiale": null, "classe": "CL 2 S.", "euro": 7.50 }
+    ]},
+    { "wl": "*", "codice": null, "articolo": "ADESIVO IN PELLICOLA RIFRANGENTE", "dimensione": "NORMALE", "base_cm": null, "altezza_cm": null, "note": "PER TARGA 150x40 - dimensione adesivo 21,5 x 21,5", "table_title": "SIMBOLI AUTOADESIVI IN PELLICOLA RIFRANGENTE", "prezzi": [
+      { "materiale": null, "classe": "CL 1", "euro": 5.50 },
+      { "materiale": null, "classe": "CL 2", "euro": 6.50 },
+      { "materiale": null, "classe": "CL 2 S.", "euro": 8.50 }
+    ]},
+    { "wl": "*", "codice": null, "articolo": "ADESIVO IN PELLICOLA RIFRANGENTE", "dimensione": "GRANDE", "base_cm": null, "altezza_cm": null, "note": "PER TARGA 90x135 - dimensione adesivo 25 x 25", "table_title": "SIMBOLI AUTOADESIVI IN PELLICOLA RIFRANGENTE", "prezzi": [
+      { "materiale": null, "classe": "CL 1", "euro": 6.50 },
+      { "materiale": null, "classe": "CL 2", "euro": 7.50 },
+      { "materiale": null, "classe": "CL 2 S.", "euro": 9.00 }
+    ]},
+
+    { "wl": "*", "codice": null, "articolo": "BOBINA PER BORDATURA SEGNALI", "dimensione": "1,0 CM", "base_cm": null, "altezza_cm": null, "note": "ALTEZZA BOBINA 1,0 CM", "table_title": "BOBINE PER BORDATURA SEGNALI", "prezzi": [
+      { "materiale": null, "classe": "CAL (ML: 50,00)", "euro": 10.00 },
+      { "materiale": null, "classe": "CL 1 (ML: 45,70)", "euro": 14.00 },
+      { "materiale": null, "classe": "CL 2 (ML: 45,70)", "euro": 18.50 },
+      { "materiale": null, "classe": "CL 2 S. (ML: 45,70)", "euro": 27.50 }
+    ]},
+    { "wl": "*", "codice": null, "articolo": "BOBINA PER BORDATURA SEGNALI", "dimensione": "1,5 CM", "base_cm": null, "altezza_cm": null, "note": "ALTEZZA BOBINA 1,5 CM", "table_title": "BOBINE PER BORDATURA SEGNALI", "prezzi": [
+      { "materiale": null, "classe": "CAL (ML: 50,00)", "euro": 15.00 },
+      { "materiale": null, "classe": "CL 1 (ML: 45,70)", "euro": 21.00 },
+      { "materiale": null, "classe": "CL 2 (ML: 45,70)", "euro": 27.50 },
+      { "materiale": null, "classe": "CL 2 S. (ML: 45,70)", "euro": 41.50 }
+    ]},
+    { "wl": "*", "codice": null, "articolo": "BOBINA PER BORDATURA SEGNALI", "dimensione": "2,0 CM", "base_cm": null, "altezza_cm": null, "note": "ALTEZZA BOBINA 2,0 CM", "table_title": "BOBINE PER BORDATURA SEGNALI", "prezzi": [
+      { "materiale": null, "classe": "CAL (ML: 50,00)", "euro": 20.00 },
+      { "materiale": null, "classe": "CL 1 (ML: 45,70)", "euro": 27.50 },
+      { "materiale": null, "classe": "CL 2 (ML: 45,70)", "euro": 37.00 },
+      { "materiale": null, "classe": "CL 2 S. (ML: 45,70)", "euro": 55.00 }
+    ]},
+    { "wl": "*", "codice": null, "articolo": "BOBINA PER BORDATURA SEGNALI", "dimensione": "2,5 CM", "base_cm": null, "altezza_cm": null, "note": "ALTEZZA BOBINA 2,5 CM", "table_title": "BOBINE PER BORDATURA SEGNALI", "prezzi": [
+      { "materiale": null, "classe": "CAL (ML: 50,00)", "euro": 25.00 },
+      { "materiale": null, "classe": "CL 1 (ML: 45,70)", "euro": 34.50 },
+      { "materiale": null, "classe": "CL 2 (ML: 45,70)", "euro": 46.00 },
+      { "materiale": null, "classe": "CL 2 S. (ML: 45,70)", "euro": 69.00 }
+    ]},
+    { "wl": "*", "codice": null, "articolo": "BOBINA PER BORDATURA SEGNALI", "dimensione": "3,0 CM", "base_cm": null, "altezza_cm": null, "note": "ALTEZZA BOBINA 3,0 CM", "table_title": "BOBINE PER BORDATURA SEGNALI", "prezzi": [
+      { "materiale": null, "classe": "CAL (ML: 50,00)", "euro": 30.00 },
+      { "materiale": null, "classe": "CL 1 (ML: 45,70)", "euro": 41.50 },
+      { "materiale": null, "classe": "CL 2 (ML: 45,70)", "euro": 55.00 },
+      { "materiale": null, "classe": "CL 2 S. (ML: 45,70)", "euro": 82.50 }
+    ]},
+    { "wl": "*", "codice": null, "articolo": "BOBINA PER BORDATURA SEGNALI", "dimensione": "3,5 CM", "base_cm": null, "altezza_cm": null, "note": "ALTEZZA BOBINA 3,5 CM", "table_title": "BOBINE PER BORDATURA SEGNALI", "prezzi": [
+      { "materiale": null, "classe": "CAL (ML: 50,00)", "euro": 35.00 },
+      { "materiale": null, "classe": "CL 1 (ML: 45,70)", "euro": 48.00 },
+      { "materiale": null, "classe": "CL 2 (ML: 45,70)", "euro": 64.00 },
+      { "materiale": null, "classe": "CL 2 S. (ML: 45,70)", "euro": 96.00 }
+    ]},
+    { "wl": "*", "codice": null, "articolo": "BOBINA PER BORDATURA SEGNALI", "dimensione": "4,0 CM", "base_cm": null, "altezza_cm": null, "note": "ALTEZZA BOBINA 4,0 CM", "table_title": "BOBINE PER BORDATURA SEGNALI", "prezzi": [
+      { "materiale": null, "classe": "CAL (ML: 50,00)", "euro": 40.00 },
+      { "materiale": null, "classe": "CL 1 (ML: 45,70)", "euro": 55.00 },
+      { "materiale": null, "classe": "CL 2 (ML: 45,70)", "euro": 73.50 },
+      { "materiale": null, "classe": "CL 2 S. (ML: 45,70)", "euro": 110.00 }
+    ]},
+    { "wl": "*", "codice": null, "articolo": "BOBINA PER BORDATURA SEGNALI", "dimensione": "4,5 CM", "base_cm": null, "altezza_cm": null, "note": "ALTEZZA BOBINA 4,5 CM", "table_title": "BOBINE PER BORDATURA SEGNALI", "prezzi": [
+      { "materiale": null, "classe": "CAL (ML: 50,00)", "euro": 45.00 },
+      { "materiale": null, "classe": "CL 1 (ML: 45,70)", "euro": 62.00 },
+      { "materiale": null, "classe": "CL 2 (ML: 45,70)", "euro": 82.50 },
+      { "materiale": null, "classe": "CL 2 S. (ML: 45,70)", "euro": 123.50 }
+    ]},
+    { "wl": "*", "codice": null, "articolo": "BOBINA PER BORDATURA SEGNALI", "dimensione": "5,0 CM", "base_cm": null, "altezza_cm": null, "note": "ALTEZZA BOBINA 5,0 CM", "table_title": "BOBINE PER BORDATURA SEGNALI", "prezzi": [
+      { "materiale": null, "classe": "CAL (ML: 50,00)", "euro": 50.00 },
+      { "materiale": null, "classe": "CL 1 (ML: 45,70)", "euro": 69.00 },
+      { "materiale": null, "classe": "CL 2 (ML: 45,70)", "euro": 91.50 },
+      { "materiale": null, "classe": "CL 2 S. (ML: 45,70)", "euro": 137.50 }
+    ]}
+  ]
+}
+]

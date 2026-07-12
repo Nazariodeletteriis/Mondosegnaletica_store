@@ -1,0 +1,1310 @@
+[
+  {
+    "tag": "GOM",
+    "page": 1,
+    "page_label": null,
+    "type": "copertina",
+    "section": "PRODOTTI IN GOMMA",
+    "table_title": null,
+    "figures": [],
+    "rows": [],
+    "page_note": "Frontespizio: titolo \"Prodotti in Gomma\" + logo Mondo Segnaletica Soc. Coop. Nessun numero di pagina stampato."
+  },
+  {
+    "tag": "GOM",
+    "page": 2,
+    "page_label": null,
+    "type": "altro",
+    "section": null,
+    "table_title": null,
+    "figures": [],
+    "rows": [],
+    "page_note": "Pagina completamente bianca."
+  },
+  {
+    "tag": "GOM",
+    "page": 3,
+    "page_label": "063",
+    "type": "listino",
+    "section": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474 / CORDOLI DI DELIMITAZIONE OMOLOGATI",
+    "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474",
+    "figures": [],
+    "rows": [
+      {
+        "wl": "/",
+        "codice": "1200DAORV0018",
+        "articolo": "RALLENTATORE DI VELOCITA' (48x60 CM - H 3 CM) COMPLETO DI N° 4 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "48x60 CM - H 3 CM",
+        "base_cm": 48,
+        "altezza_cm": 60,
+        "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474",
+        "sottosezione": "DOSSO H 3 CM - SU STRADE CON LIMITE DI VELOCITÀ ≤ 50 KM/H",
+        "qta_min": 30,
+        "note": "Unità di misura: al pezzo. Altezza dosso 3 cm. Include n° 4 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 41.50 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200DAORV0019",
+        "articolo": "RALLENTATORE DI VELOCITA' (50x90 CM - H 5 CM) COMPLETO DI N° 5 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "50x90 CM - H 5 CM",
+        "base_cm": 50,
+        "altezza_cm": 90,
+        "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474",
+        "sottosezione": "DOSSO H 5 CM - SU STRADE CON LIMITE DI VELOCITÀ ≤ 40 KM/H",
+        "qta_min": 30,
+        "note": "Unità di misura: al pezzo. Altezza dosso 5 cm. Include n° 5 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 70.50 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200DAOTM0022",
+        "articolo": "TERMINALE MASCHIO (27x90 CM - H 5 CM) COMPLETO DI N° 3 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "27x90 CM - H 5 CM",
+        "base_cm": 27,
+        "altezza_cm": 90,
+        "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474",
+        "sottosezione": "DOSSO H 5 CM - SU STRADE CON LIMITE DI VELOCITÀ ≤ 40 KM/H",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Include n° 3 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 47.50 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200DAOTF0022",
+        "articolo": "TERMINALE FEMMINA (27x90 CM - H 5 CM) COMPLETO DI N° 3 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "27x90 CM - H 5 CM",
+        "base_cm": 27,
+        "altezza_cm": 90,
+        "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474",
+        "sottosezione": "DOSSO H 5 CM - SU STRADE CON LIMITE DI VELOCITÀ ≤ 40 KM/H",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Include n° 3 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 47.50 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200DAORV0022",
+        "articolo": "RALLENTATORE DI VELOCITA' (50x120 CM - H 7 CM) COMPLETO DI N° 6 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "50x120 CM - H 7 CM",
+        "base_cm": 50,
+        "altezza_cm": 120,
+        "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474",
+        "sottosezione": "DOSSO H 7 CM - SU STRADE CON LIMITE DI VELOCITÀ ≤ 30 KM/H",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo. Altezza dosso 7 cm. Include n° 6 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 150.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200DAOTM0023",
+        "articolo": "TERMINALE (30x120 CM - H 7 CM) COMPLETO DI N° 5 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "30x120 CM - H 7 CM",
+        "base_cm": 30,
+        "altezza_cm": 120,
+        "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474",
+        "sottosezione": "DOSSO H 7 CM - SU STRADE CON LIMITE DI VELOCITÀ ≤ 30 KM/H",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Include n° 5 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 105.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200TR0010135",
+        "articolo": "TASSELLO DI RICAMBIO Ø 10 MM x 135 MM COMPLETO DI VITE E RONDELLA",
+        "dimensione": "Ø 10 MM x 135 MM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "TASSELLO DI RICAMBIO",
+        "sottosezione": "TASSELLO DI RICAMBIO",
+        "qta_min": 50,
+        "note": "Unità di misura: al pezzo. Completo di vite e rondella.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 1.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200CDOCO0040",
+        "articolo": "CORDOLO DI DELIMITAZIONE (100x16 CM - H 5 CM) COMPLETO DI N° 3 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "100x16 CM - H 5 CM",
+        "base_cm": 100,
+        "altezza_cm": 16,
+        "table_title": "CORDOLI DI DELIMITAZIONE OMOLOGATI",
+        "sottosezione": "CORDOLO H 5 CM",
+        "qta_min": 30,
+        "note": "Unità di misura: al pezzo (modulo da 100 cm). Altezza cordolo 5 cm. Include n° 3 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 84.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200CDOTM0047",
+        "articolo": "TERMINALE MASCHIO (42,5x16 CM - H 5 CM) COMPLETO DI N° 2 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "42,5x16 CM - H 5 CM",
+        "base_cm": 42.5,
+        "altezza_cm": 16,
+        "table_title": "CORDOLI DI DELIMITAZIONE OMOLOGATI",
+        "sottosezione": "CORDOLO H 5 CM",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Include n° 2 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 66.50 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200CDOTF0048",
+        "articolo": "TERMINALE FEMMINA (42,5x16 CM - H 5 CM) COMPLETO DI N° 2 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "42,5x16 CM - H 5 CM",
+        "base_cm": 42.5,
+        "altezza_cm": 16,
+        "table_title": "CORDOLI DI DELIMITAZIONE OMOLOGATI",
+        "sottosezione": "CORDOLO H 5 CM",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Include n° 2 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 66.50 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200CDOCO0061",
+        "articolo": "CORDOLO DI DELIMITAZIONE (100x30 CM - H 10 CM) COMPLETO DI BARRE FILETTATE PER LA POSA IN OPERA (N° 2 BARRE FILETTATE DA Ø 14 MM x 240 MM)",
+        "dimensione": "100x30 CM - H 10 CM",
+        "base_cm": 100,
+        "altezza_cm": 30,
+        "table_title": "CORDOLI DI DELIMITAZIONE OMOLOGATI",
+        "sottosezione": "CORDOLO H 10 CM",
+        "qta_min": 30,
+        "note": "Unità di misura: al pezzo (modulo da 100 cm). Altezza cordolo 10 cm. Include n° 2 barre filettate Ø 14 mm x 240 mm.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 105.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200CDODE0051",
+        "articolo": "DELINEATORE CILINDRICO PER CORDOLO (H 35 CM)",
+        "dimensione": "H 35 CM",
+        "base_cm": null,
+        "altezza_cm": 35,
+        "table_title": "CORDOLI DI DELIMITAZIONE OMOLOGATI",
+        "sottosezione": "CORDOLO H 10 CM",
+        "qta_min": 30,
+        "note": "Unità di misura: al pezzo. Accessorio per cordolo H 10 cm.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 14.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200CDOTM0052",
+        "articolo": "TERMINALE (75,5x30 CM - H 10 CM) COMPLETO DI BARRA FILETTATA E TASSELLO PER LA POSA IN OPERA (N° 1 BARRA FILETTATA DA Ø 14 MM x 240 MM + N° 1 TASSELLO)",
+        "dimensione": "75,5x30 CM - H 10 CM",
+        "base_cm": 75.5,
+        "altezza_cm": 30,
+        "table_title": "CORDOLI DI DELIMITAZIONE OMOLOGATI",
+        "sottosezione": "CORDOLO H 10 CM",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Include n° 1 barra filettata Ø 14 mm x 240 mm + n° 1 tassello.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 82.00 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10% (riportato sia sotto i dossi sia a fondo pagina). N.B.: RESA MALTA: 1 KG = 5 FORI (riferito ai cordoli di delimitazione)."
+  },
+  {
+    "tag": "GOM",
+    "page": 4,
+    "page_label": "064",
+    "type": "listino",
+    "section": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474 - OG",
+    "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474 - OG",
+    "figures": [],
+    "rows": [
+      {
+        "wl": "/",
+        "codice": "1200DAORV0010",
+        "articolo": "RALLENTATORE DI VELOCITA' (48,5x61 CM - H 3 CM) COMPLETO DI N° 4 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "48,5x61 CM - H 3 CM",
+        "base_cm": 48.5,
+        "altezza_cm": 61,
+        "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474 - OG",
+        "sottosezione": "DOSSO H 3 CM - SU STRADE CON LIMITE DI VELOCITÀ ≤ 50 KM/H",
+        "qta_min": 30,
+        "note": "Unità di misura: al pezzo. Altezza dosso 3 cm. Include n° 4 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 33.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200DAOTM0011",
+        "articolo": "TERMINALE MASCHIO (22,5x60 CM) COMPLETO DI N° 2 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "22,5x60 CM",
+        "base_cm": 22.5,
+        "altezza_cm": 60,
+        "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474 - OG",
+        "sottosezione": "DOSSO H 3 CM - SU STRADE CON LIMITE DI VELOCITÀ ≤ 50 KM/H",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Include n° 2 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 29.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200DAOTF0012",
+        "articolo": "TERMINALE FEMMINA (22,5x60 CM) COMPLETO DI N° 2 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "22,5x60 CM",
+        "base_cm": 22.5,
+        "altezza_cm": 60,
+        "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474 - OG",
+        "sottosezione": "DOSSO H 3 CM - SU STRADE CON LIMITE DI VELOCITÀ ≤ 50 KM/H",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Include n° 2 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 29.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200TR0010100",
+        "articolo": "TASSELLO DI RICAMBIO Ø 10 MM x 100 MM COMPLETO DI VITE E RONDELLA",
+        "dimensione": "Ø 10 MM x 100 MM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "TASSELLO DI RICAMBIO",
+        "sottosezione": "TASSELLO DI RICAMBIO (per DOSSO H 3 CM)",
+        "qta_min": 100,
+        "note": "Unità di misura: al pezzo. Completo di vite e rondella.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 1.20 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200DAORV0013",
+        "articolo": "RALLENTATORE DI VELOCITA' (50x90 CM - H 5 CM) COMPLETO DI N° 5 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "50x90 CM - H 5 CM",
+        "base_cm": 50,
+        "altezza_cm": 90,
+        "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474 - OG",
+        "sottosezione": "DOSSO H 5 CM - SU STRADE CON LIMITE DI VELOCITÀ ≤ 40 KM/H",
+        "qta_min": 30,
+        "note": "Unità di misura: al pezzo. Altezza dosso 5 cm. Include n° 5 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 60.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200DAOTM0014",
+        "articolo": "TERMINALE MASCHIO (30x90 CM) COMPLETO DI N° 3 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "30x90 CM",
+        "base_cm": 30,
+        "altezza_cm": 90,
+        "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474 - OG",
+        "sottosezione": "DOSSO H 5 CM - SU STRADE CON LIMITE DI VELOCITÀ ≤ 40 KM/H",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Include n° 3 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 32.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200DAOTF0015",
+        "articolo": "TERMINALE FEMMINA (30x90 CM) COMPLETO DI N° 3 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "30x90 CM",
+        "base_cm": 30,
+        "altezza_cm": 90,
+        "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474 - OG",
+        "sottosezione": "DOSSO H 5 CM - SU STRADE CON LIMITE DI VELOCITÀ ≤ 40 KM/H",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Include n° 3 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 32.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200TR0010100",
+        "articolo": "TASSELLO DI RICAMBIO Ø 10 MM x 100 MM COMPLETO DI VITE E RONDELLA",
+        "dimensione": "Ø 10 MM x 100 MM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "TASSELLO DI RICAMBIO",
+        "sottosezione": "TASSELLO DI RICAMBIO (per DOSSO H 5 CM)",
+        "qta_min": 100,
+        "note": "Unità di misura: al pezzo. Completo di vite e rondella. Riga ripetuta (stesso codice e prezzo della tabella tasselli del DOSSO H 3 CM).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 1.20 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200DAORV0016",
+        "articolo": "RALLENTATORE DI VELOCITA' (50x120 CM - H 7 CM) COMPLETO DI N° 6 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "50x120 CM - H 7 CM",
+        "base_cm": 50,
+        "altezza_cm": 120,
+        "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474 - OG",
+        "sottosezione": "DOSSO H 7 CM - SU STRADE CON LIMITE DI VELOCITÀ ≤ 30 KM/H",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo. Altezza dosso 7 cm. Include n° 6 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 122.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200DAOTD0017",
+        "articolo": "TERMINALE PER DOSSO H 7 CM (30x120 CM) COMPLETO DI N° 6 TASSELLI PER LA POSA IN OPERA",
+        "dimensione": "30x120 CM",
+        "base_cm": 30,
+        "altezza_cm": 120,
+        "table_title": "DOSSI ARTIFICIALI OMOLOGATI - FIG. 474 - OG",
+        "sottosezione": "DOSSO H 7 CM - SU STRADE CON LIMITE DI VELOCITÀ ≤ 30 KM/H",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Include n° 6 tasselli per la posa in opera.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 65.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200TR0010140",
+        "articolo": "TASSELLO DI RICAMBIO Ø 10 MM x 140 MM COMPLETO DI VITE E RONDELLA",
+        "dimensione": "Ø 10 MM x 140 MM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "TASSELLO DI RICAMBIO",
+        "sottosezione": "TASSELLO DI RICAMBIO (per DOSSO H 7 CM)",
+        "qta_min": 100,
+        "note": "Unità di misura: al pezzo. Completo di vite e rondella.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 1.70 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%"
+  },
+  {
+    "tag": "GOM",
+    "page": 5,
+    "page_label": "065",
+    "type": "listino",
+    "section": "PASSAGGI PEDONALI RIALZATI / PASSACAVI ARTIFICIALI",
+    "table_title": "PASSAGGI PEDONALI RIALZATI - PASSAGGIO PEDONALE H 7 CM",
+    "figures": [],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200PPRMB0001",
+        "articolo": "MODULO BIANCO RICOPERTO DI LAMINATO RIFRANGENTE DA 50 x 50 x 7 H CM (N° 2 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "50 x 50 x 7 H CM",
+        "base_cm": 50,
+        "altezza_cm": 50,
+        "table_title": "PASSAGGI PEDONALI RIALZATI - PASSAGGIO PEDONALE H 7 CM",
+        "sottosezione": "PASSAGGIO PEDONALE H 7 CM",
+        "qta_min": null,
+        "note": "Unità di misura: al pezzo. Qtà min. ord.: \"/\" (non indicata). Prezzo non a listino: nella colonna EURO è stampato \"CHIEDERE PREVENTIVO\". Tasselli di fissaggio esclusi (n° 2).",
+        "prezzi": []
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "1200PPRMN0002",
+        "articolo": "MODULO NERO DA 50 x 50 x 7 H CM (N° 2 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "50 x 50 x 7 H CM",
+        "base_cm": 50,
+        "altezza_cm": 50,
+        "table_title": "PASSAGGI PEDONALI RIALZATI - PASSAGGIO PEDONALE H 7 CM",
+        "sottosezione": "PASSAGGIO PEDONALE H 7 CM",
+        "qta_min": null,
+        "note": "Unità di misura: al pezzo. Qtà min. ord.: \"/\" (non indicata). Prezzo non a listino: \"CHIEDERE PREVENTIVO\". Tasselli di fissaggio esclusi (n° 2).",
+        "prezzi": []
+      },
+      {
+        "wl": "*",
+        "figura": "C",
+        "codice": "1200PPRT00003",
+        "articolo": "TERMINALE MASCHIO O FEMMINA A PROFILO CONVESSO DA 50 x 60 x 7 H CM (N° 3+3 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "50 x 60 x 7 H CM",
+        "base_cm": 50,
+        "altezza_cm": 60,
+        "table_title": "PASSAGGI PEDONALI RIALZATI - PASSAGGIO PEDONALE H 7 CM",
+        "sottosezione": "PASSAGGIO PEDONALE H 7 CM",
+        "qta_min": null,
+        "note": "Unità di misura: al pezzo. Qtà min. ord.: \"/\" (non indicata). Prezzo non a listino: \"CHIEDERE PREVENTIVO\". Tasselli di fissaggio esclusi (n° 3+3). Codice trascritto esattamente come stampato: 1200PPRT00003 (fuori pattern rispetto agli altri codici della tabella).",
+        "prezzi": []
+      },
+      {
+        "wl": "*",
+        "figura": "D",
+        "codice": "1200PPRTR0004",
+        "articolo": "TERMINALE MASCHIO O FEMMINA A PROFILO CONVESSO CON INSERTI GIALLI RIF. DA 50 x 60 x 7 H CM (N° 3+3 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "50 x 60 x 7 H CM",
+        "base_cm": 50,
+        "altezza_cm": 60,
+        "table_title": "PASSAGGI PEDONALI RIALZATI - PASSAGGIO PEDONALE H 7 CM",
+        "sottosezione": "PASSAGGIO PEDONALE H 7 CM",
+        "qta_min": null,
+        "note": "Unità di misura: al pezzo. Qtà min. ord.: \"/\" (non indicata). Prezzo non a listino: \"CHIEDERE PREVENTIVO\". Tasselli di fissaggio esclusi (n° 3+3).",
+        "prezzi": []
+      },
+      {
+        "wl": "*",
+        "figura": "E",
+        "codice": "1200PPRTA0005",
+        "articolo": "TERMINALE AD ANGOLO (N° 7 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PASSAGGI PEDONALI RIALZATI - PASSAGGIO PEDONALE H 7 CM",
+        "sottosezione": "PASSAGGIO PEDONALE H 7 CM",
+        "qta_min": null,
+        "note": "Unità di misura: al pezzo. Qtà min. ord.: \"/\" (non indicata). Prezzo non a listino: \"CHIEDERE PREVENTIVO\". Tasselli di fissaggio esclusi (n° 7).",
+        "prezzi": []
+      },
+      {
+        "wl": "*",
+        "figura": "F",
+        "codice": "1200TR0010140",
+        "articolo": "TASSELLO Ø 10 MM x 140 MM - COMPLETO DI VITE E RONDELLA",
+        "dimensione": "Ø 10 MM x 140 MM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PASSAGGI PEDONALI RIALZATI - PASSAGGIO PEDONALE H 7 CM",
+        "sottosezione": "PASSAGGIO PEDONALE H 7 CM",
+        "qta_min": 100,
+        "note": "Unità di misura: al pezzo. Completo di vite e rondella.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 1.70 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200DAPRV0001",
+        "articolo": "DOSSO ARTIFICIALE CON SISTEMA PASSACAVI (60 x 90 CM - H 7 CM) CARRABILITA': CARICO MASSIMO SOSTENIBILE 6 TONNELLATE PER ASSE VEICOLO (N° 4 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "60 x 90 CM - H 7 CM",
+        "base_cm": 60,
+        "altezza_cm": 90,
+        "table_title": "PASSACAVI ARTIFICIALI - PASSACAVO H 7 CM",
+        "sottosezione": "PASSACAVO H 7 CM",
+        "qta_min": 5,
+        "note": "Unità di misura: al pezzo. Carrabilità: carico max 6 tonnellate per asse veicolo. Tasselli di fissaggio esclusi (n° 4). Disegno quotato: 600 mm larghezza, 70 mm altezza, 50 mm altezza interna, canali 67/55/67 mm.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 110.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "codice": "1200TR0010135",
+        "articolo": "TASSELLO DI RICAMBIO Ø 10 MM x 135 MM COMPLETO DI VITE E RONDELLA",
+        "dimensione": "Ø 10 MM x 135 MM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "TASSELLO DI RICAMBIO",
+        "sottosezione": "TASSELLO DI RICAMBIO (per PASSACAVO H 7 CM)",
+        "qta_min": 50,
+        "note": "Unità di misura: al pezzo. Completo di vite e rondella.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 1.00 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10% (riportato due volte, sotto ciascuna sezione). La colonna FIGURA contiene lettere di rimando alle foto dei componenti (A-F), non figure del Codice della Strada."
+  },
+  {
+    "tag": "GOM",
+    "page": 6,
+    "page_label": "066",
+    "type": "listino",
+    "section": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+    "table_title": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+    "figures": [],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200ROT000510",
+        "articolo": "DIAMETRO ESTERNO: 5,10 MT - DIAMETRO INTERNO: 3,10 MT - 34 MODULI DA: 47,10 x 28,63 x 100 CM (TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "Ø esterno 5,10 MT - Ø interno 3,10 MT",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+        "qta_min": null,
+        "note": "Unità di misura: a rotatoria completa (kit). Qtà min. ord.: \"/\". Composta da 34 moduli da 47,10 x 28,63 x 100 cm. Tasselli di fissaggio esclusi.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 3000.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200ROT000660",
+        "articolo": "DIAMETRO ESTERNO: 6,60 MT - DIAMETRO INTERNO: 4,60 MT - 22 MODULI DA: 47,10 x 28,63 x 100 CM + 22 MODULI DA: 47,10 x 37,60 x 100 CM (TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "Ø esterno 6,60 MT - Ø interno 4,60 MT",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+        "qta_min": null,
+        "note": "Unità di misura: a rotatoria completa (kit). Qtà min. ord.: \"/\". Tasselli di fissaggio esclusi.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 4100.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200ROT000720",
+        "articolo": "DIAMETRO ESTERNO: 7,20 MT - DIAMETRO INTERNO: 5,20 MT - 24 MODULI DA: 47,10 x 28,63 x 100 CM + 24 MODULI DA: 47,10 x 39,30 x 100 CM (TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "Ø esterno 7,20 MT - Ø interno 5,20 MT",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+        "qta_min": null,
+        "note": "Unità di misura: a rotatoria completa (kit). Qtà min. ord.: \"/\". Tasselli di fissaggio esclusi.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 4500.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200ROT000765",
+        "articolo": "DIAMETRO ESTERNO: 7,65 MT - DIAMETRO INTERNO: 5,65 MT - 26 MODULI DA: 47,10 x 28,63 x 100 CM + 26 MODULI DA: 47,10 x 41,20 x 100 CM (TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "Ø esterno 7,65 MT - Ø interno 5,65 MT",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+        "qta_min": null,
+        "note": "Unità di misura: a rotatoria completa (kit). Qtà min. ord.: \"/\". Tasselli di fissaggio esclusi.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 4900.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200ROT000830",
+        "articolo": "DIAMETRO ESTERNO: 8,30 MT - DIAMETRO INTERNO: 6,34 MT - 28 MODULI DA: 47,10 x 28,63 x 100 CM + 28 MODULI DA: 47,10 x 42,40 x 100 CM (TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "Ø esterno 8,30 MT - Ø interno 6,34 MT",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+        "qta_min": null,
+        "note": "Unità di misura: a rotatoria completa (kit). Qtà min. ord.: \"/\". Tasselli di fissaggio esclusi. Il diametro interno è stampato \"6,34 MT\" (verificato con zoom): fuori dal pattern -2,00 MT delle altre righe, ma è quanto riportato sul listino.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 5300.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200ROT000990",
+        "articolo": "DIAMETRO ESTERNO: 9,90 MT - DIAMETRO INTERNO: 7,90 MT - 66 MODULI DA: 47,10 x 37,60 x 100 CM (TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "Ø esterno 9,90 MT - Ø interno 7,90 MT",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+        "qta_min": null,
+        "note": "Unità di misura: a rotatoria completa (kit). Qtà min. ord.: \"/\". Tasselli di fissaggio esclusi.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 6500.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200ROT001200",
+        "articolo": "DIAMETRO ESTERNO: 12,00 MT - DIAMETRO INTERNO: 10,00 MT - 80 MODULI DA: 47,10 x 39,30 x 100 CM (TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "Ø esterno 12,00 MT - Ø interno 10,00 MT",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+        "qta_min": null,
+        "note": "Unità di misura: a rotatoria completa (kit). Qtà min. ord.: \"/\". Tasselli di fissaggio esclusi.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 8000.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200ROT001380",
+        "articolo": "DIAMETRO ESTERNO: 13,80 MT - DIAMETRO INTERNO: 11,80 MT - 46 MODULI DA: 47,10 x 37,60 x 100 CM + 46 MODULI DA: 47,10 x 43,30 x 100 CM (TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "Ø esterno 13,80 MT - Ø interno 11,80 MT",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+        "qta_min": null,
+        "note": "Unità di misura: a rotatoria completa (kit). Qtà min. ord.: \"/\". Tasselli di fissaggio esclusi.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 9100.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200ROT001500",
+        "articolo": "DIAMETRO ESTERNO: 15,00 MT - DIAMETRO INTERNO: 13,00 MT - 50 MODULI DA: 47,10 x 41,90 x 100 CM + 50 MODULI DA: 47,10 x 39,30 x 100 CM (TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "Ø esterno 15,00 MT - Ø interno 13,00 MT",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+        "qta_min": null,
+        "note": "Unità di misura: a rotatoria completa (kit). Qtà min. ord.: \"/\". Tasselli di fissaggio esclusi.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 10000.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200ROT001590",
+        "articolo": "DIAMETRO ESTERNO: 15,90 MT - DIAMETRO INTERNO: 13,90 MT - 106 MODULI DA: 47,10 x 41,20 x 100 CM (TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "Ø esterno 15,90 MT - Ø interno 13,90 MT",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+        "qta_min": null,
+        "note": "Unità di misura: a rotatoria completa (kit). Qtà min. ord.: \"/\". Tasselli di fissaggio esclusi.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 10650.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200ROT001800",
+        "articolo": "DIAMETRO ESTERNO: 18,00 MT - DIAMETRO INTERNO: 16,00 MT - 120 MODULI DA: 47,10 x 41,90 x 100 CM (TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "Ø esterno 18,00 MT - Ø interno 16,00 MT",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+        "qta_min": null,
+        "note": "Unità di misura: a rotatoria completa (kit). Qtà min. ord.: \"/\". Tasselli di fissaggio esclusi.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 12000.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200ROT002010",
+        "articolo": "DIAMETRO ESTERNO: 20,10 MT - DIAMETRO INTERNO: 18,10 MT - 134 MODULI DA: 47,10 x 42,40 x 100 CM (TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "Ø esterno 20,10 MT - Ø interno 18,10 MT",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+        "qta_min": null,
+        "note": "Unità di misura: a rotatoria completa (kit). Qtà min. ord.: \"/\". Tasselli di fissaggio esclusi.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 13375.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200ROT002400",
+        "articolo": "DIAMETRO ESTERNO: 24,00 MT - DIAMETRO INTERNO: 22,00 MT - 160 MODULI DA: 47,10 x 43,30 x 100 CM (TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "Ø esterno 24,00 MT - Ø interno 22,00 MT",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+        "qta_min": null,
+        "note": "Unità di misura: a rotatoria completa (kit). Qtà min. ord.: \"/\". Tasselli di fissaggio esclusi.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 16000.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "1200TR0010140",
+        "articolo": "TASSELLO Ø 10 MM x 140 MM - COMPLETO DI VITE E RONDELLA",
+        "dimensione": "Ø 10 MM x 140 MM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ROTATORIE",
+        "qta_min": 100,
+        "note": "Unità di misura: al pezzo. Completo di vite e rondella.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 1.70 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%. La colonna FIGURA contiene lettere di rimando alle foto (A = rotatoria, B = tassello), non figure del Codice della Strada."
+  },
+  {
+    "tag": "GOM",
+    "page": 7,
+    "page_label": "067",
+    "type": "listino",
+    "section": "PRODOTTI IN PLASTICA RICICLATA - CORDOLI PER DELIMITAZIONE AIUOLE",
+    "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLI PER DELIMITAZIONE AIUOLE",
+    "figures": [],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200CDACA0058",
+        "articolo": "CORDOLO DI DELIMITAZIONE AIUOLE DA 100 x 13 x 14 H CM - GIALLO (N° 3 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "100 x 13 x 14 H CM",
+        "base_cm": 100,
+        "altezza_cm": 14,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLI PER DELIMITAZIONE AIUOLE",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo (modulo da 100 cm lineari). Colore giallo. Sezione cordolo 13 x 14 cm. Tasselli di fissaggio esclusi (n° 3).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 35.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "1200CDACA0059",
+        "articolo": "CORDOLO DI DELIMITAZIONE AIUOLE DA 100 x 13 x 14 H CM - NERO (N° 3 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "100 x 13 x 14 H CM",
+        "base_cm": 100,
+        "altezza_cm": 14,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLI PER DELIMITAZIONE AIUOLE",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo (modulo da 100 cm lineari). Colore nero. Sezione cordolo 13 x 14 cm. Tasselli di fissaggio esclusi (n° 3).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 24.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "C",
+        "codice": "1200CDACV0060",
+        "articolo": "CURVA PER CORDOLO DI DELIMITAZIONE AIUOLE - RAGGIO 30 CM - GIALLO (N° 3 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "RAGGIO 30 CM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLI PER DELIMITAZIONE AIUOLE",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Colore giallo. Tasselli di fissaggio esclusi (n° 3).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 29.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "D",
+        "codice": "1200CDACV0061",
+        "articolo": "CURVA PER CORDOLO DI DELIMITAZIONE AIUOLE - RAGGIO 30 CM - NERO (N° 3 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "RAGGIO 30 CM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLI PER DELIMITAZIONE AIUOLE",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Colore nero. Tasselli di fissaggio esclusi (n° 3).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 18.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "E",
+        "codice": "1200CDACV0062",
+        "articolo": "CURVA PER CORDOLO DI DELIMITAZIONE AIUOLE - RAGGIO 50 CM - GIALLO (N° 3 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "RAGGIO 50 CM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLI PER DELIMITAZIONE AIUOLE",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Colore giallo. Tasselli di fissaggio esclusi (n° 3).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 42.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "F",
+        "codice": "1200CDACV0063",
+        "articolo": "CURVA PER CORDOLO DI DELIMITAZIONE AIUOLE - RAGGIO 50 CM - NERO (N° 3 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "RAGGIO 50 CM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLI PER DELIMITAZIONE AIUOLE",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Colore nero. Tasselli di fissaggio esclusi (n° 3).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 31.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "G",
+        "codice": "1200TR0010140",
+        "articolo": "TASSELLO Ø 10 MM x 140 MM - COMPLETO DI VITE E RONDELLA",
+        "dimensione": "Ø 10 MM x 140 MM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLI PER DELIMITAZIONE AIUOLE",
+        "qta_min": 100,
+        "note": "Unità di misura: al pezzo. Completo di vite e rondella.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 1.70 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%. Sezione del cordolo (da disegno quotato): 13 cm base x 14 cm altezza."
+  },
+  {
+    "tag": "GOM",
+    "page": 8,
+    "page_label": "068",
+    "type": "listino",
+    "section": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO JOLLY",
+    "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO JOLLY",
+    "figures": [],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1000CJPGI0001",
+        "articolo": "CORDOLO JOLLY DA 52 x 14,5 x 17 H CM - GIALLO (N° 1 PERNO DI FISSAGGIO ESCLUSO)",
+        "dimensione": "52 x 14,5 x 17 H CM",
+        "base_cm": 52,
+        "altezza_cm": 17,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO JOLLY",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo. 1 metro lineare = 2,5 cordoli. Colore giallo. Perno di fissaggio escluso (n° 1).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 24.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "1000CJPBI0002",
+        "articolo": "CORDOLO JOLLY DA 52 x 14,5 x 17 H CM - BIANCO (N° 1 PERNO DI FISSAGGIO ESCLUSO)",
+        "dimensione": "52 x 14,5 x 17 H CM",
+        "base_cm": 52,
+        "altezza_cm": 17,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO JOLLY",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo. 1 metro lineare = 2,5 cordoli. Colore bianco. Perno di fissaggio escluso (n° 1).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 24.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "C",
+        "codice": "1000CJPNE0003",
+        "articolo": "CORDOLO JOLLY DA 52 x 14,5 x 17 H CM - NERO (N° 1 PERNO DI FISSAGGIO ESCLUSO)",
+        "dimensione": "52 x 14,5 x 17 H CM",
+        "base_cm": 52,
+        "altezza_cm": 17,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO JOLLY",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo. 1 metro lineare = 2,5 cordoli. Colore nero. Perno di fissaggio escluso (n° 1).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 14.50 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "D",
+        "codice": "1000CJPPF0004",
+        "articolo": "PERNO DI FISSAGGIO Ø 12 MM x 300 MM - ZINCATO",
+        "dimensione": "Ø 12 MM x 300 MM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO JOLLY",
+        "qta_min": 50,
+        "note": "Unità di misura: al pezzo. Zincato.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 2.70 }
+        ]
+      }
+    ],
+    "page_note": "1 METRO LINEARE = 2,5 CORDOLI. A RICHIESTA SI POSSONO REALIZZARE IN QUALSIASI COLORAZIONE. APPLICAZIONI D'USO: - REALIZZAZIONE DI ROTATORIE DI QUALSIASI DIAMETRO; - REALIZZAZIONE DI CORDOLATURE PER MARCIAPIEDI. N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%. Disegno tecnico: 520 mm lunghezza totale, 410 mm corpo, 170/145/135 mm, 85 mm altezze."
+  },
+  {
+    "tag": "GOM",
+    "page": 9,
+    "page_label": "069",
+    "type": "listino",
+    "section": "PRODOTTI IN PLASTICA RICICLATA - BATTIRUOTA - STOP PARKING",
+    "table_title": "PRODOTTI IN PLASTICA RICICLATA - BATTIRUOTA - STOP PARKING",
+    "figures": [],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200BSPBP0001",
+        "articolo": "BATTIRUOTA IN PLASTICA RICICLATA DA 70 x 16 x 10 CM - GIALLO SENZA INSERTO IN PELLICOLA RIFRANGENTE (N° 2 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "70 x 16 x 10 CM",
+        "base_cm": 70,
+        "altezza_cm": 10,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - BATTIRUOTA - STOP PARKING",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo. Colore giallo, senza inserto rifrangente. Tasselli di fissaggio esclusi (n° 2).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 21.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "1200BSPBP0002",
+        "articolo": "BATTIRUOTA IN PLASTICA RICICLATA DA 70 x 16 x 10 CM - GIALLO CON INSERTO IN PELLICOLA RIFRANGENTE (N° 2 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "70 x 16 x 10 CM",
+        "base_cm": 70,
+        "altezza_cm": 10,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - BATTIRUOTA - STOP PARKING",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo. Colore giallo, con inserto in pellicola rifrangente. Tasselli di fissaggio esclusi (n° 2).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 28.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "C",
+        "codice": "1200BSPBP0003",
+        "articolo": "BATTIRUOTA IN PLASTICA RICICLATA DA 70 x 16 x 10 CM - NERO SENZA INSERTO IN PELLICOLA RIFRANGENTE (N° 2 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "70 x 16 x 10 CM",
+        "base_cm": 70,
+        "altezza_cm": 10,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - BATTIRUOTA - STOP PARKING",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo. Colore nero, senza inserto rifrangente. Tasselli di fissaggio esclusi (n° 2).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 14.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "D",
+        "codice": "1200BSPBP0004",
+        "articolo": "BATTIRUOTA IN PLASTICA RICICLATA DA 70 x 16 x 10 CM - NERO CON INSERTO IN PELLICOLA RIFRANGENTE (N° 2 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "70 x 16 x 10 CM",
+        "base_cm": 70,
+        "altezza_cm": 10,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - BATTIRUOTA - STOP PARKING",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo. Colore nero, con inserto in pellicola rifrangente. Tasselli di fissaggio esclusi (n° 2).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 20.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "E",
+        "codice": "1200TR0010100",
+        "articolo": "TASSELLO Ø 10 MM x 100 MM - COMPLETO DI VITE E RONDELLA",
+        "dimensione": "Ø 10 MM x 100 MM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - BATTIRUOTA - STOP PARKING",
+        "qta_min": 100,
+        "note": "Unità di misura: al pezzo. Completo di vite e rondella. ATTENZIONE: stesso codice 1200TR0010100 quotato € 1,20 a pag. 064 e € 1,50 qui — entrambi i valori sono stampati chiaramente sul listino.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 1.50 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%"
+  },
+  {
+    "tag": "GOM",
+    "page": 10,
+    "page_label": "070",
+    "type": "listino",
+    "section": "PRODOTTI IN PLASTICA RICICLATA - ANGOLARE E PARACOLPI",
+    "table_title": "PRODOTTI IN PLASTICA RICICLATA - ANGOLARE E PARACOLPI",
+    "figures": [],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200ANGAG0001",
+        "articolo": "ANGOLARE: LUNGHEZZA: 100 CM - LARGHEZZA: 10,5 CM - SPESSORE: 14 MM - COMPLETI DI 4 INSERTI PELLICOLA RIFRANGENTE GIALLA",
+        "dimensione": "LUNGHEZZA 100 CM - LARGHEZZA 10,5 CM - SPESSORE 14 MM",
+        "base_cm": 100,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ANGOLARE E PARACOLPI",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo (barra da 100 cm lineari). 4 inserti in pellicola rifrangente gialla. Accessori di fissaggio NON forniti (si consiglia silicone o collanti simili).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 15.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200ANGAB0002",
+        "articolo": "ANGOLARE: LUNGHEZZA: 100 CM - LARGHEZZA: 10,5 CM - SPESSORE: 14 MM - COMPLETI DI 4 INSERTI PELLICOLA RIFRANGENTE BIANCA",
+        "dimensione": "LUNGHEZZA 100 CM - LARGHEZZA 10,5 CM - SPESSORE 14 MM",
+        "base_cm": 100,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ANGOLARE E PARACOLPI",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo (barra da 100 cm lineari). 4 inserti in pellicola rifrangente bianca. Accessori di fissaggio NON forniti (si consiglia silicone o collanti simili).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 15.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "1200PRCPG0001",
+        "articolo": "PARACOLPI: LUNGHEZZA: 100 CM - LARGHEZZA: 18 CM - SPESSORE: 14 MM - COMPLETI DI 4 INSERTI PELLICOLA RIFRANGENTE GIALLA",
+        "dimensione": "LUNGHEZZA 100 CM - LARGHEZZA 18 CM - SPESSORE 14 MM",
+        "base_cm": 100,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ANGOLARE E PARACOLPI",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo (barra da 100 cm lineari). 4 inserti in pellicola rifrangente gialla. Accessori di fissaggio NON forniti (si consiglia stop Ø 8 mm).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 15.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "1200PRCPB0001",
+        "articolo": "PARACOLPI: LUNGHEZZA: 100 CM - LARGHEZZA: 18 CM - SPESSORE: 14 MM - COMPLETI DI 4 INSERTI PELLICOLA RIFRANGENTE BIANCA",
+        "dimensione": "LUNGHEZZA 100 CM - LARGHEZZA 18 CM - SPESSORE 14 MM",
+        "base_cm": 100,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - ANGOLARE E PARACOLPI",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo (barra da 100 cm lineari). 4 inserti in pellicola rifrangente bianca. Accessori di fissaggio NON forniti (si consiglia stop Ø 8 mm). Codice stampato 1200PRCPB0001 (verificato con zoom): termina con 0001 come il PRCPG, probabile refuso del listino ma trascritto come stampato.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 15.00 }
+        ]
+      }
+    ],
+    "page_note": "CONSIGLI PER IL FISSAGGIO: GLI ACCESSORI DI FISSAGGIO PER QUESTI ARTICOLI NON SONO DA NOI FORNITI, SI CONSIGLIA: - PER ANGOLARE: SILICONE O COLLANTI SIMILI; - PER PARACOLPI: STOP Ø 8 MM. N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%"
+  },
+  {
+    "tag": "GOM",
+    "page": 11,
+    "page_label": "071",
+    "type": "listino",
+    "section": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO SEPARATORE PISTA CICLABILE",
+    "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO SEPARATORE PISTA CICLABILE",
+    "figures": [],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1200CSEPC0001",
+        "articolo": "CORDOLO SEPARATORE PISTA CICLABILE DA 100 x 14,5 x 11,5 H CM - GIALLO SENZA INSERTO IN PELLICOLA RIFRANGENTE (N° 3 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "100 x 14,5 x 11,5 H CM",
+        "base_cm": 100,
+        "altezza_cm": 11.5,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO SEPARATORE PISTA CICLABILE",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo (modulo da 100 cm lineari). Giallo, senza inserto rifrangente. Tasselli di fissaggio esclusi (n° 3).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 43.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "1200CSEPC0002",
+        "articolo": "CORDOLO SEPARATORE PISTA CICLABILE DA 100 x 14,5 x 11,5 H CM - GIALLO CON INSERTO IN PELLICOLA RIFRANGENTE (N° 3 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "100 x 14,5 x 11,5 H CM",
+        "base_cm": 100,
+        "altezza_cm": 11.5,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO SEPARATORE PISTA CICLABILE",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo (modulo da 100 cm lineari). Giallo, con inserto rifrangente. Tasselli di fissaggio esclusi (n° 3).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 45.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "C",
+        "codice": "1200CSEPC0003",
+        "articolo": "CORDOLO SEPARATORE PISTA CICLABILE DA 100 x 14,5 x 11,5 H CM - NERO SENZA INSERTO IN PELLICOLA RIFRANGENTE (N° 3 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "100 x 14,5 x 11,5 H CM",
+        "base_cm": 100,
+        "altezza_cm": 11.5,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO SEPARATORE PISTA CICLABILE",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo (modulo da 100 cm lineari). Nero, senza inserto rifrangente. Tasselli di fissaggio esclusi (n° 3).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 37.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "D",
+        "codice": "1200CSEPC0004",
+        "articolo": "CORDOLO SEPARATORE PISTA CICLABILE DA 100 x 14,5 x 11,5 H CM - NERO CON INSERTO IN PELLICOLA RIFRANGENTE (N° 3 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "100 x 14,5 x 11,5 H CM",
+        "base_cm": 100,
+        "altezza_cm": 11.5,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO SEPARATORE PISTA CICLABILE",
+        "qta_min": 20,
+        "note": "Unità di misura: al pezzo (modulo da 100 cm lineari). Nero, con inserto rifrangente. Tasselli di fissaggio esclusi (n° 3).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 40.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "E",
+        "codice": "1200CSECC0005",
+        "articolo": "CURVA PER CORDOLO SEPARATORE PISTA CICLABILE - RAGGIO 23,5 CM - GIALLO SENZA INSERTO IN PELLICOLA RIFRANGENTE (N° 2 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "RAGGIO 23,5 CM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO SEPARATORE PISTA CICLABILE",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Giallo, senza inserto rifrangente. Tasselli di fissaggio esclusi (n° 2).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 42.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "F",
+        "codice": "1200CSECC0006",
+        "articolo": "CURVA PER CORDOLO SEPARATORE PISTA CICLABILE - RAGGIO 23,5 CM - GIALLO CON INSERTO IN PELLICOLA RIFRANGENTE (N° 2 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "RAGGIO 23,5 CM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO SEPARATORE PISTA CICLABILE",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Giallo, con inserto rifrangente. Tasselli di fissaggio esclusi (n° 2).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 44.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "G",
+        "codice": "1200CSECC0007",
+        "articolo": "CURVA PER CORDOLO SEPARATORE PISTA CICLABILE - RAGGIO 23,5 CM - NERO SENZA INSERTO IN PELLICOLA RIFRANGENTE (N° 2 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "RAGGIO 23,5 CM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO SEPARATORE PISTA CICLABILE",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Nero, senza inserto rifrangente. Tasselli di fissaggio esclusi (n° 2).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 37.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "H",
+        "codice": "1200CSECC0008",
+        "articolo": "CURVA PER CORDOLO SEPARATORE PISTA CICLABILE - RAGGIO 23,5 CM - NERO CON INSERTO IN PELLICOLA RIFRANGENTE (N° 2 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": "RAGGIO 23,5 CM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO SEPARATORE PISTA CICLABILE",
+        "qta_min": 3,
+        "note": "Unità di misura: al pezzo. Nero, con inserto rifrangente. Tasselli di fissaggio esclusi (n° 2).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 40.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "I",
+        "codice": "1200CSEMI0009",
+        "articolo": "MODULO INTERNO INTERMEDIO - NERO (N° 2 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO SEPARATORE PISTA CICLABILE",
+        "qta_min": 10,
+        "note": "Unità di misura: al pezzo. Nero. Tasselli di fissaggio esclusi (n° 2).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 37.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "L",
+        "codice": "1200CSEMF0010",
+        "articolo": "MODULO INTERNO FINALE - NERO (N° 2 TASSELLI DI FISSAGGIO ESCLUSI)",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO SEPARATORE PISTA CICLABILE",
+        "qta_min": 2,
+        "note": "Unità di misura: al pezzo. Nero. Tasselli di fissaggio esclusi (n° 2).",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 37.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "M",
+        "codice": "1200TR0010100",
+        "articolo": "TASSELLO Ø 10 MM x 100 MM - COMPLETO DI VITE E RONDELLA",
+        "dimensione": "Ø 10 MM x 100 MM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO SEPARATORE PISTA CICLABILE",
+        "qta_min": 100,
+        "note": "Unità di misura: al pezzo. Completo di vite e rondella.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 1.50 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "M",
+        "codice": "1200TR0010140",
+        "articolo": "TASSELLO Ø 10 MM x 140 MM - COMPLETO DI VITE E RONDELLA (PER MODULO INTERNO)",
+        "dimensione": "Ø 10 MM x 140 MM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "table_title": "PRODOTTI IN PLASTICA RICICLATA - CORDOLO SEPARATORE PISTA CICLABILE",
+        "qta_min": 100,
+        "note": "Unità di misura: al pezzo. Completo di vite e rondella. Da usare per il modulo interno.",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 1.70 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%"
+  },
+  {
+    "tag": "GOM",
+    "page": 12,
+    "page_label": "072",
+    "type": "altro",
+    "section": null,
+    "table_title": null,
+    "figures": [],
+    "rows": [],
+    "page_note": "Pagina bianca: contiene solo il numero di pagina 072."
+  }
+]

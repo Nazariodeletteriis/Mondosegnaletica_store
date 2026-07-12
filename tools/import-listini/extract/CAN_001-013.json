@@ -1,0 +1,1811 @@
+[
+  {
+    "tag": "CAN",
+    "page": 1,
+    "page_label": null,
+    "type": "copertina",
+    "section": "SEGNALETICA CANTIERISTICA",
+    "table_title": null,
+    "figures": [],
+    "rows": [],
+    "page_note": "Frontespizio: titolo 'Segnaletica Cantieristica' + logo MONDO SEGNALETICA SOC. COOP."
+  },
+  {
+    "tag": "CAN",
+    "page": 2,
+    "page_label": null,
+    "type": "altro",
+    "section": null,
+    "table_title": null,
+    "figures": [],
+    "rows": [],
+    "page_note": "Pagina bianca."
+  },
+  {
+    "tag": "CAN",
+    "page": 3,
+    "page_label": "123",
+    "type": "listino",
+    "section": "CONI E DELINEATORI IN GOMMA - SEGNALI COMPLEMENTARI - DECRETO 10 LUGLIO 2002",
+    "table_title": "CONI E DELINEATORI IN GOMMA",
+    "figures": [
+      { "figura": "396", "nome": "cono (schemi quotati h 354 / 540 / 780 mm)", "pos": 1 },
+      { "figura": "397", "nome": "delineatore (schemi quotati h 330 / 360 mm)", "pos": 2 }
+    ],
+    "rows": [
+      {
+        "table_title": "CONI E DELINEATORI IN GOMMA",
+        "wl": null,
+        "codice": "1200396CG0070",
+        "codici": ["1200396CG0070"],
+        "articolo": "FIG. 396 - CONO AUTOSTRADALE GOMMA - H 35,4",
+        "dimensione": "H 35,4",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 50,
+        "note": "Codice in nero = cono rif. bianco CL. 1",
+        "prezzi": [
+          { "materiale": "RIF. BIANCO", "classe": "CL 1", "euro": 19.00 }
+        ]
+      },
+      {
+        "table_title": "CONI E DELINEATORI IN GOMMA",
+        "wl": null,
+        "codice": "1200396CG0071",
+        "codici": ["1200396CG0071"],
+        "articolo": "FIG. 396 - CONO AUTOSTRADALE GOMMA - H 35,4",
+        "dimensione": "H 35,4",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 50,
+        "note": "APPROVATO DECRETO MINISTERIALE. Codice in rosso = rif. bianco CL. 2",
+        "prezzi": [
+          { "materiale": "RIF. BIANCO", "classe": "CL 2", "euro": 20.00 }
+        ]
+      },
+      {
+        "table_title": "CONI E DELINEATORI IN GOMMA",
+        "wl": null,
+        "codice": "1200396CG0080",
+        "codici": ["1200396CG0080", "1200396CG0081"],
+        "articolo": "FIG. 396 - CONO AUTOSTRADALE GOMMA - H 54",
+        "dimensione": "H 54",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 50,
+        "note": "APPROVATO DECRETO MINISTERIALE. 1200396CG0080 (rosso) = rif. bianco CL. 2; 1200396CG0081 (azzurro) = interamente rif. bianco e rosso CL. 2",
+        "prezzi": [
+          { "materiale": "RIF. BIANCO", "classe": "CL 2", "euro": 18.00 },
+          { "materiale": "INTERAMENTE RIF. BIANCO E ROSSO", "classe": "CL 2", "euro": 30.00 }
+        ]
+      },
+      {
+        "table_title": "CONI E DELINEATORI IN GOMMA",
+        "wl": null,
+        "codice": "1200396CG0090",
+        "codici": ["1200396CG0090", "1200396CG0091", "1200396CG0092"],
+        "articolo": "FIG. 396 - CONO AUTOSTRADALE GOMMA - H 75",
+        "dimensione": "H 75",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 10,
+        "note": "1200396CG0090 (nero) = rif. bianco CL. 1; 1200396CG0091 (rosso) = rif. bianco CL. 2; 1200396CG0092 (azzurro) = interamente rif. bianco e rosso CL. 2",
+        "prezzi": [
+          { "materiale": "RIF. BIANCO", "classe": "CL 1", "euro": 43.00 },
+          { "materiale": "RIF. BIANCO", "classe": "CL 2", "euro": 50.00 },
+          { "materiale": "INTERAMENTE RIF. BIANCO E ROSSO", "classe": "CL 2", "euro": 60.00 }
+        ]
+      },
+      {
+        "table_title": "CONI E DELINEATORI IN GOMMA",
+        "wl": null,
+        "codice": "1200397DG0130",
+        "codici": ["1200397DG0130"],
+        "articolo": "FIG. 397 - DELINEATORE AUTOSTRADALE GOMMA - H 33 6 INSERTI PIENI",
+        "dimensione": "H 33",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 100,
+        "note": "Codice in rosso = rif. bianco CL. 2",
+        "prezzi": [
+          { "materiale": "RIF. BIANCO", "classe": "CL 2", "euro": 14.00 }
+        ]
+      },
+      {
+        "table_title": "CONI E DELINEATORI IN GOMMA",
+        "wl": null,
+        "codice": "1200397DG0134",
+        "codici": ["1200397DG0134"],
+        "articolo": "FIG. 397 - DELINEATORE AUTOSTRADALE GOMMA - H 33 6 INSERTI RIDOTTI",
+        "dimensione": "H 33",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 100,
+        "note": "APPROVATO DECRETO MINISTERIALE. Codice in rosso = rif. bianco CL. 2",
+        "prezzi": [
+          { "materiale": "RIF. BIANCO", "classe": "CL 2", "euro": 8.50 }
+        ]
+      },
+      {
+        "table_title": "CONI E DELINEATORI IN GOMMA",
+        "wl": null,
+        "codice": "1200397DG0140",
+        "codici": ["1200397DG0140"],
+        "articolo": "FIG. 397 - DELINEATORE CILINDRICO AUTOSTRADALE GOMMA - H 36",
+        "dimensione": "H 36",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 30,
+        "note": "Codice in rosso = rif. bianco CL. 2",
+        "prezzi": [
+          { "materiale": "RIF. BIANCO", "classe": "CL 2", "euro": 18.00 }
+        ]
+      },
+      {
+        "table_title": "CONI E DELINEATORI IN GOMMA",
+        "wl": null,
+        "codice": "1200396CG0101",
+        "codici": ["1200396CG0101"],
+        "articolo": "FIG. 396 - CONO GOMMA - H 30",
+        "dimensione": "H 30",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 50,
+        "note": "Codice in rosso = rif. bianco CL. 2",
+        "prezzi": [
+          { "materiale": "RIF. BIANCO", "classe": "CL 2", "euro": 12.50 }
+        ]
+      },
+      {
+        "table_title": "CONI E DELINEATORI IN GOMMA",
+        "wl": null,
+        "codice": "1200396CG0120",
+        "codici": ["1200396CG0120", "1200396CG0123"],
+        "articolo": "FIG. 396 - CONO GOMMA - H 50",
+        "dimensione": "H 50",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 50,
+        "note": "1200396CG0120 (nero) = rif. bianco CL. 1; 1200396CG0123 (rosso) = rif. bianco CL. 2",
+        "prezzi": [
+          { "materiale": "RIF. BIANCO", "classe": "CL 1", "euro": 14.00 },
+          { "materiale": "RIF. BIANCO", "classe": "CL 2", "euro": 16.00 }
+        ]
+      },
+      {
+        "table_title": "CONI IN PE - VERNICIATI",
+        "wl": null,
+        "codice": "1200396CP0122",
+        "codici": ["1200396CP0122"],
+        "articolo": "FIG. 396 - CONO PE - H 54",
+        "dimensione": "H 54",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 50,
+        "note": null,
+        "prezzi": [
+          { "materiale": "VERNIC.", "classe": null, "euro": 7.00 }
+        ]
+      },
+      {
+        "table_title": "CONI IN PE - VERNICIATI",
+        "wl": null,
+        "codice": "1200396CP0126",
+        "codici": ["1200396CP0126"],
+        "articolo": "FIG. 396 - CONO PE - H 30",
+        "dimensione": "H 30",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 50,
+        "note": null,
+        "prezzi": [
+          { "materiale": "VERNIC.", "classe": null, "euro": 4.00 }
+        ]
+      },
+      {
+        "table_title": "COLLANTI",
+        "wl": null,
+        "codice": "1200COLDG0145",
+        "codici": ["1200COLDG0145"],
+        "articolo": "COLLANTE PER DELINEATORE PIATTO FLESSIBILE PLAST 5080 IN CONFEZIONE DA KG 5",
+        "dimensione": "CONFEZIONE KG 5",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": null,
+        "note": "Prezzo espresso al KG (9,00/KG)",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 9.00, "unita": "KG" }
+        ]
+      },
+      {
+        "table_title": "COLLANTI",
+        "wl": null,
+        "codice": "1200COLDG0146",
+        "codici": ["1200COLDG0146"],
+        "articolo": "COLLANTE PER DELINEATORE PIATTO FLESSIBILE MACROPLAST B 293 IN CONFEZIONE DA KG 5",
+        "dimensione": "CONFEZIONE KG 5",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": null,
+        "note": "Prezzo non esposto: CHIEDERE PREVENTIVO",
+        "prezzi": []
+      }
+    ],
+    "page_note": "N.B.: I CODICI SEGNATI IN NERO SI RIFERISCONO A CONI RIF. BIANCO CL. 1 - I CODICI SEGNATI IN ROSSO SI RIFERISCONO A CONI O DELINEATORI RIF. BIANCO CL. 2 - I CODICI SEGNATI IN AZZURRO SI RIFERISCONO A CONI INTERAMENTE RIF. BIANCO E ROSSO CL. 2. N.B.: CONI E DELINEATORI PIATTI FLESSIBILI IN PVC O RIFRANGENTI CL. 1 SOLO PER USO DIURNO. N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%. Colonna 'NON APPROVATO DECRETO MINISTERIALE' con marcatura 'APPROVATO DECRETO MINISTERIALE' in rosso su alcune righe."
+  },
+  {
+    "tag": "CAN",
+    "page": 4,
+    "page_label": "124",
+    "type": "listino",
+    "section": "SACCHI DI APPESANTIMENTO",
+    "table_title": "SACCHI DI APPESANTIMENTO",
+    "figures": [],
+    "rows": [
+      {
+        "table_title": "SACCHI DI APPESANTIMENTO",
+        "figura_foto": "A",
+        "wl": "/",
+        "codice": "1800SAPSP0067",
+        "articolo": "SACCO APPESANTIMENTO VUOTO SENZA VALVOLA - SENZA MANIGLIA - APERTO SU 1 LATO",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 200,
+        "note": "SU RICHIESTA SI POSSONO REALIZZARE SACCHI DI COLORE VERDE (CHIEDERE PREVENTIVO)",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 4.10 }
+        ]
+      },
+      {
+        "table_title": "SACCHI DI APPESANTIMENTO",
+        "figura_foto": "A",
+        "wl": "/",
+        "codice": null,
+        "articolo": "RIEMPIMENTO DI GRANIGLIA (CIRCA 13 KG.) SALDATURA - APPLICAZIONE MANIGLIA",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 200,
+        "note": "Lavorazione aggiuntiva (colonna CODICE riporta '/')",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 4.10 }
+        ]
+      },
+      {
+        "table_title": "SACCHI DI APPESANTIMENTO",
+        "figura_foto": "B",
+        "wl": "/",
+        "codice": "1800SAPSP0075",
+        "articolo": "SACCO APPESANTIMENTO PIENO DI GRANIGLIA CIRCA (13 KG.)",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 200,
+        "note": "SU RICHIESTA SI POSSONO REALIZZARE SACCHI DI COLORE VERDE (CHIEDERE PREVENTIVO)",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 6.80 }
+        ]
+      },
+      {
+        "table_title": "SACCHI DI APPESANTIMENTO",
+        "figura_foto": "C",
+        "wl": "/",
+        "codice": "1800SAPSV0065",
+        "articolo": "SACCO APPESANTIMENTO VUOTO CON VALVOLA - MANIGLIA APPLICATA",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 200,
+        "note": "SU RICHIESTA SI POSSONO REALIZZARE SACCHI DI COLORE VERDE (CHIEDERE PREVENTIVO)",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 5.30 }
+        ]
+      },
+      {
+        "table_title": "SACCHI DI APPESANTIMENTO",
+        "figura_foto": "D",
+        "wl": "/",
+        "codice": "1800SAPSV0068",
+        "articolo": "SACCO APPESANTIMENTO VUOTO SENZA VALVOLA - APERTO SU 1 LATO",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 200,
+        "note": "N.B.: MANIGLIA FORNITA SMONTATA. SU RICHIESTA SI POSSONO REALIZZARE SACCHI DI COLORE VERDE (CHIEDERE PREVENTIVO)",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 5.50 }
+        ]
+      },
+      {
+        "table_title": "LAVORAZIONI SUPPLEMENTARI",
+        "figura_foto": null,
+        "wl": "/",
+        "codice": null,
+        "articolo": "PER SERIGRAFIA DI COLORE NERO AUMENTO DI",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": null,
+        "note": "Sovrapprezzo",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 0.50 }
+        ]
+      },
+      {
+        "table_title": "LAVORAZIONI SUPPLEMENTARI",
+        "figura_foto": null,
+        "wl": "/",
+        "codice": null,
+        "articolo": "CONCORSO SPESE PER TELAIO SERIGRAFICO",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": null,
+        "note": "Costo una tantum",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 20.00 }
+        ]
+      }
+    ],
+    "page_note": "PER QUANTITATIVI INFERIORI A 200 PEZZI AUMENTO DEL 10% - PER QUANTITATIVI INFERIORI A 100 PEZZI AUMENTO DEL 20% - PER QUANTITATIVI INFERIORI A 50 PEZZI AUMENTO DEL 30%"
+  },
+  {
+    "tag": "CAN",
+    "page": 5,
+    "page_label": "125",
+    "type": "listino",
+    "section": "SEGNALETICA TEMPORANEA",
+    "table_title": "SEGNALI PIANI IN ALLUMINIO 15/10 AUTOSTRADALI FORATI E RIBORDATI PER CANTIERISTICA - COMPLETI DI BULLONERIA",
+    "figures": [],
+    "rows": [
+      {
+        "pos": 1,
+        "wl": "*",
+        "codice": null,
+        "articolo": "TRIANGOLO",
+        "dimensione": "LATO 120",
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": "FORATI E RIBORDATI",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 62.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 77.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 91.00 }
+        ]
+      },
+      {
+        "pos": 2,
+        "wl": "*",
+        "codice": null,
+        "articolo": "TRIANGOLO",
+        "dimensione": "LATO 90",
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": "FORATI E RIBORDATI",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 32.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 39.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 45.00 }
+        ]
+      },
+      {
+        "pos": 3,
+        "wl": "*",
+        "codice": null,
+        "articolo": "TRIANGOLO",
+        "dimensione": "LATO 60",
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": "FORATI E RIBORDATI",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 20.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 24.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 28.00 }
+        ]
+      },
+      {
+        "pos": 4,
+        "wl": "*",
+        "codice": null,
+        "articolo": "DISCO",
+        "dimensione": "Ø 60",
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": "FORATI E RIBORDATI",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 40.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 47.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 54.00 }
+        ]
+      },
+      {
+        "pos": 5,
+        "wl": "*",
+        "codice": null,
+        "articolo": "DISCO",
+        "dimensione": "Ø 90",
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": "FORATI E RIBORDATI",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 68.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 84.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 98.00 }
+        ]
+      },
+      {
+        "pos": 6,
+        "wl": "*",
+        "codice": null,
+        "articolo": "DISCO",
+        "dimensione": "Ø 90",
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": "FORATI E RIBORDATI COMPLETO DI: FRECCIA GIREVOLE - BARILOTTO - CAVICCHIA",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 110.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 126.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 140.00 }
+        ]
+      },
+      {
+        "pos": 7,
+        "wl": "*",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "90x90",
+        "base_cm": 90,
+        "altezza_cm": 90,
+        "note": "FORATI E RIBORDATI",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 80.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 96.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 110.00 }
+        ]
+      },
+      {
+        "pos": 8,
+        "wl": "*",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "90x135",
+        "base_cm": 90,
+        "altezza_cm": 135,
+        "note": "FORATI E RIBORDATI (FISSA)",
+        "dubbio": "Valori stampati chiaramente leggibili ma anomali: CL 2 = 168,00 risulta MAGGIORE di CL 2 S. = 152,00 (in tutte le altre righe la progressione è crescente). Possibile refuso del listino originale: verificare con il fornitore prima di pubblicare.",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 106.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 168.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 152.00 }
+        ]
+      },
+      {
+        "pos": 9,
+        "wl": "*",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "90x135",
+        "base_cm": 90,
+        "altezza_cm": 135,
+        "note": "FORATI E RIBORDATI (RIBALTABILE)",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 153.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 192.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 230.00 }
+        ]
+      },
+      {
+        "pos": 10,
+        "wl": "*",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "60x90",
+        "base_cm": 60,
+        "altezza_cm": 90,
+        "note": "FORATI E RIBORDATI (FISSA)",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 63.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 73.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 84.00 }
+        ]
+      },
+      {
+        "pos": 11,
+        "wl": "*",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "60x90",
+        "base_cm": 60,
+        "altezza_cm": 90,
+        "note": "FORATI E RIBORDATI (RIBALTABILE)",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 83.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 100.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 118.00 }
+        ]
+      },
+      {
+        "pos": 12,
+        "wl": "*",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "105x35",
+        "base_cm": 105,
+        "altezza_cm": 35,
+        "note": "FORATI E RIBORDATI",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 37.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 43.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 50.00 }
+        ]
+      },
+      {
+        "pos": 13,
+        "wl": "*",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "90x30",
+        "base_cm": 90,
+        "altezza_cm": 30,
+        "note": "FORATI E RIBORDATI",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 29.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 34.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 39.00 }
+        ]
+      },
+      {
+        "pos": 14,
+        "wl": "*",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "80x27",
+        "base_cm": 80,
+        "altezza_cm": 27,
+        "note": "FORATI E RIBORDATI",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 25.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 29.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 34.00 }
+        ]
+      },
+      {
+        "pos": 15,
+        "wl": "*",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "53x18",
+        "base_cm": 53,
+        "altezza_cm": 18,
+        "note": "FORATI E RIBORDATI",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 17.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 19.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 22.00 }
+        ]
+      },
+      {
+        "pos": 16,
+        "wl": "*",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "60x20",
+        "base_cm": 60,
+        "altezza_cm": 20,
+        "note": "FORATI E RIBORDATI",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 19.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 21.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 24.00 }
+        ]
+      },
+      {
+        "pos": 17,
+        "wl": "*",
+        "codice": null,
+        "articolo": "FRECCIA PIANA GREZZA",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": "COMPLETA DI: BARILOTTO - CAVICCHIA",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 43.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 47.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 50.00 }
+        ]
+      },
+      {
+        "pos": 18,
+        "wl": "*",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "40x122",
+        "base_cm": 40,
+        "altezza_cm": 122,
+        "note": "TARGA PIANA ALLUMINIO 15/10 BIFACCIALE + FORI + BULLONERIA SPECIALE (PER TARGA POS. 9)",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 46.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 62.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 80.00 }
+        ]
+      },
+      {
+        "pos": 19,
+        "wl": "*",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "25x80",
+        "base_cm": 25,
+        "altezza_cm": 80,
+        "note": "TARGA PIANA ALLUMINIO 15/10 BIFACCIALE + FORI + BULLONERIA SPECIALE (PER TARGA POS. 11)",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 1 / EGP / SERIE 3430", "euro": 23.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 / HIP / SERIE 3930", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 15/10", "classe": "CL 2 S. / DG / SERIE 4000", "euro": 38.00 }
+        ]
+      }
+    ],
+    "page_note": "Colonna 'FORATURA RIBORDATURA ACCESSORI' riportata nel campo note di ogni riga. Colonna CODICE presente ma vuota per tutte le righe. Intestazione prezzi: FONDO - CL 1 EGP SERIE 3430 / CL 2 HIP SERIE 3930 / CL 2 S. DG SERIE 4000."
+  },
+  {
+    "tag": "CAN",
+    "page": 6,
+    "page_label": "126",
+    "type": "listino",
+    "section": "CAVALLETTI UNIVERSALI PER SEGNALETICA TEMPORANEA",
+    "table_title": "CAVALLETTI UNIVERSALI PER SEGNALETICA TEMPORANEA",
+    "figures": [],
+    "rows": [
+      {
+        "figura_foto": "A",
+        "wl": "*",
+        "codice": "1800CUSCA0010",
+        "codici": ["1800CUSCA0010", "1800CUSCA0009"],
+        "articolo": "670/U - CAVALLETTO UNIVERSALE ALLEGGERITO MAGGIORATO PER SEGNALETICA STRADALE TEMPORANEA - H 115 CM CIRCA",
+        "dimensione": "H 115 CM CIRCA",
+        "base_cm": null,
+        "altezza_cm": 115,
+        "qta_min_ord": 50,
+        "note": "1800CUSCA0010 (nero) = fornito con bulloneria; 1800CUSCA0009 (rosso) = senza bulloneria. FINO AD ESAURIMENTO SCORTE",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 11.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 11.20 }
+        ]
+      },
+      {
+        "figura_foto": "B",
+        "wl": "*",
+        "codice": "1800CUSCA0012",
+        "codici": ["1800CUSCA0012", "1800CUSCA0011"],
+        "articolo": "670/U - CAVALLETTO UNIVERSALE A 4 PIEDI - VERTICALE PER SEGNALETICA STRADALE TEMPORANEA - H 115 CM CIRCA",
+        "dimensione": "H 115 CM CIRCA",
+        "base_cm": null,
+        "altezza_cm": 115,
+        "qta_min_ord": 20,
+        "note": "1800CUSCA0012 (nero) = con bulloneria; 1800CUSCA0011 (rosso) = senza bulloneria. FINO AD ESAURIMENTO SCORTE",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 15.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 15.20 }
+        ]
+      },
+      {
+        "figura_foto": "C - D",
+        "wl": "*",
+        "codice": "1800CUSCA0016",
+        "codici": ["1800CUSCA0016", "1800CUSCA0015"],
+        "articolo": "670/P - CAVALLETTO UNIVERSALE A 4 PIEDI - MAXI PER SEGNALETICA STRADALE ED AUTOSTRADALE TEMPORANEA H 140 CM CIRCA",
+        "dimensione": "H 140 CM CIRCA",
+        "base_cm": null,
+        "altezza_cm": 140,
+        "qta_min_ord": 20,
+        "note": "1800CUSCA0016 (nero) = con bulloneria; 1800CUSCA0015 (rosso) = senza bulloneria. FINO AD ESAURIMENTO SCORTE",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 30.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 30.50 }
+        ]
+      },
+      {
+        "figura_foto": "E",
+        "wl": "*",
+        "codice": "1800CUACA0033",
+        "codici": ["1800CUACA0033", "1800CUACA0032"],
+        "articolo": "670/P - CAVALLETTO UNIVERSALE A 4 PIEDI - MAXI MAGGIORATO PER SEGNALETICA AUTOSTRADALE TEMPORANEA - H 160 CM CIRCA",
+        "dimensione": "H 160 CM CIRCA",
+        "base_cm": null,
+        "altezza_cm": 160,
+        "qta_min_ord": 20,
+        "note": "1800CUACA0033 (nero) = con bulloneria; 1800CUACA0032 (rosso) = senza bulloneria. FINO AD ESAURIMENTO SCORTE",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 35.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 35.50 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%. N.B.: I CODICI SEGNATI IN NERO SI RIFERISCONO AD ARTICOLI FORNITI CON BULLONERIA, I CODICI SEGNATI IN ROSSO NON COMPRENDONO BULLONERIA. Sezione ESEMPI DI MONTAGGIO (senza prezzi): FIGURA A/B - triangolo lato 60 + pann. 53x18, triangolo lato 90 + pann. 80x27, disco Ø 60 girevole, disco Ø 60 + pann. 50x25, targa 60x60; FIGURA C-D - anche triangolo lato 120, disco Ø 90 girevole, disco Ø 90, targa 90x90, triangolo lato 60 + pann. 53x53; FIGURA E - triangolo lato 120 + pann. 105x35, disco Ø 90 girevole, disco Ø 90 + pann. 75x33 o 25x55, targa 90x90 + pann. 90x30, targa 120x90 H, targa 90x120 H, targa 135x90 H."
+  },
+  {
+    "tag": "CAN",
+    "page": 7,
+    "page_label": "127",
+    "type": "listino",
+    "section": "CAVALLETTI UNIVERSALI PER SEGNALETICA TEMPORANEA",
+    "table_title": "CAVALLETTI UNIVERSALI PER SEGNALETICA TEMPORANEA",
+    "figures": [],
+    "rows": [
+      {
+        "figura_foto": "A",
+        "wl": "*",
+        "codice": "1800CUSCA0023",
+        "codici": ["1800CUSCA0023", "1800CUSCA0001"],
+        "articolo": "CAVALLETTO A 4 PIEDI - 200x65 CM CIRCA PER SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "200x65 CM CIRCA",
+        "base_cm": null,
+        "altezza_cm": 200,
+        "qta_min_ord": 10,
+        "note": "1800CUSCA0023 (nero) = con bulloneria; 1800CUSCA0001 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 70.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 75.00 }
+        ]
+      },
+      {
+        "figura_foto": "B",
+        "wl": "*",
+        "codice": "1800CUSCA0024",
+        "codici": ["1800CUSCA0024", "1800CUSCA0002"],
+        "articolo": "CAVALLETTO A 4 PIEDI - 150x60 CM CIRCA PER SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "150x60 CM CIRCA",
+        "base_cm": null,
+        "altezza_cm": 150,
+        "qta_min_ord": 10,
+        "note": "1800CUSCA0024 (nero) = con bulloneria; 1800CUSCA0002 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 60.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 65.00 }
+        ]
+      },
+      {
+        "figura_foto": "C",
+        "wl": "*",
+        "codice": "1800CUSCA0025",
+        "codici": ["1800CUSCA0025", "1800CUSCA0003"],
+        "articolo": "CAVALLETTO COMPOSTO DA 2 PEZZI PER FIGURE 392 O 393/A DA 240x60 PER SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "240x60",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 5,
+        "note": "1800CUSCA0025 (nero) = con bulloneria; 1800CUSCA0003 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 65.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 67.00 }
+        ]
+      },
+      {
+        "figura_foto": "D",
+        "wl": "*",
+        "codice": "1800CUSCA0026",
+        "codici": ["1800CUSCA0026", "1800CUSCA0004"],
+        "articolo": "CAVALLETTO PER TARGA 90x135 + PANNELLO INTEGRATIVO 90x30 PER SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "ALTEZZA cm 200",
+        "base_cm": null,
+        "altezza_cm": 200,
+        "qta_min_ord": 20,
+        "note": "1800CUSCA0026 (nero) = con bulloneria; 1800CUSCA0004 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 55.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 56.00 }
+        ]
+      },
+      {
+        "figura_foto": "E",
+        "wl": "*",
+        "codice": "1800CUSCA0027",
+        "codici": ["1800CUSCA0027", "1800CUSCA0006"],
+        "articolo": "CAVALLETTO A COMPASSO PER TARGHE 135x200 E 150x200 PER SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "PER TARGHE 135x200 E 150x200",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 5,
+        "note": "1800CUSCA0027 (nero) = con bulloneria; 1800CUSCA0006 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 73.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 74.00 }
+        ]
+      },
+      {
+        "figura_foto": "F",
+        "wl": "*",
+        "codice": "1800CUSCA0028",
+        "codici": ["1800CUSCA0028", "1800CUSCA0007"],
+        "articolo": "CAVALLETTO A COMPASSO PER TARGA 300x200 PER SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "PER TARGA 300x200",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 5,
+        "note": "1800CUSCA0028 (nero) = con bulloneria; 1800CUSCA0007 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 110.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 111.00 }
+        ]
+      },
+      {
+        "figura_foto": "G",
+        "wl": "*",
+        "codice": "1800ACCAU0045",
+        "codici": ["1800ACCAU0045", "1800ACCAU0046"],
+        "articolo": "ATTACCO UNIVERSALE PORTALAMPEGGIATORE E PORTABANDIERINA",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 10,
+        "note": "1800ACCAU0045 (nero) = con bulloneria; 1800ACCAU0046 (rosso) = senza bulloneria. FINO AD ESAURIMENTO SCORTE",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 8.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 8.20 }
+        ]
+      },
+      {
+        "figura_foto": "H",
+        "wl": "*",
+        "codice": "1800ACCSU0046",
+        "codici": ["1800ACCSU0046"],
+        "articolo": "SUPPORTO UNIVERSALE PER LAMPEGGIATORI",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 10,
+        "note": "Codice in rosso (senza bulloneria). Colonna CON BULLONERIA = '/' (non disponibile). FINO AD ESAURIMENTO SCORTE",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 11.00 }
+        ]
+      },
+      {
+        "figura_foto": "I",
+        "wl": "*",
+        "codice": "1800ACCAU0047",
+        "codici": ["1800ACCAU0047", "1800ACCAU0048"],
+        "articolo": "ATTACCO PER MONTAGGIO CESTELLO PORTALAMPEGGIATORE + DOPPIO SUPPORTO PORTABANDIERINE COMPLETAMENTE VERNICIATO",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 10,
+        "note": "1800ACCAU0047 (nero) = con bulloneria; 1800ACCAU0048 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 8.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 8.20 }
+        ]
+      },
+      {
+        "figura_foto": "L",
+        "wl": "*",
+        "codice": "1800ACCCP0049",
+        "codici": ["1800ACCCP0049", "1800ACCCP0050"],
+        "articolo": "CESTELLO PORTALAMPEGGIATORE E PORTABANDIERINA COMPLETAMENTE VERNICIATO",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 10,
+        "note": "1800ACCCP0049 (nero) = con bulloneria; 1800ACCCP0050 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 11.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 11.20 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%. N.B.: I CODICI SEGNATI IN NERO SI RIFERISCONO AD ARTICOLI FORNITI CON BULLONERIA, I CODICI SEGNATI IN ROSSO NON COMPRENDONO BULLONERIA."
+  },
+  {
+    "tag": "CAN",
+    "page": 8,
+    "page_label": "128",
+    "type": "listino",
+    "section": "CAVALLETTI PER SEGNALETICA TEMPORANEA",
+    "table_title": "CAVALLETTI PER SEGNALETICA TEMPORANEA",
+    "figures": [],
+    "rows": [
+      {
+        "table_title": "CAVALLETTI PER SEGNALETICA TEMPORANEA",
+        "figura_foto": "A",
+        "wl": "*",
+        "codice": "1800CUSCA0030",
+        "codici": ["1800CUSCA0030", "1800CUSCA0029"],
+        "articolo": "670/C94 - CAVALLETTO COMPLETAMENTE VERNICIATO PER SEGNALETICA STRADALE TEMPORANEA - KIT BULLONERIA: 4 VITI 8x25 + DADI ZINCATI",
+        "dimensione": "ALTEZZA: 94 CM CIRCA",
+        "base_cm": null,
+        "altezza_cm": 94,
+        "qta_min_ord": 20,
+        "note": "1800CUSCA0030 (nero) = con bulloneria; 1800CUSCA0029 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 17.50 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 17.70 }
+        ]
+      },
+      {
+        "table_title": "CAVALLETTI PER SEGNALETICA TEMPORANEA",
+        "figura_foto": "B",
+        "wl": "*",
+        "codice": "1800CUSCA0032",
+        "codici": ["1800CUSCA0032", "1800CUSCA0031"],
+        "articolo": "670/C118 - CAVALLETTO COMPLETAMENTE VERNICIATO PER SEGNALETICA STRADALE TEMPORANEA - KIT BULLONERIA: 4 VITI 8x25 + DADI ZINCATI",
+        "dimensione": "ALTEZZA: 118 CM CIRCA",
+        "base_cm": null,
+        "altezza_cm": 118,
+        "qta_min_ord": 20,
+        "note": "1800CUSCA0032 (nero) = con bulloneria; 1800CUSCA0031 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 18.50 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 18.70 }
+        ]
+      },
+      {
+        "table_title": "CAVALLETTI PER SEGNALETICA TEMPORANEA",
+        "figura_foto": "C",
+        "wl": "*",
+        "codice": "1800CUSCA0034",
+        "codici": ["1800CUSCA0034", "1800CUSCA0033"],
+        "articolo": "670/C135 - CAVALLETTO COMPLETAMENTE VERNICIATO PER SEGNALETICA AUTOSTRADALE TEMPORANEA - KIT BULLONERIA: 4 VITI 8x25 + DADI ZINCATI + FERMATESTA ZINCATI",
+        "dimensione": "ALTEZZA: 135 CM CIRCA",
+        "base_cm": null,
+        "altezza_cm": 135,
+        "qta_min_ord": 20,
+        "note": "1800CUSCA0034 (nero) = con bulloneria; 1800CUSCA0033 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 34.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 34.50 }
+        ]
+      },
+      {
+        "table_title": "CAVALLETTI PER SEGNALETICA TEMPORANEA",
+        "figura_foto": "D",
+        "wl": "*",
+        "codice": "1800CUSCA0036",
+        "codici": ["1800CUSCA0036", "1800CUSCA0035"],
+        "articolo": "670/C165 - CAVALLETTO COMPLETAMENTE VERNICIATO PER SEGNALETICA AUTOSTRADALE TEMPORANEA - KIT BULLONERIA: 8 VITI 8x25 + DADI ZINCATI",
+        "dimensione": "ALTEZZA: 165 CM CIRCA",
+        "base_cm": null,
+        "altezza_cm": 165,
+        "qta_min_ord": 10,
+        "note": "1800CUSCA0036 (nero) = con bulloneria; 1800CUSCA0035 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 50.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 50.40 }
+        ]
+      },
+      {
+        "table_title": "KIT BULLONERIA PER CAVALLETTO FIGURA \"A\" - FIGURA \"B\"",
+        "figura_foto": "A - B",
+        "wl": "*",
+        "codice": "KI0000ZC00818",
+        "codici": ["KI0000ZC00818"],
+        "articolo": "KIT BULLONERIA COMPOSTO DA 8 VITI E DADI ZINCATI DA 8x25 + 1 STAFFA PIATTA",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": null,
+        "note": null,
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 0.60 }
+        ]
+      },
+      {
+        "table_title": "KIT BULLONERIA PER CAVALLETTO FIGURA \"C\" - FIGURA \"D\"",
+        "figura_foto": "C - D",
+        "wl": "*",
+        "codice": "KI0000ZC00819",
+        "codici": ["KI0000ZC00819"],
+        "articolo": "KIT BULLONERIA COMPOSTO DA 8 VITI E DADI ZINCATI DA 8x25 + 2 STAFFE PIATTE",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": null,
+        "note": null,
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 0.80 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%. N.B.: I CODICI SEGNATI IN NERO SI RIFERISCONO AD ARTICOLI FORNITI CON BULLONERIA, I CODICI SEGNATI IN ROSSO NON COMPRENDONO BULLONERIA. Sezione ESEMPI DI MONTAGGIO (senza prezzi)."
+  },
+  {
+    "tag": "CAN",
+    "page": 9,
+    "page_label": "129",
+    "type": "listino",
+    "section": "CAVALLETTI MINISTERIALI VERTICALI PER SEGNALETICA TEMPORANEA",
+    "table_title": "CAVALLETTI MINISTERIALI VERTICALI PER SEGNALETICA TEMPORANEA",
+    "figures": [],
+    "rows": [
+      {
+        "figura_foto": "A",
+        "wl": "*",
+        "codice": "1800CUSCA0038",
+        "codici": ["1800CUSCA0038", "1800CUSCA0037"],
+        "articolo": "670/M113 - CAVALLETTO COMPLETAMENTE VERNICIATO PER SEGNALETICA STRADALE TEMPORANEA - KIT BULLONERIA: 4 VITI 8x25 + DADI ZINCATI",
+        "dimensione": "ALTEZZA: 113 CM CIRCA",
+        "base_cm": null,
+        "altezza_cm": 113,
+        "qta_min_ord": 10,
+        "note": "1800CUSCA0038 (nero) = con bulloneria; 1800CUSCA0037 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 35.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 35.20 }
+        ]
+      },
+      {
+        "figura_foto": "B",
+        "wl": "*",
+        "codice": "1800CUSCA0040",
+        "codici": ["1800CUSCA0040", "1800CUSCA0039"],
+        "articolo": "670/M140 - CAVALLETTO COMPLETAMENTE VERNICIATO PER SEGNALETICA AUTOSTRADALE TEMPORANEA - KIT BULLONERIA: 4 VITI 8x25 + DADI ZINCATI",
+        "dimensione": "ALTEZZA: 140 CM CIRCA",
+        "base_cm": null,
+        "altezza_cm": 140,
+        "qta_min_ord": 10,
+        "note": "1800CUSCA0040 (nero) = con bulloneria; 1800CUSCA0039 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 39.50 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 39.70 }
+        ]
+      },
+      {
+        "figura_foto": "C",
+        "wl": "*",
+        "codice": "1800CUSCA0042",
+        "codici": ["1800CUSCA0042", "1800CUSCA0041"],
+        "articolo": "670/M175 - CAVALLETTO COMPLETAMENTE VERNICIATO PER SEGNALETICA TEMPORANEA PER TARGA 90x135 + PANNELLO - KIT BULLONERIA: 4 VITI 8x25 + DADI ZINCATI + FERMATESTA ZINCATI",
+        "dimensione": "ALTEZZA: 175 CM CIRCA",
+        "base_cm": null,
+        "altezza_cm": 175,
+        "qta_min_ord": 10,
+        "note": "1800CUSCA0042 (nero) = con bulloneria; 1800CUSCA0041 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 66.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 66.50 }
+        ]
+      },
+      {
+        "figura_foto": "D",
+        "wl": "*",
+        "codice": "1800CUSCA0044",
+        "codici": ["1800CUSCA0044", "1800CUSCA0043"],
+        "articolo": "670/M230 - CAVALLETTO COMPLETAMENTE VERNICIATO PER SEGNALETICA TEMPORANEA PER TARGA 135x200 + PANNELLO - KIT BULLONERIA: 8 VITI 8x25 + DADI ZINCATI + FERMATESTA ZINCATI",
+        "dimensione": "ALTEZZA: 230 CM CIRCA",
+        "base_cm": null,
+        "altezza_cm": 230,
+        "qta_min_ord": 5,
+        "note": "1800CUSCA0044 (nero) = con bulloneria; 1800CUSCA0043 (rosso) = senza bulloneria",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 87.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 88.00 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%. N.B.: I CODICI SEGNATI IN NERO SI RIFERISCONO AD ARTICOLI FORNITI CON BULLONERIA, I CODICI SEGNATI IN ROSSO NON COMPRENDONO BULLONERIA. Sezione ESEMPI DI MONTAGGIO (senza prezzi)."
+  },
+  {
+    "tag": "CAN",
+    "page": 10,
+    "page_label": "130",
+    "type": "listino",
+    "section": "CAVALLETTO TELESCOPICO - REGISTRABILE SIA IN ALTEZZA CHE IN INCLINAZIONE - CONSIGLIATO PER POTER ESSERE TRASPORTATO ANCHE IN AUTOVETTURE",
+    "table_title": "CAVALLETTO TELESCOPICO",
+    "figures": [],
+    "rows": [
+      {
+        "figura_foto": "A",
+        "wl": "*",
+        "codice": null,
+        "articolo": "CAVALLETTO TELESCOPICO - REGISTRABILE SIA IN ALTEZZA CHE IN INCLINAZIONE",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 10,
+        "note": "Colonna CODICE assente in questa tabella. Esempi di montaggio: triangolo lato 60/90, disco Ø 40 girevole, disco Ø 40 2 attacchi, disco Ø 60 girevole, disco Ø 60 2 attacchi, disco Ø 60 8 attacchi, targa 40x40, 60x60, 60x40H, 40x60H.",
+        "prezzi": [
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 27.00 },
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 27.50 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%. DISEGNI TECNICI QUOTATI NELLA PAGINA SEGUENTE."
+  },
+  {
+    "tag": "CAN",
+    "page": 11,
+    "page_label": "131",
+    "type": "normativa",
+    "section": "CAVALLETTO TELESCOPICO - DISEGNI TECNICI QUOTATI",
+    "table_title": null,
+    "figures": [],
+    "rows": [],
+    "page_note": "Pagina di soli disegni tecnici quotati del cavalletto telescopico (nessun prezzo). Quote: cavalletto aperto h 120 cm circa, base 47 cm circa, vista lato aperto 70 cm circa / h 115 cm circa; cavalletto chiuso h 77 cm circa, base 34 cm circa, spessore 6 cm circa. ESEMPI DI MONTAGGIO CAVALLETTO NELLA PAGINA PRECEDENTE."
+  },
+  {
+    "tag": "CAN",
+    "page": 12,
+    "page_label": "132",
+    "type": "listino",
+    "section": "SEGNALETICA STRADALE TEMPORANEA (PREZZI NETTI)",
+    "table_title": "SEGNALETICA STRADALE TEMPORANEA - MATERIALE SUPPORTO: POLIPROPILENE H020 NERO RICICLABILE - SCATOLATURA PERIMETRALE: 18 mm CIRCA + ATTACCHI ZINCATI APPLICATI SUL RETRO - APPLICAZIONE: SIA SU CAVALLETTO SIA SU PALO",
+    "figures": [
+      { "figura": "41", "nome": "doppio senso di circolazione", "pos": 1 },
+      { "figura": "45", "nome": "doppio senso di circolazione (pannello blu)", "pos": 2 },
+      { "figura": "46", "nome": "divieto di transito", "pos": 3 },
+      { "figura": "48", "nome": "divieto di sorpasso", "pos": 4 },
+      { "figura": "50", "nome": "limite massimo di velocità 30", "pos": 5 },
+      { "figura": "50", "nome": "limite massimo di velocità 20", "pos": 6 },
+      { "figura": "50", "nome": "limite massimo di velocità 10", "pos": 7 },
+      { "figura": "70", "nome": "via libera / fine prescrizione", "pos": 8 },
+      { "figura": "82 GIREV.", "nome": "direzione obbligatoria girevole", "pos": 9 },
+      { "figura": "383", "nome": "lavori", "pos": 10 },
+      { "figura": "384", "nome": "strettoia simmetrica", "pos": 11 },
+      { "figura": "385", "nome": "strettoia asimmetrica a sinistra", "pos": 12 },
+      { "figura": "386", "nome": "strettoia asimmetrica a destra", "pos": 13 },
+      { "figura": "387", "nome": "doppio senso di circolazione", "pos": 14 },
+      { "figura": "388", "nome": "mezzi di lavoro in azione", "pos": 15 },
+      { "figura": "389", "nome": "strada deformata", "pos": 16 },
+      { "figura": "390", "nome": "materiale instabile sulla strada", "pos": 17 },
+      { "figura": "404", "nome": "semaforo", "pos": 18 }
+    ],
+    "rows": [
+      {
+        "figura": "41",
+        "wl": "*",
+        "codice": "DA2PPEG2A0041",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "Ø 60",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 5,
+        "note": null,
+        "dubbio": "Le colonne prezzo (CL. 1 EG / CL. 2 HI) sono STAMPATE VUOTE nel PDF (pagina marcata 'PREZZI NETTI'). Nessun prezzo estraibile.",
+        "prezzi": []
+      },
+      {
+        "figura": "45",
+        "wl": "*",
+        "codice": "QB2PPEG2A0045",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "60x60",
+        "base_cm": 60,
+        "altezza_cm": 60,
+        "qta_min_per_figura": 5,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "46",
+        "wl": "*",
+        "codice": "DA2PPEG2A0046",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "Ø 60",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 10,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "48",
+        "wl": "*",
+        "codice": "DA2PPEG2A0048",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "Ø 60",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 10,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "50",
+        "wl": "*",
+        "codice": "DA2PPEG2A050C",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "Ø 60 - KM 30",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 10,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "50",
+        "wl": "*",
+        "codice": "DA2PPEG2A050B",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "Ø 60 - KM 20",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 10,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "50",
+        "wl": "*",
+        "codice": "DA2PPEG2A050A",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "Ø 60 - KM 10",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 10,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "70",
+        "wl": "*",
+        "codice": "DA2PPEG2A0070",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "Ø 60",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 5,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "82",
+        "wl": "*",
+        "codice": "DC2PPEGAB0080",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "Ø 60 GIREVOLE",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 20,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "383",
+        "wl": "*",
+        "codice": "TA2PPEG2A0383",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "LATO 90",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 20,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "384",
+        "wl": "*",
+        "codice": "TA2PPEG2A0384",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "LATO 90",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 10,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "385",
+        "wl": "*",
+        "codice": "TA2PPEG2A0385",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "LATO 90",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 5,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "386",
+        "wl": "*",
+        "codice": "TA2PPEG2A0386",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "LATO 90",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 5,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "387",
+        "wl": "*",
+        "codice": "TA2PPEG2A0387",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "LATO 90",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 5,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "388",
+        "wl": "*",
+        "codice": "TA2PPEG2A0388",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "LATO 90",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 10,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "389",
+        "wl": "*",
+        "codice": "TA2PPEG2A0389",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "LATO 90",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 10,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "390",
+        "wl": "*",
+        "codice": "TA2PPEG2A0390",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "LATO 90",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 10,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "figura": "404",
+        "wl": "*",
+        "codice": "TA2PPEG2A0404",
+        "articolo": "SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": "LATO 90",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_per_figura": 5,
+        "note": null,
+        "dubbio": "Colonne prezzo stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "table_title": "CAVALLETTI E STAFFE (PREZZI NETTI)",
+        "figura": "670C94",
+        "wl": "*",
+        "codice": "1800CUSCA0030",
+        "codici": ["1800CUSCA0030", "1800CUSCA0029"],
+        "articolo": "670/C94 - CAVALLETTO COMPLETAMENTE VERNICIATO PER SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 50,
+        "note": "1800CUSCA0030 (nero) = con bulloneria; 1800CUSCA0029 (rosso) = senza bulloneria",
+        "dubbio": "Colonne SENZA/CON BULLONERIA stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "table_title": "CAVALLETTI E STAFFE (PREZZI NETTI)",
+        "figura": "670C118",
+        "wl": "*",
+        "codice": "1800CUSCA0032",
+        "codici": ["1800CUSCA0032", "1800CUSCA0031"],
+        "articolo": "670/C118 - CAVALLETTO COMPLETAMENTE VERNICIATO PER SEGNALETICA STRADALE TEMPORANEA (KIT BULLONERIA: 4 VITI 8x25 + DADI ZINCATI)",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 50,
+        "note": "1800CUSCA0032 (nero) = con bulloneria; 1800CUSCA0031 (rosso) = senza bulloneria",
+        "dubbio": "Colonne SENZA/CON BULLONERIA stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "table_title": "CAVALLETTI E STAFFE (PREZZI NETTI)",
+        "figura": "670/U",
+        "wl": "*",
+        "codice": "1800CUSCA0010",
+        "codici": ["1800CUSCA0010", "1800CUSCA0009"],
+        "articolo": "670/U - CAVALLETTO UNIVERSALE ALLEGGERITO MAGGIORATO PER SEGNALETICA STRADALE TEMPORANEA",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 50,
+        "note": "1800CUSCA0010 (nero) = con bulloneria; 1800CUSCA0009 (rosso) = senza bulloneria",
+        "dubbio": "Colonne SENZA/CON BULLONERIA stampate vuote nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "table_title": "CAVALLETTI E STAFFE (PREZZI NETTI)",
+        "figura": "/",
+        "wl": "*",
+        "codice": "ST0048ZC001CB",
+        "articolo": "STAFFA Ø 48 A PONTE ANTIROTAZIONE - ZINCATA",
+        "dimensione": "Ø 48",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 500,
+        "note": "Colonna SENZA BULLONERIA = '/' (non disponibile)",
+        "dubbio": "Colonna CON BULLONERIA stampata vuota nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      },
+      {
+        "table_title": "CAVALLETTI E STAFFE (PREZZI NETTI)",
+        "figura": "/",
+        "wl": "*",
+        "codice": "ST0060ZC101CB",
+        "articolo": "STAFFA Ø 60 A PONTE ANTIROTAZIONE - ZINCATA",
+        "dimensione": "Ø 60",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 500,
+        "note": "Colonna SENZA BULLONERIA = '/' (non disponibile)",
+        "dubbio": "Colonna CON BULLONERIA stampata vuota nel PDF (pagina 'PREZZI NETTI').",
+        "prezzi": []
+      }
+    ],
+    "page_note": "ATTENZIONE: pagina marcata 'PREZZI NETTI' — TUTTE le celle prezzo di entrambe le tabelle sono stampate VUOTE nel PDF (verificato con ingrandimento). Nessun prezzo è estraibile da questa pagina: i prezzi vanno richiesti al fornitore. N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%. N.B.: I CODICI DEI CAVALLETTI SEGNATI IN NERO SI RIFERISCONO AD ARTICOLI FORNITI CON BULLONERIA, I CODICI SEGNATI IN ROSSO NON COMPRENDONO BULLONERIA. Accessori illustrati: CAVALLETTO C94, CAVALLETTO C118, CAVALLETTO 670/U, VITE ALETTATA 8x15 mm, STAFFA A PONTE Ø 48 / Ø 60, KIT BULLONERIA SEMPLICE (N. 4 VITI TESTA QUADRA 8x25 mm + N. 4 DADI)."
+  },
+  {
+    "tag": "CAN",
+    "page": 13,
+    "page_label": "133",
+    "type": "listino",
+    "section": "SEGNALETICA TEMPORANEA - SEGNALI DI PERICOLO - DECRETO 10 LUGLIO 2002 - TAVOLA 0 - SEGNALI COMUNEMENTE UTILIZZATI PER LA SEGNALETICA TEMPORANEA",
+    "table_title": "8.4 SEGNALETICA TEMPORANEA DI NOTTE E IN CONDIZIONI DI SCARSA VISIBILITA' - E' RACCOMANDABILE CHE TUTTI I PANNELLI SIANO RIVESTITI DI PELLICOLA RETRORIFLETTENTE DI CLASSE 2",
+    "figures": [
+      { "figura": "II 383 ART. 31", "nome": "lavori", "pos": 1 },
+      { "figura": "II 384 ART. 31", "nome": "strettoia simmetrica", "pos": 2 },
+      { "figura": "II 385 ART. 31", "nome": "strettoia asimmetrica a sinistra", "pos": 3 },
+      { "figura": "II 386 ART. 31", "nome": "strettoia asimmetrica a destra", "pos": 4 },
+      { "figura": "II 387 ART. 31", "nome": "doppio senso di circolazione", "pos": 5 },
+      { "figura": "II 388 ART. 31", "nome": "mezzi di lavoro in azione", "pos": 6 },
+      { "figura": "II 389 ART. 31", "nome": "strada deformata", "pos": 7 },
+      { "figura": "II 390 ART. 31", "nome": "materiale instabile sulla strada", "pos": 8 },
+      { "figura": "II 391 ART. 31", "nome": "segni orizzontali in rifacimento", "pos": 9 },
+      { "figura": "II 391/A ART. 31", "nome": "incidente", "pos": 10 },
+      { "figura": "II 391/B ART. 31", "nome": "uscita obbligatoria", "pos": 11 },
+      { "figura": "II 391/C ART. 31", "nome": "corsie a larghezza ridotta", "pos": 12 },
+      { "figura": "II 404 ART. 42", "nome": "semaforo", "pos": 13 },
+      { "figura": "II 1/A ART. 83", "nome": "pannello (150 m / 500 m)", "pos": 14 }
+    ],
+    "rows": [
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "articolo": "TRIANGOLO",
+        "dimensione": "PICCOLO",
+        "misura": "LATO 60",
+        "base_cm": null,
+        "altezza_cm": null,
+        "n_att": 2,
+        "n_rinf_norm_cors": null,
+        "n_rinf_trav_cors": null,
+        "note": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 11.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 13.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 15.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 18.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 20.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 23.00 }
+        ]
+      },
+      {
+        "wl_fe": "4",
+        "wl_al": "7",
+        "codice": null,
+        "articolo": "TRIANGOLO",
+        "dimensione": "NORMALE",
+        "misura": "LATO 90",
+        "base_cm": null,
+        "altezza_cm": null,
+        "n_att": 2,
+        "n_rinf_norm_cors": null,
+        "n_rinf_trav_cors": null,
+        "note": "WL FE = 4 (stampato in rosso: pannello destinato alla cantieristica)",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 18.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 24.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 37.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 42.00 }
+        ]
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "articolo": "TRIANGOLO",
+        "dimensione": "NORMALE",
+        "misura": "LATO 90",
+        "base_cm": null,
+        "altezza_cm": null,
+        "n_att": null,
+        "n_rinf_norm_cors": 2,
+        "n_rinf_trav_cors": null,
+        "note": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 21.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 27.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 33.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 33.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 40.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 46.00 }
+        ]
+      },
+      {
+        "wl_fe": "1",
+        "wl_al": "1",
+        "codice": null,
+        "articolo": "TRIANGOLO",
+        "dimensione": "GRANDE",
+        "misura": "LATO 120",
+        "base_cm": null,
+        "altezza_cm": null,
+        "n_att": 3,
+        "n_rinf_norm_cors": null,
+        "n_rinf_trav_cors": null,
+        "note": "WL FE e AL = 1 (stampati in rosso: pannello destinato alla cantieristica)",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 37.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 50.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 59.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 55.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 66.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 79.00 }
+        ]
+      },
+      {
+        "wl_fe": "2",
+        "wl_al": "7",
+        "codice": null,
+        "articolo": "TRIANGOLO",
+        "dimensione": "GRANDE",
+        "misura": "LATO 120",
+        "base_cm": null,
+        "altezza_cm": null,
+        "n_att": null,
+        "n_rinf_norm_cors": 2,
+        "n_rinf_trav_cors": null,
+        "note": "WL FE = 2 (stampato in rosso: pannello destinato alla cantieristica)",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 38.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 52.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 62.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 63.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 74.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 86.00 }
+        ]
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "PICCOLO",
+        "misura": "53x18",
+        "base_cm": 53,
+        "altezza_cm": 18,
+        "n_att": 1,
+        "n_rinf_norm_cors": null,
+        "n_rinf_trav_cors": null,
+        "note": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 9.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 11.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 12.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 11.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 14.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 15.00 }
+        ]
+      },
+      {
+        "wl_fe": "4",
+        "wl_al": "7",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "NORMALE",
+        "misura": "80x27",
+        "base_cm": 80,
+        "altezza_cm": 27,
+        "n_att": 2,
+        "n_rinf_norm_cors": null,
+        "n_rinf_trav_cors": null,
+        "note": "WL FE = 4 (stampato in rosso: pannello destinato alla cantieristica)",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 14.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 17.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 21.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 20.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 25.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 29.00 }
+        ]
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "NORMALE",
+        "misura": "80x27",
+        "base_cm": 80,
+        "altezza_cm": 27,
+        "n_att": null,
+        "n_rinf_norm_cors": 2,
+        "n_rinf_trav_cors": null,
+        "note": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 18.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 21.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 25.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 26.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 34.00 }
+        ]
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "GRANDE",
+        "misura": "105x35",
+        "base_cm": 105,
+        "altezza_cm": 35,
+        "n_att": null,
+        "n_rinf_norm_cors": 2,
+        "n_rinf_trav_cors": null,
+        "note": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 24.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 29.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 33.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 39.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 46.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 53.00 }
+        ]
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "PICCOLO",
+        "misura": "53x53",
+        "base_cm": 53,
+        "altezza_cm": 53,
+        "n_att": 2,
+        "n_rinf_norm_cors": null,
+        "n_rinf_trav_cors": null,
+        "note": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 18.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 22.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 37.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 43.00 }
+        ]
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "NORMALE",
+        "misura": "80x80",
+        "base_cm": 80,
+        "altezza_cm": 80,
+        "n_att": null,
+        "n_rinf_norm_cors": 2,
+        "n_rinf_trav_cors": null,
+        "note": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 37.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 50.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 62.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 62.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 75.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 88.00 }
+        ]
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "GRANDE",
+        "misura": "105x105",
+        "base_cm": 105,
+        "altezza_cm": 105,
+        "n_att": null,
+        "n_rinf_norm_cors": "3 o 2",
+        "n_rinf_trav_cors": null,
+        "note": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 80.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 125.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 155.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 115.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 150.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 178.00 }
+        ]
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "NORMALE",
+        "misura": "100x180",
+        "base_cm": 100,
+        "altezza_cm": 180,
+        "n_att": null,
+        "n_rinf_norm_cors": "4 o 3",
+        "n_rinf_trav_cors": null,
+        "note": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 135.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 200.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 230.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 180.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 240.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 310.00 }
+        ]
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": "GRANDE",
+        "misura": "135x270",
+        "base_cm": 135,
+        "altezza_cm": 270,
+        "n_att": null,
+        "n_rinf_norm_cors": 6,
+        "n_rinf_trav_cors": 4,
+        "note": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 270.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 400.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 480.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 370.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 520.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 660.00 }
+        ]
+      },
+      {
+        "table_title": "SULLE FIGURE 391/A-B-C SUL PREZZO SOPRA RIPORTATO AGGIUNGERE:",
+        "wl_fe": null,
+        "wl_al": null,
+        "codice": null,
+        "articolo": "PER TARGA 100x180 E 135x270 KIT DI 2 LAMPEGGIATORI Ø 200 A LED GIA' APPLICATI SULLA TARGA",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": "Sovrapprezzo da aggiungere al prezzo della targa (figure 391/A-B-C)",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 250.00 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO. Colonne WL a due sotto-colonne: FE e AL."
+  }
+]

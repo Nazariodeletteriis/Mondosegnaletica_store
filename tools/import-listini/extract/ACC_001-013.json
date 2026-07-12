@@ -1,0 +1,936 @@
+[
+  {
+    "tag": "ACC",
+    "page": 1,
+    "page_label": null,
+    "type": "copertina",
+    "section": "ACCESSORI VARI",
+    "table_title": null,
+    "figures": [],
+    "rows": [],
+    "page_note": "Frontespizio listino ACCESSORI VARI - logo Mondo Segnaletica Soc. Coop."
+  },
+  {
+    "tag": "ACC",
+    "page": 2,
+    "page_label": null,
+    "type": "altro",
+    "section": null,
+    "table_title": null,
+    "figures": [],
+    "rows": [],
+    "page_note": "Pagina bianca."
+  },
+  {
+    "tag": "ACC",
+    "page": 3,
+    "page_label": "099",
+    "type": "listino",
+    "section": "ACCESSORI PER AUTOMEZZI",
+    "table_title": "ACCESSORI PER AUTOMEZZI",
+    "figures": [
+      { "figura": "A", "nome": "segnale di velocità 40/50/60/70/80/100 - supporto alluminio", "pos": 1 },
+      { "figura": "B", "nome": "segnale di velocità 40/50/60/70/80/100 - supporto pvc autoadesivo", "pos": 2 },
+      { "figura": "C", "nome": "pannelli per mezzi portati agricoli - kit da 2 pezzi (alluminio)", "pos": 3 },
+      { "figura": "D", "nome": "pannello per mezzi portati agricoli (alluminio)", "pos": 4 },
+      { "figura": "E", "nome": "pannelli per motrici - kit da 2 pezzi (alluminio)", "pos": 5 },
+      { "figura": "F", "nome": "pannelli per rimorchi - kit da 2 pezzi (alluminio)", "pos": 6 },
+      { "figura": "G", "nome": "targa carico sporgente - alluminio 10/10 omologato", "pos": 7 },
+      { "figura": "H", "nome": "targa carico sporgente - lamierino per uso pubblicitario", "pos": 8 },
+      { "figura": "I", "nome": "targa carico sporgente - pvc per uso pubblicitario", "pos": 9 },
+      { "figura": "L", "nome": "rotor lampeggiante normale arancio/blu 12/24 v.", "pos": 10 },
+      { "figura": "M", "nome": "rotor lampeggiante calamitato arancio/blu 12 o 24 v.", "pos": 11 },
+      { "figura": "N", "nome": "segnale mobile di pericolo - omologato diamond 3970 / auto ferma", "pos": 12 },
+      { "figura": "O", "nome": "targa prodotti agricoli (adesivo) - lettera a", "pos": 13 },
+      { "figura": "P", "nome": "targa prodotti deperibili (adesivo) - lettera d", "pos": 14 },
+      { "figura": "Q-Q1", "nome": "targa rifiuti (adesivo) - lettera R", "pos": 15 }
+    ],
+    "rows": [
+      {
+        "wl_fe": "/", "wl_al": null, "codice": null, "figura": "A", "omologazione": "OMOLOGATO",
+        "articolo": "SEGNALE DI VELOCITA'", "dimensione": "Ø 20 CM", "qta_min_ord": 25,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "ALLUMINIO 15/10", "classe": "CL. 2", "euro": 6.00 } ]
+      },
+      {
+        "wl_fe": "/", "wl_al": null, "codice": null, "figura": "B", "omologazione": "OMOLOGATO",
+        "articolo": "SEGNALE DI VELOCITA' (ADESIVO)", "dimensione": "Ø 20 CM", "qta_min_ord": 25,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "ALLUMINIO 15/10", "classe": "CL. 2", "euro": 3.00 } ]
+      },
+      {
+        "wl_fe": "/", "wl_al": null, "codice": null, "figura": "C", "omologazione": "OMOLOGATO",
+        "articolo": "PANNELLI PER MEZZI PORTATI AGRICOLI ALL. 15/10", "dimensione": "CM 56,4X28,2", "qta_min_ord": 10,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "ALLUMINIO 15/10", "classe": "CL. 2", "euro": 40.00 } ]
+      },
+      {
+        "wl_fe": "/", "wl_al": null, "codice": null, "figura": "D", "omologazione": "OMOLOGATO",
+        "articolo": "PANNELLI PER MEZZI PORTATI AGRICOLI ALL. 18/10", "dimensione": "CM 42,3X42,3", "qta_min_ord": 10,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "ALLUMINIO 15/10", "classe": "CL. 2", "euro": 26.00 } ]
+      },
+      {
+        "wl_fe": "/", "wl_al": null, "codice": null, "figura": "E", "omologazione": "OMOLOGATO",
+        "articolo": "PANNELLI PER MOTRICI ALL. 10/10", "dimensione": "CM 56,5X13,2", "qta_min_ord": 10,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "ALLUMINIO 15/10", "classe": "CL. 2 S.", "euro": 16.00 } ]
+      },
+      {
+        "wl_fe": "/", "wl_al": null, "codice": null, "figura": "F", "omologazione": "OMOLOGATO",
+        "articolo": "PANNELLI PER RIMORCHI ALL. 10/10", "dimensione": "CM 56,5X20", "qta_min_ord": 10,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "ALLUMINIO 15/10", "classe": "CL. 2 S.", "euro": 21.00 } ]
+      },
+      {
+        "wl_fe": "/", "wl_al": null, "codice": null, "figura": "G", "omologazione": "OMOLOGATO",
+        "articolo": "TARGA (CARICO SPORGENTE) ALL. 10/10", "dimensione": "50X50", "qta_min_ord": 10,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "ALLUMINIO 15/10", "classe": "CL. 2", "euro": 30.00 } ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "H", "omologazione": null,
+        "articolo": "TARGA (CARICO SPORGENTE) PER USO PUBBLICITARIO", "dimensione": "50X50", "qta_min_ord": 10,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "SERIGR.", "classe": null, "euro": 6.50 } ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "I", "omologazione": null,
+        "articolo": "TARGA (CARICO SPORGENTE) PER USO PUBBLICITARIO", "dimensione": "50X50", "qta_min_ord": 50,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "SERIGR.", "classe": null, "euro": 4.20 } ]
+      },
+      {
+        "wl_fe": "/", "wl_al": null, "codice": null, "figura": "L", "omologazione": "OMOLOGATO",
+        "articolo": "ROTOR LAMPEGGIANTE NORMALE", "dimensione": null, "qta_min_ord": 3,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "SERIGR.", "classe": null, "euro": 42.00 } ]
+      },
+      {
+        "wl_fe": "/", "wl_al": null, "codice": null, "figura": "M", "omologazione": "OMOLOGATO",
+        "articolo": "ROTOR LAMPEGGIANTE CALAMITATO", "dimensione": null, "qta_min_ord": 3,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "SERIGR.", "classe": null, "euro": 62.00 } ]
+      },
+      {
+        "wl_fe": "/", "wl_al": null, "codice": null, "figura": "N", "omologazione": "OMOLOGATO",
+        "articolo": "SEGNALE MOBILE DI PERICOLO", "dimensione": "LATO CM 40", "qta_min_ord": 10,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "ALLUMINIO 15/10", "classe": "CL. 2 S.", "euro": 18.00 } ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "O", "omologazione": null,
+        "articolo": "TARGA PRODOTTI AGRICOLI (ADESIVO)", "dimensione": "CM 50X40", "qta_min_ord": 10,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "SERIGR.", "classe": null, "euro": 4.00 } ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "P", "omologazione": null,
+        "articolo": "TARGA PRODOTTI DEPERIBILI (ADESIVO)", "dimensione": "CM 50X40", "qta_min_ord": 10,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "SERIGR.", "classe": null, "euro": 4.00 } ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "Q", "omologazione": null,
+        "articolo": "TARGA RIFIUTI (ADESIVO)", "dimensione": "CM 40X40", "qta_min_ord": 10,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "SERIGR.", "classe": null, "euro": 4.00 } ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "Q1", "omologazione": null,
+        "articolo": "TARGA RIFIUTI (ADESIVO)", "dimensione": "CM 15X15", "qta_min_ord": 10,
+        "table_title": "ACCESSORI PER AUTOMEZZI",
+        "prezzi": [ { "materiale": "SERIGR.", "classe": null, "euro": 1.00 } ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10% — N.B.: GLI ARTICOLI ALLE POSIZIONI E - F (PANNELLI PER MOTRICI E RIMORCHI) SONO REALIZZATI IN CONFORMITÀ AL DECRETO MINISTERO INFRASTRUTTURE E TRASPORTI N. 40 DEL 24/01/2003"
+  },
+  {
+    "tag": "ACC",
+    "page": 4,
+    "page_label": "100",
+    "type": "listino",
+    "section": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+    "table_title": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+    "figures": [
+      { "figura": "A", "nome": "kit di 2 pezzi per carichi sporgenti laterali (1 dx 1 sx)", "pos": 1 },
+      { "figura": "B", "nome": "pannello per trasporto merci pericolose", "pos": 2 },
+      { "figura": "C", "nome": "pannello per trasporto merci pericolose pieghevole", "pos": 3 },
+      { "figura": "D", "nome": "pannello per trasporto eccezionale", "pos": 4 },
+      { "figura": "E - E1", "nome": "pannello per trasporto eccezionale", "pos": 5 },
+      { "figura": "F", "nome": "pannello per trasporto - tir", "pos": 6 },
+      { "figura": "G", "nome": "pannello per trasporto - tir - pieghevole", "pos": 7 },
+      { "figura": "H", "nome": "rotolo per linea sicurezza automezzi per superfici rigide", "pos": 8 },
+      { "figura": "I", "nome": "rotolo per linea sicurezza automezzi per superfici telonate", "pos": 9 },
+      { "figura": "L", "nome": "dotazione standard marginale 10 260 - la borsa contiene: nr.2 triangoli d'avvertimento omologati, nr.1 lampada portatile avente caratteristiche a.d.r. marginale 10 353, nr.4 coni retroriflettenti classe 2, nr.1 giubbetto omologato en 471 classe 2", "pos": 10 },
+      { "figura": "M", "nome": "dotazione trasporto classe 2 marginale 10 260 e 21 260 - la borsa contiene: nr.2 triangoli d'avvertimento omologati, nr.1 lampada portatile avente caratteristiche a.d.r. marginale 10 353, nr.4 coni retroriflettenti classe 2, nr.1 giubbetto omologato en 471 classe 2, nr.1 maschera antigas pieno facciale, nr.1 filtro omologato en 141 a1b2e1k1-p2", "pos": 11 },
+      { "figura": "N", "nome": "segnale mobile di pericolo con custodia", "pos": 12 },
+      { "figura": "O", "nome": "gilet alta visibilità", "pos": 13 }
+    ],
+    "rows": [
+      {
+        "wl": "/", "codice": null, "figura": "A", "articolo": "KIT DI 2 PEZZI PER CARICHI SPORGENTI LATERALI (1 DX 1 SX)",
+        "note": "ALL. 18/10", "dimensione": "CM 30x60", "qta_min_ord": 5,
+        "table_title": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+        "prezzi": [ { "materiale": null, "classe": "CL. 2", "euro": 64.00 } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "B", "articolo": "PANNELLO PER TRASPORTO MERCI PERICOLOSE",
+        "note": "ALL. 10/10", "dimensione": "CM 40x30", "qta_min_ord": 5,
+        "table_title": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+        "prezzi": [ { "materiale": null, "classe": "CL. 1", "euro": 14.00 } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "C", "articolo": "PANNELLO PER TRASPORTO MERCI PERICOLOSE PIEGHEVOLE",
+        "note": "ALL. 10/10", "dimensione": "CM 40x30", "qta_min_ord": 5,
+        "table_title": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+        "prezzi": [ { "materiale": null, "classe": "CL. 1", "euro": 17.00 } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "D", "articolo": "PANNELLO PER TRASPORTO ECCEZIONALE",
+        "note": "ALL. 18/10", "dimensione": "CM 60x15", "qta_min_ord": 5,
+        "table_title": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+        "prezzi": [ { "materiale": null, "classe": "CL. 2", "euro": 17.00 } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "E", "articolo": "PANNELLO PER TRASPORTO ECCEZIONALE",
+        "note": "ALL. 18/10", "dimensione": "CM 120x15", "qta_min_ord": 5,
+        "table_title": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+        "prezzi": [ { "materiale": null, "classe": "CL. 2", "euro": 26.00 } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "E1", "articolo": "PANNELLO PER TRASPORTO ECCEZIONALE BIFACCIALE ALL. 18/10",
+        "note": null, "dimensione": "CM 120x25", "qta_min_ord": 5,
+        "table_title": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+        "prezzi": [ { "materiale": null, "classe": "CL. 2", "euro": 100.00 } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "F", "articolo": "PANNELLO PER TRASPORTO - TIR",
+        "note": "ALL. 18/10", "dimensione": "CM 40x25", "qta_min_ord": 5,
+        "table_title": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+        "prezzi": [ { "materiale": null, "classe": "NON RIF.", "euro": 13.00 } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "G", "articolo": "PANNELLO PER TRASPORTO - TIR - PIEGHEVOLE",
+        "note": "ALL. 18/10", "dimensione": "CM 40x25", "qta_min_ord": 5,
+        "table_title": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+        "prezzi": [ { "materiale": null, "classe": "NON RIF.", "euro": 20.00 } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "H", "articolo": "ROTOLO PER LINEA SICUREZZA AUTOMEZZI PER SUPERFICI RIGIDE",
+        "note": null, "dimensione": "ROTOLO DA CM 5x50 ML", "qta_min_ord": 2,
+        "table_title": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+        "prezzi": [ { "materiale": null, "classe": "CL. 2 S. (BIANCO / GIALLO / ROSSO)", "euro": 210.00 } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "I", "articolo": "ROTOLO PER LINEA SICUREZZA AUTOMEZZI PER SUPERFICI TELONATE",
+        "note": null, "dimensione": "ROTOLO DA CM 5x50 ML", "qta_min_ord": 2,
+        "table_title": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+        "prezzi": [ { "materiale": null, "classe": "CL. 2 S. (BIANCO / GIALLO / ROSSO)", "euro": 235.00 } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "L", "articolo": "KIT DOTAZIONE PER ADR STANDARD MARGINALE 10 260",
+        "note": null, "dimensione": null, "qta_min_ord": 1,
+        "table_title": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 160.00 } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "M", "articolo": "KIT DOTAZIONE PER ADR STANDARD TRASPORTO MARGINALE 10 260 E 21 260",
+        "note": null, "dimensione": null, "qta_min_ord": 1,
+        "table_title": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 300.00 } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "N", "articolo": "SEGNALE MOBILE DI PERICOLO CON CUSTODIA - OMOLOGATO",
+        "note": null, "dimensione": null, "qta_min_ord": 10,
+        "table_title": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 9.00 } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "O", "articolo": "GILET ALTA VISIBILITA' CE EN 471 CLASSE 2-2",
+        "note": null, "dimensione": null, "qta_min_ord": 20,
+        "table_title": "ACCESSORI PER AUTOMEZZI (OMOLOGATI)",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 6.00 } ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%"
+  },
+  {
+    "tag": "ACC",
+    "page": 5,
+    "page_label": "101",
+    "type": "normativa",
+    "section": "MINISTERO DELLE INFRASTRUTTURE E TRASPORTI - DECRETO 27 DICEMBRE 2004 RIGUARDANTE NORME DI OMOLOGAZIONE E DI INSTALLAZIONE DEGLI EVIDENZIATORI RETRORIFLETTENTI PER LA SEGNALAZIONE DEI VEICOLI PESANTI E LUNGHI E DEI LORO RIMORCHI",
+    "table_title": null,
+    "figures": [],
+    "rows": [],
+    "page_note": "Pagina normativa (nessun prezzo). Contenuti: obbligo linea segnaletica di sicurezza dal 01-04-2005 per veicoli pesanti > 35 q.li; mezzi già immatricolati in regola entro 31-12-2005; obbligatoria su tutto il perimetro inferiore del mezzo (retro compreso); riquadrature totali facoltative; colori giallo (lateralmente e posteriormente), bianco (solo lateralmente), rosso (solo posteriormente); nastri rifrangenti CL. III° D.G. rispondenti al regolamento ECE-104; combinazioni possibili: perimetro interamente giallo / laterale giallo + retro rosso / laterale bianco + retro rosso / laterale bianco + retro giallo."
+  },
+  {
+    "tag": "ACC",
+    "page": 6,
+    "page_label": "102",
+    "type": "listino",
+    "section": "INDUMENTI",
+    "table_title": "INDUMENTI - DISPOSITIVI DI PROTEZIONE INDIVIDUALI (ALTA VISIBILITÀ EN 471) CE",
+    "figures": [
+      { "figura": "A", "nome": "tuta intera (arancio / giallo)", "pos": 1 },
+      { "figura": "B", "nome": "pantalone (arancio)", "pos": 2 },
+      { "figura": "C", "nome": "bretelle (arancio)", "pos": 3 },
+      { "figura": "D", "nome": "giacca a vento (arancio)", "pos": 4 },
+      { "figura": "E", "nome": "giacca (arancio)", "pos": 5 },
+      { "figura": "F", "nome": "gilet estivo (arancio)", "pos": 6 },
+      { "figura": "G", "nome": "gilet invernale (arancio)", "pos": 7 },
+      { "figura": "H", "nome": "berretto estivo in cotone (arancio)", "pos": 8 },
+      { "figura": "H1", "nome": "berretto imbottito antifreddo (arancio)", "pos": 9 },
+      { "figura": "I", "nome": "maglietta polo manica corta (arancio)", "pos": 10 },
+      { "figura": "L", "nome": "impermeabile cappotto antistrappo lunghezza al polpaccio (giallo)", "pos": 11 },
+      { "figura": "M", "nome": "impermeabile completo giacca e pantaloni antistrappo (giallo)", "pos": 12 },
+      { "figura": "N", "nome": "bermuda (arancio)", "pos": 13 }
+    ],
+    "rows": [
+      {
+        "wl": "/", "codice": null, "figura": "A", "articolo": "TUTA INTERA", "note": "CON FASCE RIFRANGENTI",
+        "table_title": "INDUMENTI",
+        "prezzi": [
+          { "materiale": "ARANCIO", "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" },
+          { "materiale": "GIALLO", "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" }
+        ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "B", "articolo": "PANTALONE", "note": "CON FASCE RIFRANGENTI",
+        "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": "ARANCIO", "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "C", "articolo": "BRETELLE", "note": "CON FASCE RIFRANGENTI",
+        "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": "ARANCIO", "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "D", "articolo": "GIACCA A VENTO", "note": "CON FASCE RIFRANGENTI",
+        "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": "ARANCIO", "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "E", "articolo": "GIACCA", "note": "CON FASCE RIFRANGENTI",
+        "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": "ARANCIO", "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "F", "articolo": "GILET ESTIVO", "note": "CON FASCE RIFRANGENTI",
+        "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": "ARANCIO", "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "G", "articolo": "GILET INVERNALE", "note": "CON FASCE RIFRANGENTI",
+        "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": "ARANCIO", "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "H", "articolo": "BERRETTO ESTIVO IN COTONE", "note": null,
+        "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": "ARANCIO", "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "H1", "articolo": "BERRETTO IMBOTTITO ANTIFREDDO", "note": null,
+        "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": "ARANCIO", "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "I", "articolo": "MAGLIETTA POLO MANICA CORTA", "note": "CON FASCE RIFRANGENTI",
+        "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": "ARANCIO", "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "L", "articolo": "IMPERMEABILE CON CAPPUCCIO INCORPORATO", "note": null,
+        "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": "GIALLO", "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "M", "articolo": "IMPERMEABILE COMPLETO GIACCA E PANTALONI ANTISTRAPPO", "note": null,
+        "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": "GIALLO", "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "N", "articolo": "BERMUDA", "note": "CON FASCE RIFRANGENTI",
+        "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": "ARANCIO", "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      }
+    ],
+    "page_note": "DISPOSITIVI DI PROTEZIONE INDIVIDUALI (ALTA VISIBILITÀ EN 471) - marcatura CE. Colonne prezzo per colore: ARANCIO / GIALLO. Tutti i prezzi della pagina sono 'CHIEDERE PREVENTIVO' (nessun importo stampato)."
+  },
+  {
+    "tag": "ACC",
+    "page": 7,
+    "page_label": "103",
+    "type": "listino",
+    "section": "INDUMENTI",
+    "table_title": "INDUMENTI (AUSILIARI DEL TRAFFICO / POLIZIA MUNICIPALE)",
+    "figures": [
+      { "figura": "A", "nome": "giacca a vento blu con fasce rifrangenti - fronte e retro con scritta 'ausiliari del traffico'", "pos": 1 },
+      { "figura": "B", "nome": "corpetto blu con scritta 'ausiliari del traffico' - fronte e retro", "pos": 2 },
+      { "figura": "C", "nome": "cappotto impermeabile blu con fasce rifrangenti - fronte e retro con scritta 'ausiliari del traffico'", "pos": 3 },
+      { "figura": "D", "nome": "berretto imbottito blu con copri orecchie", "pos": 4 },
+      { "figura": "E", "nome": "berretto in panno blu", "pos": 5 },
+      { "figura": "F", "nome": "berretto in cotone blu", "pos": 6 },
+      { "figura": "G", "nome": "bracciolo blu con scritta rifrangente 'ausiliari del traffico'", "pos": 7 },
+      { "figura": "H", "nome": "borsello cuoio bianco", "pos": 8 },
+      { "figura": "I", "nome": "pettorina rifrangente con scritta 'polizia municipale'", "pos": 9 },
+      { "figura": "L", "nome": "coppia manicotti in tessuto rifrangente", "pos": 10 },
+      { "figura": "M", "nome": "copriberretto rifrangente", "pos": 11 },
+      { "figura": "N", "nome": "sfollagente (bianco - nero)", "pos": 12 }
+    ],
+    "rows": [
+      {
+        "wl": "/", "codice": null, "figura": "A",
+        "articolo": "GIACCA A VENTO BLU CON FASCE RIFRANGENTI + INTERNO STACCABILE CON SCRITTA RIFRANGENTE “AUSILIARI DEL TRAFFICO”",
+        "taglie": "S-M-L-XL-XXL", "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "B",
+        "articolo": "CORPETTO BLU CON SCRITTA RIFRANGENTE “AUSILIARI DEL TRAFFICO” SIA SUL FRONTE CHE SUL RETRO",
+        "taglie": "UNICA", "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "C",
+        "articolo": "CAPPOTTO IMPERMEABILE BLU CON FASCE RIFRANGENTI CON SCRITTA RIFRANGENTE “AUSILIARI DEL TRAFFICO”",
+        "taglie": "S-M-L-XL-XXL", "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "D",
+        "articolo": "BERRETTO IMBOTTITO BLU CON COPRI ORECCHIE ED ELASTICO NUCALE CON SCRITTA RIFRANGENTE “AUSILIARI DEL TRAFFICO”",
+        "taglie": null, "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "E",
+        "articolo": "BERRETTO IN PANNO BLU CON SCRITTA RIFRANGENTE “AUSILIARI DEL TRAFFICO”",
+        "taglie": null, "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "F",
+        "articolo": "BERRETTO IN COTONE BLU CON SCRITTA RIFRANGENTE “AUSILIARI DEL TRAFFICO”",
+        "taglie": null, "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "G",
+        "articolo": "BRACCIOLO BLU CON SCRITTA RIFRANGENTE “AUSILIARI DEL TRAFFICO”",
+        "taglie": null, "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "H",
+        "articolo": "BORSELLO CUOIO BIANCO",
+        "taglie": null, "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "I",
+        "articolo": "PETTORINA RIFRANGENTE CON SCRITTA “POLIZIA MUNICIPALE”",
+        "taglie": "S-M-L", "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "L",
+        "articolo": "COPPIA MANICOTTI IN TESSUTO RIFRANGENTE",
+        "taglie": null, "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "M",
+        "articolo": "COPRIBERRETTO RIFRANGENTE",
+        "taglie": null, "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "N",
+        "articolo": "SFOLLAGENTE", "note": "COLORI: BIANCO - NERO",
+        "taglie": null, "table_title": "INDUMENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      }
+    ],
+    "page_note": "Tutti i prezzi della pagina sono 'CHIEDERE PREVENTIVO' (nessun importo stampato)."
+  },
+  {
+    "tag": "ACC",
+    "page": 8,
+    "page_label": "104",
+    "type": "listino",
+    "section": "ACCESSORI PER FORZE DELL'ORDINE",
+    "table_title": "ACCESSORI PER FORZE DELL'ORDINE",
+    "figures": [
+      { "figura": null, "nome": "paletta - ministero dell'interno - vigili del fuoco", "pos": 1 },
+      { "figura": null, "nome": "paletta - ministero dell'interno - polizia di stato", "pos": 2 },
+      { "figura": null, "nome": "paletta - ministero della difesa - carabinieri", "pos": 3 },
+      { "figura": null, "nome": "paletta - ministero delle finanze - guardia di finanza", "pos": 4 },
+      { "figura": null, "nome": "paletta - anas s.p.a. - servizio di polizia stradale", "pos": 5 },
+      { "figura": null, "nome": "paletta - provincia di - ufficio tecnico", "pos": 6 },
+      { "figura": null, "nome": "paletta - protezione civile - nazionale", "pos": 7 },
+      { "figura": null, "nome": "paletta - comune di - polizia municipale", "pos": 8 },
+      { "figura": null, "nome": "paletta - comune di - polizia locale", "pos": 9 },
+      { "figura": null, "nome": "paletta - polizia privata - servizi di sicurezza", "pos": 10 }
+    ],
+    "rows": [
+      {
+        "wl": "/", "codice": null, "figura": null,
+        "articolo": "PALETTE NYLON ROSSO/ROSSO + STEMMA REPUBBLICA ITALIANA + SCRITTE",
+        "qta_min_ord": 10, "table_title": "ACCESSORI PER FORZE DELL'ORDINE",
+        "prezzi": [
+          { "materiale": null, "classe": "CL. 1", "euro": 14.00 },
+          { "materiale": null, "classe": "CL. 2", "euro": 17.00 },
+          { "materiale": null, "classe": "CL. 2 S.", "euro": 18.00 }
+        ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": null,
+        "articolo": "PALETTE PVC ROSSO/ROSSO + STEMMA REPUBBLICA ITALIANA + SCRITTE",
+        "qta_min_ord": 10, "table_title": "ACCESSORI PER FORZE DELL'ORDINE",
+        "prezzi": [
+          { "materiale": null, "classe": "CL. 1", "euro": 13.00 },
+          { "materiale": null, "classe": "CL. 2", "euro": 16.00 },
+          { "materiale": null, "classe": "CL. 2 S.", "euro": 17.00 }
+        ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": null,
+        "articolo": "INCISIONE NUMERAZIONE PROGRESSIVA SUL MANICO + ANNERIMENTO",
+        "note": "(PREZZO NETTO)", "qta_min_ord": 10, "table_title": "LAVORAZIONI SUPPLEMENTARI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 2.00 } ]
+      }
+    ],
+    "page_note": "N.B.: LE QUOTAZIONI INDICATE SI RIFERISCONO A IMPIANTI SERIGRAFICI ESISTENTI, PER NUOVE SCRITTE CHIEDERE PREVENTIVO — N.B.: SUL MANICO DELLE PALETTE, SU ORDINAZIONE, SI PUÒ INCIDERE IL NUMERO DI MATRICOLA — N.B.: PER PALETTE CON STEMMA DELLA REPUBBLICA ITALIANA O ENTE, OCCORRE AUTORIZZAZIONE DA PARTE DELL'ENTE PREPOSTO — N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%"
+  },
+  {
+    "tag": "ACC",
+    "page": 9,
+    "page_label": "105",
+    "type": "listino",
+    "section": "DISPOSITIVI RIFRANGENTI",
+    "table_title": "DISPOSITIVI RIFRANGENTI",
+    "figures": [
+      { "figura": "A", "nome": "gemma adesiva per qualsiasi superficie", "pos": 1 },
+      { "figura": "B", "nome": "gemma per roccia doppia faccia in alluminio bifacciale", "pos": 2 },
+      { "figura": "C", "nome": "gemma per staccionate in lamiera zincata con fori", "pos": 3 },
+      { "figura": "D", "nome": "gemme per guard-rails in lamiera zincata con asole", "pos": 4 },
+      { "figura": "E", "nome": "gemme per staccionate in metacrilato con fori - omologate", "pos": 5 },
+      { "figura": "F", "nome": "gemme per qualsiasi superficie in metacrilato ø 80 - fino ad esaurimento scorte", "pos": 6 },
+      { "figura": "G", "nome": "occhi di gatto in fusione di alluminio cm 10x10 con perno", "pos": 7 },
+      { "figura": "H", "nome": "occhi di gatto in policarbonato - omologati - adesivo compreso nel prezzo", "pos": 8 },
+      { "figura": "I", "nome": "adesivo bicomponente per occhi di gatto", "pos": 9 },
+      { "figura": "L", "nome": "dispositivo per riflettorizzazione degli alberi", "pos": 10 },
+      { "figura": "M", "nome": "occhio di gatto autopulente ø 100 mm - omologato", "pos": 11 },
+      { "figura": "N", "nome": "occhio di gatto autopulente ø 50 mm - non omologato", "pos": 12 },
+      { "figura": "O", "nome": "occhio di gatto monofacciale - economic - fino ad esaurimento scorte", "pos": 13 },
+      { "figura": "P", "nome": "occhio di gatto bifacciale - economic - fino ad esaurimento scorte", "pos": 14 },
+      { "figura": "Q", "nome": "occhio di gatto bifacciale - economic - fino ad esaurimento scorte", "pos": 15 },
+      { "figura": "R", "nome": "occhio di gatto bifacciale - economic - fino ad esaurimento scorte", "pos": 16 }
+    ],
+    "rows": [
+      {
+        "wl": "*", "codice": null, "figura": "A",
+        "articolo": "GEMMA ADESIVA PER QUALSIASI SUPERFICIE DA CM² 50",
+        "colore": "BIANCO-ROSSO / GIALLO", "qta_min_ord": 100, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [
+          { "materiale": null, "classe": "CL. 1", "euro": 0.50 },
+          { "materiale": null, "classe": "CL. 2", "euro": 0.60 }
+        ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "B",
+        "articolo": "GEMMA PER ROCCIA DOPPIA FACCIA IN ALLUMINIO BIFACCIALE CM 5x10",
+        "colore": "BIANCO-ROSSO / GIALLO", "qta_min_ord": 50, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [
+          { "materiale": null, "classe": "CL. 1", "euro": 2.00 },
+          { "materiale": null, "classe": "CL. 2", "euro": 2.20 }
+        ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "C",
+        "articolo": "GEMMA PER STACCIONATE IN LAMIERA ZINCATA CON FORI",
+        "colore": "BIANCO-ROSSO / GIALLO", "qta_min_ord": 50, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [
+          { "materiale": null, "classe": "CL. 1", "euro": 0.90 },
+          { "materiale": null, "classe": "CL. 2", "euro": 1.00 }
+        ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "D",
+        "articolo": "GEMME PER GUARD-RAILS IN LAMIERA ZINCATA CON ASOLE",
+        "colore": "BIANCO-ROSSO / GIALLO", "qta_min_ord": 50, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [
+          { "materiale": null, "classe": "CL. 1", "euro": 1.20 },
+          { "materiale": null, "classe": "CL. 2", "euro": 1.30 }
+        ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "E",
+        "articolo": "GEMME PER STACCIONATE IN METACRILATO CON FORI - OMOLOGATE",
+        "colore": "BIANCO-ROSSO / GIALLO", "qta_min_ord": 50, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 1.70 } ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "F",
+        "articolo": "GEMME PER QUALSIASI SUPERFICIE IN METACRILATO Ø 80",
+        "colore": "BIANCO-ROSSO / GIALLO", "qta_min_ord": 30, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 1.70 } ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "G",
+        "articolo": "OCCHI DI GATTO IN FUSIONE DI ALLUMINIO CM 10x10 CON PERNO",
+        "colore": "BIANCO-BIANCO / BIANCO-GIALLO / GIALLO-GIALLO", "qta_min_ord": 30, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 22.00 } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "H",
+        "articolo": "OCCHI DI GATTO IN POLICARBONATO COMPLETI DI ADESIVO - OMOLOGATI",
+        "colore": "BIANCO-ROSSO / GIALLO-GIALLO / BIANCO-BIANCO", "qta_min_ord": 100, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 8.00 } ]
+      },
+      {
+        "wl": "*", "codice": "3400DRIAB0070", "figura": "I",
+        "articolo": "ADESIVO BICOMPONENTE PER OCCHI DI GATTO CONFEZIONE DA 0,5 KG",
+        "colore": null, "qta_min_ord": 10, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 11.00 } ]
+      },
+      {
+        "wl": "*", "codice": "3400DRIDR0075", "figura": "L",
+        "articolo": "DISPOSITIVO PER RIFLETTORIZZAZIONE DEGLI ALBERI DA 25x20 CM PARTE RIFRANGENTE 14,8x19,8 CM KIT: 2 FASCE + CORDA ELASTICA + FASCETTE",
+        "colore": "BIANCO-ROSSO", "qta_min_ord": 20, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [ { "materiale": null, "classe": "CL. 2", "euro": 26.00 } ]
+      },
+      {
+        "wl": "/", "codice": "3400DRIOG0055", "figura": "M",
+        "articolo": "OCCHIO DI GATTO AUTOPULENTE Ø 100 MM CIRCA - OMOLOGATO",
+        "colore": "BIANCO", "qta_min_ord": 30, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 13.00 } ]
+      },
+      {
+        "wl": "*", "codice": "3400DRIOG0056", "figura": "N",
+        "articolo": "OCCHIO DI GATTO AUTOPULENTE Ø 50 MM CIRCA - NON OMOLOGATO",
+        "colore": "BIANCO", "qta_min_ord": 30, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 15.00 } ]
+      },
+      {
+        "wl": "*", "codice": "3400DRIOG0057", "figura": "O",
+        "articolo": "OCCHIO DI GATTO MONOFACCIALE - ECONOMIC NON CARRABILE - SENZA TASSELLI (FINO AD ESAURIMENTO SCORTE) - NON OMOLOGATO",
+        "colore": "BIANCO", "qta_min_ord": 50, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 3.60 } ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "P - Q - R",
+        "articolo": "OCCHIO DI GATTO BIFACCIALE - ECONOMIC NON CARRABILE - SENZA TASSELLI (FINO AD ESAURIMENTO SCORTE) - NON OMOLOGATO",
+        "colore": "BIANCO-BIANCO / BIANCO-GIALLO / GIALLO-GIALLO", "qta_min_ord": 50, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 3.60 } ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10% — N.B.: GLI ARTICOLI ALLE POSIZIONI O - P - Q - R, SI POSSONO APPLICARE ANCHE CON IL COLLANTE TIPO I"
+  },
+  {
+    "tag": "ACC",
+    "page": 10,
+    "page_label": "106",
+    "type": "listino",
+    "section": "DISPOSITIVI RIFRANGENTI",
+    "table_title": "DISPOSITIVI RIFRANGENTI",
+    "figures": [
+      { "figura": "A", "nome": "kit per cassonetti n.u. cm 10x40 dx o sx", "pos": 1 },
+      { "figura": "B", "nome": "kit per cassonetti n.u. cm 10x20 dx o sx", "pos": 2 },
+      { "figura": "C", "nome": "kit per cassonetti n.u. cm 20x20 dx o sx", "pos": 3 },
+      { "figura": "D", "nome": "kit per cassonetti n.u. cm 20x40", "pos": 4 },
+      { "figura": "E", "nome": "dispositivi per segnalare sbarramenti spigoli o sporgenze pericolose - alluminio piano 7/10 bianco/rosso", "pos": 5 },
+      { "figura": "F", "nome": "dispositivi per segnalare sbarramenti spigoli o sporgenze pericolose - alluminio piano 7/10 giallo/nero", "pos": 6 }
+    ],
+    "rows": [
+      {
+        "wl": "/", "codice": null, "figura": "A",
+        "articolo": "KIT PER CASSONETTI N.U. DA cm 10x40 DX O SX", "note": "OGNI SINGOLO PEZZO",
+        "qta_min_ord": 100, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [
+          { "materiale": null, "classe": "CL. 1", "euro": 2.00 },
+          { "materiale": null, "classe": "CL. 2", "euro": 5.50 }
+        ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "B",
+        "articolo": "KIT PER CASSONETTI N.U. DA cm 10x20 DX O SX", "note": "OGNI SINGOLO PEZZO",
+        "qta_min_ord": 100, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [
+          { "materiale": null, "classe": "CL. 1", "euro": 1.00 },
+          { "materiale": null, "classe": "CL. 2", "euro": 2.75 }
+        ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "C",
+        "articolo": "KIT PER CASSONETTI N.U. DA cm 20x20 DX O SX", "note": "OGNI SINGOLO PEZZO",
+        "qta_min_ord": 100, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [
+          { "materiale": null, "classe": "CL. 1", "euro": 2.00 },
+          { "materiale": null, "classe": "CL. 2", "euro": 5.50 }
+        ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "D",
+        "articolo": "KIT PER CASSONETTI N.U. DA cm 20x40", "note": "OGNI SINGOLO PEZZO",
+        "qta_min_ord": 100, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [
+          { "materiale": null, "classe": "CL. 1", "euro": 3.60 },
+          { "materiale": null, "classe": "CL. 2", "euro": 11.00 }
+        ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "E",
+        "articolo": "PROFILI IN ALLUMINIO 7/10 DA cm 10x100 - BIANCO/ROSSO", "note": "OGNI SINGOLO PEZZO",
+        "qta_min_ord": 50, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [ { "materiale": null, "classe": "CL. 1", "euro": 7.50 } ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "F",
+        "articolo": "PROFILI IN ALLUMINIO 7/10 DA cm 10x100 - GIALLO/NERO", "note": "OGNI SINGOLO PEZZO",
+        "qta_min_ord": 50, "table_title": "DISPOSITIVI RIFRANGENTI",
+        "prezzi": [ { "materiale": null, "classe": "CL. 1", "euro": 7.50 } ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "E - F",
+        "articolo": "ADESIVO GIALLO/NERO O BIANCO/ROSSO DA cm 10x100 PER PROFILI", "note": "OGNI SINGOLO PEZZO",
+        "qta_min_ord": 50, "table_title": "ADESIVI",
+        "prezzi": [ { "materiale": null, "classe": "CL. 1", "euro": 4.20 } ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%"
+  },
+  {
+    "tag": "ACC",
+    "page": 11,
+    "page_label": "107",
+    "type": "listino",
+    "section": "BARRIERE METALLICHE",
+    "table_title": "BARRIERE METALLICHE",
+    "figures": [
+      { "figura": "A-A1", "nome": "guard-rails barriera dritta", "pos": 1 },
+      { "figura": "B", "nome": "barriera con corrimano tipo m100 - esploso", "pos": 2 },
+      { "figura": "C", "nome": "piedritto m 100 h. 1353 + foro ø 60", "pos": 3 },
+      { "figura": "D", "nome": "piedritto c 120x80x5 h. 195", "pos": 4 },
+      { "figura": "E", "nome": "distanziale c 154x67x310", "pos": 5 },
+      { "figura": "F", "nome": "tubo corrimano ø 60", "pos": 6 },
+      { "figura": "G", "nome": "terminale allargato a ventaglio", "pos": 7 },
+      { "figura": "H", "nome": "serie di 9 bulloni, dadi e piastrini", "pos": 8 },
+      { "figura": "I", "nome": "frangiluce per guard-rails", "pos": 9 },
+      { "figura": "L", "nome": "frangiluce per new-jersey", "pos": 10 },
+      { "figura": "M", "nome": "staffa per frangiluce per montaggio su new-jersey", "pos": 11 },
+      { "figura": "N", "nome": "staffa per frangiluce per aggancio su guard-rails", "pos": 12 }
+    ],
+    "rows": [
+      {
+        "wl": "/", "codice": null, "figura": "A", "articolo": "GUARD-RAILS BARRIERA DRITTA - INTERASSE ML. 3,00",
+        "table_title": "BARRIERE METALLICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "A1", "articolo": "GUARD-RAILS BARRIERA DRITTA - INTERASSE ML. 3,60",
+        "table_title": "BARRIERE METALLICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "B", "articolo": "GUARD-RAILS BARRIERA CURVA", "note": "AL ML.",
+        "table_title": "BARRIERE METALLICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "C", "articolo": "PIEDRITTO M 100 H. 1353 + FORO Ø 60",
+        "table_title": "BARRIERE METALLICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "D", "articolo": "PIEDRITTO C 120X80X5 H. 195",
+        "table_title": "BARRIERE METALLICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "E", "articolo": "DISTANZIALE C 154X67X310",
+        "table_title": "BARRIERE METALLICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "F", "articolo": "TUBO CORRIMANO Ø 60", "note": "AL ML.",
+        "table_title": "BARRIERE METALLICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "G", "articolo": "TERMINALE ALLARGATO A VENTAGLIO",
+        "table_title": "BARRIERE METALLICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "H", "articolo": "SERIE DI 9 BULLONI, DADI E PIASTRINI",
+        "table_title": "BARRIERE METALLICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "I", "articolo": "FRANGILUCE PER GUARD-RAILS",
+        "table_title": "BARRIERE METALLICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "L", "articolo": "FRANGILUCE PER NEW-JERSEY",
+        "table_title": "BARRIERE METALLICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "M", "articolo": "STAFFA PER FRANGILUCE PER MONTAGGIO SU NEW-JERSEY",
+        "table_title": "BARRIERE METALLICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "/", "codice": null, "figura": "N", "articolo": "STAFFA PER FRANGILUCE PER AGGANCIO SU GUARD-RAILS",
+        "table_title": "BARRIERE METALLICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      }
+    ],
+    "page_note": "N.B.: PER ALTRE VERSIONI DI FRANGILUCE CONTATTARE IL NOSTRO UFFICIO COMMERCIALE. Tutti i prezzi della pagina sono 'CHIEDERE PREVENTIVO' (nessun importo stampato)."
+  },
+  {
+    "tag": "ACC",
+    "page": 12,
+    "page_label": "108",
+    "type": "listino",
+    "section": "BARRIERE MANUALI ED ELETTROMECCANICHE",
+    "table_title": "BARRIERE MANUALI ED ELETTROMECCANICHE",
+    "figures": [
+      { "figura": "A", "nome": "barriera manuale (non omologata) - particolare parte terminale paletto completo di spinotto predisposto per lucchetto (escluso)", "pos": 1 },
+      { "figura": "B", "nome": "barriera mod. 4000 - esempio di applicazione", "pos": 2 },
+      { "figura": "C", "nome": "barriera mod. 6000 con rastrelliera - esempio di applicazione", "pos": 3 }
+    ],
+    "rows": [
+      {
+        "wl": "*", "codice": null, "figura": "A",
+        "articolo": "BARRIERA MANUALE MAX 6 M - CON FASCE ROSSE RIF. CL. 1 - COMPLETA DI ACCESSORI",
+        "table_title": "BARRIERE MANUALI ED ELETTROMECCANICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 600.00 } ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "A1",
+        "articolo": "BARRA DI RICAMBIO IN ALLUMINIO - RIF. CL. 1 BIANCO-ROSSA", "note": "AL ML.",
+        "table_title": "BARRIERE MANUALI ED ELETTROMECCANICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 35.00 } ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "A2",
+        "articolo": "PEDUNCOLO DI RICAMBIO VERNICIATO ROSSO",
+        "table_title": "BARRIERE MANUALI ED ELETTROMECCANICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 20.00 } ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "A3",
+        "articolo": "PALETTO PER APPOGGIO BARRA PREDISPOSTO PER LUCCHETTO - VERNICIATO ROSSO",
+        "table_title": "BARRIERE MANUALI ED ELETTROMECCANICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 28.00 } ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "B",
+        "articolo": "BARRIERA MOD. 4000 LUNGHEZZA BARRA DA 1 A 4 M",
+        "table_title": "BARRIERE MANUALI ED ELETTROMECCANICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "C",
+        "articolo": "BARRIERA MOD. 6000 LUNGHEZZA BARRA DA 2 A 6 M",
+        "table_title": "BARRIERE MANUALI ED ELETTROMECCANICHE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      }
+    ],
+    "page_note": "Figura A: NON OMOLOGATA. Le misure indicate nello schema sono espresse in centimetri."
+  },
+  {
+    "tag": "ACC",
+    "page": 13,
+    "page_label": "109",
+    "type": "listino",
+    "section": "PRODOTTI PER FISSAGGIO BAND-IT / MISURATORE STRADALE",
+    "table_title": "PRODOTTI PER FISSAGGIO BAND-IT",
+    "figures": [
+      { "figura": "A", "nome": "rotolo nastro per fissaggio cartelli (acciaio inox aisi-301) e scatola graffe", "pos": 1 },
+      { "figura": "B", "nome": "utensile per band-it", "pos": 2 },
+      { "figura": "A", "nome": "misuratore stradale con manico pieghevole e comandi reset/stop", "pos": 3 }
+    ],
+    "rows": [
+      {
+        "wl": "*", "codice": "3600F71010202", "figura": "A", "articolo": "ROTOLO NASTRO DA 30,0 m CIRCA",
+        "larghezza_pollici": "1/4", "dimensione_mm": 6.3, "spessore_mm": 0.5, "pezzi": null, "cat": "202",
+        "qta_min_ord": 10, "table_title": "PRODOTTI PER FISSAGGIO BAND-IT",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "*", "codice": "3600F71010252", "figura": "A", "articolo": "SCATOLA GRAFFE",
+        "larghezza_pollici": "1/4", "dimensione_mm": null, "spessore_mm": null, "pezzi": 100, "cat": "252",
+        "qta_min_ord": 5, "table_title": "PRODOTTI PER FISSAGGIO BAND-IT",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": null, "nota_prezzo": "CHIEDERE PREVENTIVO" } ]
+      },
+      {
+        "wl": "*", "codice": "3600F71010203", "figura": "A", "articolo": "ROTOLO NASTRO DA 30,0 m CIRCA",
+        "larghezza_pollici": "3/8", "dimensione_mm": 9.5, "spessore_mm": 0.64, "pezzi": null, "cat": "203",
+        "qta_min_ord": 10, "table_title": "PRODOTTI PER FISSAGGIO BAND-IT",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 42.00 } ]
+      },
+      {
+        "wl": "*", "codice": "3600F71010253", "figura": "A", "articolo": "SCATOLA GRAFFE",
+        "larghezza_pollici": "3/8", "dimensione_mm": null, "spessore_mm": null, "pezzi": 100, "cat": "253",
+        "qta_min_ord": 5, "table_title": "PRODOTTI PER FISSAGGIO BAND-IT",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 24.00 } ]
+      },
+      {
+        "wl": "*", "codice": "3600F71010204", "figura": "A", "articolo": "ROTOLO NASTRO DA 30,0 m CIRCA",
+        "larghezza_pollici": "1/2", "dimensione_mm": 12.7, "spessore_mm": 0.76, "pezzi": null, "cat": "204",
+        "qta_min_ord": 10, "table_title": "PRODOTTI PER FISSAGGIO BAND-IT",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 58.00 } ]
+      },
+      {
+        "wl": "*", "codice": "3600F71010254", "figura": "A", "articolo": "SCATOLA GRAFFE",
+        "larghezza_pollici": "1/2", "dimensione_mm": null, "spessore_mm": null, "pezzi": 100, "cat": "254",
+        "qta_min_ord": 5, "table_title": "PRODOTTI PER FISSAGGIO BAND-IT",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 37.00 } ]
+      },
+      {
+        "wl": "*", "codice": "3600F71010205", "figura": "A", "articolo": "ROTOLO NASTRO DA 30,0 m CIRCA",
+        "larghezza_pollici": "5/8", "dimensione_mm": 15.8, "spessore_mm": 0.76, "pezzi": null, "cat": "205",
+        "qta_min_ord": 10, "table_title": "PRODOTTI PER FISSAGGIO BAND-IT",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 68.00 } ]
+      },
+      {
+        "wl": "*", "codice": "3600F71010255", "figura": "A", "articolo": "SCATOLA GRAFFE",
+        "larghezza_pollici": "5/8", "dimensione_mm": null, "spessore_mm": null, "pezzi": 100, "cat": "255",
+        "qta_min_ord": 5, "table_title": "PRODOTTI PER FISSAGGIO BAND-IT",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 40.00 } ]
+      },
+      {
+        "wl": "*", "codice": "3600F71010206", "figura": "A", "articolo": "ROTOLO NASTRO DA 30,0 m CIRCA",
+        "larghezza_pollici": "3/4", "dimensione_mm": 19.0, "spessore_mm": 0.76, "pezzi": null, "cat": "206",
+        "qta_min_ord": 10, "table_title": "PRODOTTI PER FISSAGGIO BAND-IT",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 76.00 } ]
+      },
+      {
+        "wl": "*", "codice": "3600F71010256", "figura": "A", "articolo": "SCATOLA GRAFFE",
+        "larghezza_pollici": "3/4", "dimensione_mm": null, "spessore_mm": null, "pezzi": 100, "cat": "256",
+        "qta_min_ord": 5, "table_title": "PRODOTTI PER FISSAGGIO BAND-IT",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 55.00 } ]
+      },
+      {
+        "wl": "*", "codice": "3600U71010001", "figura": "B", "articolo": "UTENSILE PER BAND-IT",
+        "qta_min_ord": 2, "table_title": "PRODOTTI PER FISSAGGIO BAND-IT",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 180.00 } ]
+      },
+      {
+        "wl": "*", "codice": "3600M47A10002", "figura": "A",
+        "articolo": "ART. 60464 - MISURATORE STRADALE CON CONTATORE VISIBILE DALL'ALTO DOTATO DI FRENO, COMANDI RESET E STOP POSIZIONATI IN ALTO - MANICO METALLICO PIEGHEVOLE SACCA PER IL TRASPORTO INCLUSA - MAX 10 KM = 9999,99 METRI - RUOTA Ø: 32 CM",
+        "qta_min_ord": 2, "table_title": "MISURATORE STRADALE",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 180.00 } ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10% (riportato sotto entrambe le tabelle)."
+  }
+]

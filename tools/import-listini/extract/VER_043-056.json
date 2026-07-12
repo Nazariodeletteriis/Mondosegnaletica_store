@@ -1,0 +1,1680 @@
+[
+  {
+    "tag": "VER",
+    "page": 43,
+    "page_label": "041",
+    "type": "listino",
+    "section": "SEGNALETICA VARIA",
+    "table_title": null,
+    "page_note": "N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO | LE FIGURE A E A1 POSSONO ESSERE REALIZZATE SIA IN D.G. GIALLO FLUO CHE IN D.G. GIALLO/VERDE FLUO",
+    "figures": [
+      { "figura": "A", "nome": "alt", "pos": 1 },
+      { "figura": "A1", "nome": "stop", "pos": 2 },
+      { "figura": "B", "nome": "area videosorvegliata D.Lgs. 30-06-2003, n. 196", "pos": 3 }
+    ],
+    "rows": [
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "figura": "A - A1",
+        "articolo": "TARGA",
+        "dimensione": "NORMALE",
+        "base_cm": 100,
+        "altezza_cm": 150,
+        "note": "N° RINF. NORM. CORS.: 3",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 240.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 295.00 }
+        ]
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "figura": "A - A1",
+        "articolo": "TARGA",
+        "dimensione": "GRANDE",
+        "base_cm": 135,
+        "altezza_cm": 200,
+        "note": "N° RINF. NORM. CORS.: 4 o 3",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 440.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 525.00 }
+        ]
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "figura": "B",
+        "articolo": "TARGA",
+        "dimensione": "NORMALE",
+        "base_cm": 90,
+        "altezza_cm": 135,
+        "note": "N° RINF. NORM. CORS.: 3 o 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 160.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 200.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 200.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 240.00 }
+        ]
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "figura": "B",
+        "articolo": "TARGA",
+        "dimensione": "GRANDE",
+        "base_cm": 135,
+        "altezza_cm": 200,
+        "note": "N° RINF. NORM. CORS.: 4 o 3",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 350.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 440.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 440.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 525.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "VER",
+    "page": 44,
+    "page_label": "042",
+    "type": "altro",
+    "section": "SEGNALETICA DI INDICAZIONE DELLE MODALITA' DI PAGAMENTO",
+    "table_title": "VARCHI TELEPASS - VIACARD - VARIE",
+    "page_note": "IMMAGINI A SOLO SCOPO ILLUSTRATIVO - PER DISPONIBILITA' E BOZZETTI PERSONALIZZATI CONTATTARE I NOSTRI UFFICI",
+    "figures": [
+      { "figura": null, "nome": "preavviso di \"alt stazione\" in avvicinamento alle stazioni a barriera o intermedie dotate di sistema \"telepass\" + pannello integrativo", "pos": 1 },
+      { "figura": null, "nome": "cartello da installare sulle pensiline di stazione delle porte bimodali \"cassa/telepass\"", "pos": 2 },
+      { "figura": null, "nome": "cartello da installare sulle pensiline di stazione delle porte bimodali \"con operatore/telepass\"", "pos": 3 },
+      { "figura": null, "nome": "cartello da adottare sui bumpers delle porte bimodali \"telepass/emissione biglietto\"", "pos": 4 },
+      { "figura": null, "nome": "cartello da installare sulle pensiline di stazione delle porte \"emissione biglietto/telepass\"", "pos": 5 },
+      { "figura": null, "nome": "cartello da installare sulle pensiline di stazione delle porte \"telepass\"", "pos": 6 },
+      { "figura": null, "nome": "cartello da adottare sui bumpers delle porte \"cassa\"", "pos": 7 },
+      { "figura": null, "nome": "cartello da installare sulle pensiline di stazione delle porte \"con operatore\"", "pos": 8 }
+    ],
+    "rows": []
+  },
+  {
+    "tag": "VER",
+    "page": 45,
+    "page_label": "043",
+    "type": "listino",
+    "section": "SEGNALI COMPLEMENTARI",
+    "table_title": null,
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%",
+    "figures": [
+      { "figura": "II 464", "nome": "senza paletto", "pos": 1 },
+      { "figura": null, "nome": "20x50 / 20x80 all. 15/10 scatolato rivettato", "pos": 2 },
+      { "figura": null, "nome": "all. 25/10 piano", "pos": 3 },
+      { "figura": null, "nome": "all. 25/10 piano", "pos": 4 },
+      { "figura": "A", "nome": "in canna quadra da 25 completo di flangia per fissaggio al cordolo in cemento", "pos": 5 },
+      { "figura": "B", "nome": null, "pos": 6 },
+      { "figura": "C", "nome": null, "pos": 7 },
+      { "figura": "D", "nome": null, "pos": 8 },
+      { "figura": "E", "nome": null, "pos": 9 }
+    ],
+    "rows": [
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": null,
+        "articolo": "DELINEATORE PER GALLERIA ALLUMINIO PIANO 25/10 20x80 CM",
+        "dimensione": "20x80 CM",
+        "base_cm": 20,
+        "altezza_cm": 80,
+        "qta_min_ord": 50,
+        "note": null,
+        "prezzi": [
+          { "materiale": "SEMILAV.", "classe": "GREZZO", "euro": 14.00 },
+          { "materiale": "MONOFACCIALE", "classe": "CL 1", "euro": 18.50 },
+          { "materiale": "MONOFACCIALE", "classe": "CL 2", "euro": 22.00 },
+          { "materiale": "MONOFACCIALE", "classe": "CL 2 S.", "euro": 23.00 },
+          { "materiale": "BIFACCIALE", "classe": "CL 1", "euro": 22.00 },
+          { "materiale": "BIFACCIALE", "classe": "CL 2", "euro": 30.00 },
+          { "materiale": "BIFACCIALE", "classe": "CL 2 S.", "euro": 36.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": null,
+        "articolo": "DELINEATORE PER GALLERIA ALLUMINIO PIANO 25/10 20x50 CM",
+        "dimensione": "20x50 CM",
+        "base_cm": 20,
+        "altezza_cm": 50,
+        "qta_min_ord": 50,
+        "note": null,
+        "prezzi": [
+          { "materiale": "SEMILAV.", "classe": "GREZZO", "euro": 10.50 },
+          { "materiale": "MONOFACCIALE", "classe": "CL 1", "euro": 13.50 },
+          { "materiale": "MONOFACCIALE", "classe": "CL 2", "euro": 15.00 },
+          { "materiale": "MONOFACCIALE", "classe": "CL 2 S.", "euro": 17.00 },
+          { "materiale": "BIFACCIALE", "classe": "CL 1", "euro": 16.00 },
+          { "materiale": "BIFACCIALE", "classe": "CL 2", "euro": 20.00 },
+          { "materiale": "BIFACCIALE", "classe": "CL 2 S.", "euro": 25.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": null,
+        "articolo": "DELINEATORE PER GALLERIA ALLUMINIO 15/10 - 20x80 CM RIVETTATO PREDISPOSTO PER PALETTO CANNA QUADRA",
+        "dimensione": "20x80 CM",
+        "base_cm": 20,
+        "altezza_cm": 80,
+        "qta_min_ord": 50,
+        "note": null,
+        "prezzi": [
+          { "materiale": "SEMILAV.", "classe": "GREZZO", "euro": 22.00 },
+          { "materiale": "MONOFACCIALE", "classe": "CL 1", "euro": 27.00 },
+          { "materiale": "MONOFACCIALE", "classe": "CL 2", "euro": 29.00 },
+          { "materiale": "MONOFACCIALE", "classe": "CL 2 S.", "euro": 31.00 },
+          { "materiale": "BIFACCIALE", "classe": "CL 1", "euro": 30.00 },
+          { "materiale": "BIFACCIALE", "classe": "CL 2", "euro": 34.00 },
+          { "materiale": "BIFACCIALE", "classe": "CL 2 S.", "euro": 41.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": null,
+        "articolo": "DELINEATORE PER GALLERIA ALLUMINIO 15/10 - 20x50 CM RIVETTATO PREDISPOSTO PER PALETTO CANNA QUADRA",
+        "dimensione": "20x50 CM",
+        "base_cm": 20,
+        "altezza_cm": 50,
+        "qta_min_ord": 50,
+        "note": null,
+        "prezzi": [
+          { "materiale": "SEMILAV.", "classe": "GREZZO", "euro": 18.00 },
+          { "materiale": "MONOFACCIALE", "classe": "CL 1", "euro": 22.00 },
+          { "materiale": "MONOFACCIALE", "classe": "CL 2", "euro": 24.00 },
+          { "materiale": "MONOFACCIALE", "classe": "CL 2 S.", "euro": 25.00 },
+          { "materiale": "BIFACCIALE", "classe": "CL 1", "euro": 24.00 },
+          { "materiale": "BIFACCIALE", "classe": "CL 2", "euro": 27.00 },
+          { "materiale": "BIFACCIALE", "classe": "CL 2 S.", "euro": 32.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": "A",
+        "articolo": "PALETTO PER TARGA 20x80 CON FLANGIA DA 15x15",
+        "dimensione": "H 100 CM",
+        "base_cm": null,
+        "altezza_cm": 100,
+        "qta_min_ord": 50,
+        "note": "ZINCATO",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 15.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": "B",
+        "articolo": "PALETTO PER TARGA 20x80 DA MURARE",
+        "dimensione": "H 125 CM",
+        "base_cm": null,
+        "altezza_cm": 125,
+        "qta_min_ord": 50,
+        "note": "ZINCATO",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 9.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": "C",
+        "articolo": "PALETTO PER TARGA 20x50 DA MURARE",
+        "dimensione": "H 100 CM",
+        "base_cm": null,
+        "altezza_cm": 100,
+        "qta_min_ord": 50,
+        "note": "ZINCATO",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 7.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": "D",
+        "articolo": "PALETTO PER TARGA 20x50 CON ATTACCO PER GUARD-RAILS - CON BULLONERIA",
+        "dimensione": "H 110 CM",
+        "base_cm": null,
+        "altezza_cm": 110,
+        "qta_min_ord": 50,
+        "note": "ZINCATO",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 15.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": "E",
+        "articolo": "PALETTO PER TARGA 20x80 CON ATTACCO PER GUARD-RAILS - CON BULLONERIA",
+        "dimensione": "H 140 CM",
+        "base_cm": null,
+        "altezza_cm": 140,
+        "qta_min_ord": 50,
+        "note": "ZINCATO",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 18.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "VER",
+    "page": 46,
+    "page_label": "044",
+    "type": "listino",
+    "section": "SEGNALI COMPLEMENTARI",
+    "table_title": null,
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%",
+    "figures": [
+      { "figura": "A", "nome": "figura II 463 (sinistro / destro)", "pos": 1 },
+      { "figura": "B", "nome": "base di ancoraggio del delineatore", "pos": 2 },
+      { "figura": "C", "nome": "figura II 465", "pos": 3 },
+      { "figura": "D", "nome": null, "pos": 4 },
+      { "figura": "E", "nome": null, "pos": 5 },
+      { "figura": "F", "nome": null, "pos": 6 }
+    ],
+    "rows": [
+      {
+        "wl": null,
+        "codice": null,
+        "figura": "A",
+        "articolo": "DELINEATORE NORMALE DI MARGINE IN PVC EUROPEO + SPINOTTO CON GEMMA BIFACCIALE BIANCO E ROSSA",
+        "dimensione": "H 135 CM",
+        "base_cm": null,
+        "altezza_cm": 135,
+        "qta_min_ord": 100,
+        "note": "OMOLOGATO CE",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 10.00 }
+        ]
+      },
+      {
+        "wl": null,
+        "codice": null,
+        "figura": "A",
+        "articolo": "DELINEATORE NORMALE DI MARGINE IN PVC EUROPEO + SPINOTTO CON GEMMA MONOFACCIALE VERTICALE O 2 CIRCOLARI GIALLE",
+        "dimensione": "H 135 CM",
+        "base_cm": null,
+        "altezza_cm": 135,
+        "qta_min_ord": 50,
+        "note": "OMOLOGATO CE",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 11.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": "B",
+        "articolo": "BASE DI ANCORAGGIO DELINEATORE IN PLASTICA",
+        "dimensione": "30 x 25 x 12 CM",
+        "base_cm": 30,
+        "altezza_cm": 25,
+        "qta_min_ord": 20,
+        "note": null,
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 5.50 }
+        ]
+      },
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": "C",
+        "articolo": "DELINEATORE PER STRADE DI MONTAGNA CON FASCE NERE E GIALLE 1ª FASCIA RIFRANGENTE GIALLA - 3ª FASCIA CAL - 5ª FASCIA CAL",
+        "dimensione": "H 330 CM Ø 48",
+        "base_cm": null,
+        "altezza_cm": 330,
+        "qta_min_ord": 30,
+        "note": "SPESSORE 2,0 MM",
+        "prezzi": [
+          { "materiale": null, "classe": "CL 1", "euro": 35.00 },
+          { "materiale": null, "classe": "CL 2", "euro": 36.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": "C",
+        "articolo": "DELINEATORE PER STRADE DI MONTAGNA CON FASCE NERE E GIALLE 1ª FASCIA - 3ª FASCIA - 5ª FASCIA RIFRANGENTE GIALLA",
+        "dimensione": "H 330 CM Ø 48",
+        "base_cm": null,
+        "altezza_cm": 330,
+        "qta_min_ord": 30,
+        "note": "SPESSORE 2,0 MM",
+        "prezzi": [
+          { "materiale": null, "classe": "CL 1", "euro": 37.00 },
+          { "materiale": null, "classe": "CL 2", "euro": 40.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": "C",
+        "articolo": "DELINEATORE PER STRADE DI MONTAGNA CON FASCE NERE E GIALLE 1ª FASCIA RIFRANGENTE GIALLA - 3ª FASCIA CAL - 5ª FASCIA CAL",
+        "dimensione": "H 330 CM Ø 60",
+        "base_cm": null,
+        "altezza_cm": 330,
+        "qta_min_ord": 30,
+        "note": "SPESSORE 2,0 MM",
+        "prezzi": [
+          { "materiale": null, "classe": "CL 1", "euro": 39.00 },
+          { "materiale": null, "classe": "CL 2", "euro": 41.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": "C",
+        "articolo": "DELINEATORE PER STRADE DI MONTAGNA CON FASCE NERE E GIALLE 1ª FASCIA - 3ª FASCIA - 5ª FASCIA RIFRANGENTE GIALLA",
+        "dimensione": "H 330 CM Ø 60",
+        "base_cm": null,
+        "altezza_cm": 330,
+        "qta_min_ord": 30,
+        "note": "SPESSORE 2,0 MM",
+        "prezzi": [
+          { "materiale": null, "classe": "CL 1", "euro": 42.00 },
+          { "materiale": null, "classe": "CL 2", "euro": 46.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": "D",
+        "articolo": "LDS SISTEMA DI DELINEAZIONE LINEARE SISTEMA RETRORIFLETTENTE AD ALTISSIMA RESA - COLORE: GIALLO FLUORO",
+        "dimensione": "10 x 86,3 CM",
+        "base_cm": 10,
+        "altezza_cm": null,
+        "qta_min_ord": 50,
+        "note": null,
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 30.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "codice": null,
+        "figura": "D",
+        "articolo": "LDS SISTEMA DI DELINEAZIONE LINEARE SISTEMA RETRORIFLETTENTE AD ALTISSIMA RESA - COLORE: GIALLO FLUORO",
+        "dimensione": "15 x 86,3 CM",
+        "base_cm": 15,
+        "altezza_cm": null,
+        "qta_min_ord": 50,
+        "note": null,
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 36.00 }
+        ]
+      },
+      {
+        "wl": null,
+        "codice": null,
+        "figura": "E",
+        "articolo": "DELINEATORE NORMALE DI MARGINE IN PVC EUROPEO + SPINOTTO CON GEMMA BIFACCIALE BIANCO E ROSSA CON CATARIFRANGENTE PER SELVAGGINA COLORE ROSSO",
+        "dimensione": "H 135 CM",
+        "base_cm": null,
+        "altezza_cm": 135,
+        "qta_min_ord": 50,
+        "note": "OMOLOGATO",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 29.00 }
+        ]
+      },
+      {
+        "wl": null,
+        "codice": null,
+        "figura": "F",
+        "articolo": "CATADIOTTRO ANTISELVAGGINA ROSSO/ROSSO PER TERRENO IN SALITA / DISCESA O PIANEGGIANTE",
+        "dimensione": "186 x 80 H 58 CM",
+        "base_cm": null,
+        "altezza_cm": null,
+        "qta_min_ord": 50,
+        "note": "OMOLOGATO",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 17.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "VER",
+    "page": 47,
+    "page_label": "045",
+    "type": "listino",
+    "section": "DELINEATORI DI CURVA ED OSTACOLO",
+    "table_title": null,
+    "page_note": "N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO | N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%",
+    "figures": [
+      { "figura": "II 466 ART. 174", "nome": "delineatori di curva stretta o di tornante: segnala la presenza di una curva stretta permanente, ovvero di un tornante, e indica la direzione da seguire", "pos": 1 },
+      { "figura": "II 467 ART. 174", "nome": "delineatore per intersezione a \"T\": è installato di fronte al ramo della intersezione che non prosegue ed indica la necessità di svoltare a destra o a sinistra", "pos": 2 },
+      { "figura": "II 468 ART. 174", "nome": "delineatori modulari di curva: sono installati in serie di più elementi lungo il lato esterno di curve stradali ed autostradali per migliorare la visibilità dell'andamento della strada a distanza", "pos": 3 },
+      { "figura": "468 GF", "nome": "giallo fluororifrangente DG", "pos": 4 },
+      { "figura": "A", "nome": "esempio di montaggio", "pos": 5 },
+      { "figura": "466", "nome": "targa flessibile - figura 466", "pos": 6 },
+      { "figura": "467", "nome": "targa flessibile - figura 467", "pos": 7 }
+    ],
+    "rows": [
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "466 / 467",
+        "articolo": "466 467", "dimensione": "NORMALE", "base_cm": 240, "altezza_cm": 60,
+        "note": "FONDO NERO: VERNIC. - N° RINF. NORM. CORS.: 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 70.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 92.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 106.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 140.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 160.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 177.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "466 / 467",
+        "articolo": "466 467", "dimensione": "GRANDE", "base_cm": 360, "altezza_cm": 90,
+        "note": "FONDO NERO: VERNIC. - N° RINF. NORM. CORS.: 3 o 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 191.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 240.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 283.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 318.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 368.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 410.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "466 / 467",
+        "articolo": "466 467", "dimensione": "NORMALE", "base_cm": 240, "altezza_cm": 60,
+        "note": "FONDO NERO: CAL - N° RINF. NORM. CORS.: 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 88.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 108.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 125.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 156.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 176.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 194.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "466 / 467",
+        "articolo": "466 467", "dimensione": "GRANDE", "base_cm": 360, "altezza_cm": 90,
+        "note": "FONDO NERO: CAL - N° RINF. NORM. CORS.: 3 o 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 235.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 285.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 325.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 360.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 410.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 450.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "468",
+        "articolo": "468", "dimensione": "NORMALE", "base_cm": 60, "altezza_cm": 60,
+        "note": "FONDO NERO: VERNIC. - N° ATT.: 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 19.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 23.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 27.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 32.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 39.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "468",
+        "articolo": "468", "dimensione": "NORMALE", "base_cm": 60, "altezza_cm": 60,
+        "note": "FONDO NERO: VERNIC. - N° RINF. NORM. CORS.: 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 22.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 27.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 39.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 43.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "468",
+        "articolo": "468", "dimensione": "NORMALE", "base_cm": 70, "altezza_cm": 70,
+        "note": "FONDO NERO: VERNIC. - N° RINF. NORM. CORS.: 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 27.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 37.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 41.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 47.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 51.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 55.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "468",
+        "articolo": "468", "dimensione": "GRANDE", "base_cm": 90, "altezza_cm": 90,
+        "note": "FONDO NERO: VERNIC. - N° RINF. NORM. CORS.: 3 o 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 32.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 52.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 62.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 70.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 80.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 88.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "468 GF",
+        "articolo": "468 GF", "dimensione": "NORMALE", "base_cm": 60, "altezza_cm": 60,
+        "note": "FONDO NERO: VERNIC. - N° ATT.: 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 34.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 48.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "468 GF",
+        "articolo": "468 GF", "dimensione": "NORMALE", "base_cm": 60, "altezza_cm": 60,
+        "note": "FONDO NERO: VERNIC. - N° RINF. NORM. CORS.: 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 37.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 53.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "468 GF",
+        "articolo": "468 GF", "dimensione": "NORMALE", "base_cm": 70, "altezza_cm": 70,
+        "note": "FONDO NERO: VERNIC. - N° RINF. NORM. CORS.: 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 47.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 65.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "468 GF",
+        "articolo": "468 GF", "dimensione": "GRANDE", "base_cm": 90, "altezza_cm": 90,
+        "note": "FONDO NERO: VERNIC. - N° RINF. NORM. CORS.: 3 o 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 88.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 108.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "468",
+        "articolo": "468", "dimensione": "NORMALE", "base_cm": 60, "altezza_cm": 60,
+        "note": "FONDO NERO: CAL O PEZZO UNICO - N° ATT.: 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 21.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 26.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 29.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 34.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 40.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 44.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "468",
+        "articolo": "468", "dimensione": "NORMALE", "base_cm": 60, "altezza_cm": 60,
+        "note": "FONDO NERO: CAL O PEZZO UNICO - N° RINF. NORM. CORS.: 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 25.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 30.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 33.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 38.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 44.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 48.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "468",
+        "articolo": "468", "dimensione": "NORMALE", "base_cm": 70, "altezza_cm": 70,
+        "note": "FONDO NERO: CAL O PEZZO UNICO - N° RINF. NORM. CORS.: 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 34.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 41.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 45.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 52.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 59.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 65.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "468",
+        "articolo": "468", "dimensione": "GRANDE", "base_cm": 90, "altezza_cm": 90,
+        "note": "FONDO NERO: CAL O PEZZO UNICO - N° RINF. NORM. CORS.: 3 o 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 53.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 63.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 73.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 80.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 90.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 98.00 }
+        ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "A",
+        "articolo": "DISPOSITIVO PER PANNELLI BIFACCIALI AD ANGOLO FIG. 468 - KIT DI N° 2 PEZZI ZINCATI (STAFFE A PONTE ESCLUSE)",
+        "dimensione": null, "base_cm": null, "altezza_cm": null, "qta_min_ord": 50,
+        "note": null, "table_title": null,
+        "prezzi": [
+          { "materiale": "CON BULLONERIA", "classe": null, "euro": 11.50 },
+          { "materiale": "SENZA BULLONERIA", "classe": null, "euro": 11.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "466 / 467",
+        "articolo": "466 467", "dimensione": "FLESSIBILE", "base_cm": 150, "altezza_cm": 30,
+        "qta_min_ord": 10,
+        "note": "FONDO NERO: CAL - N° ATT.: 3",
+        "table_title": "TARGHE FLESSIBILI - ALLUMINIO PIANO 25/10 - CON ATTACCHI RETROCARTELLI NORMALI",
+        "prezzi": [
+          { "materiale": "LASTRA GREZZA", "classe": null, "euro": 27.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 50.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 58.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 66.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "466 / 467",
+        "articolo": "466 467", "dimensione": "FLESSIBILE", "base_cm": 200, "altezza_cm": 30,
+        "qta_min_ord": 10,
+        "note": "FONDO NERO: CAL - N° ATT.: 4",
+        "table_title": "TARGHE FLESSIBILI - ALLUMINIO PIANO 25/10 - CON ATTACCHI RETROCARTELLI NORMALI",
+        "prezzi": [
+          { "materiale": "LASTRA GREZZA", "classe": null, "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 62.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 72.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 80.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "466 / 467",
+        "articolo": "466 467", "dimensione": "FLESSIBILE", "base_cm": 250, "altezza_cm": 30,
+        "qta_min_ord": 10,
+        "note": "FONDO NERO: CAL - N° ATT.: 5",
+        "table_title": "TARGHE FLESSIBILI - ALLUMINIO PIANO 25/10 - CON ATTACCHI RETROCARTELLI NORMALI",
+        "prezzi": [
+          { "materiale": "LASTRA GREZZA", "classe": null, "euro": 44.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 78.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 90.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 100.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "VER",
+    "page": 48,
+    "page_label": "046",
+    "type": "listino",
+    "section": "DELINEATORI DI CURVA ED OSTACOLO",
+    "table_title": null,
+    "page_note": "N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO | N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%",
+    "figures": [
+      { "figura": "466", "nome": "targa flessibile con bretelle ripiegabili - figura 466", "pos": 1 },
+      { "figura": "467", "nome": "targa flessibile con bretelle ripiegabili - figura 467", "pos": 2 },
+      { "figura": "II 469 ART. 178", "nome": "delineatori di accesso (dimensioni in centimetri): individuano i lati degli accessi stradali secondari non altrimenti presegnalati, e quelli che, per loro ubicazione risultano difficilmente individuabili", "pos": 3 },
+      { "figura": "471/A", "nome": null, "pos": 4 },
+      { "figura": "471/B", "nome": null, "pos": 5 },
+      { "figura": "471/C", "nome": null, "pos": 6 },
+      { "figura": "471/D", "nome": null, "pos": 7 },
+      { "figura": "II 472 ART. 177", "nome": "delineatore speciale di ostacolo: segnala cuspidi e testate di isole di traffico e di spartitraffico poste entro la carreggiata. è sempre accoppiato con i segnali indicanti i passaggi obbligatori o consentiti", "pos": 8 }
+    ],
+    "rows": [
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "466 / 467",
+        "articolo": "466 467", "dimensione": "FLESSIBILE", "base_cm": 150, "altezza_cm": 30,
+        "qta_min_ord": 10, "note": "FONDO NERO: CAL - N° BRET.: 6",
+        "table_title": "TARGHE FLESSIBILI - ALLUMINIO PIANO 25/10 - CON BRETELLE RIPIEGABILI",
+        "prezzi": [
+          { "materiale": "LASTRA GREZZA", "classe": null, "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 53.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 61.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 69.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "466 / 467",
+        "articolo": "466 467", "dimensione": "FLESSIBILE", "base_cm": 200, "altezza_cm": 30,
+        "qta_min_ord": 10, "note": "FONDO NERO: CAL - N° BRET.: 8",
+        "table_title": "TARGHE FLESSIBILI - ALLUMINIO PIANO 25/10 - CON BRETELLE RIPIEGABILI",
+        "prezzi": [
+          { "materiale": "LASTRA GREZZA", "classe": null, "euro": 40.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 67.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 77.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 85.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "466 / 467",
+        "articolo": "466 467", "dimensione": "FLESSIBILE", "base_cm": 250, "altezza_cm": 30,
+        "qta_min_ord": 10, "note": "FONDO NERO: CAL - N° BRET.: 8",
+        "table_title": "TARGHE FLESSIBILI - ALLUMINIO PIANO 25/10 - CON BRETELLE RIPIEGABILI",
+        "prezzi": [
+          { "materiale": "LASTRA GREZZA", "classe": null, "euro": 50.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 84.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 96.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 106.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "466 / 467",
+        "articolo": "466 467", "dimensione": "FLESSIBILE", "base_cm": 150, "altezza_cm": 40,
+        "qta_min_ord": 10, "note": "FONDO NERO: CAL - N° BRET.: 14",
+        "table_title": "TARGHE FLESSIBILI - ALLUMINIO PIANO 25/10 - CON BRETELLE RIPIEGABILI",
+        "prezzi": [
+          { "materiale": "LASTRA GREZZA", "classe": null, "euro": 52.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 86.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 98.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 108.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "466 / 467",
+        "articolo": "466 467", "dimensione": "FLESSIBILE", "base_cm": 240, "altezza_cm": 60,
+        "qta_min_ord": 10, "note": "FONDO NERO: CAL - N° BRET.: 8",
+        "table_title": "TARGHE FLESSIBILI - ALLUMINIO PIANO 25/10 - CON BRETELLE RIPIEGABILI",
+        "prezzi": [
+          { "materiale": "LASTRA GREZZA", "classe": null, "euro": 95.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 128.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 148.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 160.00 }
+        ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "469",
+        "articolo": "DELINEATORE DI ACCESSO DA MM 100 X 30 X CM 120 - BIANCO E ROSSO - CL. 1",
+        "dimensione": null, "base_cm": null, "altezza_cm": null, "note": null, "table_title": null,
+        "prezzi": [
+          { "materiale": null, "classe": "CL 1", "euro": 35.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "471/A - 471/B",
+        "articolo": "471/A 471/B", "dimensione": "PICCOLO", "base_cm": 20, "altezza_cm": 100,
+        "note": "FONDO NERO: VERNIC. - N° ATT.: 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 20.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 24.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 28.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 28.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 34.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "471/A - 471/B",
+        "articolo": "471/A 471/B", "dimensione": "NORMALE", "base_cm": 30, "altezza_cm": 100,
+        "note": "FONDO NERO: VERNIC. - N° ATT.: 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 25.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 30.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 37.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 40.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 45.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "471/C - 471/D",
+        "articolo": "471/C 471/D", "dimensione": "PICCOLO", "base_cm": 20, "altezza_cm": 80,
+        "note": "FONDO NERO: VERNIC. - N° ATT.: 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 15.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 18.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 21.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 21.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 24.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 27.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "471/C - 471/D",
+        "articolo": "471/C 471/D", "dimensione": "NORMALE", "base_cm": 27, "altezza_cm": 80,
+        "note": "FONDO NERO: VERNIC. - N° ATT.: 2", "table_title": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 17.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 22.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 26.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 26.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 34.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "472",
+        "articolo": "DELINEATORE SPECIALE DI OSTACOLO 44X50 - COMPLETO - ALLUMINIO 25/10",
+        "dimensione": "PER DISCO Ø 60", "base_cm": 44, "altezza_cm": 50, "note": null, "table_title": null,
+        "prezzi": [
+          { "materiale": "ALLUMINIO 25/10", "classe": "GREZZO", "euro": 19.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 28.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 36.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 41.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "472",
+        "articolo": "DELINEATORE SPECIALE DI OSTACOLO 44X50 - COMPLETO - ALLUMINIO 10/10",
+        "dimensione": "PER DISCO Ø 60", "base_cm": 44, "altezza_cm": 50, "note": null, "table_title": null,
+        "prezzi": [
+          { "materiale": "ALLUMINIO 10/10", "classe": "GREZZO", "euro": 14.00 },
+          { "materiale": "ALLUMINIO 10/10", "classe": "CL 1", "euro": 24.00 },
+          { "materiale": "ALLUMINIO 10/10", "classe": "CL 2", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 10/10", "classe": "CL 2 S.", "euro": 36.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "472",
+        "articolo": "DELINEATORE SPECIALE DI OSTACOLO 60X75 - COMPLETO - ALLUMINIO 25/10",
+        "dimensione": "PER DISCO Ø 90", "base_cm": 60, "altezza_cm": 75, "note": null, "table_title": null,
+        "prezzi": [
+          { "materiale": "ALLUMINIO 25/10", "classe": "GREZZO", "euro": 31.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 41.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 51.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 61.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "472",
+        "articolo": "DELINEATORE SPECIALE DI OSTACOLO 60X75 - COMPLETO - ALLUMINIO 10/10",
+        "dimensione": "PER DISCO Ø 90", "base_cm": 60, "altezza_cm": 75, "note": null, "table_title": null,
+        "prezzi": [
+          { "materiale": "ALLUMINIO 10/10", "classe": "GREZZO", "euro": 20.50 },
+          { "materiale": "ALLUMINIO 10/10", "classe": "CL 1", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 10/10", "classe": "CL 2", "euro": 41.00 },
+          { "materiale": "ALLUMINIO 10/10", "classe": "CL 2 S.", "euro": 51.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "VER",
+    "page": 49,
+    "page_label": "047",
+    "type": "listino",
+    "section": "SEGNALETICA FERROVIARIA",
+    "table_title": null,
+    "page_note": "N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO",
+    "figures": [
+      { "figura": "A", "nome": "C - targa inizio cantiere", "pos": 1 },
+      { "figura": "B", "nome": "C barrata - targa fine cantiere", "pos": 2 },
+      { "figura": "C", "nome": "F - targa fischio protezione squadre di lavoro", "pos": 3 },
+      { "figura": "D", "nome": "S - targa per protezione squadre di lavoro", "pos": 4 },
+      { "figura": "I", "nome": "croce di s. andrea doppia su tabella", "pos": 5 },
+      { "figura": "Q", "nome": "paletto di sostegno", "pos": 6 },
+      { "figura": "E", "nome": "Z - zona ricovero", "pos": 7 },
+      { "figura": "F", "nome": "D - targa individuazione binario dispari", "pos": 8 },
+      { "figura": "G", "nome": "P - targa individuazione binario pari", "pos": 9 },
+      { "figura": "H", "nome": "PL - vela triangolare di attenzione", "pos": 10 },
+      { "figura": "L", "nome": "croce di s. andrea su tabella", "pos": 11 },
+      { "figura": "M", "nome": "area ferroviaria - vietato l'accesso alle persone non autorizzate", "pos": 12 },
+      { "figura": "N", "nome": "railway area - no entry to unathorised persons", "pos": 13 },
+      { "figura": "O", "nome": "denominazione linea + progressiva chilometrica", "pos": 14 },
+      { "figura": "P", "nome": "targa passaggio a livello + progressiva chilometrica", "pos": 15 }
+    ],
+    "rows": [
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "A",
+        "articolo": "TARGA INIZIO CANTIERE", "dimensione": "45x60", "base_cm": 45, "altezza_cm": 60,
+        "note": "N° ATT.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 20.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 25.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 40.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "B",
+        "articolo": "TARGA FINE CANTIERE", "dimensione": "45x60", "base_cm": 45, "altezza_cm": 60,
+        "note": "N° ATT.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 20.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 25.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 40.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "C",
+        "articolo": "TARGA FISCHIO PROTEZIONE SQUADRE DI LAVORO", "dimensione": "45x60", "base_cm": 45, "altezza_cm": 60,
+        "note": "N° ATT.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 20.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 25.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 40.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "D",
+        "articolo": "TARGA PER PROTEZIONE SQUADRE DI LAVORO", "dimensione": "45x60", "base_cm": 45, "altezza_cm": 60,
+        "note": "N° ATT.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 20.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 25.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 40.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "E",
+        "articolo": "TARGA ZONA DI RICOVERO", "dimensione": "45x60", "base_cm": 45, "altezza_cm": 60,
+        "note": "N° ATT.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 20.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 25.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 40.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "F",
+        "articolo": "TARGA INDIVIDUAZIONE BINARIO DISPARI", "dimensione": "45x60", "base_cm": 45, "altezza_cm": 60,
+        "note": "N° ATT.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 20.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 25.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 40.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "G",
+        "articolo": "TARGA INDIVIDUAZIONE BINARIO PARI", "dimensione": "45x60", "base_cm": 45, "altezza_cm": 60,
+        "note": "N° ATT.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 20.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 25.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 40.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "7", "codice": null, "figura": "H",
+        "articolo": "VELA TRIANGOLARE DI ATTENZIONE", "dimensione": "LATO 90", "base_cm": null, "altezza_cm": null,
+        "note": "N° ATT.: 2",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 33.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 40.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 47.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "I",
+        "articolo": "CROCE S. ANDREA DOPPIA SU TABELLA", "dimensione": "95x67", "base_cm": 95, "altezza_cm": 67,
+        "note": "N° RINF. NORM. CORS.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 55.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 68.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 82.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 87.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 100.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 108.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "L",
+        "articolo": "CROCE S. ANDREA SU TABELLA", "dimensione": "95x51", "base_cm": 95, "altezza_cm": 51,
+        "note": "N° RINF. NORM. CORS.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 45.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 56.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 68.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 74.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 84.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 90.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "M",
+        "articolo": "AREA FERROVIARIA VIETATO L'ACCESSO (ITALIANO)", "dimensione": "40x60", "base_cm": 40, "altezza_cm": 60,
+        "note": "N° ATT.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 20.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 24.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 27.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 28.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 36.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "N",
+        "articolo": "AREA FERROVIARIA VIETATO L'ACCESSO (INGLESE)", "dimensione": "40x60", "base_cm": 40, "altezza_cm": 60,
+        "note": "N° ATT.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 20.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 24.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 27.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 28.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 36.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "O",
+        "articolo": "DENOMINAZIONE LINEA + PROGRESSIVA CHILOMETRICA", "dimensione": "40x60", "base_cm": 40, "altezza_cm": 60,
+        "note": "N° ATT.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 22.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 26.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 29.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 33.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 38.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "P",
+        "articolo": "TARGA PASSAGGIO A LIVELLO + PROGRESSIVA CHILOMETRICA", "dimensione": "40x60", "base_cm": 40, "altezza_cm": 60,
+        "note": "N° ATT.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 22.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 26.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 29.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 33.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 38.00 }
+        ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": "Q",
+        "articolo": "PALETTO DI SOSTEGNO IN FERRO A T DA 40 MM H M 2 - VERNICIATO GRIGIO NEBBIA PER TARGHE: A-B-C-D-E-F-G",
+        "dimensione": null, "base_cm": null, "altezza_cm": null, "note": null,
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 31.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "VER",
+    "page": 50,
+    "page_label": "048",
+    "type": "listino",
+    "section": "SEGNALETICA FERROVIARIA",
+    "table_title": null,
+    "page_note": "N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO",
+    "figures": [
+      { "figura": "A", "nome": "tavola di orientamento distanz. 2^ categoria", "pos": 1 },
+      { "figura": "B", "nome": "tavola di orientamento distanz. di avviso", "pos": 2 },
+      { "figura": "C", "nome": "tavola di orientamento distanz. 1^ categoria", "pos": 3 },
+      { "figura": "D", "nome": "adesivo per barriere passaggio a livello", "pos": 4 },
+      { "figura": "E", "nome": "tavola di orientamento per segnale p.l.", "pos": 5 },
+      { "figura": "F", "nome": "palo tubolare verniciato grigio nebbia + fasce nere e bianche", "pos": 6 },
+      { "figura": "G", "nome": "barriera f.s. bifacciale con piedi pesanti + disco (fronte bianco-rosso / retro bianco-nero)", "pos": 7 },
+      { "figura": "H", "nome": "vietato attraversare i binari", "pos": 8 },
+      { "figura": "I", "nome": "do not cross the railway lines", "pos": 9 }
+    ],
+    "rows": [
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "A",
+        "articolo": "TAVOLA DI ORIENTAMENTO DISTANZ. 2^ CATEGORIA", "dimensione": "29,5x230",
+        "base_cm": 29.5, "altezza_cm": 230, "note": "N° ATT.: 3",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 57.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 85.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 105.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 85.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 112.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 140.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "B",
+        "articolo": "TAVOLA DI ORIENTAMENTO DISTANZ. DI AVVISO", "dimensione": "29,5x230",
+        "base_cm": 29.5, "altezza_cm": 230, "note": "N° ATT.: 3",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 57.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 85.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 105.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 85.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 112.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 140.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "B",
+        "articolo": "TAVOLA DI ORIENTAMENTO DISTANZ. DI AVVISO GALLERIA", "dimensione": "20x140",
+        "base_cm": 20, "altezza_cm": 140, "note": "N° ATT.: 3",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 25.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 35.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 42.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 45.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 56.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "C",
+        "articolo": "TAVOLA DI ORIENTAMENTO DISTANZ. 1^ CATEGORIA", "dimensione": "29,5x230",
+        "base_cm": 29.5, "altezza_cm": 230, "note": "N° ATT.: 3",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 57.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 85.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 105.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 85.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 112.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 140.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "C",
+        "articolo": "TAVOLA DI ORIENTAMENTO DISTANZ. 1^ CATEGORIA PER GALLERIA", "dimensione": "20x140",
+        "base_cm": 20, "altezza_cm": 140, "note": "N° ATT.: 3",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 25.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 35.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 42.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 45.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 56.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "*", "codice": null, "figura": "D",
+        "articolo": "ADESIVO PER BARRIERE PASSAGGIO A LIVELLO", "dimensione": "100x15",
+        "base_cm": 100, "altezza_cm": 15, "note": "N° ATT.: /",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 7.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 10.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 14.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "E",
+        "articolo": "TAVOLA DI ORIENTAMENTO PER SEGNALE P.L.", "dimensione": "29,5x200",
+        "base_cm": 29.5, "altezza_cm": 200, "note": "N° ATT.: 3",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 50.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 73.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 90.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 74.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 96.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 120.00 }
+        ]
+      },
+      {
+        "wl_fe": "*", "wl_al": "/", "codice": null, "figura": "F",
+        "articolo": "PALO TUBOLARE VERNICIATO GRIGIO NEBBIA + FASCE NERE E BIANCHE", "dimensione": "60x60 MM H M 3,50",
+        "base_cm": null, "altezza_cm": null, "note": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 76.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 86.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 96.00 }
+        ]
+      },
+      {
+        "wl_fe": "*", "wl_al": "/", "codice": null, "figura": "G",
+        "articolo": "BARRIERA F.S. BIFACCIALE CON PIEDI PESANTI + DISCO", "dimensione": "150x25",
+        "base_cm": 150, "altezza_cm": 25, "note": null,
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 62.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 72.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 80.00 }
+        ]
+      },
+      {
+        "wl_fe": "*", "wl_al": "/", "codice": null, "figura": "H",
+        "articolo": "TARGA PIANA IN 2 PEZZI \"VIETATO ATTRAVERSARE I BINARI\" - ITALIANO", "dimensione": "200x15",
+        "base_cm": 200, "altezza_cm": 15, "note": null,
+        "prezzi": [
+          { "materiale": "ALLUMINIO 25/10", "classe": "CAL", "euro": 28.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 34.00 }
+        ]
+      },
+      {
+        "wl_fe": "*", "wl_al": "/", "codice": null, "figura": "I",
+        "articolo": "TARGA PIANA IN 2 PEZZI \"VIETATO ATTRAVERSARE I BINARI\" - INGLESE", "dimensione": "200x15",
+        "base_cm": 200, "altezza_cm": 15, "note": null,
+        "prezzi": [
+          { "materiale": "ALLUMINIO 25/10", "classe": "CAL", "euro": 28.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 34.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "VER",
+    "page": 51,
+    "page_label": "049",
+    "type": "listino",
+    "section": "SEGNALETICA FERROVIARIA",
+    "table_title": null,
+    "page_note": "N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO | N.B.: PER PREZZO CHIEDERE PREVENTIVO",
+    "figures": [
+      { "figura": "A", "nome": "segnale di limitazione velocità km 30", "pos": 1 },
+      { "figura": "B", "nome": "segnale di limitazione velocità km 60", "pos": 2 },
+      { "figura": "C", "nome": "vela per segnale di attenzione", "pos": 3 },
+      { "figura": "D", "nome": "segnale di avviso di rallentamento in linea", "pos": 4 },
+      { "figura": "E", "nome": "vela per segnale fine rallentamento in linea", "pos": 5 },
+      { "figura": "F", "nome": "vela per segnale inizio rallentamento in linea", "pos": 6 },
+      { "figura": "I", "nome": "segnale sussidiario per segnali di blocco", "pos": 7 },
+      { "figura": "N", "nome": "attenzione al sezionamento", "pos": 8 },
+      { "figura": "O", "nome": "attenzione alle discese di alimentazione", "pos": 9 },
+      { "figura": "G", "nome": "vela rettangolare per p.l. lato treno", "pos": 10 },
+      { "figura": "H", "nome": "segnale sussidiario per segnali di blocco", "pos": 11 },
+      { "figura": "M", "nome": "segnale di visibilità per cippo kilometrico in linea", "pos": 12 },
+      { "figura": "L", "nome": "segnale sussidiario per segnali di blocco", "pos": 13 },
+      { "figura": "P", "nome": "sezionamento", "pos": 14 }
+    ],
+    "rows": [
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "A",
+        "articolo": "SEGNALE DI LIMITAZIONE VELOCITÀ KM 30", "dimensione": "LATO 60",
+        "base_cm": null, "altezza_cm": null, "note": "N° ATT.: 2 - PREZZO NON ESPOSTO A LISTINO: CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "B",
+        "articolo": "SEGNALE DI LIMITAZIONE VELOCITÀ KM 60", "dimensione": "LATO 60",
+        "base_cm": null, "altezza_cm": null, "note": "N° ATT.: 2 - PREZZO NON ESPOSTO A LISTINO: CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "C",
+        "articolo": "VELA PER SEGNALE DI ATTENZIONE", "dimensione": "LATO 73",
+        "base_cm": null, "altezza_cm": null, "note": "N° RINF. NORM. CORS.: 2 - PREZZO NON ESPOSTO A LISTINO: CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "D",
+        "articolo": "SEGNALE DI AVVISO DI RALLENTAMENTO IN LINEA", "dimensione": "58x110",
+        "base_cm": 58, "altezza_cm": 110, "note": "N° RINF. NORM. CORS.: 2 - PREZZO NON ESPOSTO A LISTINO: CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "E",
+        "articolo": "VELA PER SEGNALE FINE RALLENTAMENTO IN LINEA", "dimensione": "57x95",
+        "base_cm": 57, "altezza_cm": 95, "note": "N° RINF. NORM. CORS.: 2 - PREZZO NON ESPOSTO A LISTINO: CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "F",
+        "articolo": "VELA PER SEGNALE INIZIO RALLENTAMENTO IN LINEA", "dimensione": "57x95",
+        "base_cm": 57, "altezza_cm": 95, "note": "N° RINF. NORM. CORS.: 2 - PREZZO NON ESPOSTO A LISTINO: CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "G",
+        "articolo": "VELA RETTANGOLARE PER P.L. LATO TRENO", "dimensione": "70x90",
+        "base_cm": 70, "altezza_cm": 90, "note": "N° RINF. NORM. CORS.: 2 - PREZZO NON ESPOSTO A LISTINO: CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "H",
+        "articolo": "SEGNALE SUSSIDIARIO PER SEGNALI DI BLOCCO", "dimensione": "50x32",
+        "base_cm": 50, "altezza_cm": 32, "note": "N° ATT.: 2 - PREZZO NON ESPOSTO A LISTINO: CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "I",
+        "articolo": "SEGNALE SUSSIDIARIO PER SEGNALI DI BLOCCO", "dimensione": "50x60",
+        "base_cm": 50, "altezza_cm": 60, "note": "N° ATT.: 2 - PREZZO NON ESPOSTO A LISTINO: CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": "L",
+        "articolo": "SEGNALE SUSSIDIARIO PER SEGNALI DI BLOCCO", "dimensione": "50x90",
+        "base_cm": 50, "altezza_cm": 90, "note": "N° RINF. NORM. CORS.: 2 - PREZZO NON ESPOSTO A LISTINO: CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl_fe": "*", "wl_al": "*", "codice": null, "figura": "M",
+        "articolo": "SEGNALE DI VISIBILITÀ PER CIPPO KILOMETRICO IN LINEA", "dimensione": "22,5x90",
+        "base_cm": 22.5, "altezza_cm": 90, "note": "PIANA - PREZZO NON ESPOSTO A LISTINO: CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl_fe": "*", "wl_al": "*", "codice": null, "figura": "N",
+        "articolo": "CARTELLI MONITORI DOPPI", "dimensione": "54x22",
+        "base_cm": 54, "altezza_cm": 22, "note": "PIANA - PREZZO NON ESPOSTO A LISTINO: CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl_fe": "*", "wl_al": "*", "codice": null, "figura": "O",
+        "articolo": "CARTELLI MONITORI DOPPI", "dimensione": "54x22",
+        "base_cm": 54, "altezza_cm": 22, "note": "PIANA - PREZZO NON ESPOSTO A LISTINO: CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl_fe": "*", "wl_al": "*", "codice": null, "figura": "P",
+        "articolo": "CARTELLI MONITORI DOPPI", "dimensione": "54x22",
+        "base_cm": 54, "altezza_cm": 22, "note": "PIANA - PREZZO NON ESPOSTO A LISTINO: CHIEDERE PREVENTIVO",
+        "prezzi": []
+      }
+    ]
+  },
+  {
+    "tag": "VER",
+    "page": 52,
+    "page_label": "050",
+    "type": "listino",
+    "section": "SEGNALETICA LUMINOSA",
+    "table_title": null,
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%",
+    "figures": [
+      { "figura": "83", "nome": null, "pos": 1 },
+      { "figura": "80/A - 80/B - 80/C - 82/A - 82/B", "nome": null, "pos": 2 },
+      { "figura": "47", "nome": null, "pos": 3 },
+      { "figura": "A", "nome": null, "pos": 4 },
+      { "figura": "B", "nome": null, "pos": 5 },
+      { "figura": "C", "nome": null, "pos": 6 },
+      { "figura": "D", "nome": null, "pos": 7 },
+      { "figura": "E", "nome": null, "pos": 8 },
+      { "figura": "F", "nome": "ø 200 mm lampeggio singolo", "pos": 9 },
+      { "figura": "G", "nome": "ø 300 mm lampeggio singolo", "pos": 10 },
+      { "figura": "H", "nome": "ø 200 mm lampeggio alternato", "pos": 11 },
+      { "figura": "I", "nome": "ø 300 mm lampeggio alternato", "pos": 12 },
+      { "figura": "L", "nome": null, "pos": 13 }
+    ],
+    "rows": [
+      {
+        "wl": null, "codice": "2000SLSDI0...", "figura": null,
+        "articolo": "83 - 80/A - 80/B - 80/C - 82/A - 82/B - 47",
+        "dimensione": "NORMALE", "base_cm": null, "altezza_cm": null, "qta_min_ord": 2,
+        "note": "Ø 60 - N° ATT.: 2",
+        "dubbio": "CODICE troncato a stampa con puntini di sospensione: '2000SLSDI0...'",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 320.00 }
+        ]
+      },
+      {
+        "wl": "/", "codice": "2000SLSCL0205", "figura": "A",
+        "articolo": "COLONNINA LUMINOSA LUCE FISSA GIALLA H CM 70 CIRCA",
+        "dimensione": null, "base_cm": null, "altezza_cm": 70, "qta_min_ord": 2, "note": null,
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 310.00 } ]
+      },
+      {
+        "wl": "/", "codice": "2000SLSCL0206", "figura": "B",
+        "articolo": "COLONNINA LUMINOSA LUCE FISSA GIALLA + DISCO",
+        "dimensione": null, "base_cm": null, "altezza_cm": null, "qta_min_ord": 2, "note": null,
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 680.00 } ]
+      },
+      {
+        "wl": "/", "codice": "2000SLSCR0207", "figura": "C",
+        "articolo": "CILINDRO GIALLO DI RICAMBIO H CM 60 CIRCA",
+        "dimensione": null, "base_cm": null, "altezza_cm": 60, "qta_min_ord": 2, "note": null,
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 114.00 } ]
+      },
+      {
+        "wl": "/", "codice": "2000SLSDL0208", "figura": "D",
+        "articolo": "DISPOSITIVO PER LAMPEGGIO COLONNINA TIPO LE 1",
+        "dimensione": null, "base_cm": null, "altezza_cm": null, "qta_min_ord": 2, "note": null,
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 90.00 } ]
+      },
+      {
+        "wl": "/", "codice": "2000SLSSR0209", "figura": "E",
+        "articolo": "SCHERMI DI RICAMBIO PER Ø 60 FIG. 80/A - 80/B - 80/C - 82/A - 82/B - 83 - 47",
+        "dimensione": null, "base_cm": null, "altezza_cm": null, "qta_min_ord": 2, "note": null,
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 80.00 } ]
+      },
+      {
+        "wl": "/", "codice": "2000SLCLS0184", "figura": "F",
+        "articolo": "LANTERNA SEMAFORICA GIALLA Ø 200 LAMPEGGIANTE CON LAMPADINA",
+        "dimensione": null, "base_cm": null, "altezza_cm": null, "qta_min_ord": 2, "note": null,
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 180.00 } ]
+      },
+      {
+        "wl": "/", "codice": "2000SLCLS0185", "figura": "G",
+        "articolo": "LANTERNA SEMAFORICA GIALLA Ø 300 LAMPEGGIANTE CON LAMPADINA",
+        "dimensione": null, "base_cm": null, "altezza_cm": null, "qta_min_ord": 2, "note": null,
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 270.00 } ]
+      },
+      {
+        "wl": "/", "codice": "2000SLCLS0186", "figura": "H",
+        "articolo": "LANTERNA SEMAFORICA DOPPIA GIALLA Ø 200 LAMPEGGIO ALTERNATO CON LAMPADINA",
+        "dimensione": null, "base_cm": null, "altezza_cm": null, "qta_min_ord": 2, "note": null,
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 290.00 } ]
+      },
+      {
+        "wl": "/", "codice": "2000SLCLS0187", "figura": "I",
+        "articolo": "LANTERNA SEMAFORICA DOPPIA GIALLA Ø 300 LAMPEGGIO ALTERNATO CON LAMPADINA",
+        "dimensione": null, "base_cm": null, "altezza_cm": null, "qta_min_ord": 2, "note": null,
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 460.00 } ]
+      },
+      {
+        "wl": "/", "codice": "2000SLCAB0188", "figura": "L",
+        "articolo": "ATTACCO SUPERIORE ED INFERIORE A BAND-IT PER LANTERNA Ø 200 O Ø 300 SIA SINGOLA CHE DOPPIA",
+        "dimensione": null, "base_cm": null, "altezza_cm": null, "qta_min_ord": 2, "note": "A COPPIA",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 36.00 } ]
+      }
+    ]
+  },
+  {
+    "tag": "VER",
+    "page": 53,
+    "page_label": "051",
+    "type": "listino",
+    "section": "SEGNALETICA ENEL-TERNA",
+    "table_title": "SEGNALAZIONE PIENE IMPROVVISE",
+    "page_note": "N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO",
+    "figures": [
+      { "figura": null, "nome": "segnale piena improvvisa", "pos": 1 },
+      { "figura": null, "nome": "descrizione del pericolo in 4 lingue", "pos": 2 }
+    ],
+    "rows": [
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": null,
+        "articolo": "TRIANGOLO", "dimensione": "PICCOLO", "base_cm": null, "altezza_cm": null,
+        "note": "LATO 60 - N° ATT.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CAL", "euro": 11.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 12.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 17.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CAL", "euro": 17.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 19.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 23.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": null,
+        "articolo": "TRIANGOLO", "dimensione": "PICCOLO", "base_cm": null, "altezza_cm": null,
+        "note": "LATO 60 - N° RINF. NORM. CORS.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CAL", "euro": 12.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 14.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 19.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CAL", "euro": 19.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 21.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 26.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": null,
+        "articolo": "TRIANGOLO", "dimensione": "NORMALE", "base_cm": null, "altezza_cm": null,
+        "note": "LATO 90 - N° RINF. NORM. CORS.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CAL", "euro": 18.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 22.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CAL", "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 37.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 49.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "7", "codice": null, "figura": null,
+        "articolo": "TRIANGOLO", "dimensione": "NORMALE", "base_cm": null, "altezza_cm": null,
+        "note": "LATO 90 - N° ATT.: 2",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 25/10", "classe": "CAL", "euro": 28.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 33.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 46.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "figura": null,
+        "articolo": "TARGA", "dimensione": "PICCOLO", "base_cm": 60, "altezza_cm": 60,
+        "note": "N° RINF. NORM. CORS.: 2",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CAL", "euro": 21.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 25.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 41.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CAL", "euro": 35.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 42.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 57.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "7", "codice": null, "figura": null,
+        "articolo": "TARGA", "dimensione": "PICCOLO", "base_cm": 60, "altezza_cm": 60,
+        "note": "N° ATT.: 2",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 25/10", "classe": "CAL", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 39.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 55.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "/", "codice": null, "figura": null,
+        "articolo": "TARGA", "dimensione": "NORMALE", "base_cm": 90, "altezza_cm": 90,
+        "note": "N° RINF. NORM. CORS.: 3",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CAL", "euro": 47.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 63.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 95.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "7", "codice": null, "figura": null,
+        "articolo": "TARGA", "dimensione": "NORMALE", "base_cm": 90, "altezza_cm": 90,
+        "note": "N° RINF. NORM. CORS.: 2",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 25/10", "classe": "CAL", "euro": 72.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 92.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 125.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "VER",
+    "page": 54,
+    "page_label": "052",
+    "type": "listino",
+    "section": "SEGNALETICA ENEL-TERNA",
+    "table_title": null,
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%",
+    "figures": [
+      { "figura": "A", "nome": "cartello di segnalazione linea in cavo AT a basso impatto visivo (UX LK11) - cavi alta tensione 220 000 V", "pos": 1 },
+      { "figura": "B", "nome": "cartello di segnalazione linea in cavo MT a basso impatto visivo (UX LK14) - cavi media tensione 20 000 V", "pos": 2 }
+    ],
+    "rows": [
+      {
+        "wl": "*", "codice": "UX LK11", "figura": "A",
+        "articolo": "TARGA BIFACCIALE IN LAMIERA DI ALLUMINIO - SPESSORE 25/10 - COLORE FONDO: \"GIALLO TRAFFICO\" RAL 1023 (NON RIFRANGENTE) - COLORE FONDO: \"BIANCO\" RAL 9010 (NON RIFRANGENTE) - COLORE SCRITTE: \"NERO TRAFFICO\" RAL 9017 (NON RIFRANGENTE) - COLORE LOGO: \"BLU ULTRAMARINO\" RAL 5002 (NON RIFRANGENTE) - FISSAGGIO MEDIANTE N° 2 VITI M8x40 IN ACCIAIO INOX + DADI M8 + RONDELLE IN ACCIAIO INOX (PALO ESCLUSO)",
+        "dimensione": null, "base_cm": 19.5, "altezza_cm": 25, "qta_min_ord": 30,
+        "note": null,
+        "table_title": "CARTELLO DI SEGNALAZIONE LINEA IN CAVO AT A BASSO IMPATTO VISIVO - UX LK11",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 19.00 } ]
+      },
+      {
+        "wl": "*", "codice": "UX LK14", "figura": "B",
+        "articolo": "TARGA BIFACCIALE IN LAMIERA DI ALLUMINIO - SPESSORE 25/10 - COLORE FONDO: \"GIALLO TRAFFICO\" RAL 1023 (NON RIFRANGENTE) - COLORE FONDO: \"BIANCO\" RAL 9010 (NON RIFRANGENTE) - COLORE SCRITTE: \"NERO TRAFFICO\" RAL 9017 (NON RIFRANGENTE) - COLORE LOGO: \"BLU ULTRAMARINO\" RAL 5002 (NON RIFRANGENTE) - FISSAGGIO MEDIANTE N° 2 VITI M8x40 IN ACCIAIO INOX + DADI M8 + RONDELLE IN ACCIAIO INOX (PALO ESCLUSO)",
+        "dimensione": null, "base_cm": 19.5, "altezza_cm": 25, "qta_min_ord": 30,
+        "note": "PREZZO DA CELLA UNIFICATA CON LA RIGA UX LK11",
+        "table_title": "CARTELLO DI SEGNALAZIONE LINEA IN CAVO MT A BASSO IMPATTO VISIVO - UX LK14",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 19.00 } ]
+      },
+      {
+        "wl": "*", "codice": null, "figura": null,
+        "articolo": "PALO Ø 40 MM - SPESSORE 3 MM - ALTEZZA 2,50 M",
+        "dimensione": null, "base_cm": null, "altezza_cm": null, "qta_min_ord": 30,
+        "note": null, "table_title": null,
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 22.00 } ]
+      }
+    ]
+  },
+  {
+    "tag": "VER",
+    "page": 55,
+    "page_label": "053",
+    "type": "listino",
+    "section": "SEGNALETICA ENEL-TERNA",
+    "table_title": null,
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%",
+    "figures": [
+      { "figura": "A", "nome": "targa di segnalazione sostegno (UX LS 196) - pericolo di morte / divieto di salita / alta tensione", "pos": 1 },
+      { "figura": "B", "nome": "targa con numero di terna (LS 197)", "pos": 2 }
+    ],
+    "rows": [
+      {
+        "wl": "*", "codice": "UX LS 196", "figura": "A",
+        "articolo": "TARGA MONOFACCIALE IN LAMIERA DI ALLUMINIO - SPESSORE 25/10 - COLORE FONDO: \"GIALLO TRAFFICO\" RAL 1023 (NON RIFRANGENTE) - COLORE SCRITTE: \"NERO TRAFFICO\" RAL 9017 (NON RIFRANGENTE) - SCRITTE E SIMBOLI IN PELLICOLA NERA RIPORTATA - FISSAGGIO MEDIANTE N° 2 BULLONI IN ACCIAIO INOX 12x35 + RONDELLE IN ACCIAIO INOX",
+        "dimensione": null, "base_cm": 50, "altezza_cm": 50, "qta_min_ord": 50, "note": null,
+        "table_title": "TARGA DI SEGNALAZIONE SOSTEGNO - UX LS 196",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 40.00 } ]
+      },
+      {
+        "wl": "*", "codice": "LS 197", "figura": "B",
+        "articolo": "TARGA MONOFACCIALE IN LAMIERA DI ALLUMINIO - SPESSORE 25/10 - COLORE FONDO: \"GIALLO TRAFFICO\" RAL 1023 (NON RIFRANGENTE) - COLORE SCRITTE: \"NERO TRAFFICO\" RAL 9017 (NON RIFRANGENTE) - SCRITTE IN PELLICOLA NERA RIPORTATA - FISSAGGIO MEDIANTE N° 2 BULLONI IN ACCIAIO INOX 12x35 + RONDELLE IN ACCIAIO INOX",
+        "dimensione": null, "base_cm": 14.3, "altezza_cm": 40, "qta_min_ord": 50, "note": null,
+        "table_title": "TARGA CON NUMERO DI TERNA - LS 197",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 32.50 } ]
+      }
+    ]
+  },
+  {
+    "tag": "VER",
+    "page": 56,
+    "page_label": "054",
+    "type": "listino",
+    "section": "SEGNALETICA ENEL-TERNA",
+    "table_title": null,
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%",
+    "figures": [
+      { "figura": "A", "nome": "cartello di linea e picchetto per ispezione eliportata (LS 201)", "pos": 1 },
+      { "figura": "C", "nome": "staffa di ancoraggio per cartelli per ispezione eliportata (LS 203)", "pos": 2 },
+      { "figura": "B", "nome": "cartello di incrocio per ispezione eliportata (LS 202) - segnalazione di incrocio sovrapposto / sottoposto rispetto alla linea in esame", "pos": 3 }
+    ],
+    "rows": [
+      {
+        "wl": "*", "codice": "LS 201", "figura": "A",
+        "articolo": "TARGA MONOFACCIALE IN LAMIERA DI ALLUMINIO - SPESSORE 25/10 - COLORE FONDO: \"GIALLO TRAFFICO\" RAL 1023 (NON RIFRANGENTE) - COLORE SCRITTE: \"NERO TRAFFICO\" RAL 9017 (NON RIFRANGENTE) - SCRITTE IN PELLICOLA NERA RIPORTATA - FISSAGGIO MEDIANTE N° 4 BULLONI IN ACCIAIO INOX 10x35 + RONDELLE IN ACCIAIO INOX + STAFFA DI ANCORAGGIO (ESCLUSA)",
+        "dimensione": null, "base_cm": 70, "altezza_cm": 50, "qta_min_ord": 50, "note": null,
+        "table_title": "CARTELLO DI LINEA E PICCHETTO PER ISPEZIONE ELIPORTATA - LS 201",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 50.00 } ]
+      },
+      {
+        "wl": "*", "codice": "LS 202", "figura": "B",
+        "articolo": "TARGA MONOFACCIALE IN LAMIERA DI ALLUMINIO - SPESSORE 25/10 - COLORE FONDO: \"ROSSO TRAFFICO\" RAL 3020 (NON RIFRANGENTE) - COLORE SCRITTE: \"BIANCO TRAFFICO\" RAL 9016 (NON RIFRANGENTE) - SIMBOLI IN PELLICOLA BIANCA RIPORTATA - FISSAGGIO MEDIANTE N° 4 BULLONI IN ACCIAIO INOX 10x35 + RONDELLE IN ACCIAIO INOX + STAFFA DI ANCORAGGIO (ESCLUSA)",
+        "dimensione": null, "base_cm": 50, "altezza_cm": 70, "qta_min_ord": 50, "note": null,
+        "table_title": "CARTELLO DI INCROCIO PER ISPEZIONE ELIPORTATA - LS 202",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 50.00 } ]
+      },
+      {
+        "wl": "*", "codice": "LS 203", "figura": "C",
+        "articolo": "STAFFA DI ANCORAGGIO PER CARTELLI PER ISPEZIONE ELIPORTATA - ANGOLARI IN ACCIAIO ZINCATO A CALDO 40x40x5 MM + PIASTRA ANGOLARE SPESSORE 6 MM",
+        "dimensione": null, "base_cm": null, "altezza_cm": null, "qta_min_ord": 50, "note": null,
+        "table_title": "STAFFA DI ANCORAGGIO PER CARTELLI PER ISPEZIONE ELIPORTATA - LS 203",
+        "prezzi": [ { "materiale": null, "classe": null, "euro": 35.00 } ]
+      }
+    ]
+  }
+]

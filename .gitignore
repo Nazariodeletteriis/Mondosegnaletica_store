@@ -84,3 +84,7 @@ Prodotti/
 
 # Dump DB locali
 backups/
+
+# Render PDF (rigenerabili) — i JSON estratti invece si versionano
+tools/import-listini/pages/
+tools/import-listini/venv/

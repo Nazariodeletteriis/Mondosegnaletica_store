@@ -1,0 +1,1063 @@
+[
+  {
+    "tag": "VER",
+    "page": 1,
+    "page_label": null,
+    "type": "copertina",
+    "section": "SEGNALETICA VERTICALE",
+    "table_title": null,
+    "figures": [],
+    "rows": [],
+    "page_note": "Frontespizio listino Segnaletica verticale - logo Mondo Segnaletica Soc. Coop."
+  },
+  {
+    "tag": "VER",
+    "page": 2,
+    "page_label": null,
+    "type": "altro",
+    "section": null,
+    "table_title": null,
+    "figures": [],
+    "rows": [],
+    "page_note": "Pagina bianca."
+  },
+  {
+    "tag": "VER",
+    "page": 3,
+    "page_label": "001",
+    "type": "normativa",
+    "section": "NORME DI ATTUAZIONE",
+    "table_title": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 16 Dicembre 1992, n. 495 - E NORME REGOLAMENTARI MODIFICATE CON IL D.P.R. 16.9.96 n 610",
+    "figures": [],
+    "rows": [],
+    "page_note": "Tabelle II 1 (triangolo), II 2 (cerchio divieto), II 3 (cerchio obbligo), II 4 (ottagono) - dimensioni in cm. Nessun prezzo."
+  },
+  {
+    "tag": "VER",
+    "page": 4,
+    "page_label": "002",
+    "type": "normativa",
+    "section": "NORME DI ATTUAZIONE",
+    "table_title": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 16 Dicembre 1992, n. 495 - E NORME REGOLAMENTARI MODIFICATE CON IL D.P.R. 16.9.96 n 610",
+    "figures": [],
+    "rows": [],
+    "page_note": "Tabelle II 5 (quadrato con diagonale verticale), II 6 (quadrato), II 7 (rettangolare indicazione), II 8 (rettangolare servizi). Nessun prezzo."
+  },
+  {
+    "tag": "VER",
+    "page": 5,
+    "page_label": "003",
+    "type": "normativa",
+    "section": "NORME DI ATTUAZIONE",
+    "table_title": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 16 Dicembre 1992, n. 495 - E NORME REGOLAMENTARI MODIFICATE CON IL D.P.R. 16.9.96 n 610",
+    "figures": [],
+    "rows": [],
+    "page_note": "Tabelle II 9, II 10, II 11, II 12 (pannelli integrativi) + DIRETTIVA n 1156 del 28 Febbraio 1997 (manutenzione cavalcavia). Nessun prezzo."
+  },
+  {
+    "tag": "VER",
+    "page": 6,
+    "page_label": "004",
+    "type": "normativa",
+    "section": "NORME DI ATTUAZIONE",
+    "table_title": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 16 Dicembre 1992, n. 495 - E NORME REGOLAMENTARI MODIFICATE CON IL D.P.R. 16.9.96 n 610",
+    "figures": [],
+    "rows": [],
+    "page_note": "Tabelle II 13a e II 13b - Segnali di direzione urbani (iscrizioni su una / due righe). Nessun prezzo."
+  },
+  {
+    "tag": "VER",
+    "page": 7,
+    "page_label": "005",
+    "type": "normativa",
+    "section": "NORME DI ATTUAZIONE",
+    "table_title": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 16 Dicembre 1992, n. 495 - E NORME REGOLAMENTARI MODIFICATE CON IL D.P.R. 16.9.96 n 610",
+    "figures": [],
+    "rows": [],
+    "page_note": "Tabelle II 14a e II 14b - Segnali di direzione extraurbani. N.B.: Le cifre sono arrotondate per difetto o per eccesso al millimetro. Nessun prezzo."
+  },
+  {
+    "tag": "VER",
+    "page": 8,
+    "page_label": "006",
+    "type": "normativa",
+    "section": "NORME DI ATTUAZIONE",
+    "table_title": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 16 Dicembre 1992, n. 495 - E NORME REGOLAMENTARI MODIFICATE CON IL D.P.R. 16.9.96 n 610",
+    "figures": [],
+    "rows": [],
+    "page_note": "Tabella II 15 - Segnali nome-strada. Nessun prezzo."
+  },
+  {
+    "tag": "VER",
+    "page": 9,
+    "page_label": "007",
+    "type": "normativa",
+    "section": "NORME DI ATTUAZIONE",
+    "table_title": "DECRETO DEL PRESIDENTE DELLA REPUBBLICA 16 Dicembre 1992, n. 495 - E NORME REGOLAMENTARI MODIFICATE CON IL D.P.R. 16.9.96 n 610",
+    "figures": [],
+    "rows": [],
+    "page_note": "Tabella II 23 ART. 127 - Segnali di corsia (installazione a bandiera, a farfalla, a portale). Nessun prezzo."
+  },
+  {
+    "tag": "VER",
+    "page": 10,
+    "page_label": "008",
+    "type": "listino",
+    "section": "SEGNALI DI DIREZIONE URBANA",
+    "table_title": "SEGNALI DI DIREZIONE URBANA",
+    "figures": [
+      { "figura": "II 287 ART. 132", "nome": "segnale di conferma urbano", "pos": 1, "ref": "A" },
+      { "figura": "II 288 ART. 132", "nome": "segnale di conferma urbano", "pos": 2, "ref": "B" },
+      { "figura": "II 289 ART. 132", "nome": "segnale di conferma urbano", "pos": 3, "ref": "C" }
+    ],
+    "rows": [
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "figura": "A",
+        "articolo": "TARGA",
+        "dimensione": null,
+        "base_cm": 30,
+        "altezza_cm": 50,
+        "n_att": "2+2",
+        "n_rinf_norm_cors": null,
+        "n_rinf_trav_cors": null,
+        "note": null,
+        "table_title": "SEGNALI DI DIREZIONE URBANA",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 16.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 23.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 23.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 27.00 }
+        ]
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "figura": "B",
+        "articolo": "TARGA",
+        "dimensione": null,
+        "base_cm": 30,
+        "altezza_cm": 75,
+        "n_att": "2",
+        "n_rinf_norm_cors": null,
+        "n_rinf_trav_cors": null,
+        "note": null,
+        "table_title": "SEGNALI DI DIREZIONE URBANA",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 24.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 32.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 32.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 41.00 }
+        ]
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "codice": null,
+        "figura": "C",
+        "articolo": "TARGA",
+        "dimensione": null,
+        "base_cm": 50,
+        "altezza_cm": 50,
+        "n_att": "2",
+        "n_rinf_norm_cors": null,
+        "n_rinf_trav_cors": null,
+        "note": null,
+        "table_title": "SEGNALI DI DIREZIONE URBANA",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 20.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 29.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 29.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 37.00 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO. La meta superiore della pagina e normativa (Figure II 287/288/289 Art. 132 - segnale di conferma urbano). In tutte le righe la colonna CL. 2 S. riporta '/' (non disponibile) sia per LAMIERA sia per ALLUMINIO."
+  },
+  {
+    "tag": "VER",
+    "page": 11,
+    "page_label": "009",
+    "type": "listino",
+    "section": "PANNELLI INTEGRATIVI",
+    "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+    "figures": [
+      { "figura": "MODELLO 1/A", "nome": "320 m", "pos": 1 },
+      { "figura": "MODELLO 1/B", "nome": "3,8 Km", "pos": 2 },
+      { "figura": "MODELLO 2/A", "nome": "380 m (con frecce)", "pos": 3 },
+      { "figura": "MODELLO 2/B", "nome": "2,8 Km (con frecce)", "pos": 4 },
+      { "figura": "MODELLO 6/C", "nome": null, "pos": 5 },
+      { "figura": "MODELLO 6/D", "nome": null, "pos": 6 },
+      { "figura": "MODELLO 6/E", "nome": null, "pos": 7 },
+      { "figura": "MODELLO 6/G", "nome": null, "pos": 8 },
+      { "figura": "MODELLO 6/H", "nome": null, "pos": 9 },
+      { "figura": "MODELLO 6/I", "nome": null, "pos": 10 },
+      { "figura": "MODELLO 6/P1", "nome": "tornante", "pos": 11 },
+      { "figura": "MODELLO 6/P1", "nome": "3 tornanti", "pos": 12 },
+      { "figura": "MODELLO 3/A", "nome": "0-24", "pos": 13 },
+      { "figura": "MODELLO 3/B", "nome": "07,30-19,00", "pos": 14 },
+      { "figura": "MODELLO 3/C", "nome": "08,00-20,00 (giorni festivi)", "pos": 15 },
+      { "figura": "MODELLO 3/D", "nome": "08,00-20,00 (giorni feriali)", "pos": 16 },
+      { "figura": "MODELLO 4/A", "nome": null, "pos": 17 },
+      { "figura": "MODELLO 4/B", "nome": "eccetto (autobus)", "pos": 18 },
+      { "figura": "MODELLO 6/M", "nome": null, "pos": 19 },
+      { "figura": "MODELLO 6/N", "nome": null, "pos": 20 },
+      { "figura": "MODELLO 6/Q1", "nome": null, "pos": 21 },
+      { "figura": "MODELLO 6/H (50x25)", "nome": null, "pos": 22 },
+      { "figura": "MODELLO 5/A1", "nome": "inizio", "pos": 23 },
+      { "figura": "MODELLO 5/A2", "nome": "continua", "pos": 24 },
+      { "figura": "MODELLO 5/A3", "nome": "fine", "pos": 25 },
+      { "figura": "MODELLO 5/B1", "nome": "inizio", "pos": 26 },
+      { "figura": "MODELLO 5/B2", "nome": "continua", "pos": 27 },
+      { "figura": "MODELLO 5/B3", "nome": "fine", "pos": 28 },
+      { "figura": "MODELLO 1/A (ESEMPI)", "nome": "100 m / 250 m / 300 m / 350 m / 700 m / 1000 m", "pos": 29 }
+    ],
+    "rows": [
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "PICCOLO",
+        "base_cm": 40, "altezza_cm": 20, "n_att": "1", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 7.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 8.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 10.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 10.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 11.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 12.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "NORMALE",
+        "base_cm": 60, "altezza_cm": 20, "n_att": "2", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 10.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 12.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 15.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 15.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 16.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 19.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "/", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "NORMALE",
+        "base_cm": 60, "altezza_cm": 20, "n_att": null, "n_rinf_norm_cors": "1", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 11.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 13.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 16.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "NORMALE",
+        "base_cm": 60, "altezza_cm": 30, "n_att": "2", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 16.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 20.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 23.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 21.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 24.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 27.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "/", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "NORMALE",
+        "base_cm": 60, "altezza_cm": 30, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 18.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 22.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 25.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 90, "altezza_cm": 30, "n_att": null, "n_rinf_norm_cors": "1", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 19.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 25.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 30.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 35.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 41.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 90, "altezza_cm": 30, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 21.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 26.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 32.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 38.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 42.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 150, "altezza_cm": 30, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 40.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 49.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 58.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 58.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 66.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 77.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 200, "altezza_cm": 30, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 52.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 63.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 75.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 82.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 93.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 105.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 135, "altezza_cm": 40, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 44.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 58.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 69.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 61.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 75.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 86.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 150, "altezza_cm": 40, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 49.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 64.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 74.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 75.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 89.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 98.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 200, "altezza_cm": 40, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 70.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 83.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 98.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 102.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 118.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 133.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 135, "altezza_cm": 45, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 49.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 62.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 74.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 70.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 82.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 93.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 150, "altezza_cm": 50, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 52.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 67.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 82.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 78.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 93.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 108.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 200, "altezza_cm": 50, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 69.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 87.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 107.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 108.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 125.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 145.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "/", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 250, "altezza_cm": 50, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 100.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 130.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 160.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 250, "altezza_cm": 50, "n_att": null, "n_rinf_norm_cors": null, "n_rinf_trav_cors": "2",
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 145.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 175.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 203.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "/", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 300, "altezza_cm": 50, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 105.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 135.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 165.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 300, "altezza_cm": 50, "n_att": null, "n_rinf_norm_cors": null, "n_rinf_trav_cors": "2",
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TARGHE",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 170.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 200.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 228.00 }
+        ]
+      }
+    ],
+    "page_note": "PANNELLI INTEGRATIVI PER TRIANGOLI E DISCHI NELLA PAGINA SEGUENTE. N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO. N.B.: DETTI PREZZI SI INTENDONO PER SCRITTE O SIMBOLI SOPRARIPORTATI, PER ALTRE SCRITTE O SIMBOLI AUMENTO DEL 20%"
+  },
+  {
+    "tag": "VER",
+    "page": 12,
+    "page_label": "010",
+    "type": "listino",
+    "section": "PANNELLI INTEGRATIVI",
+    "table_title": "PANNELLI INTEGRATIVI PER TRIANGOLI / PER DISCHI / PER TRIANGOLI E DISCHI",
+    "figures": [],
+    "rows": [
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "PICCOLO",
+        "base_cm": 53, "altezza_cm": 18, "n_att": "1", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TRIANGOLI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 9.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 11.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 12.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 11.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 14.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 15.00 }
+        ]
+      },
+      {
+        "wl_fe": "4", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "NORMALE",
+        "base_cm": 80, "altezza_cm": 27, "n_att": "2", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": "WL FE 4 in rosso: destinato alla cantieristica", "table_title": "PANNELLI INTEGRATIVI PER TRIANGOLI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 14.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 17.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 21.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 20.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 25.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 29.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "NORMALE",
+        "base_cm": 80, "altezza_cm": 27, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TRIANGOLI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 18.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 21.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 25.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 26.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 34.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 105, "altezza_cm": 35, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TRIANGOLI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 24.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 29.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 33.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 39.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 46.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 53.00 }
+        ]
+      },
+
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "PICCOLO",
+        "base_cm": 33, "altezza_cm": 17, "n_att": "1", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER DISCHI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 6.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 6.80 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 7.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 7.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 8.30 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 9.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "NORMALE",
+        "base_cm": 50, "altezza_cm": 25, "n_att": "2", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER DISCHI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 9.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 11.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 12.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 14.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 16.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 18.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 75, "altezza_cm": 33, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER DISCHI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 22.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 25.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 28.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 29.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 34.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 38.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "PICCOLO",
+        "base_cm": 10, "altezza_cm": 25, "n_att": "1", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": "PER L'INSTALLAZIONE DELLA TARGA 10x25 OCCORRE LA STAFFA A 2 PEZZI", "table_title": "PANNELLI INTEGRATIVI PER DISCHI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 6.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 6.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 7.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 7.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 8.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 8.50 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "PICCOLO",
+        "base_cm": 25, "altezza_cm": 10, "n_att": "1", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER DISCHI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 5.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 6.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 6.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 7.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 7.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 8.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "NORMALE",
+        "base_cm": 15, "altezza_cm": 35, "n_att": "1", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER DISCHI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 6.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 6.80 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 7.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 7.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 8.30 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 9.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "NORMALE",
+        "base_cm": 35, "altezza_cm": 15, "n_att": "1", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER DISCHI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 6.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 6.80 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 7.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 7.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 8.30 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 9.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 55, "altezza_cm": 25, "n_att": "2+2", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER DISCHI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 13.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 14.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 16.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 20.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 23.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 25.00 }
+        ]
+      },
+
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "PICCOLO",
+        "base_cm": 10, "altezza_cm": 25, "n_att": "1", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": "PER L'INSTALLAZIONE DELLA TARGA 10x25 OCCORRE LA STAFFA A 2 PEZZI", "table_title": "PANNELLI INTEGRATIVI PER TRIANGOLI E DISCHI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 6.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 6.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 7.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 7.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 8.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 8.50 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "PICCOLO",
+        "base_cm": 25, "altezza_cm": 10, "n_att": "1", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TRIANGOLI E DISCHI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 5.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 6.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 6.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 7.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 7.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 8.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "NORMALE",
+        "base_cm": 15, "altezza_cm": 35, "n_att": "1", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TRIANGOLI E DISCHI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 6.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 6.80 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 7.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 7.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 8.30 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 9.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "NORMALE",
+        "base_cm": 35, "altezza_cm": 15, "n_att": "1", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TRIANGOLI E DISCHI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 6.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 6.80 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 7.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 7.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 8.30 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 9.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "PAN. INTEGRAT.", "dimensione": "GRANDE",
+        "base_cm": 55, "altezza_cm": 25, "n_att": "2+2", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI INTEGRATIVI PER TRIANGOLI E DISCHI",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 13.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 14.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 16.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 20.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 23.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 25.00 }
+        ]
+      }
+    ],
+    "page_note": "NOTE - N.B.: PER L'INSTALLAZIONE DELLA TARGA 10x25 OCCORRE LA STAFFA A 2 PEZZI. PANNELLI INTEGRATIVI PER TARGHE NELLA PAGINA PRECEDENTE. N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO. N.B.: DETTI PREZZI SI INTENDONO PER SCRITTE O SIMBOLI SOPRARIPORTATI, PER ALTRE SCRITTE O SIMBOLI AUMENTO DEL 20%"
+  },
+  {
+    "tag": "VER",
+    "page": 13,
+    "page_label": "011",
+    "type": "listino",
+    "section": "PANNELLI INTEGRATIVI E COMPOSITI / PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+    "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+    "figures": [
+      { "figura": "MODELLO 3/C", "nome": "08,00-20,00 (giorni festivi)", "pos": 1 },
+      { "figura": "MODELLO 3/D", "nome": "08,00-20,00 (giorni feriali)", "pos": 2 },
+      { "figura": "C1", "nome": "A14 135", "pos": 3 },
+      { "figura": "C2", "nome": "SS 148 30", "pos": 4 },
+      { "figura": "C3", "nome": "SP 37 25", "pos": 5 },
+      { "figura": "C4", "nome": "SC 29 5", "pos": 6 },
+      { "figura": "MODELLO 6/A", "nome": null, "pos": 7 },
+      { "figura": "MODELLO 6/B", "nome": null, "pos": 8 },
+      { "figura": "MODELLO 6/F", "nome": null, "pos": 9 },
+      { "figura": "MODELLO 6/L", "nome": null, "pos": 10 },
+      { "figura": "MODELLO 6/P2", "nome": "1 tornante", "pos": 11 },
+      { "figura": "MODELLO 6/Q2", "nome": "Lun.-Ven. 21,00-04,00", "pos": 12 },
+      { "figura": "MODELLO 7", "nome": null, "pos": 13 },
+      { "figura": "MODELLO 7", "nome": null, "pos": 14 },
+      { "figura": "MODELLO 7", "nome": null, "pos": 15 },
+      { "figura": "MODELLO 7", "nome": null, "pos": 16 },
+      { "figura": "MODELLO 7", "nome": null, "pos": 17 },
+      { "figura": "MODELLO 8/A", "nome": "divieto di sosta con pannello Lun.-Ven. 21,00-04,00", "pos": 18 },
+      { "figura": "MODELLO 8/B", "nome": "direzione obbligatoria con pannello", "pos": 19 },
+      { "figura": "MODELLO 8/C", "nome": "direzione obbligatoria con pannello", "pos": 20 },
+      { "figura": "MODELLO 8/D", "nome": "transito vietato con pannello", "pos": 21 }
+    ],
+    "rows": [
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "3/C - 3/D", "dimensione": "PICCOLO",
+        "base_cm": 40, "altezza_cm": 20, "n_att": "1", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 7.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 8.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 10.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 10.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 11.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 12.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "3/C - 3/D", "dimensione": "NORMALE",
+        "base_cm": 60, "altezza_cm": 20, "n_att": "2", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 10.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 12.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 15.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 15.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 16.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 19.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "/", "codice": null, "articolo": "3/C - 3/D", "dimensione": "NORMALE",
+        "base_cm": 60, "altezza_cm": 20, "n_att": null, "n_rinf_norm_cors": "1", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 11.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 13.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 16.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "6/A - 6/B 6/F - 6/L 6/P2 - 6/Q2 7", "dimensione": "PICCOLO",
+        "base_cm": 53, "altezza_cm": 53, "n_att": "2", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 18.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 22.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 37.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 43.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "6/A - 6/B 6/F - 6/L 6/P2 - 6/Q2 7", "dimensione": "NORMALE",
+        "base_cm": 80, "altezza_cm": 80, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 37.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 50.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 62.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 62.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 75.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 88.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "/", "codice": null, "articolo": "6/A - 6/B 6/F - 6/L 6/P2 - 6/Q2 7", "dimensione": "GRANDE",
+        "base_cm": 105, "altezza_cm": 105, "n_att": null, "n_rinf_norm_cors": "3", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 80.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 125.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 155.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "7", "codice": null, "articolo": "6/A - 6/B 6/F - 6/L 6/P2 - 6/Q2 7", "dimensione": "GRANDE",
+        "base_cm": 105, "altezza_cm": 105, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 115.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 150.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 178.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "/", "codice": null, "articolo": "6/A - 6/B 6/F - 6/L 6/P2 - 6/Q2 7", "dimensione": "GRANDE",
+        "base_cm": 135, "altezza_cm": 135, "n_att": null, "n_rinf_norm_cors": "3", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 140.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 210.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 255.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "7", "codice": null, "articolo": "6/A - 6/B 6/F - 6/L 6/P2 - 6/Q2 7", "dimensione": "GRANDE",
+        "base_cm": 135, "altezza_cm": 135, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 210.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 280.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 345.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "C1 - C2 C3 - C4", "dimensione": "NORMALE",
+        "base_cm": 60, "altezza_cm": 60, "n_att": "2", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 26.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 30.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 38.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 38.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 43.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 50.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "C1 - C2 C3 - C4", "dimensione": "NORMALE",
+        "base_cm": 60, "altezza_cm": 60, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 30.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 34.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 42.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 44.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 49.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 57.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "/", "codice": null, "articolo": "C1 - C2 C3 - C4", "dimensione": "GRANDE",
+        "base_cm": 90, "altezza_cm": 90, "n_att": null, "n_rinf_norm_cors": "3", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 51.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 61.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 83.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "7", "codice": null, "articolo": "C1 - C2 C3 - C4", "dimensione": "GRANDE",
+        "base_cm": 90, "altezza_cm": 90, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 81.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 90.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 108.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "8/A - 8/B 8/C - 8/D", "dimensione": "PICCOLO",
+        "base_cm": 40, "altezza_cm": 60, "n_att": "2", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 18.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 22.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 25.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 26.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 29.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 35.00 }
+        ]
+      },
+      {
+        "wl_fe": "6", "wl_al": "7", "codice": null, "articolo": "8/A - 8/B 8/C - 8/D", "dimensione": "NORMALE",
+        "base_cm": 60, "altezza_cm": 90, "n_att": "3 o 2", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 32.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 41.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 52.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 52.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 62.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 69.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "8/A - 8/B 8/C - 8/D", "dimensione": "NORMALE",
+        "base_cm": 60, "altezza_cm": 90, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 36.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 48.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 58.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 58.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 70.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 79.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "/", "codice": null, "articolo": "8/A - 8/B 8/C - 8/D", "dimensione": "GRANDE",
+        "base_cm": 90, "altezza_cm": 135, "n_att": null, "n_rinf_norm_cors": "3", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 85.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 112.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 150.00 }
+        ]
+      },
+      {
+        "wl_fe": "/", "wl_al": "7", "codice": null, "articolo": "8/A - 8/B 8/C - 8/D", "dimensione": "GRANDE",
+        "base_cm": 90, "altezza_cm": 135, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": null, "table_title": "PANNELLI DIVIETO - OBBLIGO E PREAVVISO",
+        "prezzi": [
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 120.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 150.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 180.00 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO"
+  },
+  {
+    "tag": "VER",
+    "page": 14,
+    "page_label": "012",
+    "type": "listino",
+    "section": "SEGNALI DI PERICOLO",
+    "table_title": "SEGNALI DI PERICOLO",
+    "figures": [
+      { "figura": "1", "nome": null, "pos": 1 },
+      { "figura": "2", "nome": null, "pos": 2 },
+      { "figura": "3", "nome": null, "pos": 3 },
+      { "figura": "4", "nome": null, "pos": 4 },
+      { "figura": "5", "nome": null, "pos": 5 },
+      { "figura": "6", "nome": null, "pos": 6 },
+      { "figura": "7", "nome": null, "pos": 7 },
+      { "figura": "8", "nome": null, "pos": 8 },
+      { "figura": "9", "nome": null, "pos": 9 },
+      { "figura": "12", "nome": null, "pos": 10 },
+      { "figura": "13", "nome": null, "pos": 11 },
+      { "figura": "14", "nome": null, "pos": 12 },
+      { "figura": "15", "nome": null, "pos": 13 },
+      { "figura": "16", "nome": null, "pos": 14 },
+      { "figura": "17", "nome": null, "pos": 15 },
+      { "figura": "18", "nome": null, "pos": 16 },
+      { "figura": "19", "nome": null, "pos": 17 },
+      { "figura": "20", "nome": null, "pos": 18 },
+      { "figura": "21", "nome": null, "pos": 19 },
+      { "figura": "22", "nome": null, "pos": 20 },
+      { "figura": "23", "nome": null, "pos": 21 },
+      { "figura": "24", "nome": null, "pos": 22 },
+      { "figura": "25", "nome": null, "pos": 23 },
+      { "figura": "26", "nome": null, "pos": 24 },
+      { "figura": "27", "nome": null, "pos": 25 },
+      { "figura": "28", "nome": null, "pos": 26 },
+      { "figura": "29", "nome": null, "pos": 27 },
+      { "figura": "30/A", "nome": null, "pos": 28 },
+      { "figura": "30/B", "nome": null, "pos": 29 },
+      { "figura": "31/A", "nome": null, "pos": 30 },
+      { "figura": "31/B", "nome": null, "pos": 31 },
+      { "figura": "32", "nome": null, "pos": 32 },
+      { "figura": "33", "nome": null, "pos": 33 },
+      { "figura": "34", "nome": null, "pos": 34 },
+      { "figura": "35", "nome": null, "pos": 35 }
+    ],
+    "rows": [
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "TRIANGOLO", "dimensione": "PICCOLO",
+        "base_cm": 60, "altezza_cm": null, "n_att": "2", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": "LATO 60 (cella BASE/ALTEZZA unita)", "table_title": "SEGNALI DI PERICOLO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 11.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 13.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 15.50 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 18.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 20.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 23.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "TRIANGOLO", "dimensione": "PICCOLO",
+        "base_cm": 60, "altezza_cm": null, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": "LATO 60 (cella BASE/ALTEZZA unita)", "table_title": "SEGNALI DI PERICOLO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 13.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 15.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 18.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 22.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 24.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 27.00 }
+        ]
+      },
+      {
+        "wl_fe": "4", "wl_al": "7", "codice": null, "articolo": "TRIANGOLO", "dimensione": "NORMALE",
+        "base_cm": 90, "altezza_cm": null, "n_att": "2", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": "LATO 90 (cella BASE/ALTEZZA unita). WL FE 4 in rosso: destinato alla cantieristica", "table_title": "SEGNALI DI PERICOLO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 18.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 24.50 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 31.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 30.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 37.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 42.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "TRIANGOLO", "dimensione": "NORMALE",
+        "base_cm": 90, "altezza_cm": null, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": "LATO 90 (cella BASE/ALTEZZA unita)", "table_title": "SEGNALI DI PERICOLO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 21.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 27.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 33.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 33.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 40.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 46.00 }
+        ]
+      },
+      {
+        "wl_fe": "1", "wl_al": "1", "codice": null, "articolo": "TRIANGOLO", "dimensione": "GRANDE",
+        "base_cm": 120, "altezza_cm": null, "n_att": "3", "n_rinf_norm_cors": null, "n_rinf_trav_cors": null,
+        "note": "LATO 120 (cella BASE/ALTEZZA unita). WL FE/AL 1 in rosso: destinato alla cantieristica", "table_title": "SEGNALI DI PERICOLO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 37.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 50.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 59.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 55.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 66.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 79.00 }
+        ]
+      },
+      {
+        "wl_fe": "7", "wl_al": "/", "codice": null, "articolo": "TRIANGOLO", "dimensione": "GRANDE",
+        "base_cm": 120, "altezza_cm": null, "n_att": null, "n_rinf_norm_cors": "3", "n_rinf_trav_cors": null,
+        "note": "LATO 120 (cella BASE/ALTEZZA unita)", "table_title": "SEGNALI DI PERICOLO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 40.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 53.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 64.00 }
+        ]
+      },
+      {
+        "wl_fe": "2", "wl_al": "7", "codice": null, "articolo": "TRIANGOLO", "dimensione": "GRANDE",
+        "base_cm": 120, "altezza_cm": null, "n_att": null, "n_rinf_norm_cors": "2", "n_rinf_trav_cors": null,
+        "note": "LATO 120 (cella BASE/ALTEZZA unita). WL FE 2 in rosso: destinato alla cantieristica", "table_title": "SEGNALI DI PERICOLO",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 38.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 52.00 },
+          { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 62.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 63.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 74.00 },
+          { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 86.00 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO. Le figure sono catalogate solo col numero (FIGURA 1 ... FIGURA 35), senza dicitura testuale: 'nome' e quindi null."
+  }
+]

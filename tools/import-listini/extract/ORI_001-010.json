@@ -1,0 +1,854 @@
+[
+  {
+    "tag": "ORI",
+    "page": 1,
+    "page_label": null,
+    "type": "copertina",
+    "section": "Segnaletica Orizzontale",
+    "table_title": null,
+    "figures": [],
+    "rows": [],
+    "page_note": "Frontespizio di sezione: titolo 'Segnaletica Orizzontale' + logo MONDO SEGNALETICA SOC. COOP. Nessun numero di pagina stampato."
+  },
+  {
+    "tag": "ORI",
+    "page": 2,
+    "page_label": null,
+    "type": "altro",
+    "section": null,
+    "table_title": null,
+    "figures": [],
+    "rows": [],
+    "page_note": "Pagina completamente bianca, nessun contenuto."
+  },
+  {
+    "tag": "ORI",
+    "page": 3,
+    "page_label": "055",
+    "type": "listino",
+    "section": "MACCHINE TRACCIALINEE ED ACCESSORI",
+    "table_title": "MACCHINE TRACCIALINEE ED ACCESSORI",
+    "figures": [
+      { "figura": "A", "nome": "macchina tracciatinee (foto prodotto)", "pos": 1 },
+      { "figura": "B", "nome": "macchina tracciatinee (foto prodotto)", "pos": 2 },
+      { "figura": "C", "nome": "macchina tracciatinee (foto prodotto)", "pos": 3 },
+      { "figura": "D", "nome": "pistola manuale - per segnaletica orizzontale", "pos": 4 },
+      { "figura": "E", "nome": "minitraccialinee", "pos": 5 },
+      { "figura": "F / F1", "nome": "bombolette vernice spray", "pos": 6 },
+      { "figura": "G", "nome": "arganetto avvolgicorda", "pos": 7 },
+      { "figura": "G1", "nome": "rotolo corda poliestere", "pos": 8 },
+      { "figura": "H", "nome": "bomboletta zincatura a freddo - galva procat", "pos": 9 },
+      { "figura": "I", "nome": "bomboletta rimozione graffiti - renov industry", "pos": 10 },
+      { "figura": "L", "nome": "bomboletta lubrificante multiuso - multi 500", "pos": 11 },
+      { "figura": "M", "nome": "canna per marcature", "pos": 12 },
+      { "figura": "N", "nome": "canna per marcature con misuratore stradale incorporato", "pos": 13 }
+    ],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "2400MTRMT0001",
+        "articolo": "MACCHINA TRACCIALINEE",
+        "qta_min_ord": "/",
+        "note": "CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "2400MTRMT0002",
+        "articolo": "MACCHINA TRACCIALINEE",
+        "qta_min_ord": "/",
+        "note": "CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl": "*",
+        "figura": "C",
+        "codice": "2400MTRMT0003",
+        "articolo": "MACCHINA TRACCIALINEE",
+        "qta_min_ord": "/",
+        "note": "CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl": "*",
+        "figura": "D",
+        "codice": "2400MTRPM0005",
+        "articolo": "PISTOLA MANUALE PER MACCHINA TRACCIALINEE - MOD. 5",
+        "qta_min_ord": "1",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 500.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "E",
+        "codice": "2400MTRMI0010",
+        "articolo": "MINITRACCIALINEE (BOMBOLETTE VERNICE ESCLUSE)",
+        "qta_min_ord": "1",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 160.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "F",
+        "codice": "2400MTRBM00..",
+        "articolo": "BOMBOLETTA VERNICE SPRAY PER MINITRACCIALINEE - COLORI: BIANCO - GIALLO - ROSSO - NERO",
+        "qta_min_ord": "24",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 17.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "F1",
+        "codice": "2400MTRBM00..",
+        "articolo": "BOMBOLETTA VERNICE SPRAY PER USO MANUALE - COLORI: ARANCIONE FLUO - BIANCO - BLU - GIALLO - ROSSO CILIEGIA - NERO - VERDE FLUO",
+        "qta_min_ord": "24",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 7.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "G",
+        "codice": "2400MTRAA0020",
+        "articolo": "ARGANETTO AVVOLGICORDA",
+        "qta_min_ord": "1",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 460.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "G1",
+        "codice": "2400MTRCP0025",
+        "articolo": "ROTOLO CORDA POLIESTERE - DIAMETRO 6,5 MM - 500 METRI LINEARI",
+        "qta_min_ord": "1",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 400.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "H",
+        "codice": "2400MTRBZ0015",
+        "articolo": "BOMBOLETTA PER ZINCATURA A FREDDO - GALVA PROCAT - BRILLANTE - 500 ML",
+        "qta_min_ord": "24",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 8.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "I",
+        "codice": "2400MTRBM0025",
+        "articolo": "BOMBOLETTA PER RIMOZIONE GRAFFITI - RENOV INDUSTRY - 500 ML",
+        "qta_min_ord": "24",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 14.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "L",
+        "codice": "2400MTRBM0027",
+        "articolo": "BOMBOLETTA LUBRIFICANTE MULTIUSO - MULTI 500 - 400 ML",
+        "qta_min_ord": "12",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 8.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "M",
+        "codice": "2400MTRCM0001",
+        "articolo": "CANNA PER MARCATURE COMPATIBILE CON BOMBOLETTE MANUALI - COD. 42101",
+        "qta_min_ord": "1",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 90.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "N",
+        "codice": "2400MTRCM0002",
+        "articolo": "CANNA PER MARCATURE COMPATIBILE CON BOMBOLETTE MANUALI CON MISURATORE STRADALE INCORPORATO - MAX 1 KM = 999,99 METRI",
+        "qta_min_ord": "1",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 165.00 }]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%"
+  },
+  {
+    "tag": "ORI",
+    "page": 4,
+    "page_label": "056",
+    "type": "listino",
+    "section": "DIME PER SEGNALETICA ORIZZONTALE",
+    "table_title": "DIME PER SEGNALETICA ORIZZONTALE - PRECEDENZA - BUS - NUMERI - LETTERE",
+    "figures": [
+      { "figura": "II 441/A ART. 148", "nome": "iscrizione di stop su strade di tipo A-B-C-D con V > 50 km/h", "lettera": "A", "pos": 1 },
+      { "figura": "II 441/B ART. 148", "nome": "iscrizione di stop su strade di tipo D-E-F con V ≤ 50 km/h", "lettera": "B", "pos": 2 },
+      { "figura": "II 441/C ART. 148", "nome": "iscrizione di corsia riservata su strade di tipo A-B-C-D con V > 50 km/h", "lettera": "C", "pos": 3 },
+      { "figura": "II 441/D ART. 148", "nome": "iscrizione di corsia riservata su strade di tipo D-E-F con V ≤ 50 km/h", "lettera": "D", "pos": 4 },
+      { "figura": "II 442/A ART. 148", "nome": "triangolo elongato complementare del segnale verticale dare la precedenza", "lettera": "E", "pos": 5 },
+      { "figura": "II 433 ART. 144", "nome": "striscia trasversale di dare precedenza - è formata da triangoli con la punta rivolta verso i conducenti in arrivo ed è complementare del segnale verticale dare precedenza", "lettera": "F, G", "pos": 6 },
+      { "figura": null, "nome": "dime numeri 0-9", "lettera": "H", "pos": 7 },
+      { "figura": null, "nome": "dime lettere", "lettera": "I", "pos": 8 }
+    ],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "2400ASODS0030",
+        "articolo": "DIMA STOP EXTRAURBANO",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": null,
+        "dimensione_simbolo_cm": "H 400,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 1115.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "2400ASODS0031",
+        "articolo": "DIMA STOP URBANO",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": null,
+        "dimensione_simbolo_cm": "H 160,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 460.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "C",
+        "codice": "2400ASODB0032",
+        "articolo": "DIMA BUS EXTRAURBANO",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": null,
+        "dimensione_simbolo_cm": "H 400,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 835.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "D",
+        "codice": "2400ASODB0033",
+        "articolo": "DIMA BUS URBANO",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": null,
+        "dimensione_simbolo_cm": "H 160,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 342.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "E",
+        "codice": "2400ASODB0034",
+        "articolo": "DIMA TRIANGOLO PREAVVISO DARE PRECEDENZA",
+        "materiale": "SCATOLATO D'ALLUMINIO",
+        "dimensione_dima_cm": null,
+        "dimensione_simbolo_cm": "100,0 X 200,0",
+        "prezzi": [{ "materiale": "SCATOLATO D'ALLUMINIO", "classe": null, "euro": 350.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "F",
+        "codice": "2400ASODB0048",
+        "articolo": "DIMA 2 TRIANGOLI DARE PRECEDENZA - CM 50x59",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "149,0 X 71,5",
+        "dimensione_simbolo_cm": "125,0 X 59,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 137.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "G",
+        "codice": "2400ASODB0049",
+        "articolo": "DIMA 1 TRIANGOLO DARE PRECEDENZA - CM 60x70",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "74,0 X 83,0",
+        "dimensione_simbolo_cm": "60,0 X 70,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 95.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "H",
+        "codice": "2400ASODN0001",
+        "articolo": "DIMA NUMERI SERIE 0-9 (COMPOSTA DA 9 NUMERI)",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "23,5 X 40,5",
+        "dimensione_simbolo_cm": "15,5 X 30,5",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 450.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "I",
+        "codice": "2400ASODLU01.",
+        "articolo": "DIMA LETTERE",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "14,5 X 45,0",
+        "dimensione_simbolo_cm": "11,5 X 40,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 50.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "I",
+        "codice": "2400ASODLU00.",
+        "articolo": "DIMA LETTERE URBANE - LETTERE DISPONIBILI: A - B - C - D - E - F - G - H - I - K - L - M - N - O - P - Q - R - S - T - U - V - X - Z",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": null,
+        "dimensione_simbolo_cm": "H 160,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 120.00 }]
+      }
+    ],
+    "page_note": null
+  },
+  {
+    "tag": "ORI",
+    "page": 5,
+    "page_label": "057",
+    "type": "listino",
+    "section": "DIME PER SEGNALETICA ORIZZONTALE",
+    "table_title": "DIME PER SEGNALETICA ORIZZONTALE - FIGURE CODICE DELLA STRADA",
+    "figures": [
+      { "figura": "II 442/B ART. 148", "nome": "pista ciclabile", "lettera": "A", "pos": 1 },
+      { "figura": "II 442/B ART. 148", "nome": "pista ciclabile", "lettera": "B", "pos": 2 },
+      { "figura": null, "nome": "motociclo", "lettera": "C", "pos": 3 },
+      { "figura": null, "nome": "motociclo", "lettera": "D", "pos": 4 },
+      { "figura": null, "nome": "attraversamento pedonale", "lettera": "E", "pos": 5 },
+      { "figura": null, "nome": "scuola", "lettera": "F", "pos": 6 },
+      { "figura": null, "nome": "pista pedonale", "lettera": "G", "pos": 7 },
+      { "figura": null, "nome": "disabile", "lettera": "H", "pos": 8 },
+      { "figura": null, "nome": "carico - scarico", "lettera": "I", "pos": 9 }
+    ],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "2400ASODP0036",
+        "articolo": "DIMA PISTA CICLABILE",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "84,0 X 117,0",
+        "dimensione_simbolo_cm": "80,0 X 105,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 200.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "2400ASODP0035",
+        "articolo": "DIMA PISTA CICLABILE (IN 2 PEZZI)",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "160,0 X 210,0",
+        "dimensione_simbolo_cm": "150,0 X 200,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 340.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "C",
+        "codice": "2400ASODM0051",
+        "articolo": "DIMA MOTOCICLO",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "80,0 X 105,0",
+        "dimensione_simbolo_cm": "68,5 X 97,5",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 200.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "D",
+        "codice": "2400ASODM0052",
+        "articolo": "DIMA MOTOCICLO",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "146,2 X 198,6",
+        "dimensione_simbolo_cm": "133,5 X 190,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 355.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "E",
+        "codice": "2400ASODP0037",
+        "articolo": "DIMA ATTRAVERSAMENTO PEDONALE",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "145,0 X 200,0",
+        "dimensione_simbolo_cm": "130,0 X 187,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 340.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "F",
+        "codice": "2400ASODS0053",
+        "articolo": "DIMA SCUOLA",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "97,0 X 180,0",
+        "dimensione_simbolo_cm": "86,0 X 150,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 340.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "G",
+        "codice": "2400ASOPP0041",
+        "articolo": "DIMA PISTA PEDONALE",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "60,0 X 90,0",
+        "dimensione_simbolo_cm": "45,0 X 80,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 200.00 }],
+        "dubbio": "Codice trascritto letteralmente come stampato: '2400ASOPP0041' (con doppia P). Rompe il pattern 2400ASOD** delle altre righe: possibile refuso del listino per 2400ASODP0041. Verificato a zoom 4x. Prezzo NON in dubbio."
+      },
+      {
+        "wl": "*",
+        "figura": "H",
+        "codice": "2400AS0DD0037",
+        "articolo": "DIMA DISABILE",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "83,2 X 89,0",
+        "dimensione_simbolo_cm": "71,0 X 80,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 170.00 }],
+        "dubbio": "Codice trascritto letteralmente come stampato: '2400AS0DD0037' — il 7° carattere è la CIFRA zero (glifo più stretto della lettera O usata nelle altre righe). Probabile refuso del listino per 2400ASODD0037. Verificato a zoom 4x. Prezzo NON in dubbio."
+      },
+      {
+        "wl": "*",
+        "figura": "I",
+        "codice": "2400ASODC0038",
+        "articolo": "DIMA CARICO - SCARICO",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "88,0 X 80,0",
+        "dimensione_simbolo_cm": "77,6 X 70,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 170.00 }]
+      }
+    ],
+    "page_note": null
+  },
+  {
+    "tag": "ORI",
+    "page": 6,
+    "page_label": "058",
+    "type": "listino",
+    "section": "DIME PER SEGNALETICA ORIZZONTALE",
+    "table_title": "DIME PER SEGNALETICA ORIZZONTALE - VARIE",
+    "figures": [
+      { "figura": null, "nome": "stop aereo", "lettera": "A", "pos": 1 },
+      { "figura": null, "nome": "carrello elevatore", "lettera": "B", "pos": 2 },
+      { "figura": null, "nome": "sos", "lettera": "C", "pos": 3 },
+      { "figura": null, "nome": "semiellisse segnale antinebbia", "lettera": "D", "pos": 4 },
+      { "figura": null, "nome": "pedone", "lettera": "E", "pos": 5 }
+    ],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "2400ASODS0055",
+        "articolo": "DIMA STOP AEREO (IN 3 PEZZI)",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "162,0 X 165,0",
+        "dimensione_simbolo_cm": "150,0 X 150,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 560.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "2400ASODC0056",
+        "articolo": "DIMA CARRELLO ELEVATORE",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "71,0 X 74,0",
+        "dimensione_simbolo_cm": "62,0 X 65,5",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 170.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "C",
+        "codice": "2400ASODSOS50",
+        "articolo": "DIMA SOS (IN 2 PEZZI)",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "componenti": [
+          { "parte": "FRECCE", "materiale": "LAMIERA ZINCATA 10/10", "dimensione_dima_cm": "180,0 X 90,0", "dimensione_simbolo_cm": "128,0 X 80,0" },
+          { "parte": "SCRITTA", "materiale": "LAMIERA ZINCATA 10/10", "dimensione_dima_cm": "170,0 X 45,0", "dimensione_simbolo_cm": "130,0 X 30,0" }
+        ],
+        "note": "Prezzo unico 500,00 EURO per il set completo dei 2 pezzi (cella EURO unita sulle due sotto-righe FRECCE e SCRITTA).",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 500.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "D",
+        "codice": "2400ASODS0057",
+        "articolo": "DIMA SEMIELLISSE SEGNALE ANTINEBBIA",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "220,0 X 58,0",
+        "dimensione_simbolo_cm": "200,0 X 40,0",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 150.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "E",
+        "codice": "2400ASODP0058",
+        "articolo": "DIMA PEDONE",
+        "materiale": "LAMIERA ZINCATA 10/10",
+        "dimensione_dima_cm": "60,0 X 60,0",
+        "dimensione_simbolo_cm": "31,0 X 52,5",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 10/10", "classe": null, "euro": 170.00 }]
+      }
+    ],
+    "page_note": null
+  },
+  {
+    "tag": "ORI",
+    "page": 7,
+    "page_label": "059",
+    "type": "listino",
+    "section": "DIME PER SEGNALETICA ORIZZONTALE / VERNICI PER SEGNALETICA ORIZZONTALE",
+    "table_title": null,
+    "figures": [
+      { "figura": "II 438/A ART. 147", "nome": "forma e dimensioni delle frecce direzionali (dimensioni in metri) - frecce direzionali per strade di tipo A-B-C-D di cui all'art. 2, comma 2 del codice", "lettera": "A", "pos": 1 },
+      { "figura": "II 438/B ART. 147", "nome": "forma e dimensioni delle frecce direzionali (dimensioni in metri) - frecce direzionali per strade di tipo E ed F di cui all'art. 2, comma 2 del codice", "lettera": "B", "pos": 2 },
+      { "figura": "II 438/C ART. 147", "nome": "freccia di rientro (dimensioni in metri) - (le linee bianche tratteggiate servono solo per la costruzione grafica del disegno)", "lettera": "C", "pos": 3 },
+      { "figura": null, "nome": "vernice spartitraffico rifrangente", "lettera": "A (tabella vernici)", "pos": 4 },
+      { "figura": null, "nome": "diluente per vernice spartitraffico", "lettera": "B (tabella vernici)", "pos": 5 }
+    ],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "2400ASODF0042",
+        "articolo": "DIMA FRECCIA EXTRAURBANA PUNTA DRITTA",
+        "materiale": "SCATOLATO D'ALLUMINIO",
+        "table_title": "DIME PER SEGNALETICA ORIZZONTALE",
+        "prezzi": [{ "materiale": "SCATOLATO D'ALLUMINIO", "classe": null, "euro": 250.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "2400ASODF0043",
+        "articolo": "DIMA FRECCIA EXTRAURBANA DX/SX",
+        "materiale": "SCATOLATO D'ALLUMINIO",
+        "table_title": "DIME PER SEGNALETICA ORIZZONTALE",
+        "prezzi": [{ "materiale": "SCATOLATO D'ALLUMINIO", "classe": null, "euro": 370.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "2400ASODF0044",
+        "articolo": "DIMA FRECCIA URBANA PUNTA DRITTA",
+        "materiale": "SCATOLATO D'ALLUMINIO",
+        "table_title": "DIME PER SEGNALETICA ORIZZONTALE",
+        "prezzi": [{ "materiale": "SCATOLATO D'ALLUMINIO", "classe": null, "euro": 250.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "2400ASODF0045",
+        "articolo": "DIMA GAMBO PER FRECCIA URBANA",
+        "materiale": "SCATOLATO D'ALLUMINIO",
+        "table_title": "DIME PER SEGNALETICA ORIZZONTALE",
+        "prezzi": [{ "materiale": "SCATOLATO D'ALLUMINIO", "classe": null, "euro": 260.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "2400ASODF0046",
+        "articolo": "DIMA FRECCIA URBANA DX/SX",
+        "materiale": "SCATOLATO D'ALLUMINIO",
+        "table_title": "DIME PER SEGNALETICA ORIZZONTALE",
+        "prezzi": [{ "materiale": "SCATOLATO D'ALLUMINIO", "classe": null, "euro": 360.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "C",
+        "codice": "2400ASODF0047",
+        "articolo": "DIMA FRECCIA URBANA-EXTRAURBANA DI RIENTRO",
+        "materiale": "SCATOLATO D'ALLUMINIO",
+        "table_title": "DIME PER SEGNALETICA ORIZZONTALE",
+        "prezzi": [{ "materiale": "SCATOLATO D'ALLUMINIO", "classe": null, "euro": 500.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": "2400ASOAA0050",
+        "articolo": "ASTA PER PASSAGGI PEDONALI, ECC. - DA 400 CM CADAUNO",
+        "materiale": "ALLUMINIO",
+        "table_title": "DIME PER SEGNALETICA ORIZZONTALE",
+        "prezzi": [{ "materiale": "ALLUMINIO", "classe": null, "euro": 76.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": "2400ASOAA0051",
+        "articolo": "ASTA PER PASSAGGI PEDONALI, ECC. - DA 350 CM CADAUNO",
+        "materiale": "ALLUMINIO",
+        "table_title": "DIME PER SEGNALETICA ORIZZONTALE",
+        "prezzi": [{ "materiale": "ALLUMINIO", "classe": null, "euro": 70.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": "2400ASOAA0052",
+        "articolo": "ASTA PER PASSAGGI PEDONALI, ECC. - DA 300 CM CADAUNO",
+        "materiale": "ALLUMINIO",
+        "table_title": "DIME PER SEGNALETICA ORIZZONTALE",
+        "prezzi": [{ "materiale": "ALLUMINIO", "classe": null, "euro": 56.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": "2400ASODA0053",
+        "articolo": "COPPIA DISTANZIALI PER ASTE (DA CM 0 A CM 50)",
+        "materiale": "/",
+        "table_title": "DIME PER SEGNALETICA ORIZZONTALE",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 150.00 }]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "2400ASOVS00..",
+        "articolo": "VERNICE SPARTITRAFFICO RIFRANGENTE - BIANCA O GIALLA - CONFEZIONE DA 30 KG. CADAUNO",
+        "materiale": null,
+        "table_title": "VERNICI PER SEGNALETICA ORIZZONTALE",
+        "note": "CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "2400ASODV0062",
+        "articolo": "DILUENTE PER VERNICE SPARTITRAFFICO - CONFEZIONE DA 30 LT. CADAUNO",
+        "materiale": null,
+        "table_title": "VERNICI PER SEGNALETICA ORIZZONTALE",
+        "note": "CHIEDERE PREVENTIVO",
+        "prezzi": []
+      }
+    ],
+    "page_note": "Pagina con due tabelle: 'DIME PER SEGNALETICA ORIZZONTALE' (frecce direzionali e aste) e 'VERNICI PER SEGNALETICA ORIZZONTALE'. Le lettere FIGURA A/B ricominciano da capo nella seconda tabella."
+  },
+  {
+    "tag": "ORI",
+    "page": 8,
+    "page_label": "060",
+    "type": "listino",
+    "section": "LAMINATI ELASTOPLASTICI / LAMINATO ELASTOPLASTICO 3M",
+    "table_title": null,
+    "figures": [],
+    "rows": [
+      {
+        "wl": "/",
+        "codice": "3200LELSO0018",
+        "articolo": "BOBINA DA CM 12 X ML 50 - COMPLETO DI PRIMER",
+        "colore": "BIANCO",
+        "qta_min_ord": "/",
+        "table_title": "LAMINATI ELASTOPLASTICI - GARANZIA 1 ANNO",
+        "note": "Prezzo A BOBINA",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 300.00 }]
+      },
+      {
+        "wl": "/",
+        "codice": "3200LELSO0019",
+        "articolo": "BOBINA DA CM 15 X ML 50 - COMPLETO DI PRIMER",
+        "colore": "BIANCO",
+        "qta_min_ord": "/",
+        "table_title": "LAMINATI ELASTOPLASTICI - GARANZIA 1 ANNO",
+        "note": "Prezzo A BOBINA",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 375.00 }]
+      },
+      {
+        "wl": "/",
+        "codice": "3200LELSO0015",
+        "articolo": "BOBINA DA CM 50 X ML 25 - COMPLETO DI PRIMER",
+        "colore": "BIANCO",
+        "qta_min_ord": "/",
+        "table_title": "LAMINATI ELASTOPLASTICI - GARANZIA 1 ANNO",
+        "note": "Prezzo A BOBINA",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 615.00 }]
+      },
+      {
+        "wl": "/",
+        "codice": "3200LELS60044",
+        "articolo": "BOBINA DA CM 12 X ML 50 - COMPLETO DI PRIMER",
+        "colore": "GIALLO",
+        "qta_min_ord": "/",
+        "table_title": "LAMINATI ELASTOPLASTICI - GARANZIA 1 ANNO",
+        "note": "Prezzo A BOBINA",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 300.00 }]
+      },
+      {
+        "wl": "/",
+        "codice": "3200LELS60045",
+        "articolo": "BOBINA DA CM 15 X ML 50 - COMPLETO DI PRIMER",
+        "colore": "GIALLO",
+        "qta_min_ord": "/",
+        "table_title": "LAMINATI ELASTOPLASTICI - GARANZIA 1 ANNO",
+        "note": "Prezzo A BOBINA",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 375.00 }]
+      },
+      {
+        "wl": "/",
+        "codice": "3200LELS60041",
+        "articolo": "BOBINA DA CM 50 X ML 25 - COMPLETO DI PRIMER",
+        "colore": "GIALLO",
+        "qta_min_ord": "/",
+        "table_title": "LAMINATI ELASTOPLASTICI - GARANZIA 1 ANNO",
+        "note": "Prezzo A BOBINA",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 615.00 }]
+      },
+      {
+        "wl": "/",
+        "codice": "3200LELSI0036",
+        "articolo": "SIMBOLO 60 X 60 - CARICO-SCARICO - COMPLETO DI PRIMER",
+        "qta_min_ord": "/",
+        "table_title": "LAMINATI ELASTOPLASTICI - GARANZIA 1 ANNO",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 100.00 }]
+      },
+      {
+        "wl": "/",
+        "codice": "3200LELSI0035",
+        "articolo": "SIMBOLO 60 X 60 - INVALIDO - COMPLETO DI PRIMER",
+        "qta_min_ord": "/",
+        "table_title": "LAMINATI ELASTOPLASTICI - GARANZIA 1 ANNO",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 100.00 }]
+      },
+      {
+        "wl": "/",
+        "codice": "3200LELPI0001",
+        "articolo": "PRIMER PER LAMINATO (CONFEZIONE DA 20 KG) - RESA: 300 GRAMMI / MQ",
+        "qta_min_ord": "/",
+        "table_title": "LAMINATI ELASTOPLASTICI - GARANZIA 1 ANNO",
+        "note": "Prezzo al KG: stampato '18,00/kg'",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 18.00, "unita": "kg" }]
+      },
+      {
+        "wl": "/",
+        "codice": "3200LELSL0001",
+        "articolo": "BOBINA DA CM 50 X ML 22,86 - SERIE L380IES - COMPLETO DI PRIMER P50",
+        "colore": "BIANCO",
+        "qta_min_ord": "/",
+        "table_title": "LAMINATO ELASTOPLASTICO 3M",
+        "note": "Prezzo A BOBINA",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 960.00 }]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%"
+  },
+  {
+    "tag": "ORI",
+    "page": 9,
+    "page_label": "061",
+    "type": "listino",
+    "section": "LAMINATI ELASTOPLASTICI - SNOLINE",
+    "table_title": null,
+    "figures": [
+      { "figura": "A", "nome": "kit bande sonore (rotolo supporto, rotolo dentello, avvivatore, fissapolvere)", "pos": 1 },
+      { "figura": "B", "nome": "bobina tempoline - serie temporanea autoadesiva", "pos": 2 },
+      { "figura": "C", "nome": "laminato blu per parcheggi a pagamento non autoadesivo", "pos": 3 }
+    ],
+    "rows": [
+      {
+        "wl": null,
+        "figura": "A",
+        "codice": "3200LELKB0002",
+        "articolo": "KIT BANDE SONORE DA 25 ML CADAUNO - COMPOSTO DA: - N. 1 ROTOLO DI SUPPORTO DA 15 CM X 25,00 ML - N. 1 ROTOLO DI DENTELLO DA 12 CM X 25,00 ML - N. 1 CONFEZIONE DI AVVIVATORE DA 3,500 KG CIRCA - N. 1 CONFEZIONE DI FISSAPOLVERE DA 1,900 KG CIRCA",
+        "colore": "BIANCO",
+        "qta_min_ord": "1",
+        "table_title": "LAMINATI ELASTOPLASTICI - SNOLINE - KIT BANDE SONORE",
+        "note": "Prezzo A KIT. Documenti contenuti nella confezione: istruzioni per la posa, scheda tecnica, scheda sicurezza fissapolvere ed avvivatore.",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 500.00 }]
+      },
+      {
+        "wl": null,
+        "figura": "/",
+        "codice": "3200LELAV0001",
+        "articolo": "AVVIVATORE",
+        "colore": "/",
+        "qta_min_ord": "10 KG",
+        "table_title": "LAMINATI ELASTOPLASTICI - SNOLINE - KIT BANDE SONORE",
+        "note": "Prezzo al KG: stampato '18,00/kg'",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 18.00, "unita": "kg" }]
+      },
+      {
+        "wl": null,
+        "figura": "/",
+        "codice": "3200LELFI0002",
+        "articolo": "FISSAPOLVERE",
+        "colore": "/",
+        "qta_min_ord": "10 KG",
+        "table_title": "LAMINATI ELASTOPLASTICI - SNOLINE - KIT BANDE SONORE",
+        "note": "Prezzo al KG: stampato '18,00/kg'",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 18.00, "unita": "kg" }]
+      },
+      {
+        "wl": "/",
+        "figura": "B",
+        "codice": "3200LELIN0006",
+        "articolo": "BOBINA \"TEMPOLINE\" DA CM 12 X ML 100 - COMPLETO DI PRIMER T4",
+        "colore": "GIALLO",
+        "qta_min_ord": "2",
+        "table_title": "SERIE TEMPORANEA AUTOADESIVA PER SEGNALETICA ORIZZONTALE",
+        "note": "Prezzo A BOBINA",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 520.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "B",
+        "codice": "3200LELIN0007",
+        "articolo": "BOBINA \"TEMPOLINE\" DA CM 15 X ML 100 - COMPLETO DI PRIMER T4",
+        "colore": "GIALLO",
+        "qta_min_ord": "2",
+        "table_title": "SERIE TEMPORANEA AUTOADESIVA PER SEGNALETICA ORIZZONTALE",
+        "note": "Prezzo A BOBINA",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 650.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "B",
+        "codice": "3200LELIN0010",
+        "articolo": "BOBINA \"TEMPOLINE\" DA CM 25 X ML 50 - COMPLETO DI PRIMER T4",
+        "colore": "GIALLO",
+        "qta_min_ord": "2",
+        "table_title": "SERIE TEMPORANEA AUTOADESIVA PER SEGNALETICA ORIZZONTALE",
+        "note": "Prezzo A BOBINA",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 550.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "B",
+        "codice": "3200LELIN0011",
+        "articolo": "BOBINA \"TEMPOLINE\" DA CM 30 X ML 50 - COMPLETO DI PRIMER T4",
+        "colore": "GIALLO",
+        "qta_min_ord": "2",
+        "table_title": "SERIE TEMPORANEA AUTOADESIVA PER SEGNALETICA ORIZZONTALE",
+        "note": "Prezzo A BOBINA",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 650.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "B",
+        "codice": "3200LELIN0012",
+        "articolo": "BOBINA \"TEMPOLINE\" DA CM 50 X ML 25 - COMPLETO DI PRIMER T4",
+        "colore": "GIALLO",
+        "qta_min_ord": "2",
+        "table_title": "SERIE TEMPORANEA AUTOADESIVA PER SEGNALETICA ORIZZONTALE",
+        "note": "Prezzo A BOBINA",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 550.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "C",
+        "codice": "3200LELLR0044",
+        "articolo": "ART. 374502DB - LAMINATO REFLEX NON AUTOADESIVO DA CM 12 X ML 25 - COMPLETO DI FISSAPOLVERE E AVVIVATORE",
+        "colore": "BLU (PER PARCHEGGI A PAGAMENTO)",
+        "qta_min_ord": "2",
+        "table_title": "LAMINATO BLU PER PARCHEGGI A PAGAMENTO NON AUTOADESIVO",
+        "note": "Prezzo A BOBINA",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 190.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "/",
+        "codice": "3200LELFI0002",
+        "articolo": "FISSAPOLVERE PER LAMINATO BLU PER PARCHEGGI A PAGAMENTO",
+        "colore": "/",
+        "qta_min_ord": "10 KG",
+        "table_title": "LAMINATO BLU PER PARCHEGGI A PAGAMENTO NON AUTOADESIVO",
+        "note": "Prezzo al KG: stampato '18,00/kg'",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 18.00, "unita": "kg" }]
+      },
+      {
+        "wl": "/",
+        "figura": "/",
+        "codice": "3200LELAV0001",
+        "articolo": "AVVIVATORE PER LAMINATO BLU PER PARCHEGGI A PAGAMENTO",
+        "colore": "/",
+        "qta_min_ord": "10 KG",
+        "table_title": "LAMINATO BLU PER PARCHEGGI A PAGAMENTO NON AUTOADESIVO",
+        "note": "Prezzo al KG: stampato '18,00/kg'",
+        "prezzi": [{ "materiale": null, "classe": null, "euro": 18.00, "unita": "kg" }]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%"
+  },
+  {
+    "tag": "ORI",
+    "page": 10,
+    "page_label": "062",
+    "type": "altro",
+    "section": null,
+    "table_title": null,
+    "figures": [],
+    "rows": [],
+    "page_note": "Pagina bianca (solo numero di pagina 062 in basso a sinistra)."
+  }
+]

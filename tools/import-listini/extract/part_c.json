@@ -1,0 +1,226 @@
+[
+{
+  "tag": "VER",
+  "page": 20,
+  "page_label": "018",
+  "type": "listino",
+  "section": "SEGNALI DI OBBLIGO",
+  "table_title": "IN PELLICOLA CLASSE II AD ELEVATA EFFICIENZA AI SENSI DELL'ARTICOLO 79 COMMA 12 - CONSIGLIATI",
+  "page_note": "N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO | N.B.: I DISCHI Ø 60 CON 8 ATTACCHI POSSONO ESSERE UTILIZZATI COME FIG. 80/A-B-C 82/A-B",
+  "figures": [
+    { "figura": "80/A", "nome": null, "pos": 1 },
+    { "figura": "80/B", "nome": null, "pos": 2 },
+    { "figura": "80/C", "nome": null, "pos": 3 },
+    { "figura": "80/D", "nome": null, "pos": 4 },
+    { "figura": "80/E", "nome": null, "pos": 5 },
+    { "figura": "81/A", "nome": null, "pos": 6 },
+    { "figura": "81/B", "nome": null, "pos": 7 },
+    { "figura": "81/C", "nome": null, "pos": 8 },
+    { "figura": "82/A", "nome": null, "pos": 9 },
+    { "figura": "82/B", "nome": null, "pos": 10 },
+    { "figura": "83", "nome": null, "pos": 11 },
+    { "figura": "84", "nome": null, "pos": 12 },
+    { "figura": "85", "nome": null, "pos": 13 },
+    { "figura": "86", "nome": null, "pos": 14 },
+    { "figura": "87", "nome": null, "pos": 15 },
+    { "figura": "88", "nome": null, "pos": 16 },
+    { "figura": "89", "nome": null, "pos": 17 },
+    { "figura": "90", "nome": null, "pos": 18 },
+    { "figura": "91", "nome": null, "pos": 19 },
+    { "figura": "92/A", "nome": null, "pos": 20 },
+    { "figura": "92/B", "nome": null, "pos": 21 },
+    { "figura": "93/A", "nome": null, "pos": 22 },
+    { "figura": "93/B", "nome": null, "pos": 23 },
+    { "figura": "94", "nome": null, "pos": 24 },
+    { "figura": "95", "nome": null, "pos": 25 },
+    { "figura": "96", "nome": "dogana douane", "pos": 26 },
+    { "figura": "98", "nome": "alt polizia", "pos": 27 },
+    { "figura": "99", "nome": "alt stazione", "pos": 28 },
+    { "figura": "97/A", "nome": "italia", "pos": 29 },
+    { "figura": "1/B", "nome": "1 km", "pos": 30 }
+  ],
+  "rows": [
+    { "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "DISCO", "dimensione": "PICCOLO", "base_cm": null, "altezza_cm": null, "diametro_cm": 40, "n_att": "2", "n_rinf_norm": null, "n_rinf_trav": null, "note": "Ø 40", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 11.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 13.50 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 15.50 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 18.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 20.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 23.00 }
+    ]},
+    { "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "DISCO", "dimensione": "NORMALE", "base_cm": null, "altezza_cm": null, "diametro_cm": 60, "n_att": "2", "n_rinf_norm": null, "n_rinf_trav": null, "note": "Ø 60", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 17.50 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 24.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 29.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 27.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 34.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 40.00 }
+    ]},
+    { "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "DISCO", "dimensione": "NORMALE", "base_cm": null, "altezza_cm": null, "diametro_cm": 60, "n_att": null, "n_rinf_norm": "2", "n_rinf_trav": null, "note": "Ø 60", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 21.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 27.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 33.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 33.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 40.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 47.00 }
+    ]},
+    { "wl_fe": "1", "wl_al": "3", "codice": null, "articolo": "DISCO", "dimensione": "NORMALE GIR.", "base_cm": null, "altezza_cm": null, "diametro_cm": 60, "n_att": "1 ATTACCO + BUSSOLA", "n_rinf_norm": null, "n_rinf_trav": null, "note": "Ø 60", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 17.50 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 24.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 29.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 27.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 34.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 40.00 }
+    ]},
+    { "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "DISCO", "dimensione": "NORMALE", "base_cm": null, "altezza_cm": null, "diametro_cm": 60, "n_att": "8", "n_rinf_norm": null, "n_rinf_trav": null, "note": "Ø 60", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 24.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 31.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 36.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 33.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 40.50 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 46.50 }
+    ]},
+    { "wl_fe": "1", "wl_al": "2", "codice": null, "articolo": "DISCO", "dimensione": "GRANDE", "base_cm": null, "altezza_cm": null, "diametro_cm": 90, "n_att": "3", "n_rinf_norm": null, "n_rinf_trav": null, "note": "Ø 90", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 35.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 50.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 64.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 58.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 73.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 86.00 }
+    ]},
+    { "wl_fe": "7", "wl_al": "/", "codice": null, "articolo": "DISCO", "dimensione": "GRANDE", "base_cm": null, "altezza_cm": null, "diametro_cm": 90, "n_att": null, "n_rinf_norm": "3", "n_rinf_trav": null, "note": "Ø 90", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 43.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 57.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 72.00 }
+    ]},
+    { "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "DISCO", "dimensione": "GRANDE", "base_cm": null, "altezza_cm": null, "diametro_cm": 90, "n_att": null, "n_rinf_norm": "2", "n_rinf_trav": null, "note": "Ø 90", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 41.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 55.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 70.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 61.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 77.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 90.00 }
+    ]},
+    { "wl_fe": "1", "wl_al": "2", "codice": null, "articolo": "DISCO", "dimensione": "GRANDE GIR.", "base_cm": null, "altezza_cm": null, "diametro_cm": 90, "n_att": "1 RINFORZO + BUSSOLA", "n_rinf_norm": null, "n_rinf_trav": null, "note": "Ø 90", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 35.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 50.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 64.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 58.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 73.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 86.00 }
+    ]},
+    { "wl_fe": "7", "wl_al": "/", "codice": null, "articolo": "97/A", "dimensione": "NORMALE", "base_cm": 120, "altezza_cm": 120, "n_att": "3", "n_rinf_norm": null, "n_rinf_trav": null, "note": null, "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 120.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 173.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 218.00 }
+    ]},
+    { "wl_fe": "/", "wl_al": "7", "codice": null, "articolo": "97/A", "dimensione": "NORMALE", "base_cm": 120, "altezza_cm": 120, "n_att": "2", "n_rinf_norm": null, "n_rinf_trav": null, "note": null, "prezzi": [
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 170.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 210.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 255.00 }
+    ]},
+    { "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "97/A", "dimensione": "GRANDE", "base_cm": 150, "altezza_cm": 150, "n_att": "3", "n_rinf_norm": null, "n_rinf_trav": null, "note": null, "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 185.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 275.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 330.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 270.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 350.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 430.00 }
+    ]},
+    { "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "1/B", "dimensione": "PICCOLO", "base_cm": 120, "altezza_cm": 30, "n_att": "2", "n_rinf_norm": null, "n_rinf_trav": null, "note": null, "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 32.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 35.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 40.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 46.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 53.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 60.00 }
+    ]},
+    { "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "1/B", "dimensione": "GRANDE", "base_cm": 150, "altezza_cm": 40, "n_att": "2", "n_rinf_norm": null, "n_rinf_trav": null, "note": null, "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 49.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 64.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 74.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 75.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 89.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 98.00 }
+    ]}
+  ]
+},
+{
+  "tag": "VER",
+  "page": 21,
+  "page_label": "019",
+  "type": "listino",
+  "section": "SEGNALI DI FERMATA - SOSTA E PARCHEGGIO",
+  "table_title": null,
+  "page_note": "N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO",
+  "figures": [
+    { "figura": "309/P", "nome": "strada senza uscita", "pos": 1 },
+    { "figura": "77/G", "nome": "parcheggio privato", "pos": 2 },
+    { "figura": "77/H", "nome": "riservato ai Dirigenti", "pos": 3 },
+    { "figura": "77/I", "nome": "riservato ai Visitatori", "pos": 4 },
+    { "figura": "77/L", "nome": "riservato ai Condomini", "pos": 5 },
+    { "figura": "77/M", "nome": "riservato ai Clienti", "pos": 6 },
+    { "figura": "77/N", "nome": "riservato ai Dipendenti", "pos": 7 },
+    { "figura": "77/O", "nome": "riservato ai Fornitori", "pos": 8 },
+    { "figura": "77/P", "nome": "riservato ai cicli e motocicli", "pos": 9 },
+    { "figura": "77/Q", "nome": "parcheggio freccia sinistra", "pos": 10 },
+    { "figura": "77/R", "nome": "parcheggio freccia destra", "pos": 11 },
+    { "figura": "77/S", "nome": "parcheggio freccia dritto", "pos": 12 },
+    { "figura": "35/A", "nome": "entrare e uscire adagio", "pos": 13 },
+    { "figura": "35/B", "nome": "attenzione caduta neve dal tetto", "pos": 14 },
+    { "figura": "35/C", "nome": "attenzione struttura pericolante", "pos": 15 },
+    { "figura": "75/A", "nome": "divieto di fermata lasciare libero il passaggio", "pos": 16 },
+    { "figura": "74/A", "nome": "sosta consentita solo per carico e scarico", "pos": 17 },
+    { "figura": "74/B", "nome": "sosta vietata", "pos": 18 },
+    { "figura": "78", "nome": "passo carrabile", "pos": 19 },
+    { "figura": "74/E", "nome": "passo carrabile", "pos": 20 },
+    { "figura": "74/F", "nome": "divieto di sosta fuori dagli spazi delimitati", "pos": 21 },
+    { "figura": "74/G", "nome": "proprietà privata lasciare libero il passaggio", "pos": 22 },
+    { "figura": "74/H", "nome": "proprietà privata divieto di sosta", "pos": 23 },
+    { "figura": "47/A", "nome": "proprietà privata vietato l'accesso alle persone non autorizzate", "pos": 24 },
+    { "figura": "47/B", "nome": "vietato l'accesso ai mezzi non autorizzati", "pos": 25 },
+    { "figura": "47/C", "nome": "proprietà privata vietato l'accesso", "pos": 26 },
+    { "figura": "47/D", "nome": "strada privata vietato l'accesso", "pos": 27 },
+    { "figura": "47/E", "nome": "vietato l'accesso", "pos": 28 },
+    { "figura": "37/A", "nome": "vietato l'ingresso agli estranei al condominio", "pos": 29 }
+  ],
+  "rows": [
+    { "wl_fe": "/", "wl_al": "*", "codice": null, "articolo": "TARGA PIANA", "dimensione": "PICCOLA", "base_cm": 25, "altezza_cm": 45, "note": "ALL. 10/10 + 4 FORI", "table_title": "TARGA PIANA - ALLUMINIO + FORI", "prezzi": [
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 9.50 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 11.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 13.00 }
+    ]},
+    { "wl_fe": "/", "wl_al": "*", "codice": null, "articolo": "TARGA PIANA", "dimensione": "PICCOLA", "base_cm": 40, "altezza_cm": 60, "note": "ALL. 10/10 + 4 FORI", "table_title": "TARGA PIANA - ALLUMINIO + FORI", "prezzi": [
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 16.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 21.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 26.00 }
+    ]},
+    { "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "TARGA", "dimensione": "PICCOLA", "base_cm": 40, "altezza_cm": 60, "n_att": "2", "n_rinf_norm": null, "n_rinf_trav": null, "note": null, "table_title": "TARGA - LAMIERA 10/10 / ALLUMINIO 25/10", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 18.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 24.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 28.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 30.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 35.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 40.00 }
+    ]},
+    { "wl_fe": "6", "wl_al": "/", "codice": null, "articolo": "TARGA", "dimensione": "NORMALE", "base_cm": 60, "altezza_cm": 90, "n_att": "3", "n_rinf_norm": null, "n_rinf_trav": null, "note": null, "table_title": "TARGA - LAMIERA 10/10 / ALLUMINIO 25/10", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 39.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 53.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 64.00 }
+    ]},
+    { "wl_fe": "7", "wl_al": "7", "codice": null, "articolo": "TARGA", "dimensione": "NORMALE", "base_cm": 60, "altezza_cm": 90, "n_att": null, "n_rinf_norm": "2", "n_rinf_trav": null, "note": null, "table_title": "TARGA - LAMIERA 10/10 / ALLUMINIO 25/10", "prezzi": [
+      { "materiale": "LAMIERA 10/10", "classe": "CL 1", "euro": 40.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2", "euro": 54.00 },
+      { "materiale": "LAMIERA 10/10", "classe": "CL 2 S.", "euro": 65.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 65.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 78.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 87.00 }
+    ]},
+    { "wl_fe": "/", "wl_al": "7", "codice": null, "articolo": "TARGA", "dimensione": "NORMALE", "base_cm": 60, "altezza_cm": 90, "n_att": "2", "n_rinf_norm": null, "n_rinf_trav": null, "note": null, "table_title": "TARGA - LAMIERA 10/10 / ALLUMINIO 25/10", "prezzi": [
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 1", "euro": 60.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2", "euro": 72.00 },
+      { "materiale": "ALLUMINIO 25/10", "classe": "CL 2 S.", "euro": 80.00 }
+    ]}
+  ]
+}
+]

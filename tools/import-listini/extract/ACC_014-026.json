@@ -1,0 +1,1620 @@
+[
+  {
+    "tag": "ACC",
+    "page": 14,
+    "page_label": "110",
+    "type": "listino",
+    "section": "SPECCHI PARABOLICI",
+    "table_title": null,
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%",
+    "figures": [],
+    "rows": [
+      {
+        "table_title": "SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESM0001",
+        "articolo": "SPECCHIO PARABOLICO Ø 50",
+        "pezzi_conf": "1",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 50.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESM0002",
+        "articolo": "SPECCHIO PARABOLICO Ø 60",
+        "pezzi_conf": "1",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 54.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESM0003",
+        "articolo": "SPECCHIO PARABOLICO Ø 70",
+        "pezzi_conf": "1",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 68.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESM0004",
+        "articolo": "SPECCHIO PARABOLICO Ø 80",
+        "pezzi_conf": "1",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 82.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESM0005",
+        "articolo": "SPECCHIO PARABOLICO Ø 90",
+        "pezzi_conf": "1",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 100.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": null,
+        "codice": "1600SPEVI0025",
+        "articolo": "VISIERA PER SPECCHIO IN METALLO Ø 60",
+        "pezzi_conf": null,
+        "qta_min_ord": "10",
+        "note": "CODICE 1600SPEVI0025 CONDIVISO DALLE 4 MISURE DI VISIERA",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 7.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": null,
+        "codice": "1600SPEVI0025",
+        "articolo": "VISIERA PER SPECCHIO IN METALLO Ø 70",
+        "pezzi_conf": null,
+        "qta_min_ord": "10",
+        "note": "CODICE 1600SPEVI0025 CONDIVISO DALLE 4 MISURE DI VISIERA",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 7.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": null,
+        "codice": "1600SPEVI0025",
+        "articolo": "VISIERA PER SPECCHIO IN METALLO Ø 80",
+        "pezzi_conf": null,
+        "qta_min_ord": "10",
+        "note": "CODICE 1600SPEVI0025 CONDIVISO DALLE 4 MISURE DI VISIERA",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 7.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": null,
+        "codice": "1600SPEVI0025",
+        "articolo": "VISIERA PER SPECCHIO IN METALLO Ø 90",
+        "pezzi_conf": null,
+        "qta_min_ord": "10",
+        "note": "CODICE 1600SPEVI0025 CONDIVISO DALLE 4 MISURE DI VISIERA",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 7.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": "B",
+        "codice": "1600SPEME0045",
+        "articolo": "MENSOLA A PARETE - ANCORAGGIO SPECCHI: DA MURARE",
+        "pezzi_conf": null,
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 10.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": "C",
+        "codice": "1600SPEME0046",
+        "articolo": "MENSOLA A PARETE - ANCORAGGIO SPECCHI: FISSAGGIO CON TASSELLI (ESCLUSI)",
+        "pezzi_conf": null,
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 12.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN PVC CON VISIERA",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESP0010",
+        "articolo": "SPECCHIO PARABOLICO CON VISIERA Ø 40",
+        "pezzi_conf": "1",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 30.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN PVC CON VISIERA",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESP0011",
+        "articolo": "SPECCHIO PARABOLICO CON VISIERA Ø 50",
+        "pezzi_conf": "1",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 30.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN PVC CON VISIERA",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESP0012",
+        "articolo": "SPECCHIO PARABOLICO CON VISIERA Ø 60",
+        "pezzi_conf": "1",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 35.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN PVC CON VISIERA",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESP0013",
+        "articolo": "SPECCHIO PARABOLICO CON VISIERA Ø 70",
+        "pezzi_conf": "1",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 50.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN PVC CON VISIERA",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESP0014",
+        "articolo": "SPECCHIO PARABOLICO CON VISIERA Ø 80",
+        "pezzi_conf": "1",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 65.00 }]
+      },
+      {
+        "table_title": "SPECCHI PARABOLICI IN PVC CON VISIERA",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESP0015",
+        "articolo": "SPECCHIO PARABOLICO CON VISIERA Ø 90",
+        "pezzi_conf": "1",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 76.00 }]
+      }
+    ]
+  },
+  {
+    "tag": "ACC",
+    "page": 15,
+    "page_label": "111",
+    "type": "listino",
+    "section": "SEMISFERE - PARABOLE - SPECCHI RETTANGOLARI",
+    "table_title": null,
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%",
+    "figures": [],
+    "rows": [
+      {
+        "table_title": "SEMISFERE",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESM0050",
+        "articolo": "SEMISFERA Ø 40",
+        "qta_min_ord": null,
+        "prezzi": [
+          { "materiale": null, "classe": null, "variante": "DA 1 A 5 PEZZI", "euro": 61.00 },
+          { "materiale": null, "classe": null, "variante": "OLTRE", "euro": 55.00 }
+        ]
+      },
+      {
+        "table_title": "SEMISFERE",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESM0051",
+        "articolo": "SEMISFERA Ø 60",
+        "qta_min_ord": null,
+        "prezzi": [
+          { "materiale": null, "classe": null, "variante": "DA 1 A 5 PEZZI", "euro": 130.00 },
+          { "materiale": null, "classe": null, "variante": "OLTRE", "euro": 120.00 }
+        ]
+      },
+      {
+        "table_title": "SEMISFERE",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESM0052",
+        "articolo": "SEMISFERA Ø 70",
+        "qta_min_ord": null,
+        "prezzi": [
+          { "materiale": null, "classe": null, "variante": "DA 1 A 5 PEZZI", "euro": 180.00 },
+          { "materiale": null, "classe": null, "variante": "OLTRE", "euro": 170.00 }
+        ]
+      },
+      {
+        "table_title": "SEMISFERE",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESM0053",
+        "articolo": "SEMISFERA Ø 80",
+        "qta_min_ord": null,
+        "prezzi": [
+          { "materiale": null, "classe": null, "variante": "DA 1 A 5 PEZZI", "euro": 230.00 },
+          { "materiale": null, "classe": null, "variante": "OLTRE", "euro": 210.00 }
+        ]
+      },
+      {
+        "table_title": "PARABOLE - RICAMBI PER SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPEPA0035",
+        "articolo": "SPECCHIO PARABOLICO Ø 50",
+        "qta_min_ord": "5",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 15.00 }]
+      },
+      {
+        "table_title": "PARABOLE - RICAMBI PER SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPEPA0036",
+        "articolo": "SPECCHIO PARABOLICO Ø 60",
+        "qta_min_ord": "5",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 19.00 }]
+      },
+      {
+        "table_title": "PARABOLE - RICAMBI PER SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPEPA0037",
+        "articolo": "SPECCHIO PARABOLICO Ø 70",
+        "qta_min_ord": "5",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 29.00 }]
+      },
+      {
+        "table_title": "PARABOLE - RICAMBI PER SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPEPA0038",
+        "articolo": "SPECCHIO PARABOLICO Ø 80",
+        "qta_min_ord": "5",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 38.00 }]
+      },
+      {
+        "table_title": "PARABOLE - RICAMBI PER SPECCHI PARABOLICI IN METALLO",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPEPA0039",
+        "articolo": "SPECCHIO PARABOLICO Ø 90",
+        "qta_min_ord": "5",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 47.00 }]
+      },
+      {
+        "table_title": "SPECCHI RETTANGOLARI - RETRO BIANCO - SPECCHIO ACRILICO CON ATTACCO Ø 60 O Ø 76",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESR0020",
+        "articolo": "SPECCHIO RETTANGOLARE 60x40",
+        "qta_min_ord": "2",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 200.00 }]
+      },
+      {
+        "table_title": "SPECCHI RETTANGOLARI - RETRO BIANCO - SPECCHIO ACRILICO CON ATTACCO Ø 60 O Ø 76",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESR0021",
+        "articolo": "SPECCHIO RETTANGOLARE 80x60",
+        "qta_min_ord": "2",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 260.00 }]
+      },
+      {
+        "table_title": "SPECCHI RETTANGOLARI - RETRO BIANCO - SPECCHIO ACRILICO CON ATTACCO Ø 60 O Ø 76",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESR0022",
+        "articolo": "SPECCHIO RETTANGOLARE 100x80",
+        "qta_min_ord": "2",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 385.00 }]
+      }
+    ]
+  },
+  {
+    "tag": "ACC",
+    "page": 16,
+    "page_label": "112",
+    "type": "listino",
+    "section": "SPECCHIO METALLICO",
+    "table_title": "SPECCHIO METALLICO - CARCASSA IN LAMIERA ZINCATA E VERNICIATA - PARTE SPECCHIANTE IN ACCIAIO INOX",
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%",
+    "figures": [],
+    "rows": [
+      {
+        "table_title": "SPECCHIO METALLICO - CARCASSA IN LAMIERA ZINCATA E VERNICIATA - PARTE SPECCHIANTE IN ACCIAIO INOX",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1600SPESA0023",
+        "articolo": "SPECCHIO PARABOLICO Ø 32 - CON ATTACCO Ø 50",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 85.00 }]
+      },
+      {
+        "table_title": "SPECCHIO METALLICO - CARCASSA IN LAMIERA ZINCATA E VERNICIATA - PARTE SPECCHIANTE IN ACCIAIO INOX",
+        "wl": "*",
+        "figura": "B",
+        "codice": "1600SPESA0024",
+        "articolo": "SPECCHIO PARABOLICO Ø 49 - CON ATTACCO Ø 60",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 130.00 }]
+      },
+      {
+        "table_title": "SPECCHIO METALLICO - CARCASSA IN LAMIERA ZINCATA E VERNICIATA - PARTE SPECCHIANTE IN ACCIAIO INOX",
+        "wl": "*",
+        "figura": "C",
+        "codice": "1600SPESA0025",
+        "articolo": "SPECCHIO PARABOLICO Ø 60 - CON ATTACCO Ø 60",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 216.00 }]
+      },
+      {
+        "table_title": "SPECCHIO METALLICO - CARCASSA IN LAMIERA ZINCATA E VERNICIATA - PARTE SPECCHIANTE IN ACCIAIO INOX",
+        "wl": "*",
+        "figura": "D",
+        "codice": "1600SPESA0026",
+        "articolo": "SPECCHIO PARABOLICO Ø 80 - CON ATTACCO Ø 60",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 285.00 }]
+      },
+      {
+        "table_title": "SPECCHIO METALLICO - CARCASSA IN LAMIERA ZINCATA E VERNICIATA - PARTE SPECCHIANTE IN ACCIAIO INOX",
+        "wl": "*",
+        "figura": "E",
+        "codice": "1600SPESA0027",
+        "articolo": "SPECCHIO PARABOLICO Ø 100 - CON ATTACCO Ø 60",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 480.00 }]
+      },
+      {
+        "table_title": "SPECCHIO METALLICO - CARCASSA IN LAMIERA ZINCATA E VERNICIATA - PARTE SPECCHIANTE IN ACCIAIO INOX",
+        "wl": "*",
+        "figura": "F",
+        "codice": "1600SPESA0028",
+        "articolo": "SPECCHIO RETTANGOLARE 60x45 - CON ATTACCO Ø 60",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 230.00 }]
+      },
+      {
+        "table_title": "SPECCHIO METALLICO - CARCASSA IN LAMIERA ZINCATA E VERNICIATA - PARTE SPECCHIANTE IN ACCIAIO INOX",
+        "wl": "*",
+        "figura": "G",
+        "codice": "1600SPESA0029",
+        "articolo": "SPECCHIO RETTANGOLARE 80x60 - CON ATTACCO Ø 60",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 295.00 }]
+      },
+      {
+        "table_title": "KIT BULLONERIA",
+        "wl": "*",
+        "figura": "H",
+        "codice": "1600SPEKB0047",
+        "articolo": "KIT BULLONERIA PER MONTAGGIO SPECCHI: FIGURA \"A\" - \"B\"",
+        "qta_min_ord": null,
+        "note": "CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "table_title": "KIT BULLONERIA",
+        "wl": "*",
+        "figura": "I",
+        "codice": "1600SPEKB0048",
+        "articolo": "KIT BULLONERIA PER MONTAGGIO SPECCHI: FIGURA \"C\" - \"D\" - \"F\" - \"G\"",
+        "qta_min_ord": null,
+        "note": "CHIEDERE PREVENTIVO",
+        "prezzi": []
+      },
+      {
+        "table_title": "KIT BULLONERIA",
+        "wl": "*",
+        "figura": "L",
+        "codice": "1600SPEKB0049",
+        "articolo": "KIT BULLONERIA PER MONTAGGIO SPECCHI: FIGURA \"E\"",
+        "qta_min_ord": null,
+        "note": "CHIEDERE PREVENTIVO",
+        "prezzi": []
+      }
+    ]
+  },
+  {
+    "tag": "ACC",
+    "page": 17,
+    "page_label": "113",
+    "type": "listino",
+    "section": "ACCESSORI",
+    "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%",
+    "figures": [],
+    "rows": [
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1400ACCAA0001",
+        "articolo": "ARCHETTO ANTISOSTA - TUBO Ø 38 MM - LARGHEZZA: 47 CM - H: 47 CM CIRCA",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": "VERNIC.", "euro": 32.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "B",
+        "codice": "1400ACCPP0040",
+        "articolo": "PALETTO PARAPEDONALE COMPLETO",
+        "qta_min_ord": "24",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 10.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "C",
+        "codice": "1400ACCPP0041",
+        "articolo": "PALETTO PARAPEDONALE",
+        "qta_min_ord": "24",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 5.20 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "D",
+        "codice": "1400ACCBP0045",
+        "articolo": "BASE SOSTEGNO",
+        "qta_min_ord": "24",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 5.20 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "E",
+        "codice": "1400ACCCA0046",
+        "articolo": "CAPPELLOTTO IN PVC",
+        "qta_min_ord": "24",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 0.60 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "F",
+        "codice": "1400ACCCP0115",
+        "articolo": "CATENA IN PVC Ø 6 MM BIANCO/ROSSA - ART. 104 - (CONFEZIONE DA 25 ML)",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 22.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "G",
+        "codice": "1400ACCCP0117",
+        "articolo": "CATENA IN PVC Ø 6 MM GIALLO/NERA - ART. 104 - (CONFEZIONE DA 25 ML)",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 22.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "H",
+        "codice": "1400ACCMP0150",
+        "articolo": "MAGLIA DI CONGIUNZIONE IN PVC",
+        "qta_min_ord": "20",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 0.25 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "I",
+        "codice": "1400ACCCF0120",
+        "articolo": "CATENA IN FERRO ZINCATO A CALDO Ø 6 MM - DIMENSIONI INTERNE 42x12 MM CIRCA",
+        "qta_min_ord": "60 ML",
+        "note": "PREZZO AL METRO LINEARE (3,50/ml)",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 3.50, "unita": "ml" }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "L",
+        "codice": "1400ACCCF0122",
+        "articolo": "CATENA IN FERRO VERNICIATA BIANCO/ROSSA Ø 6 MM - DIMENSIONI INTERNE 42x12 MM CIRCA (CONFEZIONE DA 30 ML)",
+        "qta_min_ord": "60 ML",
+        "note": "PREZZO AL METRO LINEARE (7,00/ml)",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 7.00, "unita": "ml" }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "M",
+        "codice": "1400ACCGS0155",
+        "articolo": "GIUNZIONE \"S\" Ø 8 MM (TIPO UNIVERSALE)",
+        "qta_min_ord": "20",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 0.30 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "N",
+        "codice": "1400ACCTE0105",
+        "articolo": "TEND-EUR IN GOMMA SPECIALE",
+        "qta_min_ord": "20",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 2.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE (TABELLA 2)",
+        "wl": "*",
+        "figura": "O",
+        "codice": "1400ACCPP0050",
+        "articolo": "PALETTO PARAPEDONALE - FASCE RIF. CL. 1",
+        "dimensione": "H 90 CM",
+        "qta_min_ord": "30",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": "FASCE CL. 1", "euro": 14.50 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE (TABELLA 2)",
+        "wl": "*",
+        "figura": "O",
+        "codice": "1400ACCPP0051",
+        "articolo": "PALETTO PARAPEDONALE - VERNICIATO",
+        "dimensione": "H 90 CM",
+        "qta_min_ord": "30",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": "SOLO VERNIC.", "euro": 10.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE (TABELLA 2)",
+        "wl": "*",
+        "figura": "P",
+        "codice": "1400ACCBP0055",
+        "articolo": "BASE PALETTO (RICAMBIO)",
+        "dimensione": "Ø 20 CM",
+        "qta_min_ord": "30",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": "SOLO VERNIC.", "euro": 6.50 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE (TABELLA 2)",
+        "wl": "*",
+        "figura": "Q",
+        "codice": "1400ACCPP0061",
+        "articolo": "PALETTO PARAPEDONALE",
+        "dimensione": "Ø 48 MM - H 120 CM",
+        "qta_min_ord": "52",
+        "prezzi": [
+          { "materiale": null, "classe": null, "variante": "SOLO VERNIC.", "euro": 10.00 },
+          { "materiale": null, "classe": null, "variante": "FASCE NON RIF.", "euro": 13.00 },
+          { "materiale": null, "classe": null, "variante": "FASCE CL. 1", "euro": 15.00 }
+        ]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE (TABELLA 2)",
+        "wl": "*",
+        "figura": "R",
+        "codice": "1400ACCPP0071",
+        "articolo": "PALETTO PARAPEDONALE",
+        "dimensione": "Ø 60 MM - H 120 CM",
+        "qta_min_ord": "52",
+        "prezzi": [
+          { "materiale": null, "classe": null, "variante": "SOLO VERNIC.", "euro": 11.00 },
+          { "materiale": null, "classe": null, "variante": "FASCE NON RIF.", "euro": 14.00 },
+          { "materiale": null, "classe": null, "variante": "FASCE CL. 1", "euro": 16.00 }
+        ]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE (TABELLA 2)",
+        "wl": "*",
+        "figura": "S",
+        "codice": "1400ACCPP0081",
+        "articolo": "PALETTO PARAPEDONALE COMPLETO",
+        "dimensione": "Ø 60 MM - F.T. H 100 CM",
+        "qta_min_ord": "52",
+        "prezzi": [
+          { "materiale": null, "classe": null, "variante": "SOLO VERNIC.", "euro": 25.00 },
+          { "materiale": null, "classe": null, "variante": "FASCE NON RIF.", "euro": 28.00 },
+          { "materiale": null, "classe": null, "variante": "FASCE CL. 1", "euro": 31.00 }
+        ]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE (TABELLA 2)",
+        "wl": "*",
+        "figura": "T",
+        "codice": "1400ACCTB0110",
+        "articolo": "TABELLINA BIFACCIALE ALLUMINIO 10/10",
+        "dimensione": "10x25",
+        "qta_min_ord": "20",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": "FASCE CL. 1", "euro": 6.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE (TABELLA 2)",
+        "wl": "*",
+        "figura": "U",
+        "codice": "1400ACCTM0111",
+        "articolo": "TABELLINA MONOFACCIALE ALLUMINIO 10/10",
+        "dimensione": "20x40",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": "FASCE CL. 1", "euro": 8.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE (TABELLA 2)",
+        "wl": "*",
+        "figura": "V",
+        "codice": "1400ACCTC0100",
+        "articolo": "TENDIFLEX CLASSIC PLUS C/NASTRO ES. 2,30 MT",
+        "qta_min_ord": null,
+        "note": "CHIEDERE PREVENTIVO",
+        "prezzi": []
+      }
+    ]
+  },
+  {
+    "tag": "ACC",
+    "page": 18,
+    "page_label": "114",
+    "type": "listino",
+    "section": "ACCESSORI",
+    "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10% · N.B.: SU TUTTI I PALETTI PARAPEDONALI FIGURA A-B-C-D-L-M-N-O SU RICHIESTA SI POSSONO APPLICARE DISPOSITIVI RIFRANGENTI CL. 1 E CL. 2 (CHIEDERE PREVENTIVO)",
+    "figures": [],
+    "rows": [
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1400ACCPP0090",
+        "articolo": "PALETTO PARAPEDONALE DA MM 100X100 ALTEZZA CM 120 VERNICIATO ANTRACITE",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 90.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "B",
+        "codice": "1400ACCPP0091",
+        "articolo": "PALETTO PARAPEDONALE DA MM 80X80 ALTEZZA CM 120 VERNICIATO ANTRACITE",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 60.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "C",
+        "codice": "1400ACCPP0092",
+        "articolo": "PALETTO PARAPEDONALE DA MM 60X60 ALTEZZA CM 120 VERNICIATO ANTRACITE",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 41.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "D",
+        "codice": "1400ACCPP0093",
+        "articolo": "PALETTO PARAPEDONALE DA MM 40X40 ALTEZZA CM 120 VERNICIATO ANTRACITE",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 27.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "E",
+        "codice": "1400ACCCA0130",
+        "articolo": "CATENA ACCIAIO INOX AISI 304 DA MM 67x30x8",
+        "qta_min_ord": "25 ML",
+        "note": "PREZZO AL METRO LINEARE (24,00/ml)",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 24.00, "unita": "ml" }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "F",
+        "codice": "1400ACCCA0131",
+        "articolo": "CATENA ACCIAIO INOX AISI 304 DA MM 52x24x6",
+        "qta_min_ord": "30 ML",
+        "note": "PREZZO AL METRO LINEARE (14,00/ml)",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 14.00, "unita": "ml" }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "G",
+        "codice": "1400ACCCA0132",
+        "articolo": "CATENA ACCIAIO INOX AISI 304 DA MM 44x20x5",
+        "qta_min_ord": "40 ML",
+        "note": "PREZZO AL METRO LINEARE (9,00/ml)",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 9.00, "unita": "ml" }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "H",
+        "codice": "1400ACCCA0140",
+        "articolo": "GOLFARE MASCHIO Ø 8 MM INOX",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 7.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "I",
+        "codice": "1400ACCMA0145",
+        "articolo": "MAGLIE OVALI ACCIAIO INOX FILO Ø 8 MM",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 4.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "I",
+        "codice": "1400ACCMA0146",
+        "articolo": "MAGLIE OVALI ACCIAIO INOX FILO Ø 6 MM",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 3.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "I",
+        "codice": "1400ACCMA0147",
+        "articolo": "MAGLIE OVALI ACCIAIO INOX FILO Ø 5 MM",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 2.50 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "L",
+        "codice": "1400ACCPP0065",
+        "articolo": "PALETTO PARAPEDONALE Ø 60 MM ALTEZZA CM 100 F.T. VERNICIATO ANTRACITE",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 28.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "M",
+        "codice": "1400ACCPP0062",
+        "articolo": "PALETTO PARAPEDONALE Ø 48 MM ALTEZZA CM 120 VERNICIATO ANTRACITE",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 15.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "M",
+        "codice": "1400ACCPP0072",
+        "articolo": "PALETTO PARAPEDONALE Ø 60 MM ALTEZZA CM 120 VERNICIATO ANTRACITE",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 15.50 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "N",
+        "codice": "1400ACCPP0073",
+        "articolo": "PALETTO PARAPEDONALE Ø 89 MM ALTEZZA CM 120 VERNICIATO ANTRACITE",
+        "qta_min_ord": "10",
+        "note": "FIGURA N: SENZA SFERA IN SOMMITÀ (vedi illustrazione)",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 70.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - PALETTI PARAPEDONALI - CATENE",
+        "wl": "*",
+        "figura": "O",
+        "codice": "1400ACCPP0074",
+        "articolo": "PALETTO PARAPEDONALE Ø 89 MM ALTEZZA CM 120 VERNICIATO ANTRACITE",
+        "qta_min_ord": "10",
+        "note": "FIGURA O: CON SFERA PIENA SALDATA IN SOMMITÀ (vedi illustrazione). Descrizione a listino identica alla figura N.",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 100.00 }]
+      }
+    ]
+  },
+  {
+    "tag": "ACC",
+    "page": 19,
+    "page_label": "115",
+    "type": "listino",
+    "section": "ACCESSORI",
+    "table_title": "ACCESSORI - ARCHETTI - MENSOLE - TRANSENNE PARAPEDONALI",
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%",
+    "figures": [],
+    "rows": [
+      {
+        "table_title": "ACCESSORI - ARCHETTI - MENSOLE - TRANSENNE PARAPEDONALI",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1400ACCAD0004",
+        "articolo": "ARCHETTO PER DISCO Ø 60 ALTEZZA CM 160 VERNICIATO",
+        "qta_min_ord": "5",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 50.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - ARCHETTI - MENSOLE - TRANSENNE PARAPEDONALI",
+        "wl": "*",
+        "figura": "B",
+        "codice": "1400ACCAD0006",
+        "articolo": "ARCHETTO PER DISCO Ø 90 ALTEZZA CM 220 VERNICIATO",
+        "qta_min_ord": "5",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 80.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - ARCHETTI - MENSOLE - TRANSENNE PARAPEDONALI",
+        "wl": "*",
+        "figura": "C",
+        "codice": "1400ACCAP0010",
+        "articolo": "ARCHETTO PARAPEDONALE TONDO Ø 48 H CM 120 - VERNICIATO ROSSO CON FASCE BIANCHE RIF. CL. 1",
+        "qta_min_ord": "5",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 50.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - ARCHETTI - MENSOLE - TRANSENNE PARAPEDONALI",
+        "wl": "*",
+        "figura": "D",
+        "codice": "1400ACCMM0030",
+        "articolo": "MENSOLE A MURO NORMALI DA CM 100 ZINCATE",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 18.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - ARCHETTI - MENSOLE - TRANSENNE PARAPEDONALI",
+        "wl": "*",
+        "figura": "E",
+        "codice": "1400ACCMM0035",
+        "articolo": "MENSOLE A MURO CON PORTAPPENDICE DA CM 100 ZINCATE",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 20.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - ARCHETTI - MENSOLE - TRANSENNE PARAPEDONALI",
+        "wl": "*",
+        "figura": "F",
+        "codice": "1400ACCMM0032",
+        "articolo": "MENSOLE A MURO NORMALI DA CM 130 ZINCATE",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 21.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - ARCHETTI - MENSOLE - TRANSENNE PARAPEDONALI",
+        "wl": "*",
+        "figura": "G",
+        "codice": "1400ACCMM0033",
+        "articolo": "MENSOLE A MURO CON PORTAPPENDICE DA CM 130 ZINCATE",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 23.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - ARCHETTI - MENSOLE - TRANSENNE PARAPEDONALI",
+        "wl": "*",
+        "figura": "H",
+        "codice": "1400ACCTP0015",
+        "articolo": "TRANSENNA PARAPEDONALE Ø 48 DA CM 120x100x120 - VERNICIATA ROSSA FASCE BIANCHE RIF. CL. 1",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 70.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - ARCHETTI - MENSOLE - TRANSENNE PARAPEDONALI",
+        "wl": "*",
+        "figura": "H",
+        "codice": "1400ACCTP0016",
+        "articolo": "TRANSENNA PARAPEDONALE Ø 48 DA CM 120x100x120 VERNICIATA GRIGIA ANTRACITE",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 55.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - ARCHETTI - MENSOLE - TRANSENNE PARAPEDONALI",
+        "wl": "*",
+        "figura": "H",
+        "codice": "1400ACCTP0020",
+        "articolo": "TRANSENNA PARAPEDONALE Ø 48 DA CM 120x100x120 VERNICIATA ROSSA",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 55.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - ARCHETTI - MENSOLE - TRANSENNE PARAPEDONALI",
+        "wl": "*",
+        "figura": "H",
+        "codice": "1400ACCTP0017",
+        "articolo": "TRANSENNA PARAPEDONALE Ø 60 DA CM 120x100x120 - VERNICIATA ROSSA FASCE BIANCHE RIF. CL. 1",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 75.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - ARCHETTI - MENSOLE - TRANSENNE PARAPEDONALI",
+        "wl": "*",
+        "figura": "H",
+        "codice": "1400ACCTP0018",
+        "articolo": "TRANSENNA PARAPEDONALE Ø 60 DA CM 120x100x120 VERNICIATA GRIGIA ANTRACITE",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 65.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - ARCHETTI - MENSOLE - TRANSENNE PARAPEDONALI",
+        "wl": "*",
+        "figura": "H",
+        "codice": "1400ACCTP0022",
+        "articolo": "TRANSENNA PARAPEDONALE Ø 60 DA CM 120x100x120 VERNICIATA ROSSA",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 65.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - ARCHETTI - MENSOLE - TRANSENNE PARAPEDONALI",
+        "wl": "*",
+        "figura": "I",
+        "codice": "1400ACCDA0025",
+        "articolo": "DISPOSITIVO PER AIUOLE SPARTITRAFFICO IN TUBO ZINCATO Ø 60 MM - PER APPLICAZIONE DI N. 2 DISCHI Ø 60 + DELINEATORE DI OSTACOLO",
+        "qta_min_ord": "5",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 62.00 }]
+      }
+    ]
+  },
+  {
+    "tag": "ACC",
+    "page": 20,
+    "page_label": "116",
+    "type": "listino",
+    "section": "ACCESSORI",
+    "table_title": "ACCESSORI - TORCE A VENTO - NASTRI SEGNALETICI IN PVC",
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%",
+    "figures": [],
+    "rows": [
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - NASTRI SEGNALETICI IN PVC",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1400ACCNP0160",
+        "articolo": "NASTRO PVC BIANCO/ROSSO",
+        "dimensione": "200 ML X 7 CM",
+        "qta_min_ord": "20",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 3.20 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - NASTRI SEGNALETICI IN PVC",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1400ACCNP0161",
+        "articolo": "NASTRO PVC GIALLO/NERO",
+        "dimensione": "200 ML X 7 CM",
+        "qta_min_ord": "20",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 3.20 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - NASTRI SEGNALETICI IN PVC",
+        "wl": "*",
+        "figura": "B",
+        "codice": "1400ACCNP0162",
+        "articolo": "NASTRO PVC GIALLO/NERO - TUBO GAS",
+        "dimensione": "500 ML X 10 CM",
+        "qta_min_ord": "5",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 15.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - NASTRI SEGNALETICI IN PVC",
+        "wl": "*",
+        "figura": "B",
+        "codice": "1400ACCNP0163",
+        "articolo": "NASTRO PVC GIALLO/NERO - CAVO TELEFONICO",
+        "dimensione": "500 ML X 10 CM",
+        "qta_min_ord": "5",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 15.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - NASTRI SEGNALETICI IN PVC",
+        "wl": "*",
+        "figura": "C",
+        "codice": "1400ACCNP0164",
+        "articolo": "NASTRO PVC ROSSO/NERO - CAVI ELETTRICI",
+        "dimensione": "500 ML X 10 CM",
+        "qta_min_ord": "5",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 15.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - NASTRI SEGNALETICI IN PVC",
+        "wl": "*",
+        "figura": "D",
+        "codice": "1400ACCNP0165",
+        "articolo": "NASTRO PVC CELESTE/NERO - TUBO ACQUA",
+        "dimensione": "500 ML X 10 CM",
+        "qta_min_ord": "5",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 15.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - NASTRI SEGNALETICI IN PVC",
+        "wl": "*",
+        "figura": "D",
+        "codice": "1400ACCNP0166",
+        "articolo": "NASTRO PVC CELESTE/NERO - TUBO FOGNATURE",
+        "dimensione": "500 ML X 10 CM",
+        "qta_min_ord": "5",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 15.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - NASTRI SEGNALETICI IN PVC",
+        "wl": "*",
+        "figura": "E",
+        "codice": "1400ACCNP0PER",
+        "articolo": "NASTRO PVC PERSONALIZZATO",
+        "dimensione": "200 ML X 7 CM",
+        "qta_min_ord": "10",
+        "dubbio": "Codice: l'8° carattere è graficamente ambiguo tra la cifra 0 e la lettera O (1400ACCNP0PER vs 1400ACCNPOPER). Trascritto 0 per coerenza con gli altri codici della tabella (1400ACCNP0160...0166).",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 7.50 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - NASTRI SEGNALETICI IN PVC",
+        "wl": null,
+        "figura": "F",
+        "codice": "1400ACCNA0175",
+        "articolo": "NASTRO ADESIVO RIFRANGENTE CL. 1 - BANDE OBLIQUE BIANCO/ROSSO - KIT: 1 ROTOLO DX + 1 ROTOLO SX",
+        "dimensione": "25 ML X 5 CM",
+        "qta_min_ord": "2",
+        "note": "PREZZO A KIT",
+        "prezzi": [{ "materiale": null, "classe": "CL. 1", "variante": "A KIT", "euro": 150.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - NASTRI SEGNALETICI IN PVC",
+        "wl": null,
+        "figura": "G",
+        "codice": "1400ACCNA0176",
+        "articolo": "NASTRO ADESIVO RIFRANGENTE CL. 1 - BANDE OBLIQUE GIALLO/NERO - KIT: 1 ROTOLO DX + 1 ROTOLO SX",
+        "dimensione": "25 ML X 5 CM",
+        "qta_min_ord": "2",
+        "note": "PREZZO A KIT",
+        "prezzi": [{ "materiale": null, "classe": "CL. 1", "variante": "A KIT", "euro": 150.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - PALETTE (TABELLA 2)",
+        "wl": null,
+        "figura": "H",
+        "codice": "1400ACCTV0180",
+        "articolo": "TORCIA A VENTO DI CERA",
+        "dimensione": "60 CM CIRCA",
+        "qta_min_ord": "50",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 2.60 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - PALETTE (TABELLA 2)",
+        "wl": "*",
+        "figura": "I",
+        "codice": null,
+        "articolo": "PALETTE PVC ROSSO/ROSSO O ROSSO/VERDE",
+        "dimensione": "Ø 150",
+        "qta_min_ord": "20",
+        "prezzi": [
+          { "materiale": null, "classe": "CL. 1", "variante": null, "euro": 6.00 },
+          { "materiale": null, "classe": "CL. 2", "variante": null, "euro": 7.50 },
+          { "materiale": null, "classe": "CL. 2 S.", "variante": null, "euro": 8.50 }
+        ]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - PALETTE (TABELLA 2)",
+        "wl": "*",
+        "figura": "I",
+        "codice": null,
+        "articolo": "PALETTE NYLON ROSSO/ROSSO O ROSSO/VERDE",
+        "dimensione": "Ø 150",
+        "qta_min_ord": "20",
+        "prezzi": [
+          { "materiale": null, "classe": "CL. 1", "variante": null, "euro": 7.00 },
+          { "materiale": null, "classe": "CL. 2", "variante": null, "euro": 8.50 },
+          { "materiale": null, "classe": "CL. 2 S.", "variante": null, "euro": 9.50 }
+        ]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - PALETTE (TABELLA 2)",
+        "wl": "*",
+        "figura": "L",
+        "codice": null,
+        "articolo": "PALETTE PVC ROSSO/VERDE",
+        "dimensione": "Ø 300",
+        "qta_min_ord": "50",
+        "prezzi": [
+          { "materiale": null, "classe": "CL. 1", "variante": null, "euro": 8.00 },
+          { "materiale": null, "classe": "CL. 2", "variante": null, "euro": 9.50 },
+          { "materiale": null, "classe": "CL. 2 S.", "variante": null, "euro": 12.00 }
+        ]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - PALETTE (TABELLA 2)",
+        "wl": "*",
+        "figura": "M",
+        "codice": "1400ACCPA0191",
+        "articolo": "PALETTE SEGNALETICHE GREZZE IN PVC (PAL4501)",
+        "dimensione": "Ø 150",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 4.20 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - PALETTE (TABELLA 2)",
+        "wl": "*",
+        "figura": "M",
+        "codice": "1400ACCPA0201",
+        "articolo": "PALETTE SEGNALETICHE GREZZE IN NYLON (PAL4502)",
+        "dimensione": "Ø 150",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 5.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - PALETTE (TABELLA 2)",
+        "wl": "*",
+        "figura": "M",
+        "codice": "1400ACCPA0208",
+        "articolo": "PALETTE PER MOVIERE GREZZE IN PVC (PAL4503)",
+        "dimensione": "Ø 300",
+        "qta_min_ord": "50",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 6.50 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - PALETTE (TABELLA 2)",
+        "wl": "*",
+        "figura": "N",
+        "codice": "1400ACCPI0210",
+        "articolo": "PICCHETTO PER NASTRO IN PVC GREZZO",
+        "qta_min_ord": "10",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 10.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - PALETTE (TABELLA 2)",
+        "wl": "*",
+        "figura": "O",
+        "codice": "1400ACCPG0215",
+        "articolo": "PALINE PER GEOMETRI IN LEGNO BIANCO/ROSSO",
+        "qta_min_ord": "30",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 11.50 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - PALETTE (TABELLA 2)",
+        "wl": "CE",
+        "figura": "P",
+        "codice": "1400ACCRN0220",
+        "articolo": "ROTELLA A NASTRO - OMOLOGAZIONE CEE",
+        "dimensione": "20 ML",
+        "qta_min_ord": "5",
+        "note": "Colonna WL riporta il marchio CE",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 16.00 }]
+      },
+      {
+        "table_title": "ACCESSORI - TORCE A VENTO - PALETTE (TABELLA 2)",
+        "wl": "CE",
+        "figura": "Q",
+        "codice": "1400ACCRN0221",
+        "articolo": "ROTELLA A NASTRO - OMOLOGAZIONE CEE",
+        "dimensione": "50 ML",
+        "qta_min_ord": "5",
+        "note": "Colonna WL riporta il marchio CE",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 40.00 }]
+      }
+    ]
+  },
+  {
+    "tag": "ACC",
+    "page": 21,
+    "page_label": "117",
+    "type": "listino",
+    "section": "SUPPORTI GUARD-RAILS E NEW JERSEY (GEMME OMOLOGATE)",
+    "table_title": "SUPPORTI GUARD-RAILS E NEW JERSEY (GEMME OMOLOGATE)",
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10% · N.B.: TUTTE LE GEMME IN METACRILATO SONO OMOLOGATE",
+    "figures": [],
+    "rows": [
+      {
+        "wl": "/",
+        "figura": "A",
+        "codice": "74SG01",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO CENTRO ONDA MONOFACCIALE CATADIOTTRO TRAPEZOIDALE CON ATTACCO POSTERIORE AD ASOLA APERTA",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 2.20 }]
+      },
+      {
+        "wl": "/",
+        "figura": "B",
+        "codice": "74SG02",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO CENTRO ONDA BIFACCIALE CATADIOTTRO TRAPEZOIDALE CON ATTACCO POSTERIORE AD ASOLA APERTA",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 3.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "C",
+        "codice": "74SG03",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO SOPRA ONDA LATO DESTRO IN LAMIERA ZINCATA CON ATTACCO RAPIDO CATADIOTTRO RETTANGOLARE CM 7X10",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 4.80 }]
+      },
+      {
+        "wl": "/",
+        "figura": "D",
+        "codice": "74SG04",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO SOPRA ONDA LATO SINISTRO IN LAMIERA ZINCATA CON ATTACCO RAPIDO CATADIOTTRO RETTANGOLARE CM 7X10",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 7.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "E",
+        "codice": "74SG05",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO SOPRA ONDA LATO DESTRO IN LAMIERA ZINCATA CON ATTACCO RAPIDO CATADIOTTRO RETTANGOLARE CM 7X10",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 7.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "F",
+        "codice": "74SG06",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO SOPRA ONDA LATO SINISTRO IN LAMIERA ZINCATA CON ATTACCO RAPIDO CATADIOTTRO RETTANGOLARE CM 7X10",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 9.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "G",
+        "codice": "74SG07",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO SU ONDA MASSIMA SICUREZZA LATO SINISTRO IN LAMIERA ZINCATA CON ATTACCO RAPIDO CATADIOTTRO RETTANGOLARE CM 7X10",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 9.50 }]
+      },
+      {
+        "wl": "/",
+        "figura": "H",
+        "codice": "74SG08",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO SOPRA ONDA LATO SINISTRO IN LAMIERA ZINCATA CON ATTACCO RAPIDO CATADIOTTRO RETTANGOLARE CM 10X15 ANTINEBBIA",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 14.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "I",
+        "codice": "74SG09",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO SOPRA ONDA LATO DESTRO IN LAMIERA ZINCATA CON ATTACCO RAPIDO CATADIOTTRO RETTANGOLARE CM 10X15 ANTINEBBIA",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 6.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "L",
+        "codice": "74SG10",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO SOPRA ONDA LATO DESTRO BIFACCIALE IN LAMIERA ZINCATA CON ATTACCO RAPIDO CATADIOTTRO RETTANGOLARE CM 7X10 B/R",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 7.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "M",
+        "codice": "74SG12",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO SOPRA ONDA LATO DESTRO BIFACCIALE IN LAMIERA ZINCATA CON ATTACCO RAPIDO CATADIOTTRO RETTANGOLARE CM 10X15 B/R ANTINEBBIA",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 10.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "N",
+        "codice": "74SG11",
+        "omologazione": "/",
+        "articolo": "MORSETTO UNIVERSALE PER SUPPORTI GUARD-RAILS",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 1.50 }]
+      }
+    ]
+  },
+  {
+    "tag": "ACC",
+    "page": 22,
+    "page_label": "118",
+    "type": "listino",
+    "section": "SUPPORTI NEW JERSEY (GEMME OMOLOGATE)",
+    "table_title": "SUPPORTI NEW JERSEY (GEMME OMOLOGATE)",
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10% · N.B.: TUTTE LE GEMME IN METACRILATO SONO OMOLOGATE",
+    "figures": [],
+    "rows": [
+      {
+        "wl": "/",
+        "figura": "A",
+        "codice": "74SN12",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO DRITTO LATO DESTRO IN ALLUMINIO 25/10 CATADIOTTRO RETTANGOLARE CM 7X10",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": "ALLUMINIO 25/10", "classe": null, "variante": null, "euro": 5.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "B",
+        "codice": "74SN13",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO DRITTO LATO SINISTRO IN ALLUMINIO 25/10 CATADIOTTRO RETTANGOLARE CM 7X10",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": "ALLUMINIO 25/10", "classe": null, "variante": null, "euro": 10.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "C",
+        "codice": "74SN14",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO INCLINATO LATO SINISTRO IN ALLUMINIO 25/10 CATADIOTTRO RETTANGOLARE CM 7X10",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": "ALLUMINIO 25/10", "classe": null, "variante": null, "euro": 10.50 }]
+      },
+      {
+        "wl": "/",
+        "figura": "D",
+        "codice": "74SN15",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO INCLINATO LATO DESTRO IN ALLUMINIO 25/10 CATADIOTTRO RETTANGOLARE CM 7X10",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": "ALLUMINIO 25/10", "classe": null, "variante": null, "euro": 5.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "E",
+        "codice": "74SN16",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO BIFILARE IN ALLUMINIO 25/10 CATADIOTTRO RETTANGOLARE CM 10X15 ANTINEBBIA - ATTACCO TASSELLO",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": "ALLUMINIO 25/10", "classe": null, "variante": null, "euro": 17.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "F",
+        "codice": "74SN17",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO BIFILARE IN ALLUMINIO 25/10 CATADIOTTRO RETTANGOLARE CM 10X15 ANTINEBBIA - ATTACCO C/TAMPONE GOMMA",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": "ALLUMINIO 25/10", "classe": null, "variante": null, "euro": 21.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "G",
+        "codice": "74SN18",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO MURO CONTRORIPA IN LAMIERA ZINCATA CATADIOTTRO BIFACCIALE B/R CM 7X10",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA", "classe": null, "variante": null, "euro": 8.50 }]
+      }
+    ]
+  },
+  {
+    "tag": "ACC",
+    "page": 23,
+    "page_label": "119",
+    "type": "listino",
+    "section": "SUPPORTI GALLERIA (GEMME OMOLOGATE)",
+    "table_title": "SUPPORTI GALLERIA (GEMME OMOLOGATE)",
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10% · N.B.: TUTTE LE GEMME IN METACRILATO SONO OMOLOGATE",
+    "figures": [],
+    "rows": [
+      {
+        "wl": "/",
+        "figura": "A",
+        "codice": "74SG19",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO PER GALLERIA LATO DESTRO IN ALLUMINIO 25/10 CATADIOTTRO RETTANGOLARE CM 10X15",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": "ALLUMINIO 25/10", "classe": null, "variante": null, "euro": 16.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "B",
+        "codice": "74SG20",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO PER GALLERIA LATO SINISTRO IN ALLUMINIO 25/10 ATTACCO A PARETE CATADIOTTRO RETTANGOLARE CM 10X15 - POSSIBILITA' APPLICAZIONE 3° CATADIOTTRO SUL RETRO",
+        "qta_min_ord": "100",
+        "note": "VERSIONE 2 CATADIOTTRI",
+        "prezzi": [{ "materiale": "ALLUMINIO 25/10", "classe": null, "variante": "2 CATADIOTTRI", "euro": 35.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "B",
+        "codice": "74SG20",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO PER GALLERIA LATO SINISTRO IN ALLUMINIO 25/10 ATTACCO A PARETE CATADIOTTRO RETTANGOLARE CM 10X15 - POSSIBILITA' APPLICAZIONE 3° CATADIOTTRO SUL RETRO",
+        "qta_min_ord": "100",
+        "note": "VERSIONE 3 CATADIOTTRI",
+        "prezzi": [{ "materiale": "ALLUMINIO 25/10", "classe": null, "variante": "3 CATADIOTTRI", "euro": 43.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "C",
+        "codice": "74SG21",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO PER GALLERIA LATO DESTRO IN LAMIERA ZINCATA 30/10 ATTACCO A PAVIMENTO CATADIOTTRO RETTANGOLARE CM 10X15",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 30/10", "classe": null, "variante": null, "euro": 27.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "D",
+        "codice": "74SG22",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO PER GALLERIA LATO SINISTRO IN LAMIERA ZINCATA 30/10 ATTACCO A PAVIMENTO CATADIOTTRO RETTANGOLARE CM 10X15 - POSSIBILITA' APPLICAZIONE 3° CATADIOTTRO SUL RETRO",
+        "qta_min_ord": "100",
+        "note": "VERSIONE 2 CATADIOTTRI",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 30/10", "classe": null, "variante": "2 CATADIOTTRI", "euro": 29.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "D",
+        "codice": "74SG22",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO PER GALLERIA LATO SINISTRO IN LAMIERA ZINCATA 30/10 ATTACCO A PAVIMENTO CATADIOTTRO RETTANGOLARE CM 10X15 - POSSIBILITA' APPLICAZIONE 3° CATADIOTTRO SUL RETRO",
+        "qta_min_ord": "100",
+        "note": "VERSIONE 3 CATADIOTTRI",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA 30/10", "classe": null, "variante": "3 CATADIOTTRI", "euro": 32.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "E",
+        "codice": "74SG23",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO PER GALLERIA A MURO CONTRORIPA LATO DESTRO IN ALLUMINIO 25/10 CATADIOTTRO RETTANGOLARE CM 10X15 - INCLINAZIONE REGOLABILE",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": "ALLUMINIO 25/10", "classe": null, "variante": null, "euro": 11.50 }]
+      },
+      {
+        "wl": "/",
+        "figura": "F",
+        "codice": "74SG24",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO PER GALLERIA A MURO CONTRORIPA LATO DESTRO IN ALLUMINIO 25/10 - CATADIOTTRO RETTANGOLARE CM 10X15",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": "ALLUMINIO 25/10", "classe": null, "variante": null, "euro": 7.00 }]
+      },
+      {
+        "wl": "/",
+        "figura": "G",
+        "codice": "74SG25",
+        "omologazione": "OMOLOGATA",
+        "articolo": "SUPPORTO PER GALLERIA A MURO CONTRORIPA LATO DESTRO IN LAMIERA ZINCATA - CATADIOTTRO BIFACCIALE B/R CM 10X15",
+        "qta_min_ord": "100",
+        "prezzi": [{ "materiale": "LAMIERA ZINCATA", "classe": null, "variante": null, "euro": 12.00 }]
+      }
+    ]
+  },
+  {
+    "tag": "ACC",
+    "page": 24,
+    "page_label": "120",
+    "type": "listino",
+    "section": "INDICATORI D'URTO / ASSORBITORE - GESSI - SALE PER DISGELO",
+    "table_title": null,
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10% · N.B.: I CODICI SEGNATI IN NERO SI RIFERISCONO AD INDICATORI MONODIREZIONALI, I CODICI SEGNATI IN ROSSO AD INDICATORI BIDIREZIONALI",
+    "figures": [],
+    "rows": [
+      {
+        "table_title": "INDICATORI D'URTO",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1000INUMO0061",
+        "codice_bidirezionale": "1000INUBI0068",
+        "articolo": "INDICATORE D'URTO IN POLIETILENE COLORE GIALLO - ZAVORRABILE CON ACQUA O SABBIA - Ø 1000 mm - H. 1150 mm - CON FRECCE IN PELLICOLA RIFRANGENTE HI CLASSE 2",
+        "qta_min_ord": "2",
+        "prezzi": [
+          { "materiale": null, "classe": null, "variante": "MONODIREZIONALE", "codice": "1000INUMO0061", "euro": 550.00 },
+          { "materiale": null, "classe": null, "variante": "BIDIREZIONALE", "codice": "1000INUBI0068", "euro": 580.00 }
+        ]
+      },
+      {
+        "table_title": "INDICATORI D'URTO",
+        "wl": "*",
+        "figura": "B",
+        "codice": "1000INUMO0062",
+        "codice_bidirezionale": "1000INUBI0069",
+        "articolo": "INDICATORE D'URTO IN POLIETILENE COLORE GIALLO - ZAVORRABILE CON ACQUA O SABBIA - Ø 1500 mm - H. 1650 mm - CON FRECCE IN PELLICOLA RIFRANGENTE HI CLASSE 2",
+        "qta_min_ord": "2",
+        "prezzi": [
+          { "materiale": null, "classe": null, "variante": "MONODIREZIONALE", "codice": "1000INUMO0062", "euro": 900.00 },
+          { "materiale": null, "classe": null, "variante": "BIDIREZIONALE", "codice": "1000INUBI0069", "euro": 940.00 }
+        ]
+      },
+      {
+        "table_title": "INDICATORI D'URTO",
+        "wl": "*",
+        "figura": "C",
+        "codice": "1000INUMO0063",
+        "codice_bidirezionale": "1000INUBI0070",
+        "articolo": "INDICATORE D'URTO IN POLIETILENE COLORE GIALLO - ZAVORRABILE CON ACQUA O SABBIA - Ø 2000 mm - H. 1650 mm - CON FRECCE IN PELLICOLA RIFRANGENTE HI CLASSE 2",
+        "qta_min_ord": "2",
+        "prezzi": [
+          { "materiale": null, "classe": null, "variante": "MONODIREZIONALE", "codice": "1000INUMO0063", "euro": 1050.00 },
+          { "materiale": null, "classe": null, "variante": "BIDIREZIONALE", "codice": "1000INUBI0070", "euro": 1100.00 }
+        ]
+      },
+      {
+        "table_title": "ASSORBITORE - GESSI - SALE PER DISGELO",
+        "wl": "*",
+        "figura": "A",
+        "codice": "3800ASSAU0001",
+        "articolo": "ASSORBITORE UNIVERSALE ECOSORB GRANULI - CONFEZIONATO IN SACCHI DA 4,5 KG. (PER ESTERNI)",
+        "qta_min_ord": "5 CONFEZIONI",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 10.00 }]
+      },
+      {
+        "table_title": "ASSORBITORE - GESSI - SALE PER DISGELO",
+        "wl": "*",
+        "figura": "A",
+        "codice": "3800ASSAU0002",
+        "articolo": "ASSORBITORE UNIVERSALE ECOSORB FINE - CONFEZIONATO IN SACCHI DA 5,5 KG. (PER INTERNI)",
+        "qta_min_ord": "5 CONFEZIONI",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 13.00 }]
+      },
+      {
+        "table_title": "ASSORBITORE - GESSI - SALE PER DISGELO",
+        "wl": "*",
+        "figura": "B",
+        "codice": "3800GESGO0010",
+        "articolo": "GESSO OLEOSO PER SEGNALETICA STRADALE - DIM. 25 x 50 x 200 mm - COLORE BIANCO",
+        "qta_min_ord": "1 CONFEZIONE (54 PEZZI)",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 2.80 }]
+      },
+      {
+        "table_title": "ASSORBITORE - GESSI - SALE PER DISGELO",
+        "wl": "*",
+        "figura": "B",
+        "codice": "3800GESCO0011",
+        "articolo": "GESSO OLEOSO PER SEGNALETICA STRADALE - DIM. 25 x 50 x 200 mm - COLORE GIALLO",
+        "qta_min_ord": "1 CONFEZIONE (54 PEZZI)",
+        "prezzi": [{ "materiale": null, "classe": null, "variante": null, "euro": 2.80 }]
+      },
+      {
+        "table_title": "ASSORBITORE - GESSI - SALE PER DISGELO",
+        "wl": "*",
+        "figura": "C",
+        "codice": null,
+        "articolo": "SALE PER DISGELO CONFEZIONATO IN SACCHI DA 25 KG.",
+        "qta_min_ord": null,
+        "note": "CHIEDERE PREVENTIVO",
+        "prezzi": []
+      }
+    ]
+  },
+  {
+    "tag": "ACC",
+    "page": 25,
+    "page_label": "121",
+    "type": "listino",
+    "section": "DISSUASORI",
+    "table_title": null,
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10% · N.B.: I CODICI SEGNATI IN NERO SI RIFERISCONO A DISSUASORI CON FASCIA RIFRANGENTE, I CODICI SEGNATI IN ROSSO A DISSUASORI SENZA FASCIA RIFRANGENTE",
+    "figures": [],
+    "rows": [
+      {
+        "table_title": "DISSUASORI - CONGLOMERATO CEMENTIZIO",
+        "wl": "*",
+        "figura": "A",
+        "codice": "1000DISCE0082",
+        "articolo": "DISSUASORE DI TRAFFICO IN CONGLOMERATO CEMENTIZIO Ø 52 CM x 56 H CM - PESO: 235 KG CIRCA - COLORE: GRIGIO NATURALE - DOTATO DI N° 2 BOCCOLE ZINCATE + GOLFARI ZINCATI PER MOVIMENTAZIONE E PER APPLICAZIONE CATENA + N° 1 FORO IN SOMMITA' PER APPLICAZIONE PALO Ø 60 + N° 2 BASSOFONDI CON GEMME RIFRANGENTI IN CL. 1 GIALLE DA 5X10 CM",
+        "qta_min_ord": "5",
+        "prezzi": [{ "materiale": "CONGLOMERATO CEMENTIZIO", "classe": null, "variante": null, "euro": 230.00 }]
+      },
+      {
+        "table_title": "DISSUASORI - POLIETILENE",
+        "wl": "*",
+        "figura": "B",
+        "codice": "1000DIPO0082",
+        "codice_senza_fascia": "1000DIPO0083",
+        "articolo": "DISSUASORE DI TRAFFICO IN POLIETILENE Ø 54 CM x 53 H CM - PESO: 75 KG CIRCA (PIENO DI ACQUA O SABBIA) - COLORE: GIALLO + TAPPO DI RIEMPIMENTO SUPERIORE E TAPPO DI SCARICO INFERIORE + N° 1 FORO IN SOMMITA' PER APPLICAZIONE PALO Ø 48 - POSSIBILITA' DI APPLICAZIONE FASCIA RIFRANGENTE IN CL. 1 GIALLA H 4,5 CM",
+        "qta_min_ord": "10",
+        "note": "Codice in nero 1000DIPO0082 = CON FASCIA RIFRANGENTE; codice in rosso 1000DIPO0083 = SENZA FASCIA RIFRANGENTE (vedi N.B. di pagina)",
+        "prezzi": [
+          { "materiale": "POLIETILENE", "classe": null, "variante": "SENZA FASCIA", "codice": "1000DIPO0083", "euro": 50.00 },
+          { "materiale": "POLIETILENE", "classe": null, "variante": "CON FASCIA", "codice": "1000DIPO0082", "euro": 56.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "ACC",
+    "page": 26,
+    "page_label": "122",
+    "type": "altro",
+    "section": null,
+    "table_title": null,
+    "page_note": null,
+    "figures": [],
+    "rows": []
+  }
+]

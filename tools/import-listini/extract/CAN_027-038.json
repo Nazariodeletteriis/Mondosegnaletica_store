@@ -1,0 +1,1294 @@
+[
+  {
+    "tag": "CAN",
+    "page": 27,
+    "page_label": "027",
+    "printed_page": "147",
+    "type": "listino",
+    "section": "SEGNALETICA TEMPORANEA AGGIUNTIVA AL D.M. DEL 10 LUGLIO 2002 - SEGNALI PER CANTIERI MOBILI O SU VEICOLI",
+    "table_title": "TUTTI I CARTELLI IMPIEGATI NELLE SEGNALETICHE DI CANTIERE DEVONO ESSERE REALIZZATI CON PELLICOLA RIFRANGENTE MICROPRISMATICA AD ALTA VISIBILITÀ \"DIAMOND GRADE\" (O CON PRESTAZIONI EQUIVALENTI) E MANTENUTI IN CONDIZIONI OTTIMALI DI EFFICIENZA",
+    "figures": [
+      { "figura": "12", "nome": "esempio di assorbitore d'urto abbinato a segnale mobile di protezione Fig. II 401 Art. 39 Reg.", "pos": 1 },
+      { "figura": "13", "nome": "esempio di cavalletto correttamente predisposto per l'alloggiamento della lampada", "pos": 2 },
+      { "figura": "15", "nome": "esempio di autocarro 35q con PMV alfanumerico e disco direzione obbligatoria interamente a LED", "pos": 3 },
+      { "figura": "16", "nome": "stesso esempio ma con PMV full color 90x90", "pos": 4 },
+      { "figura": "17", "nome": "cartello con lampeggiatori diam. 200 mm ad alta efficienza", "pos": 5 }
+    ],
+    "rows": [
+      {
+        "wl": null,
+        "codice": null,
+        "articolo": "ASSORBITORE D'URTO",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": null,
+        "table_title": "TABELLA 1 (WL / FIGURA / ARTICOLO / EURO)",
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF"
+      },
+      {
+        "wl": "/",
+        "codice": null,
+        "articolo": "ESEMPIO CANTIERE MOBILE",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": null,
+        "table_title": "TABELLA 1 (WL / FIGURA / ARTICOLO / EURO)",
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF"
+      },
+      {
+        "wl": "/",
+        "figura": "16",
+        "codice": null,
+        "articolo": "ESEMPIO AUTOCARRO CON PMV FULL COLOR",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": "CHIEDERE PREVENTIVO",
+        "table_title": "TABELLA 1 (WL / FIGURA / ARTICOLO / EURO)",
+        "prezzi": []
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "figura": "17",
+        "codice": null,
+        "articolo": "NORMALE",
+        "dimensione": null,
+        "base_cm": 100,
+        "altezza_cm": 160,
+        "note": "N. LAMPEGGIATORI E DIAMETRO: N. 2 LED - Ø 200 MM; N° RINF. NORM. CORS.: 4 o 3",
+        "table_title": "TABELLA 2 (WL FE/AL / FIGURA / ARTICOLO / BASE CM / ALTEZZA CM / ATT. / NORM. CORS. / TRAV. CORS. / N LAMPEGGIATORI E DIAMETRO / LAMIERA 10/10)",
+        "prezzi": [
+          { "materiale": "LAMIERA 10/10", "classe": "CL. 2", "euro": 420.00 },
+          { "materiale": null, "classe": null, "euro": 450.00 },
+          { "materiale": null, "classe": null, "euro": 470.00 },
+          { "materiale": null, "classe": null, "euro": 530.00 }
+        ],
+        "dubbio": "la tabella ha 4 colonne prezzo ma solo la prima ha intestazione (LAMIERA 10/10 - CL. 2); le altre 3 intestazioni sono vuote nel PDF, quindi materiale/classe delle ultime 3 voci non sono determinabili"
+      }
+    ],
+    "page_note": "N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO"
+  },
+  {
+    "tag": "CAN",
+    "page": 28,
+    "page_label": "028",
+    "printed_page": "148",
+    "type": "listino",
+    "section": "SEGNALETICA TEMPORANEA AGGIUNTIVA AL D.M. DEL 10 LUGLIO 2002 - SEGNALI PER CANTIERI MOBILI O SU VEICOLI",
+    "table_title": "TUTTI I CARTELLI IMPIEGATI NELLE SEGNALETICHE DI CANTIERE DEVONO ESSERE REALIZZATI CON PELLICOLA RIFRANGENTE MICROPRISMATICA AD ALTA VISIBILITÀ \"DIAMOND GRADE\" (O CON PRESTAZIONI EQUIVALENTI) E MANTENUTI IN CONDIZIONI OTTIMALI DI EFFICIENZA",
+    "figures": [
+      { "figura": "18", "nome": "targa per box autovelox mobile per cantiere di lavoro (tipo standard approvato dalla polizia stradale)", "pos": 1 },
+      { "figura": "20", "nome": "cartello dissuasore con rilevatore radar di velocita'", "pos": 2 }
+    ],
+    "rows": [
+      {
+        "wl_fe": "7",
+        "wl_al": "/",
+        "figura": "8",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": null,
+        "prezzi": [],
+        "dubbio": "riga senza dimensioni e senza prezzi nel PDF; la cella FIGURA riporta '8' (probabile '18' ma non leggibile con certezza)"
+      },
+      {
+        "wl_fe": "/",
+        "wl_al": "7",
+        "figura": "8",
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": null,
+        "prezzi": [],
+        "dubbio": "riga senza dimensioni e senza prezzi nel PDF; la cella FIGURA riporta '8' (probabile '18')"
+      },
+      {
+        "wl_fe": "6",
+        "wl_al": "7",
+        "figura": null,
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": null,
+        "prezzi": [],
+        "dubbio": "riga senza dimensioni e senza prezzi nel PDF"
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "figura": null,
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": null,
+        "prezzi": [],
+        "dubbio": "riga senza dimensioni e senza prezzi nel PDF"
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "figura": null,
+        "codice": null,
+        "articolo": "TARGA",
+        "dimensione": null,
+        "base_cm": null,
+        "altezza_cm": null,
+        "note": null,
+        "prezzi": [],
+        "dubbio": "riga senza dimensioni e senza prezzi nel PDF"
+      },
+      {
+        "wl_fe": "7",
+        "wl_al": "7",
+        "figura": "20",
+        "codice": null,
+        "articolo": "TARGA CON INDICATORE DI VELOCITA' (SENZA LAMPADA)",
+        "dimensione": null,
+        "base_cm": 110,
+        "altezza_cm": 160,
+        "note": "N° ATT.: ADEGUATI - CHIEDERE PREVENTIVO",
+        "prezzi": []
+      }
+    ],
+    "page_note": "N.B.: PER LE LAMPADE VEDERE PAGINA 154 | N.B.: I PANNELLI CON WL INFERIORE A 6 (SEGNATI IN ROSSO) SONO DESTINATI ALLA CANTIERISTICA O AD INSTALLAZIONE COME INDICATO | N.B.: IL RILEVATORE DI VELOCITA' PUO' ESSERE ALIMENTATO: - 12v - 230v - ALIMENTAZIONE FOTOVOLTAICA. SI PREGA SPECIFICARE NELLA RICHIESTA LA TIPOLOGIA A VOI NECESSARIA"
+  },
+  {
+    "tag": "CAN",
+    "page": 29,
+    "page_label": "029",
+    "printed_page": "149",
+    "type": "listino",
+    "section": "TRANSENNE",
+    "figures": [
+      { "figura": "A", "nome": "transenna mobile con fascia rifrangente - novità di grande utilità è il piede girevole, favorisce l'uso, il trasporto, lo stivaggio", "pos": 1 },
+      { "figura": "B", "nome": "transenna mobile predisposta per applicazione della targa - il piede girevole favorisce l'uso, il trasporto, lo stivaggio", "pos": 2 },
+      { "figura": "C", "nome": "piede di ricambio per transenna - tipo standard", "pos": 3 },
+      { "figura": "D", "nome": "piede di ricambio per transenna - tipo roma", "pos": 4 },
+      { "figura": "E", "nome": "fascia per transenna piana", "pos": 5 },
+      { "figura": "F", "nome": "transenna estensibile rosso/bianca", "pos": 6 }
+    ],
+    "rows": [
+      {
+        "wl": null,
+        "figura": "A",
+        "codice": null,
+        "articolo": "TRANSENNA MOBILE CM 110 x 250 ZINCATA A CALDO CON FASCIA RIFRANGENTE DA CM 20 x 150 MONOFACCIALE",
+        "qta_min_ord": null,
+        "table_title": "TRANSENNE - TABELLA 1 (ZINCATA A CALDO / CL. 1 / CL. 2)",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": null,
+        "articolo": "TRANSENNA MOBILE CM 110 x 250 ZINCATA A CALDO CON FASCIA RIFRANGENTE DA CM 20 x 150 BIFACCIALE",
+        "qta_min_ord": null,
+        "table_title": "TRANSENNE - TABELLA 1 (ZINCATA A CALDO / CL. 1 / CL. 2)",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": null,
+        "articolo": "TRANSENNA MOBILE CM 110 x 200 ZINCATA A CALDO CON FASCIA RIFRANGENTE DA CM 20 x 150 BIFACCIALE",
+        "qta_min_ord": null,
+        "table_title": "TRANSENNE - TABELLA 1 (ZINCATA A CALDO / CL. 1 / CL. 2)",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": null,
+        "articolo": "TRANSENNA MOBILE CM 110 x 250 ZINCATA A CALDO PREDISPOSTA PER APPLICAZIONE DELLA TARGA",
+        "qta_min_ord": null,
+        "table_title": "TRANSENNE - TABELLA 1 (ZINCATA A CALDO / CL. 1 / CL. 2)",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": null,
+        "articolo": "TRANSENNA MOBILE CM 110 x 200 ZINCATA A CALDO PREDISPOSTA PER APPLICAZIONE DELLA TARGA",
+        "qta_min_ord": null,
+        "table_title": "TRANSENNE - TABELLA 1 (ZINCATA A CALDO / CL. 1 / CL. 2)",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": null,
+        "articolo": "PIEDE DI RICAMBIO PER TRANSENNA - TIPO STANDARD",
+        "qta_min_ord": null,
+        "table_title": "TRANSENNE - TABELLA 1 (ZINCATA A CALDO / CL. 1 / CL. 2)",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": null,
+        "articolo": "PIEDE DI RICAMBIO PER TRANSENNA - TIPO ROMA",
+        "qta_min_ord": null,
+        "table_title": "TRANSENNE - TABELLA 1 (ZINCATA A CALDO / CL. 1 / CL. 2)",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "E",
+        "codice": "2200ATTFPT001",
+        "articolo": "CON BULLONERIA INCLUSA",
+        "qta_min_ord": 50,
+        "table_title": "TRANSENNE - TABELLA 1 (ZINCATA A CALDO / CL. 1 / CL. 2)",
+        "prezzi": [],
+        "dubbio": "ZINCATA A CALDO vuota; CL. 1 = '/' e CL. 2 = '/' (non disponibili)"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": null,
+        "articolo": "FASCIA PER TRANSENNA PIANA DA 150x20 CM ZINCATA",
+        "qta_min_ord": null,
+        "table_title": "TRANSENNE - TABELLA 1 (ZINCATA A CALDO / CL. 1 / CL. 2)",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "/",
+        "codice": null,
+        "articolo": "FASCIA PER TRANSENNA PIANA DA 150x20 CM ZINCATA - MONOFACCIALE",
+        "qta_min_ord": null,
+        "table_title": "TRANSENNE - TABELLA 1 (ZINCATA A CALDO / CL. 1 / CL. 2)",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "/",
+        "codice": "2200TRAFBEG01 (CL. 1) / 2200TRAFBHI01 (CL. 2)",
+        "articolo": "FASCIA PER TRANSENNA PIANA DA 150x20 CM ZINCATA - BIFACCIALE",
+        "qta_min_ord": 20,
+        "table_title": "TRANSENNE - TABELLA 1 (ZINCATA A CALDO / CL. 1 / CL. 2)",
+        "note": "ZINCATA A CALDO = '/' (non disponibile)",
+        "prezzi": [
+          { "materiale": null, "classe": "CL. 1", "euro": 20.00 },
+          { "materiale": null, "classe": "CL. 2", "euro": 32.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "F",
+        "codice": null,
+        "articolo": "TRANSENNA ESTENSIBILE - VERNIC. ROSSO/BIANCA - APERTURA MIN: 0,50 m - MAX: 2,50 m",
+        "qta_min_ord": null,
+        "table_title": "TRANSENNE - TABELLA 2 (WL / FIGURA / CODICE / ARTICOLO / QTA' MIN. ORD. / E)",
+        "prezzi": [],
+        "dubbio": "cella prezzo vuota nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "F",
+        "codice": "2200BESBE0029",
+        "articolo": "TRANSENNA ESTENSIBILE - CL. 1 ROSSO/BIANCA - APERTURA MIN: 0,50 m - MAX: 2,50 m",
+        "qta_min_ord": 10,
+        "table_title": "TRANSENNE - TABELLA 2 (WL / FIGURA / CODICE / ARTICOLO / QTA' MIN. ORD. / E)",
+        "prezzi": [
+          { "materiale": null, "classe": "CL. 1", "euro": null }
+        ],
+        "dubbio": "la cella prezzo contiene solo una virgola: cifre non leggibili, prezzo non determinabile"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": "2000STEQU0049",
+        "articolo": "QUADRILATERO 100x100 - H 100 cm",
+        "qta_min_ord": null,
+        "table_title": "TRANSENNE - TABELLA 3 (VERNIC.) - VERNIC. ROSSE",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": "2000STEQU0048",
+        "articolo": "QUADRILATERO 100x100 - H 100 cm + 4 TRIANGOLI FIG. 383",
+        "qta_min_ord": null,
+        "table_title": "TRANSENNE - TABELLA 3 (VERNIC.) - VERNIC. ROSSE",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": "2000STEBA0036",
+        "articolo": "BARRIERA FISSA LEGGERA 20x120 cm + PIEDI LEGGERI ZINCATI",
+        "qta_min_ord": null,
+        "table_title": "TRANSENNE - TABELLA 3 (VERNIC.) - VERNIC. ROSSE",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": "2000STEBA0037",
+        "articolo": "BARRIERA FISSA LEGGERA 20x150 cm + PIEDI LEGGERI ZINCATI",
+        "qta_min_ord": null,
+        "table_title": "TRANSENNE - TABELLA 3 (VERNIC.) - VERNIC. ROSSE",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": "2000STEBA0039",
+        "articolo": "BARRIERA FISSA PESANTE 25x150 cm + PIEDI PESANTI VERNICIATI",
+        "qta_min_ord": 10,
+        "table_title": "TRANSENNE - TABELLA 3 (VERNIC.) - VERNIC. ROSSE",
+        "prezzi": [
+          { "materiale": "VERNIC. ROSSE", "classe": null, "euro": 52.00 },
+          { "materiale": null, "classe": null, "euro": 62.00 },
+          { "materiale": null, "classe": null, "euro": 70.00 }
+        ],
+        "dubbio": "3 colonne prezzo ma solo la prima ha intestazione (VERNIC. ROSSE); le altre 2 intestazioni sono vuote nel PDF (presumibilmente CL. 1 e CL. 2, ma non stampato)"
+      }
+    ],
+    "page_note": "N.B.: I CODICI SEGNATI IN NERO SI RIFERISCONO AD ARTICOLI ZINCATI A CALDO, I CODICI SEGNATI IN ROSSO: CL. 1, I CODICI SEGNATI IN AZZURRO: CL. 2 | N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%"
+  },
+  {
+    "tag": "CAN",
+    "page": 30,
+    "page_label": "030",
+    "printed_page": "150",
+    "type": "listino",
+    "section": "BARRIERA ESTENSIBILE",
+    "figures": [
+      { "figura": "A", "nome": "barriera estensibile - aperta / chiusa - altezza cm 100 circa", "pos": 1 },
+      { "figura": "B", "nome": "barriera estensibile doppia - aperta / chiusa fronte / chiusa retro - altezza cm 100 circa", "pos": 2 }
+    ],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": null,
+        "articolo": "BARRIERA ESTENSIBILE - TIPO FRANCIA APERTURA MASSIMA 250 cm",
+        "qta_min_ord": 20,
+        "prezzi": [
+          { "materiale": "VERNIC.", "classe": null, "euro": null },
+          { "materiale": null, "classe": "CL. 1", "euro": null },
+          { "materiale": null, "classe": "CL. 2", "euro": null }
+        ],
+        "dubbio": "le 3 celle prezzo contengono solo una virgola: cifre non leggibili, prezzi non determinabili. Inoltre la terza colonna prezzo ha intestazione vuota (CL. 2 dedotta dalla nota sui colori dei codici, non stampata)"
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "2200BESBE0030 (CL. 1) / 2200BESBE0032 (CL. 2)",
+        "articolo": "BARRIERA ESTENSIBILE - TIPO FRANCIA APERTURA MASSIMA 250 cm + 250 cm",
+        "qta_min_ord": 20,
+        "prezzi": [
+          { "materiale": "VERNIC.", "classe": null, "euro": 95.00 },
+          { "materiale": null, "classe": "CL. 1", "euro": 125.00 },
+          { "materiale": null, "classe": null, "euro": 140.00 }
+        ],
+        "dubbio": "la terza colonna prezzo (140,00) ha intestazione vuota nel PDF: presumibilmente CL. 2 (per analogia con la nota sui codici in azzurro), ma non stampato"
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10% | N.B.: I CODICI SEGNATI IN NERO SI RIFERISCONO AD ARTICOLI VERNICIATI, I CODICI SEGNATI IN ROSSO: CL. 1, I CODICI SEGNATI IN AZZURRO: CL. 2"
+  },
+  {
+    "tag": "CAN",
+    "page": 31,
+    "page_label": "031",
+    "printed_page": "151",
+    "type": "listino",
+    "section": "BARRIERA ESTENSIBILE",
+    "figures": [
+      { "figura": "A", "nome": "barriera estensibile in alluminio richiudibile - lunghezza massima 1250 mm circa, altezza 1000 mm circa, base 430 mm, larghezza chiusa 190 mm", "pos": 1 }
+    ],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "2200BESBA0033",
+        "articolo": "BARRIERA ESTENSIBILE IN ALLUMINIO CON ASTE B/R RIFRANGENTE CL. 1 RICHIUDIBILE COMPLETA DI SACCA IN PVC",
+        "note": "CHIEDERE PREVENTIVO",
+        "prezzi": []
+      }
+    ],
+    "page_note": null
+  },
+  {
+    "tag": "CAN",
+    "page": 32,
+    "page_label": "032",
+    "printed_page": "152",
+    "type": "listino",
+    "section": "TRANSENNA MOBILE / NEW JERSEY",
+    "figures": [
+      { "figura": "A", "nome": "transenna mobile in plastica (senza fascia rifrangente / con fascia rifrangente bianca/rossa da 150x15 cm)", "pos": 1 },
+      { "figura": "A", "nome": "new jersey in polietilene impilabile", "pos": 2 }
+    ],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "2200TRATPSF07 (senza fascia) / 2200TRATPMO07 (CL. 1) / 2200TRATBI008 (CL. 2)",
+        "articolo": null,
+        "qta_min_ord": 10,
+        "table_title": "TRANSENNA MOBILE - TABELLA 1 (SENZA FASCIA EURO / MONOFACCIALE CL)",
+        "prezzi": [],
+        "dubbio": "riga senza descrizione articolo e con celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "2200TRATSF009 (senza fascia) / 2200TRATPMO10 (CL. 1) / 2200TRATPBI11 (CL. 2)",
+        "articolo": "CON PIEDI ORIENTABILI RIEMPITI DI SABBIA (PESO 22 KG CIRCA)",
+        "qta_min_ord": 10,
+        "table_title": "TRANSENNA MOBILE - TABELLA 1 (SENZA FASCIA EURO / MONOFACCIALE CL)",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "/",
+        "codice": "2200TRAPP0016",
+        "articolo": "PIEDE DI RICAMBIO VUOTO PER TRANSENNA IN PLASTICA PREDISPOSTO PER RIEMPIMENTO CON SABBIA",
+        "qta_min_ord": 10,
+        "table_title": "TRANSENNA MOBILE - TABELLA 2 (WL / FIG / CODICE / ARTICOLO / QTA' MIN. ORD. / EURO)",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": null }
+        ],
+        "dubbio": "la cella EURO contiene solo una virgola: cifre non leggibili, prezzo non determinabile"
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1000NWJBI0077",
+        "articolo": "NEW JERSEY IN POLIETILENE IMPILABILE - GIUNTO DI COLLEGAMENTO INCORPORATO - DIMENSIONI: 100 x 40 x 70 H cm - COLORE: BIANCO - COMPLETO DI TAPPO DI CARICO E SCARICO - RIEMPIBILE CON ACQUA",
+        "qta_min_ord": "5 ROSSI",
+        "table_title": "NEW JERSEY",
+        "note": "cella QTA' MIN. ORD. ('5 ROSSI') e cella EURO (45,00) sono unite fra le due righe NEW JERSEY",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 45.00 }
+        ]
+      },
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "1000NWJRO0078",
+        "articolo": "NEW JERSEY IN POLIETILENE IMPILABILE - GIUNTO DI COLLEGAMENTO INCORPORATO - DIMENSIONI: 100 x 40 x 70 H cm - COLORE: ROSSO - COMPLETO DI TAPPO DI CARICO E SCARICO - RIEMPIBILE CON ACQUA",
+        "qta_min_ord": "5 ROSSI",
+        "table_title": "NEW JERSEY",
+        "note": "cella QTA' MIN. ORD. ('5 ROSSI') e cella EURO (45,00) sono unite fra le due righe NEW JERSEY",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 45.00 }
+        ]
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10% | N.B.: PER LA FASCIA RIFRANGENTE SI PUO' RICHIEDERE PREVENTIVO PER LA SUA PERSONALIZZAZIONE, CHE SARÀ FORMULATO IN BASE ALLE QUANTITÀ | N.B.: I CODICI SEGNATI IN NERO SI RIFERISCONO AD ARTICOLI SENZA FASCIA, I CODICI SEGNATI IN ROSSO: CL. 1, I CODICI SEGNATI IN AZZURRO: CL. 2"
+  },
+  {
+    "tag": "CAN",
+    "page": 33,
+    "page_label": "033",
+    "printed_page": "153",
+    "type": "listino",
+    "section": "SEGNALETICA LUMINOSA DA CANTIERE",
+    "figures": [
+      { "figura": "A", "nome": "lampeggiatore monofacciale superled - fino ad esaurimento scorte", "pos": 1 },
+      { "figura": "B", "nome": "lampeggiatore monofacciale superled - fino ad esaurimento scorte", "pos": 2 },
+      { "figura": "C", "nome": "lampeggiatore bifacciale giallo - omologato", "pos": 3 },
+      { "figura": "D", "nome": "lampeggiatore bifacciale rosso - omologato", "pos": 4 },
+      { "figura": "E", "nome": "euroflash normal - giallo", "pos": 5 },
+      { "figura": "F", "nome": "euroflash normal - rosso", "pos": 6 },
+      { "figura": "G", "nome": "lampeggiatore bifacciale a led giallo - omologato", "pos": 7 },
+      { "figura": "H", "nome": "lampeggiatore bifacciale a led rosso - omologato", "pos": 8 },
+      { "figura": "I", "nome": "lampeggiatore monofacciale d-star a led giallo - omologato - monofacciale", "pos": 9 },
+      { "figura": "L", "nome": "lampeggiatore monofacciale d-star a led rosso - omologato - monofacciale", "pos": 10 },
+      { "figura": "M", "nome": "chiavetta per lampeggiatori: I - L", "pos": 11 },
+      { "figura": "O", "nome": "lampada elettrica per cesate", "pos": 12 },
+      { "figura": "P", "nome": "batterie a lunga durata per lampeggiatori", "pos": 13 },
+      { "figura": "Q", "nome": "batterie ecologiche 6V 4R25 per lampeggiatori", "pos": 14 }
+    ],
+    "rows": [
+      {
+        "wl": "*",
+        "figura": "A",
+        "codice": "2000SLCLS0070",
+        "articolo": "LAMPEGGIATORE MONOFACCIALE SUPERLED 7 LED CON FOTOCELLULA, LENTE IN POLICARBONATO CON INTERRUTTORE ESTERNO + SPIA SOSTITUZIONE BATTERIE",
+        "colore": "GIALLO",
+        "dotaz_chiav_lamp": "1 PER LAMPADA",
+        "qta_min_ord": 10,
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "B",
+        "codice": "2000SLCLS0071",
+        "articolo": null,
+        "colore": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "riga senza descrizione articolo e cella EURO vuota nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "C",
+        "codice": "2000SLCLB0086",
+        "articolo": "LAMPEGGIATORE BIFACCIALE - OMOLOGATO",
+        "colore": "GIALLO",
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "D",
+        "codice": "2000SLCLB0087",
+        "articolo": "LAMPEGGIATORE BIFACCIALE - OMOLOGATO",
+        "colore": "ROSSO",
+        "dotaz_chiav_lamp": "1 PER LAMPADA",
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "E",
+        "codice": "2000SLCLE0084",
+        "articolo": null,
+        "colore": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "riga senza descrizione articolo e cella EURO vuota nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "F",
+        "codice": "2000SLCLE0085",
+        "articolo": null,
+        "colore": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "riga senza descrizione articolo e cella EURO vuota nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "G",
+        "codice": "2000SLCLD0082",
+        "articolo": "LAMPEGGIATORE BIFACCIALE A LED - ATTACCO PER PONTEGGI O TRANSENNE - OMOLOGATO",
+        "colore": "GIALLO",
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "H",
+        "codice": "2000SLCLD0083",
+        "articolo": "LAMPEGGIATORE BIFACCIALE A LED - ATTACCO PER PONTEGGI O TRANSENNE - OMOLOGATO",
+        "colore": "ROSSO",
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "I",
+        "codice": "2000SLCLD0078",
+        "articolo": "LAMPEGGIATORE MONOFACCIALE D-STAR A LED - OMOLOGATO",
+        "colore": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "L",
+        "codice": "2000SLCLD0079",
+        "articolo": "LAMPEGGIATORE MONOFACCIALE D-STAR A LED - OMOLOGATO",
+        "colore": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "M",
+        "codice": "2000SLCCL0095",
+        "articolo": "CHIAVETTA PER LAMPEGGIATORI: I - L",
+        "colore": "/",
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "N",
+        "codice": "2000SLCSP0090",
+        "articolo": "STAFFA PER ATTACCO AL PONTEGGIO O AL PALO PER LAMPEGGIATORI: I - L",
+        "colore": "/",
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "O",
+        "codice": "2000SLCLE0100",
+        "articolo": "LAMPADA ELETTRICA PER CESATE (LAMPADINA ESCLUSA)",
+        "colore": "ROSSO",
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "P",
+        "codice": "2000SLCBL0105",
+        "articolo": "BATTERIE A LUNGA DURATA PER LAMPEGGIATORI - 25 AH - SU ORDINAZIONE",
+        "colore": "/",
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "P",
+        "codice": "2000SLCBL0107",
+        "articolo": "BATTERIE A LUNGA DURATA PER LAMPEGGIATORI - 50 AH - SU ORDINAZIONE",
+        "colore": "/",
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": null,
+        "codice": "2000SLCBL0106",
+        "articolo": "BATTERIE ECOLOGICHE 6V 4R25 PER LAMPEGGIATORI",
+        "colore": "/",
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF (1a delle 3 righe con lo stesso codice e la stessa descrizione)"
+      },
+      {
+        "wl": null,
+        "figura": null,
+        "codice": "2000SLCBL0106",
+        "articolo": "BATTERIE ECOLOGICHE 6V 4R25 PER LAMPEGGIATORI",
+        "colore": "/",
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "cella EURO vuota nel PDF (2a delle 3 righe con lo stesso codice e la stessa descrizione)"
+      },
+      {
+        "wl": null,
+        "figura": null,
+        "codice": "2000SLCBL0106",
+        "articolo": "BATTERIE ECOLOGICHE 6V 4R25 PER LAMPEGGIATORI",
+        "colore": "/",
+        "dotaz_chiav_lamp": "/",
+        "qta_min_ord": "OLTRE 120",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": null }
+        ],
+        "dubbio": "la cella EURO contiene solo una virgola: cifre non leggibili, prezzo non determinabile (3a delle 3 righe con lo stesso codice)"
+      }
+    ],
+    "page_note": "N.B.: LE FOTO SONO PURAMENTE INDICATIVE E POSSONO ESSERE SOGGETTE A MODIFICHE | N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%"
+  },
+  {
+    "tag": "CAN",
+    "page": 34,
+    "page_label": "034",
+    "printed_page": "154",
+    "type": "listino",
+    "section": "SEGNALETICA LUMINOSA DA CANTIERE",
+    "figures": [
+      { "figura": "A", "nome": "lampeggiatore singolo - fino ad esaurimento scorte", "pos": 1 },
+      { "figura": "B-B1", "nome": "lampeggiatore - fino ad esaurimento scorte", "pos": 2 },
+      { "figura": "F", "nome": "lampeggiatore a led", "pos": 3 },
+      { "figura": "G", "nome": "lampeggiatore a led", "pos": 4 },
+      { "figura": "H", "nome": "coppia di luci a led cablate", "pos": 5 },
+      { "figura": "I", "nome": "minibarra omologata ece65", "pos": 6 }
+    ],
+    "rows": [
+      {
+        "wl": null,
+        "figura": "A",
+        "codice": null,
+        "articolo": "LAMPEGGIATORE SINGOLO Ø 23",
+        "qta_min_ord": 2,
+        "prezzi": [],
+        "dubbio": "cella prezzo vuota nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "B",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF (solo lettera figura)"
+      },
+      {
+        "wl": null,
+        "figura": "B1",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF (solo lettera figura)"
+      },
+      {
+        "wl": null,
+        "figura": "C",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF (solo lettera figura)"
+      },
+      {
+        "wl": null,
+        "figura": "D",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": 1,
+        "prezzi": [],
+        "dubbio": "riga senza descrizione articolo e senza prezzo nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "E",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": 10,
+        "prezzi": [],
+        "dubbio": "riga senza descrizione articolo e senza prezzo nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "F",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": 2,
+        "prezzi": [],
+        "dubbio": "riga senza descrizione articolo e senza prezzo nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "G",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": 2,
+        "prezzi": [],
+        "dubbio": "riga senza descrizione articolo e senza prezzo nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "H",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": 2,
+        "prezzi": [],
+        "dubbio": "riga senza descrizione articolo e senza prezzo nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "I",
+        "codice": null,
+        "articolo": "MINIBARRA OMOLOGATA ECE65 FISSA 12/24 V (BEACON 420) CON 2 STROBO - COLORE AMBRA",
+        "qta_min_ord": 1,
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 380.00 }
+        ],
+        "dubbio": "la colonna prezzo non ha intestazione nel PDF (nessun 'EURO' stampato)"
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%"
+  },
+  {
+    "tag": "CAN",
+    "page": 35,
+    "page_label": "035",
+    "printed_page": "155",
+    "type": "listino",
+    "section": "SEGNALETICA LUMINOSA DA CANTIERE",
+    "figures": [
+      { "figura": "A", "nome": "pannello direzionale a luci led", "pos": 1 },
+      { "figura": "E", "nome": "lampada zeus (batterie escluse) - adattatore per batterie - 1 batteria 6V 4R25 - 4 batterie tipo D", "pos": 2 },
+      { "figura": "F", "nome": "torcia con coni segnaletici", "pos": 3 },
+      { "figura": "G", "nome": "coni per torcia rosso e giallo", "pos": 4 },
+      { "figura": "H", "nome": "bastone luminoso rosso", "pos": 5 },
+      { "figura": "I", "nome": "marker / solar ground fotovoltaico", "pos": 6 }
+    ],
+    "rows": [
+      {
+        "wl": null,
+        "figura": "A",
+        "codice": null,
+        "articolo": "PANNELLO DIREZIONALE A 13 LUCI Ø 200 LED - DA 90x90 ALI",
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "la seconda riga di testo dell'articolo è troncata nel PDF ('ALI'); celle prezzo vuote"
+      },
+      {
+        "wl": null,
+        "figura": "B",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF (solo lettera figura)"
+      },
+      {
+        "wl": null,
+        "figura": "C",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF (solo lettera figura)"
+      },
+      {
+        "wl": null,
+        "figura": "D",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF (solo lettera figura)"
+      },
+      {
+        "wl": null,
+        "figura": "E",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF (solo lettera figura)"
+      },
+      {
+        "wl": null,
+        "figura": "F",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF (solo lettera figura)"
+      },
+      {
+        "wl": null,
+        "figura": "G",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF (solo lettera figura)"
+      },
+      {
+        "wl": null,
+        "figura": "H",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF (solo lettera figura)"
+      },
+      {
+        "wl": null,
+        "figura": "I",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF (solo lettera figura)"
+      },
+      {
+        "wl": null,
+        "figura": "L",
+        "codice": null,
+        "articolo": null,
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF (solo lettera figura)"
+      },
+      {
+        "wl": null,
+        "figura": "M",
+        "codice": null,
+        "articolo": "SOLAR GROUND - MARKER FOTOVOLTAICO A RASO - CARRABILE - BIFACCIALE - BIANCO - LAMPEGGIANTE",
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "M",
+        "codice": null,
+        "articolo": "SOLAR GROUND - MARKER FOTOVOLTAICO A RASO - CARRABILE - BIFACCIALE - BIANCO - LUCE FISSA",
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "N",
+        "codice": null,
+        "articolo": "SOLAR GROUND - MARKER FOTOVOLTAICO A RASO - CARRABILE - MONOFACCIALE - BIANCO - LAMPEGGIANTE",
+        "qta_min_ord": null,
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": null,
+        "figura": "N",
+        "codice": null,
+        "articolo": "SOLAR GROUND - MARKER FOTOVOLTAICO A RASO - CARRABILE - MONOFACCIALE - BIANCO - LUCE FISSA",
+        "qta_min_ord": 10,
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 95.00 }
+        ],
+        "dubbio": "la colonna prezzo non ha intestazione nel PDF (nessun 'EURO' stampato)"
+      }
+    ],
+    "page_note": "N.B.: PER QUANTITÀ INFERIORI A QUELLE SOPRA RIPORTATE AUMENTO DEL 10%"
+  },
+  {
+    "tag": "CAN",
+    "page": 36,
+    "page_label": "036",
+    "printed_page": "156",
+    "type": "listino",
+    "section": "SEGNALETICA LUMINOSA DA CANTIERE - IMPIANTI SEQUENZIALI ALOGENI / IMPIANTI SEQUENZIALI LED / IMPIANTI SEQUENZIALI LED SENZA CAVI / BATTERIA 12V / BATTERIA 6V",
+    "figures": [
+      { "figura": "A", "nome": "impianto sequenziale alogeno a 5 luci - fino ad esaurimento scorte", "pos": 1 },
+      { "figura": "B", "nome": "impianto sequenziale led", "pos": 2 },
+      { "figura": "C", "nome": "impianto sequenziale led senza cavi - esempio di impianto", "pos": 3 },
+      { "figura": "D", "nome": "batteria 12V", "pos": 4 },
+      { "figura": "E", "nome": "batteria 6V", "pos": 5 }
+    ],
+    "rows": [
+      {
+        "wl": "/",
+        "figura": "A",
+        "codice": null,
+        "articolo": "IMPIANTO SEQUENZIALE A 5 LUCI 12v ALOGENO VERSIONE \"A\" COMPLETO DI: - BASI IN PVC DA 22 KG. CIRCA - PANNELLI BIFACCIALI IN PVC RIFRANGENTE CL. 2 BIANCO/ROSSO - FARI Ø 230 12v ALOGENI - CAVI NECESSARI - CENTRALINA DI COMANDO 12v - CASSETTA PORTABATTERIA",
+        "note": "BATTERIA ESCLUSA",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 1250.00 }
+        ]
+      },
+      {
+        "wl": "/",
+        "figura": "B",
+        "codice": null,
+        "articolo": null,
+        "note": null,
+        "prezzi": [],
+        "dubbio": "riga senza descrizione articolo e senza prezzo nel PDF"
+      },
+      {
+        "wl": "/",
+        "figura": "B",
+        "codice": null,
+        "articolo": "I IN PVC RIFRANGENTE CL. 2 BIANCO ROSSO - FARI Ø 200 12v A LED - CAVI NECESSARI - DISPOSITIVO PER CREPUSCOLARE INCORPORATO NEL LAMPEGGIATORE PRINCIPALE",
+        "note": "BATTERIA ESCLUSA",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 2800.00 }
+        ],
+        "dubbio": "la prima riga della descrizione è troncata nel PDF (inizia con 'I IN PVC RIFRANGENTE...'); il prezzo 2800,00 è invece nitido"
+      },
+      {
+        "wl": "/",
+        "figura": "C",
+        "codice": null,
+        "articolo": null,
+        "note": null,
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF"
+      },
+      {
+        "wl": "/",
+        "figura": "C",
+        "codice": null,
+        "articolo": null,
+        "note": null,
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF"
+      },
+      {
+        "wl": "/",
+        "figura": "D",
+        "codice": null,
+        "articolo": null,
+        "note": null,
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF"
+      },
+      {
+        "wl": "/",
+        "figura": "E",
+        "codice": null,
+        "articolo": "BATTERIE 6v 7 AH PER IMPIANTI SEQUENZIALI LED SENZA CAVI - NE OCCORRONO 4 PER OGNI LAMPEGGIANTE",
+        "note": "VEDI PAGINA 153",
+        "prezzi": []
+      }
+    ],
+    "page_note": null
+  },
+  {
+    "tag": "CAN",
+    "page": 37,
+    "page_label": "037",
+    "printed_page": "157",
+    "type": "listino",
+    "section": "SEGNALETICA LUMINOSA DA CANTIERE",
+    "figures": [
+      { "figura": "A", "nome": "impianto semaforico mobile con centraline a microprocessore", "pos": 1 },
+      { "figura": "B", "nome": "impianto semaforico mobile a led su carrello", "pos": 2 },
+      { "figura": "C", "nome": "batterie per impianto semaforico", "pos": 3 }
+    ],
+    "rows": [
+      {
+        "wl": null,
+        "figura": "A",
+        "codice": null,
+        "articolo": null,
+        "table_title": "TABELLA 1 (WL / FIGURA / ARTICOLO / EURO)",
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF (solo lettera figura)"
+      },
+      {
+        "wl": null,
+        "figura": "A",
+        "codice": null,
+        "articolo": null,
+        "table_title": "TABELLA 1 (WL / FIGURA / ARTICOLO / EURO)",
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF (solo lettera figura)"
+      },
+      {
+        "wl": null,
+        "figura": "B",
+        "codice": null,
+        "articolo": null,
+        "table_title": "TABELLA 1 (WL / FIGURA / ARTICOLO / EURO)",
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF (solo lettera figura)"
+      },
+      {
+        "wl": null,
+        "figura": "C",
+        "codice": null,
+        "articolo": "(PER UN IMPIANTO SEMAFORICO SONO NECESSARIE N° 2 BATTERIE)",
+        "note": "CADAUNO",
+        "table_title": "TABELLA 1 (WL / FIGURA / ARTICOLO / EURO)",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": null }
+        ],
+        "dubbio": "la cella EURO contiene solo una virgola: cifre non leggibili, prezzo non determinabile"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": null,
+        "articolo": null,
+        "table_title": "PARTI DI RICAMBIO",
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "/",
+        "codice": null,
+        "articolo": null,
+        "table_title": "PARTI DI RICAMBIO",
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "/",
+        "codice": null,
+        "articolo": null,
+        "table_title": "PARTI DI RICAMBIO",
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "/",
+        "codice": null,
+        "articolo": null,
+        "table_title": "PARTI DI RICAMBIO",
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "/",
+        "codice": null,
+        "articolo": null,
+        "table_title": "PARTI DI RICAMBIO",
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "/",
+        "codice": null,
+        "articolo": null,
+        "table_title": "PARTI DI RICAMBIO",
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "/",
+        "codice": null,
+        "articolo": null,
+        "table_title": "PARTI DI RICAMBIO",
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "/",
+        "codice": null,
+        "articolo": null,
+        "table_title": "PARTI DI RICAMBIO",
+        "prezzi": [],
+        "dubbio": "riga vuota nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "/",
+        "codice": null,
+        "articolo": "LANTERNA SEMAFORICA COMPLETA DI PALETTO, LANTERNE VERDE E GIALLO Ø 200 E ROSSO MAGGIORATO Ø 300, COMPLETI DI CAVI, VISIERE, LAMPADINE ECC. - PRONTO FUNZIONANTE",
+        "note": "CADAUNO",
+        "table_title": "PARTI DI RICAMBIO",
+        "prezzi": [
+          { "materiale": null, "classe": null, "euro": 360.00 }
+        ]
+      }
+    ],
+    "page_note": null
+  },
+  {
+    "tag": "CAN",
+    "page": 38,
+    "page_label": "038",
+    "printed_page": "158",
+    "type": "listino",
+    "section": "RECINZIONI PER EDILIZIA ZINCATE A CALDO ED ACCESSORI",
+    "figures": [
+      { "figura": "A", "nome": "protezione mobile per cantieri (pannello grande)", "pos": 1 },
+      { "figura": "B", "nome": "cancello pedonale mobile per cantieri (pannello piccolo)", "pos": 2 },
+      { "figura": "D", "nome": "cartello in alluminio rifrangente bianco/rosso", "pos": 3 },
+      { "figura": "F", "nome": "plintino in cemento", "pos": 4 },
+      { "figura": "G", "nome": "saetta", "pos": 5 },
+      { "figura": "H", "nome": "giunto di sicurezza", "pos": 6 },
+      { "figura": "I", "nome": "kit cancello", "pos": 7 }
+    ],
+    "rows": [
+      {
+        "wl": null,
+        "figura": "A",
+        "codice": null,
+        "articolo": "PROTEZIONE MOBILE PER CANTIERI",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": null,
+        "articolo": "CANCELLO PEDONALE MOBILE PER CANTIERI",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": null,
+        "articolo": "PANNELLO TIPO PRIVACY",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": null,
+        "articolo": "CARTELLO IN ALLUMINIO PIANO 10/10 RIFRANGENTE CL. 2",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": null,
+        "articolo": "CARTELLO IN ALLUMINIO PIANO 5/10 (PERSONALIZZATO) RIPIEGATO 10x20 SERIGRAFATO",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": null,
+        "articolo": "PLINTINO IN CEMENTO",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": null,
+        "articolo": "SAETTA",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": null,
+        "codice": null,
+        "articolo": "GIUNTO DI SICUREZZA",
+        "prezzi": [],
+        "dubbio": "celle prezzo vuote nel PDF"
+      },
+      {
+        "wl": "*",
+        "figura": "I",
+        "codice": null,
+        "articolo": "KIT CANCELLO",
+        "note": "EURO CADAUNO: CHIEDERE PREVENTIVO; le 3 colonne precedenti (senza intestazione) riportano '/'",
+        "prezzi": []
+      }
+    ],
+    "page_note": null
+  }
+]
