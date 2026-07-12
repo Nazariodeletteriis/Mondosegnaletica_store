@@ -19,6 +19,10 @@ define( 'MS_VERSION',   wp_get_theme()->get( 'Version' ) );
 require_once MS_THEME_DIR . '/inc/setup.php';
 require_once MS_THEME_DIR . '/inc/enqueue.php';
 
+// Form di pagina (contatti, preventivo): caricato qui e non dal template, perché
+// il redirect post-POST si aggancia a template_redirect, che scatta prima del render.
+require_once MS_THEME_DIR . '/template-parts/page/form-handler.php';
+
 if ( class_exists( 'WooCommerce' ) ) {
 	require_once MS_THEME_DIR . '/inc/woocommerce.php';
 }

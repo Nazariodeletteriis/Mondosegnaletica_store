@@ -132,6 +132,12 @@
 	padding-block: var(--space-8);
 }
 
+/* min-width: 0 — senza, la colonna prodotti (grid child) usa min-width:auto
+   e la griglia interna sfonda il layout invece di restringersi */
+.archive-main {
+	min-width: 0;
+}
+
 /* --- Product grid nella listing --- */
 .products-grid {
 	display: grid;

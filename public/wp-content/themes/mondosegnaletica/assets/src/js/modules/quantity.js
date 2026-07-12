@@ -1,36 +1,50 @@
 /**
  * Quantity selector +/- buttons.
  * Compatibile con WooCommerce (aggiorna input[name="quantity"]).
+ *
+ * Delega su document invece di bind per-elemento: WooCommerce rimpiazza
+ * .woocommerce-cart-form via AJAX a ogni aggiornamento del carrello, e un
+ * listener attaccato al singolo bottone morirebbe con il nodo sostituito.
  */
-export function initQuantity() {
-	document.querySelectorAll('.quantity-selector').forEach((selector) => {
-		const input   = selector.querySelector('.qty-input');
-		const btnMinus = selector.querySelector('[data-qty="minus"]');
-		const btnPlus  = selector.querySelector('[data-qty="plus"]');
 
+const clampQty = (input, delta) => {
+	const min = parseInt(input.min || '1', 10);
+	const max = parseInt(input.max || '9999', 10);
+	const current = parseInt(input.value || String(min), 10);
+	const next = Math.min(max, Math.max(min, (isNaN(current) ? min : current) + delta));
+
+	input.value = next;
+	input.dispatchEvent(new Event('change', { bubbles: true }));
+};
+
+export function initQuantity() {
+	document.addEventListener('click', (e) => {
+		const btn = e.target.closest('.quantity-selector [data-qty]');
+		if (!btn) return;
+
+		const input = btn.closest('.quantity-selector')?.querySelector('.qty-input');
 		if (!input) return;
 
-		const min = parseInt(input.min || '1', 10);
-		const max = parseInt(input.max || '9999', 10);
-
-		function updateQty(delta) {
-			const current = parseInt(input.value || '1', 10);
-			const next = Math.min(max, Math.max(min, current + delta));
-			input.value = next;
-			// Trigger change per WooCommerce
-			input.dispatchEvent(new Event('change', { bubbles: true }));
-		}
-
-		btnMinus?.addEventListener('click', () => updateQty(-1));
-		btnPlus?.addEventListener('click', ()  => updateQty(1));
-
-		// Prevent invalid manual input
-		input.addEventListener('blur', () => {
-			const val = parseInt(input.value, 10);
-			if (isNaN(val) || val < min) input.value = min;
-			if (val > max) input.value = max;
-		});
+		e.preventDefault();
+		clampQty(input, btn.dataset.qty === 'plus' ? 1 : -1);
 	});
+
+	// Input manuale fuori range
+	document.addEventListener(
+		'blur',
+		(e) => {
+			const input = e.target.closest?.('.quantity-selector .qty-input');
+			if (!input) return;
+
+			const min = parseInt(input.min || '1', 10);
+			const max = parseInt(input.max || '9999', 10);
+			const val = parseInt(input.value, 10);
+
+			if (isNaN(val) || val < min) input.value = min;
+			else if (val > max) input.value = max;
+		},
+		true // blur non fa bubbling: serve la fase di capture
+	);
 }
 
 initQuantity();

@@ -10,6 +10,8 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
+<a class="skip-link" href="#main-content"><?php esc_html_e( 'Salta al contenuto principale', 'mondosegnaletica' ); ?></a>
+
 <div class="cinematic-noise" aria-hidden="true"></div>
 
 <div id="page" class="site">

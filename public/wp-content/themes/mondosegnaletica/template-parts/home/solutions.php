@@ -2,6 +2,18 @@
 /**
  * Sezione 05 / SOLUZIONI — 2 colonne: headline Anton + 3 blocchi servizi.
  */
+
+$shop_url = function_exists( 'wc_get_page_permalink' ) ? wc_get_page_permalink( 'shop' ) : home_url( '/negozio/' );
+
+/** Permalink reale della categoria prodotto, con fallback al negozio se il termine non esiste. */
+$cat_url = static function ( string $slug ) use ( $shop_url ): string {
+	$term = get_term_by( 'slug', $slug, 'product_cat' );
+	if ( ! $term || is_wp_error( $term ) ) {
+		return $shop_url;
+	}
+	$link = get_term_link( $term );
+	return is_wp_error( $link ) ? $shop_url : $link;
+};
 ?>
 
 <section class="section-solutions" id="soluzioni" aria-labelledby="solutions-title">
@@ -21,7 +33,7 @@
 					Forniamo segnaletica omologata Codice della Strada per cantieri temporanei,
 					aree urbane e strade rurali. Dal singolo cartello al kit completo di cantiere.
 				</p>
-				<a href="<?php echo esc_url( home_url( '/negozio' ) ); ?>" class="btn btn--primary">
+				<a href="<?php echo esc_url( $shop_url ); ?>" class="btn btn--primary">
 					Esplora il catalogo
 					<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
 				</a>
@@ -39,7 +51,7 @@
 						Segnaletica per deviazioni, restringimenti di carreggiata e presegnalazione.
 						Coni, transenne, delineatori e pannelli direzionali. Consegna 24/48h.
 					</p>
-					<a href="<?php echo esc_url( home_url( '/negozio/cantieristica' ) ); ?>" class="solution-block__link">
+					<a href="<?php echo esc_url( $cat_url( 'cantieristica' ) ); ?>" class="solution-block__link">
 						Vai alla categoria
 						<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
 					</a>
@@ -54,7 +66,7 @@
 						Cartelli stradali per centri abitati, zone ZTL, piste ciclabili e aree pedonali.
 						Tutti omologati DM 31/03/1995 e Codice della Strada.
 					</p>
-					<a href="<?php echo esc_url( home_url( '/negozio/segnaletica-verticale' ) ); ?>" class="solution-block__link">
+					<a href="<?php echo esc_url( $cat_url( 'segnaletica-verticale' ) ); ?>" class="solution-block__link">
 						Vai alla categoria
 						<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
 					</a>
@@ -69,7 +81,7 @@
 						Segnaletica per strade extra-urbane: dissuasori, delineatori, guard rail e
 						segnali di pericolo per tratti a visibilità ridotta.
 					</p>
-					<a href="<?php echo esc_url( home_url( '/negozio/delineatori-paletti' ) ); ?>" class="solution-block__link">
+					<a href="<?php echo esc_url( $cat_url( 'delineatori-paletti' ) ); ?>" class="solution-block__link">
 						Vai alla categoria
 						<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
 					</a>

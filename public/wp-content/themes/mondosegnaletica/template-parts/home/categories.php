@@ -46,16 +46,24 @@ foreach ( $wc_categories as $term ) {
 	$terms_by_slug[ $term->slug ] = $term;
 }
 
+$shop_url = function_exists( 'wc_get_page_permalink' ) ? wc_get_page_permalink( 'shop' ) : home_url( '/negozio/' );
+
+// Le categorie che non esistono ancora in WooCommerce vengono saltate: meglio
+// nasconderle che mostrare i conteggi del brief, che sono stime, non dati reali.
 $categories = [];
 foreach ( $cat_meta as $slug => $meta ) {
-	$cat     = $terms_by_slug[ $slug ] ?? (object) [ 'term_id' => 0, 'slug' => $slug, 'name' => $meta['name'], 'count' => 0 ];
-	$cat_url = $cat->term_id ? get_term_link( $cat ) : home_url( '/negozio/' . $slug );
+	$cat = $terms_by_slug[ $slug ] ?? null;
+	if ( ! $cat ) {
+		continue;
+	}
+
+	$cat_url = get_term_link( $cat );
 
 	$categories[] = [
 		'term'  => $cat,
 		'code'  => $meta['code'],
-		'url'   => is_string( $cat_url ) ? $cat_url : home_url( '/negozio' ),
-		'count' => (int) $cat->count ?: $meta['count'],
+		'url'   => is_wp_error( $cat_url ) ? $shop_url : $cat_url,
+		'count' => (int) $cat->count,
 	];
 }
 ?>

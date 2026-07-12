@@ -1,6 +1,177 @@
 # HANDOFF — Mondo Segnaletica
 > Sessione 26.05.2026 (6ª) — Akille. Leggi solo questo per riprendere.
 
+## 🟢 2026-07-12 (8ª) — Fix massivo pre-completamento sito: italianizzazione, link morti, carrello/cassa sbloccati. IN CORSO.
+
+> ⚠️ **NON COMMITTARE** all'apertura sessione: 3 agenti erano ancora in esecuzione in background a fine sessione 8. Raccogliere prima i loro output.
+
+**FATTO E VERIFICATO** (commit `f6d0fd0` + modifiche pendenti non committate):
+
+- **Italianizzazione**: `WPLANG` era `en_US` → `it_IT` + language pack WooCommerce, timezone `Europe/Rome`, formato data `d/m/Y`. Slug URL da inglesi a italiani: `/negozio/` `/carrello/` `/cassa/` `/mio-account/` `/prodotto/` `/categoria-prodotto/` (via `woocommerce_permalinks` + `post_name` pagine 6,7,8,9 + rewrite flush). Tutti verificati 200.
+- **13 link morti** in header/footer: le pagine non esistevano. Create e pubblicate: `contatti`(1102) `azienda`(1103) `soluzioni`(1104) `cantieri`(1105) `richiedi-preventivo`(1106) `faq`(1107) `spedizioni`(1108) `download`(1109) `cookie-policy`(1110). Tutte 200.
+- **BLOCCANTE risolto**: Carrello(7) e Cassa(8) erano pagine a **blocchi Gutenberg** → i template PHP override del tema non venivano MAI eseguiti, il sito serviva la UI React chiara di WooCommerce su fondo nero. Convertiti a shortcode `[woocommerce_cart]` / `[woocommerce_checkout]` / `[woocommerce_my_account]`.
+- **Hero** (commit `f6d0fd0`): parallax riscritto da `object-position` fuori range (-60%→60%, scopriva banda vuota + repaint a ogni scroll) a `transform: translate3d` dentro il margine di `scale(1.12)`. Ripristinato guard `prefers-reduced-motion`.
+- **.gitignore**: `assets/images/` del tema era ignorato → `hero-bg.webp` e favicon NON versionati, il deploy sarebbe uscito senza hero. Ora è escluso solo `hero-bg.png` (1.9MB sorgente).
+- **enqueue.php + vite.config.js**: `woo-custom.js` aggiunto agli entry Vite (era servito raw da `src/`, non minificato).
+- **header.php + base.css**: skip-link + `.screen-reader-text` (mancavano del tutto).
+- **categories.php**: i conteggi categoria cadevano su numeri **finti** del brief (412, 156…) se un termine aveva 0 prodotti. Ora usa solo dati reali e salta le categorie inesistenti.
+- **solutions.php**: link categoria puntavano a `/negozio/cantieristica` (404) → ora `get_term_link()` reale.
+- **archive.css**: `.archive-main { min-width: 0 }` (la griglia sfondava la colonna).
+- **archive-product.php**: fallback `/shop/` → `/negozio/`.
+
+**Falsi positivi dell'audit** (nessun fix necessario): `.carousel-btn` È definito (home.css:736); `.archive-main` funziona come grid child.
+
+**IN CORSO — 3 agenti lanciati in background** (output da raccogliere):
+1. **akille** — carrello + checkout: template PHP + `cart.css`/`checkout.css` in-brand (gate checkout invertito, tabella senza classi responsive, manca link "rimuovi articolo", grid inline)
+2. **akille** — My Account (default WC bianco su sito nero) + `page.php` (`.tab-panel__content` inesistente) + `search.php` (bug DOM div orfano) + 404 flex-wrap + contenuti delle 9 pagine nuove
+3. **arrotino** — 5 prodotti NON ACQUISTABILI (dropdown varianti vuoto: ID 74, 78, 82, 86 `pa_dimensione` custom senza value; ID 381 `pa_taglia` senza termini) + attivare **IVA 22%** (`woocommerce_calc_taxes=no` su un e-commerce B2B!) + 29 variable con 1 sola variazione da convertire a simple + 4 prodotti senza immagine (744, 745, 747, 14)
+
+### TODO PRIORITARIO
+1. Raccogliere gli output dei 3 agenti background, build Vite, verifica end-to-end, **COMMIT** (nulla è committato oltre `f6d0fd0`)
+2. Homepage: allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
+3. Import prodotti nelle 3 categorie vuote (Sicurezza 107, Aziendale 108, ADR 110)
+4. SKU: 185/215 fuori dallo schema `MS-XXX-XXX-NNN` (non bloccante — decisione utente)
+5. Stock non gestito su nessun prodotto: i 3 stati del design (verde/giallo/rosso) non si attivano mai
+
+---
+
+## 2026-06-28 — Checkpoint automatico 10min — nessuna modifica, in attesa input utente. IN CORSO.
+
+- Sessione aperta, nessuna modifica al codice in questa finestra
+- Stato invariato: hero WebP + parallax + overlay completati, verifica visiva pendente
+- Nessun commit effettuato
+
+### TODO PRIORITARIO
+1. Verifica visiva parallax + overlay su desktop e mobile
+2. Commit git delle 4 modifiche (hero-bg.webp, hero.php, home.css, hero.js)
+3. Homepage allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
+
+---
+
+## 2026-06-28 — Hero refactor: video rimosso, WebP + parallax implementato. IN CORSO.
+
+- hero-bg.webp aggiunto in theme/assets/images/ (218KB, -90% vs PNG originale)
+- hero.php: video rimosso, immagine WebP con parallax via object-position
+- home.css: overlay scurito + classe .hero__bg-img aggiunta
+- hero.js: parallax rAF scroll object-position -60% a 60%, codice video morto rimosso
+- Vite rebuild completato con successo
+- Nessun commit effettuato — da fare nella prossima sessione
+
+### TODO PRIORITARIO
+1. Commit git delle 4 modifiche (hero-bg.webp, hero.php, home.css, hero.js)
+2. Verifica visiva mobile del parallax
+3. Continuare sviluppo tema
+
+- Nessuna modifica aggiuntiva in questa finestra
+- Stato: hero WebP + parallax + overlay completati, verifica visiva pendente
+- Nessun commit effettuato
+
+### TODO PRIORITARIO
+1. Verifica visiva parallax + overlay su desktop e mobile
+2. Commit dopo verifica visiva
+3. Homepage allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
+4. Prodotti con variazioni (Dimensione x Classe Rifrangenza)
+5. Import prodotti 3 categorie vuote (Sicurezza, Aziendale, ADR)
+
+---
+
+## 2026-06-28 — Hero ottimizzato: WebP + overlay + parallax. IN CORSO.
+
+- background_new.png convertito in WebP 218KB (-90% rispetto a 2.3MB PNG)
+- Video hero rimosso dalla homepage, sostituito con immagine WebP
+- Overlay hero scurito da 45% a 95% gradiente per leggibilita titolo
+- Parallax bg image: object-position animato da -60% a 60% via rAF scroll (vanilla JS, hero.js sezione 4)
+- Vite rebuild completato, nessun commit effettuato (verifica visiva pendente)
+
+### TODO PRIORITARIO
+1. Verifica visiva parallax + overlay su desktop e mobile
+2. Commit dopo verifica visiva
+3. Homepage allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
+4. Prodotti con variazioni (Dimensione x Classe Rifrangenza)
+5. Import prodotti 3 categorie vuote (Sicurezza, Aziendale, ADR)
+
+---
+
+## 2026-06-28 — Parallax hero + overlay scurito. IN CORSO.
+
+- Parallax bg image hero: object-position animato da -60% a 60% via rAF scroll
+- Overlay hero scurito per leggibilità titolo
+- CSS aggiornato, Vite rebuild ok
+- Nessun commit effettuato (verifica visiva pendente)
+
+### TODO PRIORITARIO
+1. Verifica visiva parallax su desktop e mobile
+2. Commit dopo verifica
+3. Prodotti con variazioni (Dimensione x Classe Rifrangenza)
+4. Import prodotti 3 categorie vuote (Sicurezza, Aziendale, ADR)
+5. Homepage allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
+
+---
+
+## 2026-06-28 — Checkpoint 10min: WebP hero completato. IN CORSO.
+
+- background_new.png convertito in WebP: 2.3MB → 218KB (-90%)
+- Video hero rimosso dalla homepage
+- Immagine WebP impostata come bg fisso nella hero section
+- CSS aggiornato, Vite rebuild completato
+- Nessun commit ancora effettuato (verifica visiva pendente)
+
+### TODO PRIORITARIO
+1. Verifica visiva render hero WebP su desktop e mobile
+2. Commit dopo verifica
+3. Prodotti con variazioni (Dimensione x Classe Rifrangenza)
+4. Import prodotti 3 categorie vuote (Sicurezza, Aziendale, ADR)
+5. Homepage allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
+
+---
+
+## 2026-06-28 — Checkpoint: sostituzione video hero con immagine WebP. IN CORSO.
+
+- Modifica in corso: hero homepage — video background sostituito con immagine statica WebP
+- Scopo: riduzione dipendenza da file video pesanti, miglior compatibilita browser/mobile
+- Nessun commit effettuato al momento del checkpoint
+
+### TODO PRIORITARIO (aggiornato al checkpoint)
+1. Completare sostituzione video con WebP nella hero homepage
+2. Verificare render corretto su desktop e mobile
+3. Commit dopo verifica visiva
+
+---
+
+## 2026-06-28 — Checkpoint Gerry 10min. NESSUNA MODIFICA.
+
+- Checkpoint automatico: nessuna modifica al codice in questa chat
+- Stato codebase identico all'ultimo commit (`9432af6`)
+- DDEV live su http://mondosegnaletica.ddev.site
+
+### TODO PRIORITARIO
+1. Prodotti con variazioni (Dimensione x Classe Rifrangenza)
+2. Import prodotti 3 categorie vuote (Sicurezza, Aziendale, ADR)
+3. Homepage allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
+
+## 2026-06-28 — Sessione 7: DDEV riavviato, sito live. IN CORSO.
+
+- DDEV era in stato "exited", riavviato con successo
+- Sito live su http://mondosegnaletica.ddev.site
+- Gerry configurato con checkpoint token ogni 10min
+- Nessuna modifica al codice PHP/template questa sessione
+
+### TODO PRIORITARIO
+1. Riprendere sviluppo tema custom WordPress da dove lasciato (vedi sessione 6)
+2. Verificare che WooCommerce risponda correttamente su ddev.site
+3. Prossimi step Akille: implementazione PDP, filtri, animazioni GSAP
+
+## 🟡 2026-06-28 — Checkpoint automatico 10min. NESSUNA MODIFICA.
+
+- Sessione aperta, nessun file modificato in questa chat
+- Stato codebase identico all'ultimo commit (`9432af6`)
+- Prossima azione: vedi Task immediato sotto
+
+### TODO PRIORITARIO
+1. Prodotti con variazioni (Dimensione x Classe Rifrangenza) — scraper `/tmp/scrape_v2.py` o import CSV
+2. Import prodotti 3 categorie vuote (Sicurezza, Aziendale, ADR)
+3. Homepage allineamento a Stitch screen `3014af5957f043b9adb4a8795d0faaad`
+
 ---
 
 ## Dove siamo

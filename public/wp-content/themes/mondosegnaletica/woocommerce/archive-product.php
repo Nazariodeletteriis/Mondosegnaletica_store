@@ -129,7 +129,7 @@ $total_products = (int) $wp_query->found_posts;
 				$_form_action = $current_cat ? get_term_link( $current_cat ) : null;
 				if ( ! $_form_action || is_wp_error( $_form_action ) ) {
 					$_shop_url    = wc_get_page_permalink( 'shop' );
-					$_form_action = ( $_shop_url && ! is_wp_error( $_shop_url ) ) ? $_shop_url : home_url( '/shop/' );
+					$_form_action = ( $_shop_url && ! is_wp_error( $_shop_url ) ) ? $_shop_url : home_url( '/negozio/' );
 				}
 				?>
 			<form class="filters-form" method="get" action="<?php echo esc_url( $_form_action ); ?>">

@@ -16,6 +16,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'assets/src/js/main.js'),
         hero: resolve(__dirname, 'assets/src/js/hero.js'),
+        'woo-custom': resolve(__dirname, 'assets/src/js/woo-custom.js'),
         'main-css': resolve(__dirname, 'assets/src/css/main.css'),
       },
       output: {

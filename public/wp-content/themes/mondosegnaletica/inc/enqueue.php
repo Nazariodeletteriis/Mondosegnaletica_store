@@ -166,13 +166,18 @@ function ms_enqueue_assets(): void {
 		}
 	}
 
-	// WooCommerce JS customizzazioni — solo pagine WC
+	// WooCommerce JS customizzazioni — solo pagine WC.
+	// In produzione passa dal manifest Vite come gli altri entry, così è minificato e hashato.
 	if ( class_exists( 'WooCommerce' ) && ( is_woocommerce() || is_cart() || is_checkout() ) ) {
+		$woo_js = $manifest['assets/src/js/woo-custom.js']['file'] ?? null;
+
 		wp_enqueue_script(
 			'mondosegnaletica-woo',
-			$theme_uri . '/assets/src/js/woo-custom.js',
+			$woo_js
+				? $theme_uri . '/assets/dist/' . $woo_js
+				: $theme_uri . '/assets/src/js/woo-custom.js',
 			[ 'jquery', 'wc-add-to-cart' ],
-			$version,
+			$woo_js ? null : $version,
 			[ 'strategy' => 'defer', 'in_footer' => true ]
 		);
 	}
