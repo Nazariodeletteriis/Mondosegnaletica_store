@@ -223,10 +223,24 @@ add_filter( 'woocommerce_placeholder_img_src', function (): string {
 	return get_template_directory_uri() . '/assets/img/product-placeholder.svg';
 } );
 
-add_filter( 'woocommerce_placeholder_img', function ( string $html, string $size ): string {
+/**
+ * $size non può essere tipizzato string: WooCommerce lo passa anche come ARRAY
+ * (es. [ width, height ]) — con la firma stretta il carrello andava in fatal error
+ * su ogni prodotto senza immagine.
+ */
+add_filter( 'woocommerce_placeholder_img', function ( $html, $size = 'woocommerce_thumbnail', $dimensions = [] ): string {
 	$src = get_template_directory_uri() . '/assets/img/product-placeholder.svg';
-	return '<img src="' . esc_url( $src ) . '" alt="Immagine non disponibile" class="woocommerce-placeholder wp-post-image" />';
-}, 10, 2 );
+	$w   = is_array( $dimensions ) && ! empty( $dimensions['width'] )  ? (int) $dimensions['width']  : 600;
+	$h   = is_array( $dimensions ) && ! empty( $dimensions['height'] ) ? (int) $dimensions['height'] : 600;
+
+	return sprintf(
+		'<img src="%s" alt="%s" width="%d" height="%d" class="woocommerce-placeholder wp-post-image" />',
+		esc_url( $src ),
+		esc_attr__( 'Immagine non disponibile', 'mondosegnaletica' ),
+		$w,
+		$h
+	);
+}, 10, 3 );
 
 // ─────────────────────────────────────────────
 // 9. Rimuovi elementi WC non necessari

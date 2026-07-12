@@ -1,7 +1,26 @@
 # HANDOFF — Mondo Segnaletica
 > Sessione 26.05.2026 (6ª) — Akille. Leggi solo questo per riprendere.
 
-## 🟡 2026-07-12 (8ª ter) — ESTRAZIONE COMPLETATA · IMPORT IN PARTENZA. IN CORSO.
+## 🟡 2026-07-12 (8ª quater) — IMPORT DEFINITIVO IN CORSO · fix importer + fix shop. IN CORSO.
+
+**Checkpoint 4. Import completo del catalogo lanciato in background (1.236 prodotti · ~35.200 variazioni · ~30-40 min).**
+
+- **BUG IMPORTER TROVATO E CORRETTO** (causa del menu varianti VUOTO su tutte le PDP del primo import): passavamo gli **slug** dei termini a `WC_Product_Attribute::set_options()`, dove WooCommerce vuole gli **ID**. `wp_set_object_terms()` li interpretava come *nomi* e creava **termini duplicati** (`name="60x90-cm"`, `slug="60x90-cm-2"`): il prodotto puntava al duplicato, le variazioni allo slug originale → nessun match. Fix: `ms_term()` ora ritorna `[id, slug]` — **prodotto usa gli ID, variazioni usano lo slug**.
+- **`wipe.php` ora azzera anche i TERMINI attributo**, non solo i post: i duplicati restavano appesi alla tassonomia e rompevano anche un re-import corretto.
+- **Verifica pre-lancio su singolo prodotto**: `MS-VER-1` → 12 option nei menu (3 dimensioni × 4 fissaggi × 2 materiali × 3 classi), prezzo € 11,00 corretto, 0 errori PHP. Solo dopo è partito l'import completo.
+- **FIX SHOP 1 — sconti quantità inventati**: il tema applicava un default hardcodato **-10% da 10pz / -20% da 50pz a TUTTO il catalogo**. L'utente ha detto esplicitamente che **sconti non ce ne sono**. Ed era pure rotto: lo sconto era **solo visuale** (filtro `woocommerce_cart_item_price`), il carrello mostrava scontato ma **addebitava il prezzo pieno**. Ora le fasce esistono solo se dichiarate nel meta `_ms_qty_discounts` del singolo prodotto.
+- **FIX SHOP 2 — 165 prodotti senza prezzo**: mostravano "€ 0,00" con carrello vuoto. Ora **"PREZZO SU RICHIESTA"** + CTA preventivo come azione principale.
+- **Commit**: `803b843` (normalizzazione), `da7048a` (fix shop + importer). Pushato tutto tranne l'ultimo stato.
+
+### TODO PRIORITARIO
+1. **Verifica store end-to-end** a import finito: PDP varianti, add-to-cart reale, carrello, IVA, prodotto a preventivo, listing, filtri.
+2. **Riaggancio immagini + nomi per CODICE** (non per posizione): leggere la didascalia `FIGURA xx` **dentro** ognuno dei 712 crop (`scratchpad/figures/`), poi update per SKU. L'aggancio per posizione è **inaffidabile** — confermato da 4 agenti indipendenti (il crop dato per FIG.42 stampa "FIGURA 45"; su alcune pagine il rilevatore prende le celle di intestazione tabella come cartelli). I nomi già prodotti (`scratchpad/naming/nomi_1..4.json`, 275 cartelli) **NON sono affidabili** finché non si rifà l'aggancio. → **fare con subagenti in batch da ~100 crop**, non nel main context.
+3. **Anomalie fornitore da portare al cliente** (`tools/import-listini/ANOMALIE.md`): celle prezzo VUOTE nel PDF Cantieristica, SKU duplicati, codice con due prezzi diversi, ~190 "chiedere preventivo".
+4. **Categorie vuote**: Segnaletica di Sicurezza, Aziendale, ADR = **0 prodotti** (i listini non le coprono). Decidere con il cliente: rimuoverle o riempirle.
+
+---
+
+## 🟡 2026-07-12 (8ª ter) — [SUPERATO dal checkpoint 4 qui sopra] ESTRAZIONE COMPLETATA · IMPORT IN PARTENZA.
 
 **Checkpoint 3. Tutti gli 11 agenti di estrazione visiva sono rientrati: 142 pagine lette.**
 
