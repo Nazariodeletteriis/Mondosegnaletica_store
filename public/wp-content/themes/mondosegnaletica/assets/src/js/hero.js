@@ -129,16 +129,33 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  // ─── 4. Rallenta il video hero ────────────────────────────────────────────
-  const heroVideo = document.querySelector('.hero__bg-video');
-  if (heroVideo) {
-    heroVideo.addEventListener('loadedmetadata', () => {
-      heroVideo.playbackRate = 0.75;
-    });
-    // Fallback: se già caricato al momento dell'esecuzione
-    if (heroVideo.readyState >= 1) {
-      heroVideo.playbackRate = 0.75;
-    }
+  // ─── 4. Parallax bg image via transform ───────────────────────────────────
+  // L'immagine è scalata 1.12 in CSS: il translate resta dentro quel margine,
+  // così non si scopre mai una banda vuota sotto la hero.
+  const heroBgImg = document.querySelector('.hero__bg-img');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (heroBgImg && hero && !reduceMotion) {
+    const SCALE = 1.12;
+    const SHIFT = 5; // % dell'altezza hero, entro il 6% di margine per lato
+    let rafId = null;
+
+    const updateParallax = () => {
+      const rect     = hero.getBoundingClientRect();
+      // 0 = hero appena entrata dal basso, 1 = hero appena uscita dall'alto
+      const progress = Math.max(0, Math.min(1, -rect.top / rect.height));
+      const shift    = -SHIFT + (SHIFT * 2) * progress;
+      heroBgImg.style.transform = `translate3d(0, ${shift.toFixed(2)}%, 0) scale(${SCALE})`;
+      rafId = null;
+    };
+
+    const onScroll = () => {
+      if (rafId === null) rafId = requestAnimationFrame(updateParallax);
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll, { passive: true });
+    updateParallax();
   }
 
 

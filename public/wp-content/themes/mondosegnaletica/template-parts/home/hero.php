@@ -6,30 +6,26 @@
  * GSAP ScrollTrigger integrato in fase 2.
  */
 
-$hero_video_src = 'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260403_050628_c4e32401-fab4-4a27-b7a8-6e9291cd5959.mp4';
-$hero_poster     = get_template_directory_uri() . '/assets/images/hero-bg.png';
 $shop_url        = class_exists( 'WooCommerce' ) ? wc_get_page_permalink( 'shop' ) : home_url( '/negozio' );
 $contatti_url    = home_url( '/contatti' );
 ?>
 
 <section class="hero" id="hero" aria-label="<?php esc_attr_e( 'Mondo Segnaletica — Segnaletica stradale omologata B2B', 'mondosegnaletica' ); ?>">
 
-	<!-- Background video — mondosegnaletica_video.mp4, playbackRate 0.75 via JS -->
+	<!-- Background image -->
 	<div class="hero__media" aria-hidden="true">
-		<video
-			class="hero__bg-video"
-			autoplay
-			muted
-			loop
-			playsinline
-			preload="metadata"
-			poster="<?php echo esc_url( get_template_directory_uri() . '/assets/images/hero-bg.png' ); ?>"
-		>
-			<source
-				src="<?php echo esc_url( get_template_directory_uri() . '/assets/video/mondosegnaletica_video.mp4' ); ?>"
-				type="video/mp4"
+		<picture>
+			<source srcset="<?php echo esc_url( get_template_directory_uri() . '/assets/images/hero-bg.webp' ); ?>" type="image/webp">
+			<img
+				class="hero__bg-img"
+				src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/hero-bg.webp' ); ?>"
+				alt=""
+				loading="eager"
+				decoding="async"
+				width="1672"
+				height="941"
 			>
-		</video>
+		</picture>
 	</div>
 
 	<!-- Content: ancorato al bottom viewport — solo colonna testo -->

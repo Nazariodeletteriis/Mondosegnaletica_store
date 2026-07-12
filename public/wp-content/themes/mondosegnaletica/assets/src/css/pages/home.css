@@ -25,35 +25,39 @@
 	overflow: hidden;
 }
 
-/* Overlay cinematico full-height — dal basso (opaco) verso l'alto (leggero) */
+/* Overlay: base scura uniforme + gradiente bottom-up per far emergere il testo */
 .hero__media::after {
 	content: '';
 	position: absolute;
 	inset: 0;
 	z-index: 1;
-	background: linear-gradient(
-		to top,
-		rgba(10, 10, 10, 0.90) 0%,
-		rgba(10, 10, 10, 0.55) 30%,
-		rgba(10, 10, 10, 0.25) 60%,
-		rgba(10, 10, 10, 0.10) 100%
-	);
+	background:
+		linear-gradient(
+			to top,
+			rgba(10, 10, 10, 0.95) 0%,
+			rgba(10, 10, 10, 0.75) 35%,
+			rgba(10, 10, 10, 0.55) 65%,
+			rgba(10, 10, 10, 0.45) 100%
+		);
 	pointer-events: none;
 }
 
-/* Video hero full-cover — Ken Burns rimosso, il video è già animato */
-/* playbackRate 0.75 impostato via hero.js su loadedmetadata */
-.hero__bg-video {
+/* Image hero full-cover — parallax via transform (JS), scale 1.12 = margine
+   di sicurezza: il translate resta dentro l'overflow, mai bande vuote */
+.hero__bg-img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	object-position: center 60%; /* inquadra la strada, non solo il cielo */
+	object-position: center 55%;
+	display: block;
+	transform: scale(1.12);
+	will-change: transform;
 }
 
-/* Reduced motion: fermo il video se l'utente preferisce meno animazioni */
 @media (prefers-reduced-motion: reduce) {
-	.hero__bg-video {
-		animation: none;
+	.hero__bg-img {
+		transform: none;
+		will-change: auto;
 	}
 }
 

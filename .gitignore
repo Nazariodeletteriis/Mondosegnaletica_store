@@ -18,8 +18,10 @@ assets/*.md
 public/wp-content/themes/mondosegnaletica/assets/video/
 
 # Immagini brand/reference locali (non versionare)
-public/wp-content/themes/mondosegnaletica/assets/images/
 public/wp-content/themes/mondosegnaletica/assets/brand/
+
+# Sorgenti pesanti non usati in produzione (la hero usa il .webp)
+public/wp-content/themes/mondosegnaletica/assets/images/hero-bg.png
 
 # --- DDEV ---
 .ddev/
