@@ -26,6 +26,14 @@ Commit pushati: **`c54a208`** · **`7ba9c9d`** · **`a0532a8`** · **`1625fbc`**
 - **MISURATO: 143** nostri prodotti hanno un codice figura coperto da epanza → **24** oggi senza immagine (prendono la prima), **119** col disegno di listino (**passano alla fotografia**).
 - Output: `out/epanza_proposte.json` · URL completi in `out/epanza_urls.txt`.
 
+**LEVA NON ANCORA TIRATA — probabilmente vale molto più di 143.** Il codice figura lo cerco
+oggi solo nell'**URL**, e ce l'hanno appena 240 prodotti su 2.128. Ma il titolo della loro
+scheda lo contiene comunque (l'H1 verificato dice `… Classe 1 **Fig. 412/a** Lamiera
+d'acciaio zincato`): il codice c'è, semplicemente non finisce nello slug. Scaricando le 2.128
+schede (35 minuti a una richiesta al secondo) e leggendo il codice **dal contenuto della
+pagina**, la copertura può salire di parecchio. È il primo esperimento da fare, prima di
+applicare qualsiasi cosa.
+
 **Prossimo passo (è il TODO #1):** `python3 scrape_epanza.py --scarica`, poi scrivere l'**apply** che le carica su Woo — **riusare la logica idempotente di `apply_images.php`**, che registra su ogni prodotto il meta `_ms_figura_file`.
 
 **🪤 TRAPPOLA MISURATA — NON agganciare per somiglianza del NOME.** Il punteggio sulla **copertura** del nostro nome dà **0.90** a *"Lamiera di Ferro 10/10"* contro *"cartello attraversamento tramviario"* → spazzatura. E anche i match "buoni" sono **sbagliati**: *"Gilet Classe 2"* pesca il loro *"Gilet Classe 3"*, *"Paletto Ø 89"* pesca il loro *"Ø 60"*. **Solo codice figura esatto.**
