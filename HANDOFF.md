@@ -1,31 +1,40 @@
 # HANDOFF — Mondo Segnaletica
-> Stato al **2026-07-13** (sessione 11, checkpoint in corso). **Leggi SOLO questo file per ripartire.** Tutto lo storico precedente è superato e rimosso.
+> Stato al **2026-07-13** (sessione 11 CHIUSA). **Leggi SOLO questo file per ripartire.** Tutto lo storico precedente è superato e rimosso.
 
 ---
 
-## 🟢 2026-07-13 — Sessione 11: bug CSS di layout, titoli/slug leggibili, verdetto su Epanza. IN CORSO.
+## 🟢 2026-07-13 — Sessione 11: bug CSS di layout, titoli/slug leggibili, due vicoli ciechi chiusi. DEPLOYATO.
 
-Ultimo commit pushato: **`c54a208`**.
+Ultimi commit pushati: **`7ba9c9d`** + **`c54a208`** su `main`. Working tree pulito.
 
 - **Griglia catalogo attaccata → token CSS orfani.** `--space-5` e `--space-10` **non esistono** nella scala: `gap: var(--space-5)` era una dichiarazione invalida → gap a 0. Sostituiti con token validi. Nuovo `public/wp-content/themes/mondosegnaletica/scripts/check-tokens.mjs` agganciato a `pnpm build`: **un token orfano ora blocca la build**.
 - **Paginazione in colonna.** `paginate_links(type => 'list')` emette `<ul><li>` che nessuno stilava; le classi del tema (`.pagination__item--current/--dots`) **non esistevano nell'HTML** → regole morte. Passato a `'plain'` e stilate le classi vere (`.page-numbers`, `.current`, `.dots`).
 - **Prodotti correlati**: da griglia 3 colonne (4 prodotti = 1 orfano a capo) a **carosello**, riusando `carousel.js` già in home. Portati a 8.
 - **Nome card tagliato**: `line-clamp` 2 righe con `line-height: 1.15` su Anton rifilava i glifi → 1.3 + `min-height`. Rimossa la **doppia definizione di `.products-grid`** (vinceva solo per ordine di import).
 - **TITOLI.** La colonna ARTICOLO del listino (fino a **338 caratteri**) finiva nell'H1. Aggiunto campo **`nome_breve`** in `normalize.py` (max 90 car, accumula i segmenti separati da trattino: tagliare al **primo** trattino dava lo stesso nome a **67 prodotti su 175**). Nuovo **`tools/import-listini/apply_nomi.php`**: accorcia i titoli su Woo e salva la riga completa in descrizione come *"Denominazione a listino"*. **169 titoli accorciati**, max 90 car, idempotente. `link_figures.py` e `import.php` aggiornati a `nome_breve` (senza, `apply_images` **rimetteva i nomi lunghi**).
-- **SLUG.** Nuovo **`tools/import-listini/fix_slug.php`**: **363 slug** rigenerati dai titoli brevi (erano 150+ car → ora max 111, media 41).
-- **⚠️ BUG NOTO — `fix_slug.php` non è idempotente in una passata**: 39 slug prendono un suffisso `-2/-3/-4` da WordPress e vanno riscritti al giro dopo; converge solo alla **terza** esecuzione. **DA CORREGGERE.**
+- **SLUG.** Nuovo **`tools/import-listini/fix_slug.php`**: **363 slug** rigenerati dai titoli brevi (erano 150+ car → ora max 111, media 42, **zero duplicati**). Scrive in **due passate** (parcheggio su `ms-tmp-<id>`, poi slug definitivo) perché altrimenti WordPress accoda `-2` e servono **tre** esecuzioni per convergere. **Idempotenza verificata** sporcando 30 slug in rotazione: una sola passata li ricostruisce identici. ✅ Bug chiuso.
 
-### 🔴 VERDETTO: Epanza è un vicolo cieco per le immagini
-Scritto `tools/import-listini/scrape_epanza.py` (aggancio per codice figura estratto dallo slug + somiglianza del nome). **Misurato**: il loro catalogo ha **527 prodotti** (noi 1.236), solo **234** con codice figura. Abbinamenti per figura: **13 su 626** immagini mancanti. Per solo nome: 30 sopra 0.6 di somiglianza e **già sbagliati** (Paletto Ø89 agganciato al loro Ø60). Recupero realistico **20-40 su 626**, con **rischio legale** (le foto prodotto sono asset loro; i pittogrammi CdS invece sono standard di legge). **Non hanno le immagini che ci mancano. Da riferire al cliente.**
+### 🔴 DUE VICOLI CIECHI — NON RITENTARLI
+1. **EPANZA** (`tools/import-listini/scrape_epanza.py`, resta nel repo come prova). Il loro catalogo ha **527 prodotti** (noi 1.236), solo **234** con codice figura → **13 abbinamenti su 626** immagini mancanti. Per somiglianza del nome: 30 sopra 0.6 e **già sbagliati** (Paletto Ø89 agganciato al loro Ø60). **Non hanno "tutte le immagini".** In più le foto prodotto sono **asset loro** (i pittogrammi CdS, invece, sono standard di legge). **Da riferire al cliente.**
+2. **PART_D** (pagine VER 22-24, `type: "altro"`, 126 figure). `figure_ocr.py` ora **ritaglia da ogni pagina con figure** e `normalize.py` ripesca per codice figura → **+6 ritagli, ZERO immagini prodotto in più**. Le figure di quelle pagine (II 100/102/166) **non sono** quelle dei prodotti censiti lì (II 224-231). Filone esaurito.
 
-### TODO PRIORITARIO
-1. **IMMAGINI DAI NOSTRI DATI (il filone grosso, in corso)**: `part_d.json` è marcato `type: "altro"` invece di `listino` (126 figure, pagine VER 22-24) → **saltato sia da `normalize` sia da `figure_ocr`**; pagine **VER 26-28 assenti da `extract/`** → vanno riestratte.
-2. **Correggere l'idempotenza di `fix_slug.php`** (vedi bug noto sopra).
-3. **PDP incompleta**: i meta `_ms_specs` / `_ms_downloads` / `_ms_fig_cds` / `_ms_qty_discounts` **non sono mai popolati** → specifiche tecniche assenti.
-4. **Selettore varianti assente** sui prodotti senza prezzo.
-5. **Categorie**: una catch-all fantasma con tutti i 1.236 prodotti + 3 categorie vuote.
-6. **SKU stampato due volte** in PDP.
-7. **Graphify STALE** → `/graphify . --update`.
+### STATO STORE (verificato a fine sessione)
+**1.236 prodotti · 36.182 varianti intatti** · **610 immagini** tutte coerenti (0 incompatibili) · titoli entro **90 car** · slug puliti e **idempotenti** · tutte le pagine **200**.
+
+### TODO PRIORITARIO — in ordine di valore
+1. **🔴 BLOCCANTI VENDITA — il checkout oggi NON funziona**: zero **gateway di pagamento** attivi, zero **zone di spedizione**, **indirizzo negozio vuoto**. In locale è voluto, ma è il primo lavoro prima del lancio.
+2. **SMTP assente**: i form preventivo/contatti usano `wp_mail` nudo → in produzione le richieste di preventivo (**165 prodotti vendono solo a preventivo**) **si perdono**.
+3. **LEGALI**: Privacy Policy in bozza, **Termini e Condizioni inesistenti**, **cookie banner assente**, doppione "Refund and Returns Policy" vs "Spedizioni e Resi".
+4. **CATEGORIA FANTASMA**: "Segnaletica Stradale, Cantieristica e Accessori" contiene **tutti i 1.236 prodotti** (catch-all dell'import) + **3 categorie vuote** → inquinano shop e filtri. Da eliminare.
+5. **MENU inesistente**: la navigazione è un **array hardcoded** in `nav-primary.php` → il cliente non può modificarla da admin.
+6. **PDP**: i meta `_ms_specs` / `_ms_downloads` / `_ms_fig_cds` / `_ms_qty_discounts` **non sono popolati da nessuno script** → la tabella specifiche cade sempre sul fallback `wc_display_product_attributes`, badge FIG. e certificazioni **non compaiono mai**.
+7. **Selettore varianti assente sui prodotti senza prezzo**: in `single-product.php`, `woocommerce_template_single_add_to_cart()` è **dentro `if ($ha_prezzo)`** → se `get_price()` è vuoto il menu non viene mai emesso.
+8. **SKU stampato due volte** (`card.php` + hook `ms_show_sku_in_loop`).
+9. **IMMAGINI — 626 senza foto**: **200 non hanno pittogramma nel listino** → **servono foto dal fornitore** (richiesta da girare al cliente); **~426** hanno codice figura ma nessun ritaglio → **unica strada rimasta: riestrarre le pagine VER 26-28**, assenti da `extract/` (mai committate).
+10. **"Pagina di esempio"** WP ancora pubblicata · **WooCommerce 10.7 → 10.9.4**.
+11. **GSAP/Lenis mai installati**: animazioni hero ferme alla fase 1 (vanilla JS).
+12. **Slug sospetto**: un prodotto ha slug `inizio` — sembra un residuo di parsing, da controllare.
+13. **Graphify STALE** → `/graphify . --update`.
 
 ---
 
