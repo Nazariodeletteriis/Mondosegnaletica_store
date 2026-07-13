@@ -1,5 +1,38 @@
 # HANDOFF — Mondo Segnaletica
-> Stato al **2026-07-13** (sessione 11 CHIUSA). **Leggi SOLO questo file per ripartire.** Tutto lo storico precedente è superato e rimosso.
+> Stato al **2026-07-13** (sessione 12 IN CORSO). **Leggi SOLO questo file per ripartire.** Tutto lo storico precedente è superato e rimosso.
+
+---
+
+## 🟡 2026-07-13 — Sessione 12 (CHIUSA): **il pozzo epanza è esaurito**. 143 su 146 = ~98% di tutto il prendibile. Codice scritto, NON committato.
+
+> **RETTIFICA DEFINITIVA della chiusura della sessione 11.** L'ipotesi "il codice figura sta nel titolo della pagina epanza, non solo nell'URL → la copertura sale ben oltre 143" è **FALSA**. Misurata, non assunta.
+
+- **Sondaggio random, 25 schede epanza senza figura nell'URL → 0/25** hanno un codice figura nel contenuto. Non sono cartelli: sono **scarpe antinfortunistiche, guanti, tute, gilet U-Power, DPI**. Epanza vende soprattutto **altro**.
+- **Sondaggio mirato, 40 schede che dal nome *sembrano* cartelli → 1/40.** Le altre 39 sono **PANNELLI INTEGRATIVI**: il Codice della Strada li numera per **MODELLO** (mod. 3/d, mod. 6/g), **non per figura**. Il codice non "manca": **non gli spetta**.
+- **NUMERO DEFINITIVO** (dal log dello scraper): epanza ha **146 CODICI FIGURA DISTINTI** in tutto il catalogo (2.128 schede, 240 con fig nell'URL → si riducono a **146 codici unici**). Noi ne agganciamo già **143** = **~98% di tutto ciò che epanza può darci**. Nostri: **1.236** prodotti, **1.036** con figura, **494** codici distinti.
+
+> 🔴 **IL POZZO EPANZA È ESAURITO. Non cercare altre leve lì dentro: non ce ne sono.**
+> **Conseguenza strategica:** le immagini per gli altri **~350 codici figura** NON verranno da epanza. Vanno **chieste al fornitore** (già in `ANOMALIE.md` punto 1) o prese da **un'altra fonte**.
+
+**Codice scritto (non committato):**
+- `scrape_epanza.py`: nuovo **`--sonda-html`** (legge la figura dall'**H1** delle 170 schede sospette; cache in `out/epanza_figure_html.json` — il `''` in cache significa *"ho già guardato, non c'è"*). **Fix**: se l'immagine è già su disco, ora registra comunque `x['file']` nella proposta — senza, al secondo run l'apply non la trovava. Docstring aggiornata col **terzo errore pagato**.
+- **`apply_epanza.php` — NUOVO.** Applica le foto a Woo. Idempotente via meta **`_ms_epanza_file`**, **deliberatamente diverso** da `_ms_figura_file`: se riusasse quel meta, `apply_images.php` al giro dopo **rimetterebbe il disegno di listino SOPRA la fotografia**.
+- `apply_images.php`: **paletto** — se il prodotto ha `_ms_epanza_file`, non ci rimette sopra il disegno.
+
+**IN CORSO alla chiusura:** `scrape_epanza.py --sonda-html --scarica` gira **detached** (`setsid`, **PID 3635165**, sopravvive alla chat). Log: `tools/import-listini/scrape_epanza.log`. Scarica **~143 foto** in `tools/import-listini/epanza-img/`. Durata ~8 min.
+
+### TODO PRIORITARIO — primo passo della prossima sessione
+1. `tail tools/import-listini/scrape_epanza.log` → verifica che sia finito e **quante** immagini ha preso.
+2. 👁️ **GUARDARE A OCCHIO 3-4 immagini in `epanza-img/`**: sono davvero **fotografie** dei cartelli, o `og:image` ha restituito **placeholder/logo**? **Non applicare niente** prima di averlo verificato con gli occhi.
+3. `wp eval-file tools/import-listini/apply_epanza.php dry-run` → poi **senza** dry-run.
+4. Verificare la **resa sul sito**: le foto devono stare meglio dei disegni dentro le card scure.
+5. **Committare tutto** (nulla è ancora committato in questa sessione).
+
+### 🔴 RESTA APERTO — prioritario subito dopo le immagini
+- **Checkout NON funziona**: 0 gateway di pagamento, 0 zone di spedizione.
+- **SMTP assente** → le richieste di preventivo **si perdono**.
+- **Legali incompleti**: no T&C, no cookie banner.
+- **Categoria fantasma** catch-all.
 
 ---
 

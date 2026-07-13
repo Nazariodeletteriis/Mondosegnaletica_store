@@ -71,6 +71,10 @@ foreach ( $voci as $v ) {
 	$applicato = (string) get_post_meta( $pid, '_ms_figura_file', true );
 	$img_id    = $product->get_image_id();
 
+	// Se il prodotto ha già la FOTOGRAFIA (apply_epanza.php), il disegno di listino non ci
+	// torna sopra: la foto è meglio, ed è il motivo per cui l'abbiamo presa.
+	if ( $img_id && get_post_meta( $pid, '_ms_epanza_file', true ) ) { continue; }
+
 	if ( $img_id && $applicato === $nome_file ) { continue; }   // già quella giusta
 
 	$file = $base . '/figures/' . $nome_file;
