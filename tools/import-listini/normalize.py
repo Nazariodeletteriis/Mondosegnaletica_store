@@ -207,22 +207,32 @@ def scegli_figura(figmap, code, articolo):
     return migliore if somiglia(migliore) >= 0.35 else None
 
 
+def _codice_vero(fig):
+    k = re.sub(r'[^A-Z0-9]', '', str(fig or '').upper())
+    return len(k) >= 2 and bool(re.search(r'\d', k))
+
+
 def _carica_ritagli():
     f = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'naming/figure_ocr.json')
     if not os.path.exists(f):
         print('!! naming/figure_ocr.json assente: import SENZA immagini (lancia figure_ocr.py)')
-        return {}, {}
-    crops, nomi = {}, {}
+        return {}, {}, {}
+    crops, nomi, per_codice = {}, {}, {}
     for x in json.load(open(f)):
         m = re.match(r'([A-Z]{3})_(\d{3})_(\d{2})\.png$', x['file'])
         if not m:
             continue
-        crops[(m.group(1), int(m.group(2)), int(m.group(3)))] = x['file']
+        tag = m.group(1)
+        crops[(tag, int(m.group(2)), int(m.group(3)))] = x['file']
         nomi[x['file']] = {'nome': x.get('nome'), 'confidenza': x.get('confidenza')}
-    return crops, nomi
+        # indice per codice figura, usato dalla seconda passata
+        if _codice_vero(x.get('figura')):
+            k = (tag, re.sub(r'[^A-Z0-9]', '', str(x['figura']).upper()))
+            per_codice.setdefault(k, x['file'])
+    return crops, nomi, per_codice
 
 
-crops, nomi_vista = _carica_ritagli()
+crops, nomi_vista, crops_per_codice = _carica_ritagli()
 
 # ── raccolta ──────────────────────────────────────────────────────────────────
 prodotti = {}
@@ -369,6 +379,31 @@ for f in sorted(glob.glob('extract/*.json')):
                     for x in pr:
                         add_var(p, attrs_da(r, x, True), x['euro'], x.get('unita'))
 
+# ── seconda passata: il cartello ritratto su un'altra pagina ──────────────────
+#
+# Un prodotto nasce dalla pagina dove c'è il prezzo, ma la stessa figura è disegnata anche
+# altrove — comprese le pagine senza tabella prezzi (part_d: 126 figure). L'aggancio per
+# (pagina, posizione) non la trova, perché guarda solo la pagina di nascita del prodotto.
+#
+# Qui si ripesca il ritaglio per CODICE figura, ma solo dove il codice è davvero un codice:
+# mai per le etichette a lettera singola, che valgono soltanto dentro la loro pagina — la 'A'
+# di pagina 3 è un segnale di velocità, quella di pagina 6 una tuta da lavoro. È la trappola
+# che ha già messo il cartello addosso alla tuta: non ci si ricasca.
+def ripesca_per_codice(prodotti, per_codice):
+    aggiunte = 0
+    for sku, p in prodotti.items():
+        if p.get('immagine') or not _codice_vero(p.get('figura')):
+            continue
+        tag = sku.split('-')[1] if sku.startswith('MS-') else None
+        if not tag:
+            continue
+        f = per_codice.get((tag, re.sub(r'[^A-Z0-9]', '', str(p['figura']).upper())))
+        if f:
+            p['immagine'] = f
+            aggiunte += 1
+    return aggiunte
+
+
 NOME_MAX = 90
 
 def nome_breve(nome):
@@ -403,6 +438,8 @@ def nome_breve(nome):
     return out
 
 
+ripescate = ripesca_per_codice(prodotti, crops_per_codice)
+
 # ── report ────────────────────────────────────────────────────────────────────
 for p in prodotti.values():
     p['desc_note'] = list(dict.fromkeys(p['desc_note']))
@@ -421,7 +458,7 @@ print(f'  variabili       {len(var)}')
 print(f'  semplici        {len(sem)}')
 print(f'  senza prezzo    {len(senza)}  → CTA preventivo')
 print(f'VARIAZIONI        {sum(len([v for v in p["varianti"] if v["euro"] is not None]) for p in var)}')
-print(f'con immagine      {len(img)} ({100*len(img)//max(len(prodotti),1)}%)')
+print(f'con immagine      {len(img)} ({100*len(img)//max(len(prodotti),1)}%)   di cui ripescate per codice figura: {ripescate}')
 print(f'nome da verificare{len(dubbi):5d}')
 print()
 bycat = defaultdict(int)

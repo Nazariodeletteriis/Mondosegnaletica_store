@@ -186,10 +186,19 @@ def sc_nome(blob, nome):
 
 
 # ---------------------------------------------------------------- figure note per pagina
+# Si ritaglia da OGNI pagina che dichiari delle figure, non solo da quelle marcate "listino".
+#
+# part_d.json (pagine VER 22-24) è marcato type "altro" pur avendo 126 figure: sono cartelli
+# veri, semplicemente su pagine senza tabella prezzi. Il filtro sul tipo le escludeva, e con
+# loro le immagini dei prodotti che quelle figure ritraggono — prodotti che esistono, perché
+# nati dalle pagine dove il prezzo c'è (una figura ricorre su più pagine e viene deduplicata).
+#
+# Qui il tipo della pagina non c'entra: interessa solo se ci sono figure da ritagliare. Chi
+# decide se una figura diventa un prodotto è normalize.py, non questo script.
 pagine = defaultdict(list)
 for f in sorted(glob.glob(os.path.join(REPO, 'extract/*.json'))):
     for pg in json.load(open(f)):
-        if pg.get('type') != 'listino':
+        if not pg.get('figures'):
             continue
         for fg in (pg.get('figures') or []):
             pagine[(pg['tag'], pg['page'])].append(

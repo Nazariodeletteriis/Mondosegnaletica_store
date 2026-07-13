@@ -1791,6 +1791,60 @@
   "ocr": "STOP vietato l'ingresso agli  estranei al condominio FIGURA 37/A"
  },
  {
+  "file": "VER_022_03.png",
+  "figura": "II 102 ART. 125",
+  "nome": "comune",
+  "confidenza": "media",
+  "scarto": false,
+  "score_ocr": 0.792,
+  "ocr": "STEMMA COMUNALE"
+ },
+ {
+  "file": "VER_022_01.png",
+  "figura": "II 100 ART. 125",
+  "nome": "centro",
+  "confidenza": "media",
+  "scarto": false,
+  "score_ocr": 0.56,
+  "ocr": "oo"
+ },
+ {
+  "file": "VER_023_27.png",
+  "figura": "II 166 ART. 125",
+  "nome": "diesel",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 1.0,
+  "ocr": "diesel"
+ },
+ {
+  "file": "VER_023_28.png",
+  "figura": "II 167 ART. 125",
+  "nome": "metano",
+  "confidenza": "alta",
+  "scarto": false,
+  "score_ocr": 0.95,
+  "ocr": "1 metano"
+ },
+ {
+  "file": "VER_024_19.png",
+  "figura": "II 200 ART. 125",
+  "nome": "acquario",
+  "confidenza": "media",
+  "scarto": false,
+  "score_ocr": 0.56,
+  "ocr": "00"
+ },
+ {
+  "file": "VER_024_07.png",
+  "figura": "II 188 ART. 125",
+  "nome": "banca",
+  "confidenza": "media",
+  "scarto": false,
+  "score_ocr": 0.56,
+  "ocr": "88"
+ },
+ {
   "file": "VER_029_01.png",
   "figura": "248",
   "nome": null,
