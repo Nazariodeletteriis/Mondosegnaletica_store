@@ -142,7 +142,7 @@
 .products-grid {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	gap: var(--space-5);
+	gap: var(--space-6);
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -167,6 +167,12 @@
 
 @media (max-width: 900px) {
 	.products-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Dopo il breakpoint a 900px, non prima: a parità di specificità vince l'ultima regola,
+   quindi su uno schermo da 500px un blocco messo sopra perderebbe comunque contro repeat(2). */
+@media (max-width: 560px) {
+	.products-grid { grid-template-columns: 1fr; }
 }
 
 /* --- Sidebar Filtri --- */
@@ -455,6 +461,7 @@
 /* --- Paginazione --- */
 .archive-pagination {
 	display: flex;
+	flex-wrap: wrap;          /* il catalogo ha 78 pagine: su schermo stretto devono andare a capo */
 	align-items: center;
 	justify-content: center;
 	gap: var(--space-2);
@@ -463,12 +470,17 @@
 	border-top: var(--border-hairline);
 }
 
-.pagination__item {
+/* Si stilano le classi che paginate_links() genera davvero — .page-numbers, .current,
+   .dots — e non quelle inventate dal template: .pagination__item--current e --dots non
+   sono mai esistite nell'HTML, erano regole morte. Così ricevono lo stile anche le frecce
+   e i puntini, che prima restavano nudi. */
+.archive-pagination .page-numbers {
 	min-width: 36px;
 	height: 36px;
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	justify-content: center;
+	padding: 0 var(--space-2);
 	font-family: var(--font-mono);
 	font-size: var(--text-xs);
 	letter-spacing: 0.06em;
@@ -479,15 +491,15 @@
 	transition: all var(--transition-fast);
 }
 
-.pagination__item:hover,
-.pagination__item--current {
+.archive-pagination a.page-numbers:hover,
+.archive-pagination .page-numbers.current {
 	border-color: var(--color-accent);
 	color: var(--color-accent);
 	background: rgba(255, 204, 0, 0.05);
 }
 
-.pagination__item--dots {
-	border: none;
+.archive-pagination .page-numbers.dots {
+	border-color: transparent;
 	color: var(--color-text-muted);
 }
 

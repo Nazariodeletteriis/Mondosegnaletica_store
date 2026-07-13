@@ -277,16 +277,32 @@ while ( have_posts() ) :
 		</div><!-- /.pdp-specs -->
 
 		<!-- ═══ PRODOTTI CORRELATI ═══ -->
-		<div class="pdp-related">
-			<div class="section-header">
-				<span class="label-section">Correlati</span>
-				<h2 class="section-title">Potrebbero servirti.</h2>
+		<?php
+		// Carosello, non griglia. In griglia a 3 colonne i correlati finivano su due righe
+		// con l'ultimo orfano a capo, e per vederne di più bisognava allungare la pagina.
+		// L'infrastruttura del carosello esiste già ed è quella della home (carousel.js si
+		// auto-aggancia a .carousel): qui bastava usarla. Ne chiedo 8 invece di 4, perché
+		// scorrendo ha senso averne di più.
+		$related_ids = wc_get_related_products( $product_id, 8 );
+		if ( ! empty( $related_ids ) ) :
+		?>
+		<div class="pdp-related carousel">
+			<div class="section-header section-header--row">
+				<div>
+					<span class="label-section">Correlati</span>
+					<h2 class="section-title">Potrebbero servirti.</h2>
+				</div>
+				<div class="carousel-nav" aria-label="<?php esc_attr_e( 'Navigazione carosello', 'mondosegnaletica' ); ?>">
+					<button class="carousel-btn carousel-btn--prev" aria-label="<?php esc_attr_e( 'Precedente', 'mondosegnaletica' ); ?>">
+						<span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>
+					</button>
+					<button class="carousel-btn carousel-btn--next" aria-label="<?php esc_attr_e( 'Successivo', 'mondosegnaletica' ); ?>">
+						<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+					</button>
+				</div>
 			</div>
-			<?php
-			$related_ids = wc_get_related_products( $product_id, 4 );
-			if ( ! empty( $related_ids ) ) :
-			?>
-			<div class="products-grid">
+
+			<div class="carousel-track">
 				<?php foreach ( $related_ids as $related_id ) :
 					$related = wc_get_product( $related_id );
 					if ( $related instanceof WC_Product ) :
@@ -294,8 +310,8 @@ while ( have_posts() ) :
 					endif;
 				endforeach; ?>
 			</div>
-			<?php endif; ?>
 		</div>
+		<?php endif; ?>
 
 	</div><!-- /.pdp-wrap -->
 

@@ -100,7 +100,7 @@
 @media (max-width: 1024px) {
 	.pdp-layout {
 		grid-template-columns: 1fr;
-		gap: var(--space-10);
+		gap: var(--space-12);
 	}
 }
 
@@ -745,7 +745,7 @@ button.single_add_to_cart_button:hover {
 	display: flex;
 	align-items: center;
 	gap: var(--space-3);
-	padding: var(--space-4) var(--space-5);
+	padding: var(--space-4) var(--space-6);
 	background: #111;
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	border-radius: 2px;

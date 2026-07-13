@@ -283,7 +283,7 @@
   "sku": "MS-ACC-GIACCAAVEN-00701",
   "file": "ACC_007_01.png",
   "figura": "A",
-  "nome": "Giacca a Vento Blu con Fasce Rifrangenti + Interno Staccabile con Scritta Rifrangente “ausiliari del Traffico”",
+  "nome": "Giacca a Vento Blu con Fasce Rifrangenti + Interno Staccabile con Scritta Rifrangente…",
   "confidenza": "alta"
  },
  {
@@ -297,14 +297,14 @@
   "sku": "MS-ACC-CAPPOTTOIM-00703",
   "file": "ACC_007_03.png",
   "figura": "C",
-  "nome": "Cappotto Impermeabile Blu con Fasce Rifrangenti con Scritta Rifrangente “ausiliari del Traffico”",
+  "nome": "Cappotto Impermeabile Blu con Fasce Rifrangenti con Scritta Rifrangente “ausiliari del…",
   "confidenza": "alta"
  },
  {
   "sku": "MS-ACC-BERRETTOIM-00704",
   "file": "ACC_007_04.png",
   "figura": "D",
-  "nome": "Berretto Imbottito Blu con Copri Orecchie ed Elastico Nucale con Scritta Rifrangente “ausiliari del Traffico”",
+  "nome": "Berretto Imbottito Blu con Copri Orecchie ed Elastico Nucale con Scritta Rifrangente…",
   "confidenza": "alta"
  },
  {
@@ -430,7 +430,7 @@
   "sku": "3400DRIDR0075",
   "file": "ACC_009_10.png",
   "figura": "L",
-  "nome": "Dispositivo per Riflettorizzazione Degli Alberi da 25x20 CM Parte Rifrangente 14,8x19,8 CM Kit: 2 Fasce + Corda Elastica + Fascette",
+  "nome": "Dispositivo per Riflettorizzazione Degli Alberi da 25x20 CM Parte Rifrangente 14,8x19,8…",
   "confidenza": "alta"
  },
  {
@@ -451,14 +451,14 @@
   "sku": "3400DRIOG0057",
   "file": "ACC_009_13.png",
   "figura": "O",
-  "nome": "Occhio di Gatto Monofacciale - Economic Non Carrabile - Senza Tasselli (fino AD Esaurimento Scorte) - Non Omologato",
+  "nome": "Occhio di Gatto Monofacciale – Economic Non Carrabile",
   "confidenza": "alta"
  },
  {
   "sku": "MS-ACC-OCCHIODIGA-00914",
   "file": "ACC_009_14.png",
   "figura": "P - Q - R",
-  "nome": "Occhio di Gatto Bifacciale - Economic Non Carrabile - Senza Tasselli (fino AD Esaurimento Scorte) - Non Omologato",
+  "nome": "Occhio di Gatto Bifacciale – Economic Non Carrabile",
   "confidenza": "alta"
  },
  {
@@ -619,7 +619,7 @@
   "sku": "3600M47A10002",
   "file": "ACC_013_03.png",
   "figura": "A",
-  "nome": "Art. 60464 - Misuratore Stradale con Contatore Visibile Dall'alto Dotato di Freno, Comandi Reset e Stop Posizionati in Alto - Manico Metallico Pieghevole Sacca per IL Trasporto Inclusa - Max 10 KM = 9999,99 Metri - Ruota Ø: 32 CM",
+  "nome": "Art. 60464",
   "confidenza": "alta"
  },
  {
@@ -871,7 +871,7 @@
   "sku": "MS-CAN-II67ART118",
   "file": "CAN_014_19.png",
   "figura": "II 67 ART. 118",
-  "nome": "Transito vietato ai veicoli, o complessi di veicoli, aventi lunghezza superiore a .... metri",
+  "nome": "Transito vietato ai veicoli, o complessi di veicoli, aventi lunghezza superiore a ....…",
   "confidenza": "media"
  },
  {
@@ -955,7 +955,7 @@
   "sku": "MS-CAN-II73ART119",
   "file": "CAN_015_19.png",
   "figura": "II 73 ART. 119",
-  "nome": "Fine del divieto di sorpasso per i veicoli di massa a pieno carico superiore a 3,5 tonnellate",
+  "nome": "Fine del divieto di sorpasso per i veicoli di massa a pieno carico superiore a 3,5…",
   "confidenza": "alta"
  },
  {
@@ -1298,42 +1298,42 @@
   "sku": "2000STEBA0116",
   "file": "CAN_022_04.png",
   "figura": "D",
-  "nome": "Base Appesantimento in Pvc - con Fascia Rifrangente - 15 Kg. Circa - Ove SI Possono Inserire Palo Ø 48 - Palo Ø 60 - Canna Quadra da 40x40",
+  "nome": "Base Appesantimento in Pvc – con Fascia Rifrangente – 15 Kg. Circa",
   "confidenza": "alta"
  },
  {
   "sku": "2000STEBA0115",
   "file": "CAN_022_04.png",
   "figura": "D",
-  "nome": "Base Appesantimento in Pvc - con Fascia Rifrangente - 22 Kg. Circa - Ove SI Possono Inserire Palo Ø 48 - Palo Ø 60 - Canna Quadra da 40x40",
+  "nome": "Base Appesantimento in Pvc – con Fascia Rifrangente – 22 Kg. Circa",
   "confidenza": "alta"
  },
  {
   "sku": "2000STECQ0025",
   "file": "CAN_022_05.png",
   "figura": "E",
-  "nome": "Palo Canna Quadra Zincata da 40x40 - Spessore 1,5 MM - Altezza 2,00 M + 2 Staffe e Bulloneria Zincate",
+  "nome": "Palo Canna Quadra Zincata da 40x40 – Spessore 1,5 MM",
   "confidenza": "alta"
  },
  {
   "sku": "2000STECQ0026",
   "file": "CAN_022_05.png",
   "figura": "E",
-  "nome": "Palo Canna Quadra Zincata da 40x40 - Spessore 1,5 MM - Altezza 2,70 M + 2 Staffe e Bulloneria Zincate",
+  "nome": "Palo Canna Quadra Zincata da 40x40 – Spessore 1,5 MM",
   "confidenza": "alta"
  },
  {
   "sku": "2000STEBA0117",
   "file": "CAN_022_06.png",
   "figura": "F",
-  "nome": "Base Appesantimento in Pvc - con Fascia Rifrangente Cl. 1 - 22 Kg. Circa + Pannello Segnaletico in Pvc da 25x100 - Bifacciale",
+  "nome": "Base Appesantimento in Pvc – con Fascia Rifrangente Cl. 1",
   "confidenza": "alta"
  },
  {
   "sku": "2000STEBA0118",
   "file": "CAN_022_06.png",
   "figura": "F",
-  "nome": "Base Appesantimento in Pvc - con Fascia Rifrangente Cl. 2 - 22 Kg. Circa + Pannello Segnaletico in Pvc da 25x100 - Bifacciale",
+  "nome": "Base Appesantimento in Pvc – con Fascia Rifrangente Cl. 2",
   "confidenza": "alta"
  },
  {
@@ -1368,14 +1368,14 @@
   "sku": "MS-CAN-CASSETTAME-02408",
   "file": "CAN_024_04.png",
   "figura": "4",
-  "nome": "Cassetta Metallica Portabatteria per Applicazione su Palo o Cavalletto Predisposta per Lucchetto (escluso)",
+  "nome": "Cassetta Metallica Portabatteria per Applicazione su Palo o Cavalletto Predisposta per…",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-5",
   "file": "CAN_025_01.png",
   "figura": "5",
-  "nome": "Cartello di preavviso con lampeggiatori a led diam. 200 mm ad alta efficienza. Dimensioni: 135x200 cm. Posizionamento sul margine destro a circa 3.000 m dal triangolo \"lavori in corso\"",
+  "nome": "Cartello di preavviso con lampeggiatori a led diam. 200 mm ad alta efficienza.…",
   "confidenza": "alta"
  },
  {
@@ -1389,21 +1389,21 @@
   "sku": "MS-CAN-TRANSENNAM-02901",
   "file": "CAN_029_01.png",
   "figura": "A",
-  "nome": "Transenna Mobile CM 110 X 250 Zincata a Caldo con Fascia Rifrangente da CM 20 X 150 Monofacciale",
+  "nome": "Transenna Mobile CM 110 X 250 Zincata a Caldo con Fascia Rifrangente da CM 20 X 150…",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-TRANSENNAM-02902",
   "file": "CAN_029_01.png",
   "figura": "A",
-  "nome": "Transenna Mobile CM 110 X 250 Zincata a Caldo con Fascia Rifrangente da CM 20 X 150 Bifacciale",
+  "nome": "Transenna Mobile CM 110 X 250 Zincata a Caldo con Fascia Rifrangente da CM 20 X 150…",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-TRANSENNAM-02903",
   "file": "CAN_029_01.png",
   "figura": "A",
-  "nome": "Transenna Mobile CM 110 X 200 Zincata a Caldo con Fascia Rifrangente da CM 20 X 150 Bifacciale",
+  "nome": "Transenna Mobile CM 110 X 200 Zincata a Caldo con Fascia Rifrangente da CM 20 X 150…",
   "confidenza": "alta"
  },
  {
@@ -1445,7 +1445,7 @@
   "sku": "2000SLCLS0070",
   "file": "CAN_033_01.png",
   "figura": "A",
-  "nome": "Lampeggiatore Monofacciale Superled 7 Led con Fotocellula, Lente in Policarbonato con Interruttore Esterno + Spia Sostituzione Batterie",
+  "nome": "Lampeggiatore Monofacciale Superled 7 Led con Fotocellula, Lente in Policarbonato con…",
   "confidenza": "alta"
  },
  {
@@ -1550,14 +1550,14 @@
   "sku": "MS-CAN-IMPIANTOSE-03601",
   "file": "CAN_036_01.png",
   "figura": "A",
-  "nome": "Impianto Sequenziale a 5 Luci 12v Alogeno Versione \"a\" Completo Di: - Basi in Pvc da 22 Kg. Circa - Pannelli Bifacciali in Pvc Rifrangente Cl. 2 Bianco/rosso - Fari Ø 230 12v Alogeni - Cavi Necessari - Centralina di Comando 12v - Cassetta Portabatteria",
+  "nome": "Impianto Sequenziale a 5 Luci 12v Alogeno Versione \"a\" Completo Di:",
   "confidenza": "alta"
  },
  {
   "sku": "MS-CAN-BATTERIE6V-03607",
   "file": "CAN_036_05.png",
   "figura": "E",
-  "nome": "Batterie 6v 7 AH per Impianti Sequenziali Led Senza Cavi - NE Occorrono 4 per Ogni Lampeggiante",
+  "nome": "Batterie 6v 7 AH per Impianti Sequenziali Led Senza Cavi",
   "confidenza": "alta"
  },
  {
@@ -1641,14 +1641,14 @@
   "sku": "2400MTRCM0002",
   "file": "ORI_003_13.png",
   "figura": "N",
-  "nome": "Canna per Marcature Compatibile con Bombolette Manuali con Misuratore Stradale Incorporato - Max 1 KM = 999,99 Metri",
+  "nome": "Canna per Marcature Compatibile con Bombolette Manuali con Misuratore Stradale Incorporato",
   "confidenza": "alta"
  },
  {
   "sku": "3200LELKB0002",
   "file": "ORI_009_01.png",
   "figura": "A",
-  "nome": "Kit Bande Sonore da 25 ML Cadauno - Composto Da: - N. 1 Rotolo di Supporto da 15 CM X 25,00 ML - N. 1 Rotolo di Dentello da 12 CM X 25,00 ML - N. 1 Confezione di Avvivatore da 3,500 KG Circa - N. 1 Confezione di Fissapolvere da 1,900 KG Circa",
+  "nome": "Kit Bande Sonore da 25 ML Cadauno – Composto Da:",
   "confidenza": "alta"
  },
  {
@@ -1690,7 +1690,7 @@
   "sku": "3200LELLR0044",
   "file": "ORI_009_03.png",
   "figura": "C",
-  "nome": "Art. 374502db - Laminato Reflex Non Autoadesivo da CM 12 X ML 25 - Completo di Fissapolvere e Avvivatore",
+  "nome": "Art. 374502db – Laminato Reflex Non Autoadesivo da CM 12 X ML 25",
   "confidenza": "alta"
  },
  {
@@ -2950,14 +2950,14 @@
   "sku": "MS-VER-DELINEATOR-04601",
   "file": "VER_046_01.png",
   "figura": "A",
-  "nome": "Delineatore Normale di Margine in Pvc Europeo + Spinotto con Gemma Bifacciale Bianco e Rossa",
+  "nome": "Delineatore Normale di Margine in Pvc Europeo + Spinotto con Gemma Bifacciale Bianco e…",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-DELINEATOR-04602",
   "file": "VER_046_01.png",
   "figura": "A",
-  "nome": "Delineatore Normale di Margine in Pvc Europeo + Spinotto con Gemma Monofacciale Verticale o 2 Circolari Gialle",
+  "nome": "Delineatore Normale di Margine in Pvc Europeo + Spinotto con Gemma Monofacciale Verticale…",
   "confidenza": "alta"
  },
  {
@@ -2971,49 +2971,49 @@
   "sku": "MS-VER-DELINEATOR-04604",
   "file": "VER_046_03.png",
   "figura": "C",
-  "nome": "Delineatore per Strade di Montagna con Fasce Nere e Gialle 1ª Fascia Rifrangente Gialla - 3ª Fascia Cal - 5ª Fascia Cal",
+  "nome": "Delineatore per Strade di Montagna con Fasce Nere e Gialle 1ª Fascia Rifrangente Gialla",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-DELINEATOR-04605",
   "file": "VER_046_03.png",
   "figura": "C",
-  "nome": "Delineatore per Strade di Montagna con Fasce Nere e Gialle 1ª Fascia - 3ª Fascia - 5ª Fascia Rifrangente Gialla",
+  "nome": "Delineatore per Strade di Montagna con Fasce Nere e Gialle 1ª Fascia – 3ª Fascia",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-DELINEATOR-04606",
   "file": "VER_046_03.png",
   "figura": "C",
-  "nome": "Delineatore per Strade di Montagna con Fasce Nere e Gialle 1ª Fascia Rifrangente Gialla - 3ª Fascia Cal - 5ª Fascia Cal",
+  "nome": "Delineatore per Strade di Montagna con Fasce Nere e Gialle 1ª Fascia Rifrangente Gialla",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-DELINEATOR-04607",
   "file": "VER_046_03.png",
   "figura": "C",
-  "nome": "Delineatore per Strade di Montagna con Fasce Nere e Gialle 1ª Fascia - 3ª Fascia - 5ª Fascia Rifrangente Gialla",
+  "nome": "Delineatore per Strade di Montagna con Fasce Nere e Gialle 1ª Fascia – 3ª Fascia",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-LDSSISTEMA-04608",
   "file": "VER_046_04.png",
   "figura": "D",
-  "nome": "Lds Sistema di Delineazione Lineare Sistema Retroriflettente AD Altissima Resa - Colore: Giallo Fluoro",
+  "nome": "Lds Sistema di Delineazione Lineare Sistema Retroriflettente AD Altissima Resa",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-LDSSISTEMA-04609",
   "file": "VER_046_04.png",
   "figura": "D",
-  "nome": "Lds Sistema di Delineazione Lineare Sistema Retroriflettente AD Altissima Resa - Colore: Giallo Fluoro",
+  "nome": "Lds Sistema di Delineazione Lineare Sistema Retroriflettente AD Altissima Resa",
   "confidenza": "alta"
  },
  {
   "sku": "MS-VER-DELINEATOR-04610",
   "file": "VER_046_05.png",
   "figura": "E",
-  "nome": "Delineatore Normale di Margine in Pvc Europeo + Spinotto con Gemma Bifacciale Bianco e Rossa con Catarifrangente per Selvaggina Colore Rosso",
+  "nome": "Delineatore Normale di Margine in Pvc Europeo + Spinotto con Gemma Bifacciale Bianco e…",
   "confidenza": "alta"
  },
  {
@@ -3083,7 +3083,7 @@
   "sku": "MS-VER-DISPOSITIV-04717",
   "file": "VER_047_05.png",
   "figura": "A",
-  "nome": "Dispositivo per Pannelli Bifacciali AD Angolo Fig. 468 - Kit di N° 2 Pezzi Zincati (staffe a Ponte Escluse)",
+  "nome": "Dispositivo per Pannelli Bifacciali AD Angolo Fig. 468",
   "confidenza": "alta"
  },
  {
@@ -3209,7 +3209,7 @@
   "sku": "MS-VER-PALETTODIS-04915",
   "file": "VER_049_06.png",
   "figura": "Q",
-  "nome": "Paletto di Sostegno in Ferro a T da 40 MM H M 2 - Verniciato Grigio Nebbia per Targhe: A-b-c-d-e-f-g",
+  "nome": "Paletto di Sostegno in Ferro a T da 40 MM H M 2",
   "confidenza": "alta"
  },
  {
@@ -3398,35 +3398,35 @@
   "sku": "UX LK11",
   "file": "VER_054_01.png",
   "figura": "A",
-  "nome": "Targa Bifacciale in Lamiera di Alluminio - Spessore 25/10 - Colore Fondo: \"giallo Traffico\" Ral 1023 (non Rifrangente) - Colore Fondo: \"bianco\" Ral 9010 (non Rifrangente) - Colore Scritte: \"nero Traffico\" Ral 9017 (non Rifrangente) - Colore Logo: \"blu Ultramarino\" Ral 5002 (non Rifrangente) - Fissaggio Mediante N° 2 Viti m8x40 in Acciaio Inox + Dadi m8 + Rondelle in Acciaio Inox (palo Escluso)",
+  "nome": "Targa Bifacciale in Lamiera di Alluminio – Spessore 25/10",
   "confidenza": "alta"
  },
  {
   "sku": "UX LK14",
   "file": "VER_054_02.png",
   "figura": "B",
-  "nome": "Targa Bifacciale in Lamiera di Alluminio - Spessore 25/10 - Colore Fondo: \"giallo Traffico\" Ral 1023 (non Rifrangente) - Colore Fondo: \"bianco\" Ral 9010 (non Rifrangente) - Colore Scritte: \"nero Traffico\" Ral 9017 (non Rifrangente) - Colore Logo: \"blu Ultramarino\" Ral 5002 (non Rifrangente) - Fissaggio Mediante N° 2 Viti m8x40 in Acciaio Inox + Dadi m8 + Rondelle in Acciaio Inox (palo Escluso)",
+  "nome": "Targa Bifacciale in Lamiera di Alluminio – Spessore 25/10",
   "confidenza": "alta"
  },
  {
   "sku": "UX LS 196",
   "file": "VER_055_01.png",
   "figura": "A",
-  "nome": "Targa Monofacciale in Lamiera di Alluminio - Spessore 25/10 - Colore Fondo: \"giallo Traffico\" Ral 1023 (non Rifrangente) - Colore Scritte: \"nero Traffico\" Ral 9017 (non Rifrangente) - Scritte e Simboli in Pellicola Nera Riportata - Fissaggio Mediante N° 2 Bulloni in Acciaio Inox 12x35 + Rondelle in Acciaio Inox",
+  "nome": "Targa Monofacciale in Lamiera di Alluminio – Spessore 25/10",
   "confidenza": "alta"
  },
  {
   "sku": "LS 201",
   "file": "VER_056_01.png",
   "figura": "A",
-  "nome": "Targa Monofacciale in Lamiera di Alluminio - Spessore 25/10 - Colore Fondo: \"giallo Traffico\" Ral 1023 (non Rifrangente) - Colore Scritte: \"nero Traffico\" Ral 9017 (non Rifrangente) - Scritte in Pellicola Nera Riportata - Fissaggio Mediante N° 4 Bulloni in Acciaio Inox 10x35 + Rondelle in Acciaio Inox + Staffa di Ancoraggio (esclusa)",
+  "nome": "Targa Monofacciale in Lamiera di Alluminio – Spessore 25/10",
   "confidenza": "alta"
  },
  {
   "sku": "LS 203",
   "file": "VER_056_02.png",
   "figura": "C",
-  "nome": "Staffa di Ancoraggio per Cartelli per Ispezione Eliportata - Angolari in Acciaio Zincato a Caldo 40x40x5 MM + Piastra Angolare Spessore 6 MM",
+  "nome": "Staffa di Ancoraggio per Cartelli per Ispezione Eliportata",
   "confidenza": "alta"
  },
  {

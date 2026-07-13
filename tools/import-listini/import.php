@@ -83,7 +83,20 @@ function ms_cat_id( string $name ): ?int {
 }
 
 function ms_descrizione( array $p ): string {
-	$out   = [];
+	$out = [];
+
+	// La riga tecnica del listino sta qui, non nel titolo. Il titolo è `nome_breve`: la
+	// colonna ARTICOLO arriva a 338 caratteri e come H1 è illeggibile — ma quei dettagli
+	// (spessore, RAL, bulloni) servono a chi compra, e non vanno persi.
+	$completo = trim( (string) ( $p['nome'] ?? '' ) );
+	$breve    = trim( (string) ( $p['nome_breve'] ?? '' ) );
+	if ( $completo && $breve && $completo !== $breve ) {
+		$out[] = sprintf(
+			'<!-- ms-denominazione --><p><strong>Denominazione a listino:</strong> %s</p>',
+			esc_html( $completo )
+		);
+	}
+
 	$out[] = sprintf(
 		'<p>Articolo a listino <strong>%s</strong>, sezione <em>%s</em> (pag. %s del listino %s).</p>',
 		esc_html( $p['sku'] ),
@@ -130,7 +143,8 @@ foreach ( $prodotti as $sku => $p ) {
 		$is_variable = count( $con_prezzo ) > 1;
 		$product = $is_variable ? new WC_Product_Variable() : new WC_Product_Simple();
 
-		$product->set_name( (string) $p['nome'] );
+		// Il titolo è il nome breve; la riga di listino per intero è in descrizione.
+		$product->set_name( (string) ( $p['nome_breve'] ?? $p['nome'] ) );
 		$product->set_sku( (string) $sku );
 		$product->set_status( 'publish' );
 		$product->set_catalog_visibility( 'visible' );

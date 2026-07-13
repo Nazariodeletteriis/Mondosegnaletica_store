@@ -285,14 +285,21 @@ $total_products = (int) $wp_query->found_posts;
 			if ( $total_pages > 1 ) : ?>
 			<nav class="archive-pagination" aria-label="Paginazione prodotti">
 				<?php
+				// 'plain' e non 'list': con 'list' WordPress avvolge tutto in <ul><li>, i <li>
+				// restano display:list-item e i numeri di pagina finiscono impilati in colonna.
+				// Il flex del <nav> non li raggiunge, perché il suo unico figlio è la <ul>.
+				//
+				// Niente before/after_page_number: quel testo WordPress lo infila DENTRO l'<a>,
+				// quindi il riquadro cliccabile resta senza stile e lo stile va su uno span
+				// annidato. Si stilano direttamente le classi che WordPress genera davvero
+				// (.page-numbers, .current, .dots), che coprono anche le frecce e i puntini —
+				// prima escluse.
 				echo paginate_links( [
-					'total'              => $total_pages,
-					'current'            => $current_page,
-					'prev_text'          => '<span class="material-symbols-outlined" aria-hidden="true">chevron_left</span>',
-					'next_text'          => '<span class="material-symbols-outlined" aria-hidden="true">chevron_right</span>',
-					'type'               => 'list',
-					'before_page_number' => '<span class="pagination__item">',
-					'after_page_number'  => '</span>',
+					'total'     => $total_pages,
+					'current'   => $current_page,
+					'prev_text' => '<span class="material-symbols-outlined" aria-hidden="true">chevron_left</span>',
+					'next_text' => '<span class="material-symbols-outlined" aria-hidden="true">chevron_right</span>',
+					'type'      => 'plain',
 				] );
 				?>
 			</nav>

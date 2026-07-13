@@ -369,10 +369,45 @@ for f in sorted(glob.glob('extract/*.json')):
                     for x in pr:
                         add_var(p, attrs_da(r, x, True), x['euro'], x.get('unita'))
 
+NOME_MAX = 90
+
+def nome_breve(nome):
+    """Un titolo che si possa leggere, senza perdere ciò che distingue il prodotto.
+
+    Nel listino la colonna ARTICOLO è una riga tecnica, non un nome: "Targa Monofacciale in
+    Lamiera di Alluminio - Spessore 25/10 - Colore Fondo: "rosso Traffico" RAL 3020 (non
+    Rifrangente) - ... - Staffa di Ancoraggio (esclusa)" — 338 caratteri, e finiva tutta
+    dentro l'H1 della scheda prodotto.
+
+    Tagliare al primo trattino non basta: 67 prodotti su 175 si ritroverebbero con lo stesso
+    identico nome, perché a distinguerli è quello che viene DOPO (il peso della base, la
+    classe della fascia rifrangente). Quindi si accumulano segmenti finché il nome resta
+    leggibile, e ci si ferma lì: chi ha un nome già corto — la mediana è 37 caratteri — non
+    viene toccato.
+
+    La riga per intero non si perde: va nella descrizione (vedi import.php).
+    """
+    n = (nome or '').strip()
+    if len(n) <= NOME_MAX:
+        return n
+
+    segs = [s.strip() for s in re.split(r'\s+[-–]\s+', n) if s.strip()]
+    out = segs[0]
+    for s in segs[1:]:
+        if len(out) + 3 + len(s) > NOME_MAX:
+            break
+        out += ' – ' + s
+
+    if len(out) > NOME_MAX:                       # un solo segmento, lunghissimo: taglio a parola
+        out = out[:NOME_MAX].rsplit(' ', 1)[0].rstrip(' ,;:-') + '…'
+    return out
+
+
 # ── report ────────────────────────────────────────────────────────────────────
 for p in prodotti.values():
     p['desc_note'] = list(dict.fromkeys(p['desc_note']))
     p.pop('_seen', None)
+    p['nome_breve'] = nome_breve(p.get('nome'))
 
 con   = [p for p in prodotti.values() if any(v['euro'] is not None for v in p['varianti'])]
 senza = [p for p in prodotti.values() if not any(v['euro'] is not None for v in p['varianti'])]
@@ -427,7 +462,10 @@ if os.path.exists(f'{OUT}/prodotti.json'):
 
 orfani = [s for s in vecchio if s not in prodotti]
 for s in orfani:
+    # I conservati non passano dal loop di arricchimento sopra: il nome breve glielo si
+    # calcola qui, o restano con la riga di listino intera come titolo.
     prodotti[s] = vecchio[s]
+    prodotti[s]['nome_breve'] = nome_breve(prodotti[s].get('nome'))
 
 json.dump(prodotti, open(f'{OUT}/prodotti.json', 'w'), ensure_ascii=False, indent=1)
 print()

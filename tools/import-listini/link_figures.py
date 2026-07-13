@@ -50,7 +50,10 @@ for sku, p in prodotti.items():
         'sku': sku,
         'file': f,
         'figura': p.get('figura'),
-        'nome': p.get('nome'),
+        # il nome BREVE, non quello di listino: apply_images.php riallinea il titolo del
+        # prodotto a questo campo, e col nome lungo rimetterebbe in pagina i titoli
+        # chilometrici che apply_nomi.php ha appena accorciato.
+        'nome': p.get('nome_breve') or p.get('nome'),
         'confidenza': p.get('nome_da_verificare') or 'alta',
     })
 
