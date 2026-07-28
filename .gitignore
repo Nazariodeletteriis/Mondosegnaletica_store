@@ -1,6 +1,5 @@
 # --- LOCALE ONLY (mai su git) ---
 graphify-out/
-.claude/
 
 # --- Assets di test / interni (non versionare) ---
 assets/img/
