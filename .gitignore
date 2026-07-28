@@ -95,3 +95,6 @@ tools/import-listini/crops-raw.old/
 tools/import-listini/naming/ocr_cache.json
 tools/import-listini/__pycache__/
 tools/import-listini/epanza-img/
+
+# --- documentazione e note di lavoro: solo in locale ---
+*.md
