@@ -18,12 +18,19 @@
 <meta property="og:image" content="https://mondosegnaletica.it/assets/background.webp">
 <meta name="twitter:card" content="summary_large_image">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="image" href="assets/background.webp" media="(min-width:801px)">
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/cookie.css">
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/anton-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/ibmplexsans-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/jetbrainsmono-latin.woff2" crossorigin>
 
 <style>
+/* Font self-hosted: nessuna richiesta a Google, nessun trasferimento di IP extra-UE.
+   File variabili subset `latin`: un solo woff2 per famiglia copre tutti i pesi usati. */
+@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/anton-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 600;font-display:swap;src:url(assets/fonts/ibmplexsans-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400 700;font-display:swap;src:url(assets/fonts/jetbrainsmono-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+
 :root{
   --nero:#0A0A0A;
   --bianco:#F5F4F0;
@@ -194,75 +201,6 @@ body[data-sent="1"] .form{display:none}
   .cd{padding:18px 12px;gap:8px}
   .contatti{grid-template-columns:1fr 1fr}
 }
-/* ---------- COOKIE: barra + pannello preferenze ---------- */
-.ck{
-  position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;
-  background:var(--nero);border-top:1px solid var(--hairline);
-  padding:20px clamp(20px,5vw,56px);
-}
-.ck[data-on]{display:block}
-.ck__in{display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px;max-width:1400px;margin:0 auto}
-.ck__txt{flex:1 1 320px;min-width:0;margin:0;font-size:13.5px;line-height:1.5;color:rgba(245,244,240,.66)}
-.ck__txt strong{
-  display:block;margin-bottom:6px;font-family:var(--mono);font-weight:400;
-  font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--giallo);
-}
-.ck__btns{display:flex;flex-wrap:wrap;gap:10px}
-.ck__b{
-  font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
-  padding:12px 20px;border:1px solid var(--hairline);border-radius:2px;
-  background:none;color:var(--bianco);cursor:pointer;
-}
-.ck__b:hover{border-color:var(--giallo);color:var(--giallo)}
-.ck__b--si{background:var(--giallo);border-color:var(--giallo);color:var(--nero);font-weight:700}
-.ck__b--si:hover{background:#ffd633;color:var(--nero)}
-
-.ckm{
-  position:fixed;inset:0;z-index:70;display:none;
-  align-items:center;justify-content:center;padding:20px;
-  background:rgba(10,10,10,.88);
-}
-.ckm[data-on]{display:flex}
-.ckm__box{
-  width:min(680px,100%);max-height:88svh;overflow-y:auto;
-  background:var(--nero);border:1px solid var(--hairline);border-radius:2px;
-  padding:clamp(24px,4vw,40px);
-}
-.ckm__eyebrow{
-  margin:0 0 10px;font-family:var(--mono);font-size:11px;letter-spacing:.2em;
-  text-transform:uppercase;color:var(--giallo);
-}
-.ckm__t{
-  margin:0 0 10px;font-family:var(--display);font-weight:400;
-  font-size:clamp(22px,4vw,30px);line-height:1.1;text-transform:uppercase;
-}
-.ckm__sub{margin:0 0 12px;font-size:14px;line-height:1.55;color:rgba(245,244,240,.6)}
-.ckc{border-top:1px solid var(--hairline);padding:20px 0;display:flex;gap:18px;align-items:flex-start}
-.ckc__t{flex:1;min-width:0}
-.ckc__n{margin:0 0 6px;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase}
-.ckc__d{margin:0;font-size:13px;line-height:1.5;color:rgba(245,244,240,.55)}
-.ckc__stato{
-  margin-top:7px;font-family:var(--mono);font-size:10px;letter-spacing:.14em;
-  text-transform:uppercase;color:rgba(245,244,240,.32);
-}
-.sw{
-  position:relative;flex:none;width:46px;height:24px;padding:0;
-  border:1px solid var(--hairline);border-radius:2px;background:none;cursor:pointer;
-}
-.sw::after{
-  content:"";position:absolute;top:3px;left:3px;width:16px;height:16px;
-  background:rgba(245,244,240,.45);transition:transform .15s linear,background .15s linear;
-}
-.sw[aria-checked="true"]{border-color:var(--giallo)}
-.sw[aria-checked="true"]::after{transform:translateX(22px);background:var(--giallo)}
-.sw[disabled]{cursor:not-allowed}
-.sw[disabled][aria-checked="true"]{border-color:rgba(255,204,0,.42)}
-.sw[disabled][aria-checked="true"]::after{background:rgba(255,204,0,.5)}
-.ckm__ft{
-  display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-end;
-  border-top:1px solid var(--hairline);padding-top:24px;
-}
-
 @media (prefers-reduced-motion:reduce){
   *{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
@@ -371,71 +309,6 @@ body[data-sent="1"] .form{display:none}
   </div>
 
 </section>
-
-<!-- ===================== COOKIE ===================== -->
-<div class="ck" id="ck" role="region" aria-label="Informativa cookie">
-  <div class="ck__in">
-    <p class="ck__txt">
-      <strong>Cookie e dati di navigazione</strong>
-      Questo sito usa solo cookie tecnici, necessari a farlo funzionare e a inviare il modulo di contatto: nessuna profilazione e nessun tracciamento pubblicitario. Le altre categorie sono predisposte per il prossimo e-commerce e restano spente finché non le attivi tu. Tutti i dettagli nella <a href="privacy.html">privacy policy</a>.
-    </p>
-    <div class="ck__btns">
-      <button type="button" class="ck__b" id="ck-no">Rifiuta</button>
-      <button type="button" class="ck__b" id="ck-pers">Personalizza</button>
-      <button type="button" class="ck__b ck__b--si" id="ck-si">Accetta tutti</button>
-    </div>
-  </div>
-</div>
-
-<div class="ckm" id="ckm" role="dialog" aria-modal="true" aria-labelledby="ckm-t">
-  <div class="ckm__box">
-    <p class="ckm__eyebrow">Preferenze cookie</p>
-    <h2 class="ckm__t" id="ckm-t">Scegli cosa attivare</h2>
-    <p class="ckm__sub">Puoi cambiare idea quando vuoi: la voce <em>Preferenze cookie</em> in fondo alla pagina riapre questo pannello. La scelta resta valida sei mesi.</p>
-
-    <div class="ckc">
-      <div class="ckc__t">
-        <p class="ckc__n">Necessari</p>
-        <p class="ckc__d">Fanno funzionare il sito: invio del modulo di contatto, protezione dagli abusi, memoria di questa stessa scelta sui cookie. Senza di loro il sito non può funzionare, quindi non sono disattivabili.</p>
-        <p class="ckc__stato">Sempre attivi</p>
-      </div>
-      <button type="button" class="sw" role="switch" aria-checked="true" aria-label="Cookie necessari, sempre attivi" disabled></button>
-    </div>
-
-    <div class="ckc">
-      <div class="ckc__t">
-        <p class="ckc__n">Preferenze</p>
-        <p class="ckc__d">Ricordano le impostazioni che scegli — per esempio i dati di consegna o le opzioni di visualizzazione del catalogo — così non devi reinserirle a ogni visita.</p>
-        <p class="ckc__stato">Disattivati</p>
-      </div>
-      <button type="button" class="sw" role="switch" aria-checked="false" aria-label="Cookie di preferenze" data-cat="preferenze"></button>
-    </div>
-
-    <div class="ckc">
-      <div class="ckc__t">
-        <p class="ckc__n">Statistici</p>
-        <p class="ckc__d">Misurano in forma aggregata quali pagine vengono viste e da dove arrivano i visitatori, per capire cosa migliorare. Non identificano la singola persona.</p>
-        <p class="ckc__stato">Disattivati</p>
-      </div>
-      <button type="button" class="sw" role="switch" aria-checked="false" aria-label="Cookie statistici" data-cat="statistici"></button>
-    </div>
-
-    <div class="ckc">
-      <div class="ckc__t">
-        <p class="ckc__n">Marketing</p>
-        <p class="ckc__d">Servono a mostrare annunci pertinenti su altri siti e a misurarne il rendimento. Oggi non ne usiamo nessuno.</p>
-        <p class="ckc__stato">Disattivati</p>
-      </div>
-      <button type="button" class="sw" role="switch" aria-checked="false" aria-label="Cookie di marketing" data-cat="marketing"></button>
-    </div>
-
-    <div class="ckm__ft">
-      <button type="button" class="ck__b" id="ckm-chiudi">Annulla</button>
-      <button type="button" class="ck__b" id="ckm-tutti">Accetta tutti</button>
-      <button type="button" class="ck__b ck__b--si" id="ckm-salva">Salva le preferenze</button>
-    </div>
-  </div>
-</div>
 
 <script>
 (function () {
@@ -549,134 +422,8 @@ body[data-sent="1"] .form{display:none}
   if (esito === "ok") { document.body.setAttribute("data-sent", "1"); }
 })();
 
-/* ================= CONSENSO COOKIE =================
-   Oggi il sito non installa cookie di profilazione: le categorie oltre ai
-   "necessari" restano spente e sono predisposte per il futuro e-commerce.
-   La scelta viene salvata in un cookie di prima parte per 180 giorni, come
-   raccomandato dal Garante, e riesposta come `window.msConsenso` più evento
-   `ms:consenso`, così gli script futuri (Woo, statistiche) potranno agganciarsi. */
-(function () {
-  "use strict";
-
-  var CHIAVE = "ms_consenso";
-  var DURATA = 60 * 60 * 24 * 180; // 180 giorni
-  var CATEGORIE = ["preferenze", "statistici", "marketing"];
-
-  var barra   = document.getElementById("ck");
-  var modal   = document.getElementById("ckm");
-  var box     = modal.querySelector(".ckm__box");
-  var riapri  = document.getElementById("riapri-cookie");
-  var ultimoFocus = null;
-
-  function leggi() {
-    var m = document.cookie.match(new RegExp("(?:^|; )" + CHIAVE + "=([^;]*)"));
-    if (!m) { return null; }
-    try { return JSON.parse(decodeURIComponent(m[1])); } catch (e) { return null; }
-  }
-
-  function scrivi(stato) {
-    stato.necessari = true;
-    stato.data = new Date().toISOString().slice(0, 10);
-    document.cookie = CHIAVE + "=" + encodeURIComponent(JSON.stringify(stato)) +
-      ";path=/;max-age=" + DURATA + ";SameSite=Lax" +
-      (location.protocol === "https:" ? ";Secure" : "");
-    applica(stato);
-  }
-
-  function applica(stato) {
-    window.msConsenso = stato;
-    document.dispatchEvent(new CustomEvent("ms:consenso", { detail: stato }));
-  }
-
-  function tutte(valore) {
-    var s = { necessari: true };
-    CATEGORIE.forEach(function (c) { s[c] = valore; });
-    return s;
-  }
-
-  /* ---- interruttori del pannello ---- */
-  var switches = Array.prototype.slice.call(modal.querySelectorAll(".sw"));
-
-  function impostaSwitch(sw, acceso) {
-    sw.setAttribute("aria-checked", acceso ? "true" : "false");
-    var stato = sw.parentNode.querySelector(".ckc__stato");
-    if (stato && !sw.disabled) { stato.textContent = acceso ? "Attivi" : "Disattivati"; }
-  }
-
-  switches.forEach(function (sw) {
-    if (sw.disabled) { return; }
-    sw.addEventListener("click", function () {
-      impostaSwitch(sw, sw.getAttribute("aria-checked") !== "true");
-    });
-  });
-
-  function riempiPannello(stato) {
-    switches.forEach(function (sw) {
-      if (sw.disabled) { return; }
-      impostaSwitch(sw, !!(stato && stato[sw.dataset.cat]));
-    });
-  }
-
-  function raccogliPannello() {
-    var s = { necessari: true };
-    switches.forEach(function (sw) {
-      if (!sw.disabled) { s[sw.dataset.cat] = sw.getAttribute("aria-checked") === "true"; }
-    });
-    return s;
-  }
-
-  /* ---- apertura / chiusura ---- */
-  function mostraBarra(v) {
-    if (v) { barra.setAttribute("data-on", ""); } else { barra.removeAttribute("data-on"); }
-  }
-
-  function apri() {
-    ultimoFocus = document.activeElement;
-    riempiPannello(leggi() || tutte(false));
-    modal.setAttribute("data-on", "");
-    // Il primo bottone del pannello è l'interruttore "necessari", che è disabilitato:
-    // va saltato, altrimenti il focus non si sposta e la tastiera resta fuori.
-    (box.querySelector('button:not([disabled]), a[href]') || box).focus();
-    document.addEventListener("keydown", tasti);
-  }
-
-  function chiudi() {
-    modal.removeAttribute("data-on");
-    document.removeEventListener("keydown", tasti);
-    if (ultimoFocus && ultimoFocus.focus) { ultimoFocus.focus(); }
-  }
-
-  // Esc chiude, Tab resta dentro al pannello finché è aperto.
-  function tasti(e) {
-    if (e.key === "Escape") { return chiudi(); }
-    if (e.key !== "Tab") { return; }
-    var f = box.querySelectorAll('button:not([disabled]), a[href], input, [tabindex]:not([tabindex="-1"])');
-    if (!f.length) { return; }
-    var primo = f[0], ultimo = f[f.length - 1];
-    if (e.shiftKey && document.activeElement === primo) { e.preventDefault(); ultimo.focus(); }
-    else if (!e.shiftKey && document.activeElement === ultimo) { e.preventDefault(); primo.focus(); }
-  }
-
-  function decidi(stato) { scrivi(stato); mostraBarra(false); chiudi(); }
-
-  document.getElementById("ck-si").addEventListener("click", function () { decidi(tutte(true)); });
-  document.getElementById("ck-no").addEventListener("click", function () { decidi(tutte(false)); });
-  document.getElementById("ck-pers").addEventListener("click", apri);
-  document.getElementById("ckm-salva").addEventListener("click", function () { decidi(raccogliPannello()); });
-  document.getElementById("ckm-tutti").addEventListener("click", function () { decidi(tutte(true)); });
-  document.getElementById("ckm-chiudi").addEventListener("click", chiudi);
-  modal.addEventListener("click", function (e) { if (e.target === modal) { chiudi(); } });
-
-  if (riapri) {
-    // La barra non si nasconde qui: se l'utente annulla senza decidere, deve restare.
-    riapri.addEventListener("click", function (e) { e.preventDefault(); apri(); });
-  }
-
-  /* ---- avvio ---- */
-  var salvato = leggi();
-  if (salvato) { applica(salvato); } else { mostraBarra(true); }
-})();
 </script>
+<script src="assets/cookie.js"></script>
 
 </body>
 </html>

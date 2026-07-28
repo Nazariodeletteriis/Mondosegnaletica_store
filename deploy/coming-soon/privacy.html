@@ -17,11 +17,18 @@
 <meta property="og:description" content="Informativa sul trattamento dei dati personali ai sensi dell'art. 13 del Regolamento UE 2016/679 (GDPR).">
 <meta property="og:url" content="https://mondosegnaletica.it/privacy.html">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/cookie.css">
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/anton-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/ibmplexsans-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/jetbrainsmono-latin.woff2" crossorigin>
 
 <style>
+/* Font self-hosted: nessuna richiesta a Google, nessun trasferimento di IP extra-UE.
+   File variabili subset `latin`: un solo woff2 per famiglia copre tutti i pesi usati. */
+@font-face{font-family:'Anton';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/anton-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 600;font-display:swap;src:url(assets/fonts/ibmplexsans-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400 700;font-display:swap;src:url(assets/fonts/jetbrainsmono-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+
 :root{
   --nero:#0A0A0A;
   --bianco:#F5F4F0;
@@ -228,7 +235,7 @@ strong{color:var(--bianco);font-weight:600}
       <li>Eventuali consulenti, professionisti o società di servizi che ci assistono in ambito amministrativo, contabile o informatico, ciascuno limitatamente a quanto necessario.</li>
     </ul>
     <p>I dati possono inoltre essere comunicati alle autorità pubbliche quando ciò sia imposto da un obbligo di legge o necessario per accertare o difendere un diritto in sede giudiziaria.</p>
-    <p><strong>Font tipografici.</strong> Le pagine di questo sito richiamano i caratteri tipografici dal servizio <strong>Google Fonts</strong>, erogato da Google Ireland Limited. Per servire i font, il tuo browser esegue una richiesta ai server di Google che comporta la comunicazione del tuo indirizzo IP; tale richiesta può implicare un trasferimento verso gli Stati Uniti, effettuato sulla base delle garanzie previste dal Capo V del GDPR (decisione di adeguatezza UE-USA Data Privacy Framework e clausole contrattuali tipo). Non impostiamo cookie tramite questo servizio.</p>
+    <p><strong>Font tipografici.</strong> I caratteri tipografici sono <strong>ospitati direttamente sul nostro server</strong>: il browser li scarica da mondosegnaletica.it senza contattare servizi esterni. Di conseguenza il tuo indirizzo IP <strong>non viene comunicato a fornitori terzi</strong> per la resa tipografica delle pagine, non avviene alcun trasferimento di dati verso paesi extra-UE e non vengono impostati cookie.</p>
   </section>
 
   <section>
@@ -246,7 +253,7 @@ strong{color:var(--bianco);font-weight:600}
   <section>
     <span class="num">06 / Cookie</span>
     <h2>Cookie e tracciamento</h2>
-    <p>Allo stato attuale questo sito <strong>non utilizza cookie di profilazione</strong>, non installa strumenti di analisi statistica o di misurazione del traffico e non contiene pulsanti o widget di social network. L'unica risorsa esterna caricata è quella dei font tipografici descritta al punto 04, che non comporta l'installazione di cookie sul tuo dispositivo.</p>
+    <p>Allo stato attuale questo sito <strong>non utilizza cookie di profilazione</strong>, non installa strumenti di analisi statistica o di misurazione del traffico e non contiene pulsanti o widget di social network. Il sito <strong>non carica alcuna risorsa da server esterni</strong>: font, immagini e fogli di stile sono serviti dal nostro dominio, come indicato al punto 04.</p>
     <p>Alla prima visita compare un <strong>banner</strong> che ti permette di accettare tutto, rifiutare tutto oppure aprire il pannello <em>Personalizza</em> e decidere categoria per categoria. Le categorie previste sono quattro:</p>
     <ul>
       <li><strong>Necessari</strong> — indispensabili al funzionamento del sito, all'invio del modulo e alla memorizzazione della tua stessa scelta sui cookie. Non richiedono consenso ai sensi dell'art. 122 del Codice Privacy e non sono disattivabili.</li>
@@ -295,12 +302,13 @@ strong{color:var(--bianco);font-weight:600}
   <span>Mondo Segnaletica Soc. Coop. · Via Carlo Angeloni, 360 · Lucca</span>
   <span>Sede operativa · Viale Europa, 48/50 · Lucca</span>
   <span>P.IVA 02629010460 · <a href="mailto:info@mondosegnaletica.it">info@mondosegnaletica.it</a></span>
-  <span>&copy; <span id="anno">2026</span> Mondo Segnaletica Soc. Coop. · <a href="/">Torna alla home</a></span>
+  <span>&copy; <span id="anno">2026</span> Mondo Segnaletica Soc. Coop. · <a href="/">Torna alla home</a> · <a href="#" id="riapri-cookie">Preferenze cookie</a></span>
 </footer>
 
 <script>
 document.getElementById("anno").textContent = new Date().getFullYear();
 </script>
+<script src="assets/cookie.js"></script>
 
 </body>
 </html>
