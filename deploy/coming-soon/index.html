@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mondo Segnaletica — Il nuovo store apre a settembre</title>
+<meta name="description" content="Mondo Segnaletica Soc. Coop., Lucca. Segnaletica stradale omologata secondo il Codice della Strada. Il nuovo e-commerce apre a settembre: intanto contattaci per preventivi e forniture.">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="canonical" href="https://mondosegnaletica.it/">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="Mondo Segnaletica">
+<meta property="og:title" content="Mondo Segnaletica — Il nuovo store apre a settembre">
+<meta property="og:description" content="Segnaletica stradale omologata secondo il Codice della Strada. Il nuovo e-commerce apre a settembre.">
+<meta property="og:url" content="https://mondosegnaletica.it/">
+<meta property="og:image" content="https://mondosegnaletica.it/assets/background.webp">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="assets/background.webp" media="(min-width:801px)">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --nero:#0A0A0A;
+  --bianco:#F5F4F0;
+  --giallo:#FFCC00;
+  --rosso:#C8102E;
+  --hairline:rgba(245,244,240,.15);
+  --display:Anton,Impact,sans-serif;
+  --body:'IBM Plex Sans',system-ui,-apple-system,sans-serif;
+  --mono:'JetBrains Mono','SFMono-Regular',Consolas,monospace;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--nero);color:var(--bianco);
+  font-family:var(--body);font-size:16px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+a{color:var(--giallo);text-decoration:none}
+::selection{background:rgba(255,204,0,.3)}
+:focus-visible{outline:2px solid var(--giallo);outline-offset:3px}
+input::placeholder,textarea::placeholder{color:rgba(245,244,240,.32)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+.mono{font-family:var(--mono);letter-spacing:.2em;text-transform:uppercase}
+
+/* ---------- HERO ---------- */
+.hero{position:relative;isolation:isolate;overflow:hidden;min-height:min(100svh,860px);display:flex;flex-direction:column}
+.hero__bg{position:absolute;inset:0;z-index:-2}
+.hero__bg img{width:100%;height:100%;object-fit:cover;object-position:52% top}
+.hero__bg::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(10,10,10,.62) 0%,rgba(10,10,10,.06) 26%,rgba(10,10,10,.82) 68%,var(--nero) 96%);
+}
+
+.topbar{
+  display:flex;justify-content:space-between;align-items:center;gap:16px;
+  padding:24px clamp(20px,5vw,56px);
+  font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  color:rgba(245,244,240,.78);
+}
+.beacon{display:inline-flex;align-items:center;gap:10px;white-space:nowrap}
+.beacon::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--giallo);animation:beacon 1.6s infinite}
+@keyframes beacon{0%,100%{opacity:.25}50%{opacity:1}}
+.topbar__addr{display:none;text-align:right}
+
+.hero__body{
+  margin-top:auto;
+  display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:clamp(28px,5vw,64px);
+  padding:0 clamp(24px,6vw,96px) clamp(28px,5vw,48px);
+}
+.hero__text{display:flex;flex-direction:column;gap:16px;max-width:640px}
+.eyebrow{font-family:var(--mono);font-size:clamp(10px,2.6vw,12px);letter-spacing:.22em;text-transform:uppercase;color:var(--giallo);margin:0}
+h1{
+  margin:0;font-family:var(--display);font-weight:400;
+  font-size:clamp(40px,9vw,80px);line-height:.96;letter-spacing:-.01em;
+  text-transform:uppercase;text-wrap:balance;
+}
+.lede{margin:0;font-size:clamp(15px,2.4vw,17px);line-height:1.55;color:rgba(245,244,240,.72);max-width:540px;text-wrap:pretty}
+
+/* ---------- COUNTDOWN ---------- */
+.countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;width:100%;max-width:460px}
+.cd{
+  display:flex;flex-direction:column;align-items:center;gap:7px;
+  padding:14px 6px;border:1px solid rgba(245,244,240,.18);border-radius:2px;
+  background:rgba(10,10,10,.55);backdrop-filter:blur(6px);
+}
+.cd__num{
+  font-family:var(--display);font-size:clamp(30px,7vw,52px);line-height:1;
+  font-variant-numeric:tabular-nums;
+}
+.cd:first-child .cd__num{color:var(--giallo)}
+.cd__lbl{font-family:var(--mono);font-size:clamp(9px,2vw,10px);letter-spacing:.18em;text-transform:uppercase;color:rgba(245,244,240,.55)}
+
+/* ---------- CONTATTI ---------- */
+.contatti{
+  display:grid;gap:clamp(32px,6vw,64px);
+  padding:clamp(32px,5vw,44px) clamp(24px,6vw,96px) clamp(40px,5vw,48px);
+  border-top:1px solid rgba(245,244,240,.12);
+}
+.col{display:flex;flex-direction:column;gap:20px}
+.col__title{font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--giallo);margin:0}
+
+.canali{display:flex;flex-direction:column;gap:12px}
+.canale{
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
+  min-height:56px;padding:16px 20px;border-radius:2px;
+  border:1px solid rgba(245,244,240,.28);color:var(--bianco);
+  transition:border-color .18s ease,background-color .18s ease;
+}
+.canale:hover{border-color:var(--bianco)}
+.canale--tel{border-color:var(--giallo);color:var(--giallo)}
+.canale--tel:hover{background:rgba(255,204,0,.12)}
+.canale__in{display:flex;flex-direction:column;gap:4px;min-width:0}
+.canale__lbl{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:rgba(245,244,240,.5)}
+.canale--tel .canale__lbl{color:rgba(255,204,0,.7)}
+.canale__val{font-family:var(--display);font-size:clamp(20px,4.5vw,28px);letter-spacing:.01em}
+.canale__val--mail{font-family:var(--mono);font-size:clamp(12px,3vw,16px);letter-spacing:0;text-transform:none;overflow-wrap:anywhere}
+.canale__arrow{font-family:var(--mono);font-size:16px;flex:none}
+.canale:not(.canale--tel) .canale__arrow{color:var(--giallo)}
+
+.meta{display:flex;flex-direction:column;gap:7px;font-family:var(--mono);font-size:clamp(10px,2.2vw,11px);letter-spacing:.13em;text-transform:uppercase;color:rgba(245,244,240,.45)}
+
+/* ---------- FORM ---------- */
+.form{display:flex;flex-direction:column;gap:10px}
+.form__row{display:grid;grid-template-columns:1fr;gap:10px}
+input,textarea{
+  width:100%;min-height:48px;padding:13px 15px;
+  background:rgba(245,244,240,.05);border:1px solid rgba(245,244,240,.2);border-radius:2px;
+  color:var(--bianco);font-family:var(--body);font-size:15px;
+  transition:border-color .18s ease;
+}
+input:hover,textarea:hover{border-color:rgba(245,244,240,.35)}
+textarea{resize:vertical;min-height:92px}
+.form__actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+.btn{
+  min-height:52px;padding:15px 28px;border:none;border-radius:2px;cursor:pointer;
+  background:var(--giallo);color:var(--nero);
+  font-family:var(--mono);font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  transition:background-color .18s ease;
+}
+.btn:hover{background:#ffd633}
+.btn--ghost{
+  background:none;color:var(--bianco);border:1px solid rgba(245,244,240,.3);
+  font-weight:400;min-height:44px;padding:11px 18px;align-self:flex-start;margin-top:6px;
+}
+.btn--ghost:hover{border-color:var(--giallo);color:var(--giallo);background:none}
+.hint{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:rgba(245,244,240,.4)}
+.hint[data-error]{color:var(--rosso)}
+
+/* consenso privacy */
+.privacy{display:flex;align-items:flex-start;gap:10px;font-size:13px;line-height:1.45;color:rgba(245,244,240,.6)}
+.privacy input{width:18px;height:18px;min-height:0;flex:none;margin-top:1px;padding:0;accent-color:var(--giallo);cursor:pointer}
+.privacy label{cursor:pointer}
+/* campo esca per i bot: fuori dallo schermo, mai compilato da una persona */
+.esca{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.btn[disabled]{opacity:.55;cursor:not-allowed}
+.btn[disabled][data-invio]{cursor:progress}
+
+.esito{display:none;flex-direction:column;gap:10px;padding:24px;border:1px solid var(--giallo);border-radius:2px;background:rgba(255,204,0,.06)}
+.esito__t{font-family:var(--display);font-size:clamp(20px,4vw,26px);text-transform:uppercase}
+.esito__p{font-size:15px;line-height:1.5;color:rgba(245,244,240,.72);margin:0}
+body[data-sent="1"] .esito{display:flex}
+body[data-sent="1"] .form{display:none}
+
+/* ---------- BREAKPOINT ---------- */
+/* Su schermi stretti la foto resta in "cover", ma dentro una fascia
+   alta 55vw invece che su tutta l'altezza. Il rapporto dell'immagine
+   è 1.775, quindi sotto i 56.3vw il ritaglio avviene in verticale e
+   la larghezza si vede tutta: il logo resta intero e centrato.
+   Il gradiente chiude la fascia nel nero, così non si vede lo stacco. */
+@media (max-width:800px){
+  .hero{min-height:0}
+  .hero__bg{height:55vw;bottom:auto}
+  .hero__bg img{object-position:center center}
+  .hero__bg::after{background:linear-gradient(180deg,rgba(10,10,10,.55) 0%,rgba(10,10,10,0) 34%,rgba(10,10,10,.9) 84%,var(--nero) 100%)}
+  .topbar{position:absolute;top:0;left:0;right:0;z-index:1}
+  .hero__body{margin-top:0;padding-top:48vw}
+}
+
+@media (min-width:721px){
+  .form__row{grid-template-columns:1fr 1fr}
+}
+@media (min-width:961px){
+  .topbar__addr{display:block}
+  .hero__body{flex-wrap:nowrap;align-items:flex-end}
+  .countdown{width:auto;max-width:none;grid-template-columns:repeat(4,minmax(100px,1fr))}
+  .cd{padding:18px 12px;gap:8px}
+  .contatti{grid-template-columns:1fr 1fr}
+}
+/* ---------- COOKIE: barra + pannello preferenze ---------- */
+.ck{
+  position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;
+  background:var(--nero);border-top:1px solid var(--hairline);
+  padding:20px clamp(20px,5vw,56px);
+}
+.ck[data-on]{display:block}
+.ck__in{display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px;max-width:1400px;margin:0 auto}
+.ck__txt{flex:1 1 320px;min-width:0;margin:0;font-size:13.5px;line-height:1.5;color:rgba(245,244,240,.66)}
+.ck__txt strong{
+  display:block;margin-bottom:6px;font-family:var(--mono);font-weight:400;
+  font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--giallo);
+}
+.ck__btns{display:flex;flex-wrap:wrap;gap:10px}
+.ck__b{
+  font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  padding:12px 20px;border:1px solid var(--hairline);border-radius:2px;
+  background:none;color:var(--bianco);cursor:pointer;
+}
+.ck__b:hover{border-color:var(--giallo);color:var(--giallo)}
+.ck__b--si{background:var(--giallo);border-color:var(--giallo);color:var(--nero);font-weight:700}
+.ck__b--si:hover{background:#ffd633;color:var(--nero)}
+
+.ckm{
+  position:fixed;inset:0;z-index:70;display:none;
+  align-items:center;justify-content:center;padding:20px;
+  background:rgba(10,10,10,.88);
+}
+.ckm[data-on]{display:flex}
+.ckm__box{
+  width:min(680px,100%);max-height:88svh;overflow-y:auto;
+  background:var(--nero);border:1px solid var(--hairline);border-radius:2px;
+  padding:clamp(24px,4vw,40px);
+}
+.ckm__eyebrow{
+  margin:0 0 10px;font-family:var(--mono);font-size:11px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--giallo);
+}
+.ckm__t{
+  margin:0 0 10px;font-family:var(--display);font-weight:400;
+  font-size:clamp(22px,4vw,30px);line-height:1.1;text-transform:uppercase;
+}
+.ckm__sub{margin:0 0 12px;font-size:14px;line-height:1.55;color:rgba(245,244,240,.6)}
+.ckc{border-top:1px solid var(--hairline);padding:20px 0;display:flex;gap:18px;align-items:flex-start}
+.ckc__t{flex:1;min-width:0}
+.ckc__n{margin:0 0 6px;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+.ckc__d{margin:0;font-size:13px;line-height:1.5;color:rgba(245,244,240,.55)}
+.ckc__stato{
+  margin-top:7px;font-family:var(--mono);font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:rgba(245,244,240,.32);
+}
+.sw{
+  position:relative;flex:none;width:46px;height:24px;padding:0;
+  border:1px solid var(--hairline);border-radius:2px;background:none;cursor:pointer;
+}
+.sw::after{
+  content:"";position:absolute;top:3px;left:3px;width:16px;height:16px;
+  background:rgba(245,244,240,.45);transition:transform .15s linear,background .15s linear;
+}
+.sw[aria-checked="true"]{border-color:var(--giallo)}
+.sw[aria-checked="true"]::after{transform:translateX(22px);background:var(--giallo)}
+.sw[disabled]{cursor:not-allowed}
+.sw[disabled][aria-checked="true"]{border-color:rgba(255,204,0,.42)}
+.sw[disabled][aria-checked="true"]::after{background:rgba(255,204,0,.5)}
+.ckm__ft{
+  display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-end;
+  border-top:1px solid var(--hairline);padding-top:24px;
+}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+</style>
+</head>
+<body data-sent="0">
+
+<main class="hero">
+  <div class="hero__bg">
+    <picture>
+      <source media="(max-width:800px)" srcset="assets/background-mobile.webp">
+      <img src="assets/background.webp" alt="" width="1672" height="941" fetchpriority="high" decoding="async">
+    </picture>
+  </div>
+
+  <div class="topbar">
+    <span class="beacon">Nuovo e-commerce in arrivo</span>
+    <span class="topbar__addr">Sede legale Via Carlo Angeloni, 360 · Sede operativa Viale Europa, 48/50 · Lucca</span>
+  </div>
+
+  <div class="hero__body">
+    <div class="hero__text">
+      <p class="eyebrow">Stiamo costruendo la strada</p>
+      <h1>Il nuovo store<br>apre a settembre</h1>
+      <p class="lede">Segnaletica stradale omologata secondo il Codice della Strada, presto ordinabile online. Fino ad allora il nostro ufficio risponde come sempre.</p>
+    </div>
+
+    <div class="countdown" id="countdown" aria-label="Tempo mancante all'apertura dello store">
+      <div class="cd"><span class="cd__num" id="cd-d">--</span><span class="cd__lbl">Giorni</span></div>
+      <div class="cd"><span class="cd__num" id="cd-h">--</span><span class="cd__lbl">Ore</span></div>
+      <div class="cd"><span class="cd__num" id="cd-m">--</span><span class="cd__lbl">Minuti</span></div>
+      <div class="cd"><span class="cd__num" id="cd-s">--</span><span class="cd__lbl">Secondi</span></div>
+    </div>
+  </div>
+</main>
+
+<section class="contatti">
+
+  <div class="col">
+    <h2 class="col__title">Parla con noi ora</h2>
+    <div class="canali">
+      <a class="canale canale--tel" href="tel:+393409819925">
+        <span class="canale__in">
+          <span class="canale__lbl">Telefono</span>
+          <span class="canale__val">+39 340 981 9925</span>
+        </span>
+        <span class="canale__arrow" aria-hidden="true">▸</span>
+      </a>
+      <a class="canale" href="mailto:info@mondosegnaletica.it">
+        <span class="canale__in">
+          <span class="canale__lbl">Email</span>
+          <span class="canale__val canale__val--mail">info@mondosegnaletica.it</span>
+        </span>
+        <span class="canale__arrow" aria-hidden="true">↪</span>
+      </a>
+    </div>
+    <div class="meta">
+      <span>Mondo Segnaletica Soc. Coop. · Via Carlo Angeloni, 360 · Lucca</span>
+      <span>Sede operativa · Viale Europa, 48/50 · Lucca</span>
+      <span>Lun–Ven 8:00–18:00 · Spedizioni 24/48h dalla Toscana</span>
+      <span>© <span id="anno">2026</span> Mondo Segnaletica Soc. Coop. · <a href="privacy.html">Privacy policy</a> · <a href="#" id="riapri-cookie">Preferenze cookie</a></span>
+    </div>
+  </div>
+
+  <div class="col">
+    <h2 class="col__title">Richiedi informazioni</h2>
+
+    <div class="esito" id="esito" role="status">
+      <span class="esito__t">Richiesta inviata</span>
+      <p class="esito__p" id="esito-testo">Ti rispondiamo entro 4 ore lavorative.</p>
+      <button type="button" class="btn btn--ghost" id="reset">↩ Nuova richiesta</button>
+    </div>
+
+    <form class="form" id="form" action="invia.php" method="post" novalidate>
+      <div class="form__row">
+        <label class="sr-only" for="nome">Nome e cognome</label>
+        <input id="nome" name="nome" type="text" autocomplete="name" placeholder="Nome e cognome*" required>
+        <label class="sr-only" for="azienda">Azienda o ente</label>
+        <input id="azienda" name="azienda" type="text" autocomplete="organization" placeholder="Azienda o ente">
+      </div>
+      <div class="form__row">
+        <label class="sr-only" for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="Email*" required>
+        <label class="sr-only" for="tel">Telefono</label>
+        <input id="tel" name="tel" type="tel" autocomplete="tel" placeholder="Telefono">
+      </div>
+      <label class="sr-only" for="msg">Messaggio</label>
+      <textarea id="msg" name="msg" rows="3" placeholder="Di cosa hai bisogno? (segnaletica verticale, cantieristica, preventivo…)"></textarea>
+
+      <div class="privacy">
+        <input type="checkbox" id="privacy" name="privacy" value="1" required>
+        <label for="privacy">Acconsento al trattamento dei miei dati per ricevere una risposta a questa richiesta. Non li usiamo per altro e non li cediamo a terzi. Leggi la <a href="privacy.html">privacy policy</a>.</label>
+      </div>
+
+      <div class="esca" aria-hidden="true">
+        <label for="sito">Non compilare questo campo</label>
+        <input type="text" id="sito" name="sito" tabindex="-1" autocomplete="off">
+      </div>
+      <input type="hidden" name="ts" id="ts" value="0">
+
+      <div class="form__actions">
+        <button type="submit" class="btn" id="invia">Invia richiesta →</button>
+        <span class="hint" id="hint" role="status">Risposta entro 4 ore lavorative.</span>
+      </div>
+    </form>
+  </div>
+
+</section>
+
+<!-- ===================== COOKIE ===================== -->
+<div class="ck" id="ck" role="region" aria-label="Informativa cookie">
+  <div class="ck__in">
+    <p class="ck__txt">
+      <strong>Cookie e dati di navigazione</strong>
+      Questo sito usa solo cookie tecnici, necessari a farlo funzionare e a inviare il modulo di contatto: nessuna profilazione e nessun tracciamento pubblicitario. Le altre categorie sono predisposte per il prossimo e-commerce e restano spente finché non le attivi tu. Tutti i dettagli nella <a href="privacy.html">privacy policy</a>.
+    </p>
+    <div class="ck__btns">
+      <button type="button" class="ck__b" id="ck-no">Rifiuta</button>
+      <button type="button" class="ck__b" id="ck-pers">Personalizza</button>
+      <button type="button" class="ck__b ck__b--si" id="ck-si">Accetta tutti</button>
+    </div>
+  </div>
+</div>
+
+<div class="ckm" id="ckm" role="dialog" aria-modal="true" aria-labelledby="ckm-t">
+  <div class="ckm__box">
+    <p class="ckm__eyebrow">Preferenze cookie</p>
+    <h2 class="ckm__t" id="ckm-t">Scegli cosa attivare</h2>
+    <p class="ckm__sub">Puoi cambiare idea quando vuoi: la voce <em>Preferenze cookie</em> in fondo alla pagina riapre questo pannello. La scelta resta valida sei mesi.</p>
+
+    <div class="ckc">
+      <div class="ckc__t">
+        <p class="ckc__n">Necessari</p>
+        <p class="ckc__d">Fanno funzionare il sito: invio del modulo di contatto, protezione dagli abusi, memoria di questa stessa scelta sui cookie. Senza di loro il sito non può funzionare, quindi non sono disattivabili.</p>
+        <p class="ckc__stato">Sempre attivi</p>
+      </div>
+      <button type="button" class="sw" role="switch" aria-checked="true" aria-label="Cookie necessari, sempre attivi" disabled></button>
+    </div>
+
+    <div class="ckc">
+      <div class="ckc__t">
+        <p class="ckc__n">Preferenze</p>
+        <p class="ckc__d">Ricordano le impostazioni che scegli — per esempio i dati di consegna o le opzioni di visualizzazione del catalogo — così non devi reinserirle a ogni visita.</p>
+        <p class="ckc__stato">Disattivati</p>
+      </div>
+      <button type="button" class="sw" role="switch" aria-checked="false" aria-label="Cookie di preferenze" data-cat="preferenze"></button>
+    </div>
+
+    <div class="ckc">
+      <div class="ckc__t">
+        <p class="ckc__n">Statistici</p>
+        <p class="ckc__d">Misurano in forma aggregata quali pagine vengono viste e da dove arrivano i visitatori, per capire cosa migliorare. Non identificano la singola persona.</p>
+        <p class="ckc__stato">Disattivati</p>
+      </div>
+      <button type="button" class="sw" role="switch" aria-checked="false" aria-label="Cookie statistici" data-cat="statistici"></button>
+    </div>
+
+    <div class="ckc">
+      <div class="ckc__t">
+        <p class="ckc__n">Marketing</p>
+        <p class="ckc__d">Servono a mostrare annunci pertinenti su altri siti e a misurarne il rendimento. Oggi non ne usiamo nessuno.</p>
+        <p class="ckc__stato">Disattivati</p>
+      </div>
+      <button type="button" class="sw" role="switch" aria-checked="false" aria-label="Cookie di marketing" data-cat="marketing"></button>
+    </div>
+
+    <div class="ckm__ft">
+      <button type="button" class="ck__b" id="ckm-chiudi">Annulla</button>
+      <button type="button" class="ck__b" id="ckm-tutti">Accetta tutti</button>
+      <button type="button" class="ck__b ck__b--si" id="ckm-salva">Salva le preferenze</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var APERTURA = new Date("2026-09-01T09:00:00+02:00").getTime();
+
+  /* ---- countdown ---- */
+  var el = {
+    d: document.getElementById("cd-d"),
+    h: document.getElementById("cd-h"),
+    m: document.getElementById("cd-m"),
+    s: document.getElementById("cd-s")
+  };
+  function pad(n) { return String(n).padStart(2, "0"); }
+  function tick() {
+    var diff = Math.max(0, APERTURA - Date.now());
+    el.d.textContent = pad(Math.floor(diff / 864e5));
+    el.h.textContent = pad(Math.floor(diff / 36e5) % 24);
+    el.m.textContent = pad(Math.floor(diff / 6e4) % 60);
+    el.s.textContent = pad(Math.floor(diff / 1e3) % 60);
+  }
+  tick();
+  setInterval(tick, 1000);
+
+  document.getElementById("anno").textContent = new Date().getFullYear();
+
+  /* ---- form: invio reale a invia.php ---- */
+  var form  = document.getElementById("form");
+  var hint  = document.getElementById("hint");
+  var invia = document.getElementById("invia");
+
+  // Serve al server per scartare i form compilati in meno di 3 secondi (bot).
+  document.getElementById("ts").value = Math.floor(Date.now() / 1000);
+
+  function errore(testo) {
+    hint.textContent = testo;
+    hint.setAttribute("data-error", "");
+  }
+
+  /* Il bottone resta spento finché non si accetta il trattamento dei dati.
+     Lo spegniamo da JS e non con l'attributo `disabled` nell'HTML: senza
+     JavaScript il bottone deve restare cliccabile, perché in quel caso vale
+     il fallback POST classico e il consenso lo valida comunque invia.php. */
+  var consenso = document.getElementById("privacy");
+
+  function aggiornaBottone() {
+    invia.disabled = !consenso.checked;
+    if (!hint.hasAttribute("data-error")) {
+      hint.textContent = consenso.checked
+        ? "Risposta entro 4 ore lavorative."
+        : "Accetta il trattamento dei dati per inviare.";
+    }
+  }
+
+  consenso.addEventListener("change", function () {
+    hint.removeAttribute("data-error");
+    aggiornaBottone();
+  });
+  aggiornaBottone();
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    var nome  = document.getElementById("nome").value.trim();
+    var email = document.getElementById("email").value.trim();
+
+    if (!nome || nome.length < 2) { return errore("Inserisci il tuo nome e cognome."); }
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { return errore("Inserisci un'email valida."); }
+    if (!document.getElementById("privacy").checked) {
+      return errore("Devi accettare il trattamento dei dati.");
+    }
+
+    hint.removeAttribute("data-error");
+    hint.textContent = "Invio in corso…";
+    invia.disabled = true;
+
+    fetch(form.action, {
+      method: "POST",
+      headers: { "Accept": "application/json" },
+      body: new FormData(form)
+    })
+      .then(function (r) { return r.json().then(function (d) { return { ok: r.ok, d: d }; }); })
+      .then(function (res) {
+        if (!res.ok || !res.d.ok) {
+          errore(res.d.messaggio || "Invio non riuscito. Riprova.");
+          invia.disabled = false;
+          return;
+        }
+        document.getElementById("esito-testo").textContent = res.d.messaggio;
+        document.body.setAttribute("data-sent", "1");
+      })
+      .catch(function () {
+        errore("Connessione non riuscita. Scrivici a info@mondosegnaletica.it");
+        invia.disabled = false;
+      });
+  });
+
+  document.getElementById("reset").addEventListener("click", function () {
+    form.reset();
+    invia.disabled = false;
+    hint.textContent = "Risposta entro 4 ore lavorative.";
+    hint.removeAttribute("data-error");
+    document.getElementById("ts").value = Math.floor(Date.now() / 1000);
+    document.body.setAttribute("data-sent", "0");
+    document.getElementById("nome").focus();
+  });
+
+  // Chi arriva dal redirect del form senza JavaScript vede comunque l'esito.
+  var esito = new URLSearchParams(location.search).get("esito");
+  if (esito === "ok") { document.body.setAttribute("data-sent", "1"); }
+})();
+
+/* ================= CONSENSO COOKIE =================
+   Oggi il sito non installa cookie di profilazione: le categorie oltre ai
+   "necessari" restano spente e sono predisposte per il futuro e-commerce.
+   La scelta viene salvata in un cookie di prima parte per 180 giorni, come
+   raccomandato dal Garante, e riesposta come `window.msConsenso` più evento
+   `ms:consenso`, così gli script futuri (Woo, statistiche) potranno agganciarsi. */
+(function () {
+  "use strict";
+
+  var CHIAVE = "ms_consenso";
+  var DURATA = 60 * 60 * 24 * 180; // 180 giorni
+  var CATEGORIE = ["preferenze", "statistici", "marketing"];
+
+  var barra   = document.getElementById("ck");
+  var modal   = document.getElementById("ckm");
+  var box     = modal.querySelector(".ckm__box");
+  var riapri  = document.getElementById("riapri-cookie");
+  var ultimoFocus = null;
+
+  function leggi() {
+    var m = document.cookie.match(new RegExp("(?:^|; )" + CHIAVE + "=([^;]*)"));
+    if (!m) { return null; }
+    try { return JSON.parse(decodeURIComponent(m[1])); } catch (e) { return null; }
+  }
+
+  function scrivi(stato) {
+    stato.necessari = true;
+    stato.data = new Date().toISOString().slice(0, 10);
+    document.cookie = CHIAVE + "=" + encodeURIComponent(JSON.stringify(stato)) +
+      ";path=/;max-age=" + DURATA + ";SameSite=Lax" +
+      (location.protocol === "https:" ? ";Secure" : "");
+    applica(stato);
+  }
+
+  function applica(stato) {
+    window.msConsenso = stato;
+    document.dispatchEvent(new CustomEvent("ms:consenso", { detail: stato }));
+  }
+
+  function tutte(valore) {
+    var s = { necessari: true };
+    CATEGORIE.forEach(function (c) { s[c] = valore; });
+    return s;
+  }
+
+  /* ---- interruttori del pannello ---- */
+  var switches = Array.prototype.slice.call(modal.querySelectorAll(".sw"));
+
+  function impostaSwitch(sw, acceso) {
+    sw.setAttribute("aria-checked", acceso ? "true" : "false");
+    var stato = sw.parentNode.querySelector(".ckc__stato");
+    if (stato && !sw.disabled) { stato.textContent = acceso ? "Attivi" : "Disattivati"; }
+  }
+
+  switches.forEach(function (sw) {
+    if (sw.disabled) { return; }
+    sw.addEventListener("click", function () {
+      impostaSwitch(sw, sw.getAttribute("aria-checked") !== "true");
+    });
+  });
+
+  function riempiPannello(stato) {
+    switches.forEach(function (sw) {
+      if (sw.disabled) { return; }
+      impostaSwitch(sw, !!(stato && stato[sw.dataset.cat]));
+    });
+  }
+
+  function raccogliPannello() {
+    var s = { necessari: true };
+    switches.forEach(function (sw) {
+      if (!sw.disabled) { s[sw.dataset.cat] = sw.getAttribute("aria-checked") === "true"; }
+    });
+    return s;
+  }
+
+  /* ---- apertura / chiusura ---- */
+  function mostraBarra(v) {
+    if (v) { barra.setAttribute("data-on", ""); } else { barra.removeAttribute("data-on"); }
+  }
+
+  function apri() {
+    ultimoFocus = document.activeElement;
+    riempiPannello(leggi() || tutte(false));
+    modal.setAttribute("data-on", "");
+    // Il primo bottone del pannello è l'interruttore "necessari", che è disabilitato:
+    // va saltato, altrimenti il focus non si sposta e la tastiera resta fuori.
+    (box.querySelector('button:not([disabled]), a[href]') || box).focus();
+    document.addEventListener("keydown", tasti);
+  }
+
+  function chiudi() {
+    modal.removeAttribute("data-on");
+    document.removeEventListener("keydown", tasti);
+    if (ultimoFocus && ultimoFocus.focus) { ultimoFocus.focus(); }
+  }
+
+  // Esc chiude, Tab resta dentro al pannello finché è aperto.
+  function tasti(e) {
+    if (e.key === "Escape") { return chiudi(); }
+    if (e.key !== "Tab") { return; }
+    var f = box.querySelectorAll('button:not([disabled]), a[href], input, [tabindex]:not([tabindex="-1"])');
+    if (!f.length) { return; }
+    var primo = f[0], ultimo = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === primo) { e.preventDefault(); ultimo.focus(); }
+    else if (!e.shiftKey && document.activeElement === ultimo) { e.preventDefault(); primo.focus(); }
+  }
+
+  function decidi(stato) { scrivi(stato); mostraBarra(false); chiudi(); }
+
+  document.getElementById("ck-si").addEventListener("click", function () { decidi(tutte(true)); });
+  document.getElementById("ck-no").addEventListener("click", function () { decidi(tutte(false)); });
+  document.getElementById("ck-pers").addEventListener("click", apri);
+  document.getElementById("ckm-salva").addEventListener("click", function () { decidi(raccogliPannello()); });
+  document.getElementById("ckm-tutti").addEventListener("click", function () { decidi(tutte(true)); });
+  document.getElementById("ckm-chiudi").addEventListener("click", chiudi);
+  modal.addEventListener("click", function (e) { if (e.target === modal) { chiudi(); } });
+
+  if (riapri) {
+    // La barra non si nasconde qui: se l'utente annulla senza decidere, deve restare.
+    riapri.addEventListener("click", function (e) { e.preventDefault(); apri(); });
+  }
+
+  /* ---- avvio ---- */
+  var salvato = leggi();
+  if (salvato) { applica(salvato); } else { mostraBarra(true); }
+})();
+</script>
+
+</body>
+</html>

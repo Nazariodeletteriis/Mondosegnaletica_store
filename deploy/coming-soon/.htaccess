@@ -1,0 +1,30 @@
+# Mondo Segnaletica — pagina "coming soon"
+# I blocchi <IfModule> evitano un errore 500 se un modulo non è attivo sul server.
+
+AddDefaultCharset UTF-8
+
+<IfModule mod_headers.c>
+  # L'HTML non va mai messo in cache: quando la pagina cambia
+  # (o diventa WordPress) i visitatori devono vedere subito la nuova.
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+
+  # Immagini e favicon hanno nomi stabili e cambiano di rado:
+  # un anno di cache, così non vengono riscaricate a ogni visita.
+  <FilesMatch "\.(webp|png|jpg|jpeg|svg|ico|woff2)$">
+    Header set Cache-Control "public, max-age=31536000"
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain application/javascript image/svg+xml
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+</IfModule>
+
+# Pagina di errore: chi sbaglia indirizzo finisce sulla coming soon
+# invece di vedere il 404 grezzo di Apache.
+ErrorDocument 404 /index.html
