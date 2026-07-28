@@ -1,24 +1,31 @@
 # HANDOFF — Mondo Segnaletica
-> Stato al **2026-07-28** (sessione 14 **IN CORSO**). **Leggi SOLO il primo blocco per ripartire.** Tutto ciò che sta sotto è storico superato.
+> Stato al **2026-07-28** (sessione 14 **CHIUSA**). **Leggi SOLO il primo blocco per ripartire.** Tutto ciò che sta sotto è storico superato.
 
 ---
 
-## 🟡 2026-07-28 — Sessione 14 **IN CORSO** (checkpoint automatico): coming soon — indirizzi, email unificata, **privacy policy GDPR**. **TUTTO SOLO IN LOCALE, DEPLOY LIVE NON ANCORA ESEGUITO.**
+## 🟢 2026-07-28 — Sessione 14 CHIUSA: **PRIVACY GDPR + COOKIE BANNER ONLINE**, email unificata, sedi corrette. **DEPLOYATA E VERIFICATA SU https://mondosegnaletica.it**.
 
-> Lavori in `deploy/coming-soon/`. Il live è ancora alla versione della sessione 13.
+> ⚠️ Il checkpoint automatico di metà sessione diceva *"tutto solo in locale, deploy non eseguito"*: **è superato e sbagliato**. Tutto è online e verificato.
 
-- 📍 **`index.html`** — aggiunta riga **"Sede operativa · Viale Europa, 48/50 · Lucca"** nel blocco `.meta`, sotto la sede legale.
-- 📍 **`index.html`** — **topbar** (visibile solo `>=961px`) ora mostra *"Sede legale Via Carlo Angeloni, 360 · Sede operativa Viale Europa, 48/50 · Lucca"*, con `.topbar__addr{text-align:right}` e `.beacon{white-space:nowrap}` per gestire il wrap.
-- ✉️ **Email uniformata** da `mondosegnaleticacoop@gmail.com` a **`info@mondosegnaletica.it`** (sia `mailto:` sia testo visibile). ✅ **CHIUDE la questione aperta #1** della sessione 13. `invia.php` era già su `info@`.
-- 🔐 **NUOVO FILE `deploy/coming-soon/privacy.html`** — informativa **GDPR art. 13** completa in 9 sezioni (titolare, dati raccolti, finalità/base giuridica con tabella, destinatari, conservazione, cookie, diritti artt. 15-22, sicurezza, modifiche). Stile *Sistema Strada* coerente con la home. P.IVA `02629010460` presa da `public/wp-content/themes/mondosegnaletica/front-page.php:39`. Dichiara esplicitamente **Netsons come responsabile art. 28** e **Google Fonts come trasferimento extra-UE**. ✅ **CHIUDE la questione aperta #2** — *va comunque fatta validare a un legale*.
-- 🔗 **`index.html`** — la checkbox di consenso ora linka `privacy.html`.
-- 🚧 **IN CORSO**: pulsante submit disabilitato finché la checkbox privacy non è spuntata. CSS già fatto (`.btn[disabled]` → `cursor:not-allowed`, variante `[data-invio]` → `cursor:progress`), **manca la logica JS**.
+- 📍 **Sedi** — `index.html`: aggiunta **"Sede operativa · Viale Europa, 48/50 · Lucca"** nel blocco `.meta` contatti; la **topbar** (`>=961px`) ora etichetta **entrambi** gli indirizzi: *"Sede legale Via Carlo Angeloni, 360 · Sede operativa Viale Europa, 48/50 · Lucca"*. CSS: `.topbar__addr{text-align:right}`, `.beacon{white-space:nowrap}`.
+- ✉️ **Email uniformata su `info@mondosegnaletica.it`** (`mailto:` + testo visibile). **Zero residui gmail sul live** — verificato con `grep` su `curl`. ✅ **QUESTIONE APERTA #1 della sessione 13 CHIUSA.**
+- 🔐 **NUOVO `deploy/coming-soon/privacy.html`** — informativa **GDPR art. 13** in 9 sezioni. P.IVA `02629010460` presa da `public/wp-content/themes/mondosegnaletica/front-page.php:39`. Dichiara **Netsons responsabile art. 28** e il **trasferimento extra-UE di Google Fonts**. **Live 200.** ✅ **QUESTIONE APERTA #2 CHIUSA** — *va comunque fatta validare a un legale*.
+- 🔘 **Bottone invio spento finché non si spunta il consenso**, con hint dinamico *"Accetta il trattamento dei dati per inviare."*
+  - ⚠️ **TRAPPOLA DA NON RIPETERE**: disabilitato **via JS**, **NON** con l'attributo `disabled` nell'HTML. Senza JavaScript il bottone resterebbe morto per sempre e si romperebbe il **fallback POST classico** collaudato in sessione 13.
+- 🍪 **Barra cookie + pannello preferenze a 4 categorie** (necessari bloccati; preferenze/statistici/marketing spenti di default). **Rifiuta allo stesso livello di Accetta** (requisito Garante). Cookie di prima parte **`ms_consenso` 180 gg, `SameSite=Lax`, `Secure`**. Espone **`window.msConsenso`** e l'evento **`ms:consenso`** per agganciare gli script del futuro e-commerce. Focus trap, ESC, ripristino focus.
+  - Due bug corretti prima del deploy: il focus finiva sull'**interruttore disabilitato** dei necessari; riaprire dal footer **nascondeva la barra senza decisione presa**.
+- ⚖️ **RILIEVO ONESTO REGISTRATO**: oggi il sito **non installa alcun cookie di profilazione**. Le 3 categorie facoltative sono **predisposte per l'e-commerce, non attive**. Il **punto 06 di `privacy.html` è stato riscritto** di conseguenza (prima diceva *"non compare alcun banner: non ce n'è bisogno"*).
+- 📦 **Zip rigenerato**: `deploy/mondosegnaletica-coming-soon.zip` — **7 file, 274 KB** (aggiunto `privacy.html`). **NOTA AMBIENTE: `zip`/`unzip` NON sono installati in locale** → si rigenera con `python3` + `zipfile`.
+- 🚀 **Deploy via `scp` su `ssh mondosegnaletica`**. Backup del vecchio `index.html` sul server in `~/index.html.bak-20260728-0927`. **Verificato**: `index.html` e `privacy.html` **byte-identici** locale/live, entrambi **200**, `invia.php` ancora vivo (**405** JSON con `Accept: json`, **303** da browser).
+- ✅ **GIT: 2 commit pushati su `main`** — `8668a58` (coming-soon) e `397893a` (output epanza sessione 12). **Working tree pulito, allineato a `origin/main`. `deploy/` non è più untracked.**
+  - ⚠️ **TRAPPOLA GIT**: il push falliva con **403** perché in `gh` sono loggati **DUE account** e quello attivo era **`nazariodeletteriis-it`**, che **non ha accesso** al repo (di `Nazariodeletteriis`). Mettere l'utente nell'URL del remote **NON funziona** (il credential helper non risponde). Soluzione: **`gh auth switch --user Nazariodeletteriis`** → push → **ripristinato l'account attivo precedente** (`nazariodeletteriis-it`) per non alterare la config globale degli altri progetti. **Al prossimo push serve di nuovo lo switch.**
 
 ### TODO PRIORITARIO
-1. **Finire il JS** del pulsante submit (abilita/disabilita al toggle della checkbox privacy).
-2. Aggiungere il **link a privacy.html nel footer `.meta`** della home.
-3. **DEPLOY LIVE** via `scp` → `ssh mondosegnaletica` (**porta 65100**) in `public_html`. Caricare `index.html` **e** il nuovo `privacy.html`.
-4. Rigenerare lo zip `deploy/mondosegnaletica-coming-soon.zip` (ora sono 7 file) e committare.
+1. 🔴 **WordPress — decisione ANCORA SOSPESA, BLOCCA TUTTO**: (a) migrare il **locale DDEV** (tema custom + prodotti importati) oppure (b) **installazione nuova sul server**. Staging pronto su `shop.mondosegnaletica.it`. **Non procedere prima della risposta dell'utente.**
+2. **Far validare la privacy policy a un legale.**
+3. **Cancellare i backup sul server** (`~/index.html.bak-20260728-0927`, `~/backup-vecchio-sito-20260727-1235.tar.gz`, `~/.htaccess.bak-1241`).
+4. Valutare il **self-hosting dei font** per eliminare del tutto il trasferimento IP verso Google.
+5. La **barra cookie è presente solo su `index.html`, non su `privacy.html`** → decidere se estenderla.
 
 ---
 
